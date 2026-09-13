@@ -1,0 +1,28 @@
+---
+id: "java-basics"
+title: "Introducción a Java y Algoritmia Básica"
+slug: "java-basics"
+description: "Colección introductoria para el aprendizaje de tipos básicos, bucles\
+  \ y lógica condicional en Java."
+visibility: "PRIVATE"
+language: "java"
+runtime: "java-21"
+compile:
+  command: "javac Main.java"
+  timeout_seconds: 15
+execution:
+  memory_limit_mb: 256
+  timeout_seconds: 3
+  command: "java Main"
+scoring:
+  total_score: 100
+  mode: "weighted"
+comparator:
+  ignore_trailing_whitespace: true
+  type: "exact_line_by_line"
+items:
+- type: "EXERCISE"
+  id: "calcular-media"
+  position: 1
+  required: true
+  weight: 100.0

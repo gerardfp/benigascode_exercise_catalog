@@ -1,0 +1,21 @@
+---
+id: "calcular-media"
+title: "Calcular la media de una serie de números"
+language: "java"
+runtime: "java-21"
+compile:
+  command: "javac Main.java"
+  timeout_seconds: 10
+execution:
+  command: "java Main"
+  cpu_limit: 1.0
+  pids_limit: 64
+  memory_limit_mb: 256
+  timeout_seconds: 3
+  max_output_bytes: 65536
+scoring:
+  model: "WEIGHTED"
+  pass_threshold: 50.0
+comparator:
+  type: "TRIM"
+  case_sensitive: true

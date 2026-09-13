@@ -1,0 +1,32 @@
+---
+id: "coleccion-demo-4"
+title: "Colección Demo"
+slug: "coleccion-demo-4"
+description: "Colección para probar importación y exportación"
+visibility: "PUBLIC"
+language: "java"
+runtime: "java-21"
+compile:
+  command: "javac Main.java"
+  timeout_seconds: 15
+execution:
+  memory_limit_mb: 256
+  timeout_seconds: 3
+  command: "java Main"
+scoring:
+  total_score: 100
+  mode: "weighted"
+comparator:
+  ignore_trailing_whitespace: true
+  type: "exact_line_by_line"
+items:
+- type: "EXERCISE"
+  id: "suma-dos-numeros-4"
+  position: 1
+  required: true
+  weight: 1.0
+- type: "EXERCISE"
+  id: "nuevo-ejercicio-catalogo-4"
+  position: 2
+  required: false
+  weight: 2.0

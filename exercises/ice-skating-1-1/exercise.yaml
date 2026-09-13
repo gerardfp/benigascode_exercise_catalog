@@ -1,0 +1,18 @@
+---
+id: "ice-skating-1-1"
+title: "Ice skating"
+language: "java"
+runtime: "java-21"
+compile:
+  command: "javac Main.java"
+  timeout_seconds: 15
+execution:
+  command: "java Main"
+  memory_limit_mb: 256
+  timeout_seconds: 3
+scoring:
+  mode: "weighted"
+  total_score: 100
+comparator:
+  type: "exact_line_by_line"
+  ignore_trailing_whitespace: true
