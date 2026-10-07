@@ -1,5 +1,3 @@
-# Altura mínima
-
 ![image](1573811284-7756e2e813-Untitleddrawing1.png)
 
 Avuí a l'escola fan una sortida al parc d'atraccions. La professora ha apuntat l'alçada de cada nen i nena, per veure qui podrà pujar a la muntanya russa i qui no.

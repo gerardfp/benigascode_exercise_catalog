@@ -2,7 +2,7 @@
 id: "c4-l0-1-altura-minima"
 title: "Altura mínima"
 language: "java"
-runtime: "java-21"
+runtime: "java-26"
 compile:
   command: "javac Main.java"
   timeout_seconds: 15

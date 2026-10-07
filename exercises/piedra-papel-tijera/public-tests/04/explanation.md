@@ -1,0 +1,1 @@
+La tijera del segundo jugador gana al papel.

@@ -1,0 +1,1 @@
+El papel del segundo jugador gana a la piedra.

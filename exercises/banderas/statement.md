@@ -1,83 +1,87 @@
-# Banderes
-
 Donat un tipus de bandera i un tamany, dibuixar una bandera d'aquest tamany.
 
 Tipus de banderes:
 
-```text
-Bandera 1
-Per sota de la diagonal ~, la resta *
+* Bandera 1: Per sota de la diagonal `~`, la resta `*`
 
+```text
 ******
 ~*****
 ~~****
 ~~~***
 ~~~~**
 ~~~~~*
+```
 
-Bandera 2
-La meitat superior *, la meitat inferior -
+* Bandera 2: La meitat superior `*`, la meitat inferior `-`
 
+```text
 ******
 ******
 ******
 ~~~~~~
 ~~~~~~
 ~~~~~~
+```
 
-Bandera 3
-La meitat dreta *, la meitat esquerra -
+* Bandera 3: La meitat dreta `*`, la meitat esquerra `-`
 
+```text
 ***~~~
 ***~~~
 ***~~~
 ***~~~
 ***~~~
 ***~~~
+```
 
-Bandera 4
-La diagonal *, la resta ~
+* Bandera 4: La diagonal `*`, la resta `~`
 
+```text
 *~~~~~
 ~*~~~~
 ~~*~~~
 ~~~*~~
 ~~~~*~
 ~~~~~*
+```
 
-Bandera 5
-Primera línia *, la següent ~, successivament
+* Bandera 5: Una línia `*`, la següent `~`, etc...
 
+```text
 ******
 ~~~~~~
 ******
 ~~~~~~
 ******
 ~~~~~~
+```
 
-Bandera 6
-Primer terç horitzontal *, segon terç ~, tercer *
+* Bandera 6: Primer terç horitzontal `*` , segon terç `~`, tercer terç `*`
 
+```text
 ******
 ******
 ~~~~~~
 ~~~~~~
 ******
 ******
+```
 
-Bandera 7
-Primer terç vertical ~, segon terç *, tercer ~
+* Bandera 7: Primer terç vertical `~`, segon terç `*`, tercer `~`
 
+```text
 ~~**~~
 ~~**~~
 ~~**~~
 ~~**~~
 ~~**~~
 ~~**~~
+```
 
-Bandera 8
-Primera columna *, la següent ~, successivament
+* Bandera 8: Una columna `*` , la següent `~`, etc.
 
+```text
 *~*~*~
 *~*~*~
 *~*~*~
@@ -88,15 +92,7 @@ Primera columna *, la següent ~, successivament
 
 ## Input
 
-Un enter  indicant el tipus de bandera, i un enter  indicant el tamany.
-
-1 <= N <= 100
-
-N%2 == 0
-
-N%3 == 0
-
-1<= T <= 8
+Un enter indicant el tipus de bandera, i un enter indicant el tamany.
 
 ## Output
 

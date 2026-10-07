@@ -1,0 +1,1 @@
+La piedra del segundo jugador gana a la tijera.

@@ -1,5 +1,3 @@
-# Assignacions
-
 Canvia el codi següent per fer que la sortida sigui aquesta:
 
 ```text
@@ -7,11 +5,3 @@ Canvia el codi següent per fer que la sortida sigui aquesta:
 ```
 
 Per fer-ho, assigna correctament els valors a les variables.
-
-## Input
-
--
-
-## Output
-
--

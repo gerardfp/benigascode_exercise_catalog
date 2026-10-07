@@ -2,7 +2,7 @@
 id: "c2c46-ahorcado-class-l0"
 title: "Ahorcado"
 language: "java"
-runtime: "java-21"
+runtime: "java-26"
 compile:
   command: "javac Main.java"
   timeout_seconds: 15

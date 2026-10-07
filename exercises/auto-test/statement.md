@@ -1,5 +1,3 @@
-# Auto-test
-
 ![image](1612798024-15855da7e7-dgt.png)
 
 En el examen del carnet de conducir hay 30 preguntas, con tres posibles respuestas (a, b, c). Se aprueba si se fallan como máximo 3 respuestas.

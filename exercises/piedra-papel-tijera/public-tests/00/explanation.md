@@ -1,0 +1,1 @@
+La piedra gana a la tijera.

@@ -1,5 +1,3 @@
-# Avaluació final
-
 Un Institut on s'estudia FP d'Informàtica necessita un programa per a agilitzar les avaluacions. El programa ha de calcular si un alumne aprova una Unitat Formativa a partir dels següents elements:
 
 - Pràctiques entregades.

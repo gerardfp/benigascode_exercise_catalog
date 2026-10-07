@@ -1,5 +1,3 @@
-# Amaga les columnes
-
 ![image](1579623863-f2d38217d1-excel.png)
 
 Els programes de Full de Càlcul solen tenir la funció d'amagar columnes.

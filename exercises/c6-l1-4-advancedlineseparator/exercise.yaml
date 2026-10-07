@@ -2,7 +2,7 @@
 id: "c6-l1-4-advancedlineseparator"
 title: "AdvancedLineSeparator"
 language: "java"
-runtime: "java-21"
+runtime: "java-26"
 compile:
   command: "javac Main.java"
   timeout_seconds: 15

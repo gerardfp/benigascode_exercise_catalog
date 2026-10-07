@@ -1,5 +1,3 @@
-# Another brick in the wall
-
 L'any 1978, el mític grup Pink Floyd va publicar el seu 11è disc: The Wall.
 A les seves actuacions, Pink FLoyd, sempre utilitzaven efectes visuals per acompanyar la seva psicodèlica música rock. Per al tour de The Wall, un enorme mur es construïa a l'escenari entre la banda i el públic.
 

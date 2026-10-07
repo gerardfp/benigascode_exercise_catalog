@@ -1,0 +1,8 @@
+Cantidad de mediciones: 1
+Suma total: 15.5
+Temperatura media: 15.5
+Temperatura maxima: 15.5
+Temperatura minima: 15.5
+Porcentaje por debajo de la media: 0.0%
+Porcentaje por encima de la media: 0.0%
+Existe una temperatura igual a la media: true

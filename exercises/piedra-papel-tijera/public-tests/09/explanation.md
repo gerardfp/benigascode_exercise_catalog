@@ -1,0 +1,1 @@
+La mano del primer jugador no es válida.

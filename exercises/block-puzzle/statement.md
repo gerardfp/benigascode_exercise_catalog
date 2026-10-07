@@ -1,5 +1,3 @@
-# Block Puzzle
-
 ![image](1613466953-600b40fd49-bp.png)
 
 En el juego Block Puzzle, el jugador va colocando unas piezas en el tablero completando filas o columnas. Las piezas no se pueden superponer.

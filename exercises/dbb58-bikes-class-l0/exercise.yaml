@@ -2,7 +2,7 @@
 id: "dbb58-bikes-class-l0"
 title: "Bikes"
 language: "java"
-runtime: "java-21"
+runtime: "java-26"
 compile:
   command: "javac Main.java"
   timeout_seconds: 15

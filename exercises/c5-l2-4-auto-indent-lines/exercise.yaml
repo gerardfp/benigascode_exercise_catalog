@@ -2,7 +2,7 @@
 id: "c5-l2-4-auto-indent-lines"
 title: "Auto-Indent Lines"
 language: "java"
-runtime: "java-21"
+runtime: "java-26"
 compile:
   command: "javac Main.java"
   timeout_seconds: 15

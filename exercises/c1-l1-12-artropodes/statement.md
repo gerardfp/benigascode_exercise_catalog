@@ -1,5 +1,3 @@
-# Artròpodes
-
 En la classe de Naturals estan estudiant els artròpodes. Són animals invertebrats dotats d'un esquelet extern i apèndixs articulats. Es divideixen en insectes, aràcnids, crustacis i miriàpodes. El nombre de potes en aquests animals és molt variable:
 
 - Els insectes tenen 6 potes

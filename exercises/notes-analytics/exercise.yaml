@@ -2,7 +2,7 @@
 id: "notes-analytics"
 title: "Avaluació final"
 language: "java"
-runtime: "java-21"
+runtime: "java-26"
 compile:
   command: "javac Main.java"
   timeout_seconds: 15

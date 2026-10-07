@@ -1,0 +1,1 @@
+Ninguna de las dos manos es válida.

@@ -1,11 +1,1 @@
-# Ahorcado
-
-Crea la clase Ahorcado
-
-## Input
-
--
-
-## Output
-
--
+Crea la clase `Ahorcado`

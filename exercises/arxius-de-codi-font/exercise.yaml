@@ -2,7 +2,7 @@
 id: "arxius-de-codi-font"
 title: "Arxius de codi font"
 language: "java"
-runtime: "java-21"
+runtime: "java-26"
 compile:
   command: "javac Main.java"
   timeout_seconds: 15

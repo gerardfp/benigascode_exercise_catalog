@@ -1,5 +1,3 @@
-# Arxius de codi font
-
 ![image](1601159416-d284b37cf1-srctypes.png)
 
 Cada llenguatge de programació té les seves pròpies extensions per als arxius de codi font.
