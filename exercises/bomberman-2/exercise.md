@@ -1,5 +1,5 @@
 ---
-slug: bomberman-2m
+slug: bomberman-2
 tags: [matrix]
 ---
 # Bomberman
