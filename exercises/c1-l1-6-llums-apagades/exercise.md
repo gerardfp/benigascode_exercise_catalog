@@ -1,5 +1,6 @@
 ---
 slug: c1-l1-6-llums-apagades
+tags: [operadors]
 ---
 # Llums apagats
 

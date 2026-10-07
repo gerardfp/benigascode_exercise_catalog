@@ -28,9 +28,9 @@ Las dades de cada equip són:
 
 ## Output
 
-true - si l'equip A va per davant de l'equip B
+`true` - si l'equip A va per davant de l'equip B
 
-false - si l'equip A va per darrere de l'equip B
+`false` - si l'equip A va per darrere de l'equip B
 
 ## Tests
 

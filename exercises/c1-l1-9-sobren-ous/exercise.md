@@ -1,5 +1,6 @@
 ---
 slug: c1-l1-9-sobren-ous
+tags: [operadors]
 ---
 # Sobren ous
 
@@ -9,11 +10,11 @@ Par a transportar-los utilitza oueres en les quals caben 24 ous.
 
 Quan arriba el moment de recollir els ous, el granjer necessita saber quantes oueres li calen per a poder transportar-los tots.
 
-A més a més, vol que totes les oueres quedin totalment plenes, de forma, que si a la última ouera li queda espai, espera fins que les gallines posin els ous que li falten.
+A més a més, vol que totes les oueres queden totalment plenes, de forma, que si a la última ouera li queda espai, espera fins que les gallines posen els ous que li falten.
 
 ## Input
 
-Un número  que indica el nombre d'ous que han posat les gallines.
+Un número que indica el nombre d'ous que han posat les gallines.
 
 ## Output
 

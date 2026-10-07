@@ -1,5 +1,6 @@
 ---
 slug: c1-l1-11-perimetre-dun-rectangle
+tags: [operadors]
 ---
 # Perímetre d'un rectangle
 

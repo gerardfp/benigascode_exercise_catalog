@@ -1,11 +1,12 @@
 ---
 slug: c1-l2-1-emmarcant-les-fotos
+tags: [operadors]
 ---
 # Emmarcant les fotos
 
 En Joan té un munt de fotos per a emmarcar, i vol comprar els marcs.
 
-Els marcs han de ser suficientment grans com per a que hi càpiga la foto i a més a més ha de tenir la mateixa proporció per a que quedi bé.
+Els marcs han de ser suficientment grans com per a que càpiga la foto i a més a més ha de tenir la mateixa proporció per a que quede bé.
 
 La definició del rectangle d'una foto i d'un marc es pot fer amb les coordenades dels seus punts superior-dreta i inferior-esquerra:
 
@@ -19,7 +20,7 @@ Per a cada rectangle s'indiquen les coordenades (x, y) dels seus cantons superio
 
 ## Output
 
-S'imprimirà "true" si el marc és adequat per a la foto, i "false" si no ho és.
+S'imprimirà `true` si el marc és adequat per a la foto, i `false` si no ho és.
 
 ## Tests
 
@@ -30,6 +31,9 @@ S'imprimirà "true" si el marc és adequat per a la foto, i "false" si no ho és
 ```
 ```output
 true
+```
+```explanation
+![](e0.png)
 ```
 
 ### Test

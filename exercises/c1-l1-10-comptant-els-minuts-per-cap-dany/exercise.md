@@ -1,5 +1,6 @@
 ---
 slug: c1-l1-10-comptant-els-minuts-per-cap-dany
+tags: [operadors]
 ---
 # Comptant els minuts per cap d'any
 
@@ -14,22 +15,6 @@ El segon nombre  indica els minuts que marca el rellotge
 ## Output
 
 Els minuts que falten per a les campanades.
-
-## Plantillas
-
-```java
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
-
-public class Main {
-    public static void main(String args[] ) throws Exception {
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT */
-    }
-}
-```
 
 ## Tests
 

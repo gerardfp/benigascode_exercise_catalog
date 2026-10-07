@@ -1,5 +1,6 @@
 ---
 slug: c1-l1-12-artropodes
+tags: [operadors]
 ---
 # Artròpodes
 

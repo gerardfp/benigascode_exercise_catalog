@@ -1,5 +1,6 @@
 ---
 slug: c1-l1-5-nota-mitjana
+tags: [operadors]
 ---
 # Nota mitjana
 
@@ -7,11 +8,11 @@ Donades les notes de 3 exàmens, calcula la seva mitjana.
 
 ## Input
 
-El primer nombre  és la nota del primer examen.
+El primer nombre és la nota del primer examen.
 
-El segon nombre  és la nota del segon examen.
+El segon nombre és la nota del segon examen.
 
-El tercer nombre  és la nota del tercer examen.
+El tercer nombre és la nota del tercer examen.
 
 ## Output
 

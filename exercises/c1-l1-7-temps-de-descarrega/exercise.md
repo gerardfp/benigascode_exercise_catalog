@@ -1,5 +1,6 @@
 ---
 slug: c1-l1-7-temps-de-descarrega
+tags: [operadors]
 ---
 # Temps de descàrrega
 
@@ -14,7 +15,7 @@ El primer nombre  indica la velocitat de descàrrega (en KB per segon).
 
 El segon nombre  indica el tamany de l'arxiu (en MB).
 
-** Cal tenir en compte que 1MB = 1024 KB
+> Cal tenir en compte que 1MB = 1024 KB
 
 ## Output
 
