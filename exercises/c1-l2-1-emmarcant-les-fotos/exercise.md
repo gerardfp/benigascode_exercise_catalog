@@ -53,6 +53,8 @@ true
 ```
 ```explanation
 ![](e3.png)
+
+La foto (roig) cap dins del marc (verd) i tenen les mateixes proporcions.
 ```
 
 ### Test
@@ -65,6 +67,7 @@ false
 ```
 ```explanation
 ![](e4.png)
+La foto (roig) cap dins del marc (verd) pero NO tenen les mateixes proporcions.
 ```
 
 ### Test
