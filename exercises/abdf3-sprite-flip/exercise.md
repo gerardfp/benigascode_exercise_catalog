@@ -1,5 +1,6 @@
 ---
 slug: abdf3-sprite-flip
+slug: [matrix]
 ---
 # Sprite flip
 
@@ -16,6 +17,7 @@ Podem obtenir els seus "flips" horitzontals i verticals:
 ## Input
 
 En primer lloc el nombre de línies de l'sprite.
+
 A continuació ve l'sprite ASCII-ART.
 
 ## Output

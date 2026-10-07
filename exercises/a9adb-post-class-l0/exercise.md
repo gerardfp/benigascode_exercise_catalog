@@ -1,17 +1,11 @@
 ---
 slug: a9adb-post-class-l0
+tags: [classes]
 ---
 # Post
 
 Implementa el constructor de la classe Post.
 
-## Input
-
--
-
-## Output
-
--
 
 ## Plantillas
 
@@ -29,7 +23,7 @@ class Post {
     int favs;
     int retweets;
 
-    // escriu el codi aqui
+    // write your code here
 }
 
 public class Main {

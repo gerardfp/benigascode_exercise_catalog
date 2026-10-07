@@ -1,6 +1,6 @@
 ---
 slug: a-hello-world
-tags: [scanner, i/o]
+tags: [strings]
 ---
 # Hello World ASCII-art
 

@@ -1,5 +1,6 @@
 ---
 slug: aafec-orden-en-la-cola
+tags: [arrays]
 ---
 # Orden en la cola
 

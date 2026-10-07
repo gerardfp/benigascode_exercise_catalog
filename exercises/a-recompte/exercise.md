@@ -1,5 +1,6 @@
 ---
 slug: a-recompte
+tags: [operators]
 ---
 # Sortida en autobús
 
@@ -9,11 +10,11 @@ Es vol saber la capacitat total de passatgers, per veure si hi podran anar tots 
 
 ## Input
 
-El primer nombre  indica els autobusos disponibles de la primera empresa.
+El primer nombre indica els autobusos disponibles de la primera empresa.
 
-El segon nombre  indica els autobusos disponibles de la segona empresa.
+El segon nombre indica els autobusos disponibles de la segona empresa.
 
-El tercer nombre  indica la capacitat de passatgers d'un autobús.
+El tercer nombre indica la capacitat de passatgers d'un autobús.
 
 ## Output
 
@@ -21,7 +22,7 @@ Un número indicant la capacitat total de passatagers
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 1 1 1
 ```
@@ -29,7 +30,7 @@ Un número indicant la capacitat total de passatagers
 2
 ```
 
-### Test 20
+### Test
 ```input
 2 3 50
 ```
@@ -37,7 +38,7 @@ Un número indicant la capacitat total de passatagers
 250
 ```
 
-### Test private 20
+### Test
 ```input
 1 2 25
 ```
@@ -45,7 +46,7 @@ Un número indicant la capacitat total de passatagers
 75
 ```
 
-### Test private 20
+### Test
 ```input
 0 0 50
 ```
@@ -53,7 +54,7 @@ Un número indicant la capacitat total de passatagers
 0
 ```
 
-### Test private 20
+### Test private
 ```input
 2 0 30
 ```

@@ -1,6 +1,6 @@
 ---
 slug: a-hello-you
-tags: [scanner, i/o]
+tags: [i/o]
 ---
 # Hello you
 
@@ -12,24 +12,21 @@ Un string amb el nom d'una persona
 
 ## Output
 
-La paraula "Hola" seguida d'un espai en blanc, el nom de la persona, i una exclamació "!"
+La paraula `Hola` seguida d'un espai en blanc, el nom de la persona, i una exclamació `!`
 
 ## Plantillas
 
 ```java
-// posa aquí els imports necessaris
+void main() {
 
-public class Main {
+    // write your code here
 
-    public static void main(String[] args) {
-        // posa aquí el codi
-    }
 }
 ```
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 Joan
 ```
@@ -37,7 +34,7 @@ Joan
 Hola Joan!
 ```
 
-### Test 20
+### Test
 ```input
 Maria
 ```
@@ -45,7 +42,7 @@ Maria
 Hola Maria!
 ```
 
-### Test private 20
+### Test
 ```input
 Anna
 ```
@@ -53,7 +50,7 @@ Anna
 Hola Anna!
 ```
 
-### Test private 20
+### Test
 ```input
 Josep Antoni
 ```
@@ -61,7 +58,7 @@ Josep Antoni
 Hola Josep Antoni!
 ```
 
-### Test private 20
+### Test
 ```input
 Maria Elena
 ```
