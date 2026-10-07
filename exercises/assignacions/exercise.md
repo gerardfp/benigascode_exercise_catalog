@@ -1,6 +1,6 @@
 ---
 slug: assignacions
-tags: [scanner, i/o]
+tags: [variables]
 ---
 # Assignacions
 

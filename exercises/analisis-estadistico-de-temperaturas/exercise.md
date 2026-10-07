@@ -1,6 +1,6 @@
 ---
 slug: analisis-estadistico-de-temperaturas
-tags: [operators]
+tags: [loops]
 ---
 # Análisis estadístico de temperaturas
 
@@ -9,19 +9,19 @@ tags: [operators]
 
 Dada una serie de temperaturas registradas en un día, realiza un análisis estadístico que incluya:
 
-    La cantidad de mediciones
-    La suma de todas las temperaturas
-    La temperatura media
-    La temperatura más alta
-    La temperatura más baja
-    El porcentaje de mediciones por debajo de la media
-    El porcentaje de mediciones por encima de la media
-    Si alguna medición coincide exactamente con la media
+* La cantidad de mediciones
+* La suma de todas las temperaturas
+* La temperatura media
+* La temperatura más alta
+* La temperatura más baja
+* El porcentaje de mediciones por debajo de la media
+* El porcentaje de mediciones por encima de la media
+* Si alguna medición coincide exactamente con la media
 
 ## Input
 
-* Un número entero que indica la cantidad de mediciones.
-* Una secuencia de números decimales representando las temperaturas registradas.
+* Un número entero `N` que indica la cantidad de mediciones.
+* A continuación vienen las `N` mediciones de temperatura.
 
 ## Output
 
@@ -34,15 +34,6 @@ Porcentaje por debajo de la media: `decimal + %`
 Porcentaje por encima de la media: `decimal + %`  
 Existe una temperatura igual a la media: `true | false`
 
-## Plantillas
-
-```java
-public class Solution {
-    public static void main(String[] args) {
-        // Tu código aquí
-    }
-}
-```
 
 ## Tests
 

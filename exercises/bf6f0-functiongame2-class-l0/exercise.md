@@ -1,18 +1,10 @@
 ---
 slug: bf6f0-functiongame2-class-l0
-tags: [scanner, i/o]
+tags: [classes]
 ---
 # FunctionGame2
 
-Crea els mètodes de la classe FunctionGame2
-
-## Input
-
--
-
-## Output
-
--
+Crea els mètodes de la classe `FunctionGame2`
 
 ## Plantillas
 

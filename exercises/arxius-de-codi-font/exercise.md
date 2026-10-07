@@ -1,5 +1,6 @@
 ---
 slug: arxius-de-codi-font
+tags: [strings]
 ---
 # Arxius de codi font
 
@@ -15,26 +16,14 @@ Donada una llista d'arxius amb el nom i tipus, imprimeix la llista en l'ordre in
 
 L'entrada consta de **quatre** línies.
 
-En cada línia hi ha una paraula que es el  de l'arxiu (amb l'extensió inclosa), y la resta de la línia és el  d'arxiu.
+A cada línia hi ha:
+ * una paraula que es el `nom` de l'arxiu (amb l'extensió inclosa)
+ * y la resta de la línia és el `tipus` d'arxiu.
 
 ## Output
 
-S'imprimirà cada arxiu en una línia, primer el  i després el
+S'imprimirà cada arxiu en una línia, primer el `tipus` i després el `nom`.
 
-## Plantillas
-
-```java
-import java.util.Scanner;
-
-public class Main {
-
-    public static void main(String[] args) {
-      	Scanner scanner = new Scanner(System.in);
-      
-      	
-    }
-}
-```
 
 ## Tests
 

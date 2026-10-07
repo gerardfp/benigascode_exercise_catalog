@@ -1,17 +1,10 @@
 ---
 slug: b0ae0-cotxe-class-l0
+tags: [classes]
 ---
 # Cotxe
 
-Implementa el **constructor** de la classe Car
-
-## Input
-
--
-
-## Output
-
--
+Implementa el **constructor** de la classe `Car`
 
 ## Plantillas
 
@@ -30,7 +23,7 @@ class Car {
     float braking;
     float cornering;
 
-    // escriu el codi aqui
+    // write your code here
 }
 
 public class Main {

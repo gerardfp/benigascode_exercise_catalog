@@ -1,7 +1,10 @@
 ---
-slug: bomberman-2
+slug: bomberman-2m
+tags: [matrix]
 ---
 # Bomberman
+
+![image](bomberman.webp)
 
 Al joc Bomberman, quan explota una bomba, totes les caselles que estan a la mateixa fila o la mateixa columna exploten.
 
@@ -23,16 +26,7 @@ L'últim nombre  és l'identificador de la casella en la què explota la bomba.
 
 S'haurà de mostrar el tauler resultant en explotar les caselles.
 
-Les caselles que no han explotat es marcaran amb un # i les que han explotat amb una @
-
-Seguint l'exemple proposat, el tauler resultant quedaria així:
-
-```text
-##@#
-##@#
-@@@@
-##@#
-```
+Les caselles que no han explotat es marcaran amb un `#` i les que han explotat amb una `@`
 
 ## Tests
 

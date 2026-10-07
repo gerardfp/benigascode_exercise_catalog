@@ -1,17 +1,10 @@
 ---
 slug: b46d0-postsstream-class-l0
+tags: [classes]
 ---
 # PostsStream
 
 Crea els objectes necessaris.
-
-## Input
-
--
-
-## Output
-
--
 
 ## Plantillas
 
@@ -50,7 +43,7 @@ public class Main {
 
         for (int i = 0; i < nPosts; i++) {
 
-            // escriu aqui el codi
+            // write your code here
 
             stream.posts[i].author.name = scanner.next();
             stream.posts[i].author.photoURL = scanner.next();

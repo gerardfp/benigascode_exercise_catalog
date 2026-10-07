@@ -1,5 +1,6 @@
 ---
 slug: auto-test
+tags: [strings, arrays]
 ---
 # Auto-test
 

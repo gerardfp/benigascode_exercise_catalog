@@ -1,6 +1,6 @@
 ---
 slug: balanceig-de-carrega
-tags: [algorithms]
+tags: [arrays]
 ---
 # Balanceig de càrrega
 

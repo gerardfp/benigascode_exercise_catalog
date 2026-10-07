@@ -1,6 +1,6 @@
 ---
 slug: afe43-amaga-les-columnes
-tags: [matrius]
+tags: [matrix]
 ---
 # Amaga les columnes
 
@@ -8,7 +8,7 @@ tags: [matrius]
 
 Els programes de Full de Càlcul solen tenir la funció d'amagar columnes.
 
-Tractem d'implementar aquesta funcionalitat...
+Anem a implementar aquesta funcionalitat...
 
 ## Input
 
@@ -22,7 +22,7 @@ En segon lloc venen les columnes que cal ocultar:
 
 - S'inidica el número  de columnes que s'han d'ocultar
 
-- Després venen els índexs d'aquestes columnes (començant per 1)
+- Després venen els índexs d'aquestes columnes (**començant per 1**)
 
 ## Output
 
