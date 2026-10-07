@@ -1,8 +1,0 @@
-Cantidad de mediciones: 4
-Suma total: 22.0
-Temperatura media: 5.5
-Temperatura maxima: 7.0
-Temperatura minima: 4.0
-Porcentaje por debajo de la media: 50.0%
-Porcentaje por encima de la media: 50.0%
-Existe una temperatura igual a la media: false

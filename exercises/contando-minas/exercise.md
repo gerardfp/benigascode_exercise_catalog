@@ -1,0 +1,205 @@
+---
+slug: contando-minas
+---
+# Comptant mines
+
+![image](1579771811-79189ea78e-1556787479-4e31cd8cf3-buscaminas.jpg)
+
+Donat un tauler de buscamines, dir per a cada casella sense mina, quantes caselles amb mina té al seu voltant.
+
+## Input
+
+L'entrada consta en primer lloc de dos números <span style="font-size: 100%; display: inline-block;" class="MathJax_SVG" id="MathJax-Element-1-Frame"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.442ex" height="2.176ex" style="vertical-align: -0.338ex;" viewBox="0 -791.3 1051.5 936.9" role="img" focusable="false"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><path stroke-width="1" d="M289 629Q289 635 232 637Q208 637 201 638T194 648Q194 649 196 659Q197 662 198 666T199 671T201 676T203 679T207 681T212 683T220 683T232 684Q238 684 262 684T307 683Q386 683 398 683T414 678Q415 674 451 396L487 117L510 154Q534 190 574 254T662 394Q837 673 839 675Q840 676 842 678T846 681L852 683H948Q965 683 988 683T1017 684Q1051 684 1051 673Q1051 668 1048 656T1045 643Q1041 637 1008 637Q968 636 957 634T939 623Q936 618 867 340T797 59Q797 55 798 54T805 50T822 48T855 46H886Q892 37 892 35Q892 19 885 5Q880 0 869 0Q864 0 828 1T736 2Q675 2 644 2T609 1Q592 1 592 11Q592 13 594 25Q598 41 602 43T625 46Q652 46 685 49Q699 52 704 61Q706 65 742 207T813 490T848 631L654 322Q458 10 453 5Q451 4 449 3Q444 0 433 0Q418 0 415 7Q413 11 374 317L335 624L267 354Q200 88 200 79Q206 46 272 46H282Q288 41 289 37T286 19Q282 3 278 1Q274 0 267 0Q265 0 255 0T221 1T157 2Q127 2 95 1T58 0Q43 0 39 2T35 11Q35 13 38 25T43 40Q45 46 65 46Q135 46 154 86Q158 92 223 354T289 629Z"></path></g></svg></span> i <span style="font-size: 100%; display: inline-block;" class="MathJax_SVG" id="MathJax-Element-2-Frame"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.064ex" height="2.176ex" style="vertical-align: -0.338ex;" viewBox="0 -791.3 888.5 936.9" role="img" focusable="false"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><path stroke-width="1" d="M234 637Q231 637 226 637Q201 637 196 638T191 649Q191 676 202 682Q204 683 299 683Q376 683 387 683T401 677Q612 181 616 168L670 381Q723 592 723 606Q723 633 659 637Q635 637 635 648Q635 650 637 660Q641 676 643 679T653 683Q656 683 684 682T767 680Q817 680 843 681T873 682Q888 682 888 672Q888 650 880 642Q878 637 858 637Q787 633 769 597L620 7Q618 0 599 0Q585 0 582 2Q579 5 453 305L326 604L261 344Q196 88 196 79Q201 46 268 46H278Q284 41 284 38T282 19Q278 6 272 0H259Q228 2 151 2Q123 2 100 2T63 2T46 1Q31 1 31 10Q31 14 34 26T39 40Q41 46 62 46Q130 49 150 85Q154 91 221 362L289 634Q287 635 234 637Z"></path></g></svg></span> que indiquen el tamany (files i columnes) del tauler.
+
+A continuación venen les caselles del tauler. (0=no hi ha mina, 1=hi ha mina)
+
+## Output
+
+S'imprimirá el tauler amb les casellas separades amb un espai i les files separades per un salt de línia. 
+
+En cada casella sense mina s'escriurà el número de mines que té al seu voltant.
+
+Les caselles amb mina es deixaran igual, és a dir, amb un 1.
+
+## Tests
+
+### Test
+```input
+5 5
+0 0 0 0 0
+0 0 0 0 0
+0 0 1 0 0
+0 0 0 0 0
+0 0 0 0 0
+```
+```output
+0 0 0 0 0
+0 1 1 1 0
+0 1 1 1 0
+0 1 1 1 0
+0 0 0 0 0
+```
+```explanation
+![image](1579770712-76129abf4d-comptantmines.png)
+```
+
+### Test
+```input
+5 5
+0 0 0 0 0
+0 1 0 0 0
+0 0 0 0 0
+0 0 0 1 0
+0 0 0 0 0
+```
+```output
+1 1 1 0 0
+1 1 1 0 0
+1 1 2 1 1
+0 0 1 1 1
+0 0 1 1 1
+```
+```explanation
+![image](1579770736-090eb8fd1a-comptantmines.png)
+```
+
+### Test
+```input
+3 3
+
+1 0 0
+0 0 0
+0 0 0
+```
+```output
+1 1 0
+1 1 0
+0 0 0
+```
+```explanation
+![image](1579771049-9306b93af6-comptantmines3.png)
+```
+
+### Test
+```input
+3 3
+
+1 1 1
+1 0 1
+1 1 1
+```
+```output
+1 1 1
+1 8 1
+1 1 1
+```
+```explanation
+![image](1579770893-f223a7401b-comptantmines1.png)
+```
+
+### Test
+```input
+4 4
+
+0 0 0 0
+1 1 0 0
+1 1 0 0
+0 0 0 0
+```
+```output
+2 2 1 0
+1 1 2 0
+1 1 2 0
+2 2 1 0
+```
+```explanation
+![image](1579771165-5b4c6f4def-comptantmines4.png)
+```
+
+### Test
+```input
+1 4
+
+1 0 1 0
+```
+```output
+1 2 1 1
+```
+```explanation
+![image](1579770970-f69b5ab884-comptantmines2.png)
+```
+
+### Test
+```input
+5 5
+
+0 0 0 0 0
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+0 0 0 0 0
+```
+```output
+1 1 2 1 1
+2 1 3 1 2
+1 4 1 4 1
+2 1 3 1 2
+1 1 2 1 1
+```
+```explanation
+![image](1579771521-b658579128-comptantmines5.png)
+```
+
+### Test
+```input
+4 1
+
+0
+1
+0
+0
+```
+```output
+1
+1
+1
+0
+```
+```explanation
+![image](1579771599-f4e8a8184e-comptantmines6.png)
+```
+
+### Test
+```input
+8 8
+
+0 0 0 0 0 0 0 1
+0 1 0 0 0 0 1 0
+1 0 1 0 0 0 0 1
+1 1 1 0 0 0 0 0
+0 0 0 0 1 1 0 0
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0
+1 0 0 1 0 0 0 1
+```
+```output
+1 1 1 0 0 1 2 1 
+2 1 2 1 0 1 1 3 
+1 6 1 2 0 1 2 1 
+1 1 1 3 2 2 2 1 
+2 3 2 2 1 1 1 0 
+0 0 0 1 2 2 1 0 
+1 1 1 1 1 0 1 1 
+1 1 1 1 1 0 1 1 
+```
+
+### Test private
+```input
+2 2
+1 0
+0 0
+```
+```output
+1 1
+1 1
+```

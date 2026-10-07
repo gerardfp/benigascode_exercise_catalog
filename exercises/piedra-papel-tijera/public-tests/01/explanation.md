@@ -1,1 +1,0 @@
-La tijera gana al papel.

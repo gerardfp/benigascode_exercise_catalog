@@ -1,1 +1,0 @@
-Implementa el mètode Race.fastest()

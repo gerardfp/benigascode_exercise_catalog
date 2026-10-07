@@ -1,8 +1,0 @@
-Cantidad de mediciones: 4
-Suma total: 776.85
-Temperatura media: 194.2125
-Temperatura maxima: 1000.0
-Temperatura minima: -273.15
-Porcentaje por debajo de la media: 75.0%
-Porcentaje por encima de la media: 25.0%
-Existe una temperatura igual a la media: false

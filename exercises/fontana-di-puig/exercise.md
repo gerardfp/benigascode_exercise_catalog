@@ -1,0 +1,124 @@
+---
+slug: fontana-di-puig
+---
+# Fontana di Puig
+
+La Fontana di Puig es una gran fuente que recibe las monedas de estudiantes que quieren aprobar el examen de programación.
+
+Esta fuente tiene un contador que indica la cantidad total de euros recibidos (en céntimos de euro).
+
+La fuente rechaza las monedas de 1 y 2 céntimos. y sólo acepta monedas de:
+
+5 céntimos
+
+10 céntimos
+
+20 céntimos
+
+50 céntimos
+
+100 céntimos (1 euro)
+
+200 céntimos (2 euros)
+
+El contador de la fuente indica la cantidad de céntimos que se han acumulado y un pequeño programa guarda un registro de los cambios en este contador. El registro siempre empieza con la fuente vacía, sin monedas.
+
+Nuestro programa leerá este registro y calculará cuantas monedas se han lanzado de cada tipo ese día.
+
+5 15 35 85 185 385 0
+
+- 5 - Se ha lanzado una moneda de 5 céntimos
+- 15 - Se ha lanzado una moneda de 10 céntimos
+- 35 - Se ha lanzado una moneda de 20 céntimos
+- 85 - Se ha lanzado una moneda de 50 céntimos
+- 185 - Se ha lanzado una moneda de 100 céntimos
+- 385 - Se ha lanzado una moneda de 200 céntimos
+
+## Input
+
+5 15 35 85 185 385 0
+
+## Output
+
+5) 1
+
+10) 1
+
+20) 1
+
+50) 1
+
+100) 1
+
+200) 1
+
+## Tests
+
+### Test
+```input
+10 15 20 25 0
+```
+```output
+5) 3
+10) 1
+20) 0
+50) 0
+100) 0
+200) 0
+```
+```explanation
+3 monedas de 5 céntimos
+1 moneda de 10 céntimos
+```
+
+### Test
+```input
+5 15 35 85 185 385 0
+```
+```output
+5) 1
+10) 1
+20) 1
+50) 1
+100) 1
+200) 1
+```
+
+### Test
+```input
+100 105 115 135 0
+```
+```output
+5) 1
+10) 1
+20) 1
+50) 0
+100) 1
+200) 0
+```
+
+### Test
+```input
+5 10 15 25 125 0
+```
+```output
+5) 3
+10) 1
+20) 0
+50) 0
+100) 1
+200) 0
+```
+
+### Test private
+```input
+5 10 15 20 220 270 275 285 290 300 0
+```
+```output
+5) 6
+10) 2
+20) 0
+50) 1
+100) 0
+200) 1
+```

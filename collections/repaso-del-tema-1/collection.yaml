@@ -1,0 +1,37 @@
+---
+id: "repaso-del-tema-1"
+title: "Repaso del Tema 1"
+slug: "repaso-del-tema-1"
+description: ""
+visibility: "PUBLIC"
+language: "java"
+runtime: "java-21"
+compile:
+  timeout_seconds: 15
+  command: "javac Main.java"
+execution:
+  memory_limit_mb: 256
+  timeout_seconds: 3
+  command: "java Main"
+scoring:
+  total_score: 100
+  mode: "weighted"
+comparator:
+  ignore_trailing_whitespace: true
+  type: "exact_line_by_line"
+items:
+- type: "EXERCISE"
+  id: "08-acces"
+  position: 1
+  required: true
+  weight: 1.0
+- type: "EXERCISE"
+  id: "acronimo"
+  position: 2
+  required: true
+  weight: 1.0
+- type: "EXERCISE"
+  id: "acces-log-analyzer"
+  position: 3
+  required: true
+  weight: 1.0

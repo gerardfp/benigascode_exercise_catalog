@@ -1,1 +1,0 @@
-El papel gana a la piedra.

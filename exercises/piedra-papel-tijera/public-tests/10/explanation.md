@@ -1,1 +1,0 @@
-La mano del segundo jugador no es válida.

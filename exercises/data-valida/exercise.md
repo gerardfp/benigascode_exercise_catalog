@@ -1,0 +1,167 @@
+---
+slug: data-valida
+tags: [operadors]
+---
+# Data vàlida
+
+Una data és vàlida si el número de dia està dintre dels dies del mes.
+
+Cal tenir en compte que un any pot ser bixest. Un any és bixest si és divisible entre quatre i, o bé no és divisible entre 100 o és divisible entre 400.
+
+## Input
+
+Tres nombres corresponents a una data en format `dd/mm/yyyy`
+
+## Output
+
+`true` si la data és vàlida
+
+`false` si no ho és
+
+## Tests
+
+### Test
+```input
+1 10 2000
+```
+```output
+true
+```
+```explanation
+1 d'Octubre del 2000 és una data vàlida
+```
+
+### Test
+```input
+1 1 2000
+```
+```output
+true
+```
+```explanation
+32 d'Ocutbre del 2000 no és una data vàlida
+```
+
+### Test
+```input
+32 10 2000
+```
+```output
+false
+```
+```explanation
+31 d'Octubre del 2000 és una data vàlida
+```
+
+### Test
+```input
+31 10 2000
+```
+```output
+true
+```
+
+### Test
+```input
+31 11 2000
+```
+```output
+false
+```
+```explanation
+El 2000 és bixest
+```
+
+### Test
+```input
+29 2 2000
+```
+```output
+true
+```
+```explanation
+El 1900 no és bixest
+```
+
+### Test
+```input
+29 2 1900
+```
+```output
+false
+```
+```explanation
+El 1904 és bixest
+```
+
+### Test
+```input
+29 2 1904
+```
+```output
+true
+```
+
+### Test
+```input
+28 2 1994
+```
+```output
+true
+```
+
+### Test
+```input
+29 2 2020
+```
+```output
+true
+```
+
+### Test
+```input
+29 2 2100
+```
+```output
+false
+```
+
+### Test
+```input
+31 8 2024
+```
+```output
+true
+```
+
+### Test
+```input
+31 9 2024
+```
+```output
+false
+```
+
+### Test
+```input
+30 6 2024
+```
+```output
+true
+```
+
+### Test
+```input
+31 4 2024
+```
+```output
+false
+```
+
+### Test private
+```input
+0 1 2020
+```
+```output
+false
+```

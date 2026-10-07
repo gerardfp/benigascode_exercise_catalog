@@ -1,0 +1,116 @@
+---
+slug: c1-l4-2-un-cavall-contra-2-peons
+tags: [operadors]
+---
+# Un cavall contra dos peons
+
+Als escacs el cavall pot saltar fent una "L", així:
+
+![image](1556383344-dffbb67ec9-cavallpeons.png)
+
+Donada la posició d'un cavall i de dos peons al tauler, digues quants peons està amenaçant el cavall.
+
+## Input
+
+La posició del cavall, i del dos peons
+
+## Output
+
+0 | 1 | 2
+
+## Tests
+
+### Test
+```input
+4 5
+3 3
+5 4
+```
+```output
+1
+```
+```explanation
+![image](1556383992-2399b03885-cavallpeons1.png)
+```
+
+### Test
+```input
+4 5
+3 3
+5 4
+```
+```output
+1
+```
+```explanation
+![image](1556384047-ed8d954478-cavallpeons2.png)
+```
+
+### Test
+```input
+4 5
+2 4
+6 4
+```
+```output
+2
+```
+```explanation
+![image](1556384115-a21b4284b9-cavallpeons3.png)
+```
+
+### Test
+```input
+6 2
+6 4
+7 1
+```
+```output
+0
+```
+```explanation
+![image](1556384180-3aa3857b16-cavallpeons4.png)
+```
+
+### Test
+```input
+1 1
+2 3
+3 2
+```
+```output
+2
+```
+```explanation
+![image](1556384253-e52c2dc2a5-cavallpeons5.png)
+```
+
+### Test
+```input
+7 6
+3 4
+8 8
+```
+```output
+1
+```
+
+### Test
+```input
+3 5
+2 2
+1 1
+```
+```output
+0
+```
+
+### Test private
+```input
+8 2
+7 4
+5 3
+```
+```output
+1
+```
