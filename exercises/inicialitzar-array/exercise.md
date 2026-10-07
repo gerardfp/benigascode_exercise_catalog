@@ -1,6 +1,6 @@
 ---
 slug: inicialitzar-array
-tags: [arrays]
+tags: [arrays, estructuras-de-datos]
 ---
 # Inicialitzar array
 
@@ -36,7 +36,18 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 50
+```input
+```
+```output
+12
+17
+8
+101
+33
+```
+
+### Test private 50
 ```input
 ```
 ```output

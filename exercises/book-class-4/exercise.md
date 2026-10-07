@@ -1,6 +1,5 @@
 ---
 slug: book-class-4
-tags: [class]
 ---
 # Book
 
@@ -39,7 +38,16 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 50
+```input
+```
+```output
+Through the looking glass
+1871
+true
+```
+
+### Test private 50
 ```input
 ```
 ```output

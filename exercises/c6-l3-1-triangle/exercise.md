@@ -50,7 +50,7 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 25
 ```input
 3 4
 2 5
@@ -60,7 +60,7 @@ Area triangle1: 6.00
 Area triangle2: 5.00
 ```
 
-### Test
+### Test 25
 ```input
 3 4
 2 5
@@ -70,7 +70,7 @@ Area triangle1: 6.00
 Area triangle2: 5.00
 ```
 
-### Test
+### Test private 25
 ```input
 30.77 23.5
 22.9 5.1
@@ -80,7 +80,7 @@ Area triangle1: 361.55
 Area triangle2: 58.39
 ```
 
-### Test private
+### Test private 25
 ```input
 0 89
 103 0

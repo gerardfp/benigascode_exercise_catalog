@@ -1,10 +1,17 @@
 ---
 slug: b0ae0-cotxe-class-l0
-tags: [class]
 ---
 # Cotxe
 
 Implementa el **constructor** de la classe Car
+
+## Input
+
+-
+
+## Output
+
+-
 
 ## Plantillas
 
@@ -52,7 +59,7 @@ public class Main {
 
 ## Tests
 
-### Test 10
+### Test 50
 ```input
 6
 PAGANI HUAYRA BC
@@ -77,7 +84,7 @@ PAGANI HUAYRA BC       370  2.29  28.90  1.66
 FERRARI FXX K EVO      370  2.50  24.30  1.48 
 ```
 
-### Test private 10
+### Test private 50
 ```input
 4
 CHEVROLET CAMARO SS

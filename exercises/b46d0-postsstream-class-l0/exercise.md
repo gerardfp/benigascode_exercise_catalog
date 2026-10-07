@@ -1,6 +1,5 @@
 ---
 slug: b46d0-postsstream-class-l0
-tags: [class, L0]
 ---
 # PostsStream
 
@@ -69,7 +68,7 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 50
 ```input
 3
 @popeye http://img.io/1234.jpg Hola que tal
@@ -88,7 +87,7 @@ Hasta luego
 ------------------------------
 ```
 
-### Test private
+### Test private 50
 ```input
 2
 @user_one null Blank message

@@ -10,8 +10,10 @@ Dadas las posiciones de las reinas blanca y negra en un tablero de ajedrez, el p
 El tablero de ajedrez consiste en 8 lineas de ocho caracteres cada una.
 Cada caracter representa una casilla del tablero.
 El caracter '-' indica una casilla vacía.
-La casilla en la que está la reina BLANCA se indica con una 'B'. 
+La casilla en la que está la reina BLANCA se indica con una 'B'.
 La casilla en la que está la reina NEGRA se indica con una 'N'.
+
+C = 64
 
 ## Output
 
@@ -19,7 +21,7 @@ SI | NO
 
 ## Tests
 
-### Test
+### Test 7.69
 ```input
 B----N--
 --------
@@ -34,7 +36,7 @@ B----N--
 SI
 ```
 
-### Test
+### Test 7.69
 ```input
 --------
 B-------
@@ -49,7 +51,7 @@ B-------
 SI
 ```
 
-### Test
+### Test private 7.69
 ```input
 --------
 --------
@@ -64,7 +66,7 @@ N-------
 SI
 ```
 
-### Test
+### Test private 7.69
 ```input
 --------
 ------B-
@@ -79,7 +81,7 @@ SI
 SI
 ```
 
-### Test
+### Test private 7.69
 ```input
 --------
 -------N
@@ -94,7 +96,7 @@ SI
 SI
 ```
 
-### Test
+### Test private 7.69
 ```input
 --------
 --------
@@ -109,7 +111,7 @@ SI
 SI
 ```
 
-### Test
+### Test private 7.69
 ```input
 --------
 --------
@@ -124,7 +126,7 @@ SI
 SI
 ```
 
-### Test
+### Test private 7.69
 ```input
 --------
 --------
@@ -139,7 +141,7 @@ SI
 SI
 ```
 
-### Test
+### Test private 7.69
 ```input
 -B------
 ------N-
@@ -154,7 +156,7 @@ SI
 NO
 ```
 
-### Test
+### Test private 7.69
 ```input
 -----B--
 --------
@@ -169,7 +171,7 @@ NO
 NO
 ```
 
-### Test
+### Test private 7.69
 ```input
 --------
 --------
@@ -184,7 +186,7 @@ N-------
 NO
 ```
 
-### Test
+### Test private 7.69
 ```input
 --------
 --------
@@ -199,7 +201,7 @@ B-------
 NO
 ```
 
-### Test private
+### Test private 7.72
 ```input
 BN------
 --------

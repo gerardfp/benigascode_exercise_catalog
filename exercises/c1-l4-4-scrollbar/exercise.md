@@ -1,6 +1,5 @@
 ---
 slug: c1-l4-4-scrollbar
-tags: [operadors]
 ---
 # Scrollbar
 
@@ -17,7 +16,9 @@ Per a implementar una *scrollbar* és necessari calcular el *thumb height* (de f
 La entrada consisteix en tres nombres:
 
 - viewport height
+
 - content height
+
 - arrow height
 
 ## Output
@@ -26,7 +27,7 @@ S'imprimirà el *thumb height* i el *scroll jump*, arrodonits sense decimals.
 
 ## Tests
 
-### Test
+### Test 20
 ```input
 100 300 20
 ```
@@ -35,7 +36,7 @@ S'imprimirà el *thumb height* i el *scroll jump*, arrodonits sense decimals.
 5
 ```
 
-### Test
+### Test 20
 ```input
 100 200 25
 ```
@@ -44,7 +45,7 @@ S'imprimirà el *thumb height* i el *scroll jump*, arrodonits sense decimals.
 4
 ```
 
-### Test
+### Test private 20
 ```input
 100 250 25
 ```
@@ -53,7 +54,7 @@ S'imprimirà el *thumb height* i el *scroll jump*, arrodonits sense decimals.
 5
 ```
 
-### Test
+### Test private 20
 ```input
 100 300 20
 ```
@@ -62,7 +63,7 @@ S'imprimirà el *thumb height* i el *scroll jump*, arrodonits sense decimals.
 5
 ```
 
-### Test private
+### Test private 20
 ```input
 100 320 10
 ```

@@ -1,6 +1,6 @@
 ---
 slug: pares-o-nones
-tags: [ternari]
+tags: [condicionales, control-de-flujo]
 ---
 # Pares o nones
 
@@ -36,7 +36,7 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 20
 ```input
 pares 4
 nones 1
@@ -45,7 +45,7 @@ nones 1
 segon jugador
 ```
 
-### Test
+### Test 20
 ```input
 nones 4
 pares 1
@@ -54,7 +54,7 @@ pares 1
 primer jugador
 ```
 
-### Test
+### Test private 20
 ```input
 pares 3
 nones 3
@@ -63,7 +63,7 @@ nones 3
 primer jugador
 ```
 
-### Test
+### Test private 20
 ```input
 nones 3
 pares 3
@@ -72,7 +72,7 @@ pares 3
 segon jugador
 ```
 
-### Test private
+### Test private 20
 ```input
 pares 3
 nones 2

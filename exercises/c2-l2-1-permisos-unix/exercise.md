@@ -1,6 +1,5 @@
 ---
 slug: c2-l2-1-permisos-unix
-tags: [if]
 ---
 # Permisos octals UNIX
 
@@ -15,14 +14,14 @@ Per exemple, el nombre octal 4765 indica que els permisos especials són 4, el d
 
 ![image](1556633870-ac0bf75a16-permissions22.png)
 
-Per a traduir el permisos octals en els permisos **rwx** corresponents, cal passar cada xifra a binari. 
+Per a traduir el permisos octals en els permisos **rwx** corresponents, cal passar cada xifra a binari.
 
-Per als permisos d'usuari, grup i altres, un 0 en la primera i segona xifra binària siginifica que el permisos de lectura i espcriptura, respectivament, no es concedeixen, i un 1 que sí es concedeixen. 
+Per als permisos d'usuari, grup i altres, un 0 en la primera i segona xifra binària siginifica que el permisos de lectura i espcriptura, respectivament, no es concedeixen, i un 1 que sí es concedeixen.
 Per al permís d'execució, un 0 significa que no es concedeix, i un 1 que sí es concedeix. A més a més, si es concedeix el permís d'execució i també i hi ha un 1 en la xifra binària especial corresponent, aleshores s'aplica el permís especial.
 
 ![image](1556635819-587337e2a0-permissions1.png)
 
-```
+```text
 usuari:
     r: lectura
     w: escriptura
@@ -48,13 +47,15 @@ altres
 
 La entrada consisteix en un nombre octal P indicant els permisos.
 
+0 <= P <= 7777
+
 ## Output
 
 S'imprimiran els permisos en format caràcter.
 
 ## Tests
 
-### Test
+### Test 4.55
 ```input
 0
 ```
@@ -62,7 +63,7 @@ S'imprimiran els permisos en format caràcter.
 ---------
 ```
 
-### Test
+### Test 4.55
 ```input
 0
 ```
@@ -70,7 +71,7 @@ S'imprimiran els permisos en format caràcter.
 ---------
 ```
 
-### Test
+### Test private 4.55
 ```input
 6
 ```
@@ -78,7 +79,7 @@ S'imprimiran els permisos en format caràcter.
 ------rw-
 ```
 
-### Test
+### Test private 4.55
 ```input
 764
 ```
@@ -86,7 +87,7 @@ S'imprimiran els permisos en format caràcter.
 rwxrw-r--
 ```
 
-### Test
+### Test private 4.55
 ```input
 1000
 ```
@@ -94,7 +95,7 @@ rwxrw-r--
 --------T
 ```
 
-### Test
+### Test private 4.55
 ```input
 1001
 ```
@@ -102,7 +103,7 @@ rwxrw-r--
 --------t
 ```
 
-### Test
+### Test private 4.55
 ```input
 1552
 ```
@@ -110,7 +111,7 @@ rwxrw-r--
 r-xr-x-wT
 ```
 
-### Test
+### Test private 4.55
 ```input
 1553
 ```
@@ -118,7 +119,7 @@ r-xr-x-wT
 r-xr-x-wt
 ```
 
-### Test
+### Test private 4.55
 ```input
 2040
 ```
@@ -126,7 +127,7 @@ r-xr-x-wt
 ---r-S---
 ```
 
-### Test
+### Test private 4.55
 ```input
 2050
 ```
@@ -134,7 +135,7 @@ r-xr-x-wt
 ---r-s---
 ```
 
-### Test
+### Test private 4.55
 ```input
 2451
 ```
@@ -142,7 +143,7 @@ r-xr-x-wt
 r--r-s--x
 ```
 
-### Test
+### Test private 4.55
 ```input
 3032
 ```
@@ -150,7 +151,7 @@ r--r-s--x
 ----ws-wT
 ```
 
-### Test
+### Test private 4.55
 ```input
 3766
 ```
@@ -158,7 +159,7 @@ r--r-s--x
 rwxrwSrwT
 ```
 
-### Test
+### Test private 4.55
 ```input
 4000
 ```
@@ -166,7 +167,7 @@ rwxrwSrwT
 --S------
 ```
 
-### Test
+### Test private 4.55
 ```input
 4100
 ```
@@ -174,7 +175,7 @@ rwxrwSrwT
 --s------
 ```
 
-### Test
+### Test private 4.55
 ```input
 4765
 ```
@@ -182,7 +183,7 @@ rwxrwSrwT
 rwsrw-r-x
 ```
 
-### Test
+### Test private 4.55
 ```input
 5766
 ```
@@ -190,7 +191,7 @@ rwsrw-r-x
 rwsrw-rwT
 ```
 
-### Test
+### Test private 4.55
 ```input
 6774
 ```
@@ -198,7 +199,7 @@ rwsrw-rwT
 rwsrwsr--
 ```
 
-### Test
+### Test private 4.55
 ```input
 7000
 ```
@@ -206,7 +207,7 @@ rwsrwsr--
 --S--S--T
 ```
 
-### Test
+### Test private 4.55
 ```input
 7111
 ```
@@ -214,7 +215,7 @@ rwsrwsr--
 --s--s--t
 ```
 
-### Test
+### Test private 4.55
 ```input
 7776
 ```
@@ -222,7 +223,7 @@ rwsrwsr--
 rwsrwsrwT
 ```
 
-### Test private
+### Test private 4.45
 ```input
 7777
 ```

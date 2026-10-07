@@ -1,8 +1,7 @@
 ---
 slug: c2-l1-5-trendingtopic
-tags: [TrendingTopic, strings]
 ---
-# c2-l1-5-trendingtopic
+# TrendingTopic
 
 Una forma de veure la popularitat dels llenguatges de programació, es veure els cops que es mencionen a les xarxes socials.
 
@@ -16,13 +15,19 @@ Cada missatge està encabit dintre d'unes claus {}
 
 El missatge pot ocupar vàries línies, però totes elles tenen 1 grau de tabulació.
 
+Un Hastag comença amb una # i es permeten lletres i números, i en general qualsevol caràcter que no sigui:
+
+```text
+. , - : ? !
+```
+
 ## Output
 
 S'imprimirà la llista de Hashtags i les vegades que apareix als missatges
 
 ## Tests
 
-### Test
+### Test 16.67
 ```input
 4
 {
@@ -43,7 +48,7 @@ S'imprimirà la llista de Hashtags i les vegades que apareix als missatges
 #python 2
 ```
 
-### Test
+### Test 16.67
 ```input
 4
 {
@@ -64,7 +69,7 @@ S'imprimirà la llista de Hashtags i les vegades que apareix als missatges
 #python 2
 ```
 
-### Test
+### Test private 16.67
 ```input
 4
 {
@@ -86,7 +91,7 @@ S'imprimirà la llista de Hashtags i les vegades que apareix als missatges
 #php 1
 ```
 
-### Test
+### Test private 16.67
 ```input
 4
 {
@@ -107,7 +112,7 @@ S'imprimirà la llista de Hashtags i les vegades que apareix als missatges
 #javascript 2
 ```
 
-### Test
+### Test private 16.67
 ```input
 6
 {
@@ -136,7 +141,7 @@ S'imprimirà la llista de Hashtags i les vegades que apareix als missatges
 #java 1
 ```
 
-### Test private
+### Test private 16.65
 ```input
 40
 {

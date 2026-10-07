@@ -1,5 +1,6 @@
 ---
 slug: suma-digitos-1
+tags: [matemáticas, algorithms]
 ---
 # Suma dígitos 1
 
@@ -9,13 +10,15 @@ Dado un número entero positivo, realiza la suma de sus dígitos.
 
 Un número entero positvo N.
 
+0 <= N <= 2147483647
+
 ## Output
 
 Un número entero
 
 ## Tests
 
-### Test
+### Test 20
 ```input
 123
 ```
@@ -23,7 +26,7 @@ Un número entero
 6
 ```
 
-### Test
+### Test 20
 ```input
 11111
 ```
@@ -31,7 +34,7 @@ Un número entero
 5
 ```
 
-### Test
+### Test private 20
 ```input
 100000
 ```
@@ -39,7 +42,7 @@ Un número entero
 1
 ```
 
-### Test
+### Test private 20
 ```input
 2147483647
 ```
@@ -47,7 +50,7 @@ Un número entero
 46
 ```
 
-### Test private
+### Test private 20
 ```input
 1
 ```

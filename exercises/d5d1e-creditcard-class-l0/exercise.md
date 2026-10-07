@@ -1,10 +1,17 @@
 ---
 slug: d5d1e-creditcard-class-l0
-tags: [class]
 ---
 # CreditCard
 
 Crea la classe `CreditCard`.
+
+## Input
+
+-
+
+## Output
+
+-
 
 ## Plantillas
 
@@ -38,7 +45,7 @@ public class Main {
 
 ## Tests
 
-### Test 10
+### Test 33.33
 ```input
 Lola Mento
 1234567812345678
@@ -52,7 +59,7 @@ Saldo: 2000.5
 Limit: 300.0
 ```
 
-### Test 10
+### Test private 33.33
 ```input
 Elena Nito
 9876543219876543
@@ -66,7 +73,7 @@ Saldo: 0.0
 Limit: 1000000.0
 ```
 
-### Test private 10
+### Test private 33.34
 ```input
 Penelope Luda
 1234567891234567

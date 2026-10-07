@@ -1,6 +1,5 @@
 ---
 slug: ec528-producte-class-l0
-tags: [class]
 ---
 # Producte
 
@@ -46,7 +45,7 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 33.33
 ```input
 Corsair Vengeance RGB Pro
 DDR4 3200 PC4-25600 16GB 2x8GB CL16
@@ -60,7 +59,7 @@ Preu:       109.0
 Stock:      25
 ```
 
-### Test
+### Test private 33.33
 ```input
 Kingston HyperX Fury Black
 16GB DDR4 2666Mhz PC-21300 (2x8GB) CL16
@@ -74,7 +73,7 @@ Preu:       79.5
 Stock:      3
 ```
 
-### Test private
+### Test private 33.34
 ```input
 G.Skill Trident Z RGB
 DDR4 3200 PC4-25600 16GB 2x8GB CL16

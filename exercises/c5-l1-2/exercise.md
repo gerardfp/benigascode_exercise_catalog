@@ -1,6 +1,6 @@
 ---
 slug: c5-l1-2
-tags: [class, L0]
+tags: [arrays, estructuras-de-datos]
 ---
 # Array de leds
 
@@ -81,7 +81,7 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 20
 ```input
 1 2 3 2  -1
 ```
@@ -92,7 +92,7 @@ public class Main {
 ( )(*)( )(*)( )
 ```
 
-### Test
+### Test 20
 ```input
 1 2 3 2   -1
 ```
@@ -103,7 +103,7 @@ public class Main {
 ( )(*)( )(*)( )
 ```
 
-### Test
+### Test private 20
 ```input
 0 4 2   -1
 ```
@@ -113,7 +113,7 @@ public class Main {
 (*)( )(*)( )(*)
 ```
 
-### Test
+### Test private 20
 ```input
 0 3 2 4 1 0 4 0 3 2 1   -1
 ```
@@ -131,7 +131,7 @@ public class Main {
 (*)( )( )( )( )
 ```
 
-### Test private
+### Test private 20
 ```input
 0 2 4 1 3 0 2 4 1 3  -1
 ```

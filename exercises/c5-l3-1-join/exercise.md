@@ -9,9 +9,9 @@ Donades les tuples de les següents relacions:
 
 Realitza la següent consulta:
 
-```
-SELECT name, merchants.name AS merchant, price 
-FROM products 
+```text
+SELECT name, merchants.name AS merchant, price
+FROM products
     JOIN merchants ON product.merchant_id = merchants.id
 ```
 
@@ -22,26 +22,28 @@ En primer lloc va el nombre de tuples i després les tuples, cadascuna en una l�
 
 Per a la taula **products** el format de cada tupla és:
 
-```
+```text
 id id_merchant nom price
 ```
 
 Per a la taula **merchants** el format és:
 
-```
+```text
 id nom
 ```
+
+No hi ha cap restricció significativa
 
 ## Output
 
 La sortida serà el resultat de la consulta en format taula:
 
-```
-name            |merchant        |price     
+```text
+name            |merchant        |price
 ----------------+----------------+----------
 ```
 
-L'amplada de les columnes 'name' i 'merchant' és 16, i la 'price' és 10. El preu s'haurà de posar amb dos decimals. 
+L'amplada de les columnes 'name' i 'merchant' és 16, i la 'price' és 10. El preu s'haurà de posar amb dos decimals.
 
 Tot el text s'ha d'aliniar a l'esquerra.
 
@@ -49,7 +51,7 @@ Per últim caldrà indicar el número de tuples retornades per la consulta: "(X 
 
 ## Tests
 
-### Test
+### Test 16.67
 ```input
 3
 1 1 Java 0
@@ -69,7 +71,7 @@ gcc             |GNU             |      0.00
 (3 rows)
 ```
 
-### Test
+### Test 16.67
 ```input
 3
 1 1 Java 0
@@ -89,7 +91,7 @@ gcc             |GNU             |      0.00
 (3 rows)
 ```
 
-### Test
+### Test private 16.67
 ```input
 1
 14 8 Firefox 0
@@ -105,7 +107,7 @@ Firefox         |Mozilla         |      0.00
 (1 rows)
 ```
 
-### Test
+### Test private 16.67
 ```input
 9
 7 6 Gnome 0
@@ -127,7 +129,7 @@ name            |merchant        |price
 (0 rows)
 ```
 
-### Test
+### Test private 16.67
 ```input
 1
 10 6 gcc 0
@@ -150,7 +152,7 @@ gcc             |GNU             |      0.00
 (1 rows)
 ```
 
-### Test private
+### Test private 16.65
 ```input
 15
 1 1 Java 0

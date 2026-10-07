@@ -1,6 +1,5 @@
 ---
 slug: c1-l2-7-tir-amb-arc
-tags: [operadors]
 ---
 # Tir amb arc
 
@@ -17,83 +16,63 @@ Si el tir cau justament sobre el límit d'un anell, es considera que la puntuaci
 
 La entrada consta de 2 nombres decimals (X, Y) que indiquen la posició on s'ha clavat la fletxa respecte al centre de la diana (0,0).
 
+Es garanteix que la distància al centre de la diana sempre serà menor que 25.
+
 ## Output
 
 S'imprimirà la puntuació obtinguda amb el tir.
 
 ## Tests
 
-### Test
+### Test 9.09
 ```input
 0 0
 ```
 ```output
 5
 ```
-```explanation
-Just al centre de la diana són 5 punts
 
-![image](1556185042-320aa99307-diana6.png)
-```
-
-### Test
+### Test 9.09
 ```input
 0 0
 ```
 ```output
 5
 ```
-```explanation
-![image](1556185014-65faba0237-diana4.png)
-```
 
-### Test
+### Test private 9.09
 ```input
 5 5
 ```
 ```output
 4
 ```
-```explanation
-![image](1556185253-09358173da-diana7.png)
-```
 
-### Test
+### Test private 9.09
 ```input
 10 5
 ```
 ```output
 3
 ```
-```explanation
-![image](1556185387-2c54f88dc5-diana8.png)
-```
 
-### Test
+### Test private 9.09
 ```input
 -15 -10
 ```
 ```output
 2
 ```
-```explanation
-![image](1556185446-428aa40768-diana9.png)
-```
 
-### Test
+### Test private 9.09
 ```input
 20 5
 ```
 ```output
 1
 ```
-```explanation
-Ha fet diana just al límit entre l'anell vermell i el blau, per tant es compta la puntuació del blau.
 
-![image](1556185553-25bfa5ae8c-diana10.png)
-```
-
-### Test
+### Test private 9.09
 ```input
 0 10
 ```
@@ -101,7 +80,7 @@ Ha fet diana just al límit entre l'anell vermell i el blau, per tant es compta 
 3
 ```
 
-### Test
+### Test private 9.09
 ```input
 0.1 24.9
 ```
@@ -109,7 +88,7 @@ Ha fet diana just al límit entre l'anell vermell i el blau, per tant es compta 
 1
 ```
 
-### Test
+### Test private 9.09
 ```input
 7.1 7.9
 ```
@@ -117,7 +96,7 @@ Ha fet diana just al límit entre l'anell vermell i el blau, per tant es compta 
 3
 ```
 
-### Test
+### Test private 9.09
 ```input
 20 0
 ```
@@ -125,7 +104,7 @@ Ha fet diana just al límit entre l'anell vermell i el blau, per tant es compta 
 1
 ```
 
-### Test private
+### Test private 9.1
 ```input
 -2.67 4.89
 ```

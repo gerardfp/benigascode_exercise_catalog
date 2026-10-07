@@ -1,6 +1,5 @@
 ---
 slug: triler
-tags: [if]
 ---
 # Triler
 
@@ -20,158 +19,55 @@ Els moviments són "circulars", és a dir, si la bola està per exemple al prime
 
 L'entrada consta de quatre lletres "L" o "R" (separades per espais en blanc) que indiquen els moviments que fa l'estafador.
 
+Sempre es realitzen 4 moviments
+
 ## Output
 
 S'imprimirà l'estat final dels gobelets, amb un asterisc per al gobelet on queda la bola, i un guió baix per als gobelets que no la tenen.
 
 ## Tests
 
-### Test
+### Test 5.88
 ```input
 L L L L 
 ```
 ```output
 _ _ *
 ```
-```explanation
-`
-Inici: * _ _
-`
 
-`
-Mov L: _ _ *
-`
-
-`
-Mov L: _ * _
-`
-
-`
-Mov L: * _ _
-`
-
-`
-Mov L: _ _ *
-`
-```
-
-### Test
+### Test 5.88
 ```input
 L L L L 
 ```
 ```output
 _ _ *
 ```
-```explanation
-`
-Inici: * _ _
-`
 
-`
-Mov L: _ _ *
-`
-
-`
-Mov L: _ * _
-`
-
-`
-Mov L: * _ _
-`
-
-`
-Mov R: _ * _
-`
-```
-
-### Test
+### Test private 5.88
 ```input
 L L L R 
 ```
 ```output
 _ * _
 ```
-```explanation
-`
-Inici: * _ _
-`
 
-`
-Mov L: _ _ *
-`
-
-`
-Mov L: _ * _
-`
-
-`
-Mov R: _ _ *
-`
-
-`
-Mov L: _ * _
-`
-```
-
-### Test
+### Test private 5.88
 ```input
 L L R L 
 ```
 ```output
 _ * _
 ```
-```explanation
-`
-Inici: * _ _
-`
 
-`
-Mov L: _ _ *
-`
-
-`
-Mov L: _ * _
-`
-
-`
-Mov R: _ _ *
-`
-
-`
-Mov R: * _ _
-`
-```
-
-### Test
+### Test private 5.88
 ```input
 L L R R 
 ```
 ```output
 * _ _
 ```
-```explanation
-`
-Inici: * _ _
-`
 
-`
-Mov L: _ _ *
-`
-
-`
-Mov R: * _ _
-`
-
-`
-Mov L: _ _ *
-`
-
-`
-Mov L: _ * _
-`
-```
-
-### Test
+### Test private 5.88
 ```input
 L R L L 
 ```
@@ -179,7 +75,7 @@ L R L L
 _ * _
 ```
 
-### Test
+### Test private 5.88
 ```input
 L R L R 
 ```
@@ -187,7 +83,7 @@ L R L R
 * _ _
 ```
 
-### Test
+### Test private 5.88
 ```input
 L R R L 
 ```
@@ -195,7 +91,7 @@ L R R L
 * _ _
 ```
 
-### Test
+### Test private 5.88
 ```input
 L R R R 
 ```
@@ -203,7 +99,7 @@ L R R R
 _ _ *
 ```
 
-### Test
+### Test private 5.88
 ```input
 R L L L 
 ```
@@ -211,7 +107,7 @@ R L L L
 _ * _
 ```
 
-### Test
+### Test private 5.88
 ```input
 R L L R 
 ```
@@ -219,7 +115,7 @@ R L L R
 * _ _
 ```
 
-### Test
+### Test private 5.88
 ```input
 R L R L 
 ```
@@ -227,7 +123,7 @@ R L R L
 * _ _
 ```
 
-### Test
+### Test private 5.88
 ```input
 R L R R 
 ```
@@ -235,7 +131,7 @@ R L R R
 _ _ *
 ```
 
-### Test
+### Test private 5.88
 ```input
 R R L L 
 ```
@@ -243,7 +139,7 @@ R R L L
 * _ _
 ```
 
-### Test
+### Test private 5.88
 ```input
 R R L R 
 ```
@@ -251,7 +147,7 @@ R R L R
 _ _ *
 ```
 
-### Test
+### Test private 5.88
 ```input
 R R R L 
 ```
@@ -259,7 +155,7 @@ R R R L
 _ _ *
 ```
 
-### Test private
+### Test private 5.92
 ```input
 R R R R 
 ```

@@ -1,12 +1,11 @@
 ---
 slug: scrabble-2-1
-tags: [for]
 ---
 # Scrabble
 
 Donada una paraula, obté la seva puntuació d'Scrabble.
 
-```
+```text
 Letter                           Value
 A, E, I, O, U, L, N, R, S, T       1
 D, G                               2
@@ -27,56 +26,31 @@ La puntuació obtinguda
 
 ## Tests
 
-### Test
+### Test 20
 ```input
 hola
 ```
 ```output
 7
 ```
-```explanation
-`
-h=4
-o=1
-l=1
-a=1
-`
-```
 
-### Test
+### Test 20
 ```input
 mundo
 ```
 ```output
 8
 ```
-```explanation
-`
-m=3
-u=1
-n=1
-d=2
-o=1
-`
-```
 
-### Test
+### Test private 20
 ```input
 java
 ```
 ```output
 14
 ```
-```explanation
-`
-j=8
-a=1
-v=4
-a=1
-`
-```
 
-### Test
+### Test private 20
 ```input
 a
 ```
@@ -84,7 +58,7 @@ a
 1
 ```
 
-### Test private
+### Test private 20
 ```input
 HACKERRANK
 ```

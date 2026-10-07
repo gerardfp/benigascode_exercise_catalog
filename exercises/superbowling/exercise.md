@@ -13,85 +13,47 @@ Dado un número de bolos, determina si es posible organizarlos para que se forme
 
 Un numero N de bolos
 
+1 <= N <= 100000
+
 ## Output
 
 true | false
 
 ## Tests
 
-### Test
+### Test 7.69
 ```input
 6
 ```
 ```output
 true
 ```
-```explanation
-6 bolos se pueden colocar perfectamente:
 
-```
-o o o
- o o
-  o
-```
-```
-
-### Test
+### Test 7.69
 ```input
 8
 ```
 ```output
 false
 ```
-```explanation
-8 bolos no se pueden colocar de forma perfecta. Quedaría incompleto.
 
-```
-o o
- o o o
-  o o
-   o
-```
-```
-
-### Test
+### Test private 7.69
 ```input
 21
 ```
 ```output
 true
 ```
-```explanation
-21 bolos se pueden colocar perfectamente:
 
-```
-o o o o o o
- o o o o o
-  o o o o
-   o o o
-    o o
-     o
-```
-```
-
-### Test
+### Test private 7.69
 ```input
 4
 ```
 ```output
 false
 ```
-```explanation
-Con 4 bolos el triángulo queda incompleto:
 
-```
-o
- o o
-  o
-```
-```
-
-### Test
+### Test private 7.69
 ```input
 91
 ```
@@ -99,7 +61,7 @@ o
 true
 ```
 
-### Test
+### Test private 7.69
 ```input
 78
 ```
@@ -107,7 +69,7 @@ true
 true
 ```
 
-### Test
+### Test private 7.69
 ```input
 1
 ```
@@ -115,7 +77,7 @@ true
 true
 ```
 
-### Test
+### Test private 7.69
 ```input
 990
 ```
@@ -123,7 +85,7 @@ true
 true
 ```
 
-### Test
+### Test private 7.69
 ```input
 9870
 ```
@@ -131,7 +93,7 @@ true
 true
 ```
 
-### Test
+### Test private 7.69
 ```input
 998991
 ```
@@ -139,7 +101,7 @@ true
 true
 ```
 
-### Test
+### Test private 7.69
 ```input
 997570
 ```
@@ -147,7 +109,7 @@ true
 false
 ```
 
-### Test
+### Test private 7.69
 ```input
 27
 ```
@@ -155,7 +117,7 @@ false
 false
 ```
 
-### Test private
+### Test private 7.72
 ```input
 3
 ```

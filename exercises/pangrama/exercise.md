@@ -7,7 +7,7 @@ Donat un text, dir si utilitza **totes** les lletres de l'alfabet.
 
 Alfabet:
 
-```
+```text
 abcdefghijklmnopqrstuvwxyz
 ```
 
@@ -21,7 +21,7 @@ true | false
 
 ## Tests
 
-### Test
+### Test 20
 ```input
 the quick brown fox jumps over the lazy dog
 ```
@@ -29,7 +29,7 @@ the quick brown fox jumps over the lazy dog
 true
 ```
 
-### Test
+### Test 20
 ```input
 grumpy wizards make toxic brew for the evil queen and jack
 ```
@@ -37,7 +37,7 @@ grumpy wizards make toxic brew for the evil queen and jack
 true
 ```
 
-### Test
+### Test private 20
 ```input
 jackdaws love my big sphinx of quartz
 ```
@@ -45,7 +45,7 @@ jackdaws love my big sphinx of quartz
 true
 ```
 
-### Test
+### Test private 20
 ```input
 hello world of java programming
 ```
@@ -53,7 +53,7 @@ hello world of java programming
 false
 ```
 
-### Test private
+### Test private 20
 ```input
 hello
 ```

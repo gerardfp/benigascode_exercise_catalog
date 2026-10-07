@@ -1,6 +1,5 @@
 ---
 slug: c7-l3-1-palindrom
-tags: [recursivitat]
 ---
 # Palíndrom
 
@@ -10,13 +9,15 @@ Donat un String, dir si és un palíndrom.
 
 String
 
+No hi ha
+
 ## Output
 
 { true | false }
 
 ## Tests
 
-### Test
+### Test 11.11
 ```input
 a
 ```
@@ -24,7 +25,7 @@ a
 true
 ```
 
-### Test
+### Test 11.11
 ```input
 a
 ```
@@ -32,7 +33,7 @@ a
 true
 ```
 
-### Test
+### Test private 11.11
 ```input
 aa
 ```
@@ -40,7 +41,7 @@ aa
 true
 ```
 
-### Test
+### Test private 11.11
 ```input
 aba
 ```
@@ -48,7 +49,7 @@ aba
 true
 ```
 
-### Test
+### Test private 11.11
 ```input
 abba
 ```
@@ -56,7 +57,7 @@ abba
 true
 ```
 
-### Test
+### Test private 11.11
 ```input
 abcba
 ```
@@ -64,7 +65,7 @@ abcba
 true
 ```
 
-### Test
+### Test private 11.11
 ```input
 abcb
 ```
@@ -72,7 +73,7 @@ abcb
 false
 ```
 
-### Test
+### Test private 11.11
 ```input
 abcdcb
 ```
@@ -80,7 +81,7 @@ abcdcb
 false
 ```
 
-### Test private
+### Test private 11.12
 ```input
 abcdcbaa
 ```

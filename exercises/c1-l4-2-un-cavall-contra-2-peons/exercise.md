@@ -1,6 +1,5 @@
 ---
 slug: c1-l4-2-un-cavall-contra-2-peons
-tags: [operadors]
 ---
 # Un cavall contra dos peons
 
@@ -20,7 +19,7 @@ La posició del cavall, i del dos peons
 
 ## Tests
 
-### Test
+### Test 12.5
 ```input
 4 5
 3 3
@@ -29,11 +28,8 @@ La posició del cavall, i del dos peons
 ```output
 1
 ```
-```explanation
-![image](1556383992-2399b03885-cavallpeons1.png)
-```
 
-### Test
+### Test 12.5
 ```input
 4 5
 3 3
@@ -42,11 +38,8 @@ La posició del cavall, i del dos peons
 ```output
 1
 ```
-```explanation
-![image](1556384047-ed8d954478-cavallpeons2.png)
-```
 
-### Test
+### Test private 12.5
 ```input
 4 5
 2 4
@@ -55,11 +48,8 @@ La posició del cavall, i del dos peons
 ```output
 2
 ```
-```explanation
-![image](1556384115-a21b4284b9-cavallpeons3.png)
-```
 
-### Test
+### Test private 12.5
 ```input
 6 2
 6 4
@@ -68,11 +58,8 @@ La posició del cavall, i del dos peons
 ```output
 0
 ```
-```explanation
-![image](1556384180-3aa3857b16-cavallpeons4.png)
-```
 
-### Test
+### Test private 12.5
 ```input
 1 1
 2 3
@@ -81,11 +68,8 @@ La posició del cavall, i del dos peons
 ```output
 2
 ```
-```explanation
-![image](1556384253-e52c2dc2a5-cavallpeons5.png)
-```
 
-### Test
+### Test private 12.5
 ```input
 7 6
 3 4
@@ -95,7 +79,7 @@ La posició del cavall, i del dos peons
 1
 ```
 
-### Test
+### Test private 12.5
 ```input
 3 5
 2 2
@@ -105,7 +89,7 @@ La posició del cavall, i del dos peons
 0
 ```
 
-### Test private
+### Test private 12.5
 ```input
 8 2
 7 4

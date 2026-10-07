@@ -1,6 +1,5 @@
 ---
 slug: c1-l1-6-llums-apagades
-tags: [operadors, logics]
 ---
 # Llums apagats
 
@@ -22,40 +21,31 @@ S'ha d'imprimir `true` si tots els llums estan apagats, i `false` si hi ha algú
 
 ## Tests
 
-### Test
+### Test 25
 ```input
 false false false false
 ```
 ```output
 true
 ```
-```explanation
-Tots els llums estan apagats
-```
 
-### Test
+### Test 25
 ```input
 false false false false
 ```
 ```output
 true
 ```
-```explanation
-El primer llum està encés
-```
 
-### Test
+### Test private 25
 ```input
 true false false false
 ```
 ```output
 false
 ```
-```explanation
-L'últim llum està encés
-```
 
-### Test private
+### Test private 25
 ```input
 false false false true
 ```

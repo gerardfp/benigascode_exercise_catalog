@@ -1,6 +1,5 @@
 ---
 slug: impresora-matricial
-tags: [for]
 ---
 # Impresora matricial
 
@@ -11,7 +10,9 @@ La impresora matricial consta de un cabezal de impresión que se desplaza de izq
 Una orden de impresión se representa con una serie de números:
 
 - Un número X mayor o igual a cero significa desplazar el cabezal X posiciones e imprimir una #
+
 - Un -1 indica avanzar una línea el papel y volver el cabezal al principio
+
 - Un -2 significa que ha finalizado la impresión.
 
 ## Input
@@ -24,21 +25,15 @@ Se imprimirá el resultado de la impresión. Cada desplazamiento del cabezal ser
 
 ## Tests
 
-### Test
+### Test 20
 ```input
 3 2 1 0 -2
 ```
 ```output
    #  # ##
 ```
-```explanation
-Se imprimen 3 espacios y una almohadilla
-Se imprimen 2 espacios y una almohadilla
-Se imprimen 1 espacios y una almohadilla
-Se imprimen 0 espacios y una almohadilla
-```
 
-### Test
+### Test 20
 ```input
 0 0 0 -1 0 1 -1 1 -2
 ```
@@ -47,18 +42,8 @@ Se imprimen 0 espacios y una almohadilla
 # #
  #
 ```
-```explanation
-Se imprimen 0 espacios y una almohadilla
-Se imprimen 0 espacios y una almohadilla
-Se imprimen 0 espacios y una almohadilla
-Se imprime un salto de línea (-1)
-Se imprimen 0 espacios y una almohadilla
-Se imprimen 1 espacios y una almohadilla
-Se imprime un salto de línea (-1)
-Se imprimen 1 espacios y una almohadilla
-```
 
-### Test
+### Test private 20
 ```input
 2 -1
 1 1 -1
@@ -73,7 +58,7 @@ Se imprimen 1 espacios y una almohadilla
   #
 ```
 
-### Test
+### Test private 20
 ```input
 3 2 -1 
 2 0 0 0 0 0 -1 
@@ -94,7 +79,7 @@ Se imprimen 1 espacios y una almohadilla
   ##  ##
 ```
 
-### Test private
+### Test private 20
 ```input
 5 0 0 0 0 -1 3 0 5 0 -1 2 9 -1 1 11 -1 1 11 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 1 0 2 0 0 0 2 1 -1 0 1 0 0 1 1 0 0 1 1 -1 0 2 0 0 3 0 0 2 -1 0 13 -1 1 2 8 -1 1 3 0 0 0 0 3 -1 2 9 -1 3 0 5 0 -1 5 0 0 0 0 -1 -2
 ```

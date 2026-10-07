@@ -1,6 +1,5 @@
 ---
 slug: c2-l3-1-permisos-unix
-tags: [if]
 ---
 # Permisos UNIX
 
@@ -20,13 +19,17 @@ A la primera línia venen els 9 permisos P, separats per espais en blanc, i l'us
 
 A la segona línia ve l'usuari que tracta d'accedir al fitxer, i els 3 grups als que pertany.
 
+P = { - | r | w | x }
+
+L'usuari pertany sempre a 3 grups.
+
 ## Output
 
 S'imprimiran els permisos efectius
 
 ## Tests
 
-### Test
+### Test 11.11
 ```input
 r w x r - x r - - root root
 alumne1 alumnes informatica dam
@@ -35,7 +38,7 @@ alumne1 alumnes informatica dam
 r--
 ```
 
-### Test
+### Test 11.11
 ```input
 r w x r - x r - - root root
 alumne1 alumnes informatica dam
@@ -44,7 +47,7 @@ alumne1 alumnes informatica dam
 r--
 ```
 
-### Test
+### Test private 11.11
 ```input
 r w - r w - - - - root alumnes
 alumne1 alumnes informatica asix
@@ -53,7 +56,7 @@ alumne1 alumnes informatica asix
 rw-
 ```
 
-### Test
+### Test private 11.11
 ```input
 r w x r - x r - - root root
 alumne1 alumnes informatica dam
@@ -62,7 +65,7 @@ alumne1 alumnes informatica dam
 r--
 ```
 
-### Test
+### Test private 11.11
 ```input
 r w - r - - - - - alumne2 dam
 alumne1 alumnes informatica asix
@@ -71,7 +74,7 @@ alumne1 alumnes informatica asix
 ---
 ```
 
-### Test
+### Test private 11.11
 ```input
 r w x r w - r - - alumne3 asix
 alumne2 alumnes informatica asix
@@ -80,7 +83,7 @@ alumne2 alumnes informatica asix
 rw-
 ```
 
-### Test
+### Test private 11.11
 ```input
 r w x r w - r - - alumne3 root
 alumne3 root informatica asix
@@ -89,7 +92,7 @@ alumne3 root informatica asix
 rwx
 ```
 
-### Test
+### Test private 11.11
 ```input
 r w x r w - r - - alumne3 root
 alumne3 root informatica asix
@@ -98,7 +101,7 @@ alumne3 root informatica asix
 rwx
 ```
 
-### Test private
+### Test private 11.12
 ```input
 r w x r w x r - - root root
 alumne3 root informatica asix

@@ -1,6 +1,5 @@
 ---
 slug: e9bed-generador-de-corrent
-tags: [for]
 ---
 # Generador de corrent
 
@@ -23,7 +22,7 @@ S'imprimirà "CORRECTE" si la seqüència de números ha anat alternant pujades 
 
 ## Tests
 
-### Test
+### Test 25
 ```input
 1 5 2 7 3   0
 ```
@@ -31,7 +30,7 @@ S'imprimirà "CORRECTE" si la seqüència de números ha anat alternant pujades 
 CORRECTE
 ```
 
-### Test
+### Test 25
 ```input
 2 5 3 6 7   0
 ```
@@ -39,18 +38,15 @@ CORRECTE
 INCORRECTE
 ```
 
-### Test
+### Test private 25
 ```input
 3 1 3 1 3    0
 ```
 ```output
 INCORRECTE
 ```
-```explanation
-La primera i la segona medició no són de pujada
-```
 
-### Test private
+### Test private 25
 ```input
 4 4 3 6 3   0
 ```

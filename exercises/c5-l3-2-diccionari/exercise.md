@@ -1,5 +1,6 @@
 ---
 slug: c5-l3-2-diccionari
+tags: [scanner, i/o]
 ---
 # Diccionari
 
@@ -15,13 +16,15 @@ Una llista de paraules, separades per salts de línia.
 
 La llista de paraules acaba amb '**END**'
 
+No hi ha restriccions significatives.
+
 ## Output
 
 Es generarà una programa Java amb una classe anomenada "Dictionari", que inicialitzi un array d'strings amb les paraules, anomenat "words".
 
 ## Tests
 
-### Test
+### Test 20
 ```input
 hola
 adeu
@@ -38,7 +41,7 @@ class Dictionari {
 }
 ```
 
-### Test
+### Test 20
 ```input
 una
 llista
@@ -57,7 +60,7 @@ class Dictionari {
 }
 ```
 
-### Test
+### Test private 20
 ```input
 festival
 triangle
@@ -78,7 +81,7 @@ class Dictionari {
 }
 ```
 
-### Test
+### Test private 20
 ```input
 metaprogramming
 __END__
@@ -91,7 +94,7 @@ class Dictionari {
 }
 ```
 
-### Test private
+### Test private 20
 ```input
 metaprogramming
 rocks

@@ -1,6 +1,5 @@
 ---
 slug: c1-l2-3-ieee-1541
-tags: [if]
 ---
 # IEEE 1541
 
@@ -8,7 +7,7 @@ L'stàndard IEEE 1541 estableix l'ús de prefixes per múltiples binaris. Tradic
 
 L'IEEE 1541 tracta de posar fi a aquesta confusió establint uns nous prefixes per al sistema binari:
 
-```
+```text
 - kibi (Ki), 2^10 = 1024;
 - mebi (Mi), 2^20 = 1048576;
 - gibi (Gi), 2^30 = 1073741824;
@@ -27,7 +26,7 @@ A continuació hi ha un fletxa "->" indicant la operació de conversió.
 
 A continuació ve el prefixe binari (dP) i la unitat de mesura (dU) a la qual s'han de convertir.
 
-Els Prefixs i Unitats són aquests: 
+Els Prefixs i Unitats són aquests:
 
 Prefixs = { _ | Ki | Mi | Gi | Ti | Pi | Ei }
 
@@ -35,24 +34,30 @@ Unitats = { bit | byte }
 
 El prefix '_' indica l'absència de prefix.
 
+0 <= U <= 1152921504606846976
+
+Els prefixs i les unitats són valids.
+
+Tant les unitats d'entrada com les de sortida són nombres sense decimals.
+
 ## Output
 
 S'escriurà la igualtat de la conversió.
 S'ha d'eliminanr el _ , i s'han d'unir el prefix i la unitat de mesura:
 
-Exemples: 
+Exemples:
 
-```
+```text
 2 Kibytes = 16384 bits
 ```
 
-```
+```text
 2 bytes = 16 bits
 ```
 
 ## Tests
 
-### Test
+### Test 6.67
 ```input
 8 _ bits -> _ bytes
 ```
@@ -60,7 +65,7 @@ Exemples:
 8 bits = 1 bytes
 ```
 
-### Test
+### Test 6.67
 ```input
 8 _ bits -> _ bytes
 ```
@@ -68,7 +73,7 @@ Exemples:
 8 bits = 1 bytes
 ```
 
-### Test
+### Test private 6.67
 ```input
 1 _ bytes -> _ bits
 ```
@@ -76,7 +81,7 @@ Exemples:
 1 bytes = 8 bits
 ```
 
-### Test
+### Test private 6.67
 ```input
 1 Ki bytes -> _ bytes
 ```
@@ -84,7 +89,7 @@ Exemples:
 1 Kibytes = 1024 bytes
 ```
 
-### Test
+### Test private 6.67
 ```input
 1 Mi bytes -> _ bytes
 ```
@@ -92,7 +97,7 @@ Exemples:
 1 Mibytes = 1048576 bytes
 ```
 
-### Test
+### Test private 6.67
 ```input
 1 Ki bytes -> _ bits
 ```
@@ -100,7 +105,7 @@ Exemples:
 1 Kibytes = 8192 bits
 ```
 
-### Test
+### Test private 6.67
 ```input
 1 Ki bits -> _ bytes
 ```
@@ -108,7 +113,7 @@ Exemples:
 1 Kibits = 128 bytes
 ```
 
-### Test
+### Test private 6.67
 ```input
 1073741824 Mi bits -> Gi bytes
 ```
@@ -116,7 +121,7 @@ Exemples:
 1073741824 Mibits = 131072 Gibytes
 ```
 
-### Test
+### Test private 6.67
 ```input
 1125899906842624 Ki bytes -> Ei bits
 ```
@@ -124,7 +129,7 @@ Exemples:
 1125899906842624 Kibytes = 8 Eibits
 ```
 
-### Test
+### Test private 6.67
 ```input
 1099511627776 Mi bits -> Pi bytes
 ```
@@ -132,7 +137,7 @@ Exemples:
 1099511627776 Mibits = 128 Pibytes
 ```
 
-### Test
+### Test private 6.67
 ```input
 4 Pi bytes -> Mi bytes
 ```
@@ -140,7 +145,7 @@ Exemples:
 4 Pibytes = 4294967296 Mibytes
 ```
 
-### Test
+### Test private 6.67
 ```input
 10 Ti bytes -> Gi bits
 ```
@@ -148,7 +153,7 @@ Exemples:
 10 Tibytes = 81920 Gibits
 ```
 
-### Test
+### Test private 6.67
 ```input
 1024 Ti bytes -> Pi bits
 ```
@@ -156,7 +161,7 @@ Exemples:
 1024 Tibytes = 8 Pibits
 ```
 
-### Test
+### Test private 6.67
 ```input
 1048576 Ki bytes -> Gi bytes
 ```
@@ -164,7 +169,7 @@ Exemples:
 1048576 Kibytes = 1 Gibytes
 ```
 
-### Test private
+### Test private 6.62
 ```input
 256 _ bytes -> Ki bits
 ```

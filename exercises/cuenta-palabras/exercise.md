@@ -10,13 +10,15 @@ Dado un texto, cuenta el número de palabras que contiene.
 Un string con varios saltos de línea.
 El texto termina con la palabra END (que no debe procesarse)
 
+1 <= L <= 100
+
 ## Output
 
 Un entero indicando el número de palabras
 
 ## Tests
 
-### Test
+### Test 20
 ```input
 hola mundo!
 END
@@ -25,7 +27,7 @@ END
 2
 ```
 
-### Test
+### Test 20
 ```input
 hola, que tal.
 END
@@ -34,7 +36,7 @@ END
 3
 ```
 
-### Test
+### Test private 20
 ```input
 Lorem ipsum dolor sit amet,
 consectetur adipiscing elit.
@@ -44,7 +46,7 @@ END
 8
 ```
 
-### Test
+### Test private 20
 ```input
 Lorem ipsum
 dolor sit amet,
@@ -56,7 +58,7 @@ END
 8
 ```
 
-### Test private
+### Test private 20
 ```input
 hola
 END

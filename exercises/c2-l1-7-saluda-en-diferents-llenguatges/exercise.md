@@ -1,20 +1,29 @@
 ---
 slug: c2-l1-7-saluda-en-diferents-llenguatges
-tags: [if, switch]
+tags: [condicionales, control-de-flujo]
 ---
 # Saluda en diferents idiomes
 
 Fes un programa que faci una salutació en un d'aquests idiomes:
 
 - French: Bonjour
+
 - Spanish: Hola
+
 - Russian: Zdravstvuyte
+
 - Chinese: Nin hao
+
 - Japanese: Konnichiwa
+
 - German: Guten Tag
+
 - Portuguese: Ola
+
 - Arabic: Asalaam alaikum
+
 - Hindi: Namaste
+
 - Romanian: Buna ziua
 
 Si el programa no reconeix l'idioma, demana educadament: "*No conec el teu idioma, com es diu hola?*". Aleshores fes una salutació en aquest idioma.
@@ -27,7 +36,7 @@ Si el idioma no és reconegut pel programa, aleshores s'indica la salutació en 
 
 ## Output
 
-S'imprimirà la salutació en l'idioma especificat. 
+S'imprimirà la salutació en l'idioma especificat.
 
 Si l'idioma no és un de la llista, s'imprimirà la frase `No conec el teu idioma, com es diu hola?`, i aleshores s'imprimirà la salutació rebuda.
 
@@ -59,7 +68,7 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 6.67
 ```input
 French
 ```
@@ -67,7 +76,7 @@ French
 Bonjour
 ```
 
-### Test
+### Test 6.67
 ```input
 French
 ```
@@ -75,7 +84,7 @@ French
 Bonjour
 ```
 
-### Test
+### Test private 6.67
 ```input
 Spanish
 ```
@@ -83,7 +92,7 @@ Spanish
 Hola
 ```
 
-### Test
+### Test private 6.67
 ```input
 Russian
 ```
@@ -91,7 +100,7 @@ Russian
 Zdravstvuyte
 ```
 
-### Test
+### Test private 6.67
 ```input
 Zulu
 Sawubona
@@ -101,7 +110,7 @@ No conec el teu idioma, com es diu hola?
 Sawubona
 ```
 
-### Test
+### Test private 6.67
 ```input
 Chinese
 ```
@@ -109,7 +118,7 @@ Chinese
 Nin hao
 ```
 
-### Test
+### Test private 6.67
 ```input
 Italian
 Salve
@@ -119,7 +128,7 @@ No conec el teu idioma, com es diu hola?
 Salve
 ```
 
-### Test
+### Test private 6.67
 ```input
 Japanese
 ```
@@ -127,7 +136,7 @@ Japanese
 Konnichiwa
 ```
 
-### Test
+### Test private 6.67
 ```input
 Swahili
 Hujambo
@@ -137,7 +146,7 @@ No conec el teu idioma, com es diu hola?
 Hujambo
 ```
 
-### Test
+### Test private 6.67
 ```input
 German
 ```
@@ -145,7 +154,7 @@ German
 Guten Tag
 ```
 
-### Test
+### Test private 6.67
 ```input
 Portuguese
 ```
@@ -153,7 +162,7 @@ Portuguese
 Ola
 ```
 
-### Test
+### Test private 6.67
 ```input
 Korean
 Anyoung haseyo
@@ -163,7 +172,7 @@ No conec el teu idioma, com es diu hola?
 Anyoung haseyo
 ```
 
-### Test
+### Test private 6.67
 ```input
 Arabic
 ```
@@ -171,7 +180,7 @@ Arabic
 Asalaam alaikum
 ```
 
-### Test
+### Test private 6.67
 ```input
 Hindi
 ```
@@ -179,7 +188,7 @@ Hindi
 Namaste
 ```
 
-### Test private
+### Test private 6.62
 ```input
 Romanian
 ```

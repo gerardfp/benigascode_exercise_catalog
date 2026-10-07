@@ -1,6 +1,5 @@
 ---
 slug: c1-l2-3-rellotge-de-manilles
-tags: [operadors]
 ---
 # Rellotge de manilles
 
@@ -20,7 +19,7 @@ S'imprimiran els graus de cada manilla (HH,MM,SS) que corresponen a l'hora, cada
 
 ## Tests
 
-### Test
+### Test 14.29
 ```input
 0 0 0
 ```
@@ -29,15 +28,8 @@ S'imprimiran els graus de cada manilla (HH,MM,SS) que corresponen a l'hora, cada
 0.0
 0.0
 ```
-```explanation
-La manilla de les hores està a 75º
-La manilla dels minuts està a 180º
-La manilla dels segons està a 0º
 
-![image](1556022285-3fe4c312ef-Untitleddrawing1.png)
-```
-
-### Test
+### Test 14.29
 ```input
 2 30 0
 ```
@@ -46,11 +38,8 @@ La manilla dels segons està a 0º
 180.0
 0.0
 ```
-```explanation
-![image](1556022397-a3d147dc67-Untitleddrawing2.png)
-```
 
-### Test
+### Test private 14.29
 ```input
 9 30 0
 ```
@@ -59,11 +48,8 @@ La manilla dels segons està a 0º
 180.0
 0.0
 ```
-```explanation
-![image](1556022638-d1d05fdcb6-Untitleddrawing4.png)
-```
 
-### Test
+### Test private 14.29
 ```input
 0 15 30
 ```
@@ -73,7 +59,7 @@ La manilla dels segons està a 0º
 180.0
 ```
 
-### Test
+### Test private 14.29
 ```input
 11 59 59
 ```
@@ -83,7 +69,7 @@ La manilla dels segons està a 0º
 354.0
 ```
 
-### Test
+### Test private 14.29
 ```input
 7 43 23
 ```
@@ -93,7 +79,7 @@ La manilla dels segons està a 0º
 138.0
 ```
 
-### Test private
+### Test private 14.26
 ```input
 6 30 30
 ```

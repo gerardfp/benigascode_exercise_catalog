@@ -1,24 +1,29 @@
 ---
 slug: c2-l3-1-xarxes-privades
-tags: [if]
 ---
 # Xarxes privades
 
 A l'arquitectura d'adreçament d'Internet, una xarxa privada és una xarxa que utilitza l'espai d'adreces IP privades:
 
 - 10.0.0.0 - 10.255.255.255
+
 - 172.16.0.0 - 172.31.255.255
+
 - 192.168.0.0 - 192.168.255.255
 
 Les adreces privades no s'asignen a cap organització concreta i qualsevol persona pot utilitzar aquestes adreces sense l'aprovació d'un Registre Regional d'Internet.
 
 La xarxa a la que pertany un ordinador es calcula a partir de la seva IP i la seva màscara de xarxa:
 
-1. Es passa cada nombre de la ip a un octet binari, i es coloquen consecutivament els quatre octets.
-2. Es crea un nombre binari amb tants 1 com indica la màscara i es completa amb 0 fins a 32 bits.
-3. Es realitza la operació AND entre el primer i el segon nombre. El valor resultant és la IP on comença la xarxa
-4. Es crea un nombre binari amb tants 0 com indica la màscara i es completa amb 1 fins a 32 bits.
-5. Es realitza la operació OR entre el primer i el segon nombre. El valor resultant és la IP on acaba la xarxa
+- Es passa cada nombre de la ip a un octet binari, i es coloquen consecutivament els quatre octets.
+
+- Es crea un nombre binari amb tants 1 com indica la màscara i es completa amb 0 fins a 32 bits.
+
+- Es realitza la operació AND entre el primer i el segon nombre. El valor resultant és la IP on comença la xarxa
+
+- Es crea un nombre binari amb tants 0 com indica la màscara i es completa amb 1 fins a 32 bits.
+
+- Es realitza la operació OR entre el primer i el segon nombre. El valor resultant és la IP on acaba la xarxa
 
 ![image](1556701591-d5c4f2c2f1-netmask.png)
 
@@ -26,13 +31,15 @@ La xarxa a la que pertany un ordinador es calcula a partir de la seva IP i la se
 
 La entrada consta dels quatre octets d'una adreça IP i una màscara de xarxa, separats per espais en blanc.
 
+La IP i la màscara són vàlides
+
 ## Output
 
 S'imprimirà la primera adreça de la xarxa, la última adreça, i s'indicarà si és una adreça pública o privada.
 
 ## Tests
 
-### Test
+### Test 8.33
 ```input
 192 168 55 118
 11
@@ -43,7 +50,7 @@ Last IP: 192.191.255.255
 Public
 ```
 
-### Test
+### Test 8.33
 ```input
 192 168 55 118
 24
@@ -54,7 +61,7 @@ Last IP: 192.168.55.255
 Private
 ```
 
-### Test
+### Test private 8.33
 ```input
 192 168 55 118
 11
@@ -65,7 +72,7 @@ Last IP: 192.191.255.255
 Public
 ```
 
-### Test
+### Test private 8.33
 ```input
 10 2 2 1
 11
@@ -76,7 +83,7 @@ Last IP: 10.31.255.255
 Private
 ```
 
-### Test
+### Test private 8.33
 ```input
 172 16 2 1
 22
@@ -87,7 +94,7 @@ Last IP: 172.16.3.255
 Private
 ```
 
-### Test
+### Test private 8.33
 ```input
 35 16 23 214
 24
@@ -98,7 +105,7 @@ Last IP: 35.16.23.255
 Public
 ```
 
-### Test
+### Test private 8.33
 ```input
 35 16 23 214
 8
@@ -109,7 +116,7 @@ Last IP: 35.255.255.255
 Public
 ```
 
-### Test
+### Test private 8.33
 ```input
 8 8 8 8
 30
@@ -120,7 +127,7 @@ Last IP: 8.8.8.11
 Public
 ```
 
-### Test
+### Test private 8.33
 ```input
 172 32 16 0
 12
@@ -131,7 +138,7 @@ Last IP: 172.47.255.255
 Public
 ```
 
-### Test
+### Test private 8.33
 ```input
 172 15 255 0
 22
@@ -142,7 +149,7 @@ Last IP: 172.15.255.255
 Public
 ```
 
-### Test
+### Test private 8.33
 ```input
 10 0 0 1
 6
@@ -153,7 +160,7 @@ Last IP: 11.255.255.255
 Public
 ```
 
-### Test private
+### Test private 8.37
 ```input
 235 84 63 17
 19

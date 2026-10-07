@@ -1,6 +1,6 @@
 ---
 slug: c1-l2-8-notacio-algebraica-als-escacs
-tags: [conversio]
+tags: [scanner, i/o]
 ---
 # Notació algebraica als escacs
 
@@ -16,7 +16,7 @@ Una altra notació és l'algebraica, on la fila d'identifica pel seu número i l
 
 ## Input
 
-La entrada consisteix en dos nombres <span style="font-size: 100%; display: inline-block;" class="MathJax_SVG" id="MathJax-Element-1-Frame"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1.741ex" height="2.176ex" style="vertical-align: -0.338ex;" viewBox="0 -791.3 749.5 936.9" role="img" focusable="false"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><path stroke-width="1" d="M48 1Q31 1 31 11Q31 13 34 25Q38 41 42 43T65 46Q92 46 125 49Q139 52 144 61Q146 66 215 342T285 622Q285 629 281 629Q273 632 228 634H197Q191 640 191 642T193 659Q197 676 203 680H742Q749 676 749 669Q749 664 736 557T722 447Q720 440 702 440H690Q683 445 683 453Q683 454 686 477T689 530Q689 560 682 579T663 610T626 626T575 633T503 634H480Q398 633 393 631Q388 629 386 623Q385 622 352 492L320 363H375Q378 363 398 363T426 364T448 367T472 374T489 386Q502 398 511 419T524 457T529 475Q532 480 548 480H560Q567 475 567 470Q567 467 536 339T502 207Q500 200 482 200H470Q463 206 463 212Q463 215 468 234T473 274Q473 303 453 310T364 317H309L277 190Q245 66 245 60Q245 46 334 46H359Q365 40 365 39T363 19Q359 6 353 0H336Q295 2 185 2Q120 2 86 2T48 1Z"></path></g></svg></span> i <span style="font-size: 100%; display: inline-block;" class="MathJax_SVG" id="MathJax-Element-2-Frame"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1.766ex" height="2.176ex" style="vertical-align: -0.338ex;" viewBox="0 -791.3 760.5 936.9" role="img" focusable="false"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><path stroke-width="1" d="M50 252Q50 367 117 473T286 641T490 704Q580 704 633 653Q642 643 648 636T656 626L657 623Q660 623 684 649Q691 655 699 663T715 679T725 690L740 705H746Q760 705 760 698Q760 694 728 561Q692 422 692 421Q690 416 687 415T669 413H653Q647 419 647 422Q647 423 648 429T650 449T651 481Q651 552 619 605T510 659Q484 659 454 652T382 628T299 572T226 479Q194 422 175 346T156 222Q156 108 232 58Q280 24 350 24Q441 24 512 92T606 240Q610 253 612 255T628 257Q648 257 648 248Q648 243 647 239Q618 132 523 55T319 -22Q206 -22 128 53T50 252Z"></path></g></svg></span> corresponents a la fila i columna d'una casella.
+La entrada consisteix en dos nombres  i  corresponents a la fila i columna d'una casella.
 
 ## Output
 
@@ -24,7 +24,7 @@ S'imprimirà la posició de la casella en notació algebraica.
 
 ## Tests
 
-### Test
+### Test 11.11
 ```input
 1 1
 ```
@@ -32,7 +32,7 @@ S'imprimirà la posició de la casella en notació algebraica.
 a1
 ```
 
-### Test
+### Test 11.11
 ```input
 2 3
 ```
@@ -40,7 +40,7 @@ a1
 b3
 ```
 
-### Test
+### Test private 11.11
 ```input
 3 1
 ```
@@ -48,7 +48,7 @@ b3
 c1
 ```
 
-### Test
+### Test private 11.11
 ```input
 4 8
 ```
@@ -56,7 +56,7 @@ c1
 d8
 ```
 
-### Test
+### Test private 11.11
 ```input
 5 7
 ```
@@ -64,7 +64,7 @@ d8
 e7
 ```
 
-### Test
+### Test private 11.11
 ```input
 6 6
 ```
@@ -72,7 +72,7 @@ e7
 f6
 ```
 
-### Test
+### Test private 11.11
 ```input
 7 8
 ```
@@ -80,7 +80,7 @@ f6
 g8
 ```
 
-### Test
+### Test private 11.11
 ```input
 8 1
 ```
@@ -88,7 +88,7 @@ g8
 h1
 ```
 
-### Test private
+### Test private 11.12
 ```input
 1 1
 ```

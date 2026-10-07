@@ -1,6 +1,5 @@
 ---
 slug: f831b-tabla-class-l0
-tags: [class, L0]
 ---
 # Taula
 
@@ -74,7 +73,7 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 33.33
 ```input
 3 3 a
 ```
@@ -84,7 +83,7 @@ aaa
 aaa
 ```
 
-### Test
+### Test private 33.33
 ```input
 2 10 z
 ```
@@ -93,7 +92,7 @@ zzzzzzzzzz
 zzzzzzzzzz
 ```
 
-### Test private
+### Test private 33.34
 ```input
 7 25 x
 ```

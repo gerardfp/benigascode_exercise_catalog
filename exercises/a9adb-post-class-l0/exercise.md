@@ -1,6 +1,5 @@
 ---
 slug: a9adb-post-class-l0
-tags: [class, L0]
 ---
 # Post
 
@@ -50,7 +49,28 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 50
+```input
+```
+```output
+------------------------------------
+| @realdonaltrump                  |
+| Make America Great Again #MAGA   |
+| <3 2000000        & 10000000     |
+------------------------------------
+------------------------------------
+| @realdonaltrump                  |
+| You are fake news                |
+| <3 5986587        & 325646       |
+------------------------------------
+------------------------------------
+| @realdonaltrump                  |
+| Global warming is a HOAX         |
+| <3 200            & 1000         |
+------------------------------------
+```
+
+### Test private 50
 ```input
 ```
 ```output

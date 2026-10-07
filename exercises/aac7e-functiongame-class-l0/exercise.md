@@ -1,6 +1,6 @@
 ---
 slug: aac7e-functiongame-class-l0
-tags: [class, L0]
+tags: [scanner, i/o]
 ---
 # FunctionGame
 
@@ -97,7 +97,7 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 12.5
 ```input
 function1 1 2 3 5 10
 ```
@@ -109,7 +109,7 @@ function1 1 2 3 5 10
 10 -> 11
 ```
 
-### Test
+### Test 12.5
 ```input
 function2 1 2 3 5 10
 ```
@@ -121,7 +121,7 @@ function2 1 2 3 5 10
 10 -> 7
 ```
 
-### Test
+### Test private 12.5
 ```input
 function3 1 2 3 5 10
 ```
@@ -133,7 +133,7 @@ function3 1 2 3 5 10
 10 -> 100
 ```
 
-### Test
+### Test private 12.5
 ```input
 function4 1 2 3 5 10
 ```
@@ -145,7 +145,7 @@ function4 1 2 3 5 10
 10 -> 19
 ```
 
-### Test
+### Test private 12.5
 ```input
 function5 1 2 3 5 10
 ```
@@ -157,7 +157,7 @@ function5 1 2 3 5 10
 10 -> 6
 ```
 
-### Test
+### Test private 12.5
 ```input
 function6 1 1 2 2 3 4 5 9 10 11
 ```
@@ -169,7 +169,7 @@ function6 1 1 2 2 3 4 5 9 10 11
 10,11 -> 21
 ```
 
-### Test
+### Test private 12.5
 ```input
 function7 1 2 3 4 7 5 8 5 11 8 5 5 3 3
 ```
@@ -183,7 +183,7 @@ function7 1 2 3 4 7 5 8 5 11 8 5 5 3 3
 3,3 -> 3
 ```
 
-### Test private
+### Test private 12.5
 ```input
 function8 1 2 3  5 4 6  9 8 7  9 7 7  8 8 9  7 9 7   10 10 10
 ```

@@ -11,6 +11,8 @@ El tauler consisteix en 3 línies amb 3 caracters cada línia.
 Les caselles del tauler buides es marquen amb un '-'
 Les caselles ocupades per fitxes es marquen amb 'O' i 'X'.
 
+El tauler és vàlid
+
 ## Output
 
 El guanyador es mostrarà amb la seva marca, i s'usa '-' per a l'empat.
@@ -19,7 +21,7 @@ El guanyador es mostrarà amb la seva marca, i s'usa '-' per a l'empat.
 
 ## Tests
 
-### Test
+### Test 8.33
 ```input
 O--
 -O-
@@ -29,7 +31,7 @@ XXX
 X
 ```
 
-### Test
+### Test 8.33
 ```input
 --X
 OOO
@@ -39,7 +41,7 @@ OOO
 O
 ```
 
-### Test
+### Test private 8.33
 ```input
 XXX
 00X
@@ -49,7 +51,7 @@ X00
 X
 ```
 
-### Test
+### Test private 8.33
 ```input
 O-X
 -XO
@@ -59,7 +61,7 @@ XO-
 X
 ```
 
-### Test
+### Test private 8.33
 ```input
 OXX
 XOX
@@ -69,7 +71,7 @@ XOO
 O
 ```
 
-### Test
+### Test private 8.33
 ```input
 XO-
 XO-
@@ -79,7 +81,7 @@ X--
 X
 ```
 
-### Test
+### Test private 8.33
 ```input
 XO-
 XO-
@@ -89,7 +91,7 @@ XO-
 O
 ```
 
-### Test
+### Test private 8.33
 ```input
 XXO
 XXO
@@ -99,7 +101,7 @@ O-O
 O
 ```
 
-### Test
+### Test private 8.33
 ```input
 OXO
 OXO
@@ -109,7 +111,7 @@ XOX
 -
 ```
 
-### Test
+### Test private 8.33
 ```input
 XXO
 OXX
@@ -119,7 +121,7 @@ XOO
 -
 ```
 
-### Test
+### Test private 8.33
 ```input
 OXO
 XOX
@@ -129,7 +131,7 @@ XOX
 -
 ```
 
-### Test private
+### Test private 8.37
 ```input
 XXX
 O--

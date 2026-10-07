@@ -4,11 +4,11 @@ tags: [strings]
 ---
 # Palíndrom
 
-Donada una frase, digues si és un palíndrom 
+Donada una frase, digues si és un palíndrom
 
 No s'han de comptar els espais en blanc, ni els caracters de puntuació:
 
-```
+```text
 . , ' ! ? -
 ```
 
@@ -24,7 +24,7 @@ Una línia amb un String.
 
 ## Tests
 
-### Test
+### Test 7.14
 ```input
 hola mon!
 ```
@@ -32,7 +32,7 @@ hola mon!
 false
 ```
 
-### Test
+### Test 7.14
 ```input
 luz azul
 ```
@@ -40,7 +40,7 @@ luz azul
 true
 ```
 
-### Test
+### Test private 7.14
 ```input
 a ti no, bonita.
 ```
@@ -48,7 +48,7 @@ a ti no, bonita.
 true
 ```
 
-### Test
+### Test private 7.14
 ```input
 amor a roma
 ```
@@ -56,7 +56,7 @@ amor a roma
 true
 ```
 
-### Test
+### Test private 7.14
 ```input
 Ella te da detalles
 ```
@@ -64,7 +64,7 @@ Ella te da detalles
 false
 ```
 
-### Test
+### Test private 7.14
 ```input
 ala
 ```
@@ -72,7 +72,7 @@ ala
 true
 ```
 
-### Test
+### Test private 7.14
 ```input
 anul-la la lluna
 ```
@@ -80,7 +80,7 @@ anul-la la lluna
 true
 ```
 
-### Test
+### Test private 7.14
 ```input
 Catala, a l'atac
 ```
@@ -88,7 +88,7 @@ Catala, a l'atac
 true
 ```
 
-### Test
+### Test private 7.14
 ```input
 A una nena nua llepa-li la pell, llepa-li la pell a una nena nua.
 ```
@@ -96,7 +96,7 @@ A una nena nua llepa-li la pell, llepa-li la pell a una nena nua.
 true
 ```
 
-### Test
+### Test private 7.14
 ```input
 Apa! Cal a la capa?
 ```
@@ -104,7 +104,7 @@ Apa! Cal a la capa?
 true
 ```
 
-### Test
+### Test private 7.14
 ```input
 mnb
 ```
@@ -112,7 +112,7 @@ mnb
 false
 ```
 
-### Test
+### Test private 7.14
 ```input
 .lkl.
 ```
@@ -120,7 +120,7 @@ false
 true
 ```
 
-### Test
+### Test private 7.14
 ```input
 opo!
 ```
@@ -128,7 +128,7 @@ opo!
 true
 ```
 
-### Test private
+### Test private 7.18
 ```input
 ala!
 ```

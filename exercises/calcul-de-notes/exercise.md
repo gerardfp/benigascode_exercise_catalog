@@ -1,16 +1,21 @@
 ---
 slug: calcul-de-notes
-tags: [if]
+tags: [matemáticas, algorithms]
 ---
 # Càlcul de notes
 
 Donada una entrada de teclat corresponent a la marca numèrica d'un examen, el programa imprimirà la qualificació textual corresponent:
 
 - Menys de 5: INSUFICIENT
+
 - 5 a 6 (no inclòs): SUFICIENT
+
 - 6 a 7 (no inclòs): BE
+
 - 7 a 8.5 (no inclòs): NOTABLE
+
 - 8.5 a 10 (no inclòs): EXCEL.LENT
+
 - 10: MATRICULA
 
 ## Input
@@ -23,7 +28,7 @@ Un número flotant corresponent a la nota
 
 ## Tests
 
-### Test
+### Test 7.14
 ```input
 0
 ```
@@ -31,7 +36,7 @@ Un número flotant corresponent a la nota
 INSUFICIENT
 ```
 
-### Test
+### Test 7.14
 ```input
 4
 ```
@@ -39,7 +44,7 @@ INSUFICIENT
 INSUFICIENT
 ```
 
-### Test
+### Test private 7.14
 ```input
 4.5
 ```
@@ -47,7 +52,7 @@ INSUFICIENT
 INSUFICIENT
 ```
 
-### Test
+### Test private 7.14
 ```input
 4.999
 ```
@@ -55,7 +60,7 @@ INSUFICIENT
 INSUFICIENT
 ```
 
-### Test
+### Test private 7.14
 ```input
 5
 ```
@@ -63,7 +68,7 @@ INSUFICIENT
 SUFICIENT
 ```
 
-### Test
+### Test private 7.14
 ```input
 5.999
 ```
@@ -71,7 +76,7 @@ SUFICIENT
 SUFICIENT
 ```
 
-### Test
+### Test private 7.14
 ```input
 6
 ```
@@ -79,7 +84,7 @@ SUFICIENT
 BE
 ```
 
-### Test
+### Test private 7.14
 ```input
 6.999
 ```
@@ -87,7 +92,7 @@ BE
 BE
 ```
 
-### Test
+### Test private 7.14
 ```input
 7
 ```
@@ -95,7 +100,7 @@ BE
 NOTABLE
 ```
 
-### Test
+### Test private 7.14
 ```input
 8.499
 ```
@@ -103,7 +108,7 @@ NOTABLE
 NOTABLE
 ```
 
-### Test
+### Test private 7.14
 ```input
 8.5
 ```
@@ -111,7 +116,7 @@ NOTABLE
 EXCEL.LENT
 ```
 
-### Test
+### Test private 7.14
 ```input
 9.255
 ```
@@ -119,7 +124,7 @@ EXCEL.LENT
 EXCEL.LENT
 ```
 
-### Test
+### Test private 7.14
 ```input
 9.999
 ```
@@ -127,7 +132,7 @@ EXCEL.LENT
 EXCEL.LENT
 ```
 
-### Test private
+### Test private 7.18
 ```input
 10
 ```

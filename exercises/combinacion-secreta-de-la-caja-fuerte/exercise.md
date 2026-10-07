@@ -1,6 +1,6 @@
 ---
 slug: combinacion-secreta-de-la-caja-fuerte
-tags: [for]
+tags: [scanner, i/o]
 ---
 # Combinación secreta de la caja fuerte
 
@@ -20,7 +20,7 @@ Se imprimirá "ABIERTA" si se ha introducido en algún momento la combinación s
 
 ## Tests
 
-### Test
+### Test 25
 ```input
 13 42 25
 66 13 42 25 77    -1
@@ -29,7 +29,7 @@ Se imprimirá "ABIERTA" si se ha introducido en algún momento la combinación s
 ABIERTA
 ```
 
-### Test
+### Test 25
 ```input
 7 11 17
 9 3 7 11 17   -1
@@ -38,7 +38,7 @@ ABIERTA
 ABIERTA
 ```
 
-### Test
+### Test private 25
 ```input
 7 11 17
 9 3 7 11 15 17   -1
@@ -47,7 +47,7 @@ ABIERTA
 CERRADA
 ```
 
-### Test private
+### Test private 25
 ```input
 1 1 1
 1 1 2 1 1 2    -1

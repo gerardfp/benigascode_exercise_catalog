@@ -15,13 +15,17 @@ La casa està marcada amb la lletra 'A', les engrunes amb un punt '.', i Hansel 
 
 El mapa està envoltat d'un marc amb coixinets '#'.
 
+El camí de punts només avança a en direcció Nord, Sud, Est o Oest. Per a cada punt només hi ha una direcció possible.
+
+Es considera que Hansel i Gretel han arribat a la casa quan la lletra 'H', està tocant la lletra 'A'.
+
 ## Output
 
 S'imprimirà el mapa del bosc a cada passa que hagin donat Hansel i Gretel recuperant les engrunes de pa.
 
 ## Tests
 
-### Test
+### Test 20
 ```input
 7
 #########
@@ -77,7 +81,7 @@ S'imprimirà el mapa del bosc a cada passa que hagin donat Hansel i Gretel recup
 #########
 ```
 
-### Test
+### Test 20
 ```input
 7
 #########
@@ -133,7 +137,7 @@ S'imprimirà el mapa del bosc a cada passa que hagin donat Hansel i Gretel recup
 #########
 ```
 
-### Test
+### Test private 20
 ```input
 5
 ######
@@ -175,7 +179,7 @@ S'imprimirà el mapa del bosc a cada passa que hagin donat Hansel i Gretel recup
 ######
 ```
 
-### Test
+### Test private 20
 ```input
 7
 #########
@@ -245,7 +249,7 @@ S'imprimirà el mapa del bosc a cada passa que hagin donat Hansel i Gretel recup
 #########
 ```
 
-### Test private
+### Test private 20
 ```input
 8
 ##########

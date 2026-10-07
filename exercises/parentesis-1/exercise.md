@@ -1,6 +1,6 @@
 ---
 slug: parentesis-1
-tags: [for]
+tags: [condicionales, control-de-flujo]
 ---
 # Parèntesis
 
@@ -13,6 +13,7 @@ Els parèntesis han d'estar ben emparellats: un pàrentesi que s'obre s'ha de ta
 Volem fer un programa que ens indiqui si hi ha algun error d'emparellament de parèntesis en una expressió. El programa informarà de:
 
 - Cada parèntesi tancat que no s'hagi obert prèviament, indicant la posició d'aquest parèntesi
+
 - La quantitat de parèntesis oberts que no s'hagin tancat
 
 ## Input
@@ -26,6 +27,7 @@ L'expressió finalitza amb la paraula `END`.
 S'imprimirà:
 
 - `ERROR: parentesi {posicio} mal tancat` per cada parèntesi mal tancat, on `{posicio}` és la posició d'aquest parèntesi
+
 - `ERROR: falta tancar {quantitat} parentesis` si hi ha parèntesis per tancar, on `{quantitat}` és la quantitat de parèntesis que falta tancar
 
 Si els parèntesis estan ben emparellats, no s'ha d'imprimir res.
@@ -36,54 +38,49 @@ Un possible solució al problema consisteix en:
 
 - Crear tres comptadors:
 
-<ul><li>un per als parèntesis `oberts`
+un per als parèntesis `oberts`
+
 - un per als `tancats`
+
 - un per al `total` de parèntesis (oberts i tancats)
 
-</li>
-<li>Aleshores, es van llegint una a una les paraules de l'expressió.
+- Aleshores, es van llegint una a una les paraules de l'expressió.
 
-- Si la paraula llegida es un parèntesi obert `(`
+Si la paraula llegida es un parèntesi obert `(`
 
-<ul><li>es suma 1 al comptador de parèntesis `oberts`
+es suma 1 al comptador de parèntesis `oberts`
+
 - també es suma 1 al `total` de parèntesis.
 
-</li>
-<li>Si es llegeix un parèntesi tancat `)`
+- Si es llegeix un parèntesi tancat `)`
 
-- es suma 1 al de `tancats`
+es suma 1 al de `tancats`
+
 - es suma 1 al de `total`
+
 - A més a més, mirem si el comptador de `tancats` és major al d'`oberts`
 
-<ul><li>si és així, és que hi ha un error de parèntesi mal tancat. Imprimim l'error, i restem 1 al comptador de `tancats`
+si és així, és que hi ha un error de parèntesi mal tancat. Imprimim l'error, i restem 1 al comptador de `tancats`
 
-</li></ul></li></ul></li>
-<li>Un cop s'ha acabat de llegir tota l'expressió, s'haurien d'haver comptat el mateix número d'`oberts` que de `tancats`. Si no és així, és que falten parèntesis per tancar.</li>
-</ul>
+- Un cop s'ha acabat de llegir tota l'expressió, s'haurien d'haver comptat el mateix número d'`oberts` que de `tancats`. Si no és així, és que falten parèntesis per tancar.
 
 ## Tests
 
-### Test
+### Test 7.14
 ```input
 ( 2 + 1 ) * 4     END
 ```
 ```output
 ```
-```explanation
-Els parèntesis estan ben emparellats
-```
 
-### Test
+### Test 7.14
 ```input
 ( ( 2 + 1 ) * 4 )    END
 ```
 ```output
 ```
-```explanation
-Els parèntesis estan ben emparellats
-```
 
-### Test
+### Test private 7.14
 ```input
 2 + 1 ) * 4     END
 ```
@@ -91,7 +88,7 @@ Els parèntesis estan ben emparellats
 ERROR: parentesi 1 mal tancat
 ```
 
-### Test
+### Test private 7.14
 ```input
 ( 2 + 1 ) * 4 )     END
 ```
@@ -99,7 +96,7 @@ ERROR: parentesi 1 mal tancat
 ERROR: parentesi 3 mal tancat
 ```
 
-### Test
+### Test private 7.14
 ```input
 2 + 1 ) * 4 )     END
 ```
@@ -108,7 +105,7 @@ ERROR: parentesi 1 mal tancat
 ERROR: parentesi 2 mal tancat
 ```
 
-### Test
+### Test private 7.14
 ```input
 ( 2 + 1 ) * 4 )     END
 ```
@@ -116,7 +113,7 @@ ERROR: parentesi 2 mal tancat
 ERROR: parentesi 3 mal tancat
 ```
 
-### Test
+### Test private 7.14
 ```input
 ( 2 + 2 ) * 3 ) + ( 3 + 2 ) * 3 )        END
 ```
@@ -125,7 +122,7 @@ ERROR: parentesi 3 mal tancat
 ERROR: parentesi 6 mal tancat
 ```
 
-### Test
+### Test private 7.14
 ```input
 ( 2 + 1 * 4     END
 ```
@@ -133,7 +130,7 @@ ERROR: parentesi 6 mal tancat
 ERROR: falta tancar 1 parentesis
 ```
 
-### Test
+### Test private 7.14
 ```input
 ( 2 + ( 1 * 4     END
 ```
@@ -141,7 +138,7 @@ ERROR: falta tancar 1 parentesis
 ERROR: falta tancar 2 parentesis
 ```
 
-### Test
+### Test private 7.14
 ```input
 ( 2 + ( 1 + ( 3 * 4 )     END
 ```
@@ -149,7 +146,7 @@ ERROR: falta tancar 2 parentesis
 ERROR: falta tancar 2 parentesis
 ```
 
-### Test
+### Test private 7.14
 ```input
 ( 2 * ( 2 * ( 2 - 2 ) * ( 2 - 2 )   END
 ```
@@ -157,7 +154,7 @@ ERROR: falta tancar 2 parentesis
 ERROR: falta tancar 2 parentesis
 ```
 
-### Test
+### Test private 7.14
 ```input
 2 - ( 2 * 2 ) + ( 2 - 2      END
 ```
@@ -165,7 +162,7 @@ ERROR: falta tancar 2 parentesis
 ERROR: falta tancar 1 parentesis
 ```
 
-### Test
+### Test private 7.14
 ```input
 2 - ( 2 * 2 ) ) * ( 2 + 2     END
 ```
@@ -174,7 +171,7 @@ ERROR: parentesi 3 mal tancat
 ERROR: falta tancar 1 parentesis
 ```
 
-### Test private
+### Test private 7.18
 ```input
 2 * 2 ) + ( 2 - 2       END
 ```

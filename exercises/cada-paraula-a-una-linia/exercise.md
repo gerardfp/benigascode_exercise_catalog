@@ -1,6 +1,6 @@
 ---
 slug: cada-paraula-a-una-linia
-tags: [scanner]
+tags: [condicionales, control-de-flujo]
 ---
 # Cada paraula a una línia
 
@@ -28,7 +28,7 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 20
 ```input
 Java te
 8 tipus primitius
@@ -41,7 +41,7 @@ tipus
 primitius
 ```
 
-### Test
+### Test 20
 ```input
 Java te 5
 operadors
@@ -55,7 +55,7 @@ operadors
 aritmetics
 ```
 
-### Test
+### Test private 20
 ```input
 gat gos
 vaca
@@ -69,7 +69,7 @@ porc
 gall
 ```
 
-### Test
+### Test private 20
 ```input
 a b c d e
 ```
@@ -81,7 +81,7 @@ d
 e
 ```
 
-### Test private
+### Test private 20
 ```input
 q w d r t
 ```

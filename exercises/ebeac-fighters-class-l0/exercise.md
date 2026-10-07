@@ -1,6 +1,5 @@
 ---
 slug: ebeac-fighters-class-l0
-tags: [class, L0]
 ---
 # Fighters
 
@@ -65,7 +64,7 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 33.33
 ```input
 ryu 80 90 80
 honda 100 60 50
@@ -74,7 +73,7 @@ honda 100 60 50
 ryu
 ```
 
-### Test
+### Test private 33.33
 ```input
 blanka 80 80 80
 chun-li 60 90 100
@@ -83,7 +82,7 @@ chun-li 60 90 100
 chun-li
 ```
 
-### Test private
+### Test private 33.34
 ```input
 ryu 80 90 80
 ken 80 80 90

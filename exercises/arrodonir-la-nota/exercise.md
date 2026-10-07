@@ -1,6 +1,6 @@
 ---
 slug: arrodonir-la-nota
-tags: [conversio]
+tags: [casting, operators]
 ---
 # Arrodonir la nota
 
@@ -10,27 +10,9 @@ Al butlletí de notes no es poden posar notes amb decimals, així que el profess
 
 Una nota amb o sense decimals
 
-## Output
-
-enter
-
-## Plantillas
-
-```java
-import java.util.*;
-
-public class Main {
-    public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-      
-      
-    }
-}
-```
-
 ## Tests
 
-### Test
+### Test 16.67
 ```input
 5.1
 ```
@@ -38,7 +20,7 @@ public class Main {
 5
 ```
 
-### Test
+### Test 16.67
 ```input
 7.49
 ```
@@ -46,7 +28,7 @@ public class Main {
 7
 ```
 
-### Test
+### Test private 16.67
 ```input
 10
 ```
@@ -54,7 +36,7 @@ public class Main {
 10
 ```
 
-### Test
+### Test private 16.67
 ```input
 4.5
 ```
@@ -62,7 +44,7 @@ public class Main {
 5
 ```
 
-### Test
+### Test private 16.67
 ```input
 7.75
 ```
@@ -70,7 +52,7 @@ public class Main {
 8
 ```
 
-### Test private
+### Test private 16.65
 ```input
 6
 ```

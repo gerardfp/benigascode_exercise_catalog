@@ -1,6 +1,5 @@
 ---
 slug: operadores-perdidos
-tags: [if]
 ---
 # Operadors perduts
 
@@ -8,7 +7,7 @@ Donats dos operands i un resultat, troba l'operador que satisfà la operació.
 
 Els operadors possibles són: suma, resta, multiplicació, divisió i mòdul.
 
-```
+```text
 + - * / %
 ```
 
@@ -20,56 +19,53 @@ Si no es pot satisfer amb ninguna operació s'escriurà "IMPOSSIBLE".
 
 Dos operands O1 i O2. I un resultat R
 
+0 <= O1 <= 10^9
+
+0 <= O2 <= 10^9
+
+0 <= R <= 10^9
+
 ## Output
 
 Es mostrarà el símbol de l'operador que satisfà la operació.
 
-```
+```text
 + - * / %
 ```
 
 En cas de que no es puig satisfer amb cap, es mostrarà:
 
-```
+```text
 IMPOSSIBLE
 ```
 
 ## Tests
 
-### Test
+### Test 7.14
 ```input
 1 1 1
 ```
 ```output
 *
 ```
-```explanation
-1 ***** 1 = 1
-```
 
-### Test
+### Test 7.14
 ```input
 1 2 3
 ```
 ```output
 +
 ```
-```explanation
-1 **+** 2 = 3
-```
 
-### Test
+### Test private 7.14
 ```input
 0 0 0
 ```
 ```output
 +
 ```
-```explanation
-0 **+** 0 = 0
-```
 
-### Test
+### Test private 7.14
 ```input
 10 0 7
 ```
@@ -77,18 +73,15 @@ IMPOSSIBLE
 IMPOSSIBLE
 ```
 
-### Test
+### Test private 7.14
 ```input
 1 3 1
 ```
 ```output
 %
 ```
-```explanation
-1 **%** 3 = 1
-```
 
-### Test
+### Test private 7.14
 ```input
 30 12 6
 ```
@@ -96,7 +89,7 @@ IMPOSSIBLE
 %
 ```
 
-### Test
+### Test private 7.14
 ```input
 13 7 91
 ```
@@ -104,7 +97,7 @@ IMPOSSIBLE
 *
 ```
 
-### Test
+### Test private 7.14
 ```input
 14 7 2
 ```
@@ -112,7 +105,7 @@ IMPOSSIBLE
 /
 ```
 
-### Test
+### Test private 7.14
 ```input
 10 3 1
 ```
@@ -120,7 +113,7 @@ IMPOSSIBLE
 %
 ```
 
-### Test
+### Test private 7.14
 ```input
 55 15 10
 ```
@@ -128,7 +121,7 @@ IMPOSSIBLE
 %
 ```
 
-### Test
+### Test private 7.14
 ```input
 84 0 0
 ```
@@ -136,7 +129,7 @@ IMPOSSIBLE
 *
 ```
 
-### Test
+### Test private 7.14
 ```input
 62 0 21
 ```
@@ -144,7 +137,7 @@ IMPOSSIBLE
 IMPOSSIBLE
 ```
 
-### Test
+### Test private 7.14
 ```input
 99 15 29
 ```
@@ -152,7 +145,7 @@ IMPOSSIBLE
 IMPOSSIBLE
 ```
 
-### Test private
+### Test private 7.18
 ```input
 93 49 20
 ```

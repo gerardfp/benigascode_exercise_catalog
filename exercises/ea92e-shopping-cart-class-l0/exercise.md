@@ -1,6 +1,5 @@
 ---
 slug: ea92e-shopping-cart-class-l0
-tags: [class, L0]
 ---
 # Shopping Cart
 
@@ -55,7 +54,7 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 50
 ```input
 4
 FREKVENS Altavoz, 10x20 cm
@@ -75,7 +74,7 @@ ShoppingCart
        ENEBY Altavoz Bluetooth, 30x30 cm   89.99
 ```
 
-### Test private
+### Test private 50
 ```input
 2
 LILLHULT MiniUSB cable, 0.4 m

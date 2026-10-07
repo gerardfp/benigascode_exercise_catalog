@@ -1,6 +1,5 @@
 ---
 slug: e2ac7-rebajas-class-l0
-tags: [class, L0]
 ---
 # Rebaixes
 
@@ -68,7 +67,7 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 33.33
 ```input
 producto1 10
 15
@@ -78,7 +77,7 @@ Producto{descripcion='producto1', precio=10.0}
 Producto{descripcion='producto1', precio=8.5}
 ```
 
-### Test
+### Test private 33.33
 ```input
 productoX 100
 25
@@ -88,7 +87,7 @@ Producto{descripcion='productoX', precio=100.0}
 Producto{descripcion='productoX', precio=75.0}
 ```
 
-### Test private
+### Test private 33.34
 ```input
 productoV 4.5
 1.5

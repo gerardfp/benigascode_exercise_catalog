@@ -1,6 +1,5 @@
 ---
 slug: definir-la-classe-comptecorrent
-tags: [class]
 ---
 # Definir la classe CompteCorrent
 
@@ -35,7 +34,13 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 50
+```input
+```
+```output
+```
+
+### Test private 50
 ```input
 ```
 ```output

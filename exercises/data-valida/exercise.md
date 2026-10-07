@@ -1,6 +1,5 @@
 ---
 slug: data-valida
-tags: [operadors]
 ---
 # Data vàlida
 
@@ -20,40 +19,31 @@ Tres nombres corresponents a una data en format `dd/mm/yyyy`
 
 ## Tests
 
-### Test
+### Test 6.25
 ```input
 1 10 2000
 ```
 ```output
 true
 ```
-```explanation
-1 d'Octubre del 2000 és una data vàlida
-```
 
-### Test
+### Test 6.25
 ```input
 1 1 2000
 ```
 ```output
 true
 ```
-```explanation
-32 d'Ocutbre del 2000 no és una data vàlida
-```
 
-### Test
+### Test private 6.25
 ```input
 32 10 2000
 ```
 ```output
 false
 ```
-```explanation
-31 d'Octubre del 2000 és una data vàlida
-```
 
-### Test
+### Test private 6.25
 ```input
 31 10 2000
 ```
@@ -61,40 +51,31 @@ false
 true
 ```
 
-### Test
+### Test private 6.25
 ```input
 31 11 2000
 ```
 ```output
 false
 ```
-```explanation
-El 2000 és bixest
-```
 
-### Test
+### Test private 6.25
 ```input
 29 2 2000
 ```
 ```output
 true
 ```
-```explanation
-El 1900 no és bixest
-```
 
-### Test
+### Test private 6.25
 ```input
 29 2 1900
 ```
 ```output
 false
 ```
-```explanation
-El 1904 és bixest
-```
 
-### Test
+### Test private 6.25
 ```input
 29 2 1904
 ```
@@ -102,7 +83,7 @@ El 1904 és bixest
 true
 ```
 
-### Test
+### Test private 6.25
 ```input
 28 2 1994
 ```
@@ -110,7 +91,7 @@ true
 true
 ```
 
-### Test
+### Test private 6.25
 ```input
 29 2 2020
 ```
@@ -118,7 +99,7 @@ true
 true
 ```
 
-### Test
+### Test private 6.25
 ```input
 29 2 2100
 ```
@@ -126,7 +107,7 @@ true
 false
 ```
 
-### Test
+### Test private 6.25
 ```input
 31 8 2024
 ```
@@ -134,7 +115,7 @@ false
 true
 ```
 
-### Test
+### Test private 6.25
 ```input
 31 9 2024
 ```
@@ -142,7 +123,7 @@ true
 false
 ```
 
-### Test
+### Test private 6.25
 ```input
 30 6 2024
 ```
@@ -150,7 +131,7 @@ false
 true
 ```
 
-### Test
+### Test private 6.25
 ```input
 31 4 2024
 ```
@@ -158,7 +139,7 @@ true
 false
 ```
 
-### Test private
+### Test private 6.25
 ```input
 0 1 2020
 ```

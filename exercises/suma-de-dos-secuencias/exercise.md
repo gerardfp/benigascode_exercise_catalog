@@ -1,5 +1,6 @@
 ---
 slug: suma-de-dos-secuencias
+tags: [matemáticas, algorithms]
 ---
 # Suma de dos secuencias
 
@@ -10,13 +11,15 @@ Dadas dos secuencias de números, sumar cada número de la primera con su corres
 La entrada consta de dos secuencias de números.
 Para cada secuencia primero se indica la cantidad N de números que hay en la secuencia. A continuación viene la secuencia.
 
+1 <= N <= 100
+
 ## Output
 
 La secuencia de números resultante, separados por espacios en blanco
 
 ## Tests
 
-### Test
+### Test 20
 ```input
 3    1 2 3
 3    1 2 3
@@ -25,7 +28,7 @@ La secuencia de números resultante, separados por espacios en blanco
 2 4 6
 ```
 
-### Test
+### Test 20
 ```input
 3    1 2 3
 3    4 5 6
@@ -34,7 +37,7 @@ La secuencia de números resultante, separados por espacios en blanco
 5 7 9
 ```
 
-### Test
+### Test private 20
 ```input
 4    100 200 300 400
 4    10 20 30 40
@@ -43,7 +46,7 @@ La secuencia de números resultante, separados por espacios en blanco
 110 220 330 440
 ```
 
-### Test
+### Test private 20
 ```input
 5    2 1 4 3 2
 5    3 4 2 3 4
@@ -52,7 +55,7 @@ La secuencia de números resultante, separados por espacios en blanco
 5 5 6 6 6
 ```
 
-### Test private
+### Test private 20
 ```input
 1    10
 1    10

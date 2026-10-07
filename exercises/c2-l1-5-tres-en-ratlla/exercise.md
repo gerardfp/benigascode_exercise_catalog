@@ -1,6 +1,5 @@
 ---
 slug: c2-l1-5-tres-en-ratlla
-tags: [if]
 ---
 # Tres en ratlla
 
@@ -14,13 +13,15 @@ Les caselles buides es marquen amb un 0.
 
 Les caselles amb una fitxa es marquen amb un 1 o un 2.
 
+El tauler és vàlid.
+
 ## Output
 
 Jugador1 | Jugador2 | Empat
 
 ## Tests
 
-### Test
+### Test 10
 ```input
 1 1 1
 2 2 0
@@ -30,7 +31,7 @@ Jugador1 | Jugador2 | Empat
 Jugador1
 ```
 
-### Test
+### Test 10
 ```input
 1 2 2
 1 2 2
@@ -40,7 +41,7 @@ Jugador1
 Jugador1
 ```
 
-### Test
+### Test private 10
 ```input
 1 2 2
 2 1 0
@@ -50,7 +51,7 @@ Jugador1
 Jugador1
 ```
 
-### Test
+### Test private 10
 ```input
 0 0 0
 1 1 1
@@ -60,7 +61,7 @@ Jugador1
 Jugador1
 ```
 
-### Test
+### Test private 10
 ```input
 0 0 0
 1 1 2
@@ -70,7 +71,7 @@ Jugador1
 Empat
 ```
 
-### Test
+### Test private 10
 ```input
 0 1 0
 2 1 2
@@ -80,7 +81,7 @@ Empat
 Jugador1
 ```
 
-### Test
+### Test private 10
 ```input
 1 0 2
 1 2 0
@@ -90,7 +91,7 @@ Jugador1
 Jugador2
 ```
 
-### Test
+### Test private 10
 ```input
 1 1 0
 1 1 0
@@ -100,7 +101,7 @@ Jugador2
 Jugador2
 ```
 
-### Test
+### Test private 10
 ```input
 0 2 1
 2 1 1
@@ -110,7 +111,7 @@ Jugador2
 Jugador1
 ```
 
-### Test private
+### Test private 10
 ```input
 0 0 0
 0 0 0

@@ -9,33 +9,27 @@ Donades les tuples de la següent relació:
 
 Realitza les següents consultes:
 
-```
-SELECT * 
+```text
+SELECT *
     FROM patients
 ```
 
-```
-SELECT * 
-    FROM patients 
+```text
+SELECT *
+    FROM patients
     WHERE LOWER(name) LIKE %pa% OR LOWER(lastname) LIKE %er%
 ```
 
-```
-SELECT name, lastname, birthdate 
-    FROM patients 
+```text
+SELECT name, lastname, birthdate
+    FROM patients
     WHERE birthdate BETWEEN '1707-04-15' AND '1937-12-26'
 ```
 
-```
+```text
 SELECT name, lastname, weight/height^2 AS ims
-    FROM patients 
-    WHERE weight/height^2 < 18.5
-```
-
-```
-SELECT name, lastname, weight/height^2 AS ims
-    FROM patients 
-    WHERE weight/height^2 > 25 AND (diabetes IS TRUE || hepatitis IS TRUE)
+    FROM patients
+    WHERE weight/height^2  25 AND (diabetes IS TRUE || hepatitis IS TRUE)
 ```
 
 ## Input
@@ -44,7 +38,7 @@ El primer nombre indica el la quantitat de tuples que venen a continuació.
 
 El format de cada tupla és:
 
-```
+```text
 id lastname, name, birthdate, height, weight, diabetes, hepatitis
 ```
 
@@ -58,7 +52,7 @@ En les dades d'entrada poden haver diversos espais en blanc entre els diferents 
 
 El format de sortida serà en format taula:
 
-```
+```text
 col1   |col2   |col3
 -------+-------+-------
 val    |val    |val
@@ -70,9 +64,13 @@ Els noms de les columnes s'aliniaran a l'esquerra.
 El format dels valors ha de ser:
 
 - Integer: amplada 4, aliniat a l'esquerra
+
 - String: amplada 16, aliniat a l'esquerra
+
 - Data: amplada 12, aliniat a la dreta
+
 - Float: amplada 10, aliniat a la dreta, amb dues xifres decimals
+
 - Boolean: amplada 10, aliniat a la dreta, {true|false}
 
 S'ha de deixar una separació de 2 salts de línia entre cada resultat.
@@ -109,7 +107,7 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 50
 ```input
 10
 1 of Samos,   Pyhtagoras, -0570-01-01, 1.75, 63.2, 0, 0
@@ -167,7 +165,7 @@ Carl            |Gauss           |   31.90
 John            |Conway          |   29.81
 ```
 
-### Test private
+### Test private 50
 ```input
 10
 1 of Samos,   Pyhtagoras, -0570-01-01, 1.75, 63.2, 0, 0

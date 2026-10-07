@@ -19,13 +19,16 @@ La entrada consta de una serie de casos de prueba.
 El primer número T indica la cantidad de casos de prueba que vienen a continuación.
 Por cada caso de prueba se indica en el primer número N la cantidad de picos que hay en la secuencia, y a continuación vienen los picos de dicha secuencia. **El primer pico de cada secuencia es un pico mínimo**.
 
+1 <= T <= 100
+1 <= N <= 10^7
+
 ## Output
 
 Por cada caso de prueba se escribirá en una sola linea la sucesión de números consecutivos, separados por un espacio en blanco.
 
 ## Tests
 
-### Test
+### Test 33.33
 ```input
 2
 5 100 104 102 105 101
@@ -36,7 +39,7 @@ Por cada caso de prueba se escribirá en una sola linea la sucesión de números
 50 51 52 53 54 55 54 53 52 51 50 51 52 53 54 55
 ```
 
-### Test
+### Test private 33.33
 ```input
 3
 4 10 13 10 14
@@ -49,7 +52,7 @@ Por cada caso de prueba se escribirá en una sola linea la sucesión de números
 20 21 22 23 24 25 26 27 28 29 30
 ```
 
-### Test private
+### Test private 33.34
 ```input
 1
 2 1 3

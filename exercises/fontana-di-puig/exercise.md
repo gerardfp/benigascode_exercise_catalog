@@ -28,15 +28,24 @@ Nuestro programa leerá este registro y calculará cuantas monedas se han lanzad
 5 15 35 85 185 385 0
 
 - 5 - Se ha lanzado una moneda de 5 céntimos
+
 - 15 - Se ha lanzado una moneda de 10 céntimos
+
 - 35 - Se ha lanzado una moneda de 20 céntimos
+
 - 85 - Se ha lanzado una moneda de 50 céntimos
+
 - 185 - Se ha lanzado una moneda de 100 céntimos
+
 - 385 - Se ha lanzado una moneda de 200 céntimos
 
 ## Input
 
 5 15 35 85 185 385 0
+
+La entrada SIEMPRE será correcta. No se producirán incrementos diferentes a los indicados.
+
+La entrada acabará con un 0.
 
 ## Output
 
@@ -54,7 +63,7 @@ Nuestro programa leerá este registro y calculará cuantas monedas se han lanzad
 
 ## Tests
 
-### Test
+### Test 20
 ```input
 10 15 20 25 0
 ```
@@ -66,12 +75,8 @@ Nuestro programa leerá este registro y calculará cuantas monedas se han lanzad
 100) 0
 200) 0
 ```
-```explanation
-3 monedas de 5 céntimos
-1 moneda de 10 céntimos
-```
 
-### Test
+### Test 20
 ```input
 5 15 35 85 185 385 0
 ```
@@ -84,7 +89,7 @@ Nuestro programa leerá este registro y calculará cuantas monedas se han lanzad
 200) 1
 ```
 
-### Test
+### Test private 20
 ```input
 100 105 115 135 0
 ```
@@ -97,7 +102,7 @@ Nuestro programa leerá este registro y calculará cuantas monedas se han lanzad
 200) 0
 ```
 
-### Test
+### Test private 20
 ```input
 5 10 15 25 125 0
 ```
@@ -110,7 +115,7 @@ Nuestro programa leerá este registro y calculará cuantas monedas se han lanzad
 200) 0
 ```
 
-### Test private
+### Test private 20
 ```input
 5 10 15 20 220 270 275 285 290 300 0
 ```

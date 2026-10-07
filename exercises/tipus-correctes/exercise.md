@@ -1,6 +1,5 @@
 ---
 slug: tipus-correctes
-tags: [variables]
 ---
 # Tipus correctes
 
@@ -37,7 +36,18 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 50
+```input
+```
+```output
+2020
+Abril
+37.5
+false
+;
+```
+
+### Test private 50
 ```input
 ```
 ```output

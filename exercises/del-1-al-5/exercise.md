@@ -16,13 +16,16 @@ La entrada consta de varios casos de prueba.
 El primer número T indica el número de casos de prueba.
 Cada caso de prueba consta de una secuencia de N números que termina con un 0.
 
+1 <= T <= 100
+1 <= N <= 100
+
 ## Output
 
 Un "SI" o un "NO" por cada caso de prueba, separados por un salto de linea
 
 ## Tests
 
-### Test
+### Test 25
 ```input
 1
 1 2 3 4 5 0
@@ -31,7 +34,7 @@ Un "SI" o un "NO" por cada caso de prueba, separados por un salto de linea
 SI
 ```
 
-### Test
+### Test 25
 ```input
 2
 1 2 3 4 5 0
@@ -42,7 +45,7 @@ SI
 NO
 ```
 
-### Test
+### Test private 25
 ```input
 3
 1 2 3 4 0
@@ -55,7 +58,7 @@ SI
 SI
 ```
 
-### Test private
+### Test private 25
 ```input
 4
 7 6 5 4 3 2 0

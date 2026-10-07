@@ -1,6 +1,5 @@
 ---
 slug: c5-l4-4-sopa-de-lletres
-tags: [strings]
 ---
 # Sopa de lletres
 
@@ -16,6 +15,8 @@ Cada línia de la sopa de lletres consta d'una sèrie de caracters separats per 
 
 A continuació ve una línia en blanc, i després una llista de paraules que hi ha que cercar, separadaes per espais en blanc.
 
+No hi ha restriccions significatives.
+
 ## Output
 
 S'imprimirà la sopa de lletres amb les paraules trobades escrites en majúscules.
@@ -24,7 +25,7 @@ S'imprimirà la sopa de lletres amb les paraules trobades escrites en majúscule
 
 ## Tests
 
-### Test
+### Test 11.11
 ```input
 2
 a b
@@ -37,7 +38,7 @@ A B
 c d
 ```
 
-### Test
+### Test 11.11
 ```input
 3
 t e w
@@ -52,7 +53,7 @@ k j x
 y q v
 ```
 
-### Test
+### Test private 11.11
 ```input
 3
 t e w
@@ -67,7 +68,7 @@ k j x
 M A R
 ```
 
-### Test
+### Test private 11.11
 ```input
 4
 c e w x
@@ -84,7 +85,7 @@ S w r v
 A z h q
 ```
 
-### Test
+### Test private 11.11
 ```input
 4
 c e w x
@@ -101,7 +102,7 @@ s w r v
 M A P A
 ```
 
-### Test
+### Test private 11.11
 ```input
 5
 c e w x a
@@ -120,7 +121,7 @@ M A P A G
 P I S T A
 ```
 
-### Test
+### Test private 11.11
 ```input
 6
 a e w x a v c
@@ -141,7 +142,7 @@ s w E t I h y
 p z s t F O R
 ```
 
-### Test
+### Test private 11.11
 ```input
 3
 i f i f
@@ -156,7 +157,7 @@ F I F I
 I F I F
 ```
 
-### Test private
+### Test private 11.12
 ```input
 9
 t r u e i f s x z w n e b r

@@ -1,6 +1,5 @@
 ---
 slug: e33c4-full-de-notes
-tags: [for]
 ---
 # Full de notes
 
@@ -16,7 +15,7 @@ S'imprimirà la matriu de notes, afegint la columna de la mitjana.
 
 ## Tests
 
-### Test
+### Test 25
 ```input
 3 4
 4 6 5 5
@@ -29,7 +28,7 @@ S'imprimirà la matriu de notes, afegint la columna de la mitjana.
 4 5 6 5 5.0
 ```
 
-### Test
+### Test 25
 ```input
 4 3
 4 6 5
@@ -44,7 +43,7 @@ S'imprimirà la matriu de notes, afegint la columna de la mitjana.
 9 6 5 6.6666665
 ```
 
-### Test
+### Test private 25
 ```input
 2 6
 4 6 5 8 8 6
@@ -55,7 +54,7 @@ S'imprimirà la matriu de notes, afegint la columna de la mitjana.
 4 5 6 9 6 5 5.8333335
 ```
 
-### Test private
+### Test private 25
 ```input
 2 2
 4 6

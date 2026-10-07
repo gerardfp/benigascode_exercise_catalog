@@ -22,13 +22,16 @@ La entrada consta de una serie de casos de prueba.
 El primer número T indica la cantidad de casos de prueba que vienen a continuación.
 Por cada caso de prueba se indica en el primer número N la cantidad de números que hay en la secuencia, y a continuación vienen los números de dicha secuencia.
 
+1 <= T <= 100
+1 <= N <= 10^7
+
 ## Output
 
 Por cada caso de prueba se imprimirá en una linea la secuencia de picos encontrados, separados por un espacio.
 
 ## Tests
 
-### Test
+### Test 33.33
 ```input
 2
 6 100 101 102 101 102 103
@@ -39,7 +42,7 @@ Por cada caso de prueba se imprimirá en una linea la secuencia de picos encontr
 64
 ```
 
-### Test
+### Test private 33.33
 ```input
 3
 7 100 99 98 97 98 99 100
@@ -52,7 +55,7 @@ Por cada caso de prueba se imprimirá en una linea la secuencia de picos encontr
 9 9 9
 ```
 
-### Test private
+### Test private 33.34
 ```input
 1
 3 1 2 1

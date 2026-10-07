@@ -1,5 +1,6 @@
 ---
 slug: el-primo-del-pueblo
+tags: [matemáticas, algorithms]
 ---
 # El primo del pueblo
 
@@ -9,13 +10,15 @@ Dado un número, di si es primo o no.
 
 Un número N
 
+1 <= N <= 10^9
+
 ## Output
 
 true | false
 
 ## Tests
 
-### Test
+### Test 10
 ```input
 4
 ```
@@ -23,7 +26,7 @@ true | false
 false
 ```
 
-### Test
+### Test 10
 ```input
 7
 ```
@@ -31,7 +34,7 @@ false
 true
 ```
 
-### Test
+### Test private 10
 ```input
 3
 ```
@@ -39,7 +42,7 @@ true
 true
 ```
 
-### Test
+### Test private 10
 ```input
 2
 ```
@@ -47,7 +50,7 @@ true
 true
 ```
 
-### Test
+### Test private 10
 ```input
 9
 ```
@@ -55,7 +58,7 @@ true
 false
 ```
 
-### Test
+### Test private 10
 ```input
 29
 ```
@@ -63,7 +66,7 @@ false
 true
 ```
 
-### Test
+### Test private 10
 ```input
 13
 ```
@@ -71,7 +74,7 @@ true
 true
 ```
 
-### Test
+### Test private 10
 ```input
 15
 ```
@@ -79,7 +82,7 @@ true
 false
 ```
 
-### Test
+### Test private 10
 ```input
 31
 ```
@@ -87,7 +90,7 @@ false
 true
 ```
 
-### Test private
+### Test private 10
 ```input
 6
 ```

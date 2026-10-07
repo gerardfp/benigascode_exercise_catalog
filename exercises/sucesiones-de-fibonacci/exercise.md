@@ -1,10 +1,10 @@
 ---
 slug: sucesiones-de-fibonacci
-tags: [for]
+tags: [scanner, i/o]
 ---
 # Successions de Fibonacci
 
-La successió de Fibonacci comença amb els nombres 0 i 1, i a partir d'aquests, «cada terme és la suma dels dos anteriors». 
+La successió de Fibonacci comença amb els nombres 0 i 1, i a partir d'aquests, «cada terme és la suma dels dos anteriors».
 
 ![image](1556726526-96eb9e42a6-fibo1.png)
 
@@ -12,9 +12,11 @@ A partir de vàries sequències de nombres, determina si són successions de Fib
 
 ## Input
 
-El primer nombre <span style="font-size: 100%; display: inline-block;" class="MathJax_SVG" id="MathJax-Element-1-Frame"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1.636ex" height="2.176ex" style="vertical-align: -0.338ex;" viewBox="0 -791.3 704.5 936.9" role="img" focusable="false"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><path stroke-width="1" d="M40 437Q21 437 21 445Q21 450 37 501T71 602L88 651Q93 669 101 677H569H659Q691 677 697 676T704 667Q704 661 687 553T668 444Q668 437 649 437Q640 437 637 437T631 442L629 445Q629 451 635 490T641 551Q641 586 628 604T573 629Q568 630 515 631Q469 631 457 630T439 622Q438 621 368 343T298 60Q298 48 386 46Q418 46 427 45T436 36Q436 31 433 22Q429 4 424 1L422 0Q419 0 415 0Q410 0 363 1T228 2Q99 2 64 0H49Q43 6 43 9T45 27Q49 40 55 46H83H94Q174 46 189 55Q190 56 191 56Q196 59 201 76T241 233Q258 301 269 344Q339 619 339 625Q339 630 310 630H279Q212 630 191 624Q146 614 121 583T67 467Q60 445 57 441T43 437H40Z"></path></g></svg></span> indica la quantitat de seqüències que venen després.
+El primer nombre  indica la quantitat de seqüències que venen després.
 
 Cada sequència de N nombres acaba amb un -1.
+
+Cada seqüència té almenys 2 números.
 
 ## Output
 
@@ -22,7 +24,7 @@ Un "SI" o un "NO" per cada seqüència; separats per un salt de línia.
 
 ## Tests
 
-### Test
+### Test 20
 ```input
 2
 1 1 2 3    -1
@@ -33,7 +35,7 @@ NO
 SI
 ```
 
-### Test
+### Test 20
 ```input
 2
 0 1 1 2 3 5    -1
@@ -44,7 +46,7 @@ SI
 NO
 ```
 
-### Test
+### Test private 20
 ```input
 2
 1 1 2 3 5    -1
@@ -55,7 +57,7 @@ NO
 SI
 ```
 
-### Test
+### Test private 20
 ```input
 1
 0 1 1 2 3    -1
@@ -64,7 +66,7 @@ SI
 SI
 ```
 
-### Test private
+### Test private 20
 ```input
 4
 0 0 1 1 2 3 5    -1

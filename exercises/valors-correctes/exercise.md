@@ -1,6 +1,5 @@
 ---
 slug: valors-correctes
-tags: [variables]
 ---
 # Valors correctes
 
@@ -42,7 +41,18 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 50
+```input
+```
+```output
+true
+35.6
+2000.0
+true
+true
+```
+
+### Test private 50
 ```input
 ```
 ```output

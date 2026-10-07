@@ -1,6 +1,5 @@
 ---
 slug: ec7cc-song-class-l0
-tags: [class, L0]
 ---
 # Song
 
@@ -45,7 +44,7 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 33.33
 ```input
 One love
 Bob Marley
@@ -57,7 +56,7 @@ true
 ****
 ```
 
-### Test
+### Test private 33.33
 ```input
 Hey Joe
 Jimmi Hendrix
@@ -69,7 +68,7 @@ true
 ****
 ```
 
-### Test private
+### Test private 33.34
 ```input
 Whole Lotta Love
 Led Zeppelin

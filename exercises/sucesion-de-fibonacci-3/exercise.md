@@ -1,10 +1,10 @@
 ---
 slug: sucesion-de-fibonacci-3
-tags: [for]
+tags: [scanner, i/o]
 ---
 # Successió de Fibonacci
 
-La successió de Fibonacci comença amb els nombres 0 i 1, i a partir d'aquests, «cada terme és la suma dels dos anteriors». 
+La successió de Fibonacci comença amb els nombres 0 i 1, i a partir d'aquests, «cada terme és la suma dels dos anteriors».
 
 ![image](1556726526-96eb9e42a6-fibo1.png)
 
@@ -20,7 +20,7 @@ Una seqüència de N nombres enters. La seqüència acaba amb un -1.
 
 ## Tests
 
-### Test
+### Test 12.5
 ```input
 0 1    -1
 ```
@@ -28,7 +28,7 @@ Una seqüència de N nombres enters. La seqüència acaba amb un -1.
 SI
 ```
 
-### Test
+### Test 12.5
 ```input
 0 1 2     -1
 ```
@@ -36,7 +36,7 @@ SI
 NO
 ```
 
-### Test
+### Test private 12.5
 ```input
 0 1 1 2 3 5 8 13 21 34      -1
 ```
@@ -44,7 +44,7 @@ NO
 SI
 ```
 
-### Test
+### Test private 12.5
 ```input
 0 1 1    -1
 ```
@@ -52,7 +52,7 @@ SI
 SI
 ```
 
-### Test
+### Test private 12.5
 ```input
 0 1 1 2 3 4     -1
 ```
@@ -60,7 +60,7 @@ SI
 NO
 ```
 
-### Test
+### Test private 12.5
 ```input
 5 6 11 17 28   -1
 ```
@@ -68,7 +68,7 @@ NO
 NO
 ```
 
-### Test
+### Test private 12.5
 ```input
 0 2 2 4 6 10 -1
 ```
@@ -76,7 +76,7 @@ NO
 NO
 ```
 
-### Test private
+### Test private 12.5
 ```input
 0 0 0 0 0 -1
 ```

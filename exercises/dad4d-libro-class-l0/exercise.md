@@ -1,6 +1,5 @@
 ---
 slug: dad4d-libro-class-l0
-tags: [class, L0]
 ---
 # Libro
 
@@ -51,7 +50,7 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 33.33
 ```input
 C Programming Language
 978-0131103627
@@ -67,7 +66,7 @@ Dennis M. Ritchie
 *****
 ```
 
-### Test
+### Test private 33.33
 ```input
 Expert C Programming: Deep C Secrets
 978-0131774292
@@ -83,7 +82,7 @@ Peter van der Linden
 *****
 ```
 
-### Test private
+### Test private 33.34
 ```input
 C: A Reference Manual
 978-0130895929

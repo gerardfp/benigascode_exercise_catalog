@@ -1,6 +1,5 @@
 ---
 slug: ae12f-notas-class-l0
-tags: [class, L0]
 ---
 # Notas
 
@@ -53,7 +52,7 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 50
 ```input
 5
 9 5.6 7 7.5 6.4
@@ -62,7 +61,7 @@ public class Main {
 Nota media: 7.1
 ```
 
-### Test private
+### Test private 50
 ```input
 3
 10 5 0

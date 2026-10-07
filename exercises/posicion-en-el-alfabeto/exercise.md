@@ -1,5 +1,6 @@
 ---
 slug: posicion-en-el-alfabeto
+tags: [scanner, i/o]
 ---
 # Posició a l'alfabet
 
@@ -15,7 +16,7 @@ La posició de cada lletra en una línia diferent.
 
 ## Tests
 
-### Test
+### Test 16.67
 ```input
 hola
 ```
@@ -26,7 +27,7 @@ hola
 0
 ```
 
-### Test
+### Test 16.67
 ```input
 mon
 ```
@@ -36,7 +37,7 @@ mon
 13
 ```
 
-### Test
+### Test private 16.67
 ```input
 java
 ```
@@ -47,7 +48,7 @@ java
 0
 ```
 
-### Test
+### Test private 16.67
 ```input
 ace
 ```
@@ -57,7 +58,7 @@ ace
 4
 ```
 
-### Test
+### Test private 16.67
 ```input
 tochararray
 ```
@@ -75,7 +76,7 @@ tochararray
 24
 ```
 
-### Test private
+### Test private 16.65
 ```input
 jived fox nymph grabs quick waltz
 ```

@@ -1,6 +1,5 @@
 ---
 slug: inode-flags
-tags: [if]
 ---
 # Inode flags
 
@@ -11,11 +10,12 @@ Un arxiu de Linux té una sèrie d'atributs que es poden activar o desactivar am
 Els atributs que té activats/desactivats un arxiu es guarden amb una estructura anomenada **bit-field**:
 
 - A cada atribut li correspon una puntuació.
+
 - El **bit-field** és la suma de les puntuacions que corresponen als atributs que estan activats.
 
 Els atributs que pot tenir un arxiu, i les seves puntuacions, són:
 
-```
+```text
 +-------------------+-----------+---------------------------------+
 |        Nom        | Puntuació |           Descripció            |
 +-------------------+-----------+---------------------------------+
@@ -30,7 +30,7 @@ Els atributs que pot tenir un arxiu, i les seves puntuacions, són:
 +-------------------+-----------+---------------------------------+
 ```
 
-Per exemple: si un arixu té activats els atributs `EXT4_UNRM_FL` i `EXT4_APPEND_FL`, el seu **bit-field** serà **34**, que és la suma de la puntuació **2** de `EXT4_UNRM_FL` **més** la puntuació **32** de `EXT4_APPEND_FL`. 
+Per exemple: si un arixu té activats els atributs `EXT4_UNRM_FL` i `EXT4_APPEND_FL`, el seu **bit-field** serà **34**, que és la suma de la puntuació **2** de `EXT4_UNRM_FL` **més** la puntuació **32** de `EXT4_APPEND_FL`.
 
 Escriu un programa que a partir del **bit-field** d'un fitxer imprimeixi els atributs que té activats.
 
@@ -42,7 +42,7 @@ Un número enter que representa el **bit-field** d'un arxiu.
 
 S'imprimirà el **Nom** dels atributs que té activats el fitxer en ordre de major a menor puntuació:
 
-```
+```text
 EXT4_NOATIME_FL
 EXT4_NODUMP_FL
 EXT4_APPEND_FL
@@ -62,17 +62,24 @@ Si es pot restar sense que quedi un número negatiu, aleshores és que té aquel
 Per exemple: suposem que el bit-field es **34**:
 
 - tractem de restar 128: no es pot
+
 - tractem de restar 64: no es pot
+
 - tractem de restar 32: sí es pot. Imprimim `EXT4_APPEND_FL`. Restem 32 i queda **2**
+
 - tractem de restar 16: no es pot
+
 - tractem de restar 8: no es pot
+
 - tractem de restar 4: no es pot
+
 - tractem de restar 2: sí es pot. Imprimim `EXT4_UNRM_FL`. Restem 2 i queda **0**
+
 - tractem de restar 1: no es pot
 
 ## Tests
 
-### Test
+### Test 12.5
 ```input
 10
 ```
@@ -80,11 +87,8 @@ Per exemple: suposem que el bit-field es **34**:
 EXT4_SYNC_FL
 EXT4_UNRM_FL
 ```
-```explanation
-10 = 8 + 2
-```
 
-### Test
+### Test 12.5
 ```input
 11
 ```
@@ -93,11 +97,8 @@ EXT4_SYNC_FL
 EXT4_UNRM_FL
 EXT4_SECRM_FL
 ```
-```explanation
-11 = 8 + 2 + 1
-```
 
-### Test
+### Test private 12.5
 ```input
 23
 ```
@@ -107,11 +108,8 @@ EXT4_COMPR_FL
 EXT4_UNRM_FL
 EXT4_SECRM_FL
 ```
-```explanation
-23 = 16 + 4 + 2 + 1
-```
 
-### Test
+### Test private 12.5
 ```input
 31
 ```
@@ -122,11 +120,8 @@ EXT4_COMPR_FL
 EXT4_UNRM_FL
 EXT4_SECRM_FL
 ```
-```explanation
-31 = 16 + 8 + 4 + 2 + 1
-```
 
-### Test
+### Test private 12.5
 ```input
 170
 ```
@@ -136,11 +131,8 @@ EXT4_APPEND_FL
 EXT4_SYNC_FL
 EXT4_UNRM_FL
 ```
-```explanation
-170 = 128 + 32 + 8 + 2
-```
 
-### Test
+### Test private 12.5
 ```input
 255
 ```
@@ -154,11 +146,8 @@ EXT4_COMPR_FL
 EXT4_UNRM_FL
 EXT4_SECRM_FL
 ```
-```explanation
-255 = 128 + 64 + 32 + 16 + 8 + 4 + 2 + 1
-```
 
-### Test
+### Test private 12.5
 ```input
 1
 ```
@@ -166,7 +155,7 @@ EXT4_SECRM_FL
 EXT4_SECRM_FL
 ```
 
-### Test private
+### Test private 12.5
 ```input
 64
 ```

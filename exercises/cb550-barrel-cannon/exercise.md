@@ -1,6 +1,6 @@
 ---
 slug: cb550-barrel-cannon
-tags: [array]
+tags: [arrays]
 ---
 # Barrel Cannon
 
@@ -12,19 +12,19 @@ Cada barril lo dispara con una fuerza, que se representa con un número. Este n�
 
 ![image](1584006805-c463145c6d-dk1.png)
 
-El problema consiste en: dadas la fuerzas de unos barriles y el barril donde cae inicialmente el gorila, averiguar si el gorila terminará saliendo por la IZQUIERDA, por la DERECHA, o si se quedará en un BUCLE sin poder salir.
+El problema consiste en: dadas la fuerzas de unos barriles y el barril donde cae inicialmente el gorila, averiguar si el gorila terminará saliendo por la `IZQUIERDA`, por la `DERECHA`, o si se quedará en un `BUCLE` sin poder salir.
 
 ## Input
 
-El primer número <span style="font-size: 100%; display: inline-block;" class="MathJax_SVG" id="MathJax-Element-1-Frame"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.064ex" height="2.176ex" style="vertical-align: -0.338ex;" viewBox="0 -791.3 888.5 936.9" role="img" focusable="false"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><path stroke-width="1" d="M234 637Q231 637 226 637Q201 637 196 638T191 649Q191 676 202 682Q204 683 299 683Q376 683 387 683T401 677Q612 181 616 168L670 381Q723 592 723 606Q723 633 659 637Q635 637 635 648Q635 650 637 660Q641 676 643 679T653 683Q656 683 684 682T767 680Q817 680 843 681T873 682Q888 682 888 672Q888 650 880 642Q878 637 858 637Q787 633 769 597L620 7Q618 0 599 0Q585 0 582 2Q579 5 453 305L326 604L261 344Q196 88 196 79Q201 46 268 46H278Q284 41 284 38T282 19Q278 6 272 0H259Q228 2 151 2Q123 2 100 2T63 2T46 1Q31 1 31 10Q31 14 34 26T39 40Q41 46 62 46Q130 49 150 85Q154 91 221 362L289 634Q287 635 234 637Z"></path></g></svg></span> indica la cantidad de barriles.
+El primer número  indica la cantidad de barriles.
 
-A continuación vienen los <span style="font-size: 100%; display: inline-block;" class="MathJax_SVG" id="MathJax-Element-2-Frame"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.064ex" height="2.176ex" style="vertical-align: -0.338ex;" viewBox="0 -791.3 888.5 936.9" role="img" focusable="false"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><path stroke-width="1" d="M234 637Q231 637 226 637Q201 637 196 638T191 649Q191 676 202 682Q204 683 299 683Q376 683 387 683T401 677Q612 181 616 168L670 381Q723 592 723 606Q723 633 659 637Q635 637 635 648Q635 650 637 660Q641 676 643 679T653 683Q656 683 684 682T767 680Q817 680 843 681T873 682Q888 682 888 672Q888 650 880 642Q878 637 858 637Q787 633 769 597L620 7Q618 0 599 0Q585 0 582 2Q579 5 453 305L326 604L261 344Q196 88 196 79Q201 46 268 46H278Q284 41 284 38T282 19Q278 6 272 0H259Q228 2 151 2Q123 2 100 2T63 2T46 1Q31 1 31 10Q31 14 34 26T39 40Q41 46 62 46Q130 49 150 85Q154 91 221 362L289 634Q287 635 234 637Z"></path></g></svg></span> números que indican la fuerza de cada barril.
+A continuación vienen los  números que indican la fuerza de cada barril.
 
-El último número <span style="font-size: 100%; display: inline-block;" class="MathJax_SVG" id="MathJax-Element-3-Frame"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="3.99ex" height="2.176ex" style="vertical-align: -0.338ex;" viewBox="0 -791.3 1718 936.9" role="img" focusable="false"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><path stroke-width="1" d="M287 628Q287 635 230 637Q207 637 200 638T193 647Q193 655 197 667T204 682Q206 683 403 683Q570 682 590 682T630 676Q702 659 752 597T803 431Q803 275 696 151T444 3L430 1L236 0H125H72Q48 0 41 2T33 11Q33 13 36 25Q40 41 44 43T67 46Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628ZM703 469Q703 507 692 537T666 584T629 613T590 629T555 636Q553 636 541 636T512 636T479 637H436Q392 637 386 627Q384 623 313 339T242 52Q242 48 253 48T330 47Q335 47 349 47T373 46Q499 46 581 128Q617 164 640 212T683 339T703 469Z"></path><g transform="translate(828,0)"><path stroke-width="1" d="M285 628Q285 635 228 637Q205 637 198 638T191 647Q191 649 193 661Q199 681 203 682Q205 683 214 683H219Q260 681 355 681Q389 681 418 681T463 682T483 682Q500 682 500 674Q500 669 497 660Q496 658 496 654T495 648T493 644T490 641T486 639T479 638T470 637T456 637Q416 636 405 634T387 623L306 305Q307 305 490 449T678 597Q692 611 692 620Q692 635 667 637Q651 637 651 648Q651 650 654 662T659 677Q662 682 676 682Q680 682 711 681T791 680Q814 680 839 681T869 682Q889 682 889 672Q889 650 881 642Q878 637 862 637Q787 632 726 586Q710 576 656 534T556 455L509 418L518 396Q527 374 546 329T581 244Q656 67 661 61Q663 59 666 57Q680 47 717 46H738Q744 38 744 37T741 19Q737 6 731 0H720Q680 3 625 3Q503 3 488 0H478Q472 6 472 9T474 27Q478 40 480 43T491 46H494Q544 46 544 71Q544 75 517 141T485 216L427 354L359 301L291 248L268 155Q245 63 245 58Q245 51 253 49T303 46H334Q340 37 340 35Q340 19 333 5Q328 0 317 0Q314 0 280 1T180 2Q118 2 85 2T49 1Q31 1 31 11Q31 13 34 25Q38 41 42 43T65 46Q92 46 125 49Q139 52 144 61Q147 65 216 339T285 628Z"></path></g></g></svg></span> indica la posición de Donkey Kong (el primer barril en el que cae).
+El último número  indica la posición inicial de Donkey Kong (el primer barril en el que cae).
 
 ## Output
 
-{ IZQUIERDA | DERECHA | BUCLE }
+{ `IZQUIERDA` | `DERECHA` | `BUCLE` }
 
 ## Tests
 
@@ -37,21 +37,6 @@ El último número <span style="font-size: 100%; display: inline-block;" class="
 ```output
 DERECHA
 ```
-```explanation
-La posición de DK es   2
-
-El barril en la posición  2 tiene fuerza  1   →   la posición de DK pasa a ser  3 (2+1)
-
-El barril en la posición  3 tiene fuerza -2   →   la posición de DK pasa a ser  1 (3-2)
-
-El barril en la posición  1 tiene fuerza  3   →   la posición de DK pasa a ser  4 (3+1)
-
-El barril en la posición  4 tiene fuerza  1   →   la posición de DK pasa a ser  5 (4+1) 
-
-Como 5 es mayor que la posición del último barril, DK ha salido por la DERECHA.
-
-![image](1584006901-4ea46d5871-dk2.png)
-```
 
 ### Test
 ```input
@@ -62,19 +47,6 @@ Como 5 es mayor que la posición del último barril, DK ha salido por la DERECHA
 ```output
 IZQUIERDA
 ```
-```explanation
-La posición de DK es   1
-
-El barril en la posición  1 tiene fuerza  1   →   la posición de DK pasa a ser  2 (1+1)
-
-El barril en la posición  2 tiene fuerza -2   →   la posición de DK pasa a ser  0 (2-2)
-
-El barril en la posición  0 tiene fuerza -2   →   la posición de DK pasa a ser -2 (0-2)
-
-Como -2 es menor que la posición del primer barril, DK ha salido por la IZQUIERDA
-
-![image](1584006996-808264f89f-dk3.png)
-```
 
 ### Test
 ```input
@@ -84,19 +56,6 @@ Como -2 es menor que la posición del primer barril, DK ha salido por la IZQUIER
 ```
 ```output
 BUCLE
-```
-```explanation
-La posición de DK es   3
-
-El barril en la posición  3 tiene fuerza  1   →   la posición de DK pasa a ser  4 (3+1)
-
-El barril en la posición  4 tiene fuerza -2   →   la posición de DK pasa a ser  2 (4-2)
-
-El barril en la posición  2 tiene fuerza  1   →   la posición de DK pasa a ser  3 (2+1)
-
-A partir de aqui entra en un BUCLE
-
-![image](1584007063-42878b6513-dk4.png)
 ```
 
 ### Test private

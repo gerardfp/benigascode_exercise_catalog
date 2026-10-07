@@ -1,5 +1,6 @@
 ---
 slug: estadisticas-del-partido
+tags: [condicionales, control-de-flujo]
 ---
 # Estadísticas del partido
 
@@ -20,17 +21,28 @@ Este sería un ejemplo de entrada:
 **0 0 1 0 1 1 1 2 2 2 2 3 -1 -1**
 
 - Empieza el partido, empate 0 0
+
 - Marca el equipo Local, 1 0
+
 - Empata el equipo Visitante, 1 1
+
 - Marca el equipo Visitante, 1 2
+
 - Empata el equipo Local, 2 2
+
 - Marca el equipo Visitante, 2 3
+
 - Final del partido, -1 -1
+
 - Gana el equipo Visitante
 
 ## Input
 
 0 0 1 0 1 1 1 2 2 2 2 3 -1 -1
+
+La entrada acabará cuando se lea un marcador  -1 -1
+
+El formato de la entrada SIEMPRE será correcto.
 
 ## Output
 
@@ -50,7 +62,7 @@ FINAL DEL PARTIDO, GANA VISITANTE: 2 3
 
 ## Tests
 
-### Test
+### Test 14.29
 ```input
 0 0 1 0 -1 -1
 ```
@@ -60,7 +72,7 @@ GOL LOCAL, GANA LOCAL: 1 0
 FINAL DEL PARTIDO, GANA LOCAL: 1 0
 ```
 
-### Test
+### Test 14.29
 ```input
 0 0 0 1 -1 -1
 ```
@@ -70,7 +82,7 @@ GOL VISITANTE, GANA VISITANTE: 0 1
 FINAL DEL PARTIDO, GANA VISITANTE: 0 1
 ```
 
-### Test
+### Test private 14.29
 ```input
 0 0 1 0 2 0 2 1 2 2 -1 -1
 ```
@@ -83,7 +95,7 @@ GOL VISITANTE, EMPATE: 2 2
 FINAL DEL PARTIDO, EMPATE: 2 2
 ```
 
-### Test
+### Test private 14.29
 ```input
 0 0 1 0 1 1 -1 -1
 ```
@@ -94,7 +106,7 @@ GOL VISITANTE, EMPATE: 1 1
 FINAL DEL PARTIDO, EMPATE: 1 1
 ```
 
-### Test
+### Test private 14.29
 ```input
 0 0 0 1 0 2 1 2 -1 -1
 ```
@@ -106,7 +118,7 @@ GOL LOCAL, GANA VISITANTE: 1 2
 FINAL DEL PARTIDO, GANA VISITANTE: 1 2
 ```
 
-### Test
+### Test private 14.29
 ```input
 0 0 1 0 2 0 2 1 2 2 2 3 3 3 3 4 4 4 5 4 -1 -1
 ```
@@ -124,7 +136,7 @@ GOL LOCAL, GANA LOCAL: 5 4
 FINAL DEL PARTIDO, GANA LOCAL: 5 4
 ```
 
-### Test private
+### Test private 14.26
 ```input
 0 0 -1 -1
 ```

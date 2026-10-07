@@ -1,6 +1,5 @@
 ---
 slug: noms-correctes
-tags: [variables]
 ---
 # Noms correctes
 
@@ -32,7 +31,14 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 50
+```input
+```
+```output
+Java 15 incorpora Text Blocks, que es delimiten amb """
+```
+
+### Test private 50
 ```input
 ```
 ```output

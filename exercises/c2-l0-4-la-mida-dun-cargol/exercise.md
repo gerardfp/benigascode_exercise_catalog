@@ -1,6 +1,5 @@
 ---
 slug: c2-l0-4-la-mida-dun-cargol
-tags: [if]
 ---
 # La mida d'un cargol
 
@@ -8,9 +7,13 @@ tags: [if]
 Crea un programa que a partir de la mida d'un cargol, mostri el text corresponent a la mida, segons la taula següent:
 
 - D’1 cm (inclòs) a 3 cm (no inclòs): petit
+
 - De 3 cm (inclòs) a 5 cm (no inclòs): mitjà
+
 - De 5 cm (inclòs) a 8 cm (no inclòs): gran
+
 - De 8 cm (inclòs) a 10 cm (inclòs): molt gran
+
 - Qualsevol altre valor indica que la mida del cargol és incorrecta.
 
 ## Input
@@ -23,7 +26,7 @@ La mida del cargol en centímetres (int).
 
 ## Tests
 
-### Test
+### Test 7.14
 ```input
 1
 ```
@@ -31,7 +34,7 @@ La mida del cargol en centímetres (int).
 petit
 ```
 
-### Test
+### Test 7.14
 ```input
 2
 ```
@@ -39,7 +42,7 @@ petit
 petit
 ```
 
-### Test
+### Test private 7.14
 ```input
 3
 ```
@@ -47,7 +50,7 @@ petit
 mitja
 ```
 
-### Test
+### Test private 7.14
 ```input
 4
 ```
@@ -55,7 +58,7 @@ mitja
 mitja
 ```
 
-### Test
+### Test private 7.14
 ```input
 5
 ```
@@ -63,7 +66,7 @@ mitja
 gran
 ```
 
-### Test
+### Test private 7.14
 ```input
 6
 ```
@@ -71,7 +74,7 @@ gran
 gran
 ```
 
-### Test
+### Test private 7.14
 ```input
 7
 ```
@@ -79,7 +82,7 @@ gran
 gran
 ```
 
-### Test
+### Test private 7.14
 ```input
 8
 ```
@@ -87,7 +90,7 @@ gran
 molt gran
 ```
 
-### Test
+### Test private 7.14
 ```input
 9
 ```
@@ -95,7 +98,7 @@ molt gran
 molt gran
 ```
 
-### Test
+### Test private 7.14
 ```input
 10
 ```
@@ -103,7 +106,7 @@ molt gran
 molt gran
 ```
 
-### Test
+### Test private 7.14
 ```input
 11
 ```
@@ -111,7 +114,7 @@ molt gran
 mida incorrecta
 ```
 
-### Test
+### Test private 7.14
 ```input
 12
 ```
@@ -119,7 +122,7 @@ mida incorrecta
 mida incorrecta
 ```
 
-### Test
+### Test private 7.14
 ```input
 13
 ```
@@ -127,7 +130,7 @@ mida incorrecta
 mida incorrecta
 ```
 
-### Test private
+### Test private 7.18
 ```input
 14
 ```

@@ -9,13 +9,15 @@ Dada una frase (terminada con un salto de linea), escribe la misma frase pero el
 
 Una frase terminada con un salto de linea '\n'
 
+1 <= L <= 100
+
 ## Output
 
 La frase sin las vocales.
 
 ## Tests
 
-### Test
+### Test 20
 ```input
 hola mundo!
 ```
@@ -23,7 +25,7 @@ hola mundo!
 hl mnd!
 ```
 
-### Test
+### Test 20
 ```input
 lalalA
 ```
@@ -31,7 +33,7 @@ lalalA
 lll
 ```
 
-### Test
+### Test private 20
 ```input
 xa, XA, xE, xI, xO, xu
 ```
@@ -39,7 +41,7 @@ xa, XA, xE, xI, xO, xu
 x, X, x, x, x, x
 ```
 
-### Test
+### Test private 20
 ```input
 xAaAxeEe
 ```
@@ -47,7 +49,7 @@ xAaAxeEe
 xx
 ```
 
-### Test private
+### Test private 20
 ```input
 la
 ```

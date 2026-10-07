@@ -1,6 +1,5 @@
 ---
 slug: c2-l1-2-lletres-scrabble
-tags: [if, switch]
 ---
 # Lletres de l'Scrabble
 
@@ -8,7 +7,7 @@ tags: [if, switch]
 
 Donada una lletra, obté la seva puntuació d'Scrabble.
 
-```
+```text
 Letter                             Value
 A, E, I, O, U, L, N, R, S, T       1
 D, G                               2
@@ -23,13 +22,15 @@ Q, Z                               10
 
 Un caracter
 
+El caracter és una lletra de l'Scrabble
+
 ## Output
 
 La puntuació de la lletra
 
 ## Tests
 
-### Test
+### Test 3.7
 ```input
 E
 ```
@@ -37,7 +38,7 @@ E
 1
 ```
 
-### Test
+### Test 3.7
 ```input
 A
 ```
@@ -45,7 +46,7 @@ A
 1
 ```
 
-### Test
+### Test private 3.7
 ```input
 E
 ```
@@ -53,7 +54,7 @@ E
 1
 ```
 
-### Test
+### Test private 3.7
 ```input
 I
 ```
@@ -61,7 +62,7 @@ I
 1
 ```
 
-### Test
+### Test private 3.7
 ```input
 O
 ```
@@ -69,7 +70,7 @@ O
 1
 ```
 
-### Test
+### Test private 3.7
 ```input
 U
 ```
@@ -77,7 +78,7 @@ U
 1
 ```
 
-### Test
+### Test private 3.7
 ```input
 L
 ```
@@ -85,7 +86,7 @@ L
 1
 ```
 
-### Test
+### Test private 3.7
 ```input
 N
 ```
@@ -93,7 +94,7 @@ N
 1
 ```
 
-### Test
+### Test private 3.7
 ```input
 R
 ```
@@ -101,7 +102,7 @@ R
 1
 ```
 
-### Test
+### Test private 3.7
 ```input
 S
 ```
@@ -109,7 +110,7 @@ S
 1
 ```
 
-### Test
+### Test private 3.7
 ```input
 T
 ```
@@ -117,7 +118,7 @@ T
 1
 ```
 
-### Test
+### Test private 3.7
 ```input
 D
 ```
@@ -125,7 +126,7 @@ D
 2
 ```
 
-### Test
+### Test private 3.7
 ```input
 G
 ```
@@ -133,7 +134,7 @@ G
 2
 ```
 
-### Test
+### Test private 3.7
 ```input
 B
 ```
@@ -141,7 +142,7 @@ B
 3
 ```
 
-### Test
+### Test private 3.7
 ```input
 C
 ```
@@ -149,7 +150,7 @@ C
 3
 ```
 
-### Test
+### Test private 3.7
 ```input
 M
 ```
@@ -157,7 +158,7 @@ M
 3
 ```
 
-### Test
+### Test private 3.7
 ```input
 P
 ```
@@ -165,7 +166,7 @@ P
 3
 ```
 
-### Test
+### Test private 3.7
 ```input
 F
 ```
@@ -173,7 +174,7 @@ F
 4
 ```
 
-### Test
+### Test private 3.7
 ```input
 H
 ```
@@ -181,7 +182,7 @@ H
 4
 ```
 
-### Test
+### Test private 3.7
 ```input
 V
 ```
@@ -189,7 +190,7 @@ V
 4
 ```
 
-### Test
+### Test private 3.7
 ```input
 W
 ```
@@ -197,7 +198,7 @@ W
 4
 ```
 
-### Test
+### Test private 3.7
 ```input
 Y
 ```
@@ -205,7 +206,7 @@ Y
 4
 ```
 
-### Test
+### Test private 3.7
 ```input
 K
 ```
@@ -213,7 +214,7 @@ K
 5
 ```
 
-### Test
+### Test private 3.7
 ```input
 J
 ```
@@ -221,7 +222,7 @@ J
 8
 ```
 
-### Test
+### Test private 3.7
 ```input
 X
 ```
@@ -229,7 +230,7 @@ X
 8
 ```
 
-### Test
+### Test private 3.7
 ```input
 Q
 ```
@@ -237,7 +238,7 @@ Q
 10
 ```
 
-### Test private
+### Test private 3.8
 ```input
 Z
 ```

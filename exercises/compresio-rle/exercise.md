@@ -1,6 +1,6 @@
 ---
 slug: compresio-rle
-tags: [for]
+tags: [scanner, i/o]
 ---
 # Compressió RLE
 
@@ -8,13 +8,13 @@ La codificació Run-length encoding (RLE) és una forma molt simple de compressi
 
 Per exemple, la cadena següent cadena de text:
 
-```
+```text
 BBBBNNNBBBBBNN
 ```
 
 Es pot comprimir d'aquesta manera:
 
-```
+```text
 4B3N5B2N
 ```
 
@@ -22,7 +22,7 @@ S'interpreta com 4 bes, 3 enes, 5 bes, 2 enes.
 
 ## Input
 
-Una cadena de `L` caràcters
+Una cadena de L caràcters
 
 ## Output
 
@@ -30,7 +30,7 @@ La cadena comprimida
 
 ## Tests
 
-### Test 10
+### Test 14.29
 ```input
 BN
 ```
@@ -38,7 +38,7 @@ BN
 1B1N
 ```
 
-### Test 10
+### Test 14.29
 ```input
 BBBNNNN
 ```
@@ -46,7 +46,7 @@ BBBNNNN
 3B4N
 ```
 
-### Test 10
+### Test private 14.29
 ```input
 BBBBBNNNB
 ```
@@ -54,7 +54,7 @@ BBBBBNNNB
 5B3N1B
 ```
 
-### Test 10
+### Test private 14.29
 ```input
 BNNNNNB
 ```
@@ -62,7 +62,7 @@ BNNNNNB
 1B5N1B
 ```
 
-### Test 10
+### Test private 14.29
 ```input
 ABBBAAAANNNCCADDDDD
 ```
@@ -70,7 +70,7 @@ ABBBAAAANNNCCADDDDD
 1A3B4A3N2C1A5D
 ```
 
-### Test 10
+### Test private 14.29
 ```input
 WWWWWWWWHHHHHHHAAAAAAATTTTTTTTTTTTTT
 ```
@@ -78,7 +78,7 @@ WWWWWWWWHHHHHHHAAAAAAATTTTTTTTTTTTTT
 8W7H7A14T
 ```
 
-### Test private 10
+### Test private 14.26
 ```input
 JAVA
 ```

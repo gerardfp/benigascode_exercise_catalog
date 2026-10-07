@@ -1,6 +1,5 @@
 ---
 slug: hora-dapertura-operadors-ternari
-tags: [operadors, ternari]
 ---
 # Hora d'apertura
 
@@ -35,7 +34,7 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 14.29
 ```input
 Dilluns
 ```
@@ -43,7 +42,7 @@ Dilluns
 8:00
 ```
 
-### Test
+### Test 14.29
 ```input
 Dimarts
 ```
@@ -51,7 +50,7 @@ Dimarts
 8:00
 ```
 
-### Test
+### Test private 14.29
 ```input
 Dimecres
 ```
@@ -59,7 +58,7 @@ Dimecres
 8:00
 ```
 
-### Test
+### Test private 14.29
 ```input
 Dijous
 ```
@@ -67,7 +66,7 @@ Dijous
 8:00
 ```
 
-### Test
+### Test private 14.29
 ```input
 Divendres
 ```
@@ -75,7 +74,7 @@ Divendres
 8:00
 ```
 
-### Test
+### Test private 14.29
 ```input
 Dissabte
 ```
@@ -83,7 +82,7 @@ Dissabte
 10:00
 ```
 
-### Test private
+### Test private 14.26
 ```input
 Diumenge
 ```

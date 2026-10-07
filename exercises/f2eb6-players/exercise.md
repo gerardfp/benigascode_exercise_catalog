@@ -1,6 +1,5 @@
 ---
 slug: f2eb6-players
-tags: [class, L0]
 ---
 # Players
 
@@ -73,7 +72,7 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 50
 ```input
 10 10
 a 2300 9 5
@@ -84,7 +83,7 @@ P1:a #2300 {9, 5}
 P2:b #5700 {7, 6}
 ```
 
-### Test private
+### Test private 50
 ```input
 20 20
 gcd 17900 10 10

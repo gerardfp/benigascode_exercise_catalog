@@ -1,6 +1,6 @@
 ---
 slug: c7-l3-2-evaluate-expression
-tags: [recursivitat]
+tags: [scanner, i/o]
 ---
 # Evaluate expression
 
@@ -10,13 +10,15 @@ Donat un String amb una expressió aritmètica de sumes i multiplicacions, avalu
 
 Un string amb una expressió aritmètica de sumes i multiplicacions enteres.
 
+No hi ha
+
 ## Output
 
 El resultat de l'expressió
 
 ## Tests
 
-### Test
+### Test 9.09
 ```input
 1
 ```
@@ -24,7 +26,7 @@ El resultat de l'expressió
 1
 ```
 
-### Test
+### Test 9.09
 ```input
 2+2
 ```
@@ -32,7 +34,7 @@ El resultat de l'expressió
 4
 ```
 
-### Test
+### Test private 9.09
 ```input
 2+2+2
 ```
@@ -40,7 +42,7 @@ El resultat de l'expressió
 6
 ```
 
-### Test
+### Test private 9.09
 ```input
 2*2
 ```
@@ -48,7 +50,7 @@ El resultat de l'expressió
 4
 ```
 
-### Test
+### Test private 9.09
 ```input
 2*2*2
 ```
@@ -56,7 +58,7 @@ El resultat de l'expressió
 8
 ```
 
-### Test
+### Test private 9.09
 ```input
 2+3*4
 ```
@@ -64,7 +66,7 @@ El resultat de l'expressió
 14
 ```
 
-### Test
+### Test private 9.09
 ```input
 2*3+4
 ```
@@ -72,7 +74,7 @@ El resultat de l'expressió
 10
 ```
 
-### Test
+### Test private 9.09
 ```input
 2*3+4*5
 ```
@@ -80,7 +82,7 @@ El resultat de l'expressió
 26
 ```
 
-### Test
+### Test private 9.09
 ```input
 2+3*4+5
 ```
@@ -88,7 +90,7 @@ El resultat de l'expressió
 19
 ```
 
-### Test
+### Test private 9.09
 ```input
 2+10*1+1*100
 ```
@@ -96,7 +98,7 @@ El resultat de l'expressió
 112
 ```
 
-### Test private
+### Test private 9.1
 ```input
 123*456+789*123+456*789
 ```

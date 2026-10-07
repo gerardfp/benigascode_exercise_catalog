@@ -1,6 +1,5 @@
 ---
 slug: c4-l4-2-maze
-tags: [recursivitat]
 ---
 # Maze
 
@@ -12,12 +11,14 @@ En primer lloc hi ha el nombre de línies que té el laberint. A continuació ve
 
 Cada caracter significa:
 
-```
+```text
 '#' mur
 ' ' cami
 '^' inici
 '_' sortida
 ```
+
+No hi ha
 
 ## Output
 
@@ -25,7 +26,7 @@ S'imprimirà el laberint marcant amb el caracter 'o' el cami des de l'inici fins
 
 ## Tests
 
-### Test
+### Test 12.5
 ```input
 5
 #^#######
@@ -42,7 +43,7 @@ S'imprimirà el laberint marcant amb el caracter 'o' el cami des de l'inici fins
 #######o#
 ```
 
-### Test
+### Test 12.5
 ```input
 5
 #^#######################
@@ -59,7 +60,7 @@ S'imprimirà el laberint marcant amb el caracter 'o' el cami des de l'inici fins
 #######################o#
 ```
 
-### Test
+### Test private 12.5
 ```input
 11
 ###########_#
@@ -88,7 +89,7 @@ oo#       #o#
 #############
 ```
 
-### Test
+### Test private 12.5
 ```input
 11
 #^###################
@@ -117,7 +118,7 @@ oo#       #o#
 ###################o#
 ```
 
-### Test
+### Test private 12.5
 ```input
 11
 #^###############################################################################
@@ -146,7 +147,7 @@ oo#       #o#
 ##############################################################################o##
 ```
 
-### Test
+### Test private 12.5
 ```input
 21
 #################################################################################
@@ -195,7 +196,7 @@ oooooo#ooooo#   #   #     # # # #       # # #     #     # #   #   #             
 #################################################################################
 ```
 
-### Test
+### Test private 12.5
 ```input
 51
 #################################################################################
@@ -304,7 +305,7 @@ oo#   #     #   #             #   # #   # #   #         #       #   #     #   # 
 ###############################################################################o#
 ```
 
-### Test private
+### Test private 12.5
 ```input
 11
 ###########_#

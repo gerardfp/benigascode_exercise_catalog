@@ -1,6 +1,6 @@
 ---
 slug: c1-l2-6-ticket-daparcament
-tags: [operadors]
+tags: [condicionales, control-de-flujo]
 ---
 # Ticket d'aparcament
 
@@ -13,12 +13,16 @@ Quan s'imprimeix el ticket, s'indica l'hora d'inici de l'aparcament, i l'hora de
 ## Input
 
 - un nombre enter indica l'hora d'inici (hores, minuts i segons),
+
 - un nombre float indica la quantitat de diners introduits,
+
 - un nombre float indica la tarifa.
 
 Els diners s'indiquen en Euros.
 
 La tarifa s'indica en Minuts/Euros.
+
+Es garanteix que l'hora de finalització mai serà superior a 23:59:59
 
 ## Output
 
@@ -26,7 +30,7 @@ S'imprimirà l'hora de finalització en format H:M:S
 
 ## Tests
 
-### Test
+### Test 10
 ```input
 0 0 0
 0
@@ -35,17 +39,8 @@ S'imprimirà l'hora de finalització en format H:M:S
 ```output
 0:0:0
 ```
-```explanation
-L'hora d'inici és 0:0:0
 
-La tarifa són 60 minuts per euro
-
-S'ha introduit 1 euro
-
-Per tant s'obté una hora d'aparcament
-```
-
-### Test
+### Test 10
 ```input
 0 0 0
 60
@@ -54,15 +49,8 @@ Per tant s'obté una hora d'aparcament
 ```output
 1:0:0
 ```
-```explanation
-L'hora d'inici és 10:0:0
-La tarifa són 30 minuts per euro
-S'ha introduit 1 euro
 
-Per tant es tenen 30 minuts d'aparcament
-```
-
-### Test
+### Test private 10
 ```input
 10 0 0
 30
@@ -71,14 +59,8 @@ Per tant es tenen 30 minuts d'aparcament
 ```output
 10:30:0
 ```
-```explanation
-La tarifa és 1 minut per euro
-S'ha introduit 0.5 euros
 
-El temps d'aparcament són 30 segons
-```
-
-### Test
+### Test private 10
 ```input
 10 15 0
 1
@@ -87,13 +69,8 @@ El temps d'aparcament són 30 segons
 ```output
 10:15:30
 ```
-```explanation
-La tarifa és 0.5 minuts per euro (30 segons per euro)
-S'han introduït 0.5 euros
-El temps són 15 segons
-```
 
-### Test
+### Test private 10
 ```input
 16 0 0
 0.5
@@ -103,7 +80,7 @@ El temps són 15 segons
 16:0:15
 ```
 
-### Test
+### Test private 10
 ```input
 16 45 0
 30
@@ -113,7 +90,7 @@ El temps són 15 segons
 17:15:0
 ```
 
-### Test
+### Test private 10
 ```input
 16 30 45
 0.5
@@ -123,7 +100,7 @@ El temps són 15 segons
 16:31:15
 ```
 
-### Test
+### Test private 10
 ```input
 16 30 45
 1.5
@@ -133,7 +110,7 @@ El temps són 15 segons
 17:30:45
 ```
 
-### Test
+### Test private 10
 ```input
 8 30 45
 30
@@ -143,7 +120,7 @@ El temps són 15 segons
 18:53:15
 ```
 
-### Test private
+### Test private 10
 ```input
 6 17 59
 20.5

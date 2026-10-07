@@ -1,6 +1,5 @@
 ---
 slug: major-dedat
-tags: [operadors, relacionals]
 ---
 # Major d'edat
 
@@ -14,9 +13,23 @@ un enter
 
 -
 
+## Plantillas
+
+```java
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+      	Scanner scanner = new Scanner(System.in);
+      
+      	
+    }
+}
+```
+
 ## Tests
 
-### Test
+### Test 20
 ```input
 17
 ```
@@ -24,7 +37,7 @@ un enter
 false
 ```
 
-### Test
+### Test 20
 ```input
 18
 ```
@@ -32,7 +45,7 @@ false
 true
 ```
 
-### Test
+### Test private 20
 ```input
 19
 ```
@@ -40,7 +53,7 @@ true
 true
 ```
 
-### Test
+### Test private 20
 ```input
 1
 ```
@@ -48,7 +61,7 @@ true
 false
 ```
 
-### Test private
+### Test private 20
 ```input
 20
 ```

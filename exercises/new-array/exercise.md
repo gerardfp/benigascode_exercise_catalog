@@ -1,6 +1,6 @@
 ---
 slug: new-array
-tags: [arrays]
+tags: [arrays, estructuras-de-datos]
 ---
 # New array
 
@@ -8,7 +8,7 @@ Inicialitza l'array de `floats` de tamany 100, amb el valor `0.0f` a tots els el
 
 Després asigna els els valors següents a les posicions indicades:
 
-```
+```text
 posició | valor
 ---------+-------
  primera | 31.0f
@@ -51,7 +51,14 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 50
+```input
+```
+```output
+31.0 56.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 12.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 79.0 
+```
+
+### Test private 50
 ```input
 ```
 ```output

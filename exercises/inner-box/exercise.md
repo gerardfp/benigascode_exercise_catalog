@@ -1,6 +1,5 @@
 ---
 slug: inner-box
-tags: [class]
 ---
 # Inner Box
 
@@ -53,7 +52,14 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 50
+```input
+```
+```output
+4.75
+```
+
+### Test private 50
 ```input
 ```
 ```output

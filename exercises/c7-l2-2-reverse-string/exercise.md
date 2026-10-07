@@ -1,6 +1,6 @@
 ---
 slug: c7-l2-2-reverse-string
-tags: [recursivitat]
+tags: [strings]
 ---
 # Reverse String
 
@@ -10,13 +10,15 @@ Donat un String, invirteix-lo.
 
 Una línia de text
 
+No hi ha.
+
 ## Output
 
 El text amb l'ordre dels caracters invertit.
 
 ## Tests
 
-### Test
+### Test 25
 ```input
 a
 ```
@@ -24,7 +26,7 @@ a
 a
 ```
 
-### Test
+### Test 25
 ```input
 abcde
 ```
@@ -32,7 +34,7 @@ abcde
 edcba
 ```
 
-### Test
+### Test private 25
 ```input
 ab c d efgh
 ```
@@ -40,7 +42,7 @@ ab c d efgh
 hgfe d c ba
 ```
 
-### Test private
+### Test private 25
 ```input
 cgctagcttagctaacg
 ```

@@ -1,5 +1,6 @@
 ---
 slug: c5-l1-5-reverse-string
+tags: [strings]
 ---
 # Reverse String
 
@@ -15,7 +16,7 @@ L'string amb els caracters en ordre invers.
 
 ## Tests
 
-### Test
+### Test 11.11
 ```input
 hola
 ```
@@ -23,7 +24,7 @@ hola
 aloh
 ```
 
-### Test
+### Test 11.11
 ```input
 hola
 ```
@@ -31,7 +32,7 @@ hola
 aloh
 ```
 
-### Test
+### Test private 11.11
 ```input
 hola mon!
 ```
@@ -39,7 +40,7 @@ hola mon!
 !nom aloh
 ```
 
-### Test
+### Test private 11.11
 ```input
 java
 ```
@@ -47,7 +48,7 @@ java
 avaj
 ```
 
-### Test
+### Test private 11.11
 ```input
 toCharArray()
 ```
@@ -55,7 +56,7 @@ toCharArray()
 )(yarrArahCot
 ```
 
-### Test
+### Test private 11.11
 ```input
 i love programming very much
 ```
@@ -63,7 +64,7 @@ i love programming very much
 hcum yrev gnimmargorp evol i
 ```
 
-### Test
+### Test private 11.11
 ```input
 pipiripip
 ```
@@ -71,7 +72,7 @@ pipiripip
 pipiripip
 ```
 
-### Test
+### Test private 11.11
 ```input
 .si ti ,sey ?gnirts desrever gnol yrev a siht si
 ```
@@ -79,7 +80,7 @@ pipiripip
 is this a very long reversed string? yes, it is.
 ```
 
-### Test private
+### Test private 11.12
 ```input
 abcd
 ```

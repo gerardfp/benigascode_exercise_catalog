@@ -1,10 +1,17 @@
 ---
 slug: d1e2a-contact-class-l0
-tags: [class]
 ---
 # Contact
 
 Assigna els valors dels camps a partir de les dades de l'entrada.
+
+## Input
+
+-
+
+## Output
+
+-
 
 ## Plantillas
 
@@ -45,7 +52,7 @@ public class Main {
 
 ## Tests
 
-### Test 10
+### Test 50
 ```input
 Adrian
 Droide Perez
@@ -61,7 +68,7 @@ C/Calleja, 2
 Barcelona
 ```
 
-### Test private 10
+### Test private 50
 ```input
 Alba
 Bosa Garcia

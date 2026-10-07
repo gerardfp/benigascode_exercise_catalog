@@ -1,6 +1,5 @@
 ---
 slug: gatito-ascii-art
-tags: [literals]
 ---
 # Gatito ASCII-art
 
@@ -27,7 +26,16 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 50
+```input
+```
+```output
+(\___/)
+(=` .`)
+(_(")(")
+```
+
+### Test private 50
 ```input
 ```
 ```output

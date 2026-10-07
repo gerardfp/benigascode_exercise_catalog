@@ -9,57 +9,47 @@ Dada una secuencia de números, calcula las veces que ha habido un incremento re
 
 Una secuencia de N números enteros, terminada con un 0.
 
+1 <= N <= 100
+
 ## Output
 
 Un número entero indicando la cantidad de incrementos.
 
 ## Tests
 
-### Test
+### Test 14.29
 ```input
 6 8 3  0
 ```
 ```output
 1
 ```
-```explanation
-Se ha producido **1** incremento: del 6 al 8
-```
 
-### Test
+### Test 14.29
 ```input
 3 1 1 5 9    0
 ```
 ```output
 2
 ```
-```explanation
-Se han producido **2** incrementos: del 1 al 5, y del 5 al 9
-```
 
-### Test
+### Test private 14.29
 ```input
 8 7 7 1 1    0
 ```
 ```output
 0
 ```
-```explanation
-No se ha producido ningún incremento.
-```
 
-### Test
+### Test private 14.29
 ```input
 1   0
 ```
 ```output
 0
 ```
-```explanation
-No se ha producido ningún incremento.
-```
 
-### Test
+### Test private 14.29
 ```input
 27 28 78 94 35 43 79 77 78 12 95 28 77 14 80 50 12 55    0
 ```
@@ -67,7 +57,7 @@ No se ha producido ningún incremento.
 10
 ```
 
-### Test
+### Test private 14.29
 ```input
 652 272 823 441 382 129 457 668 274 676 579 547 824 291 404 643 119 194 859 244 385 478 988 250 648 364 587 637 486 340 813 877 339 952 15 143 576 236 134 516 72 188 813 668 206 980 268 350 664 176 829 874 819 649 619 454 233 417 883 929 902 715 204 431 433 706 731 794 53 452 687 809 510 618 780 624 264 55 59 451 619 362 278 16 540 250 400 760 877 30 699 154 45 174 548 29 90 841 145 479 194 684 922 310 592 203 309 522 764 943 331 814 948 228 809 889 214 902 681 717 344 136 646 99 534 752 823 657 434 426 970 170 706 303 138 272 259 210 179 352 764 344 682 562 205 177 58 603 422 431 345 41    0
 ```
@@ -75,7 +65,7 @@ No se ha producido ningún incremento.
 79
 ```
 
-### Test private
+### Test private 14.26
 ```input
 1 2 0
 ```

@@ -11,13 +11,16 @@ El primer número (T) indica el número de casos de prueba.
 A continuación viene una secuencia de N números por cada caso de prueba.
 Cada secuencia finaliza con un 0.
 
+1 <= T <= 100
+1 <= N <= 10^7
+
 ## Output
 
 Un "SI" o un "NO" por cada caso de prueba, separados por un salto de linea "\n"
 
 ## Tests
 
-### Test
+### Test 12.5
 ```input
 1
 1 2 3 1 0
@@ -26,7 +29,7 @@ Un "SI" o un "NO" por cada caso de prueba, separados por un salto de linea "\n"
 SI
 ```
 
-### Test
+### Test 12.5
 ```input
 1
 1 2 3 4 0
@@ -35,7 +38,7 @@ SI
 NO
 ```
 
-### Test
+### Test private 12.5
 ```input
 2
 1 2 3 1 0
@@ -46,7 +49,7 @@ SI
 SI
 ```
 
-### Test
+### Test private 12.5
 ```input
 2
 1 2 3 1 0
@@ -57,7 +60,7 @@ SI
 NO
 ```
 
-### Test
+### Test private 12.5
 ```input
 3
 1 0
@@ -70,7 +73,7 @@ NO
 SI
 ```
 
-### Test
+### Test private 12.5
 ```input
 4
 1 2 1 2 0
@@ -85,7 +88,7 @@ SI
 SI
 ```
 
-### Test
+### Test private 12.5
 ```input
 3
 5 4 2 0
@@ -98,7 +101,7 @@ SI
 SI
 ```
 
-### Test private
+### Test private 12.5
 ```input
 2
 6 7 4 9 0

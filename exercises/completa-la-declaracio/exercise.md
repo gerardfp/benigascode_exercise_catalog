@@ -1,12 +1,20 @@
 ---
 slug: completa-la-declaracio
-tags: [variables]
+tags: [scanner, i/o]
 ---
 # Completa la declaració
 
 Donada una variable, afegeix el tipus `int` i assigna-li el valor `123456`.
 
-No oblides el `;` al final de la sentència.
+No oblidis el `;` al final de la sentència.
+
+## Input
+
+-
+
+## Output
+
+-
 
 ## Plantillas
 
@@ -23,7 +31,14 @@ public class Main {
 
 ## Tests
 
-### Test 10
+### Test 50
+```input
+```
+```output
+123456
+```
+
+### Test private 50
 ```input
 ```
 ```output

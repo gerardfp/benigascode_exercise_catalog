@@ -10,13 +10,16 @@ Para cada caso de prueba, se deben ir leyendo números hasta que se lea un 0. El
 El primer número (T) indica la cantidad de casos de prueba que vienen a continuación.
 Cada caso de prueba consta de una secuencia de N números que termina con un 0.
 
+0 <= T <= 100
+0 <= N <= 10^7
+
 ## Output
 
 Por cada caso de prueba, un entero indicando la cantidad de números leídos; y separados por un salto de línea.
 
 ## Tests
 
-### Test
+### Test 16.67
 ```input
 0
 ```
@@ -24,7 +27,7 @@ Por cada caso de prueba, un entero indicando la cantidad de números leídos; y 
 0
 ```
 
-### Test
+### Test 16.67
 ```input
 1
 0
@@ -33,7 +36,7 @@ Por cada caso de prueba, un entero indicando la cantidad de números leídos; y 
 0
 ```
 
-### Test
+### Test private 16.67
 ```input
 1
 1 0
@@ -42,7 +45,7 @@ Por cada caso de prueba, un entero indicando la cantidad de números leídos; y 
 1
 ```
 
-### Test
+### Test private 16.67
 ```input
 3
 1 2 3 4 0
@@ -55,7 +58,7 @@ Por cada caso de prueba, un entero indicando la cantidad de números leídos; y 
 2
 ```
 
-### Test
+### Test private 16.67
 ```input
 3
 2 6 7 3 0
@@ -68,7 +71,7 @@ Por cada caso de prueba, un entero indicando la cantidad de números leídos; y 
 1
 ```
 
-### Test private
+### Test private 16.65
 ```input
 2
 9 9 9 0

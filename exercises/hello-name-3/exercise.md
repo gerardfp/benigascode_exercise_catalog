@@ -1,6 +1,6 @@
 ---
 slug: hello-name-3
-tags: [literals]
+tags: [scanner, i/o]
 ---
 # Hello, NOM!
 
@@ -29,7 +29,13 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 50
+```input
+```
+```output
+```
+
+### Test private 50
 ```input
 ```
 ```output

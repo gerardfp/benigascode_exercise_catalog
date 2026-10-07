@@ -1,6 +1,5 @@
 ---
 slug: d3da3-paper-rock-scissors-class-l0
-tags: [class, L0]
 ---
 # Paper, rock, scissors
 
@@ -57,7 +56,7 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 33.33
 ```input
 4 ## @# %# %@
 ```
@@ -65,7 +64,7 @@ public class Main {
 PLAYER 2 WINS
 ```
 
-### Test
+### Test private 33.33
 ```input
 6 #@ %@ %# #% %@ @%
 ```
@@ -73,7 +72,7 @@ PLAYER 2 WINS
 TIE
 ```
 
-### Test private
+### Test private 33.34
 ```input
 6 @% @% %# %# #% #@
 ```

@@ -1,6 +1,6 @@
 ---
 slug: e8f27-fusion-class-l0
-tags: [class, L0]
+tags: [scanner, i/o]
 ---
 # Fusion
 
@@ -66,7 +66,19 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 50
+```input
+```
+```output
+Goku: fuerza=100, velocidad=100
+Vegeta: fuerza=90, velocidad=90
+Goten: fuerza=80, velocidad=100
+Trunks: fuerza=70, velocidad=90
+Gotenks: fuerza=150, velocidad=190
+Gogeta: fuerza=190, velocidad=190
+```
+
+### Test private 50
 ```input
 ```
 ```output

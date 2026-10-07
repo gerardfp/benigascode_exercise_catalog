@@ -1,18 +1,10 @@
 ---
 slug: c2c46-ahorcado-class-l0
-tags: [class, L0]
+tags: [classes]
 ---
 # Ahorcado
 
-Crea la clase Ahorcado
-
-## Input
-
--
-
-## Output
-
--
+Crea la clase `Ahorcado`
 
 ## Plantillas
 
@@ -72,7 +64,7 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 25
 ```input
 hola
 h
@@ -120,7 +112,7 @@ a
 YOU WIN
 ```
 
-### Test
+### Test 25
 ```input
 java
 j
@@ -158,7 +150,7 @@ v
 YOU WIN
 ```
 
-### Test
+### Test private 25
 ```input
 constructor
 c o n s t r u
@@ -230,7 +222,7 @@ c o n s t r u
 YOU WIN
 ```
 
-### Test private
+### Test private 25
 ```input
 classe
 c l a e z x v b n m

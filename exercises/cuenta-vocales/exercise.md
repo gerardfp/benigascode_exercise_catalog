@@ -11,11 +11,11 @@ Un texto terminado con un salto de línea.
 
 ## Output
 
-En la primera linea la cantidad de 'a', en la siguiente linea la cantidad de 'e', etc.
+En la primera linea la cantidad de `a`, en la siguiente linea la cantidad de `e`, etc.
 
 ## Tests
 
-### Test
+### Test 16.67
 ```input
 hola mundo
 ```
@@ -27,7 +27,7 @@ hola mundo
 1
 ```
 
-### Test
+### Test 16.67
 ```input
 aa ee ii oo uu
 ```
@@ -39,7 +39,7 @@ aa ee ii oo uu
 2
 ```
 
-### Test
+### Test private 16.67
 ```input
 xxa xax axx
 ```
@@ -51,7 +51,7 @@ xxa xax axx
 0
 ```
 
-### Test
+### Test private 16.67
 ```input
 aa, EE, ii.
 ```
@@ -63,7 +63,7 @@ aa, EE, ii.
 0
 ```
 
-### Test
+### Test private 16.67
 ```input
 aA eE iI oO u
 ```
@@ -75,7 +75,7 @@ aA eE iI oO u
 1
 ```
 
-### Test private
+### Test private 16.65
 ```input
 aeiou
 ```

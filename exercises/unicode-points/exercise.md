@@ -1,6 +1,5 @@
 ---
 slug: unicode-points
-tags: [conversio]
 ---
 # Unicode points
 
@@ -18,7 +17,7 @@ text
 
 ## Tests
 
-### Test
+### Test 33.33
 ```input
 97 98 99 100 101 102
 ```
@@ -26,7 +25,7 @@ text
 abcdef
 ```
 
-### Test
+### Test private 33.33
 ```input
 119 97 32 121 101 97
 ```
@@ -34,7 +33,7 @@ abcdef
 wa yea
 ```
 
-### Test private
+### Test private 33.34
 ```input
 65 90 97 122 48 57
 ```

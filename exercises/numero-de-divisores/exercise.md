@@ -9,46 +9,39 @@ Dado un número, calcula la cantidad de divisores que tiene.
 
 Un número entero N
 
+0 <= N <= 10^9
+
 ## Output
 
 Un número indicando la cantidad de divisores
 
 ## Tests
 
-### Test
+### Test 9.09
 ```input
 6
 ```
 ```output
 4
 ```
-```explanation
-El 6 es divisible por 1, 2, 3 y 6
-```
 
-### Test
+### Test 9.09
 ```input
 12
 ```
 ```output
 6
 ```
-```explanation
-El 12 es divisible por 1, 2, 3, 4, 6 y 12
-```
 
-### Test
+### Test private 9.09
 ```input
 17
 ```
 ```output
 2
 ```
-```explanation
-El 17 es divisible por 1 y 17
-```
 
-### Test
+### Test private 9.09
 ```input
 0
 ```
@@ -56,7 +49,7 @@ El 17 es divisible por 1 y 17
 0
 ```
 
-### Test
+### Test private 9.09
 ```input
 1
 ```
@@ -64,7 +57,7 @@ El 17 es divisible por 1 y 17
 1
 ```
 
-### Test
+### Test private 9.09
 ```input
 2
 ```
@@ -72,7 +65,7 @@ El 17 es divisible por 1 y 17
 2
 ```
 
-### Test
+### Test private 9.09
 ```input
 60
 ```
@@ -80,7 +73,7 @@ El 17 es divisible por 1 y 17
 12
 ```
 
-### Test
+### Test private 9.09
 ```input
 5160
 ```
@@ -88,7 +81,7 @@ El 17 es divisible por 1 y 17
 32
 ```
 
-### Test
+### Test private 9.09
 ```input
 9985
 ```
@@ -96,7 +89,7 @@ El 17 es divisible por 1 y 17
 4
 ```
 
-### Test
+### Test private 9.09
 ```input
 9973
 ```
@@ -104,7 +97,7 @@ El 17 es divisible por 1 y 17
 2
 ```
 
-### Test private
+### Test private 9.1
 ```input
 3
 ```

@@ -21,7 +21,7 @@ El guanyador es mostrarà amb la seva marca, i s'usarà '-' per a l'empat.
 
 ## Tests
 
-### Test
+### Test 8.33
 ```input
 O--
 -O-
@@ -31,7 +31,7 @@ XXX
 X
 ```
 
-### Test
+### Test 8.33
 ```input
 O--
 -O-
@@ -41,7 +41,7 @@ XXX
 X
 ```
 
-### Test
+### Test private 8.33
 ```input
 --X
 OOO
@@ -51,7 +51,7 @@ OOO
 O
 ```
 
-### Test
+### Test private 8.33
 ```input
 XXX
 OOX
@@ -61,7 +61,7 @@ XOO
 X
 ```
 
-### Test
+### Test private 8.33
 ```input
 O-X
 -XO
@@ -71,7 +71,7 @@ XO-
 X
 ```
 
-### Test
+### Test private 8.33
 ```input
 OXX
 XOX
@@ -81,7 +81,7 @@ XOO
 O
 ```
 
-### Test
+### Test private 8.33
 ```input
 XO-
 XO-
@@ -91,7 +91,7 @@ X--
 X
 ```
 
-### Test
+### Test private 8.33
 ```input
 XO-
 XO-
@@ -101,7 +101,7 @@ XO-
 O
 ```
 
-### Test
+### Test private 8.33
 ```input
 XXO
 XXO
@@ -111,7 +111,7 @@ O-O
 O
 ```
 
-### Test
+### Test private 8.33
 ```input
 OXO
 OXO
@@ -121,7 +121,7 @@ XOX
 -
 ```
 
-### Test
+### Test private 8.33
 ```input
 XXO
 OXX
@@ -131,7 +131,7 @@ XOO
 -
 ```
 
-### Test private
+### Test private 8.37
 ```input
 OXO
 XOX

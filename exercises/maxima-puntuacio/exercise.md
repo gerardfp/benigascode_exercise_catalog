@@ -1,6 +1,6 @@
 ---
 slug: maxima-puntuacio
-tags: [for]
+tags: [scanner, i/o]
 ---
 # Màxima puntuació
 
@@ -18,7 +18,7 @@ El nom i la puntuació del guanyador
 
 ## Tests
 
-### Test
+### Test 25
 ```input
 Larry 100
 Ken 101
@@ -31,7 +31,7 @@ Chris 70
 Niklaus 110
 ```
 
-### Test
+### Test 25
 ```input
 Bjarne 80
 Guido  77
@@ -44,7 +44,7 @@ James 100
 James 100
 ```
 
-### Test
+### Test private 25
 ```input
 Grace 105
 Kathleen 99
@@ -57,7 +57,7 @@ Xavier 70
 Grace 105
 ```
 
-### Test private
+### Test private 25
 ```input
 Grace 105
 Kathleen 99

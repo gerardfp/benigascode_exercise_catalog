@@ -1,6 +1,5 @@
 ---
 slug: c7-l4-1-hanoi
-tags: [recursivitat]
 ---
 # Hanoi
 
@@ -9,6 +8,8 @@ Escriu un algorisme recursiu per a solucionar el joc de les Torres de Hanoi
 ## Input
 
 La entrada consisteix en el número de discs
+
+1 <= N <= 10
 
 ## Output
 
@@ -91,7 +92,7 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 20
 ```input
 1
 ```
@@ -102,7 +103,7 @@ public class Main {
 ---------
 ```
 
-### Test
+### Test 20
 ```input
 3
 ```
@@ -141,7 +142,7 @@ public class Main {
 ---------------------
 ```
 
-### Test
+### Test private 20
 ```input
 2
 ```
@@ -160,7 +161,7 @@ public class Main {
 ---------------
 ```
 
-### Test
+### Test private 20
 ```input
 4
 ```
@@ -247,7 +248,7 @@ public class Main {
 ---------------------------
 ```
 
-### Test private
+### Test private 20
 ```input
 5
 ```

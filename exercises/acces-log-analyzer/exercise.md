@@ -1,47 +1,58 @@
 ---
-slug: c4-l4-1-acces-log-analyzer
+slug: acces-log-analyzer
+tags: [strings]
 ---
 # Access.log analyzer
 
-El servidor web emmagaztema el registre (log) dels accessos a l'arxiu 'access.log'.
+El servidor web emmagatzema el registre (log) dels accessos a l'arxiu `access.log`.
 Cada accés s'emmagatzema en una línia de l'arxiu amb aquest format:
 
-```
+```text
 %h %l %u %t "%r" %s %b "%f" "%a"
 ```
 
 El significat d'aquests camps és el següent:
 
 - `%h` és l'adreça IP del client que ha realitzat la petició al servidor
+
 - `%l` és la identitat de la màquina del client
+
 - `%u` és l'userid de la persona determinada per l'autenticació HTTP
+
 - `%t` és el temps en que s'ha rebut la petició. El format és:
 
-    ```
-    [day/month/year:hour:minute:second zone]
-    day = 2*digit
-    month = 3*letter
-    year = 4*digit
-    hour = 2*digit
-    minute = 2*digit
-    second = 2*digit
-    zone = (`+' | `-') 4*digit
-    ```
+```text
+[day/month/year:hour:minute:second zone]
+day = 2*digit
+month = 3*letter
+year = 4*digit
+hour = 2*digit
+minute = 2*digit
+second = 2*digit
+zone = (`+' | `-') 4*digit
+```
 
-- `%r` és la lína de petició realitzada pel client. El format és:
+- `%r` és la petició realitzada pel client. El format és:
 
-    ```
-    %M %U%q %H
-    ```
+```text
+%M %U%q %H
+```
 
-    - `%M` és el Mètode (GET, POST, ...)
-    - `%U` és el path del recurs sol·licitat
-    - `%q` és la query realitzada sobre el recurs
-    - `%H` és el protocol (HTTP/1.0, HTTP/1.1, ...)
-    - `%s` és l'status code que el servidor retorna al client
-    - `%b` és el tamany de l'objecte retornat al client
-    - `%f` és el lloc del qual el client reporta que ha estat referenciat
-    - `%a` és l'user-agent: la identificació del navegador web del client
+- `%M` és el Mètode (GET, POST, ...)
+
+- `%U` és el path del recurs sol·licitat
+
+- `%q` és la query realitzada sobre el recurs
+
+- `%H` és el protocol (HTTP/1.0, HTTP/1.1, ...)
+
+- `%s` és l'status code que el servidor retorna al client
+
+- `%b` és el tamany de l'objecte retornat al client
+
+- `%f` és el lloc del qual el client reporta que ha estat referenciat
+
+- `%a` és l'user-agent: la identificació del navegador web del client
 
 Es desitja fer una anàlisi d'aquest registre per tal d'esbrinar:
 - El host que més peticions realitza al servidor
@@ -53,7 +64,7 @@ Es desitja fer una anàlisi d'aquest registre per tal d'esbrinar:
 ## Input
 
 L'entrada consta de diverses línies de registre amb el format indicat.
-El registre acaba amb la línia "**END**"
+El registre acaba amb la línia `__END__`
 
 ## Output
 
@@ -66,7 +77,7 @@ S'imprimirà en distintes línies:
 
 ## Tests
 
-### Test 10
+### Test 16.67
 ```input
 233.192.62.103 - - [28/05/2019:12:00:06] "POST /stems HTTP/1.0" 200 10037 "http://www.casualcyclist.com" "Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5355d Safari/8536.25"
 16.180.70.237 - - [28/05/2019:12:00:55] "POST /Store/cart.jsp HTTP/1.1" 403 4796 "http://bestcyclingreviews.com/top_online_shops" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1944.0 Safari/537.36"
@@ -79,11 +90,11 @@ __END__
 237.43.24.118
 /stems
 http://bestcyclingreviews.com/top_online_shops
-Mozilla/5.0 (Windows; U; MSIE 9.0; WIndows NT 9.0; en-US))"
+Mozilla/5.0 (Windows; U; MSIE 9.0; WIndows NT 9.0; en-US))
 12
 ```
 
-### Test 10
+### Test 16.67
 ```input
 233.192.62.103 - - [28/05/2019:12:00:06] "POST /stems HTTP/1.0" 200 10037 "http://www.casualcyclist.com" "Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5355d Safari/8536.25"
 16.180.70.237 - - [28/05/2019:12:00:55] "POST /Store/cart.jsp HTTP/1.1" 403 4796 "http://bestcyclingreviews.com/top_online_shops" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1944.0 Safari/537.36"
@@ -96,11 +107,11 @@ __END__
 237.43.24.118
 /stems
 http://bestcyclingreviews.com/top_online_shops
-Mozilla/5.0 (Windows; U; MSIE 9.0; WIndows NT 9.0; en-US))"
+Mozilla/5.0 (Windows; U; MSIE 9.0; WIndows NT 9.0; en-US))
 12
 ```
 
-### Test 10
+### Test 16.67
 ```input
 237.43.24.118 - - [28/05/2019:12:04:37] "POST /saddles HTTP/1.0" 200 4957 "http://bestcyclingreviews.com/top_online_shops" "Mozilla/5.0 (Windows; U; Windows NT 6.1; rv:2.2) Gecko/20110201"
 237.43.24.118 - - [28/05/2019:12:07:05] "GET /shifters HTTP/1.1" 200 6769 "http://www.casualcyclist.com" "Mozilla/5.0 (Windows; U; Windows NT 6.1; rv:2.2) Gecko/20110201"
@@ -114,11 +125,11 @@ __END__
 237.43.24.118
 /shifters
 http://bestcyclingreviews.com/top_online_shops
-Mozilla/5.0 (Windows; U; Windows NT 6.1; rv:2.2) Gecko/20110201"
+Mozilla/5.0 (Windows; U; Windows NT 6.1; rv:2.2) Gecko/20110201
 12
 ```
 
-### Test 10
+### Test 16.67
 ```input
 123.221.14.56 - - [28/05/2019:12:05:17] "POST /forks HTTP/1.1" 404 9342 "http://www.casualcyclist.com" "Mozilla/5.0 (Linux; U; Android 2.3.5; en-us; HTC Vision Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
 16.180.70.237 - - [28/05/2019:12:09:21] "POST /shifters HTTP/1.0" 400 5067 "-" "Mozilla/5.0 (Linux; U; Android 2.3.5; en-us; HTC Vision Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
@@ -134,11 +145,11 @@ __END__
 237.43.24.118
 /forks
 http://www.casualcyclist.com
-Mozilla/5.0 (Windows; U; MSIE 9.0; WIndows NT 9.0; en-US))"
+Mozilla/5.0 (Windows; U; MSIE 9.0; WIndows NT 9.0; en-US))
 12
 ```
 
-### Test 10
+### Test 16.67
 ```input
 233.192.62.103 - - [28/05/2019:12:05:12] "POST /forks HTTP/1.1" 404 7702 "http://bestcyclingreviews.com/top_online_shops" "Mozilla/5.0 (Windows; U; Windows NT 6.1; rv:2.2) Gecko/20110201"
 123.221.14.56 - - [28/05/2019:12:08:23] "POST /handle-bars HTTP/1.1" 400 8411 "http://www.casualcyclist.com" "Mozilla/5.0 (Windows; U; Windows NT 6.1; rv:2.2) Gecko/20110201"
@@ -161,11 +172,11 @@ __END__
 244.157.45.12
 /forks
 http://bestcyclingreviews.com/top_online_shops
-Mozilla/5.0 (Windows; U; MSIE 9.0; WIndows NT 9.0; en-US))"
+Mozilla/5.0 (Windows; U; MSIE 9.0; WIndows NT 9.0; en-US))
 12
 ```
 
-### Test private 10
+### Test private 16.65
 ```input
 218.193.16.244 - - [28/05/2019:18:40:43] "GET /seatposts HTTP/1.1" 200 10910 "http://www.casualcyclist.com" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1944.0 Safari/537.36"
 244.157.45.12 - - [29/05/2019:02:29:38] "GET /seatposts HTTP/1.1" 500 4523 "http://bleater.com" "Mozilla/5.0 (Linux; U; Android 2.3.5; en-us; HTC Vision Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
@@ -193,6 +204,6 @@ __END__
 114.214.178.92
 /forks
 http://bestcyclingreviews.com/top_online_shops
-Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1944.0 Safari/537.36"
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1944.0 Safari/537.36
 2
 ```

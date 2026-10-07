@@ -1,6 +1,6 @@
 ---
 slug: c3-l2-7-descompressio-rle
-tags: [for]
+tags: [scanner, i/o]
 ---
 # Descompressió RLE
 
@@ -8,13 +8,13 @@ La codificació Run-length encoding (RLE) és una forma molt simple de compressi
 
 Per exemple, la cadena següent cadena de text:
 
-```
+```text
 BBBBNNNBBBBBNN
 ```
 
 Es pot comprimir d'aquesta manera:
 
-```
+```text
 4B3N5B2N
 ```
 
@@ -24,13 +24,15 @@ S'interpreta com 4 bes, 3 enes, 5 bes, 2 enes.
 
 Una cadena de L caracters comprimida en RLE
 
+No hi ha cap recompte superior a 9
+
 ## Output
 
 La cadena descomprimida
 
 ## Tests
 
-### Test
+### Test 14.29
 ```input
 3B4N
 ```
@@ -38,7 +40,7 @@ La cadena descomprimida
 BBBNNNN
 ```
 
-### Test
+### Test 14.29
 ```input
 3B4N
 ```
@@ -46,7 +48,7 @@ BBBNNNN
 BBBNNNN
 ```
 
-### Test
+### Test private 14.29
 ```input
 5B3N1B
 ```
@@ -54,7 +56,7 @@ BBBNNNN
 BBBBBNNNB
 ```
 
-### Test
+### Test private 14.29
 ```input
 1B5N1B
 ```
@@ -62,7 +64,7 @@ BBBBBNNNB
 BNNNNNB
 ```
 
-### Test
+### Test private 14.29
 ```input
 1A3B4A3N2C1A5D
 ```
@@ -70,7 +72,7 @@ BNNNNNB
 ABBBAAAANNNCCADDDDD
 ```
 
-### Test
+### Test private 14.29
 ```input
 8W7H7A9T
 ```
@@ -78,7 +80,7 @@ ABBBAAAANNNCCADDDDD
 WWWWWWWWHHHHHHHAAAAAAATTTTTTTTT
 ```
 
-### Test private
+### Test private 14.26
 ```input
 1J1A1V1A
 ```

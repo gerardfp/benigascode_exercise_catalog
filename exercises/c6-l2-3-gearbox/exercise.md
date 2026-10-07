@@ -6,6 +6,7 @@ slug: c6-l2-3-gearbox
 Implementa els mètodes GearBox.gearUp() i GearBox.gearDown()
 
 - gearUp() incrementa la 'gear' en 1. Quan s'arriba a límit 'numGears', no s'ha d'incrementar
+
 - gearDown() decrementa la 'gear' en 1. Quan s'arriba a '-1' (marxa enrere), no s'ha de decrementar
 
 ## Input
@@ -72,7 +73,7 @@ public class Main {
 
 ## Tests
 
-### Test
+### Test 20
 ```input
 5
 UP
@@ -90,7 +91,7 @@ Current gear: 2
 Current gear: 1
 ```
 
-### Test
+### Test 20
 ```input
 6
 UP
@@ -108,7 +109,7 @@ Current gear: N
 Current gear: R
 ```
 
-### Test
+### Test private 20
 ```input
 6
 UP
@@ -126,7 +127,7 @@ Current gear: N
 Current gear: R
 ```
 
-### Test
+### Test private 20
 ```input
 5
 UP
@@ -146,7 +147,7 @@ Current gear: 5
 Current gear: 5
 ```
 
-### Test private
+### Test private 20
 ```input
 5
 UP

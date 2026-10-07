@@ -1,15 +1,22 @@
 ---
 slug: a-hello-world
-tags: [literals]
+tags: [scanner, i/o]
 ---
 # Hello World ASCII-art
 
 Imprimeix "HELLO WORLD" en ASCII-Art
 
+## Input
+
+-
+
+## Output
+
+-
 
 ## Tests
 
-### Test
+### Test 50
 ```input
 ```
 ```output
@@ -20,7 +27,7 @@ Imprimeix "HELLO WORLD" en ASCII-Art
 %+   *&  })=(\{  "<}&%  &[/|>  \+]&"!/      <\' '(+    '&![%{'  [%   ?<  %|<?+  ;=?%&'
 ```
 
-### Test private
+### Test private 50
 ```input
 ```
 ```output

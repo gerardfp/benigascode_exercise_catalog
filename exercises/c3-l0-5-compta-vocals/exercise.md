@@ -1,6 +1,5 @@
 ---
 slug: c3-l0-5-compta-vocals
-tags: [for]
 ---
 # Filtra vocals
 
@@ -11,6 +10,7 @@ Donada una llista de lletres, imprimeix únicament les vocals que hi hagi.
 L'entrada consta de dues parts:
 
 - Primer s'indica la quantitat de lletres
+
 - A continuació venen les lletres, en minúscules i separades per espais en blanc
 
 ## Output
@@ -19,7 +19,7 @@ S'imprimirà cada vocal en una línia
 
 ## Tests
 
-### Test
+### Test 11.11
 ```input
 3
 a b c
@@ -28,7 +28,7 @@ a b c
 a
 ```
 
-### Test
+### Test 11.11
 ```input
 3
 a b c
@@ -37,7 +37,7 @@ a b c
 a
 ```
 
-### Test
+### Test private 11.11
 ```input
 5
 a b c d e
@@ -47,7 +47,7 @@ a
 e
 ```
 
-### Test
+### Test private 11.11
 ```input
 5
 a x e x a
@@ -58,7 +58,7 @@ e
 a
 ```
 
-### Test
+### Test private 11.11
 ```input
 10
 i j u k i l l o m a
@@ -71,7 +71,7 @@ o
 a
 ```
 
-### Test
+### Test private 11.11
 ```input
 20
 a e t h v u i e a o c x u i a o e u l o
@@ -93,7 +93,7 @@ u
 o
 ```
 
-### Test
+### Test private 11.11
 ```input
 1
 a
@@ -102,7 +102,7 @@ a
 a
 ```
 
-### Test
+### Test private 11.11
 ```input
 5
 a e i o u
@@ -115,7 +115,7 @@ o
 u
 ```
 
-### Test private
+### Test private 11.12
 ```input
 5
 x u v z i

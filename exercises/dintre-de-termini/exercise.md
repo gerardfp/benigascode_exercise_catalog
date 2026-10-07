@@ -1,6 +1,5 @@
 ---
 slug: dintre-de-termini
-tags: [if]
 ---
 # Dintre de termini
 
@@ -22,7 +21,7 @@ Cal llegir el dia, mes i any de cada data amb `nextInt()`. S'hauràn de descarta
 
 Una possible idea per a la solució és presuposar que la segona data està enmig, i després veure si es compleix alguna condició que impliqui que realment no està enmig.
 
-```
+```text
 // suposem que està enmig
 boolean enmig = true;
 
@@ -39,9 +38,24 @@ if (any1 > any2) {
 System.out.println(enmig);
 ```
 
+## Plantillas
+
+```java
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+      	Scanner scanner = new Scanner(System.in);
+      
+      
+    }
+}
+```
+
 ## Tests
 
-### Test
+### Test 3.57
 ```input
 7 / 1 / 1999      17 / 10 / 2050      7 / 1 / 2020
 ```
@@ -49,7 +63,7 @@ System.out.println(enmig);
 false
 ```
 
-### Test
+### Test 3.57
 ```input
 7 / 1 / 1999      7 / 1 / 2020      7 / 1 / 2050
 ```
@@ -57,7 +71,7 @@ false
 true
 ```
 
-### Test
+### Test private 3.57
 ```input
 7 / 1 / 1999      7 / 10 / 2020      17 / 1 / 2020
 ```
@@ -65,7 +79,7 @@ true
 false
 ```
 
-### Test
+### Test private 3.57
 ```input
 7 / 1 / 1999      7 / 12 / 1999      7 / 1 / 2020
 ```
@@ -73,7 +87,7 @@ false
 true
 ```
 
-### Test
+### Test private 3.57
 ```input
 7 / 1 / 1999      17 / 1 / 2050      27 / 1 / 2020
 ```
@@ -81,7 +95,7 @@ true
 false
 ```
 
-### Test
+### Test private 3.57
 ```input
 7 / 1 / 1999      17 / 12 / 2020      17 / 1 / 1999
 ```
@@ -89,7 +103,7 @@ false
 false
 ```
 
-### Test
+### Test private 3.57
 ```input
 7 / 1 / 1999      27 / 10 / 1999      17 / 10 / 2020
 ```
@@ -97,7 +111,7 @@ false
 true
 ```
 
-### Test
+### Test private 3.57
 ```input
 7 / 1 / 2020      7 / 1 / 1999      17 / 1 / 2020
 ```
@@ -105,7 +119,7 @@ true
 false
 ```
 
-### Test
+### Test private 3.57
 ```input
 7 / 1 / 2020      17 / 1 / 2020      7 / 1 / 2050
 ```
@@ -113,7 +127,7 @@ false
 true
 ```
 
-### Test
+### Test private 3.57
 ```input
 7 / 1 / 2020      27 / 1 / 2050      17 / 10 / 1999
 ```
@@ -121,7 +135,7 @@ true
 false
 ```
 
-### Test
+### Test private 3.57
 ```input
 7 / 1 / 2050      7 / 12 / 2050      27 / 12 / 2050
 ```
@@ -129,7 +143,7 @@ false
 true
 ```
 
-### Test
+### Test private 3.57
 ```input
 7 / 1 / 2050      27 / 10 / 2050      17 / 10 / 2020
 ```
@@ -137,7 +151,7 @@ true
 false
 ```
 
-### Test
+### Test private 3.57
 ```input
 7 / 10 / 2020      7 / 12 / 2020      7 / 1 / 2050 
 ```
@@ -145,7 +159,7 @@ false
 true
 ```
 
-### Test
+### Test private 3.57
 ```input
 7 / 10 / 2050      17 / 10 / 2020      7 / 1 / 2050 
 ```
@@ -153,7 +167,7 @@ true
 false
 ```
 
-### Test
+### Test private 3.57
 ```input
 7 / 12 / 2020      17 / 10 / 2050      7 / 12 / 2050 
 ```
@@ -161,7 +175,7 @@ false
 true
 ```
 
-### Test
+### Test private 3.57
 ```input
 17 / 1 / 1999      27 / 10 / 2050      7 / 1 / 1999 
 ```
@@ -169,7 +183,7 @@ true
 false
 ```
 
-### Test
+### Test private 3.57
 ```input
 17 / 10 / 1999      7 / 1 / 2020      7 / 1 / 2050 
 ```
@@ -177,7 +191,7 @@ false
 true
 ```
 
-### Test
+### Test private 3.57
 ```input
 17 / 10 / 2020      27 / 1 / 1999      17 / 10 / 1999 
 ```
@@ -185,7 +199,7 @@ true
 false
 ```
 
-### Test
+### Test private 3.57
 ```input
 17 / 10 / 2050      27 / 10 / 2050      17 / 12 / 2050 
 ```
@@ -193,7 +207,7 @@ false
 true
 ```
 
-### Test
+### Test private 3.57
 ```input
 17 / 12 / 2020      7 / 12 / 2020      27 / 10 / 1999 
 ```
@@ -201,7 +215,7 @@ true
 false
 ```
 
-### Test
+### Test private 3.57
 ```input
 27 / 1 / 1999      7 / 1 / 2020      7 / 1 / 2050 
 ```
@@ -209,7 +223,7 @@ false
 true
 ```
 
-### Test
+### Test private 3.57
 ```input
 27 / 1 / 2020      7 / 12 / 2050      7 / 1 / 1999 
 ```
@@ -217,7 +231,7 @@ true
 false
 ```
 
-### Test
+### Test private 3.57
 ```input
 27 / 10 / 1999      7 / 1 / 2020      7 / 1 / 2050 
 ```
@@ -225,7 +239,7 @@ false
 true
 ```
 
-### Test
+### Test private 3.57
 ```input
 27 / 10 / 1999      27 / 10 / 2020      17 / 12 / 1999 
 ```
@@ -233,7 +247,7 @@ true
 false
 ```
 
-### Test
+### Test private 3.57
 ```input
 27 / 12 / 1999      7 / 1 / 2020      7 / 1 / 2050 
 ```
@@ -241,7 +255,7 @@ false
 true
 ```
 
-### Test
+### Test private 3.57
 ```input
 27 / 12 / 1999      27 / 10 / 2020      7 / 1 / 2020 
 ```
@@ -249,7 +263,7 @@ true
 false
 ```
 
-### Test
+### Test private 3.57
 ```input
 27 / 12 / 2020      7 / 1 / 2050      7 / 10 / 2050 
 ```
@@ -257,7 +271,7 @@ false
 true
 ```
 
-### Test private
+### Test private 3.61
 ```input
 27 / 12 / 2020      27 / 10 / 2050      7 / 12 / 2020 
 ```

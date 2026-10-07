@@ -1,6 +1,6 @@
 ---
 slug: c7-l1-1-suma-els-n-primers-nombres
-tags: [recursivitat]
+tags: [matemáticas, algorithms]
 ---
 # Suma els n primers nombres
 
@@ -8,7 +8,7 @@ Escriu un algorisme recursiu per a sumar els n primers nombres.
 
 Exemple:
 
-```
+```text
 n=10 -> 1+2+3+4+5+6+7+8+9+10=55
 ```
 
@@ -16,13 +16,15 @@ n=10 -> 1+2+3+4+5+6+7+8+9+10=55
 
 Un nombre enter
 
+No hi ha
+
 ## Output
 
 La suma
 
 ## Tests
 
-### Test
+### Test 14.29
 ```input
 1
 ```
@@ -30,7 +32,7 @@ La suma
 1
 ```
 
-### Test
+### Test 14.29
 ```input
 1
 ```
@@ -38,7 +40,7 @@ La suma
 1
 ```
 
-### Test
+### Test private 14.29
 ```input
 3
 ```
@@ -46,7 +48,7 @@ La suma
 6
 ```
 
-### Test
+### Test private 14.29
 ```input
 5
 ```
@@ -54,7 +56,7 @@ La suma
 15
 ```
 
-### Test
+### Test private 14.29
 ```input
 10
 ```
@@ -62,7 +64,7 @@ La suma
 55
 ```
 
-### Test
+### Test private 14.29
 ```input
 20
 ```
@@ -70,7 +72,7 @@ La suma
 210
 ```
 
-### Test private
+### Test private 14.26
 ```input
 1000
 ```

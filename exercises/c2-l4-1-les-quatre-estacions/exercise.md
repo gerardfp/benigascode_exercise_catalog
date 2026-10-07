@@ -1,14 +1,17 @@
 ---
 slug: c2-l4-1-les-quatre-estacions
-tags: [if]
+tags: [scanner, i/o]
 ---
 # Les quatre estacions
 
 Les quatre estacions tradicionals tenen el seu inici i final marcats per esdeveniments astronòmics:
 
 - Hivern: entre el solstici d'hivern i l'equinocci de primavera.
+
 - Primavera: entre l'equinocci de primavera i el solstici d'estiu.
+
 - Estiu: entre el solstici d'estiu i l'equinocci de tardor.
+
 - Tardor: entre l'equinocci de tardor i el solstici d'hivern.
 
 A l'hemisferi sud hivern-estiu i primavera-tardor estan invertits
@@ -19,13 +22,15 @@ A l'hemisferi sud hivern-estiu i primavera-tardor estan invertits
 
 La entrada consta d'un dia i mes de l'any.
 
+Les dates són vàlides
+
 ## Output
 
 S'imprimirà l'estació corresponent a l'hemisferi nord i a l'hemisferi sud.
 
 ## Tests
 
-### Test
+### Test 5.56
 ```input
 21 3
 ```
@@ -34,7 +39,7 @@ Primavera
 Tardor
 ```
 
-### Test
+### Test 5.56
 ```input
 21 12
 ```
@@ -43,7 +48,7 @@ Hivern
 Estiu
 ```
 
-### Test
+### Test private 5.56
 ```input
 21 3
 ```
@@ -52,7 +57,7 @@ Primavera
 Tardor
 ```
 
-### Test
+### Test private 5.56
 ```input
 21 6
 ```
@@ -61,7 +66,7 @@ Estiu
 Hivern
 ```
 
-### Test
+### Test private 5.56
 ```input
 23 9
 ```
@@ -70,7 +75,7 @@ Tardor
 Primavera
 ```
 
-### Test
+### Test private 5.56
 ```input
 20 12
 ```
@@ -79,7 +84,7 @@ Tardor
 Primavera
 ```
 
-### Test
+### Test private 5.56
 ```input
 22 12
 ```
@@ -88,7 +93,7 @@ Hivern
 Estiu
 ```
 
-### Test
+### Test private 5.56
 ```input
 20 3
 ```
@@ -97,7 +102,7 @@ Hivern
 Estiu
 ```
 
-### Test
+### Test private 5.56
 ```input
 22 3
 ```
@@ -106,7 +111,7 @@ Primavera
 Tardor
 ```
 
-### Test
+### Test private 5.56
 ```input
 20 6
 ```
@@ -115,7 +120,7 @@ Primavera
 Tardor
 ```
 
-### Test
+### Test private 5.56
 ```input
 22 6
 ```
@@ -124,7 +129,7 @@ Estiu
 Hivern
 ```
 
-### Test
+### Test private 5.56
 ```input
 22 9
 ```
@@ -133,7 +138,7 @@ Estiu
 Hivern
 ```
 
-### Test
+### Test private 5.56
 ```input
 24 9
 ```
@@ -142,7 +147,7 @@ Tardor
 Primavera
 ```
 
-### Test
+### Test private 5.56
 ```input
 15 1
 ```
@@ -151,7 +156,7 @@ Hivern
 Estiu
 ```
 
-### Test
+### Test private 5.56
 ```input
 23 5
 ```
@@ -160,7 +165,7 @@ Primavera
 Tardor
 ```
 
-### Test
+### Test private 5.56
 ```input
 21 7
 ```
@@ -169,7 +174,7 @@ Estiu
 Hivern
 ```
 
-### Test
+### Test private 5.56
 ```input
 27 10
 ```
@@ -178,7 +183,7 @@ Tardor
 Primavera
 ```
 
-### Test private
+### Test private 5.48
 ```input
 30 1
 ```
