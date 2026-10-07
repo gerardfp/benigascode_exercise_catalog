@@ -6,13 +6,6 @@ tags: [literals]
 
 Imprimeix "HELLO WORLD" en ASCII-Art
 
-## Input
-
--
-
-## Output
-
--
 
 ## Tests
 
