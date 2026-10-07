@@ -21,7 +21,7 @@ S'imprimiràn totes les pàgines ordenades segons el número de pàgina.
 
 ## Tests
 
-### Test 25
+### Test
 ```input
 4
 3 La sentencia if tiene esta forma: if {} else {}
@@ -36,7 +36,7 @@ S'imprimiràn totes les pàgines ordenades segons el número de pàgina.
 4 La sentencia for tiene esta forma: for(;;) {}
 ```
 
-### Test 25
+### Test
 ```input
 4
 2 Los operadores booleanos son OR || y AND &&
@@ -51,7 +51,7 @@ S'imprimiràn totes les pàgines ordenades segons el número de pàgina.
 4 La sentencia for tiene esta forma: for(;;) {}
 ```
 
-### Test private 25
+### Test
 ```input
 5
 5 La sentencia while tiene esta sintaxis: while(){}
@@ -68,7 +68,7 @@ S'imprimiràn totes les pàgines ordenades segons el número de pàgina.
 5 La sentencia while tiene esta sintaxis: while(){}
 ```
 
-### Test private 25
+### Test
 ```input
 10
 7 Kotlin es un lenguaje que corre sobre la maquina virtual Java

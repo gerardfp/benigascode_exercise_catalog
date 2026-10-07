@@ -29,7 +29,7 @@ S'imprimirà la distribució final en que queda el magatzem. Els espais buits de
 
 ## Tests
 
-### Test 14.29
+### Test
 ```input
 4 4
 4
@@ -55,7 +55,7 @@ abb.
 ....
 ```
 
-### Test 14.29
+### Test
 ```input
 4 4
 4
@@ -81,7 +81,7 @@ abb.
 ....
 ```
 
-### Test private 14.29
+### Test
 ```input
 3 3
 2
@@ -100,7 +100,7 @@ pxx
 ppx
 ```
 
-### Test private 14.29
+### Test
 ```input
 3 4
 3
@@ -119,7 +119,7 @@ oooo
 ....
 ```
 
-### Test private 14.29
+### Test
 ```input
 8 8
 8
@@ -166,7 +166,7 @@ uuu.yiy.
 .....y..
 ```
 
-### Test private 14.29
+### Test
 ```input
 3 6
 8
@@ -201,7 +201,7 @@ sslvtv
 ..llv.
 ```
 
-### Test private 14.26
+### Test
 ```input
 5 10
 10

@@ -15,7 +15,7 @@ La quantitat de nombres iguals a l'últim.
 
 ## Tests
 
-### Test 16.67
+### Test
 ```input
 3    1 1 1
 ```
@@ -23,7 +23,7 @@ La quantitat de nombres iguals a l'últim.
 2
 ```
 
-### Test 16.67
+### Test
 ```input
 5    
 23 34 23 45 23
@@ -32,7 +32,7 @@ La quantitat de nombres iguals a l'últim.
 2
 ```
 
-### Test private 16.67
+### Test
 ```input
 1    
 23
@@ -41,7 +41,7 @@ La quantitat de nombres iguals a l'últim.
 0
 ```
 
-### Test private 16.67
+### Test
 ```input
 5    
 12 23 34 45 56
@@ -50,7 +50,7 @@ La quantitat de nombres iguals a l'últim.
 0
 ```
 
-### Test private 16.67
+### Test
 ```input
 3    
 100 100 100
@@ -59,7 +59,7 @@ La quantitat de nombres iguals a l'últim.
 2
 ```
 
-### Test private 16.65
+### Test
 ```input
 2    
 23 23

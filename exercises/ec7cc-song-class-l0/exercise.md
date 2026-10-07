@@ -44,7 +44,7 @@ public class Main {
 
 ## Tests
 
-### Test 33.33
+### Test
 ```input
 One love
 Bob Marley
@@ -56,7 +56,7 @@ true
 ****
 ```
 
-### Test private 33.33
+### Test
 ```input
 Hey Joe
 Jimmi Hendrix
@@ -68,7 +68,7 @@ true
 ****
 ```
 
-### Test private 33.34
+### Test
 ```input
 Whole Lotta Love
 Led Zeppelin

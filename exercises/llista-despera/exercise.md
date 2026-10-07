@@ -22,7 +22,7 @@ S'imprimirà per a cada aspirant, quants hi ha per davant seu que han elegit el 
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 5
 A B A B A
@@ -31,7 +31,7 @@ A B A B A
 0 0 1 1 2
 ```
 
-### Test 20
+### Test
 ```input
 7
 A A B C A A D
@@ -40,7 +40,7 @@ A A B C A A D
 0 1 0 0 2 3 0
 ```
 
-### Test private 20
+### Test
 ```input
 10
 InstitutA InstitutB InstitutC InstitutD InstitutA InstitutA InstitutA InstitutA InstitutB InstitutB
@@ -49,7 +49,7 @@ InstitutA InstitutB InstitutC InstitutD InstitutA InstitutA InstitutA InstitutA 
 0 0 0 0 1 2 3 4 1 2
 ```
 
-### Test private 20
+### Test
 ```input
 5
 A B C D E
@@ -58,7 +58,7 @@ A B C D E
 0 0 0 0 0
 ```
 
-### Test private 20
+### Test
 ```input
 10
 A A A A A A A A A B

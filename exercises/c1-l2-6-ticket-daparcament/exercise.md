@@ -30,7 +30,7 @@ S'imprimirà l'hora de finalització en format H:M:S
 
 ## Tests
 
-### Test 10
+### Test
 ```input
 0 0 0
 0
@@ -40,7 +40,7 @@ S'imprimirà l'hora de finalització en format H:M:S
 0:0:0
 ```
 
-### Test 10
+### Test
 ```input
 0 0 0
 60
@@ -50,7 +50,7 @@ S'imprimirà l'hora de finalització en format H:M:S
 1:0:0
 ```
 
-### Test private 10
+### Test
 ```input
 10 0 0
 30
@@ -60,7 +60,7 @@ S'imprimirà l'hora de finalització en format H:M:S
 10:30:0
 ```
 
-### Test private 10
+### Test
 ```input
 10 15 0
 1
@@ -70,7 +70,7 @@ S'imprimirà l'hora de finalització en format H:M:S
 10:15:30
 ```
 
-### Test private 10
+### Test
 ```input
 16 0 0
 0.5
@@ -80,7 +80,7 @@ S'imprimirà l'hora de finalització en format H:M:S
 16:0:15
 ```
 
-### Test private 10
+### Test
 ```input
 16 45 0
 30
@@ -90,7 +90,7 @@ S'imprimirà l'hora de finalització en format H:M:S
 17:15:0
 ```
 
-### Test private 10
+### Test
 ```input
 16 30 45
 0.5
@@ -100,7 +100,7 @@ S'imprimirà l'hora de finalització en format H:M:S
 16:31:15
 ```
 
-### Test private 10
+### Test
 ```input
 16 30 45
 1.5
@@ -110,7 +110,7 @@ S'imprimirà l'hora de finalització en format H:M:S
 17:30:45
 ```
 
-### Test private 10
+### Test
 ```input
 8 30 45
 30
@@ -120,7 +120,7 @@ S'imprimirà l'hora de finalització en format H:M:S
 18:53:15
 ```
 
-### Test private 10
+### Test
 ```input
 6 17 59
 20.5

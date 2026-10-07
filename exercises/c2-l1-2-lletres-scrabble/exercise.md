@@ -30,7 +30,7 @@ La puntuació de la lletra
 
 ## Tests
 
-### Test 3.7
+### Test
 ```input
 E
 ```
@@ -38,7 +38,7 @@ E
 1
 ```
 
-### Test 3.7
+### Test
 ```input
 A
 ```
@@ -46,7 +46,7 @@ A
 1
 ```
 
-### Test private 3.7
+### Test
 ```input
 E
 ```
@@ -54,7 +54,7 @@ E
 1
 ```
 
-### Test private 3.7
+### Test
 ```input
 I
 ```
@@ -62,7 +62,7 @@ I
 1
 ```
 
-### Test private 3.7
+### Test
 ```input
 O
 ```
@@ -70,7 +70,7 @@ O
 1
 ```
 
-### Test private 3.7
+### Test
 ```input
 U
 ```
@@ -78,7 +78,7 @@ U
 1
 ```
 
-### Test private 3.7
+### Test
 ```input
 L
 ```
@@ -86,7 +86,7 @@ L
 1
 ```
 
-### Test private 3.7
+### Test
 ```input
 N
 ```
@@ -94,7 +94,7 @@ N
 1
 ```
 
-### Test private 3.7
+### Test
 ```input
 R
 ```
@@ -102,7 +102,7 @@ R
 1
 ```
 
-### Test private 3.7
+### Test
 ```input
 S
 ```
@@ -110,7 +110,7 @@ S
 1
 ```
 
-### Test private 3.7
+### Test
 ```input
 T
 ```
@@ -118,7 +118,7 @@ T
 1
 ```
 
-### Test private 3.7
+### Test
 ```input
 D
 ```
@@ -126,7 +126,7 @@ D
 2
 ```
 
-### Test private 3.7
+### Test
 ```input
 G
 ```
@@ -134,7 +134,7 @@ G
 2
 ```
 
-### Test private 3.7
+### Test
 ```input
 B
 ```
@@ -142,7 +142,7 @@ B
 3
 ```
 
-### Test private 3.7
+### Test
 ```input
 C
 ```
@@ -150,7 +150,7 @@ C
 3
 ```
 
-### Test private 3.7
+### Test
 ```input
 M
 ```
@@ -158,7 +158,7 @@ M
 3
 ```
 
-### Test private 3.7
+### Test
 ```input
 P
 ```
@@ -166,7 +166,7 @@ P
 3
 ```
 
-### Test private 3.7
+### Test
 ```input
 F
 ```
@@ -174,7 +174,7 @@ F
 4
 ```
 
-### Test private 3.7
+### Test
 ```input
 H
 ```
@@ -182,7 +182,7 @@ H
 4
 ```
 
-### Test private 3.7
+### Test
 ```input
 V
 ```
@@ -190,7 +190,7 @@ V
 4
 ```
 
-### Test private 3.7
+### Test
 ```input
 W
 ```
@@ -198,7 +198,7 @@ W
 4
 ```
 
-### Test private 3.7
+### Test
 ```input
 Y
 ```
@@ -206,7 +206,7 @@ Y
 4
 ```
 
-### Test private 3.7
+### Test
 ```input
 K
 ```
@@ -214,7 +214,7 @@ K
 5
 ```
 
-### Test private 3.7
+### Test
 ```input
 J
 ```
@@ -222,7 +222,7 @@ J
 8
 ```
 
-### Test private 3.7
+### Test
 ```input
 X
 ```
@@ -230,7 +230,7 @@ X
 8
 ```
 
-### Test private 3.7
+### Test
 ```input
 Q
 ```
@@ -238,7 +238,7 @@ Q
 10
 ```
 
-### Test private 3.8
+### Test
 ```input
 Z
 ```

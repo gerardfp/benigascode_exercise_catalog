@@ -68,7 +68,7 @@ public class Main {
 
 ## Tests
 
-### Test 6.67
+### Test
 ```input
 French
 ```
@@ -76,7 +76,7 @@ French
 Bonjour
 ```
 
-### Test 6.67
+### Test
 ```input
 French
 ```
@@ -84,7 +84,7 @@ French
 Bonjour
 ```
 
-### Test private 6.67
+### Test
 ```input
 Spanish
 ```
@@ -92,7 +92,7 @@ Spanish
 Hola
 ```
 
-### Test private 6.67
+### Test
 ```input
 Russian
 ```
@@ -100,7 +100,7 @@ Russian
 Zdravstvuyte
 ```
 
-### Test private 6.67
+### Test
 ```input
 Zulu
 Sawubona
@@ -110,7 +110,7 @@ No conec el teu idioma, com es diu hola?
 Sawubona
 ```
 
-### Test private 6.67
+### Test
 ```input
 Chinese
 ```
@@ -118,7 +118,7 @@ Chinese
 Nin hao
 ```
 
-### Test private 6.67
+### Test
 ```input
 Italian
 Salve
@@ -128,7 +128,7 @@ No conec el teu idioma, com es diu hola?
 Salve
 ```
 
-### Test private 6.67
+### Test
 ```input
 Japanese
 ```
@@ -136,7 +136,7 @@ Japanese
 Konnichiwa
 ```
 
-### Test private 6.67
+### Test
 ```input
 Swahili
 Hujambo
@@ -146,7 +146,7 @@ No conec el teu idioma, com es diu hola?
 Hujambo
 ```
 
-### Test private 6.67
+### Test
 ```input
 German
 ```
@@ -154,7 +154,7 @@ German
 Guten Tag
 ```
 
-### Test private 6.67
+### Test
 ```input
 Portuguese
 ```
@@ -162,7 +162,7 @@ Portuguese
 Ola
 ```
 
-### Test private 6.67
+### Test
 ```input
 Korean
 Anyoung haseyo
@@ -172,7 +172,7 @@ No conec el teu idioma, com es diu hola?
 Anyoung haseyo
 ```
 
-### Test private 6.67
+### Test
 ```input
 Arabic
 ```
@@ -180,7 +180,7 @@ Arabic
 Asalaam alaikum
 ```
 
-### Test private 6.67
+### Test
 ```input
 Hindi
 ```
@@ -188,7 +188,7 @@ Hindi
 Namaste
 ```
 
-### Test private 6.62
+### Test
 ```input
 Romanian
 ```

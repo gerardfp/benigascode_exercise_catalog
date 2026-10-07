@@ -21,7 +21,7 @@ Si solament s'utilitza 1 moneda en el desglossament, s'ha d'imprimir "moneda" en
 
 ## Tests
 
-### Test 50
+### Test
 ```input
 649
 ```
@@ -32,7 +32,7 @@ Si solament s'utilitza 1 moneda en el desglossament, s'ha d'imprimir "moneda" en
 4 monedes de 1
 ```
 
-### Test private 50
+### Test
 ```input
 2026
 ```

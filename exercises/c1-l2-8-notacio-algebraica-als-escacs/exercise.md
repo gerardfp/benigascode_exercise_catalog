@@ -24,7 +24,7 @@ S'imprimirà la posició de la casella en notació algebraica.
 
 ## Tests
 
-### Test 11.11
+### Test
 ```input
 1 1
 ```
@@ -32,7 +32,7 @@ S'imprimirà la posició de la casella en notació algebraica.
 a1
 ```
 
-### Test 11.11
+### Test
 ```input
 2 3
 ```
@@ -40,7 +40,7 @@ a1
 b3
 ```
 
-### Test private 11.11
+### Test
 ```input
 3 1
 ```
@@ -48,7 +48,7 @@ b3
 c1
 ```
 
-### Test private 11.11
+### Test
 ```input
 4 8
 ```
@@ -56,7 +56,7 @@ c1
 d8
 ```
 
-### Test private 11.11
+### Test
 ```input
 5 7
 ```
@@ -64,7 +64,7 @@ d8
 e7
 ```
 
-### Test private 11.11
+### Test
 ```input
 6 6
 ```
@@ -72,7 +72,7 @@ e7
 f6
 ```
 
-### Test private 11.11
+### Test
 ```input
 7 8
 ```
@@ -80,7 +80,7 @@ f6
 g8
 ```
 
-### Test private 11.11
+### Test
 ```input
 8 1
 ```
@@ -88,7 +88,7 @@ g8
 h1
 ```
 
-### Test private 11.12
+### Test
 ```input
 1 1
 ```

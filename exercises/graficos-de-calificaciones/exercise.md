@@ -42,7 +42,7 @@ La gràfica amb el resum de les notes, amb el format indicat.
 
 ## Tests
 
-### Test 16.67
+### Test
 ```input
 4 5 6 7 8 9 10    -1
 ```
@@ -54,7 +54,7 @@ S:#
 I:#
 ```
 
-### Test 16.67
+### Test
 ```input
 4 4 4 4 5 6 6 7 7 7 9   -1
 ```
@@ -66,7 +66,7 @@ S:#
 I:####
 ```
 
-### Test private 16.67
+### Test
 ```input
 4 5 3 6 7 5 6 8 5 6  9 8 5 8 7 9 5 8 4 3 7 8 6   -1
 ```
@@ -78,7 +78,7 @@ S:#####
 I:####
 ```
 
-### Test private 16.67
+### Test
 ```input
 5 6 7 3 5 8 9 5 6 7 6 5 8 7 9 2 9 3 7 9 9 5 4 6 9 3 8 9 10 10 8 10 6    -1
 ```
@@ -90,7 +90,7 @@ S:#####
 I:#####
 ```
 
-### Test private 16.67
+### Test
 ```input
 5  -1
 ```
@@ -102,7 +102,7 @@ S:#
 I:
 ```
 
-### Test private 16.65
+### Test
 ```input
 10 10 10 10 10 10 10 10 10 10    -1
 ```

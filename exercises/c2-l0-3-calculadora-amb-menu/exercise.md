@@ -33,7 +33,7 @@ S'imprimirà el resultat de l'operació
 
 ## Tests
 
-### Test 10
+### Test
 ```input
 1 1     1
 ```
@@ -47,7 +47,7 @@ Esculli una opcio:
 2
 ```
 
-### Test 10
+### Test
 ```input
 1 1     1
 ```
@@ -61,7 +61,7 @@ Esculli una opcio:
 2
 ```
 
-### Test private 10
+### Test
 ```input
 1 1     2
 ```
@@ -75,7 +75,7 @@ Esculli una opcio:
 0
 ```
 
-### Test private 10
+### Test
 ```input
 1 1     3
 ```
@@ -89,7 +89,7 @@ Esculli una opcio:
 1
 ```
 
-### Test private 10
+### Test
 ```input
 1 1     4
 ```
@@ -103,7 +103,7 @@ Esculli una opcio:
 1
 ```
 
-### Test private 10
+### Test
 ```input
 2 2     1
 ```
@@ -117,7 +117,7 @@ Esculli una opcio:
 4
 ```
 
-### Test private 10
+### Test
 ```input
 2 3     2
 ```
@@ -131,7 +131,7 @@ Esculli una opcio:
 -1
 ```
 
-### Test private 10
+### Test
 ```input
 2 5     3
 ```
@@ -145,7 +145,7 @@ Esculli una opcio:
 10
 ```
 
-### Test private 10
+### Test
 ```input
 10 5     4
 ```
@@ -159,7 +159,7 @@ Esculli una opcio:
 2
 ```
 
-### Test private 10
+### Test
 ```input
 3456 678     3
 ```

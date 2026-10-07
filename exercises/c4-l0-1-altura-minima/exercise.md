@@ -110,7 +110,7 @@ SI
 NO
 ```
 
-### Test private
+### Test
 ```input
 2
 1.40

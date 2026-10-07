@@ -50,7 +50,7 @@ public class Main {
 
 ## Tests
 
-### Test 33.33
+### Test
 ```input
 C Programming Language
 978-0131103627
@@ -66,7 +66,7 @@ Dennis M. Ritchie
 *****
 ```
 
-### Test private 33.33
+### Test
 ```input
 Expert C Programming: Deep C Secrets
 978-0131774292
@@ -82,7 +82,7 @@ Peter van der Linden
 *****
 ```
 
-### Test private 33.34
+### Test
 ```input
 C: A Reference Manual
 978-0130895929

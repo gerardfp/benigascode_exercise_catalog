@@ -19,7 +19,7 @@ La posició del cavall, i del dos peons
 
 ## Tests
 
-### Test 12.5
+### Test
 ```input
 4 5
 3 3
@@ -29,7 +29,7 @@ La posició del cavall, i del dos peons
 1
 ```
 
-### Test 12.5
+### Test
 ```input
 4 5
 3 3
@@ -39,7 +39,7 @@ La posició del cavall, i del dos peons
 1
 ```
 
-### Test private 12.5
+### Test
 ```input
 4 5
 2 4
@@ -49,7 +49,7 @@ La posició del cavall, i del dos peons
 2
 ```
 
-### Test private 12.5
+### Test
 ```input
 6 2
 6 4
@@ -59,7 +59,7 @@ La posició del cavall, i del dos peons
 0
 ```
 
-### Test private 12.5
+### Test
 ```input
 1 1
 2 3
@@ -69,7 +69,7 @@ La posició del cavall, i del dos peons
 2
 ```
 
-### Test private 12.5
+### Test
 ```input
 7 6
 3 4
@@ -79,7 +79,7 @@ La posició del cavall, i del dos peons
 1
 ```
 
-### Test private 12.5
+### Test
 ```input
 3 5
 2 2
@@ -89,7 +89,7 @@ La posició del cavall, i del dos peons
 0
 ```
 
-### Test private 12.5
+### Test
 ```input
 8 2
 7 4

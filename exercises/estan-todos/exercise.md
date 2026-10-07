@@ -22,7 +22,7 @@ El primer número  indica el nombre d'alumnes. A continuació ve la seqüència 
 
 ## Tests
 
-### Test 11.11
+### Test
 ```input
 3 
 1 2 3
@@ -31,7 +31,7 @@ El primer número  indica el nombre d'alumnes. A continuació ve la seqüència 
 SI
 ```
 
-### Test 11.11
+### Test
 ```input
 5 
 1 2 3 4 5
@@ -40,7 +40,7 @@ SI
 SI
 ```
 
-### Test private 11.11
+### Test
 ```input
 5 
 1 1 2 3 4
@@ -49,7 +49,7 @@ SI
 NO
 ```
 
-### Test private 11.11
+### Test
 ```input
 10 
 3 2 4 5 3 6 5 7 8 9
@@ -58,7 +58,7 @@ NO
 NO
 ```
 
-### Test private 11.11
+### Test
 ```input
 10 
 5 3 4 10 6 8 7 1 9 2
@@ -67,7 +67,7 @@ NO
 SI
 ```
 
-### Test private 11.11
+### Test
 ```input
 1 
 1
@@ -76,7 +76,7 @@ SI
 SI
 ```
 
-### Test private 11.11
+### Test
 ```input
 1 
 23
@@ -85,7 +85,7 @@ SI
 NO
 ```
 
-### Test private 11.11
+### Test
 ```input
 10 
 3 2 4 5 3 6 5 7 8 10
@@ -94,7 +94,7 @@ NO
 NO
 ```
 
-### Test private 11.12
+### Test
 ```input
 3
 1 3 11

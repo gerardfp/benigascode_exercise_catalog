@@ -26,14 +26,14 @@ void main() {
 
 ## Tests
 
-### Test 50
+### Test
 ```input
 ```
 ```output
 3 5 4
 ```
 
-### Test private 50
+### Test
 ```input
 ```
 ```output

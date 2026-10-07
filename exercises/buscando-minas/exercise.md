@@ -24,7 +24,7 @@ Per cada posició a comprovar s'escriurà  si en la casella hi ha una mina i  si
 
 ## Tests
 
-### Test 16.67
+### Test
 ```input
 3 3
 1 0 0
@@ -39,7 +39,7 @@ SI
 NO
 ```
 
-### Test 16.67
+### Test
 ```input
 3 3
 
@@ -58,7 +58,7 @@ NO
 SI
 ```
 
-### Test private 16.67
+### Test
 ```input
 5 5
 
@@ -83,7 +83,7 @@ SI
 SI
 ```
 
-### Test private 16.67
+### Test
 ```input
 1 1
 
@@ -96,7 +96,7 @@ SI
 SI
 ```
 
-### Test private 16.67
+### Test
 ```input
 1 4
 
@@ -115,7 +115,7 @@ NO
 NO
 ```
 
-### Test private 16.65
+### Test
 ```input
 3 4
 

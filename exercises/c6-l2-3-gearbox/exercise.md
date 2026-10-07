@@ -73,7 +73,7 @@ public class Main {
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 5
 UP
@@ -91,7 +91,7 @@ Current gear: 2
 Current gear: 1
 ```
 
-### Test 20
+### Test
 ```input
 6
 UP
@@ -109,7 +109,7 @@ Current gear: N
 Current gear: R
 ```
 
-### Test private 20
+### Test
 ```input
 6
 UP
@@ -127,7 +127,7 @@ Current gear: N
 Current gear: R
 ```
 
-### Test private 20
+### Test
 ```input
 5
 UP
@@ -147,7 +147,7 @@ Current gear: 5
 Current gear: 5
 ```
 
-### Test private 20
+### Test
 ```input
 5
 UP

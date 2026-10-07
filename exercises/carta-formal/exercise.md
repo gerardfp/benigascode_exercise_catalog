@@ -43,7 +43,7 @@ public class Main {
 
 ## Tests
 
-### Test 33.33
+### Test
 ```input
 Senyor
 Antoni
@@ -56,7 +56,7 @@ Senyor Perez Sales, Antoni
 El principal objectiu de la present carta...
 ```
 
-### Test private 33.33
+### Test
 ```input
 Excelentissima senyora
 Maria Antonia
@@ -69,7 +69,7 @@ Excelentissima senyora de la Fuente Rodriguez, Maria Antonia
 El principal objectiu de la present carta...
 ```
 
-### Test private 33.34
+### Test
 ```input
 Sra.
 Juana

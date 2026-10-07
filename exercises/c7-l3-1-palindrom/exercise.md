@@ -17,7 +17,7 @@ No hi ha
 
 ## Tests
 
-### Test 11.11
+### Test
 ```input
 a
 ```
@@ -25,7 +25,7 @@ a
 true
 ```
 
-### Test 11.11
+### Test
 ```input
 a
 ```
@@ -33,7 +33,7 @@ a
 true
 ```
 
-### Test private 11.11
+### Test
 ```input
 aa
 ```
@@ -41,7 +41,7 @@ aa
 true
 ```
 
-### Test private 11.11
+### Test
 ```input
 aba
 ```
@@ -49,7 +49,7 @@ aba
 true
 ```
 
-### Test private 11.11
+### Test
 ```input
 abba
 ```
@@ -57,7 +57,7 @@ abba
 true
 ```
 
-### Test private 11.11
+### Test
 ```input
 abcba
 ```
@@ -65,7 +65,7 @@ abcba
 true
 ```
 
-### Test private 11.11
+### Test
 ```input
 abcb
 ```
@@ -73,7 +73,7 @@ abcb
 false
 ```
 
-### Test private 11.11
+### Test
 ```input
 abcdcb
 ```
@@ -81,7 +81,7 @@ abcdcb
 false
 ```
 
-### Test private 11.12
+### Test
 ```input
 abcdcbaa
 ```

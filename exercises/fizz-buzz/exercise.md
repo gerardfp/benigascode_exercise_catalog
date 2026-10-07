@@ -44,7 +44,7 @@ Buzz 11 Fizz 13 14 FizzBuzz 16
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 1 5
 ```
@@ -52,7 +52,7 @@ Buzz 11 Fizz 13 14 FizzBuzz 16
 1 2 Fizz 4 Buzz
 ```
 
-### Test 20
+### Test
 ```input
 10 16
 ```
@@ -60,7 +60,7 @@ Buzz 11 Fizz 13 14 FizzBuzz 16
 Buzz 11 Fizz 13 14 FizzBuzz 16
 ```
 
-### Test private 30
+### Test
 ```input
 1 1
 ```
@@ -68,7 +68,7 @@ Buzz 11 Fizz 13 14 FizzBuzz 16
 1
 ```
 
-### Test private 30
+### Test
 ```input
 30 35
 ```

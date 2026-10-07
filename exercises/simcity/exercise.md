@@ -44,7 +44,7 @@ public class Main {
 
 ## Tests
 
-### Test 12.5
+### Test
 ```input
 5 5
 . . . . .
@@ -57,7 +57,7 @@ public class Main {
 4
 ```
 
-### Test 12.5
+### Test
 ```input
 4 5
 . . . .
@@ -70,7 +70,7 @@ public class Main {
 3
 ```
 
-### Test private 12.5
+### Test
 ```input
 7 4
 . . . . . . .
@@ -82,7 +82,7 @@ public class Main {
 0
 ```
 
-### Test private 12.5
+### Test
 ```input
 6 3
 . # . # . #
@@ -93,7 +93,7 @@ public class Main {
 7
 ```
 
-### Test private 12.5
+### Test
 ```input
 7 4
 . . # . . . .
@@ -105,7 +105,7 @@ public class Main {
 9
 ```
 
-### Test private 12.5
+### Test
 ```input
 8 5
 . # . # . . # .
@@ -118,7 +118,7 @@ public class Main {
 19
 ```
 
-### Test private 12.5
+### Test
 ```input
 11 8
 # . . # . . . # . . #
@@ -134,7 +134,7 @@ public class Main {
 29
 ```
 
-### Test private 12.5
+### Test
 ```input
 4 4
 . . # .

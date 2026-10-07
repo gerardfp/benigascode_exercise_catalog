@@ -25,7 +25,7 @@ S'imprimirà el mapa del bosc a cada passa que hagin donat Hansel i Gretel recup
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 7
 #########
@@ -81,7 +81,7 @@ S'imprimirà el mapa del bosc a cada passa que hagin donat Hansel i Gretel recup
 #########
 ```
 
-### Test 20
+### Test
 ```input
 7
 #########
@@ -137,7 +137,7 @@ S'imprimirà el mapa del bosc a cada passa que hagin donat Hansel i Gretel recup
 #########
 ```
 
-### Test private 20
+### Test
 ```input
 5
 ######
@@ -179,7 +179,7 @@ S'imprimirà el mapa del bosc a cada passa que hagin donat Hansel i Gretel recup
 ######
 ```
 
-### Test private 20
+### Test
 ```input
 7
 #########
@@ -249,7 +249,7 @@ S'imprimirà el mapa del bosc a cada passa que hagin donat Hansel i Gretel recup
 #########
 ```
 
-### Test private 20
+### Test
 ```input
 8
 ##########

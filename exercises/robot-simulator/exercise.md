@@ -39,7 +39,7 @@ Primer la posició , i després la posició .
 
 ## Tests
 
-### Test 12.5
+### Test
 ```input
 N N N .
 ```
@@ -48,7 +48,7 @@ N N N .
 3
 ```
 
-### Test 12.5
+### Test
 ```input
 N E E .
 ```
@@ -57,7 +57,7 @@ N E E .
 1
 ```
 
-### Test private 12.5
+### Test
 ```input
 N N S S .
 ```
@@ -66,7 +66,7 @@ N N S S .
 0
 ```
 
-### Test private 12.5
+### Test
 ```input
 N E .
 ```
@@ -75,7 +75,7 @@ N E .
 1
 ```
 
-### Test private 12.5
+### Test
 ```input
 S W N N E E .
 ```
@@ -84,7 +84,7 @@ S W N N E E .
 1
 ```
 
-### Test private 12.5
+### Test
 ```input
 S N W W E N S E N N E S .
 ```
@@ -93,7 +93,7 @@ S N W W E N S E N N E S .
 1
 ```
 
-### Test private 12.5
+### Test
 ```input
 S S W W W .
 ```
@@ -102,7 +102,7 @@ S S W W W .
 -2
 ```
 
-### Test private 12.5
+### Test
 ```input
 N .
 ```

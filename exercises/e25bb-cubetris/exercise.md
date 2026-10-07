@@ -29,7 +29,7 @@ Se imprimirá el tablero resultante tras tras colocar (o no) la pieza.
 
 ## Tests
 
-### Test 25
+### Test
 ```input
 4 4
 
@@ -50,7 +50,7 @@ Se imprimirá el tablero resultante tras tras colocar (o no) la pieza.
 4 4 4 3
 ```
 
-### Test 25
+### Test
 ```input
 3 3
 
@@ -68,7 +68,7 @@ Se imprimirá el tablero resultante tras tras colocar (o no) la pieza.
 0 2 2
 ```
 
-### Test private 25
+### Test
 ```input
 3 3
 
@@ -86,7 +86,7 @@ Se imprimirá el tablero resultante tras tras colocar (o no) la pieza.
 0 0 0
 ```
 
-### Test private 25
+### Test
 ```input
 3 3
 

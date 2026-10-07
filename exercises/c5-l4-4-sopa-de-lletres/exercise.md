@@ -25,7 +25,7 @@ S'imprimirà la sopa de lletres amb les paraules trobades escrites en majúscule
 
 ## Tests
 
-### Test 11.11
+### Test
 ```input
 2
 a b
@@ -38,7 +38,7 @@ A B
 c d
 ```
 
-### Test 11.11
+### Test
 ```input
 3
 t e w
@@ -53,7 +53,7 @@ k j x
 y q v
 ```
 
-### Test private 11.11
+### Test
 ```input
 3
 t e w
@@ -68,7 +68,7 @@ k j x
 M A R
 ```
 
-### Test private 11.11
+### Test
 ```input
 4
 c e w x
@@ -85,7 +85,7 @@ S w r v
 A z h q
 ```
 
-### Test private 11.11
+### Test
 ```input
 4
 c e w x
@@ -102,7 +102,7 @@ s w r v
 M A P A
 ```
 
-### Test private 11.11
+### Test
 ```input
 5
 c e w x a
@@ -121,7 +121,7 @@ M A P A G
 P I S T A
 ```
 
-### Test private 11.11
+### Test
 ```input
 6
 a e w x a v c
@@ -142,7 +142,7 @@ s w E t I h y
 p z s t F O R
 ```
 
-### Test private 11.11
+### Test
 ```input
 3
 i f i f
@@ -157,7 +157,7 @@ F I F I
 I F I F
 ```
 
-### Test private 11.12
+### Test
 ```input
 9
 t r u e i f s x z w n e b r

@@ -54,7 +54,7 @@ Un número indicant la capacitat total de passatagers
 0
 ```
 
-### Test private
+### Test
 ```input
 2 0 30
 ```

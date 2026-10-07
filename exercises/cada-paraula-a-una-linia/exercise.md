@@ -28,7 +28,7 @@ public class Main {
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 Java te
 8 tipus primitius
@@ -41,7 +41,7 @@ tipus
 primitius
 ```
 
-### Test 20
+### Test
 ```input
 Java te 5
 operadors
@@ -55,7 +55,7 @@ operadors
 aritmetics
 ```
 
-### Test private 20
+### Test
 ```input
 gat gos
 vaca
@@ -69,7 +69,7 @@ porc
 gall
 ```
 
-### Test private 20
+### Test
 ```input
 a b c d e
 ```
@@ -81,7 +81,7 @@ d
 e
 ```
 
-### Test private 20
+### Test
 ```input
 q w d r t
 ```

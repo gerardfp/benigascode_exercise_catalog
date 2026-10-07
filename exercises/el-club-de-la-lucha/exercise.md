@@ -39,7 +39,7 @@ public class Main {
 
 ## Tests
 
-### Test 33.33
+### Test
 ```input
 4
 Richard Tyler Angel Bob 
@@ -55,7 +55,7 @@ Richard: 10
 Angel: 15
 ```
 
-### Test private 33.33
+### Test
 ```input
 5
 AAA BBB CCC DDD EEE
@@ -73,7 +73,7 @@ AAA: 30
 EEE: 30
 ```
 
-### Test private 33.34
+### Test
 ```input
 10
 A B C D E F G H I J

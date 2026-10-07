@@ -15,7 +15,7 @@ S'imprimirà la matriu de notes, afegint la columna de la mitjana.
 
 ## Tests
 
-### Test 25
+### Test
 ```input
 3 4
 4 6 5 5
@@ -28,7 +28,7 @@ S'imprimirà la matriu de notes, afegint la columna de la mitjana.
 4 5 6 5 5.0
 ```
 
-### Test 25
+### Test
 ```input
 4 3
 4 6 5
@@ -43,7 +43,7 @@ S'imprimirà la matriu de notes, afegint la columna de la mitjana.
 9 6 5 6.6666665
 ```
 
-### Test private 25
+### Test
 ```input
 2 6
 4 6 5 8 8 6
@@ -54,7 +54,7 @@ S'imprimirà la matriu de notes, afegint la columna de la mitjana.
 4 5 6 9 6 5 5.8333335
 ```
 
-### Test private 25
+### Test
 ```input
 2 2
 4 6

@@ -23,7 +23,7 @@ S'imprimirà "true" si el marc és adequat per a la foto, i "false" si no ho és
 
 ## Tests
 
-### Test 11.11
+### Test
 ```input
 1 1  0 0
 1 1  0 0 
@@ -32,7 +32,7 @@ S'imprimirà "true" si el marc és adequat per a la foto, i "false" si no ho és
 true
 ```
 
-### Test 11.11
+### Test
 ```input
 1 1 0 0
 1 1 0 0
@@ -41,7 +41,7 @@ true
 true
 ```
 
-### Test private 11.11
+### Test
 ```input
 1 1 0 0
 2 2 0 0
@@ -50,7 +50,7 @@ true
 true
 ```
 
-### Test private 11.11
+### Test
 ```input
 1 1 0 0
 3 2 0 0
@@ -59,7 +59,7 @@ true
 false
 ```
 
-### Test private 11.11
+### Test
 ```input
 1 2  0 0
 4 2  2 1
@@ -68,7 +68,7 @@ false
 true
 ```
 
-### Test private 11.11
+### Test
 ```input
 1 1  -1 0
 4 3  3 1
@@ -77,7 +77,7 @@ true
 true
 ```
 
-### Test private 11.11
+### Test
 ```input
 1 2  -1 0
 4 2  3 1
@@ -86,7 +86,7 @@ true
 false
 ```
 
-### Test private 11.11
+### Test
 ```input
 4 -2  -1 1
 3 2  1 1
@@ -95,7 +95,7 @@ false
 false
 ```
 
-### Test private 11.12
+### Test
 ```input
 4 3  0 1
 8 6  0 1

@@ -18,7 +18,7 @@ Un entero indicando el número de palabras
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 hola mundo!
 END
@@ -27,7 +27,7 @@ END
 2
 ```
 
-### Test 20
+### Test
 ```input
 hola, que tal.
 END
@@ -36,7 +36,7 @@ END
 3
 ```
 
-### Test private 20
+### Test
 ```input
 Lorem ipsum dolor sit amet,
 consectetur adipiscing elit.
@@ -46,7 +46,7 @@ END
 8
 ```
 
-### Test private 20
+### Test
 ```input
 Lorem ipsum
 dolor sit amet,
@@ -58,7 +58,7 @@ END
 8
 ```
 
-### Test private 20
+### Test
 ```input
 hola
 END

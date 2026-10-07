@@ -28,7 +28,7 @@ Si són de distinta longitud s'imprimirá -1.
 
 ## Tests
 
-### Test 7.69
+### Test
 ```input
 Hola mon
 Hala man
@@ -37,7 +37,7 @@ Hala man
 2
 ```
 
-### Test 7.69
+### Test
 ```input
 i hate java
 i love java
@@ -46,7 +46,7 @@ i love java
 3
 ```
 
-### Test private 7.69
+### Test
 ```input
 CAGGTACAGT
 AAGGTACTTA
@@ -55,7 +55,7 @@ AAGGTACTTA
 4
 ```
 
-### Test private 7.69
+### Test
 ```input
 1011010
 1000010
@@ -64,7 +64,7 @@ AAGGTACTTA
 2
 ```
 
-### Test private 7.69
+### Test
 ```input
 hola
 hol
@@ -73,7 +73,7 @@ hol
 -1
 ```
 
-### Test private 7.69
+### Test
 ```input
 CGATTGACGATCAT
 CGATGCTGACTAT
@@ -82,7 +82,7 @@ CGATGCTGACTAT
 -1
 ```
 
-### Test private 7.69
+### Test
 ```input
 hola
 hola
@@ -91,7 +91,7 @@ hola
 0
 ```
 
-### Test private 7.69
+### Test
 ```input
 h
 k
@@ -100,7 +100,7 @@ k
 1
 ```
 
-### Test private 7.69
+### Test
 ```input
 a
 a
@@ -109,7 +109,7 @@ a
 0
 ```
 
-### Test private 7.69
+### Test
 ```input
 is this a string?
 is this a  string?
@@ -118,7 +118,7 @@ is this a  string?
 -1
 ```
 
-### Test private 7.69
+### Test
 ```input
 aa
 aa
@@ -127,7 +127,7 @@ aa
 0
 ```
 
-### Test private 7.69
+### Test
 ```input
 aa
 a
@@ -136,7 +136,7 @@ a
 -1
 ```
 
-### Test private 7.72
+### Test
 ```input
 aa
 ab

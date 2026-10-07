@@ -26,7 +26,7 @@ Cada número o `Fizz` o `Buzz` o `FizzBuzz` en una línia diferent
 
 ## Tests
 
-### Test 11.11
+### Test
 ```input
 16 9
 ```
@@ -41,7 +41,7 @@ Buzz
 Fizz
 ```
 
-### Test 11.11
+### Test
 ```input
 5 3
 ```
@@ -51,7 +51,7 @@ Buzz
 Fizz
 ```
 
-### Test private 11.11
+### Test
 ```input
 30 25
 ```
@@ -64,7 +64,7 @@ Fizz
 Buzz
 ```
 
-### Test private 11.11
+### Test
 ```input
 45
 15
@@ -103,7 +103,7 @@ Fizz
 FizzBuzz
 ```
 
-### Test private 11.11
+### Test
 ```input
 2 1
 ```
@@ -112,7 +112,7 @@ FizzBuzz
 1
 ```
 
-### Test private 11.11
+### Test
 ```input
 100 90
 ```
@@ -130,7 +130,7 @@ Fizz
 FizzBuzz
 ```
 
-### Test private 11.11
+### Test
 ```input
 3 3
 ```
@@ -138,7 +138,7 @@ FizzBuzz
 Fizz
 ```
 
-### Test private 11.11
+### Test
 ```input
 5 5
 ```
@@ -146,7 +146,7 @@ Fizz
 Buzz
 ```
 
-### Test private 11.12
+### Test
 ```input
 15 15
 ```

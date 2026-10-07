@@ -73,7 +73,7 @@ public class Main {
 
 ## Tests
 
-### Test 33.33
+### Test
 ```input
 3 3 a
 ```
@@ -83,7 +83,7 @@ aaa
 aaa
 ```
 
-### Test private 33.33
+### Test
 ```input
 2 10 z
 ```
@@ -92,7 +92,7 @@ zzzzzzzzzz
 zzzzzzzzzz
 ```
 
-### Test private 33.34
+### Test
 ```input
 7 25 x
 ```

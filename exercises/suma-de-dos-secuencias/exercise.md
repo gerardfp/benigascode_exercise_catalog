@@ -19,7 +19,7 @@ La secuencia de números resultante, separados por espacios en blanco
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 3    1 2 3
 3    1 2 3
@@ -28,7 +28,7 @@ La secuencia de números resultante, separados por espacios en blanco
 2 4 6
 ```
 
-### Test 20
+### Test
 ```input
 3    1 2 3
 3    4 5 6
@@ -37,7 +37,7 @@ La secuencia de números resultante, separados por espacios en blanco
 5 7 9
 ```
 
-### Test private 20
+### Test
 ```input
 4    100 200 300 400
 4    10 20 30 40
@@ -46,7 +46,7 @@ La secuencia de números resultante, separados por espacios en blanco
 110 220 330 440
 ```
 
-### Test private 20
+### Test
 ```input
 5    2 1 4 3 2
 5    3 4 2 3 4
@@ -55,7 +55,7 @@ La secuencia de números resultante, separados por espacios en blanco
 5 5 6 6 6
 ```
 
-### Test private 20
+### Test
 ```input
 1    10
 1    10

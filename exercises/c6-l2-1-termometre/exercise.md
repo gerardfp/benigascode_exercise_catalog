@@ -59,7 +59,7 @@ public class Main {
 
 ## Tests
 
-### Test 33.33
+### Test
 ```input
 0
 100
@@ -90,7 +90,7 @@ Termometre 2
 --------
 ```
 
-### Test private 33.33
+### Test
 ```input
 0
 100
@@ -121,7 +121,7 @@ Termometre 2
 --------
 ```
 
-### Test private 33.34
+### Test
 ```input
 100
 100

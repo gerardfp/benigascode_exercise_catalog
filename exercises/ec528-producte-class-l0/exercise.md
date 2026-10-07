@@ -45,7 +45,7 @@ public class Main {
 
 ## Tests
 
-### Test 33.33
+### Test
 ```input
 Corsair Vengeance RGB Pro
 DDR4 3200 PC4-25600 16GB 2x8GB CL16
@@ -59,7 +59,7 @@ Preu:       109.0
 Stock:      25
 ```
 
-### Test private 33.33
+### Test
 ```input
 Kingston HyperX Fury Black
 16GB DDR4 2666Mhz PC-21300 (2x8GB) CL16
@@ -73,7 +73,7 @@ Preu:       79.5
 Stock:      3
 ```
 
-### Test private 33.34
+### Test
 ```input
 G.Skill Trident Z RGB
 DDR4 3200 PC4-25600 16GB 2x8GB CL16

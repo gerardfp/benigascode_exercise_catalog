@@ -19,7 +19,7 @@ Tres nombres enters:
 
 ## Tests
 
-### Test 10
+### Test
 ```input
 4 2 6
 ```
@@ -27,7 +27,7 @@ Tres nombres enters:
 SI
 ```
 
-### Test 10
+### Test
 ```input
 5 4 5
 ```
@@ -35,7 +35,7 @@ SI
 SI
 ```
 
-### Test private 10
+### Test
 ```input
 2 4 3
 ```
@@ -43,7 +43,7 @@ SI
 NO
 ```
 
-### Test private 10
+### Test
 ```input
 2 6 18 
 ```
@@ -51,7 +51,7 @@ NO
 NO
 ```
 
-### Test private 10
+### Test
 ```input
 6 7 18
 ```
@@ -59,7 +59,7 @@ NO
 SI
 ```
 
-### Test private 10
+### Test
 ```input
 5 6 12
 ```
@@ -67,7 +67,7 @@ SI
 SI
 ```
 
-### Test private 10
+### Test
 ```input
 5 6 12
 ```
@@ -75,7 +75,7 @@ SI
 SI
 ```
 
-### Test private 10
+### Test
 ```input
 4 6 10
 ```
@@ -83,7 +83,7 @@ SI
 NO
 ```
 
-### Test private 10
+### Test
 ```input
 30 40 30
 ```
@@ -91,7 +91,7 @@ NO
 SI
 ```
 
-### Test private 10
+### Test
 ```input
 7 9 11
 ```

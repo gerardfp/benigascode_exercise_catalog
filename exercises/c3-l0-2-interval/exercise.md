@@ -15,7 +15,7 @@ S'imprimiran els nombres de l'interval, sense separació entre ells.
 
 ## Tests
 
-### Test 16.67
+### Test
 ```input
 1 2
 ```
@@ -23,7 +23,7 @@ S'imprimiran els nombres de l'interval, sense separació entre ells.
 1
 ```
 
-### Test 16.67
+### Test
 ```input
 2 6
 ```
@@ -31,7 +31,7 @@ S'imprimiran els nombres de l'interval, sense separació entre ells.
 2345
 ```
 
-### Test private 16.67
+### Test
 ```input
 4 9
 ```
@@ -39,7 +39,7 @@ S'imprimiran els nombres de l'interval, sense separació entre ells.
 45678
 ```
 
-### Test private 16.67
+### Test
 ```input
 10 15
 ```
@@ -47,7 +47,7 @@ S'imprimiran els nombres de l'interval, sense separació entre ells.
 1011121314
 ```
 
-### Test private 16.67
+### Test
 ```input
 0 25
 ```
@@ -55,7 +55,7 @@ S'imprimiran els nombres de l'interval, sense separació entre ells.
 0123456789101112131415161718192021222324
 ```
 
-### Test private 16.65
+### Test
 ```input
 34 43
 ```

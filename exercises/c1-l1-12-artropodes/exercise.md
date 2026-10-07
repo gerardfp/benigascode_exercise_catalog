@@ -35,7 +35,7 @@ Un nombre indicant la quantitat total de potes.
 
 ## Tests
 
-### Test 12.5
+### Test
 ```input
 1
 0
@@ -47,7 +47,7 @@ Un nombre indicant la quantitat total de potes.
 6
 ```
 
-### Test 12.5
+### Test
 ```input
 1
 0
@@ -59,7 +59,7 @@ Un nombre indicant la quantitat total de potes.
 6
 ```
 
-### Test private 12.5
+### Test
 ```input
 0
 1 
@@ -71,7 +71,7 @@ Un nombre indicant la quantitat total de potes.
 8
 ```
 
-### Test private 12.5
+### Test
 ```input
 0
 0
@@ -83,7 +83,7 @@ Un nombre indicant la quantitat total de potes.
 20
 ```
 
-### Test private 12.5
+### Test
 ```input
 0
 0
@@ -95,7 +95,7 @@ Un nombre indicant la quantitat total de potes.
 20
 ```
 
-### Test private 12.5
+### Test
 ```input
 0
 0
@@ -107,7 +107,7 @@ Un nombre indicant la quantitat total de potes.
 40
 ```
 
-### Test private 12.5
+### Test
 ```input
 1
 1
@@ -119,7 +119,7 @@ Un nombre indicant la quantitat total de potes.
 84
 ```
 
-### Test private 12.5
+### Test
 ```input
 7
 11

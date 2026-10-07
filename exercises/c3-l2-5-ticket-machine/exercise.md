@@ -35,7 +35,7 @@ S'anirà mostrant el resultat de les operacions:
 
 ## Tests
 
-### Test 14.29
+### Test
 ```input
 INSERT 10
 INSERT 10
@@ -48,7 +48,7 @@ Balance: 20
 Ticket: 20
 ```
 
-### Test 14.29
+### Test
 ```input
 INSERT 10
 INSERT 10
@@ -61,7 +61,7 @@ Balance: 20
 Ticket: 20
 ```
 
-### Test private 14.29
+### Test
 ```input
 INSERT 10
 INSERT 10
@@ -78,7 +78,7 @@ Balance: 10
 Ticket: 10
 ```
 
-### Test private 14.29
+### Test
 ```input
 INSERT 10
 INSERT 10
@@ -95,7 +95,7 @@ Balance: 10
 Ticket: 10
 ```
 
-### Test private 14.29
+### Test
 ```input
 INSERT 10
 INSERT 10
@@ -114,7 +114,7 @@ Balance: 10
 Ticket: 10
 ```
 
-### Test private 14.29
+### Test
 ```input
 CONFIRM
 CONFIRM
@@ -131,7 +131,7 @@ Balance: 10
 Ticket: 10
 ```
 
-### Test private 14.26
+### Test
 ```input
 CONFIRM
 CANCEL

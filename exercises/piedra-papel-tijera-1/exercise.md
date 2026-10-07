@@ -28,7 +28,7 @@ Si hi ha empat s'imprimirà '-'.
 
 ## Tests
 
-### Test 7.69
+### Test
 ```input
 @%
 #@
@@ -39,7 +39,7 @@ END
 1
 ```
 
-### Test 7.69
+### Test
 ```input
 @#
 @%
@@ -51,7 +51,7 @@ END
 1
 ```
 
-### Test private 7.69
+### Test
 ```input
 #@
 #%
@@ -63,7 +63,7 @@ END
 2
 ```
 
-### Test private 7.69
+### Test
 ```input
 %#
 %%
@@ -75,7 +75,7 @@ END
 1
 ```
 
-### Test private 7.69
+### Test
 ```input
 @%
 @%
@@ -88,7 +88,7 @@ END
 1
 ```
 
-### Test private 7.69
+### Test
 ```input
 #%
 @#
@@ -99,7 +99,7 @@ END
 2
 ```
 
-### Test private 7.69
+### Test
 ```input
 @@
 END
@@ -108,7 +108,7 @@ END
 -
 ```
 
-### Test private 7.69
+### Test
 ```input
 @@
 ##
@@ -119,7 +119,7 @@ END
 -
 ```
 
-### Test private 7.69
+### Test
 ```input
 @#
 #@
@@ -131,7 +131,7 @@ END
 -
 ```
 
-### Test private 7.69
+### Test
 ```input
 @%
 @#
@@ -145,7 +145,7 @@ END
 -
 ```
 
-### Test private 7.69
+### Test
 ```input
 @%
 END
@@ -154,7 +154,7 @@ END
 1
 ```
 
-### Test private 7.69
+### Test
 ```input
 #@
 #%
@@ -176,7 +176,7 @@ END
 2
 ```
 
-### Test private 7.72
+### Test
 ```input
 ##
 @@

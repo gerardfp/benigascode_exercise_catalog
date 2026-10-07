@@ -47,7 +47,7 @@ número) quocient residu
 
 ## Tests
 
-### Test 16.67
+### Test
 ```input
 2 2 1 0
 4 2 5 7
@@ -58,7 +58,7 @@ número) quocient residu
 2) 2 0
 ```
 
-### Test 16.67
+### Test
 ```input
 10 5 3 4
 5 1 5 0
@@ -71,7 +71,7 @@ número) quocient residu
 3) 1 2
 ```
 
-### Test private 16.67
+### Test
 ```input
 33 10 3 3
 12 11 1 1
@@ -80,7 +80,7 @@ número) quocient residu
 ```output
 ```
 
-### Test private 16.67
+### Test
 ```input
 0 5 0 5
 24 1 0 24
@@ -91,7 +91,7 @@ número) quocient residu
 2) 24 0
 ```
 
-### Test private 16.67
+### Test
 ```input
 2 4 3 5
 0 4 0 0
@@ -109,7 +109,7 @@ número) quocient residu
 6) 0 1
 ```
 
-### Test private 16.65
+### Test
 ```input
 1 1 1 0
 0 0 0 0

@@ -18,7 +18,7 @@ El text amb l'ordre dels caracters invertit.
 
 ## Tests
 
-### Test 25
+### Test
 ```input
 a
 ```
@@ -26,7 +26,7 @@ a
 a
 ```
 
-### Test 25
+### Test
 ```input
 abcde
 ```
@@ -34,7 +34,7 @@ abcde
 edcba
 ```
 
-### Test private 25
+### Test
 ```input
 ab c d efgh
 ```
@@ -42,7 +42,7 @@ ab c d efgh
 hgfe d c ba
 ```
 
-### Test private 25
+### Test
 ```input
 cgctagcttagctaacg
 ```

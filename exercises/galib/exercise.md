@@ -40,7 +40,7 @@ public class Main {
 
 ## Tests
 
-### Test 16.67
+### Test
 ```input
 2.9
 
@@ -51,7 +51,7 @@ public class Main {
 xoca amb el pont 4
 ```
 
-### Test 16.67
+### Test
 ```input
 2.5
 
@@ -62,7 +62,7 @@ xoca amb el pont 4
 xoca amb el pont 1
 ```
 
-### Test private 16.67
+### Test
 ```input
 3
 
@@ -73,7 +73,7 @@ xoca amb el pont 1
 xoca amb el pont 2
 ```
 
-### Test private 16.67
+### Test
 ```input
 1
 
@@ -83,7 +83,7 @@ xoca amb el pont 2
 ```output
 ```
 
-### Test private 16.67
+### Test
 ```input
 3
 4
@@ -92,7 +92,7 @@ xoca amb el pont 2
 ```output
 ```
 
-### Test private 16.65
+### Test
 ```input
 3
 4

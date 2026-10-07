@@ -21,7 +21,7 @@ true | false
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 the quick brown fox jumps over the lazy dog
 ```
@@ -29,7 +29,7 @@ the quick brown fox jumps over the lazy dog
 true
 ```
 
-### Test 20
+### Test
 ```input
 grumpy wizards make toxic brew for the evil queen and jack
 ```
@@ -37,7 +37,7 @@ grumpy wizards make toxic brew for the evil queen and jack
 true
 ```
 
-### Test private 20
+### Test
 ```input
 jackdaws love my big sphinx of quartz
 ```
@@ -45,7 +45,7 @@ jackdaws love my big sphinx of quartz
 true
 ```
 
-### Test private 20
+### Test
 ```input
 hello world of java programming
 ```
@@ -53,7 +53,7 @@ hello world of java programming
 false
 ```
 
-### Test private 20
+### Test
 ```input
 hello
 ```

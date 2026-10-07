@@ -67,7 +67,7 @@ public class Main {
 
 ## Tests
 
-### Test 33.33
+### Test
 ```input
 producto1 10
 15
@@ -77,7 +77,7 @@ Producto{descripcion='producto1', precio=10.0}
 Producto{descripcion='producto1', precio=8.5}
 ```
 
-### Test private 33.33
+### Test
 ```input
 productoX 100
 25
@@ -87,7 +87,7 @@ Producto{descripcion='productoX', precio=100.0}
 Producto{descripcion='productoX', precio=75.0}
 ```
 
-### Test private 33.34
+### Test
 ```input
 productoV 4.5
 1.5

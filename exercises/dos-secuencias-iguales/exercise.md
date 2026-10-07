@@ -19,7 +19,7 @@ si les seqüències són iguals
 
 ## Tests
 
-### Test 11.11
+### Test
 ```input
 3    1 2 3
 3    1 2 3
@@ -28,7 +28,7 @@ si les seqüències són iguals
 true
 ```
 
-### Test 11.11
+### Test
 ```input
 3    100 200 300
 3    100 200 300
@@ -37,7 +37,7 @@ true
 true
 ```
 
-### Test private 11.11
+### Test
 ```input
 3    100 200 300
 4    100 200 300 400
@@ -46,7 +46,7 @@ true
 false
 ```
 
-### Test private 11.11
+### Test
 ```input
 5    1 2 3 4 5
 5    1 2 3 4 5
@@ -55,7 +55,7 @@ false
 true
 ```
 
-### Test private 11.11
+### Test
 ```input
 5    1 2 3 4 5
 5    1 2 3 4 4
@@ -64,7 +64,7 @@ true
 false
 ```
 
-### Test private 11.11
+### Test
 ```input
 3    23 34 45
 2    23 45
@@ -73,7 +73,7 @@ false
 false
 ```
 
-### Test private 11.11
+### Test
 ```input
 5    1 2 3 4 5
 1    5
@@ -82,7 +82,7 @@ false
 false
 ```
 
-### Test private 11.11
+### Test
 ```input
 1 3
 1 5
@@ -91,7 +91,7 @@ false
 false
 ```
 
-### Test private 11.12
+### Test
 ```input
 2 3 4
 1 2

@@ -35,7 +35,7 @@ En kebab-case totes les lletres van sempre en minúscula, i separades amb -
 
 ## Tests
 
-### Test 16.67
+### Test
 ```input
 case styles
 ```
@@ -45,7 +45,7 @@ case-styles
 case_styles
 ```
 
-### Test 16.67
+### Test
 ```input
 case styles
 ```
@@ -55,7 +55,7 @@ case-styles
 case_styles
 ```
 
-### Test private 16.67
+### Test
 ```input
 CASE STYLES
 ```
@@ -65,7 +65,7 @@ case-styles
 CASE_STYLES
 ```
 
-### Test private 16.67
+### Test
 ```input
 CAsE STYLES
 ```
@@ -75,7 +75,7 @@ case-styles
 case_styles
 ```
 
-### Test private 16.67
+### Test
 ```input
 Fork join worker thread factory
 ```
@@ -85,7 +85,7 @@ fork-join-worker-thread-factory
 fork_join_worker_thread_factory
 ```
 
-### Test private 16.65
+### Test
 ```input
 abstract transactional data source spring context tests
 ```

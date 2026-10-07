@@ -40,7 +40,7 @@ S'imprimirà el preu final de l'entrada amb 2 xifres decimals.
 
 ## Tests
 
-### Test 7.69
+### Test
 ```input
 10 25 1 false
 ```
@@ -48,7 +48,7 @@ S'imprimirà el preu final de l'entrada amb 2 xifres decimals.
 10.00
 ```
 
-### Test 7.69
+### Test
 ```input
 10 25 1 false
 ```
@@ -56,7 +56,7 @@ S'imprimirà el preu final de l'entrada amb 2 xifres decimals.
 10.00
 ```
 
-### Test private 7.69
+### Test
 ```input
 10 3 1 false
 ```
@@ -64,7 +64,7 @@ S'imprimirà el preu final de l'entrada amb 2 xifres decimals.
 0.00
 ```
 
-### Test private 7.69
+### Test
 ```input
 10 70 4 false
 ```
@@ -72,7 +72,7 @@ S'imprimirà el preu final de l'entrada amb 2 xifres decimals.
 8.50
 ```
 
-### Test private 7.69
+### Test
 ```input
 10 25 3 true
 ```
@@ -80,7 +80,7 @@ S'imprimirà el preu final de l'entrada amb 2 xifres decimals.
 4.50
 ```
 
-### Test private 7.69
+### Test
 ```input
 10 13 4 true
 ```
@@ -88,7 +88,7 @@ S'imprimirà el preu final de l'entrada amb 2 xifres decimals.
 7.00
 ```
 
-### Test private 7.69
+### Test
 ```input
 10 13 2 false
 ```
@@ -96,7 +96,7 @@ S'imprimirà el preu final de l'entrada amb 2 xifres decimals.
 9.00
 ```
 
-### Test private 7.69
+### Test
 ```input
 10 25 6 false
 ```
@@ -104,7 +104,7 @@ S'imprimirà el preu final de l'entrada amb 2 xifres decimals.
 10.50
 ```
 
-### Test private 7.69
+### Test
 ```input
 10 25 7 false
 ```
@@ -112,7 +112,7 @@ S'imprimirà el preu final de l'entrada amb 2 xifres decimals.
 10.50
 ```
 
-### Test private 7.69
+### Test
 ```input
 10 12 6 false
 ```
@@ -120,7 +120,7 @@ S'imprimirà el preu final de l'entrada amb 2 xifres decimals.
 9.50
 ```
 
-### Test private 7.69
+### Test
 ```input
 10 12 7 true
 ```
@@ -128,7 +128,7 @@ S'imprimirà el preu final de l'entrada amb 2 xifres decimals.
 7.50
 ```
 
-### Test private 7.69
+### Test
 ```input
 10 65 3 false
 ```
@@ -136,7 +136,7 @@ S'imprimirà el preu final de l'entrada amb 2 xifres decimals.
 6.00
 ```
 
-### Test private 7.72
+### Test
 ```input
 10 65 3 true
 ```

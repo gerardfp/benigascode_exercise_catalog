@@ -33,7 +33,7 @@ Després, segons aquest temps i la velocitat a la que vola l'ocell, es calcula l
 
 ## Tests
 
-### Test 16.67
+### Test
 ```input
 10
 10
@@ -43,7 +43,7 @@ Després, segons aquest temps i la velocitat a la que vola l'ocell, es calcula l
 30.0
 ```
 
-### Test 16.67
+### Test
 ```input
 50
 10
@@ -53,7 +53,7 @@ Després, segons aquest temps i la velocitat a la que vola l'ocell, es calcula l
 500.0
 ```
 
-### Test private 16.67
+### Test
 ```input
 15
 30
@@ -63,7 +63,7 @@ Després, segons aquest temps i la velocitat a la que vola l'ocell, es calcula l
 40.0
 ```
 
-### Test private 16.67
+### Test
 ```input
 32.5
 65
@@ -73,7 +73,7 @@ Després, segons aquest temps i la velocitat a la que vola l'ocell, es calcula l
 27.75
 ```
 
-### Test private 16.67
+### Test
 ```input
 200.5
 43.25
@@ -83,7 +83,7 @@ Després, segons aquest temps i la velocitat a la que vola l'ocell, es calcula l
 256.59363
 ```
 
-### Test private 16.65
+### Test
 ```input
 10
 1

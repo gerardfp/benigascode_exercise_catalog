@@ -23,7 +23,7 @@ La seqüència de números impresos separada per espais.
 
 ## Tests
 
-### Test 14.29
+### Test
 ```input
 3    1 2 3
 3
@@ -32,7 +32,7 @@ La seqüència de números impresos separada per espais.
 1 2 3
 ```
 
-### Test 14.29
+### Test
 ```input
 3    100 200 300
 5
@@ -41,7 +41,7 @@ La seqüència de números impresos separada per espais.
 100 200 300 100 200
 ```
 
-### Test private 14.29
+### Test
 ```input
 3    100 200 300
 7
@@ -50,7 +50,7 @@ La seqüència de números impresos separada per espais.
 100 200 300 100 200 300 100
 ```
 
-### Test private 14.29
+### Test
 ```input
 3    100 200 300
 2
@@ -59,7 +59,7 @@ La seqüència de números impresos separada per espais.
 100 200
 ```
 
-### Test private 14.29
+### Test
 ```input
 5    100 200 300 400 500
 4
@@ -68,7 +68,7 @@ La seqüència de números impresos separada per espais.
 100 200 300 400
 ```
 
-### Test private 14.29
+### Test
 ```input
 3    10 20 30
 10
@@ -77,7 +77,7 @@ La seqüència de números impresos separada per espais.
 10 20 30 10 20 30 10 20 30 10
 ```
 
-### Test private 14.26
+### Test
 ```input
 3    1 2 3
 20

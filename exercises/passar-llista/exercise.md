@@ -40,7 +40,7 @@ public class Main {
 
 ## Tests
 
-### Test 33.33
+### Test
 ```input
 4
 pepe juan luis jose
@@ -55,7 +55,7 @@ NO
 NO
 ```
 
-### Test private 33.33
+### Test
 ```input
 7
 juan adrian oriol ruben jose carlos pol
@@ -69,7 +69,7 @@ NO
 NO
 ```
 
-### Test private 33.34
+### Test
 ```input
 1
 luis

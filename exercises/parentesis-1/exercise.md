@@ -66,21 +66,21 @@ si és així, és que hi ha un error de parèntesi mal tancat. Imprimim l'error,
 
 ## Tests
 
-### Test 7.14
+### Test
 ```input
 ( 2 + 1 ) * 4     END
 ```
 ```output
 ```
 
-### Test 7.14
+### Test
 ```input
 ( ( 2 + 1 ) * 4 )    END
 ```
 ```output
 ```
 
-### Test private 7.14
+### Test
 ```input
 2 + 1 ) * 4     END
 ```
@@ -88,7 +88,7 @@ si és així, és que hi ha un error de parèntesi mal tancat. Imprimim l'error,
 ERROR: parentesi 1 mal tancat
 ```
 
-### Test private 7.14
+### Test
 ```input
 ( 2 + 1 ) * 4 )     END
 ```
@@ -96,7 +96,7 @@ ERROR: parentesi 1 mal tancat
 ERROR: parentesi 3 mal tancat
 ```
 
-### Test private 7.14
+### Test
 ```input
 2 + 1 ) * 4 )     END
 ```
@@ -105,7 +105,7 @@ ERROR: parentesi 1 mal tancat
 ERROR: parentesi 2 mal tancat
 ```
 
-### Test private 7.14
+### Test
 ```input
 ( 2 + 1 ) * 4 )     END
 ```
@@ -113,7 +113,7 @@ ERROR: parentesi 2 mal tancat
 ERROR: parentesi 3 mal tancat
 ```
 
-### Test private 7.14
+### Test
 ```input
 ( 2 + 2 ) * 3 ) + ( 3 + 2 ) * 3 )        END
 ```
@@ -122,7 +122,7 @@ ERROR: parentesi 3 mal tancat
 ERROR: parentesi 6 mal tancat
 ```
 
-### Test private 7.14
+### Test
 ```input
 ( 2 + 1 * 4     END
 ```
@@ -130,7 +130,7 @@ ERROR: parentesi 6 mal tancat
 ERROR: falta tancar 1 parentesis
 ```
 
-### Test private 7.14
+### Test
 ```input
 ( 2 + ( 1 * 4     END
 ```
@@ -138,7 +138,7 @@ ERROR: falta tancar 1 parentesis
 ERROR: falta tancar 2 parentesis
 ```
 
-### Test private 7.14
+### Test
 ```input
 ( 2 + ( 1 + ( 3 * 4 )     END
 ```
@@ -146,7 +146,7 @@ ERROR: falta tancar 2 parentesis
 ERROR: falta tancar 2 parentesis
 ```
 
-### Test private 7.14
+### Test
 ```input
 ( 2 * ( 2 * ( 2 - 2 ) * ( 2 - 2 )   END
 ```
@@ -154,7 +154,7 @@ ERROR: falta tancar 2 parentesis
 ERROR: falta tancar 2 parentesis
 ```
 
-### Test private 7.14
+### Test
 ```input
 2 - ( 2 * 2 ) + ( 2 - 2      END
 ```
@@ -162,7 +162,7 @@ ERROR: falta tancar 2 parentesis
 ERROR: falta tancar 1 parentesis
 ```
 
-### Test private 7.14
+### Test
 ```input
 2 - ( 2 * 2 ) ) * ( 2 + 2     END
 ```
@@ -171,7 +171,7 @@ ERROR: parentesi 3 mal tancat
 ERROR: falta tancar 1 parentesis
 ```
 
-### Test private 7.18
+### Test
 ```input
 2 * 2 ) + ( 2 - 2       END
 ```

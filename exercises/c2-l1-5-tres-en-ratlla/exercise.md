@@ -21,7 +21,7 @@ Jugador1 | Jugador2 | Empat
 
 ## Tests
 
-### Test 10
+### Test
 ```input
 1 1 1
 2 2 0
@@ -31,7 +31,7 @@ Jugador1 | Jugador2 | Empat
 Jugador1
 ```
 
-### Test 10
+### Test
 ```input
 1 2 2
 1 2 2
@@ -41,7 +41,7 @@ Jugador1
 Jugador1
 ```
 
-### Test private 10
+### Test
 ```input
 1 2 2
 2 1 0
@@ -51,7 +51,7 @@ Jugador1
 Jugador1
 ```
 
-### Test private 10
+### Test
 ```input
 0 0 0
 1 1 1
@@ -61,7 +61,7 @@ Jugador1
 Jugador1
 ```
 
-### Test private 10
+### Test
 ```input
 0 0 0
 1 1 2
@@ -71,7 +71,7 @@ Jugador1
 Empat
 ```
 
-### Test private 10
+### Test
 ```input
 0 1 0
 2 1 2
@@ -81,7 +81,7 @@ Empat
 Jugador1
 ```
 
-### Test private 10
+### Test
 ```input
 1 0 2
 1 2 0
@@ -91,7 +91,7 @@ Jugador1
 Jugador2
 ```
 
-### Test private 10
+### Test
 ```input
 1 1 0
 1 1 0
@@ -101,7 +101,7 @@ Jugador2
 Jugador2
 ```
 
-### Test private 10
+### Test
 ```input
 0 2 1
 2 1 1
@@ -111,7 +111,7 @@ Jugador2
 Jugador1
 ```
 
-### Test private 10
+### Test
 ```input
 0 0 0
 0 0 0

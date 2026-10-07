@@ -23,7 +23,7 @@ El nombre de peces necessàries
 
 ## Tests
 
-### Test 10
+### Test
 ```input
 1
 ```
@@ -31,7 +31,7 @@ El nombre de peces necessàries
 1
 ```
 
-### Test 10
+### Test
 ```input
 2
 ```
@@ -39,7 +39,7 @@ El nombre de peces necessàries
 5
 ```
 
-### Test private 10
+### Test
 ```input
 3
 ```
@@ -47,7 +47,7 @@ El nombre de peces necessàries
 14
 ```
 
-### Test private 10
+### Test
 ```input
 4
 ```
@@ -55,7 +55,7 @@ El nombre de peces necessàries
 30
 ```
 
-### Test private 10
+### Test
 ```input
 5
 ```
@@ -63,7 +63,7 @@ El nombre de peces necessàries
 55
 ```
 
-### Test private 10
+### Test
 ```input
 6
 ```
@@ -71,7 +71,7 @@ El nombre de peces necessàries
 91
 ```
 
-### Test private 10
+### Test
 ```input
 10
 ```
@@ -79,7 +79,7 @@ El nombre de peces necessàries
 385
 ```
 
-### Test private 10
+### Test
 ```input
 1000
 ```
@@ -87,7 +87,7 @@ El nombre de peces necessàries
 333833500
 ```
 
-### Test private 10
+### Test
 ```input
 765892
 ```
@@ -95,7 +95,7 @@ El nombre de peces necessàries
 149755297914942910
 ```
 
-### Test private 10
+### Test
 ```input
 1000000
 ```

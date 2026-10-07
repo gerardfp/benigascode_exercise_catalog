@@ -17,7 +17,7 @@ La seqüència de números en ordre invers, separats per espais.
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 2 23 45
 ```
@@ -25,7 +25,7 @@ La seqüència de números en ordre invers, separats per espais.
 45 23
 ```
 
-### Test 20
+### Test
 ```input
 5 
 100 200 300 400 500
@@ -34,7 +34,7 @@ La seqüència de números en ordre invers, separats per espais.
 500 400 300 200 100
 ```
 
-### Test private 20
+### Test
 ```input
 3 
 23 56 45
@@ -43,7 +43,7 @@ La seqüència de números en ordre invers, separats per espais.
 45 56 23
 ```
 
-### Test private 20
+### Test
 ```input
 1 
 1000
@@ -52,7 +52,7 @@ La seqüència de números en ordre invers, separats per espais.
 1000
 ```
 
-### Test private 20
+### Test
 ```input
 10 
 3 1 4 2 6 5 4 7 6 9

@@ -39,7 +39,7 @@ S'imprimirà la primera adreça de la xarxa, la última adreça, i s'indicarà s
 
 ## Tests
 
-### Test 8.33
+### Test
 ```input
 192 168 55 118
 11
@@ -50,7 +50,7 @@ Last IP: 192.191.255.255
 Public
 ```
 
-### Test 8.33
+### Test
 ```input
 192 168 55 118
 24
@@ -61,7 +61,7 @@ Last IP: 192.168.55.255
 Private
 ```
 
-### Test private 8.33
+### Test
 ```input
 192 168 55 118
 11
@@ -72,7 +72,7 @@ Last IP: 192.191.255.255
 Public
 ```
 
-### Test private 8.33
+### Test
 ```input
 10 2 2 1
 11
@@ -83,7 +83,7 @@ Last IP: 10.31.255.255
 Private
 ```
 
-### Test private 8.33
+### Test
 ```input
 172 16 2 1
 22
@@ -94,7 +94,7 @@ Last IP: 172.16.3.255
 Private
 ```
 
-### Test private 8.33
+### Test
 ```input
 35 16 23 214
 24
@@ -105,7 +105,7 @@ Last IP: 35.16.23.255
 Public
 ```
 
-### Test private 8.33
+### Test
 ```input
 35 16 23 214
 8
@@ -116,7 +116,7 @@ Last IP: 35.255.255.255
 Public
 ```
 
-### Test private 8.33
+### Test
 ```input
 8 8 8 8
 30
@@ -127,7 +127,7 @@ Last IP: 8.8.8.11
 Public
 ```
 
-### Test private 8.33
+### Test
 ```input
 172 32 16 0
 12
@@ -138,7 +138,7 @@ Last IP: 172.47.255.255
 Public
 ```
 
-### Test private 8.33
+### Test
 ```input
 172 15 255 0
 22
@@ -149,7 +149,7 @@ Last IP: 172.15.255.255
 Public
 ```
 
-### Test private 8.33
+### Test
 ```input
 10 0 0 1
 6
@@ -160,7 +160,7 @@ Last IP: 11.255.255.255
 Public
 ```
 
-### Test private 8.37
+### Test
 ```input
 235 84 63 17
 19

@@ -47,7 +47,7 @@ public class Main {
 
 ## Tests
 
-### Test 8.33
+### Test
 ```input
 7
 A   B   C   D   E   F   G
@@ -63,7 +63,7 @@ E
 600
 ```
 
-### Test 8.33
+### Test
 ```input
 5
 A   B   C   D   E
@@ -78,7 +78,7 @@ D
 700
 ```
 
-### Test private 8.33
+### Test
 ```input
 4
 A   B   C   D
@@ -92,7 +92,7 @@ D
 100
 ```
 
-### Test private 8.33
+### Test
 ```input
 4
 A   B   C   D
@@ -108,7 +108,7 @@ D
 300
 ```
 
-### Test private 8.33
+### Test
 ```input
 7
 A   B   C   D   E   F   G
@@ -124,7 +124,7 @@ B
 600
 ```
 
-### Test private 8.33
+### Test
 ```input
 5
 A   B   C   D   E
@@ -139,7 +139,7 @@ A
 700
 ```
 
-### Test private 8.33
+### Test
 ```input
 4
 A   B   C   D
@@ -153,7 +153,7 @@ A
 100
 ```
 
-### Test private 8.33
+### Test
 ```input
 4
 A   B   C   D
@@ -169,7 +169,7 @@ A
 300
 ```
 
-### Test private 8.33
+### Test
 ```input
 10
 Laguna Carpetana Oporto Usera Legazpi Arganzuela Pacifico Conde Baranda ODonell
@@ -187,7 +187,7 @@ Pacifico
 1280
 ```
 
-### Test private 8.33
+### Test
 ```input
 10
 Laguna Carpetana Oporto Usera Legazpi Arganzuela Pacifico Conde Baranda ODonell
@@ -205,7 +205,7 @@ Carpetana
 1280
 ```
 
-### Test private 8.33
+### Test
 ```input
 10
 Laguna Carpetana Oporto Usera Legazpi Arganzuela Pacifico Conde Baranda ODonell
@@ -222,7 +222,7 @@ ODonell
 1310
 ```
 
-### Test private 8.37
+### Test
 ```input
 10
 Laguna Carpetana Oporto Usera Legazpi Arganzuela Pacifico Conde Baranda ODonell

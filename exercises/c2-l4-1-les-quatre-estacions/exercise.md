@@ -30,7 +30,7 @@ S'imprimirà l'estació corresponent a l'hemisferi nord i a l'hemisferi sud.
 
 ## Tests
 
-### Test 5.56
+### Test
 ```input
 21 3
 ```
@@ -39,7 +39,7 @@ Primavera
 Tardor
 ```
 
-### Test 5.56
+### Test
 ```input
 21 12
 ```
@@ -48,7 +48,7 @@ Hivern
 Estiu
 ```
 
-### Test private 5.56
+### Test
 ```input
 21 3
 ```
@@ -57,7 +57,7 @@ Primavera
 Tardor
 ```
 
-### Test private 5.56
+### Test
 ```input
 21 6
 ```
@@ -66,7 +66,7 @@ Estiu
 Hivern
 ```
 
-### Test private 5.56
+### Test
 ```input
 23 9
 ```
@@ -75,7 +75,7 @@ Tardor
 Primavera
 ```
 
-### Test private 5.56
+### Test
 ```input
 20 12
 ```
@@ -84,7 +84,7 @@ Tardor
 Primavera
 ```
 
-### Test private 5.56
+### Test
 ```input
 22 12
 ```
@@ -93,7 +93,7 @@ Hivern
 Estiu
 ```
 
-### Test private 5.56
+### Test
 ```input
 20 3
 ```
@@ -102,7 +102,7 @@ Hivern
 Estiu
 ```
 
-### Test private 5.56
+### Test
 ```input
 22 3
 ```
@@ -111,7 +111,7 @@ Primavera
 Tardor
 ```
 
-### Test private 5.56
+### Test
 ```input
 20 6
 ```
@@ -120,7 +120,7 @@ Primavera
 Tardor
 ```
 
-### Test private 5.56
+### Test
 ```input
 22 6
 ```
@@ -129,7 +129,7 @@ Estiu
 Hivern
 ```
 
-### Test private 5.56
+### Test
 ```input
 22 9
 ```
@@ -138,7 +138,7 @@ Estiu
 Hivern
 ```
 
-### Test private 5.56
+### Test
 ```input
 24 9
 ```
@@ -147,7 +147,7 @@ Tardor
 Primavera
 ```
 
-### Test private 5.56
+### Test
 ```input
 15 1
 ```
@@ -156,7 +156,7 @@ Hivern
 Estiu
 ```
 
-### Test private 5.56
+### Test
 ```input
 23 5
 ```
@@ -165,7 +165,7 @@ Primavera
 Tardor
 ```
 
-### Test private 5.56
+### Test
 ```input
 21 7
 ```
@@ -174,7 +174,7 @@ Estiu
 Hivern
 ```
 
-### Test private 5.56
+### Test
 ```input
 27 10
 ```
@@ -183,7 +183,7 @@ Tardor
 Primavera
 ```
 
-### Test private 5.48
+### Test
 ```input
 30 1
 ```

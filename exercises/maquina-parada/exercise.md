@@ -24,7 +24,7 @@ Dos números enters separats per espais en blanc
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 3
 8 7    8 8     8 5
@@ -34,7 +34,7 @@ Dos números enters separats per espais en blanc
 4
 ```
 
-### Test 20
+### Test
 ```input
 4
 8 4   6 5    10 5    8 8
@@ -44,7 +44,7 @@ Dos números enters separats per espais en blanc
 10
 ```
 
-### Test private 20
+### Test
 ```input
 5
 8 8    6 6    5 5    7 7    10 10
@@ -54,7 +54,7 @@ Dos números enters separats per espais en blanc
 0
 ```
 
-### Test private 20
+### Test
 ```input
 1
 10 0
@@ -64,7 +64,7 @@ Dos números enters separats per espais en blanc
 10
 ```
 
-### Test private 20
+### Test
 ```input
 3
 9 4 8 5 7 6

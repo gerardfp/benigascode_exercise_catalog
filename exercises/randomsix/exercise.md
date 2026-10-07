@@ -39,7 +39,7 @@ La seqüència de nombres generada, separats per un salt de línía.
 
 ## Tests
 
-### Test 14.29
+### Test
 ```input
 13
 10
@@ -57,7 +57,7 @@ La seqüència de nombres generada, separats per un salt de línía.
 43
 ```
 
-### Test 14.29
+### Test
 ```input
 35
 4
@@ -69,7 +69,7 @@ La seqüència de nombres generada, separats per un salt de línía.
 48
 ```
 
-### Test private 14.29
+### Test
 ```input
 27
 5
@@ -82,7 +82,7 @@ La seqüència de nombres generada, separats per un salt de línía.
 30
 ```
 
-### Test private 14.29
+### Test
 ```input
 10
 3
@@ -93,7 +93,7 @@ La seqüència de nombres generada, separats per un salt de línía.
 36
 ```
 
-### Test private 14.29
+### Test
 ```input
 1
 1
@@ -102,7 +102,7 @@ La seqüència de nombres generada, separats per un salt de línía.
 6
 ```
 
-### Test private 14.29
+### Test
 ```input
 1 19
 ```
@@ -128,7 +128,7 @@ La seqüència de nombres generada, separats per un salt de línía.
 34
 ```
 
-### Test private 14.26
+### Test
 ```input
 99 20
 ```

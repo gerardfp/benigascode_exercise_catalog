@@ -17,7 +17,7 @@ Un secuencia de N números enteros que finaliza con un 0.
 
 ## Tests
 
-### Test 12.5
+### Test
 ```input
 1 2 3 2 1 0
 ```
@@ -25,7 +25,7 @@ Un secuencia de N números enteros que finaliza con un 0.
 SI
 ```
 
-### Test 12.5
+### Test
 ```input
 1 0
 ```
@@ -33,7 +33,7 @@ SI
 SI
 ```
 
-### Test private 12.5
+### Test
 ```input
 1 2 0
 ```
@@ -41,7 +41,7 @@ SI
 NO
 ```
 
-### Test private 12.5
+### Test
 ```input
 1 2 1 2 1 2 1 0
 ```
@@ -49,7 +49,7 @@ NO
 SI
 ```
 
-### Test private 12.5
+### Test
 ```input
 1 2 1 2 0
 ```
@@ -57,7 +57,7 @@ SI
 NO
 ```
 
-### Test private 12.5
+### Test
 ```input
 -1 1 -1 1 -1 0
 ```
@@ -65,7 +65,7 @@ NO
 SI
 ```
 
-### Test private 12.5
+### Test
 ```input
  1 2 3 4 1 0
 ```
@@ -73,7 +73,7 @@ SI
 SI
 ```
 
-### Test private 12.5
+### Test
 ```input
 1 2 3 4 0
 ```

@@ -63,7 +63,7 @@ La entrada acabará con un 0.
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 10 15 20 25 0
 ```
@@ -76,7 +76,7 @@ La entrada acabará con un 0.
 200) 0
 ```
 
-### Test 20
+### Test
 ```input
 5 15 35 85 185 385 0
 ```
@@ -89,7 +89,7 @@ La entrada acabará con un 0.
 200) 1
 ```
 
-### Test private 20
+### Test
 ```input
 100 105 115 135 0
 ```
@@ -102,7 +102,7 @@ La entrada acabará con un 0.
 200) 0
 ```
 
-### Test private 20
+### Test
 ```input
 5 10 15 25 125 0
 ```
@@ -115,7 +115,7 @@ La entrada acabará con un 0.
 200) 0
 ```
 
-### Test private 20
+### Test
 ```input
 5 10 15 20 220 270 275 285 290 300 0
 ```

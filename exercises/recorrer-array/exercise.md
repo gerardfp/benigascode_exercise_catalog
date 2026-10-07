@@ -49,7 +49,7 @@ public class Main {
 
 ## Tests
 
-### Test 25
+### Test
 ```input
 5
 main class void static main
@@ -61,7 +61,7 @@ main
 5
 ```
 
-### Test 25
+### Test
 ```input
 6
 public static void main string args
@@ -72,7 +72,7 @@ void
 3
 ```
 
-### Test private 25
+### Test
 ```input
 3
 char int string
@@ -82,7 +82,7 @@ float
 ```output
 ```
 
-### Test private 25
+### Test
 ```input
 13
 continue for switch boolean do if break else case int char float while

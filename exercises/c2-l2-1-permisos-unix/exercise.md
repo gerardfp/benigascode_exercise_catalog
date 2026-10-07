@@ -55,7 +55,7 @@ S'imprimiran els permisos en format caràcter.
 
 ## Tests
 
-### Test 4.55
+### Test
 ```input
 0
 ```
@@ -63,7 +63,7 @@ S'imprimiran els permisos en format caràcter.
 ---------
 ```
 
-### Test 4.55
+### Test
 ```input
 0
 ```
@@ -71,7 +71,7 @@ S'imprimiran els permisos en format caràcter.
 ---------
 ```
 
-### Test private 4.55
+### Test
 ```input
 6
 ```
@@ -79,7 +79,7 @@ S'imprimiran els permisos en format caràcter.
 ------rw-
 ```
 
-### Test private 4.55
+### Test
 ```input
 764
 ```
@@ -87,7 +87,7 @@ S'imprimiran els permisos en format caràcter.
 rwxrw-r--
 ```
 
-### Test private 4.55
+### Test
 ```input
 1000
 ```
@@ -95,7 +95,7 @@ rwxrw-r--
 --------T
 ```
 
-### Test private 4.55
+### Test
 ```input
 1001
 ```
@@ -103,7 +103,7 @@ rwxrw-r--
 --------t
 ```
 
-### Test private 4.55
+### Test
 ```input
 1552
 ```
@@ -111,7 +111,7 @@ rwxrw-r--
 r-xr-x-wT
 ```
 
-### Test private 4.55
+### Test
 ```input
 1553
 ```
@@ -119,7 +119,7 @@ r-xr-x-wT
 r-xr-x-wt
 ```
 
-### Test private 4.55
+### Test
 ```input
 2040
 ```
@@ -127,7 +127,7 @@ r-xr-x-wt
 ---r-S---
 ```
 
-### Test private 4.55
+### Test
 ```input
 2050
 ```
@@ -135,7 +135,7 @@ r-xr-x-wt
 ---r-s---
 ```
 
-### Test private 4.55
+### Test
 ```input
 2451
 ```
@@ -143,7 +143,7 @@ r-xr-x-wt
 r--r-s--x
 ```
 
-### Test private 4.55
+### Test
 ```input
 3032
 ```
@@ -151,7 +151,7 @@ r--r-s--x
 ----ws-wT
 ```
 
-### Test private 4.55
+### Test
 ```input
 3766
 ```
@@ -159,7 +159,7 @@ r--r-s--x
 rwxrwSrwT
 ```
 
-### Test private 4.55
+### Test
 ```input
 4000
 ```
@@ -167,7 +167,7 @@ rwxrwSrwT
 --S------
 ```
 
-### Test private 4.55
+### Test
 ```input
 4100
 ```
@@ -175,7 +175,7 @@ rwxrwSrwT
 --s------
 ```
 
-### Test private 4.55
+### Test
 ```input
 4765
 ```
@@ -183,7 +183,7 @@ rwxrwSrwT
 rwsrw-r-x
 ```
 
-### Test private 4.55
+### Test
 ```input
 5766
 ```
@@ -191,7 +191,7 @@ rwsrw-r-x
 rwsrw-rwT
 ```
 
-### Test private 4.55
+### Test
 ```input
 6774
 ```
@@ -199,7 +199,7 @@ rwsrw-rwT
 rwsrwsr--
 ```
 
-### Test private 4.55
+### Test
 ```input
 7000
 ```
@@ -207,7 +207,7 @@ rwsrwsr--
 --S--S--T
 ```
 
-### Test private 4.55
+### Test
 ```input
 7111
 ```
@@ -215,7 +215,7 @@ rwsrwsr--
 --s--s--t
 ```
 
-### Test private 4.55
+### Test
 ```input
 7776
 ```
@@ -223,7 +223,7 @@ rwsrwsr--
 rwsrwsrwT
 ```
 
-### Test private 4.45
+### Test
 ```input
 7777
 ```

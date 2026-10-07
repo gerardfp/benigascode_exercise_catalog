@@ -25,7 +25,7 @@ Se imprimirá el resultado de la impresión. Cada desplazamiento del cabezal ser
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 3 2 1 0 -2
 ```
@@ -33,7 +33,7 @@ Se imprimirá el resultado de la impresión. Cada desplazamiento del cabezal ser
    #  # ##
 ```
 
-### Test 20
+### Test
 ```input
 0 0 0 -1 0 1 -1 1 -2
 ```
@@ -43,7 +43,7 @@ Se imprimirá el resultado de la impresión. Cada desplazamiento del cabezal ser
  #
 ```
 
-### Test private 20
+### Test
 ```input
 2 -1
 1 1 -1
@@ -58,7 +58,7 @@ Se imprimirá el resultado de la impresión. Cada desplazamiento del cabezal ser
   #
 ```
 
-### Test private 20
+### Test
 ```input
 3 2 -1 
 2 0 0 0 0 0 -1 
@@ -79,7 +79,7 @@ Se imprimirá el resultado de la impresión. Cada desplazamiento del cabezal ser
   ##  ##
 ```
 
-### Test private 20
+### Test
 ```input
 5 0 0 0 0 -1 3 0 5 0 -1 2 9 -1 1 11 -1 1 11 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 1 0 2 0 0 0 2 1 -1 0 1 0 0 1 1 0 0 1 1 -1 0 2 0 0 3 0 0 2 -1 0 13 -1 1 2 8 -1 1 3 0 0 0 0 3 -1 2 9 -1 3 0 5 0 -1 5 0 0 0 0 -1 -2
 ```

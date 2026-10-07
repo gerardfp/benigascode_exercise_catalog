@@ -23,7 +23,7 @@ L'últim nombre  indica la quantitat de llibres que té en Miquel.
 
 ## Tests
 
-### Test 25
+### Test
 ```input
 1 1 1 1
 ```
@@ -31,7 +31,7 @@ L'últim nombre  indica la quantitat de llibres que té en Miquel.
 true
 ```
 
-### Test 25
+### Test
 ```input
 2 4 10 60
 ```
@@ -39,7 +39,7 @@ true
 true
 ```
 
-### Test private 25
+### Test
 ```input
 10 3 5 200
 ```
@@ -47,7 +47,7 @@ true
 false
 ```
 
-### Test private 25
+### Test
 ```input
 1 5 10 50
 ```

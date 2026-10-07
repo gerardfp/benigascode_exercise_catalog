@@ -68,7 +68,7 @@ public class Main {
 
 ## Tests
 
-### Test 50
+### Test
 ```input
 3
 @popeye http://img.io/1234.jpg Hola que tal
@@ -87,7 +87,7 @@ Hasta luego
 ------------------------------
 ```
 
-### Test private 50
+### Test
 ```input
 2
 @user_one null Blank message

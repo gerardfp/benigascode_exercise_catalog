@@ -24,7 +24,7 @@ S'imprimirà la puntuació obtinguda amb el tir.
 
 ## Tests
 
-### Test 9.09
+### Test
 ```input
 0 0
 ```
@@ -32,7 +32,7 @@ S'imprimirà la puntuació obtinguda amb el tir.
 5
 ```
 
-### Test 9.09
+### Test
 ```input
 0 0
 ```
@@ -40,7 +40,7 @@ S'imprimirà la puntuació obtinguda amb el tir.
 5
 ```
 
-### Test private 9.09
+### Test
 ```input
 5 5
 ```
@@ -48,7 +48,7 @@ S'imprimirà la puntuació obtinguda amb el tir.
 4
 ```
 
-### Test private 9.09
+### Test
 ```input
 10 5
 ```
@@ -56,7 +56,7 @@ S'imprimirà la puntuació obtinguda amb el tir.
 3
 ```
 
-### Test private 9.09
+### Test
 ```input
 -15 -10
 ```
@@ -64,7 +64,7 @@ S'imprimirà la puntuació obtinguda amb el tir.
 2
 ```
 
-### Test private 9.09
+### Test
 ```input
 20 5
 ```
@@ -72,7 +72,7 @@ S'imprimirà la puntuació obtinguda amb el tir.
 1
 ```
 
-### Test private 9.09
+### Test
 ```input
 0 10
 ```
@@ -80,7 +80,7 @@ S'imprimirà la puntuació obtinguda amb el tir.
 3
 ```
 
-### Test private 9.09
+### Test
 ```input
 0.1 24.9
 ```
@@ -88,7 +88,7 @@ S'imprimirà la puntuació obtinguda amb el tir.
 1
 ```
 
-### Test private 9.09
+### Test
 ```input
 7.1 7.9
 ```
@@ -96,7 +96,7 @@ S'imprimirà la puntuació obtinguda amb el tir.
 3
 ```
 
-### Test private 9.09
+### Test
 ```input
 20 0
 ```
@@ -104,7 +104,7 @@ S'imprimirà la puntuació obtinguda amb el tir.
 1
 ```
 
-### Test private 9.1
+### Test
 ```input
 -2.67 4.89
 ```

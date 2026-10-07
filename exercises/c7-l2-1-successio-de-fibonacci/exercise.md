@@ -18,7 +18,7 @@ El número de la successió de Fibonacci que ocupa la posició N
 
 ## Tests
 
-### Test 8.33
+### Test
 ```input
 0
 ```
@@ -26,7 +26,7 @@ El número de la successió de Fibonacci que ocupa la posició N
 0
 ```
 
-### Test 8.33
+### Test
 ```input
 0
 ```
@@ -34,7 +34,7 @@ El número de la successió de Fibonacci que ocupa la posició N
 0
 ```
 
-### Test private 8.33
+### Test
 ```input
 1
 ```
@@ -42,7 +42,7 @@ El número de la successió de Fibonacci que ocupa la posició N
 1
 ```
 
-### Test private 8.33
+### Test
 ```input
 2
 ```
@@ -50,7 +50,7 @@ El número de la successió de Fibonacci que ocupa la posició N
 1
 ```
 
-### Test private 8.33
+### Test
 ```input
 3
 ```
@@ -58,7 +58,7 @@ El número de la successió de Fibonacci que ocupa la posició N
 2
 ```
 
-### Test private 8.33
+### Test
 ```input
 4
 ```
@@ -66,7 +66,7 @@ El número de la successió de Fibonacci que ocupa la posició N
 3
 ```
 
-### Test private 8.33
+### Test
 ```input
 5
 ```
@@ -74,7 +74,7 @@ El número de la successió de Fibonacci que ocupa la posició N
 5
 ```
 
-### Test private 8.33
+### Test
 ```input
 6
 ```
@@ -82,7 +82,7 @@ El número de la successió de Fibonacci que ocupa la posició N
 8
 ```
 
-### Test private 8.33
+### Test
 ```input
 7
 ```
@@ -90,7 +90,7 @@ El número de la successió de Fibonacci que ocupa la posició N
 13
 ```
 
-### Test private 8.33
+### Test
 ```input
 8
 ```
@@ -98,7 +98,7 @@ El número de la successió de Fibonacci que ocupa la posició N
 21
 ```
 
-### Test private 8.33
+### Test
 ```input
 15
 ```
@@ -106,7 +106,7 @@ El número de la successió de Fibonacci que ocupa la posició N
 610
 ```
 
-### Test private 8.37
+### Test
 ```input
 25
 ```

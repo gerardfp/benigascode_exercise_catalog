@@ -36,7 +36,7 @@ public class Main {
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 pares 4
 nones 1
@@ -45,7 +45,7 @@ nones 1
 segon jugador
 ```
 
-### Test 20
+### Test
 ```input
 nones 4
 pares 1
@@ -54,7 +54,7 @@ pares 1
 primer jugador
 ```
 
-### Test private 20
+### Test
 ```input
 pares 3
 nones 3
@@ -63,7 +63,7 @@ nones 3
 primer jugador
 ```
 
-### Test private 20
+### Test
 ```input
 nones 3
 pares 3
@@ -72,7 +72,7 @@ pares 3
 segon jugador
 ```
 
-### Test private 20
+### Test
 ```input
 pares 3
 nones 2

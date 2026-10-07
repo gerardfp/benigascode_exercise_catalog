@@ -35,7 +35,7 @@ La entrada consiste en las respuestas del usuario: 30 letras (`a`, `b`, `c`) sep
 
 ## Tests
 
-### Test 33.33
+### Test
 ```input
 a b c c a a b c b c a c b a a a c c b a c b c c a a c a a c
 ```
@@ -47,7 +47,7 @@ TEST APROBADO
        a        b                                                                         
 ```
 
-### Test private 33.33
+### Test
 ```input
 a b a c a b b c b c a c b a a a c c b a c b c c a a c a a c 
 ```
@@ -59,7 +59,7 @@ TEST APROBADO
                                                                                           
 ```
 
-### Test private 33.34
+### Test
 ```input
 a b b c a c a c b a a c b a a a b a b a c a c c a a c c a c 
 ```

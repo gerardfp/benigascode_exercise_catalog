@@ -19,7 +19,7 @@ S'imprimirà la quantitat de classes definides.
 
 ## Tests
 
-### Test 12.5
+### Test
 ```input
 class A { int x; } END
 ```
@@ -27,7 +27,7 @@ class A { int x; } END
 1
 ```
 
-### Test 12.5
+### Test
 ```input
 class A { 
    int x; 
@@ -39,7 +39,7 @@ END
 1
 ```
 
-### Test private 12.5
+### Test
 ```input
 class Mktr {}
 
@@ -51,7 +51,7 @@ END
 2
 ```
 
-### Test private 12.5
+### Test
 ```input
 class Mktr {
    class Trws {}
@@ -65,7 +65,7 @@ END
 3
 ```
 
-### Test private 12.5
+### Test
 ```input
 class Mktr {}
 
@@ -81,7 +81,7 @@ END
 2
 ```
 
-### Test private 12.5
+### Test
 ```input
 class Mktr {}
 
@@ -99,7 +99,7 @@ END
 4
 ```
 
-### Test private 12.5
+### Test
 ```input
 class A { class B {}}
 END
@@ -108,7 +108,7 @@ END
 2
 ```
 
-### Test private 12.5
+### Test
 ```input
 int i = 0;
 END

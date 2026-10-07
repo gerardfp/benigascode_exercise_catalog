@@ -27,7 +27,7 @@ S'imprimirà la llista de Hashtags i les vegades que apareix als missatges
 
 ## Tests
 
-### Test 16.67
+### Test
 ```input
 4
 {
@@ -48,7 +48,7 @@ S'imprimirà la llista de Hashtags i les vegades que apareix als missatges
 #python 2
 ```
 
-### Test 16.67
+### Test
 ```input
 4
 {
@@ -69,7 +69,7 @@ S'imprimirà la llista de Hashtags i les vegades que apareix als missatges
 #python 2
 ```
 
-### Test private 16.67
+### Test
 ```input
 4
 {
@@ -91,7 +91,7 @@ S'imprimirà la llista de Hashtags i les vegades que apareix als missatges
 #php 1
 ```
 
-### Test private 16.67
+### Test
 ```input
 4
 {
@@ -112,7 +112,7 @@ S'imprimirà la llista de Hashtags i les vegades que apareix als missatges
 #javascript 2
 ```
 
-### Test private 16.67
+### Test
 ```input
 6
 {
@@ -141,7 +141,7 @@ S'imprimirà la llista de Hashtags i les vegades que apareix als missatges
 #java 1
 ```
 
-### Test private 16.65
+### Test
 ```input
 40
 {

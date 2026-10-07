@@ -50,7 +50,7 @@ public class Main {
 
 ## Tests
 
-### Test 25
+### Test
 ```input
 5
 100 50 30 20 10
@@ -63,7 +63,7 @@ public class Main {
 85 35 15 15 5
 ```
 
-### Test 25
+### Test
 ```input
 3 
 50 50 50
@@ -74,7 +74,7 @@ public class Main {
 50 25 50
 ```
 
-### Test private 25
+### Test
 ```input
 3
 30 10 30
@@ -89,7 +89,7 @@ public class Main {
 0 0 0
 ```
 
-### Test private 25
+### Test
 ```input
 5
 100 100 100 100 100

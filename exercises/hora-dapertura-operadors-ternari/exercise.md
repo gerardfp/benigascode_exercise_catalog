@@ -34,7 +34,7 @@ public class Main {
 
 ## Tests
 
-### Test 14.29
+### Test
 ```input
 Dilluns
 ```
@@ -42,7 +42,7 @@ Dilluns
 8:00
 ```
 
-### Test 14.29
+### Test
 ```input
 Dimarts
 ```
@@ -50,7 +50,7 @@ Dimarts
 8:00
 ```
 
-### Test private 14.29
+### Test
 ```input
 Dimecres
 ```
@@ -58,7 +58,7 @@ Dimecres
 8:00
 ```
 
-### Test private 14.29
+### Test
 ```input
 Dijous
 ```
@@ -66,7 +66,7 @@ Dijous
 8:00
 ```
 
-### Test private 14.29
+### Test
 ```input
 Divendres
 ```
@@ -74,7 +74,7 @@ Divendres
 8:00
 ```
 
-### Test private 14.29
+### Test
 ```input
 Dissabte
 ```
@@ -82,7 +82,7 @@ Dissabte
 10:00
 ```
 
-### Test private 14.26
+### Test
 ```input
 Diumenge
 ```

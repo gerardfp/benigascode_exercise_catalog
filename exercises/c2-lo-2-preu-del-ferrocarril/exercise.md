@@ -21,7 +21,7 @@ El preu del bolet.
 
 ## Tests
 
-### Test 10
+### Test
 ```input
 100.0 1
 ```
@@ -29,7 +29,7 @@ El preu del bolet.
 35.0
 ```
 
-### Test 10
+### Test
 ```input
 200.0 1
 ```
@@ -37,7 +37,7 @@ El preu del bolet.
 70.0
 ```
 
-### Test private 10
+### Test
 ```input
 900.0 1
 ```
@@ -45,7 +45,7 @@ El preu del bolet.
 315.0
 ```
 
-### Test private 10
+### Test
 ```input
 100.0 10
 ```
@@ -53,7 +53,7 @@ El preu del bolet.
 35.0
 ```
 
-### Test private 10
+### Test
 ```input
 900.0 10
 ```
@@ -61,7 +61,7 @@ El preu del bolet.
 220.5
 ```
 
-### Test private 10
+### Test
 ```input
 800.0 7
 ```
@@ -69,7 +69,7 @@ El preu del bolet.
 280.0
 ```
 
-### Test private 10
+### Test
 ```input
 801.0 7
 ```
@@ -77,7 +77,7 @@ El preu del bolet.
 280.35
 ```
 
-### Test private 10
+### Test
 ```input
 800.0 8
 ```
@@ -85,7 +85,7 @@ El preu del bolet.
 280.0
 ```
 
-### Test private 10
+### Test
 ```input
 801.0 8
 ```
@@ -93,7 +93,7 @@ El preu del bolet.
 196.245
 ```
 
-### Test private 10
+### Test
 ```input
 234.5 1
 ```

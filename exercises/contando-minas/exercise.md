@@ -23,7 +23,7 @@ Les caselles amb mina es deixaran igual, és a dir, amb un 1.
 
 ## Tests
 
-### Test 10
+### Test
 ```input
 5 5
 0 0 0 0 0
@@ -40,7 +40,7 @@ Les caselles amb mina es deixaran igual, és a dir, amb un 1.
 0 0 0 0 0
 ```
 
-### Test 10
+### Test
 ```input
 5 5
 0 0 0 0 0
@@ -57,7 +57,7 @@ Les caselles amb mina es deixaran igual, és a dir, amb un 1.
 0 0 1 1 1
 ```
 
-### Test private 10
+### Test
 ```input
 3 3
 
@@ -71,7 +71,7 @@ Les caselles amb mina es deixaran igual, és a dir, amb un 1.
 0 0 0
 ```
 
-### Test private 10
+### Test
 ```input
 3 3
 
@@ -85,7 +85,7 @@ Les caselles amb mina es deixaran igual, és a dir, amb un 1.
 1 1 1
 ```
 
-### Test private 10
+### Test
 ```input
 4 4
 
@@ -101,7 +101,7 @@ Les caselles amb mina es deixaran igual, és a dir, amb un 1.
 2 2 1 0
 ```
 
-### Test private 10
+### Test
 ```input
 1 4
 
@@ -111,7 +111,7 @@ Les caselles amb mina es deixaran igual, és a dir, amb un 1.
 1 2 1 1
 ```
 
-### Test private 10
+### Test
 ```input
 5 5
 
@@ -129,7 +129,7 @@ Les caselles amb mina es deixaran igual, és a dir, amb un 1.
 1 1 2 1 1
 ```
 
-### Test private 10
+### Test
 ```input
 4 1
 
@@ -145,7 +145,7 @@ Les caselles amb mina es deixaran igual, és a dir, amb un 1.
 0
 ```
 
-### Test private 10
+### Test
 ```input
 8 8
 
@@ -169,7 +169,7 @@ Les caselles amb mina es deixaran igual, és a dir, amb un 1.
 1 1 1 1 1 0 1 1 
 ```
 
-### Test private 10
+### Test
 ```input
 2 2
 1 0

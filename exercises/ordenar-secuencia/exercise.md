@@ -16,7 +16,7 @@ La seqüència ordenada de números, separats per espais.
 
 ## Tests
 
-### Test 14.29
+### Test
 ```input
 3   2 1 3
 ```
@@ -24,7 +24,7 @@ La seqüència ordenada de números, separats per espais.
 1 2 3
 ```
 
-### Test 14.29
+### Test
 ```input
 5    20 10 40 50 30
 ```
@@ -32,7 +32,7 @@ La seqüència ordenada de números, separats per espais.
 10 20 30 40 50
 ```
 
-### Test private 14.29
+### Test
 ```input
 5    50 40 30 20 10
 ```
@@ -40,7 +40,7 @@ La seqüència ordenada de números, separats per espais.
 10 20 30 40 50
 ```
 
-### Test private 14.29
+### Test
 ```input
 1   500
 ```
@@ -48,7 +48,7 @@ La seqüència ordenada de números, separats per espais.
 500
 ```
 
-### Test private 14.29
+### Test
 ```input
 10    6 3 7 56 4 7 4 4 9 3
 ```
@@ -56,7 +56,7 @@ La seqüència ordenada de números, separats per espais.
 3 3 4 4 4 6 7 7 9 56
 ```
 
-### Test private 14.29
+### Test
 ```input
 3    1 1 1
 ```
@@ -64,7 +64,7 @@ La seqüència ordenada de números, separats per espais.
 1 1 1
 ```
 
-### Test private 14.26
+### Test
 ```input
 20     17 14 11 10 6 20 3 16 2 12 7 1 18 19 4 13 5 8 9 15  
 ```

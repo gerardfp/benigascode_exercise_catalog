@@ -24,7 +24,7 @@ El nombre de colors distints que es veuran.
 
 ## Tests
 
-### Test 7.14
+### Test
 ```input
 0 0 1
 1 0 1
@@ -34,7 +34,7 @@ El nombre de colors distints que es veuran.
 5
 ```
 
-### Test 7.14
+### Test
 ```input
 0 0 1
 1 0 1
@@ -44,7 +44,7 @@ El nombre de colors distints que es veuran.
 5
 ```
 
-### Test private 7.14
+### Test
 ```input
 0 0 1
 1 0 1
@@ -54,7 +54,7 @@ El nombre de colors distints que es veuran.
 4
 ```
 
-### Test private 7.14
+### Test
 ```input
 0 0 1
 2 0 1
@@ -64,7 +64,7 @@ El nombre de colors distints que es veuran.
 3
 ```
 
-### Test private 7.14
+### Test
 ```input
 1 0 4
 2 0 2
@@ -74,7 +74,7 @@ El nombre de colors distints que es veuran.
 4
 ```
 
-### Test private 7.14
+### Test
 ```input
 1 0 2
 3 0 1
@@ -84,7 +84,7 @@ El nombre de colors distints que es veuran.
 4
 ```
 
-### Test private 7.14
+### Test
 ```input
 0 1 1
 1 0 1
@@ -94,7 +94,7 @@ El nombre de colors distints que es veuran.
 7
 ```
 
-### Test private 7.14
+### Test
 ```input
 0 0 4
 4 0 3
@@ -104,7 +104,7 @@ El nombre de colors distints que es veuran.
 5
 ```
 
-### Test private 7.14
+### Test
 ```input
 0 0 4
 0 0 3
@@ -114,7 +114,7 @@ El nombre de colors distints que es veuran.
 3
 ```
 
-### Test private 7.14
+### Test
 ```input
 0 0 4
 2 0 3
@@ -124,7 +124,7 @@ El nombre de colors distints que es veuran.
 4
 ```
 
-### Test private 7.14
+### Test
 ```input
 0 0 4
 2 0 3
@@ -134,7 +134,7 @@ El nombre de colors distints que es veuran.
 6
 ```
 
-### Test private 7.14
+### Test
 ```input
 0 0 4
 6 0 4
@@ -144,7 +144,7 @@ El nombre de colors distints que es veuran.
 6
 ```
 
-### Test private 7.14
+### Test
 ```input
 0 4 4
 6 2 3
@@ -154,7 +154,7 @@ El nombre de colors distints que es veuran.
 6
 ```
 
-### Test private 7.18
+### Test
 ```input
 2 0 4
 4 0 2

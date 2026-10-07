@@ -36,7 +36,7 @@ Se debe imprimir la Precisión (porcentaje de aciertos) y la Velocidad (palabras
 
 ## Tests
 
-### Test 14.29
+### Test
 ```input
 100 10 60
 ```
@@ -45,7 +45,7 @@ Se debe imprimir la Precisión (porcentaje de aciertos) y la Velocidad (palabras
 20
 ```
 
-### Test 14.29
+### Test
 ```input
 10 3 60
 ```
@@ -54,7 +54,7 @@ Se debe imprimir la Precisión (porcentaje de aciertos) y la Velocidad (palabras
 2
 ```
 
-### Test private 14.29
+### Test
 ```input
 60 0 10
 ```
@@ -63,7 +63,7 @@ Se debe imprimir la Precisión (porcentaje de aciertos) y la Velocidad (palabras
 72
 ```
 
-### Test private 14.29
+### Test
 ```input
 300 37 65
 ```
@@ -72,7 +72,7 @@ Se debe imprimir la Precisión (porcentaje de aciertos) y la Velocidad (palabras
 55
 ```
 
-### Test private 14.29
+### Test
 ```input
 789 7 165
 ```
@@ -81,7 +81,7 @@ Se debe imprimir la Precisión (porcentaje de aciertos) y la Velocidad (palabras
 57
 ```
 
-### Test private 14.29
+### Test
 ```input
 60 60 6
 ```
@@ -90,7 +90,7 @@ Se debe imprimir la Precisión (porcentaje de aciertos) y la Velocidad (palabras
 120
 ```
 
-### Test private 14.26
+### Test
 ```input
 1 1 1
 ```

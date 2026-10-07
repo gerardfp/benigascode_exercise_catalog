@@ -58,7 +58,7 @@ IZQUIERDA
 BUCLE
 ```
 
-### Test private
+### Test
 ```input
 8
 1 2 2 -1 1 -3 1 1

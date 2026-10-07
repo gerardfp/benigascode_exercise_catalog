@@ -19,7 +19,7 @@ S'imprimiran els graus de cada manilla (HH,MM,SS) que corresponen a l'hora, cada
 
 ## Tests
 
-### Test 14.29
+### Test
 ```input
 0 0 0
 ```
@@ -29,7 +29,7 @@ S'imprimiran els graus de cada manilla (HH,MM,SS) que corresponen a l'hora, cada
 0.0
 ```
 
-### Test 14.29
+### Test
 ```input
 2 30 0
 ```
@@ -39,7 +39,7 @@ S'imprimiran els graus de cada manilla (HH,MM,SS) que corresponen a l'hora, cada
 0.0
 ```
 
-### Test private 14.29
+### Test
 ```input
 9 30 0
 ```
@@ -49,7 +49,7 @@ S'imprimiran els graus de cada manilla (HH,MM,SS) que corresponen a l'hora, cada
 0.0
 ```
 
-### Test private 14.29
+### Test
 ```input
 0 15 30
 ```
@@ -59,7 +59,7 @@ S'imprimiran els graus de cada manilla (HH,MM,SS) que corresponen a l'hora, cada
 180.0
 ```
 
-### Test private 14.29
+### Test
 ```input
 11 59 59
 ```
@@ -69,7 +69,7 @@ S'imprimiran els graus de cada manilla (HH,MM,SS) que corresponen a l'hora, cada
 354.0
 ```
 
-### Test private 14.29
+### Test
 ```input
 7 43 23
 ```
@@ -79,7 +79,7 @@ S'imprimiran els graus de cada manilla (HH,MM,SS) que corresponen a l'hora, cada
 138.0
 ```
 
-### Test private 14.26
+### Test
 ```input
 6 30 30
 ```

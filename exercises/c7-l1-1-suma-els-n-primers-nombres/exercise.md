@@ -24,7 +24,7 @@ La suma
 
 ## Tests
 
-### Test 14.29
+### Test
 ```input
 1
 ```
@@ -32,7 +32,7 @@ La suma
 1
 ```
 
-### Test 14.29
+### Test
 ```input
 1
 ```
@@ -40,7 +40,7 @@ La suma
 1
 ```
 
-### Test private 14.29
+### Test
 ```input
 3
 ```
@@ -48,7 +48,7 @@ La suma
 6
 ```
 
-### Test private 14.29
+### Test
 ```input
 5
 ```
@@ -56,7 +56,7 @@ La suma
 15
 ```
 
-### Test private 14.29
+### Test
 ```input
 10
 ```
@@ -64,7 +64,7 @@ La suma
 55
 ```
 
-### Test private 14.29
+### Test
 ```input
 20
 ```
@@ -72,7 +72,7 @@ La suma
 210
 ```
 
-### Test private 14.26
+### Test
 ```input
 1000
 ```

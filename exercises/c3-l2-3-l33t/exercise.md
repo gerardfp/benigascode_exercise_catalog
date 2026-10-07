@@ -39,7 +39,7 @@ El text en llengua l33t
 
 ## Tests
 
-### Test 12.5
+### Test
 ```input
 Hello world
 END
@@ -48,7 +48,7 @@ END
 h3110 \/\/0R1d
 ```
 
-### Test 12.5
+### Test
 ```input
 Hello leet
 END
@@ -57,7 +57,7 @@ END
 h3110 1337
 ```
 
-### Test private 12.5
+### Test
 ```input
 goodbye world
 END
@@ -66,7 +66,7 @@ END
 600d8Y3 \/\/0r1D
 ```
 
-### Test private 12.5
+### Test
 ```input
 all your base are belong to us
 END
@@ -75,7 +75,7 @@ END
 411 y0|_|R 8453 4r3 8310N6 70 |_|5
 ```
 
-### Test private 12.5
+### Test
 ```input
 Lorem ipsum 
 dolor sit amet, 
@@ -88,7 +88,7 @@ d010R 5!7 4/\/\37
 c0N53c737|_|R 4d!P!5c!N6 31!7
 ```
 
-### Test private 12.5
+### Test
 ```input
 This isn't even, 
 my final form.
@@ -99,7 +99,7 @@ END
 /\/\y F!n41 F0r/\/\
 ```
 
-### Test private 12.5
+### Test
 ```input
 If the Tao is great, then the operating system is great. 
 If the operating system is great, then the compiler is great. 
@@ -114,7 +114,7 @@ END
 7H3 |_|53r !5 P13453d 4Nd 7H3r3 !5 H4r/\/\0Ny !N 7h3 \/\/0R1d
 ```
 
-### Test private 12.5
+### Test
 ```input
 It's over 9000!
 END

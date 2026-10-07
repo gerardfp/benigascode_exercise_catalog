@@ -24,7 +24,7 @@ Una línia amb un String.
 
 ## Tests
 
-### Test 7.14
+### Test
 ```input
 hola mon!
 ```
@@ -32,7 +32,7 @@ hola mon!
 false
 ```
 
-### Test 7.14
+### Test
 ```input
 luz azul
 ```
@@ -40,7 +40,7 @@ luz azul
 true
 ```
 
-### Test private 7.14
+### Test
 ```input
 a ti no, bonita.
 ```
@@ -48,7 +48,7 @@ a ti no, bonita.
 true
 ```
 
-### Test private 7.14
+### Test
 ```input
 amor a roma
 ```
@@ -56,7 +56,7 @@ amor a roma
 true
 ```
 
-### Test private 7.14
+### Test
 ```input
 Ella te da detalles
 ```
@@ -64,7 +64,7 @@ Ella te da detalles
 false
 ```
 
-### Test private 7.14
+### Test
 ```input
 ala
 ```
@@ -72,7 +72,7 @@ ala
 true
 ```
 
-### Test private 7.14
+### Test
 ```input
 anul-la la lluna
 ```
@@ -80,7 +80,7 @@ anul-la la lluna
 true
 ```
 
-### Test private 7.14
+### Test
 ```input
 Catala, a l'atac
 ```
@@ -88,7 +88,7 @@ Catala, a l'atac
 true
 ```
 
-### Test private 7.14
+### Test
 ```input
 A una nena nua llepa-li la pell, llepa-li la pell a una nena nua.
 ```
@@ -96,7 +96,7 @@ A una nena nua llepa-li la pell, llepa-li la pell a una nena nua.
 true
 ```
 
-### Test private 7.14
+### Test
 ```input
 Apa! Cal a la capa?
 ```
@@ -104,7 +104,7 @@ Apa! Cal a la capa?
 true
 ```
 
-### Test private 7.14
+### Test
 ```input
 mnb
 ```
@@ -112,7 +112,7 @@ mnb
 false
 ```
 
-### Test private 7.14
+### Test
 ```input
 .lkl.
 ```
@@ -120,7 +120,7 @@ false
 true
 ```
 
-### Test private 7.14
+### Test
 ```input
 opo!
 ```
@@ -128,7 +128,7 @@ opo!
 true
 ```
 
-### Test private 7.18
+### Test
 ```input
 ala!
 ```

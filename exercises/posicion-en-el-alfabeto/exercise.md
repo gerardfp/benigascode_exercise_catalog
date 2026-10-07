@@ -16,7 +16,7 @@ La posició de cada lletra en una línia diferent.
 
 ## Tests
 
-### Test 16.67
+### Test
 ```input
 hola
 ```
@@ -27,7 +27,7 @@ hola
 0
 ```
 
-### Test 16.67
+### Test
 ```input
 mon
 ```
@@ -37,7 +37,7 @@ mon
 13
 ```
 
-### Test private 16.67
+### Test
 ```input
 java
 ```
@@ -48,7 +48,7 @@ java
 0
 ```
 
-### Test private 16.67
+### Test
 ```input
 ace
 ```
@@ -58,7 +58,7 @@ ace
 4
 ```
 
-### Test private 16.67
+### Test
 ```input
 tochararray
 ```
@@ -76,7 +76,7 @@ tochararray
 24
 ```
 
-### Test private 16.65
+### Test
 ```input
 jived fox nymph grabs quick waltz
 ```

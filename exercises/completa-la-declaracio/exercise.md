@@ -31,14 +31,14 @@ public class Main {
 
 ## Tests
 
-### Test 50
+### Test
 ```input
 ```
 ```output
 123456
 ```
 
-### Test private 50
+### Test
 ```input
 ```
 ```output

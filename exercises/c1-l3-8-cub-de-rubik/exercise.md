@@ -19,7 +19,7 @@ S'imprimira el nombre de "cubelets" que té el cub.
 
 ## Tests
 
-### Test 12.5
+### Test
 ```input
 3
 ```
@@ -27,7 +27,7 @@ S'imprimira el nombre de "cubelets" que té el cub.
 26
 ```
 
-### Test 12.5
+### Test
 ```input
 3
 ```
@@ -35,7 +35,7 @@ S'imprimira el nombre de "cubelets" que té el cub.
 26
 ```
 
-### Test private 12.5
+### Test
 ```input
 4
 ```
@@ -43,7 +43,7 @@ S'imprimira el nombre de "cubelets" que té el cub.
 56
 ```
 
-### Test private 12.5
+### Test
 ```input
 5
 ```
@@ -51,7 +51,7 @@ S'imprimira el nombre de "cubelets" que té el cub.
 98
 ```
 
-### Test private 12.5
+### Test
 ```input
 6
 ```
@@ -59,7 +59,7 @@ S'imprimira el nombre de "cubelets" que té el cub.
 152
 ```
 
-### Test private 12.5
+### Test
 ```input
 10
 ```
@@ -67,7 +67,7 @@ S'imprimira el nombre de "cubelets" que té el cub.
 488
 ```
 
-### Test private 12.5
+### Test
 ```input
 1000
 ```
@@ -75,7 +75,7 @@ S'imprimira el nombre de "cubelets" que té el cub.
 5988008
 ```
 
-### Test private 12.5
+### Test
 ```input
 1000000
 ```

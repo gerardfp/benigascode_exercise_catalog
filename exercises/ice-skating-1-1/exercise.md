@@ -27,7 +27,7 @@ Indicar las coordenadas (x y) de la última casilla del tablero por la cual sale
 
 ## Tests
 
-### Test 33.33
+### Test
 ```input
 4 4
 E . . S
@@ -39,7 +39,7 @@ E . . S
 3 3
 ```
 
-### Test private 33.33
+### Test
 ```input
 5 4
 S . . N .
@@ -51,7 +51,7 @@ E . N . W
 4 1
 ```
 
-### Test private 33.34
+### Test
 ```input
 4 6
 E . E S

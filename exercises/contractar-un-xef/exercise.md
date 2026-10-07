@@ -42,7 +42,7 @@ public class Main {
 
 ## Tests
 
-### Test 25
+### Test
 ```input
 Joan
 33
@@ -54,7 +54,7 @@ tradicional
 El formulari de Joan s'ha completat. Et contactarem si necessitem un xef de cuina tradicional.
 ```
 
-### Test 25
+### Test
 ```input
 Miquel
 24
@@ -66,7 +66,7 @@ fussio
 El formulari de Miquel s'ha completat. Et contactarem si necessitem un xef de cuina fussio.
 ```
 
-### Test private 25
+### Test
 ```input
 Maria Elena
 34
@@ -78,7 +78,7 @@ vanguardista
 El formulari de Maria Elena s'ha completat. Et contactarem si necessitem un xef de cuina vanguardista.
 ```
 
-### Test private 25
+### Test
 ```input
 Josep Antoni
 20

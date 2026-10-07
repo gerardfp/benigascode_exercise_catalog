@@ -39,7 +39,7 @@ TOTAL: 3.5 euros
 
 ## Tests
 
-### Test 25
+### Test
 ```input
 4
 1.00
@@ -53,7 +53,7 @@ TOTAL: 3.5 euros
 TOTAL: 3.5 euros
 ```
 
-### Test 25
+### Test
 ```input
 8
 1.5
@@ -67,7 +67,7 @@ TOTAL: 3.5 euros
 TOTAL: 9.0 euros
 ```
 
-### Test private 25
+### Test
 ```input
 22
 2
@@ -81,7 +81,7 @@ TOTAL: 9.0 euros
 TOTAL: 33.0 euros
 ```
 
-### Test private 25
+### Test
 ```input
 24
 16

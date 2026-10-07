@@ -49,7 +49,7 @@ El nombre de cistelles d'1, 2 i 3 punts, en diferents línies.
 
 ## Tests
 
-### Test 9.09
+### Test
 ```input
 1 4 6 7 9   -1
 ```
@@ -59,7 +59,7 @@ El nombre de cistelles d'1, 2 i 3 punts, en diferents línies.
 1
 ```
 
-### Test 9.09
+### Test
 ```input
 3 5 6 9   -1
 ```
@@ -69,7 +69,7 @@ El nombre de cistelles d'1, 2 i 3 punts, en diferents línies.
 2
 ```
 
-### Test private 9.09
+### Test
 ```input
 3    -1
 ```
@@ -79,7 +79,7 @@ El nombre de cistelles d'1, 2 i 3 punts, en diferents línies.
 1
 ```
 
-### Test private 9.09
+### Test
 ```input
 1 3 6   -1
 ```
@@ -89,7 +89,7 @@ El nombre de cistelles d'1, 2 i 3 punts, en diferents línies.
 1
 ```
 
-### Test private 9.09
+### Test
 ```input
 3 4 7 9 12 15 16 17 20 21 23 25 28    -1
 ```
@@ -99,7 +99,7 @@ El nombre de cistelles d'1, 2 i 3 punts, en diferents línies.
 6
 ```
 
-### Test private 9.09
+### Test
 ```input
 2 3 6 7 8 11 14 16 19 20 21 22 25 28 29 31 32 33 34 36 39 41 43 45 48 51 52 55 56 57 58 60 62 63 66 68 70 71 73 75 76 77 78      -1
 ```
@@ -109,7 +109,7 @@ El nombre de cistelles d'1, 2 i 3 punts, en diferents línies.
 11
 ```
 
-### Test private 9.09
+### Test
 ```input
 1 4 5 8 10 11 13 14 17 18 20 23 25 27 28 29 31 34 36 38 40 42 44 45 48 49 50 53 54 55 57 60 62 63 65 67 69 70 73 74 75 78 79 81    -1
 ```
@@ -119,7 +119,7 @@ El nombre de cistelles d'1, 2 i 3 punts, en diferents línies.
 10
 ```
 
-### Test private 9.09
+### Test
 ```input
 1  -1
 ```
@@ -129,7 +129,7 @@ El nombre de cistelles d'1, 2 i 3 punts, en diferents línies.
 0
 ```
 
-### Test private 9.09
+### Test
 ```input
 1  -1
 ```
@@ -139,7 +139,7 @@ El nombre de cistelles d'1, 2 i 3 punts, en diferents línies.
 0
 ```
 
-### Test private 9.09
+### Test
 ```input
 -1
 ```
@@ -149,7 +149,7 @@ El nombre de cistelles d'1, 2 i 3 punts, en diferents línies.
 0
 ```
 
-### Test private 9.1
+### Test
 ```input
 2   -1
 ```

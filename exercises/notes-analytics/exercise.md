@@ -46,7 +46,7 @@ Aprova | Suspen
 
 ## Tests
 
-### Test 12.5
+### Test
 ```input
 10 5
 6 5 0
@@ -57,7 +57,7 @@ Aprova | Suspen
 Aprova
 ```
 
-### Test 12.5
+### Test
 ```input
 10 10
 10 10 10
@@ -68,7 +68,7 @@ Aprova
 Suspen
 ```
 
-### Test private 12.5
+### Test
 ```input
 5 4
 5 5 5
@@ -79,7 +79,7 @@ Suspen
 Aprova
 ```
 
-### Test private 12.5
+### Test
 ```input
 5 3
 5 5 5
@@ -90,7 +90,7 @@ Aprova
 Suspen
 ```
 
-### Test private 12.5
+### Test
 ```input
 5 3
 4 9 9
@@ -101,7 +101,7 @@ Suspen
 Suspen
 ```
 
-### Test private 12.5
+### Test
 ```input
 5 5
 5 5 4
@@ -112,7 +112,7 @@ Suspen
 Suspen
 ```
 
-### Test private 12.5
+### Test
 ```input
 5 5
 10 10 10
@@ -123,7 +123,7 @@ Suspen
 Suspen
 ```
 
-### Test private 12.5
+### Test
 ```input
 5 5
 10 10 10

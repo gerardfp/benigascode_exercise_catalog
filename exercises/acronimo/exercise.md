@@ -20,7 +20,7 @@ L'acrònim de la frase
 
 ## Tests
 
-### Test 11.11
+### Test
 ```input
 Hello world!
 ```
@@ -28,7 +28,7 @@ Hello world!
 HW
 ```
 
-### Test 11.11
+### Test
 ```input
 is this the real life
 ```
@@ -36,7 +36,7 @@ is this the real life
 ITTRL
 ```
 
-### Test private 11.11
+### Test
 ```input
 what the font
 ```
@@ -44,7 +44,7 @@ what the font
 WTF
 ```
 
-### Test private 11.11
+### Test
 ```input
 Read the fucking manual
 ```
@@ -52,7 +52,7 @@ Read the fucking manual
 RTFM
 ```
 
-### Test private 11.11
+### Test
 ```input
 a
 ```
@@ -60,7 +60,7 @@ a
 A
 ```
 
-### Test private 11.11
+### Test
 ```input
 GNU's not Unix
 ```
@@ -68,7 +68,7 @@ GNU's not Unix
 GNU
 ```
 
-### Test private 11.11
+### Test
 ```input
 PHP Hypertext Preprocessor
 ```
@@ -76,7 +76,7 @@ PHP Hypertext Preprocessor
 PHP
 ```
 
-### Test private 11.11
+### Test
 ```input
 What you see is what you get
 ```
@@ -84,7 +84,7 @@ What you see is what you get
 WYSIWYG
 ```
 
-### Test private 11.12
+### Test
 ```input
 hola Mon
 ```

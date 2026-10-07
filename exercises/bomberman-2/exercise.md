@@ -36,7 +36,7 @@ Seguint l'exemple proposat, el tauler resultant quedaria així:
 
 ## Tests
 
-### Test 8.33
+### Test
 ```input
 3  3
   6  7  4
@@ -50,7 +50,7 @@ Seguint l'exemple proposat, el tauler resultant quedaria així:
 ##@
 ```
 
-### Test 8.33
+### Test
 ```input
 3  3
   2  5  3
@@ -64,7 +64,7 @@ Seguint l'exemple proposat, el tauler resultant quedaria així:
 #@#
 ```
 
-### Test private 8.33
+### Test
 ```input
 4  4
  10 15 12  7
@@ -80,7 +80,7 @@ Seguint l'exemple proposat, el tauler resultant quedaria així:
 @@@@
 ```
 
-### Test private 8.33
+### Test
 ```input
 4  4
  10  1  2 15
@@ -96,7 +96,7 @@ Seguint l'exemple proposat, el tauler resultant quedaria així:
 ##@#
 ```
 
-### Test private 8.33
+### Test
 ```input
 5  5
   8  5 22 20 16
@@ -114,7 +114,7 @@ Seguint l'exemple proposat, el tauler resultant quedaria així:
 ##@##
 ```
 
-### Test private 8.33
+### Test
 ```input
 7  7
  39 40 37 29 20 18 26
@@ -136,7 +136,7 @@ Seguint l'exemple proposat, el tauler resultant quedaria així:
 #@#####
 ```
 
-### Test private 8.33
+### Test
 ```input
 12  12
   28   2  35 116 123 125 102  73 141  46 142  60
@@ -168,7 +168,7 @@ Seguint l'exemple proposat, el tauler resultant quedaria així:
 ######@#####
 ```
 
-### Test private 8.33
+### Test
 ```input
 15  15
   53  34 117 150  57  15 188 111  60 223 204 196 225   7  61
@@ -206,7 +206,7 @@ Seguint l'exemple proposat, el tauler resultant quedaria així:
 ##########@####
 ```
 
-### Test private 8.33
+### Test
 ```input
 20  20
   89 381 342 173  14 388 197 214  36 351 307 304 275  87 209 125 331 391  10  28
@@ -254,7 +254,7 @@ Seguint l'exemple proposat, el tauler resultant quedaria així:
 #######@############
 ```
 
-### Test private 8.33
+### Test
 ```input
 1  1
    1
@@ -264,7 +264,7 @@ Seguint l'exemple proposat, el tauler resultant quedaria així:
 @
 ```
 
-### Test private 8.33
+### Test
 ```input
 11  17
  182 116   5  64  32  42   9  60  94  57  21 173   2  46   3  44  59
@@ -294,7 +294,7 @@ Seguint l'exemple proposat, el tauler resultant quedaria així:
 ##########@######
 ```
 
-### Test private 8.37
+### Test
 ```input
 2  2
    4   1

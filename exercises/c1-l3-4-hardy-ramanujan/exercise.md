@@ -21,7 +21,7 @@ si el 1729 es un dels grups de 4 xifres
 
 ## Tests
 
-### Test 7.69
+### Test
 ```input
 1111222233334444
 ```
@@ -29,7 +29,7 @@ si el 1729 es un dels grups de 4 xifres
 false
 ```
 
-### Test 7.69
+### Test
 ```input
 1111222233334444
 ```
@@ -37,7 +37,7 @@ false
 false
 ```
 
-### Test private 7.69
+### Test
 ```input
 1111222233331729
 ```
@@ -45,7 +45,7 @@ false
 true
 ```
 
-### Test private 7.69
+### Test
 ```input
 1111222217294444
 ```
@@ -53,7 +53,7 @@ true
 true
 ```
 
-### Test private 7.69
+### Test
 ```input
 1111172933334444
 ```
@@ -61,7 +61,7 @@ true
 true
 ```
 
-### Test private 7.69
+### Test
 ```input
 1729222233334444
 ```
@@ -69,7 +69,7 @@ true
 true
 ```
 
-### Test private 7.69
+### Test
 ```input
 1117292233334444
 ```
@@ -77,7 +77,7 @@ true
 false
 ```
 
-### Test private 7.69
+### Test
 ```input
 1111221729334444
 ```
@@ -85,7 +85,7 @@ false
 false
 ```
 
-### Test private 7.69
+### Test
 ```input
 1111222233317294
 ```
@@ -93,7 +93,7 @@ false
 false
 ```
 
-### Test private 7.69
+### Test
 ```input
 0
 ```
@@ -101,7 +101,7 @@ false
 false
 ```
 
-### Test private 7.69
+### Test
 ```input
 0000000017290000
 ```
@@ -109,7 +109,7 @@ false
 true
 ```
 
-### Test private 7.69
+### Test
 ```input
 0000000000001729
 ```
@@ -117,7 +117,7 @@ true
 true
 ```
 
-### Test private 7.72
+### Test
 ```input
 1234567891234567
 ```

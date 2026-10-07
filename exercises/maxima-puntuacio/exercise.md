@@ -18,7 +18,7 @@ El nom i la puntuació del guanyador
 
 ## Tests
 
-### Test 25
+### Test
 ```input
 Larry 100
 Ken 101
@@ -31,7 +31,7 @@ Chris 70
 Niklaus 110
 ```
 
-### Test 25
+### Test
 ```input
 Bjarne 80
 Guido  77
@@ -44,7 +44,7 @@ James 100
 James 100
 ```
 
-### Test private 25
+### Test
 ```input
 Grace 105
 Kathleen 99
@@ -57,7 +57,7 @@ Xavier 70
 Grace 105
 ```
 
-### Test private 25
+### Test
 ```input
 Grace 105
 Kathleen 99

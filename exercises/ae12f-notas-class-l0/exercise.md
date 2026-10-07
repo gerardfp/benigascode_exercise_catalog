@@ -52,7 +52,7 @@ public class Main {
 
 ## Tests
 
-### Test 50
+### Test
 ```input
 5
 9 5.6 7 7.5 6.4
@@ -61,7 +61,7 @@ public class Main {
 Nota media: 7.1
 ```
 
-### Test private 50
+### Test
 ```input
 3
 10 5 0

@@ -52,7 +52,7 @@ public class Main {
 
 ## Tests
 
-### Test 16.67
+### Test
 ```input
 1 -5 6
 ```
@@ -61,7 +61,7 @@ public class Main {
 1.00 * 2.00 * 2.00  + -5.00 * 2.00 + 6.00 = 0
 ```
 
-### Test 16.67
+### Test
 ```input
 1 -5 6
 ```
@@ -70,7 +70,7 @@ public class Main {
 1.00 * 2.00 * 2.00  + -5.00 * 2.00 + 6.00 = 0
 ```
 
-### Test private 16.67
+### Test
 ```input
 2 -10 12
 ```
@@ -79,7 +79,7 @@ public class Main {
 2.00 * 2.00 * 2.00  + -10.00 * 2.00 + 12.00 = 0
 ```
 
-### Test private 16.67
+### Test
 ```input
 1 4 0
 ```
@@ -88,7 +88,7 @@ public class Main {
 1.00 * -4.00 * -4.00  + 4.00 * -4.00 + 0.00 = 0
 ```
 
-### Test private 16.67
+### Test
 ```input
 1 0 -1
 ```
@@ -97,7 +97,7 @@ public class Main {
 1.00 * -1.00 * -1.00  + 0.00 * -1.00 + -1.00 = 0
 ```
 
-### Test private 16.65
+### Test
 ```input
 15 -6.5 -2.7
 ```

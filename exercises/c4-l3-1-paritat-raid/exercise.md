@@ -87,7 +87,7 @@ Parity: 10110101
 
 ## Tests
 
-### Test 10
+### Test
 ```input
 3 4
 8
@@ -99,7 +99,7 @@ Disk 2: 1010
 Parity: 0101
 ```
 
-### Test 10
+### Test
 ```input
 3 4
 8
@@ -111,7 +111,7 @@ Disk 2: 1010
 Parity: 0101
 ```
 
-### Test private 10
+### Test
 ```input
 3 4
 16
@@ -123,7 +123,7 @@ Disk 2: 00001100
 Parity: 11110110
 ```
 
-### Test private 10
+### Test
 ```input
 3 2
 8
@@ -135,7 +135,7 @@ Disk 2: 0001
 Parity: 1111
 ```
 
-### Test private 10
+### Test
 ```input
 3 8
 16
@@ -147,7 +147,7 @@ Disk 2: 00000000
 Parity: 11111111
 ```
 
-### Test private 10
+### Test
 ```input
 4 4
 12
@@ -160,7 +160,7 @@ Disk 3: 1010
 Parity: 0101
 ```
 
-### Test private 10
+### Test
 ```input
 4 4 24
 1 0 1 0   1 1 1 1   0 0 0 0   1 1 0 0   0 0 1 1   1 0 0 1
@@ -172,7 +172,7 @@ Disk 3: 00001001
 Parity: 01010110
 ```
 
-### Test private 10
+### Test
 ```input
 4 4
 36
@@ -185,7 +185,7 @@ Disk 3: 001001011000
 Parity: 001100101001
 ```
 
-### Test private 10
+### Test
 ```input
 5 8
 64
@@ -200,7 +200,7 @@ Disk 4: 0110011111101111
 Parity: 0000000000000000
 ```
 
-### Test private 10
+### Test
 ```input
 5 8
 128

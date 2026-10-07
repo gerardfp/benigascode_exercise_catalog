@@ -22,7 +22,7 @@ Els segons que trigarà la descàrrega (sense decimals).
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 1 1
 ```
@@ -30,7 +30,7 @@ Els segons que trigarà la descàrrega (sense decimals).
 1024
 ```
 
-### Test 20
+### Test
 ```input
 1 2
 ```
@@ -38,7 +38,7 @@ Els segons que trigarà la descàrrega (sense decimals).
 2048
 ```
 
-### Test private 20
+### Test
 ```input
 1024 1
 ```
@@ -46,7 +46,7 @@ Els segons que trigarà la descàrrega (sense decimals).
 1
 ```
 
-### Test private 20
+### Test
 ```input
 512 10
 ```
@@ -54,7 +54,7 @@ Els segons que trigarà la descàrrega (sense decimals).
 20
 ```
 
-### Test private 20
+### Test
 ```input
 4096 1024
 ```

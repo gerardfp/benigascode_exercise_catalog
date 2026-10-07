@@ -47,7 +47,7 @@ public class Main {
 
 ## Tests
 
-### Test 7.69
+### Test
 ```input
 4
 1 1 0 1
@@ -56,7 +56,7 @@ public class Main {
 3
 ```
 
-### Test 7.69
+### Test
 ```input
 6
 3 1 2 1 0 1
@@ -65,7 +65,7 @@ public class Main {
 5
 ```
 
-### Test private 7.69
+### Test
 ```input
 4
 2 0 1 0
@@ -74,7 +74,7 @@ public class Main {
 4
 ```
 
-### Test private 7.69
+### Test
 ```input
 5
 4 0 0 0 0
@@ -83,7 +83,7 @@ public class Main {
 5
 ```
 
-### Test private 7.69
+### Test
 ```input
 6
 2 1 0 3 2 2
@@ -92,7 +92,7 @@ public class Main {
 3
 ```
 
-### Test private 7.69
+### Test
 ```input
 7
 0 1 1 0 1 0 1
@@ -101,7 +101,7 @@ public class Main {
 1
 ```
 
-### Test private 7.69
+### Test
 ```input
 5
 1 1 4 0 0
@@ -110,7 +110,7 @@ public class Main {
 5
 ```
 
-### Test private 7.69
+### Test
 ```input
 10
 3 0 0 2 0 1 8 0 0 0
@@ -119,7 +119,7 @@ public class Main {
 10
 ```
 
-### Test private 7.69
+### Test
 ```input
 1
 0
@@ -128,7 +128,7 @@ public class Main {
 1
 ```
 
-### Test private 7.69
+### Test
 ```input
 1
 5
@@ -137,7 +137,7 @@ public class Main {
 1
 ```
 
-### Test private 7.69
+### Test
 ```input
 10
 1 1 1 0 1 1 1 1 1 1
@@ -146,7 +146,7 @@ public class Main {
 4
 ```
 
-### Test private 7.69
+### Test
 ```input
 4
 2 2 0 1
@@ -155,7 +155,7 @@ public class Main {
 4
 ```
 
-### Test private 7.72
+### Test
 ```input
 10
 3 2 2 0 1 2 3 0 0 1 

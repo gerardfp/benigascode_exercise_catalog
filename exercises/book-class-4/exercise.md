@@ -38,7 +38,7 @@ public class Main {
 
 ## Tests
 
-### Test 50
+### Test
 ```input
 ```
 ```output
@@ -47,7 +47,7 @@ Through the looking glass
 true
 ```
 
-### Test private 50
+### Test
 ```input
 ```
 ```output

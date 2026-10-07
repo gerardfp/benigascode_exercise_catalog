@@ -19,7 +19,7 @@ Tres nombres corresponents a una data en format `dd/mm/yyyy`
 
 ## Tests
 
-### Test 6.25
+### Test
 ```input
 1 10 2000
 ```
@@ -27,7 +27,7 @@ Tres nombres corresponents a una data en format `dd/mm/yyyy`
 true
 ```
 
-### Test 6.25
+### Test
 ```input
 1 1 2000
 ```
@@ -35,7 +35,7 @@ true
 true
 ```
 
-### Test private 6.25
+### Test
 ```input
 32 10 2000
 ```
@@ -43,7 +43,7 @@ true
 false
 ```
 
-### Test private 6.25
+### Test
 ```input
 31 10 2000
 ```
@@ -51,7 +51,7 @@ false
 true
 ```
 
-### Test private 6.25
+### Test
 ```input
 31 11 2000
 ```
@@ -59,7 +59,7 @@ true
 false
 ```
 
-### Test private 6.25
+### Test
 ```input
 29 2 2000
 ```
@@ -67,7 +67,7 @@ false
 true
 ```
 
-### Test private 6.25
+### Test
 ```input
 29 2 1900
 ```
@@ -75,7 +75,7 @@ true
 false
 ```
 
-### Test private 6.25
+### Test
 ```input
 29 2 1904
 ```
@@ -83,7 +83,7 @@ false
 true
 ```
 
-### Test private 6.25
+### Test
 ```input
 28 2 1994
 ```
@@ -91,7 +91,7 @@ true
 true
 ```
 
-### Test private 6.25
+### Test
 ```input
 29 2 2020
 ```
@@ -99,7 +99,7 @@ true
 true
 ```
 
-### Test private 6.25
+### Test
 ```input
 29 2 2100
 ```
@@ -107,7 +107,7 @@ true
 false
 ```
 
-### Test private 6.25
+### Test
 ```input
 31 8 2024
 ```
@@ -115,7 +115,7 @@ false
 true
 ```
 
-### Test private 6.25
+### Test
 ```input
 31 9 2024
 ```
@@ -123,7 +123,7 @@ true
 false
 ```
 
-### Test private 6.25
+### Test
 ```input
 30 6 2024
 ```
@@ -131,7 +131,7 @@ false
 true
 ```
 
-### Test private 6.25
+### Test
 ```input
 31 4 2024
 ```
@@ -139,7 +139,7 @@ true
 false
 ```
 
-### Test private 6.25
+### Test
 ```input
 0 1 2020
 ```

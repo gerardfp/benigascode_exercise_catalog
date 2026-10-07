@@ -54,7 +54,7 @@ public class Main {
 
 ## Tests
 
-### Test 50
+### Test
 ```input
 ```
 ```output
@@ -63,7 +63,7 @@ public class Main {
   1003 | centes   | Cindy Entes      | centes@mail.com  
 ```
 
-### Test private 50
+### Test
 ```input
 ```
 ```output

@@ -43,7 +43,7 @@ S'imprimirà la figura de més valor.
 
 ## Tests
 
-### Test 1.54
+### Test
 ```input
 1 1 1
 ```
@@ -51,7 +51,7 @@ S'imprimirà la figura de més valor.
 THREE OF A KIND
 ```
 
-### Test 1.54
+### Test
 ```input
 1 1 1
 ```
@@ -59,7 +59,7 @@ THREE OF A KIND
 THREE OF A KIND
 ```
 
-### Test private 1.54
+### Test
 ```input
 1 1 2
 ```
@@ -67,7 +67,7 @@ THREE OF A KIND
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 1 1 3
 ```
@@ -75,7 +75,7 @@ PAIR
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 1 1 4
 ```
@@ -83,7 +83,7 @@ PAIR
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 1 2 1
 ```
@@ -91,7 +91,7 @@ PAIR
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 1 2 2
 ```
@@ -99,7 +99,7 @@ PAIR
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 1 2 3
 ```
@@ -107,7 +107,7 @@ PAIR
 STRAIGHT
 ```
 
-### Test private 1.54
+### Test
 ```input
 1 2 4
 ```
@@ -115,7 +115,7 @@ STRAIGHT
 HIGH CARD
 ```
 
-### Test private 1.54
+### Test
 ```input
 1 3 1
 ```
@@ -123,7 +123,7 @@ HIGH CARD
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 1 3 2
 ```
@@ -131,7 +131,7 @@ PAIR
 STRAIGHT
 ```
 
-### Test private 1.54
+### Test
 ```input
 1 3 3
 ```
@@ -139,7 +139,7 @@ STRAIGHT
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 1 3 4
 ```
@@ -147,7 +147,7 @@ PAIR
 HIGH CARD
 ```
 
-### Test private 1.54
+### Test
 ```input
 1 4 1
 ```
@@ -155,7 +155,7 @@ HIGH CARD
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 1 4 2
 ```
@@ -163,7 +163,7 @@ PAIR
 HIGH CARD
 ```
 
-### Test private 1.54
+### Test
 ```input
 1 4 3
 ```
@@ -171,7 +171,7 @@ HIGH CARD
 HIGH CARD
 ```
 
-### Test private 1.54
+### Test
 ```input
 1 4 4
 ```
@@ -179,7 +179,7 @@ HIGH CARD
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 2 1 1
 ```
@@ -187,7 +187,7 @@ PAIR
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 2 1 2
 ```
@@ -195,7 +195,7 @@ PAIR
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 2 1 3
 ```
@@ -203,7 +203,7 @@ PAIR
 STRAIGHT
 ```
 
-### Test private 1.54
+### Test
 ```input
 2 1 4
 ```
@@ -211,7 +211,7 @@ STRAIGHT
 HIGH CARD
 ```
 
-### Test private 1.54
+### Test
 ```input
 2 2 1
 ```
@@ -219,7 +219,7 @@ HIGH CARD
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 2 2 2
 ```
@@ -227,7 +227,7 @@ PAIR
 THREE OF A KIND
 ```
 
-### Test private 1.54
+### Test
 ```input
 2 2 3
 ```
@@ -235,7 +235,7 @@ THREE OF A KIND
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 2 2 4
 ```
@@ -243,7 +243,7 @@ PAIR
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 2 3 1
 ```
@@ -251,7 +251,7 @@ PAIR
 STRAIGHT
 ```
 
-### Test private 1.54
+### Test
 ```input
 2 3 2
 ```
@@ -259,7 +259,7 @@ STRAIGHT
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 2 3 3
 ```
@@ -267,7 +267,7 @@ PAIR
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 2 3 4
 ```
@@ -275,7 +275,7 @@ PAIR
 STRAIGHT
 ```
 
-### Test private 1.54
+### Test
 ```input
 2 4 1
 ```
@@ -283,7 +283,7 @@ STRAIGHT
 HIGH CARD
 ```
 
-### Test private 1.54
+### Test
 ```input
 2 4 2
 ```
@@ -291,7 +291,7 @@ HIGH CARD
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 2 4 3
 ```
@@ -299,7 +299,7 @@ PAIR
 STRAIGHT
 ```
 
-### Test private 1.54
+### Test
 ```input
 2 4 4
 ```
@@ -307,7 +307,7 @@ STRAIGHT
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 3 1 1
 ```
@@ -315,7 +315,7 @@ PAIR
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 3 1 2
 ```
@@ -323,7 +323,7 @@ PAIR
 STRAIGHT
 ```
 
-### Test private 1.54
+### Test
 ```input
 3 1 3
 ```
@@ -331,7 +331,7 @@ STRAIGHT
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 3 1 4
 ```
@@ -339,7 +339,7 @@ PAIR
 HIGH CARD
 ```
 
-### Test private 1.54
+### Test
 ```input
 3 2 1
 ```
@@ -347,7 +347,7 @@ HIGH CARD
 STRAIGHT
 ```
 
-### Test private 1.54
+### Test
 ```input
 3 2 2
 ```
@@ -355,7 +355,7 @@ STRAIGHT
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 3 2 3
 ```
@@ -363,7 +363,7 @@ PAIR
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 3 2 4
 ```
@@ -371,7 +371,7 @@ PAIR
 STRAIGHT
 ```
 
-### Test private 1.54
+### Test
 ```input
 3 3 1
 ```
@@ -379,7 +379,7 @@ STRAIGHT
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 3 3 2
 ```
@@ -387,7 +387,7 @@ PAIR
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 3 3 3
 ```
@@ -395,7 +395,7 @@ PAIR
 THREE OF A KIND
 ```
 
-### Test private 1.54
+### Test
 ```input
 3 3 4
 ```
@@ -403,7 +403,7 @@ THREE OF A KIND
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 3 4 1
 ```
@@ -411,7 +411,7 @@ PAIR
 HIGH CARD
 ```
 
-### Test private 1.54
+### Test
 ```input
 3 4 2
 ```
@@ -419,7 +419,7 @@ HIGH CARD
 STRAIGHT
 ```
 
-### Test private 1.54
+### Test
 ```input
 3 4 3
 ```
@@ -427,7 +427,7 @@ STRAIGHT
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 3 4 4
 ```
@@ -435,7 +435,7 @@ PAIR
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 4 1 1
 ```
@@ -443,7 +443,7 @@ PAIR
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 4 1 2
 ```
@@ -451,7 +451,7 @@ PAIR
 HIGH CARD
 ```
 
-### Test private 1.54
+### Test
 ```input
 4 1 3
 ```
@@ -459,7 +459,7 @@ HIGH CARD
 HIGH CARD
 ```
 
-### Test private 1.54
+### Test
 ```input
 4 1 4
 ```
@@ -467,7 +467,7 @@ HIGH CARD
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 4 2 1
 ```
@@ -475,7 +475,7 @@ PAIR
 HIGH CARD
 ```
 
-### Test private 1.54
+### Test
 ```input
 4 2 2
 ```
@@ -483,7 +483,7 @@ HIGH CARD
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 4 2 3
 ```
@@ -491,7 +491,7 @@ PAIR
 STRAIGHT
 ```
 
-### Test private 1.54
+### Test
 ```input
 4 2 4
 ```
@@ -499,7 +499,7 @@ STRAIGHT
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 4 3 1
 ```
@@ -507,7 +507,7 @@ PAIR
 HIGH CARD
 ```
 
-### Test private 1.54
+### Test
 ```input
 4 3 2
 ```
@@ -515,7 +515,7 @@ HIGH CARD
 STRAIGHT
 ```
 
-### Test private 1.54
+### Test
 ```input
 4 3 3
 ```
@@ -523,7 +523,7 @@ STRAIGHT
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 4 3 4
 ```
@@ -531,7 +531,7 @@ PAIR
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 4 4 1
 ```
@@ -539,7 +539,7 @@ PAIR
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 4 4 2
 ```
@@ -547,7 +547,7 @@ PAIR
 PAIR
 ```
 
-### Test private 1.54
+### Test
 ```input
 4 4 3
 ```
@@ -555,7 +555,7 @@ PAIR
 PAIR
 ```
 
-### Test private 1.44
+### Test
 ```input
 4 4 4
 ```

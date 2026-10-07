@@ -24,7 +24,7 @@ S'imprimirà la imatge escalada segons els factors horitzontal i vertical.
 
 ## Tests
 
-### Test 12.5
+### Test
 ```input
 3
 #..
@@ -47,7 +47,7 @@ S'imprimirà la imatge escalada segons els factors horitzontal i vertical.
 ........====
 ```
 
-### Test 12.5
+### Test
 ```input
 3
 #..
@@ -70,7 +70,7 @@ S'imprimirà la imatge escalada segons els factors horitzontal i vertical.
 ........====
 ```
 
-### Test private 12.5
+### Test
 ```input
 3
 #..
@@ -87,7 +87,7 @@ S'imprimirà la imatge escalada segons els factors horitzontal i vertical.
 ............======
 ```
 
-### Test private 12.5
+### Test
 ```input
 3
 #..
@@ -116,7 +116,7 @@ S'imprimirà la imatge escalada segons els factors horitzontal i vertical.
 ....==
 ```
 
-### Test private 12.5
+### Test
 ```input
 5
  ,od8888bn.      ,.od88bo,
@@ -144,7 +144,7 @@ Y8b        ,`*Y8bn.    ,d8P
 `*Y8bn,. ;     `*+88888P*'
 ```
 
-### Test private 12.5
+### Test
 ```input
 5
  ,od8888bn.      ,.od88bo,
@@ -167,7 +167,7 @@ YYY888bbb                        ,,,```***YYY888bbbnnn...            ,,,ddd888PP
 ```***YYY888bbbnnn,,,...   ;;;               ```***+++888888888888888PPP***'''
 ```
 
-### Test private 12.5
+### Test
 ```input
 9
 _________________
@@ -193,7 +193,7 @@ __________________________________
 jj$$$$[[                  ]]$$$$$$LL
 ```
 
-### Test private 12.5
+### Test
 ```input
 9
 _________________

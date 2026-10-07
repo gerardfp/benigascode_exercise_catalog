@@ -28,7 +28,7 @@ Por cada caso de prueba se escribirá en una sola linea la sucesión de números
 
 ## Tests
 
-### Test 33.33
+### Test
 ```input
 2
 5 100 104 102 105 101
@@ -39,7 +39,7 @@ Por cada caso de prueba se escribirá en una sola linea la sucesión de números
 50 51 52 53 54 55 54 53 52 51 50 51 52 53 54 55
 ```
 
-### Test private 33.33
+### Test
 ```input
 3
 4 10 13 10 14
@@ -52,7 +52,7 @@ Por cada caso de prueba se escribirá en una sola linea la sucesión de números
 20 21 22 23 24 25 26 27 28 29 30
 ```
 
-### Test private 33.34
+### Test
 ```input
 1
 2 1 3

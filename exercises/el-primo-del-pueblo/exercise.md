@@ -18,7 +18,7 @@ true | false
 
 ## Tests
 
-### Test 10
+### Test
 ```input
 4
 ```
@@ -26,7 +26,7 @@ true | false
 false
 ```
 
-### Test 10
+### Test
 ```input
 7
 ```
@@ -34,7 +34,7 @@ false
 true
 ```
 
-### Test private 10
+### Test
 ```input
 3
 ```
@@ -42,7 +42,7 @@ true
 true
 ```
 
-### Test private 10
+### Test
 ```input
 2
 ```
@@ -50,7 +50,7 @@ true
 true
 ```
 
-### Test private 10
+### Test
 ```input
 9
 ```
@@ -58,7 +58,7 @@ true
 false
 ```
 
-### Test private 10
+### Test
 ```input
 29
 ```
@@ -66,7 +66,7 @@ false
 true
 ```
 
-### Test private 10
+### Test
 ```input
 13
 ```
@@ -74,7 +74,7 @@ true
 true
 ```
 
-### Test private 10
+### Test
 ```input
 15
 ```
@@ -82,7 +82,7 @@ true
 false
 ```
 
-### Test private 10
+### Test
 ```input
 31
 ```
@@ -90,7 +90,7 @@ false
 true
 ```
 
-### Test private 10
+### Test
 ```input
 6
 ```

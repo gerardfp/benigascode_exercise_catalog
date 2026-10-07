@@ -19,7 +19,7 @@ Por cada caso de prueba, un entero indicando la cantidad de números leídos; y 
 
 ## Tests
 
-### Test 16.67
+### Test
 ```input
 0
 ```
@@ -27,7 +27,7 @@ Por cada caso de prueba, un entero indicando la cantidad de números leídos; y 
 0
 ```
 
-### Test 16.67
+### Test
 ```input
 1
 0
@@ -36,7 +36,7 @@ Por cada caso de prueba, un entero indicando la cantidad de números leídos; y 
 0
 ```
 
-### Test private 16.67
+### Test
 ```input
 1
 1 0
@@ -45,7 +45,7 @@ Por cada caso de prueba, un entero indicando la cantidad de números leídos; y 
 1
 ```
 
-### Test private 16.67
+### Test
 ```input
 3
 1 2 3 4 0
@@ -58,7 +58,7 @@ Por cada caso de prueba, un entero indicando la cantidad de números leídos; y 
 2
 ```
 
-### Test private 16.67
+### Test
 ```input
 3
 2 6 7 3 0
@@ -71,7 +71,7 @@ Por cada caso de prueba, un entero indicando la cantidad de números leídos; y 
 1
 ```
 
-### Test private 16.65
+### Test
 ```input
 2
 9 9 9 0

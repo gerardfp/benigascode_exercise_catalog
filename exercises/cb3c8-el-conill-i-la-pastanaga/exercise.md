@@ -23,7 +23,7 @@ S'escriurà el nombre de moviments que necessita el conill per a menjar-se totes
 
 ## Tests
 
-### Test 14.29
+### Test
 ```input
 3
 1 0 0
@@ -34,7 +34,7 @@ S'escriurà el nombre de moviments que necessita el conill per a menjar-se totes
 4
 ```
 
-### Test 14.29
+### Test
 ```input
 3
 1 0 0
@@ -45,7 +45,7 @@ S'escriurà el nombre de moviments que necessita el conill per a menjar-se totes
 8
 ```
 
-### Test private 14.29
+### Test
 ```input
 5
 0 0 3 0 0
@@ -58,7 +58,7 @@ S'escriurà el nombre de moviments que necessita el conill per a menjar-se totes
 10
 ```
 
-### Test private 14.29
+### Test
 ```input
 5
 0 0 0 0 0
@@ -71,7 +71,7 @@ S'escriurà el nombre de moviments que necessita el conill per a menjar-se totes
 8
 ```
 
-### Test private 14.29
+### Test
 ```input
 5
 0 0 0 0 0
@@ -84,7 +84,7 @@ S'escriurà el nombre de moviments que necessita el conill per a menjar-se totes
 12
 ```
 
-### Test private 14.29
+### Test
 ```input
 9
 10  0  5  0  0  0  0  0 12
@@ -101,7 +101,7 @@ S'escriurà el nombre de moviments que necessita el conill per a menjar-se totes
 104
 ```
 
-### Test private 14.26
+### Test
 ```input
 3
 4 0 3

@@ -732,7 +732,7 @@ La bandera corresponent, del tamany indicat.
 *~*~*~*~*~*~*~*~*~*~*~*~
 ```
 
-### Test private
+### Test
 ```input
 8 3
 ```

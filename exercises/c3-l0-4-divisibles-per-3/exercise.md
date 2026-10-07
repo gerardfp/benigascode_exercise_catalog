@@ -15,7 +15,7 @@ S'imprimirà cada número en una línia.
 
 ## Tests
 
-### Test 11.11
+### Test
 ```input
 1 7
 ```
@@ -24,7 +24,7 @@ S'imprimirà cada número en una línia.
 6
 ```
 
-### Test 11.11
+### Test
 ```input
 1 7
 ```
@@ -33,7 +33,7 @@ S'imprimirà cada número en una línia.
 6
 ```
 
-### Test private 11.11
+### Test
 ```input
 5 10
 ```
@@ -42,7 +42,7 @@ S'imprimirà cada número en una línia.
 9
 ```
 
-### Test private 11.11
+### Test
 ```input
 10 22
 ```
@@ -53,7 +53,7 @@ S'imprimirà cada número en una línia.
 21
 ```
 
-### Test private 11.11
+### Test
 ```input
 3 7
 ```
@@ -62,7 +62,7 @@ S'imprimirà cada número en una línia.
 6
 ```
 
-### Test private 11.11
+### Test
 ```input
 -1 3
 ```
@@ -71,7 +71,7 @@ S'imprimirà cada número en una línia.
 3
 ```
 
-### Test private 11.11
+### Test
 ```input
 12 45
 ```
@@ -90,7 +90,7 @@ S'imprimirà cada número en una línia.
 45
 ```
 
-### Test private 11.11
+### Test
 ```input
 99 102
 ```
@@ -99,7 +99,7 @@ S'imprimirà cada número en una línia.
 102
 ```
 
-### Test private 11.12
+### Test
 ```input
 3 7
 ```

@@ -112,7 +112,7 @@ public class Main {
 
 ## Tests
 
-### Test 12.5
+### Test
 ```input
 function1 1 2 3 5 10
 ```
@@ -124,7 +124,7 @@ function1 1 2 3 5 10
 10 -> true
 ```
 
-### Test 12.5
+### Test
 ```input
 function2 1.34 2.99 -3.2 0.00 10.1 -10.1
 ```
@@ -137,7 +137,7 @@ function2 1.34 2.99 -3.2 0.00 10.1 -10.1
 -10.1 -> false
 ```
 
-### Test private 12.5
+### Test
 ```input
 function3 2 hola 4 pa 5 ja 10 mi
 ```
@@ -148,7 +148,7 @@ function3 2 hola 4 pa 5 ja 10 mi
 10,mi -> mimimimimimimimimimi
 ```
 
-### Test private 12.5
+### Test
 ```input
 function4 3 1 2 3   4 3 4 5 6  2 9 10  5 10 10 10 10 10
 ```
@@ -159,7 +159,7 @@ function4 3 1 2 3   4 3 4 5 6  2 9 10  5 10 10 10 10 10
 [10, 10, 10, 10, 10] -> 50
 ```
 
-### Test private 12.5
+### Test
 ```input
 function5 3 1 2 3   4 4 5 6 7  3 10 20 30  5 -1 -2 4 9 7
 ```
@@ -170,7 +170,7 @@ function5 3 1 2 3   4 4 5 6 7  3 10 20 30  5 -1 -2 4 9 7
 [-1, -2, 4, 9, 7] -> [-2, -4, 8, 18, 14]
 ```
 
-### Test private 12.5
+### Test
 ```input
 function6  2 false   3 true   5 false   6 true
 ```
@@ -181,7 +181,7 @@ function6  2 false   3 true   5 false   6 true
 6,true -> [cierto, cierto, cierto, cierto, cierto, cierto]
 ```
 
-### Test private 12.5
+### Test
 ```input
 function7   2 java javascript   3 java javascript java   5 swift dart python c# TypeScript   6 java php java java java C    10 c++ java python java haskell go rust kotlin perl bash
 ```
@@ -193,7 +193,7 @@ function7   2 java javascript   3 java javascript java   5 swift dart python c# 
 [c++, java, python, java, haskell, go, rust, kotlin, perl, bash] -> 2
 ```
 
-### Test private 12.5
+### Test
 ```input
 function8  1 2 3  4 6 5  8 7 9  21 31 11  61 41 51  91 81 71  10 10 11  11 10 10  12 12 12
 ```

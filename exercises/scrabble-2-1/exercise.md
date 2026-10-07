@@ -26,7 +26,7 @@ La puntuació obtinguda
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 hola
 ```
@@ -34,7 +34,7 @@ hola
 7
 ```
 
-### Test 20
+### Test
 ```input
 mundo
 ```
@@ -42,7 +42,7 @@ mundo
 8
 ```
 
-### Test private 20
+### Test
 ```input
 java
 ```
@@ -50,7 +50,7 @@ java
 14
 ```
 
-### Test private 20
+### Test
 ```input
 a
 ```
@@ -58,7 +58,7 @@ a
 1
 ```
 
-### Test private 20
+### Test
 ```input
 HACKERRANK
 ```

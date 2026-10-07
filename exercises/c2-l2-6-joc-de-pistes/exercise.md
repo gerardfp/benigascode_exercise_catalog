@@ -35,7 +35,7 @@ Es mostraran les pistes en l'ordre que s'han anat seguint fins arribar al premi.
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 5 0 #
 Ves a #2
@@ -52,7 +52,7 @@ Ves a #3
 PREMI
 ```
 
-### Test 20
+### Test
 ```input
 5 0 #
 Ves a #2
@@ -69,7 +69,7 @@ Ves a #3
 PREMI
 ```
 
-### Test private 20
+### Test
 ```input
 5 0 {
 A {2} trobaras el cami
@@ -86,7 +86,7 @@ Prova al {3} a veure
 PREMI
 ```
 
-### Test private 20
+### Test
 ```input
 4 2 $
 Tebi $3
@@ -101,7 +101,7 @@ Calent $1
 PREMI
 ```
 
-### Test private 20
+### Test
 ```input
 5 0 @
 Aqui no @1

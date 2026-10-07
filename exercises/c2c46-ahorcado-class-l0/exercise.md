@@ -64,7 +64,7 @@ public class Main {
 
 ## Tests
 
-### Test 25
+### Test
 ```input
 hola
 h
@@ -112,7 +112,7 @@ a
 YOU WIN
 ```
 
-### Test 25
+### Test
 ```input
 java
 j
@@ -150,7 +150,7 @@ v
 YOU WIN
 ```
 
-### Test private 25
+### Test
 ```input
 constructor
 c o n s t r u
@@ -222,7 +222,7 @@ c o n s t r u
 YOU WIN
 ```
 
-### Test private 25
+### Test
 ```input
 classe
 c l a e z x v b n m

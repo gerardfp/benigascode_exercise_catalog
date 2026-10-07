@@ -41,7 +41,7 @@ S'imprimirà "CONTINUAR" o "NO CONTINUAR"
 
 ## Tests
 
-### Test 5.26
+### Test
 ```input
 r false 0
 ```
@@ -49,7 +49,7 @@ r false 0
 NO CONTINUAR
 ```
 
-### Test 5.26
+### Test
 ```input
 r false 0
 ```
@@ -57,7 +57,7 @@ r false 0
 NO CONTINUAR
 ```
 
-### Test private 5.26
+### Test
 ```input
 r false 1
 ```
@@ -65,7 +65,7 @@ r false 1
 CONTINUAR
 ```
 
-### Test private 5.26
+### Test
 ```input
 r false 2
 ```
@@ -73,7 +73,7 @@ r false 2
 NO CONTINUAR
 ```
 
-### Test private 5.26
+### Test
 ```input
 r true 0
 ```
@@ -81,7 +81,7 @@ r true 0
 NO CONTINUAR
 ```
 
-### Test private 5.26
+### Test
 ```input
 r true 1
 ```
@@ -89,7 +89,7 @@ r true 1
 NO CONTINUAR
 ```
 
-### Test private 5.26
+### Test
 ```input
 r true 2
 ```
@@ -97,7 +97,7 @@ r true 2
 NO CONTINUAR
 ```
 
-### Test private 5.26
+### Test
 ```input
 g false 0
 ```
@@ -105,7 +105,7 @@ g false 0
 CONTINUAR
 ```
 
-### Test private 5.26
+### Test
 ```input
 g false 1
 ```
@@ -113,7 +113,7 @@ g false 1
 CONTINUAR
 ```
 
-### Test private 5.26
+### Test
 ```input
 g false 2
 ```
@@ -121,7 +121,7 @@ g false 2
 NO CONTINUAR
 ```
 
-### Test private 5.26
+### Test
 ```input
 g true 0
 ```
@@ -129,7 +129,7 @@ g true 0
 NO CONTINUAR
 ```
 
-### Test private 5.26
+### Test
 ```input
 g true 1
 ```
@@ -137,7 +137,7 @@ g true 1
 NO CONTINUAR
 ```
 
-### Test private 5.26
+### Test
 ```input
 g true 2
 ```
@@ -145,7 +145,7 @@ g true 2
 NO CONTINUAR
 ```
 
-### Test private 5.26
+### Test
 ```input
 o false 0
 ```
@@ -153,7 +153,7 @@ o false 0
 CONTINUAR
 ```
 
-### Test private 5.26
+### Test
 ```input
 o false 1
 ```
@@ -161,7 +161,7 @@ o false 1
 CONTINUAR
 ```
 
-### Test private 5.26
+### Test
 ```input
 o false 2
 ```
@@ -169,7 +169,7 @@ o false 2
 NO CONTINUAR
 ```
 
-### Test private 5.26
+### Test
 ```input
 o true 0
 ```
@@ -177,7 +177,7 @@ o true 0
 NO CONTINUAR
 ```
 
-### Test private 5.26
+### Test
 ```input
 o true 1
 ```
@@ -185,7 +185,7 @@ o true 1
 NO CONTINUAR
 ```
 
-### Test private 5.32
+### Test
 ```input
 o true 2
 ```

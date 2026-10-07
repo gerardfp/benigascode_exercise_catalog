@@ -56,7 +56,7 @@ ERROR
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 6
 ```
@@ -64,7 +64,7 @@ ERROR
 8
 ```
 
-### Test 20
+### Test
 ```input
 0
 ```
@@ -72,7 +72,7 @@ ERROR
 0
 ```
 
-### Test private 30
+### Test
 ```input
 -3
 ```
@@ -80,7 +80,7 @@ ERROR
 ERROR
 ```
 
-### Test private 30
+### Test
 ```input
 15
 ```

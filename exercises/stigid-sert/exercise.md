@@ -29,7 +29,7 @@ public class Main {
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 976
 ```
@@ -37,7 +37,7 @@ public class Main {
 679
 ```
 
-### Test 20
+### Test
 ```input
 123
 ```
@@ -45,7 +45,7 @@ public class Main {
 321
 ```
 
-### Test private 20
+### Test
 ```input
 320
 ```
@@ -53,7 +53,7 @@ public class Main {
 23
 ```
 
-### Test private 20
+### Test
 ```input
 100
 ```
@@ -61,7 +61,7 @@ public class Main {
 1
 ```
 
-### Test private 20
+### Test
 ```input
 812
 ```

@@ -56,7 +56,7 @@ public class Main {
 
 ## Tests
 
-### Test 33.33
+### Test
 ```input
 4 ## @# %# %@
 ```
@@ -64,7 +64,7 @@ public class Main {
 PLAYER 2 WINS
 ```
 
-### Test private 33.33
+### Test
 ```input
 6 #@ %@ %# #% %@ @%
 ```
@@ -72,7 +72,7 @@ PLAYER 2 WINS
 TIE
 ```
 
-### Test private 33.34
+### Test
 ```input
 6 @% @% %# %# #% #@
 ```

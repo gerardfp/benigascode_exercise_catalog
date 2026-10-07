@@ -23,7 +23,7 @@ El factorial
 
 ## Tests
 
-### Test 14.29
+### Test
 ```input
 1
 ```
@@ -31,7 +31,7 @@ El factorial
 1
 ```
 
-### Test 14.29
+### Test
 ```input
 1
 ```
@@ -39,7 +39,7 @@ El factorial
 1
 ```
 
-### Test private 14.29
+### Test
 ```input
 2
 ```
@@ -47,7 +47,7 @@ El factorial
 2
 ```
 
-### Test private 14.29
+### Test
 ```input
 3
 ```
@@ -55,7 +55,7 @@ El factorial
 6
 ```
 
-### Test private 14.29
+### Test
 ```input
 5
 ```
@@ -63,7 +63,7 @@ El factorial
 120
 ```
 
-### Test private 14.29
+### Test
 ```input
 10
 ```
@@ -71,7 +71,7 @@ El factorial
 3628800
 ```
 
-### Test private 14.26
+### Test
 ```input
 15
 ```

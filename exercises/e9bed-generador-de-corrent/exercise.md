@@ -22,7 +22,7 @@ S'imprimirà "CORRECTE" si la seqüència de números ha anat alternant pujades 
 
 ## Tests
 
-### Test 25
+### Test
 ```input
 1 5 2 7 3   0
 ```
@@ -30,7 +30,7 @@ S'imprimirà "CORRECTE" si la seqüència de números ha anat alternant pujades 
 CORRECTE
 ```
 
-### Test 25
+### Test
 ```input
 2 5 3 6 7   0
 ```
@@ -38,7 +38,7 @@ CORRECTE
 INCORRECTE
 ```
 
-### Test private 25
+### Test
 ```input
 3 1 3 1 3    0
 ```
@@ -46,7 +46,7 @@ INCORRECTE
 INCORRECTE
 ```
 
-### Test private 25
+### Test
 ```input
 4 4 3 6 3   0
 ```

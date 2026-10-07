@@ -59,7 +59,7 @@ S'imprimiran les coordenades finals {, } i la orientació en que queda el robot
 
 ## Tests
 
-### Test 11.11
+### Test
 ```input
 0 0
 N
@@ -70,7 +70,7 @@ ARALLLA
 S
 ```
 
-### Test 11.11
+### Test
 ```input
 0 0
 N
@@ -81,7 +81,7 @@ AARARAL
 E
 ```
 
-### Test private 11.11
+### Test
 ```input
 0 0
 N
@@ -92,7 +92,7 @@ RALAARA
 E
 ```
 
-### Test private 11.11
+### Test
 ```input
 2 2
 E
@@ -103,7 +103,7 @@ ARALALA
 N
 ```
 
-### Test private 11.11
+### Test
 ```input
 3 1
 E
@@ -114,7 +114,7 @@ LARLAAR
 E
 ```
 
-### Test private 11.11
+### Test
 ```input
 -1 -2
 S
@@ -125,7 +125,7 @@ AAA
 S
 ```
 
-### Test private 11.11
+### Test
 ```input
 17 -3
 E
@@ -136,7 +136,7 @@ AAALAAA
 N
 ```
 
-### Test private 11.11
+### Test
 ```input
 20 10
 W
@@ -147,7 +147,7 @@ ALARLARLARRARRR
 W
 ```
 
-### Test private 11.12
+### Test
 ```input
 134 -33
 S

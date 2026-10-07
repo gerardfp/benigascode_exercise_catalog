@@ -28,7 +28,7 @@ S'imprimirà la declaració de l'array en el format indicat i en una sola línia
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 5
 11 13 17 19 23
@@ -37,7 +37,7 @@ S'imprimirà la declaració de l'array en el format indicat i en una sola línia
 int[] myArray = { 11, 13, 17, 19, 23 };
 ```
 
-### Test 20
+### Test
 ```input
 3
 100 200 300
@@ -46,7 +46,7 @@ int[] myArray = { 11, 13, 17, 19, 23 };
 int[] myArray = { 100, 200, 300 };
 ```
 
-### Test private 20
+### Test
 ```input
 10
 23 76 12 54 98 65 67 39 91 83
@@ -55,7 +55,7 @@ int[] myArray = { 100, 200, 300 };
 int[] myArray = { 23, 76, 12, 54, 98, 65, 67, 39, 91, 83 };
 ```
 
-### Test private 20
+### Test
 ```input
 1
 67
@@ -64,7 +64,7 @@ int[] myArray = { 23, 76, 12, 54, 98, 65, 67, 39, 91, 83 };
 int[] myArray = { 67 };
 ```
 
-### Test private 20
+### Test
 ```input
 9
 11 22 33 44 55 66 77 88 99

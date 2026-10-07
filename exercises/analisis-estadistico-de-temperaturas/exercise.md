@@ -113,7 +113,7 @@ Porcentaje por encima de la media: 25.0%
 Existe una temperatura igual a la media: false
 ```
 
-### Test private
+### Test
 ```input
 5
 0 0 0 0 10000

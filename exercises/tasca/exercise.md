@@ -43,7 +43,7 @@ public class Main {
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 3
 12 45 0
@@ -58,7 +58,7 @@ S'ha excedit 0h 34m 7s
 ok
 ```
 
-### Test 20
+### Test
 ```input
 6
 11 0 0
@@ -79,7 +79,7 @@ ok
 ok
 ```
 
-### Test private 20
+### Test
 ```input
 5
 14 55 23
@@ -98,7 +98,7 @@ ok
 S'ha excedit 6h 0m 1s
 ```
 
-### Test private 20
+### Test
 ```input
 2
 23 59 59
@@ -111,7 +111,7 @@ ok
 ok
 ```
 
-### Test private 20
+### Test
 ```input
 4
 10 16 5

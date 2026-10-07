@@ -15,7 +15,7 @@ La seqüència resultant
 
 ## Tests
 
-### Test 16.67
+### Test
 ```input
 3    1 2 3
 ```
@@ -23,7 +23,7 @@ La seqüència resultant
 4 5 6
 ```
 
-### Test 16.67
+### Test
 ```input
 5    
 100 200 300 400 500
@@ -32,7 +32,7 @@ La seqüència resultant
 600 700 800 900 1000
 ```
 
-### Test private 16.67
+### Test
 ```input
 10    
 3 5 2 4 3 6 5 4 8 1
@@ -41,7 +41,7 @@ La seqüència resultant
 4 6 3 5 4 7 6 5 9 2
 ```
 
-### Test private 16.67
+### Test
 ```input
 4    
 23 34 45 10
@@ -50,7 +50,7 @@ La seqüència resultant
 33 44 55 20
 ```
 
-### Test private 16.67
+### Test
 ```input
 1    
 10
@@ -59,7 +59,7 @@ La seqüència resultant
 20
 ```
 
-### Test private 16.65
+### Test
 ```input
 8
 4 6 3 4 5 6 4 0

@@ -26,7 +26,7 @@ S'imprimirà l'*spritesheet* amb l'spirte ORIGINAL, junt amb les inversions HORI
 
 ## Tests
 
-### Test 25
+### Test
 ```input
 3
 #..
@@ -51,7 +51,7 @@ S'imprimirà l'*spritesheet* amb l'spirte ORIGINAL, junt amb les inversions HORI
 ..#
 ```
 
-### Test 25
+### Test
 ```input
 8
 ...###..
@@ -101,7 +101,7 @@ S'imprimirà l'*spritesheet* amb l'spirte ORIGINAL, junt amb les inversions HORI
 ..###...
 ```
 
-### Test private 25
+### Test
 ```input
 5
 ####
@@ -136,7 +136,7 @@ S'imprimirà l'*spritesheet* amb l'spirte ORIGINAL, junt amb les inversions HORI
 ####
 ```
 
-### Test private 25
+### Test
 ```input
 48
 i`it)v|[[[[(//s+)`(-\\/JJgbdd@@@@@@@dmKK(c!(/-[2=/cct/!-v\!_L\)|

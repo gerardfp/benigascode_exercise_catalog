@@ -17,7 +17,7 @@ Un "SI" o un "NO" por cada número leído.
 
 ## Tests
 
-### Test 33.33
+### Test
 ```input
 7 4 14 3 21 49 0
 ```
@@ -30,7 +30,7 @@ SI
 SI
 ```
 
-### Test private 33.33
+### Test
 ```input
  7 0
 ```
@@ -38,7 +38,7 @@ SI
 SI
 ```
 
-### Test private 33.34
+### Test
 ```input
 4 4 0
 ```

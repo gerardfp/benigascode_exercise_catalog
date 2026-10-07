@@ -53,7 +53,7 @@ public class Main {
 
 ## Tests
 
-### Test 25
+### Test
 ```input
 no
 ```
@@ -63,7 +63,7 @@ Coneixes algun framework?
 Gracies per contestar
 ```
 
-### Test 25
+### Test
 ```input
 si
 vue.js
@@ -76,7 +76,7 @@ S'ha registrat la resposta: vue.js
 Gracies per contestar
 ```
 
-### Test private 25
+### Test
 ```input
 si
 svelte
@@ -89,7 +89,7 @@ S'ha registrat la resposta: svelte
 Gracies per contestar
 ```
 
-### Test private 25
+### Test
 ```input
 si
 Spring

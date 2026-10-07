@@ -19,7 +19,7 @@ S'imprimirà la matriu, separant els números amb espais en blanc.
 
 ## Tests
 
-### Test 33.33
+### Test
 ```input
 4 5
 1 0 1 0 0
@@ -34,7 +34,7 @@ S'imprimirà la matriu, separant els números amb espais en blanc.
 0 1 0 0 1
 ```
 
-### Test private 33.33
+### Test
 ```input
 3 3
 1 1 1
@@ -47,7 +47,7 @@ S'imprimirà la matriu, separant els números amb espais en blanc.
 0 0 0
 ```
 
-### Test private 33.34
+### Test
 ```input
 1 5
 1 1 0 1 1

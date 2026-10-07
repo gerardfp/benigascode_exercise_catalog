@@ -43,7 +43,7 @@ public class Main {
 
 ## Tests
 
-### Test 16.67
+### Test
 ```input
 5 5
 . . . . . 
@@ -60,7 +60,7 @@ public class Main {
 . . . . .
 ```
 
-### Test 16.67
+### Test
 ```input
 8 7
 . . . . . . . .
@@ -81,7 +81,7 @@ public class Main {
 . . . . . . . . 
 ```
 
-### Test private 16.67
+### Test
 ```input
 6 7
 . . . . . .
@@ -102,7 +102,7 @@ public class Main {
 . . . . . .
 ```
 
-### Test private 16.67
+### Test
 ```input
 7 5
 # # # # # . .
@@ -119,7 +119,7 @@ public class Main {
 . . + - - - +
 ```
 
-### Test private 16.67
+### Test
 ```input
 13 15
 . . . . . . . . . . . . .
@@ -156,7 +156,7 @@ public class Main {
 . . . . . . . . . . . . .
 ```
 
-### Test private 16.65
+### Test
 ```input
 11 13
 . . # # # . # # # . .

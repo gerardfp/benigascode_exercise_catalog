@@ -56,7 +56,7 @@ public class Main {
 
 ## Tests
 
-### Test 25
+### Test
 ```input
 100
 3
@@ -73,7 +73,7 @@ XYZ -10
 40 10 5
 ```
 
-### Test 25
+### Test
 ```input
 50
 5
@@ -89,7 +89,7 @@ ABC 10
 20 10 0 10 10
 ```
 
-### Test private 25
+### Test
 ```input
 20
 2
@@ -103,7 +103,7 @@ ABC 30
 15 5
 ```
 
-### Test private 25
+### Test
 ```input
 20
 2

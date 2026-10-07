@@ -15,7 +15,7 @@ El número de vegades apareixen 4 números iguals seguits.
 
 ## Tests
 
-### Test 12.5
+### Test
 ```input
 1 1 1 1 2   -1
 ```
@@ -23,7 +23,7 @@ El número de vegades apareixen 4 números iguals seguits.
 1
 ```
 
-### Test 12.5
+### Test
 ```input
 1 1 1 1 1 2     -1
 ```
@@ -31,7 +31,7 @@ El número de vegades apareixen 4 números iguals seguits.
 2
 ```
 
-### Test private 12.5
+### Test
 ```input
 1 1 1 2 2 2 2 1    -1
 ```
@@ -39,7 +39,7 @@ El número de vegades apareixen 4 números iguals seguits.
 1
 ```
 
-### Test private 12.5
+### Test
 ```input
 1 1 1 1 1 1 1 2     -1
 ```
@@ -47,7 +47,7 @@ El número de vegades apareixen 4 números iguals seguits.
 4
 ```
 
-### Test private 12.5
+### Test
 ```input
 1 2 2 2 2 1 1 1 1 2 2 2 2 1    -1
 ```
@@ -55,7 +55,7 @@ El número de vegades apareixen 4 números iguals seguits.
 3
 ```
 
-### Test private 12.5
+### Test
 ```input
 1 2 1 2 1 2 1 1 1   -1
 ```
@@ -63,7 +63,7 @@ El número de vegades apareixen 4 números iguals seguits.
 0
 ```
 
-### Test private 12.5
+### Test
 ```input
 1 2 2 3 3 3 4 4 4 4   -1
 ```
@@ -71,7 +71,7 @@ El número de vegades apareixen 4 números iguals seguits.
 1
 ```
 
-### Test private 12.5
+### Test
 ```input
 1 1 1 1 2 2 2 2 3 3 3 3   -1
 ```

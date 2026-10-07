@@ -44,7 +44,7 @@ public class Main {
 
 ## Tests
 
-### Test 16.67
+### Test
 ```input
 true 1
 false 0
@@ -53,7 +53,7 @@ false 0
 true
 ```
 
-### Test 16.67
+### Test
 ```input
 false 0
 true 3
@@ -62,7 +62,7 @@ true 3
 true
 ```
 
-### Test private 16.67
+### Test
 ```input
 true 0
 true 2
@@ -71,7 +71,7 @@ true 2
 false
 ```
 
-### Test private 16.67
+### Test
 ```input
 true 3
 true 2
@@ -80,7 +80,7 @@ true 2
 true
 ```
 
-### Test private 16.67
+### Test
 ```input
 false 1
 false 1
@@ -89,7 +89,7 @@ false 1
 false
 ```
 
-### Test private 16.65
+### Test
 ```input
 false 0
 true 2

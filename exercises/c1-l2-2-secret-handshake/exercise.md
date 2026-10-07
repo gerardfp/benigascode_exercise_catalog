@@ -26,7 +26,7 @@ S'escriurà la seqüència d'events de la "salutació" secreta
 
 ## Tests
 
-### Test 11.11
+### Test
 ```input
 1 0 0 0
 ```
@@ -34,7 +34,7 @@ S'escriurà la seqüència d'events de la "salutació" secreta
 saltar
 ```
 
-### Test 11.11
+### Test
 ```input
 1 0 0 0
 ```
@@ -42,7 +42,7 @@ saltar
 saltar
 ```
 
-### Test private 11.11
+### Test
 ```input
 1 0 0 1
 ```
@@ -51,7 +51,7 @@ tancar els ulls
 fer l'ullet
 ```
 
-### Test private 11.11
+### Test
 ```input
 1 0 1 0
 ```
@@ -60,7 +60,7 @@ doble parpalleig
 doble parpalleig
 ```
 
-### Test private 11.11
+### Test
 ```input
 1 0 1 1
 ```
@@ -70,7 +70,7 @@ fer l'ullet
 fer l'ullet
 ```
 
-### Test private 11.11
+### Test
 ```input
 1 1 0 0
 ```
@@ -79,7 +79,7 @@ fer l'ullet
 tancar els ulls
 ```
 
-### Test private 11.11
+### Test
 ```input
 1 1 0 1
 ```
@@ -89,7 +89,7 @@ doble parpalleig
 fer l'ullet
 ```
 
-### Test private 11.11
+### Test
 ```input
 1 1 1 0
 ```
@@ -99,7 +99,7 @@ fer l'ullet
 doble parpalleig
 ```
 
-### Test private 11.12
+### Test
 ```input
 1 1 1 1
 ```

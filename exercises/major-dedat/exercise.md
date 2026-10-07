@@ -29,7 +29,7 @@ public class Main {
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 17
 ```
@@ -37,7 +37,7 @@ public class Main {
 false
 ```
 
-### Test 20
+### Test
 ```input
 18
 ```
@@ -45,7 +45,7 @@ false
 true
 ```
 
-### Test private 20
+### Test
 ```input
 19
 ```
@@ -53,7 +53,7 @@ true
 true
 ```
 
-### Test private 20
+### Test
 ```input
 1
 ```
@@ -61,7 +61,7 @@ true
 false
 ```
 
-### Test private 20
+### Test
 ```input
 20
 ```

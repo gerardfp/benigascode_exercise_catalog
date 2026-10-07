@@ -41,7 +41,7 @@ IMPOSSIBLE
 
 ## Tests
 
-### Test 7.14
+### Test
 ```input
 1 1 1
 ```
@@ -49,7 +49,7 @@ IMPOSSIBLE
 *
 ```
 
-### Test 7.14
+### Test
 ```input
 1 2 3
 ```
@@ -57,7 +57,7 @@ IMPOSSIBLE
 +
 ```
 
-### Test private 7.14
+### Test
 ```input
 0 0 0
 ```
@@ -65,7 +65,7 @@ IMPOSSIBLE
 +
 ```
 
-### Test private 7.14
+### Test
 ```input
 10 0 7
 ```
@@ -73,7 +73,7 @@ IMPOSSIBLE
 IMPOSSIBLE
 ```
 
-### Test private 7.14
+### Test
 ```input
 1 3 1
 ```
@@ -81,7 +81,7 @@ IMPOSSIBLE
 %
 ```
 
-### Test private 7.14
+### Test
 ```input
 30 12 6
 ```
@@ -89,7 +89,7 @@ IMPOSSIBLE
 %
 ```
 
-### Test private 7.14
+### Test
 ```input
 13 7 91
 ```
@@ -97,7 +97,7 @@ IMPOSSIBLE
 *
 ```
 
-### Test private 7.14
+### Test
 ```input
 14 7 2
 ```
@@ -105,7 +105,7 @@ IMPOSSIBLE
 /
 ```
 
-### Test private 7.14
+### Test
 ```input
 10 3 1
 ```
@@ -113,7 +113,7 @@ IMPOSSIBLE
 %
 ```
 
-### Test private 7.14
+### Test
 ```input
 55 15 10
 ```
@@ -121,7 +121,7 @@ IMPOSSIBLE
 %
 ```
 
-### Test private 7.14
+### Test
 ```input
 84 0 0
 ```
@@ -129,7 +129,7 @@ IMPOSSIBLE
 *
 ```
 
-### Test private 7.14
+### Test
 ```input
 62 0 21
 ```
@@ -137,7 +137,7 @@ IMPOSSIBLE
 IMPOSSIBLE
 ```
 
-### Test private 7.14
+### Test
 ```input
 99 15 29
 ```
@@ -145,7 +145,7 @@ IMPOSSIBLE
 IMPOSSIBLE
 ```
 
-### Test private 7.18
+### Test
 ```input
 93 49 20
 ```

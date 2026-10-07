@@ -48,7 +48,7 @@ public class Main {
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 4
 16 -6 12 -12
@@ -57,7 +57,7 @@ public class Main {
 JAVA
 ```
 
-### Test 20
+### Test
 ```input
 5
 10 -7 0 7 -5 
@@ -66,7 +66,7 @@ JAVA
 ARRAY
 ```
 
-### Test private 20
+### Test
 ```input
 8
 11 -7 -50 3 4 50 -1 -10
@@ -75,7 +75,7 @@ ARRAY
 STRING
 ```
 
-### Test private 20
+### Test
 ```input
 7
 -50 0 6 -50 2 1 2
@@ -84,7 +84,7 @@ STRING
 QUERY
 ```
 
-### Test private 20
+### Test
 ```input
 10
 50 50 0 -50 -50 10 -3 50 50 -1

@@ -26,7 +26,7 @@ La mida del cargol en centímetres (int).
 
 ## Tests
 
-### Test 7.14
+### Test
 ```input
 1
 ```
@@ -34,7 +34,7 @@ La mida del cargol en centímetres (int).
 petit
 ```
 
-### Test 7.14
+### Test
 ```input
 2
 ```
@@ -42,7 +42,7 @@ petit
 petit
 ```
 
-### Test private 7.14
+### Test
 ```input
 3
 ```
@@ -50,7 +50,7 @@ petit
 mitja
 ```
 
-### Test private 7.14
+### Test
 ```input
 4
 ```
@@ -58,7 +58,7 @@ mitja
 mitja
 ```
 
-### Test private 7.14
+### Test
 ```input
 5
 ```
@@ -66,7 +66,7 @@ mitja
 gran
 ```
 
-### Test private 7.14
+### Test
 ```input
 6
 ```
@@ -74,7 +74,7 @@ gran
 gran
 ```
 
-### Test private 7.14
+### Test
 ```input
 7
 ```
@@ -82,7 +82,7 @@ gran
 gran
 ```
 
-### Test private 7.14
+### Test
 ```input
 8
 ```
@@ -90,7 +90,7 @@ gran
 molt gran
 ```
 
-### Test private 7.14
+### Test
 ```input
 9
 ```
@@ -98,7 +98,7 @@ molt gran
 molt gran
 ```
 
-### Test private 7.14
+### Test
 ```input
 10
 ```
@@ -106,7 +106,7 @@ molt gran
 molt gran
 ```
 
-### Test private 7.14
+### Test
 ```input
 11
 ```
@@ -114,7 +114,7 @@ molt gran
 mida incorrecta
 ```
 
-### Test private 7.14
+### Test
 ```input
 12
 ```
@@ -122,7 +122,7 @@ mida incorrecta
 mida incorrecta
 ```
 
-### Test private 7.14
+### Test
 ```input
 13
 ```
@@ -130,7 +130,7 @@ mida incorrecta
 mida incorrecta
 ```
 
-### Test private 7.18
+### Test
 ```input
 14
 ```

@@ -24,7 +24,7 @@ Un "SI" o un "NO" per cada seqüència; separats per un salt de línia.
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 2
 1 1 2 3    -1
@@ -35,7 +35,7 @@ NO
 SI
 ```
 
-### Test 20
+### Test
 ```input
 2
 0 1 1 2 3 5    -1
@@ -46,7 +46,7 @@ SI
 NO
 ```
 
-### Test private 20
+### Test
 ```input
 2
 1 1 2 3 5    -1
@@ -57,7 +57,7 @@ NO
 SI
 ```
 
-### Test private 20
+### Test
 ```input
 1
 0 1 1 2 3    -1
@@ -66,7 +66,7 @@ SI
 SI
 ```
 
-### Test private 20
+### Test
 ```input
 4
 0 0 1 1 2 3 5    -1

@@ -107,7 +107,7 @@ public class Main {
 
 ## Tests
 
-### Test 50
+### Test
 ```input
 10
 1 of Samos,   Pyhtagoras, -0570-01-01, 1.75, 63.2, 0, 0
@@ -165,7 +165,7 @@ Carl            |Gauss           |   31.90
 John            |Conway          |   29.81
 ```
 
-### Test private 50
+### Test
 ```input
 10
 1 of Samos,   Pyhtagoras, -0570-01-01, 1.75, 63.2, 0, 0

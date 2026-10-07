@@ -21,7 +21,7 @@ El número de línia ocuparà dos caràcters, després hi haurà un espai en bla
 
 ## Tests
 
-### Test 16.67
+### Test
 ```input
 hola
 END
@@ -30,7 +30,7 @@ END
  1 | hola
 ```
 
-### Test 16.67
+### Test
 ```input
 if(b[0] >= a[1] || b[1] <= a[0]) return false;
 return true;
@@ -41,7 +41,7 @@ END
  2 | return true;
 ```
 
-### Test private 16.67
+### Test
 ```input
 private static int recursiu(int fi, int[][] jobs) {
     int max = 0;
@@ -62,7 +62,7 @@ END
  7 | }
 ```
 
-### Test private 16.67
+### Test
 ```input
 static double floydWarshall(double graph[][]) {
     double dist[][] = new double[graph.length][graph.length];
@@ -103,7 +103,7 @@ END
 17 | }
 ```
 
-### Test private 16.67
+### Test
 ```input
 static int min(String a, String b){
     int[][] DP = new int[a.length()+1][b.length()+1];
@@ -156,7 +156,7 @@ END
 23 | }
 ```
 
-### Test private 16.65
+### Test
 ```input
 public class CakeCutting {
 

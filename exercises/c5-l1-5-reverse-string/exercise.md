@@ -16,7 +16,7 @@ L'string amb els caracters en ordre invers.
 
 ## Tests
 
-### Test 11.11
+### Test
 ```input
 hola
 ```
@@ -24,7 +24,7 @@ hola
 aloh
 ```
 
-### Test 11.11
+### Test
 ```input
 hola
 ```
@@ -32,7 +32,7 @@ hola
 aloh
 ```
 
-### Test private 11.11
+### Test
 ```input
 hola mon!
 ```
@@ -40,7 +40,7 @@ hola mon!
 !nom aloh
 ```
 
-### Test private 11.11
+### Test
 ```input
 java
 ```
@@ -48,7 +48,7 @@ java
 avaj
 ```
 
-### Test private 11.11
+### Test
 ```input
 toCharArray()
 ```
@@ -56,7 +56,7 @@ toCharArray()
 )(yarrArahCot
 ```
 
-### Test private 11.11
+### Test
 ```input
 i love programming very much
 ```
@@ -64,7 +64,7 @@ i love programming very much
 hcum yrev gnimmargorp evol i
 ```
 
-### Test private 11.11
+### Test
 ```input
 pipiripip
 ```
@@ -72,7 +72,7 @@ pipiripip
 pipiripip
 ```
 
-### Test private 11.11
+### Test
 ```input
 .si ti ,sey ?gnirts desrever gnol yrev a siht si
 ```
@@ -80,7 +80,7 @@ pipiripip
 is this a very long reversed string? yes, it is.
 ```
 
-### Test private 11.12
+### Test
 ```input
 abcd
 ```

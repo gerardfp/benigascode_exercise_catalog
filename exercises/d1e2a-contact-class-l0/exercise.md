@@ -52,7 +52,7 @@ public class Main {
 
 ## Tests
 
-### Test 50
+### Test
 ```input
 Adrian
 Droide Perez
@@ -68,7 +68,7 @@ C/Calleja, 2
 Barcelona
 ```
 
-### Test private 50
+### Test
 ```input
 Alba
 Bosa Garcia

@@ -21,7 +21,7 @@ S'imprimiran les vendes en format Array: `[0, 0, 0, 0]`
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 5
 1 2 3 4 5
@@ -30,7 +30,7 @@ S'imprimiran les vendes en format Array: `[0, 0, 0, 0]`
 [1, 3, 6, 10, 15]
 ```
 
-### Test 20
+### Test
 ```input
 3
 15 10 5
@@ -39,7 +39,7 @@ S'imprimiran les vendes en format Array: `[0, 0, 0, 0]`
 [15, 25, 30]
 ```
 
-### Test private 20
+### Test
 ```input
 4
 0 0 1 1
@@ -48,7 +48,7 @@ S'imprimiran les vendes en format Array: `[0, 0, 0, 0]`
 [0, 0, 1, 2]
 ```
 
-### Test private 20
+### Test
 ```input
 3
 1 0 0
@@ -57,7 +57,7 @@ S'imprimiran les vendes en format Array: `[0, 0, 0, 0]`
 [1, 1, 1]
 ```
 
-### Test private 20
+### Test
 ```input
 6
 0 0 0 0 0 0

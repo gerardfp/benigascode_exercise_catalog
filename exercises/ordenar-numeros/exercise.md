@@ -50,7 +50,7 @@ VACIO
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 5 10 3 8 1 6
 ```
@@ -58,7 +58,7 @@ VACIO
 1 3 6 8 10
 ```
 
-### Test 20
+### Test
 ```input
 3 4 2 4
 ```
@@ -66,7 +66,7 @@ VACIO
 2 4 4
 ```
 
-### Test private 30
+### Test
 ```input
 0
 ```
@@ -74,7 +74,7 @@ VACIO
 VACIO
 ```
 
-### Test private 30
+### Test
 ```input
 6 100 -5 20 0 50 -10
 ```

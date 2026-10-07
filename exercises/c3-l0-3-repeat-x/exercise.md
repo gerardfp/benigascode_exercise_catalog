@@ -15,7 +15,7 @@ S'imprimrà el nombre repetit.
 
 ## Tests
 
-### Test 11.11
+### Test
 ```input
 2
 ```
@@ -23,7 +23,7 @@ S'imprimrà el nombre repetit.
 22
 ```
 
-### Test 11.11
+### Test
 ```input
 3
 ```
@@ -31,7 +31,7 @@ S'imprimrà el nombre repetit.
 333
 ```
 
-### Test private 11.11
+### Test
 ```input
 4
 ```
@@ -39,7 +39,7 @@ S'imprimrà el nombre repetit.
 4444
 ```
 
-### Test private 11.11
+### Test
 ```input
 5
 ```
@@ -47,7 +47,7 @@ S'imprimrà el nombre repetit.
 55555
 ```
 
-### Test private 11.11
+### Test
 ```input
 10
 ```
@@ -55,7 +55,7 @@ S'imprimrà el nombre repetit.
 10101010101010101010
 ```
 
-### Test private 11.11
+### Test
 ```input
 25
 ```
@@ -63,7 +63,7 @@ S'imprimrà el nombre repetit.
 25252525252525252525252525252525252525252525252525
 ```
 
-### Test private 11.11
+### Test
 ```input
 39
 ```
@@ -71,7 +71,7 @@ S'imprimrà el nombre repetit.
 393939393939393939393939393939393939393939393939393939393939393939393939393939
 ```
 
-### Test private 11.11
+### Test
 ```input
 1
 ```
@@ -79,7 +79,7 @@ S'imprimrà el nombre repetit.
 1
 ```
 
-### Test private 11.12
+### Test
 ```input
 100
 ```

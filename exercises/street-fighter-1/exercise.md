@@ -55,7 +55,7 @@ Si l'event ocorregut no modifica l'estat, es mostrarà el que tenia abans de l'e
 
 ## Tests
 
-### Test 2.44
+### Test
 ```input
 IDLE JOYSTICK_UP
 ```
@@ -63,7 +63,7 @@ IDLE JOYSTICK_UP
 JUMPING
 ```
 
-### Test 2.44
+### Test
 ```input
 IDLE JOYSTICK_UP
 ```
@@ -71,7 +71,7 @@ IDLE JOYSTICK_UP
 JUMPING
 ```
 
-### Test private 2.44
+### Test
 ```input
 IDLE JOYSTICK_LEFT/RIGHT
 ```
@@ -79,7 +79,7 @@ IDLE JOYSTICK_LEFT/RIGHT
 WALKING
 ```
 
-### Test private 2.44
+### Test
 ```input
 IDLE JOYSTICK_CENTER
 ```
@@ -87,7 +87,7 @@ IDLE JOYSTICK_CENTER
 IDLE
 ```
 
-### Test private 2.44
+### Test
 ```input
 IDLE PUNCH_KEY
 ```
@@ -95,7 +95,7 @@ IDLE PUNCH_KEY
 PUNCHING
 ```
 
-### Test private 2.44
+### Test
 ```input
 IDLE KICK_KEY
 ```
@@ -103,7 +103,7 @@ IDLE KICK_KEY
 KICKING
 ```
 
-### Test private 2.44
+### Test
 ```input
 IDLE PUNCH_END
 ```
@@ -111,7 +111,7 @@ IDLE PUNCH_END
 IDLE
 ```
 
-### Test private 2.44
+### Test
 ```input
 IDLE KICK_END
 ```
@@ -119,7 +119,7 @@ IDLE KICK_END
 IDLE
 ```
 
-### Test private 2.44
+### Test
 ```input
 IDLE TOUCH_FLOOR
 ```
@@ -127,7 +127,7 @@ IDLE TOUCH_FLOOR
 IDLE
 ```
 
-### Test private 2.44
+### Test
 ```input
 WALKING JOYSTICK_UP
 ```
@@ -135,7 +135,7 @@ WALKING JOYSTICK_UP
 JUMPING
 ```
 
-### Test private 2.44
+### Test
 ```input
 WALKING JOYSTICK_LEFT/RIGHT
 ```
@@ -143,7 +143,7 @@ WALKING JOYSTICK_LEFT/RIGHT
 WALKING
 ```
 
-### Test private 2.44
+### Test
 ```input
 WALKING JOYSTICK_CENTER
 ```
@@ -151,7 +151,7 @@ WALKING JOYSTICK_CENTER
 IDLE
 ```
 
-### Test private 2.44
+### Test
 ```input
 WALKING PUNCH_KEY
 ```
@@ -159,7 +159,7 @@ WALKING PUNCH_KEY
 PUNCHING
 ```
 
-### Test private 2.44
+### Test
 ```input
 WALKING KICK_KEY
 ```
@@ -167,7 +167,7 @@ WALKING KICK_KEY
 KICKING
 ```
 
-### Test private 2.44
+### Test
 ```input
 WALKING PUNCH_END
 ```
@@ -175,7 +175,7 @@ WALKING PUNCH_END
 WALKING
 ```
 
-### Test private 2.44
+### Test
 ```input
 WALKING KICK_END
 ```
@@ -183,7 +183,7 @@ WALKING KICK_END
 WALKING
 ```
 
-### Test private 2.44
+### Test
 ```input
 WALKING TOUCH_FLOOR
 ```
@@ -191,7 +191,7 @@ WALKING TOUCH_FLOOR
 WALKING
 ```
 
-### Test private 2.44
+### Test
 ```input
 JUMPING JOYSTICK_UP
 ```
@@ -199,7 +199,7 @@ JUMPING JOYSTICK_UP
 JUMPING
 ```
 
-### Test private 2.44
+### Test
 ```input
 JUMPING JOYSTICK_LEFT/RIGHT
 ```
@@ -207,7 +207,7 @@ JUMPING JOYSTICK_LEFT/RIGHT
 JUMPING
 ```
 
-### Test private 2.44
+### Test
 ```input
 JUMPING JOYSTICK_CENTER
 ```
@@ -215,7 +215,7 @@ JUMPING JOYSTICK_CENTER
 JUMPING
 ```
 
-### Test private 2.44
+### Test
 ```input
 JUMPING PUNCH_KEY
 ```
@@ -223,7 +223,7 @@ JUMPING PUNCH_KEY
 PUNCHING
 ```
 
-### Test private 2.44
+### Test
 ```input
 JUMPING KICK_KEY
 ```
@@ -231,7 +231,7 @@ JUMPING KICK_KEY
 KICKING
 ```
 
-### Test private 2.44
+### Test
 ```input
 JUMPING PUNCH_END
 ```
@@ -239,7 +239,7 @@ JUMPING PUNCH_END
 JUMPING
 ```
 
-### Test private 2.44
+### Test
 ```input
 JUMPING KICK_END
 ```
@@ -247,7 +247,7 @@ JUMPING KICK_END
 JUMPING
 ```
 
-### Test private 2.44
+### Test
 ```input
 JUMPING TOUCH_FLOOR
 ```
@@ -255,7 +255,7 @@ JUMPING TOUCH_FLOOR
 IDLE
 ```
 
-### Test private 2.44
+### Test
 ```input
 KICKING JOYSTICK_UP
 ```
@@ -263,7 +263,7 @@ KICKING JOYSTICK_UP
 KICKING
 ```
 
-### Test private 2.44
+### Test
 ```input
 KICKING JOYSTICK_LEFT/RIGHT
 ```
@@ -271,7 +271,7 @@ KICKING JOYSTICK_LEFT/RIGHT
 KICKING
 ```
 
-### Test private 2.44
+### Test
 ```input
 KICKING JOYSTICK_CENTER
 ```
@@ -279,7 +279,7 @@ KICKING JOYSTICK_CENTER
 KICKING
 ```
 
-### Test private 2.44
+### Test
 ```input
 KICKING PUNCH_KEY
 ```
@@ -287,7 +287,7 @@ KICKING PUNCH_KEY
 KICKING
 ```
 
-### Test private 2.44
+### Test
 ```input
 KICKING KICK_KEY
 ```
@@ -295,7 +295,7 @@ KICKING KICK_KEY
 KICKING
 ```
 
-### Test private 2.44
+### Test
 ```input
 KICKING PUNCH_END
 ```
@@ -303,7 +303,7 @@ KICKING PUNCH_END
 KICKING
 ```
 
-### Test private 2.44
+### Test
 ```input
 KICKING KICK_END
 ```
@@ -311,7 +311,7 @@ KICKING KICK_END
 IDLE
 ```
 
-### Test private 2.44
+### Test
 ```input
 KICKING TOUCH_FLOOR
 ```
@@ -319,7 +319,7 @@ KICKING TOUCH_FLOOR
 KICKING
 ```
 
-### Test private 2.44
+### Test
 ```input
 PUNCHING JOYSTICK_UP
 ```
@@ -327,7 +327,7 @@ PUNCHING JOYSTICK_UP
 PUNCHING
 ```
 
-### Test private 2.44
+### Test
 ```input
 PUNCHING JOYSTICK_LEFT/RIGHT
 ```
@@ -335,7 +335,7 @@ PUNCHING JOYSTICK_LEFT/RIGHT
 PUNCHING
 ```
 
-### Test private 2.44
+### Test
 ```input
 PUNCHING JOYSTICK_CENTER
 ```
@@ -343,7 +343,7 @@ PUNCHING JOYSTICK_CENTER
 PUNCHING
 ```
 
-### Test private 2.44
+### Test
 ```input
 PUNCHING PUNCH_KEY
 ```
@@ -351,7 +351,7 @@ PUNCHING PUNCH_KEY
 PUNCHING
 ```
 
-### Test private 2.44
+### Test
 ```input
 PUNCHING KICK_KEY
 ```
@@ -359,7 +359,7 @@ PUNCHING KICK_KEY
 PUNCHING
 ```
 
-### Test private 2.44
+### Test
 ```input
 PUNCHING PUNCH_END
 ```
@@ -367,7 +367,7 @@ PUNCHING PUNCH_END
 IDLE
 ```
 
-### Test private 2.44
+### Test
 ```input
 PUNCHING KICK_END
 ```
@@ -375,7 +375,7 @@ PUNCHING KICK_END
 PUNCHING
 ```
 
-### Test private 2.4
+### Test
 ```input
 PUNCHING TOUCH_FLOOR
 ```

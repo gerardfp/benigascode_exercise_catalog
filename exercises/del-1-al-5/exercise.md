@@ -25,7 +25,7 @@ Un "SI" o un "NO" por cada caso de prueba, separados por un salto de linea
 
 ## Tests
 
-### Test 25
+### Test
 ```input
 1
 1 2 3 4 5 0
@@ -34,7 +34,7 @@ Un "SI" o un "NO" por cada caso de prueba, separados por un salto de linea
 SI
 ```
 
-### Test 25
+### Test
 ```input
 2
 1 2 3 4 5 0
@@ -45,7 +45,7 @@ SI
 NO
 ```
 
-### Test private 25
+### Test
 ```input
 3
 1 2 3 4 0
@@ -58,7 +58,7 @@ SI
 SI
 ```
 
-### Test private 25
+### Test
 ```input
 4
 7 6 5 4 3 2 0

@@ -93,7 +93,7 @@ public class Main   {
 
 ## Tests
 
-### Test 16.67
+### Test
 ```input
 1
 ```
@@ -101,7 +101,7 @@ public class Main   {
 user1001:$1$vDPhC74V3fXYq18yO6t8ZQ==:1001:1000:Usuari 1001:/home/user1001:/bin/bash
 ```
 
-### Test 16.67
+### Test
 ```input
 3
 ```
@@ -111,7 +111,7 @@ user1002:$1$AtlJg9+o4AcNq3dxAK9c4g==:1002:1000:Usuari 1002:/home/user1002:/bin/b
 user1003:$1$nGojHzFqYeA7AoY4Ko9fpg==:1003:1000:Usuari 1003:/home/user1003:/bin/bash
 ```
 
-### Test private 16.67
+### Test
 ```input
 5
 ```
@@ -123,7 +123,7 @@ user1004:$1$KSEhN0wmkcsGmUeNxkCBYg==:1004:1000:Usuari 1004:/home/user1004:/bin/b
 user1005:$1$ilFZYzkzhmyu6HFPF/HtOA==:1005:1000:Usuari 1005:/home/user1005:/bin/bash
 ```
 
-### Test private 16.67
+### Test
 ```input
 25
 ```
@@ -155,7 +155,7 @@ user1024:$1$cTkTm4fbno4EoWFWHBr/og==:1024:1000:Usuari 1024:/home/user1024:/bin/b
 user1025:$1$dGl3+wMYM7kiFr8VE0c1Tg==:1025:1000:Usuari 1025:/home/user1025:/bin/bash
 ```
 
-### Test private 16.67
+### Test
 ```input
 1
 ```
@@ -163,7 +163,7 @@ user1025:$1$dGl3+wMYM7kiFr8VE0c1Tg==:1025:1000:Usuari 1025:/home/user1025:/bin/b
 user1001:$1$vDPhC74V3fXYq18yO6t8ZQ==:1001:1000:Usuari 1001:/home/user1001:/bin/bash
 ```
 
-### Test private 16.65
+### Test
 ```input
 47
 ```

@@ -32,7 +32,7 @@ El resultat de la operació (float), o els missatges `Error: division by zero` i
 
 ## Tests
 
-### Test 11.11
+### Test
 ```input
 1 + 1
 ```
@@ -40,7 +40,7 @@ El resultat de la operació (float), o els missatges `Error: division by zero` i
 2.0
 ```
 
-### Test 11.11
+### Test
 ```input
 1 + 1
 ```
@@ -48,7 +48,7 @@ El resultat de la operació (float), o els missatges `Error: division by zero` i
 2.0
 ```
 
-### Test private 11.11
+### Test
 ```input
 1 - 1
 ```
@@ -56,7 +56,7 @@ El resultat de la operació (float), o els missatges `Error: division by zero` i
 0.0
 ```
 
-### Test private 11.11
+### Test
 ```input
 100 * 100
 ```
@@ -64,7 +64,7 @@ El resultat de la operació (float), o els missatges `Error: division by zero` i
 10000.0
 ```
 
-### Test private 11.11
+### Test
 ```input
 5 / 10
 ```
@@ -72,7 +72,7 @@ El resultat de la operació (float), o els missatges `Error: division by zero` i
 0.5
 ```
 
-### Test private 11.11
+### Test
 ```input
 10 % 0.5
 ```
@@ -80,7 +80,7 @@ El resultat de la operació (float), o els missatges `Error: division by zero` i
 0.0
 ```
 
-### Test private 11.11
+### Test
 ```input
 10 / 0
 ```
@@ -88,7 +88,7 @@ El resultat de la operació (float), o els missatges `Error: division by zero` i
 Error: division by zero
 ```
 
-### Test private 11.11
+### Test
 ```input
 7 & 3
 ```
@@ -96,7 +96,7 @@ Error: division by zero
 Error: operation not permitted
 ```
 
-### Test private 11.12
+### Test
 ```input
 27 % 0
 ```

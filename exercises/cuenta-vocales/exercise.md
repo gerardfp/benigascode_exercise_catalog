@@ -15,7 +15,7 @@ En la primera linea la cantidad de `a`, en la siguiente linea la cantidad de `e`
 
 ## Tests
 
-### Test 16.67
+### Test
 ```input
 hola mundo
 ```
@@ -27,7 +27,7 @@ hola mundo
 1
 ```
 
-### Test 16.67
+### Test
 ```input
 aa ee ii oo uu
 ```
@@ -39,7 +39,7 @@ aa ee ii oo uu
 2
 ```
 
-### Test private 16.67
+### Test
 ```input
 xxa xax axx
 ```
@@ -51,7 +51,7 @@ xxa xax axx
 0
 ```
 
-### Test private 16.67
+### Test
 ```input
 aa, EE, ii.
 ```
@@ -63,7 +63,7 @@ aa, EE, ii.
 0
 ```
 
-### Test private 16.67
+### Test
 ```input
 aA eE iI oO u
 ```
@@ -75,7 +75,7 @@ aA eE iI oO u
 1
 ```
 
-### Test private 16.65
+### Test
 ```input
 aeiou
 ```

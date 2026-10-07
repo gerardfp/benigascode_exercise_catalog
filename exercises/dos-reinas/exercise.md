@@ -21,7 +21,7 @@ SI | NO
 
 ## Tests
 
-### Test 7.69
+### Test
 ```input
 B----N--
 --------
@@ -36,7 +36,7 @@ B----N--
 SI
 ```
 
-### Test 7.69
+### Test
 ```input
 --------
 B-------
@@ -51,7 +51,7 @@ B-------
 SI
 ```
 
-### Test private 7.69
+### Test
 ```input
 --------
 --------
@@ -66,7 +66,7 @@ N-------
 SI
 ```
 
-### Test private 7.69
+### Test
 ```input
 --------
 ------B-
@@ -81,7 +81,7 @@ SI
 SI
 ```
 
-### Test private 7.69
+### Test
 ```input
 --------
 -------N
@@ -96,7 +96,7 @@ SI
 SI
 ```
 
-### Test private 7.69
+### Test
 ```input
 --------
 --------
@@ -111,7 +111,7 @@ SI
 SI
 ```
 
-### Test private 7.69
+### Test
 ```input
 --------
 --------
@@ -126,7 +126,7 @@ SI
 SI
 ```
 
-### Test private 7.69
+### Test
 ```input
 --------
 --------
@@ -141,7 +141,7 @@ SI
 SI
 ```
 
-### Test private 7.69
+### Test
 ```input
 -B------
 ------N-
@@ -156,7 +156,7 @@ SI
 NO
 ```
 
-### Test private 7.69
+### Test
 ```input
 -----B--
 --------
@@ -171,7 +171,7 @@ NO
 NO
 ```
 
-### Test private 7.69
+### Test
 ```input
 --------
 --------
@@ -186,7 +186,7 @@ N-------
 NO
 ```
 
-### Test private 7.69
+### Test
 ```input
 --------
 --------
@@ -201,7 +201,7 @@ B-------
 NO
 ```
 
-### Test private 7.72
+### Test
 ```input
 BN------
 --------

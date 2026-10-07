@@ -54,7 +54,7 @@ public class Main {
 
 ## Tests
 
-### Test 33.33
+### Test
 ```input
 3 5 7   -1
 ```
@@ -67,7 +67,7 @@ Aqui sota hi surt una line de 7 guions
 -------
 ```
 
-### Test private 33.33
+### Test
 ```input
 3 5 7   -1
 ```
@@ -80,7 +80,7 @@ Aqui sota hi surt una line de 7 guions
 -------
 ```
 
-### Test private 33.34
+### Test
 ```input
 10 20 30   -1
 ```

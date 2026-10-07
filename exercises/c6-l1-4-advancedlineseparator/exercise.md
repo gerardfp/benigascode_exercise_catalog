@@ -14,7 +14,7 @@ Completa el mètode `Solution.main()`:
 
 ## Tests
 
-### Test 33.33
+### Test
 ```input
 *
 30
@@ -29,7 +29,7 @@ Aqui sota apareix una linea de 35 -
 -----------------------------------
 ```
 
-### Test private 33.33
+### Test
 ```input
 *
 30
@@ -44,7 +44,7 @@ Aqui sota apareix una linea de 35 -
 -----------------------------------
 ```
 
-### Test private 33.34
+### Test
 ```input
 ^
 30

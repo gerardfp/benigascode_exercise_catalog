@@ -24,7 +24,7 @@ public class Main {
 
 ## Tests
 
-### Test 50
+### Test
 ```input
 ```
 ```output
@@ -35,7 +35,7 @@ public class Main {
 4
 ```
 
-### Test private 50
+### Test
 ```input
 ```
 ```output

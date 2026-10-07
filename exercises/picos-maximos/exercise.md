@@ -31,7 +31,7 @@ Por cada caso de prueba se imprimirá en una linea la secuencia de picos encontr
 
 ## Tests
 
-### Test 33.33
+### Test
 ```input
 2
 6 100 101 102 101 102 103
@@ -42,7 +42,7 @@ Por cada caso de prueba se imprimirá en una linea la secuencia de picos encontr
 64
 ```
 
-### Test private 33.33
+### Test
 ```input
 3
 7 100 99 98 97 98 99 100
@@ -55,7 +55,7 @@ Por cada caso de prueba se imprimirá en una linea la secuencia de picos encontr
 9 9 9
 ```
 
-### Test private 33.34
+### Test
 ```input
 1
 3 1 2 1

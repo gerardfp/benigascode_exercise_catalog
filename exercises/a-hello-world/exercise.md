@@ -16,7 +16,7 @@ Imprimeix "HELLO WORLD" en ASCII-Art
 
 ## Tests
 
-### Test 50
+### Test
 ```input
 ```
 ```output
@@ -27,7 +27,7 @@ Imprimeix "HELLO WORLD" en ASCII-Art
 %+   *&  })=(\{  "<}&%  &[/|>  \+]&"!/      <\' '(+    '&![%{'  [%   ?<  %|<?+  ;=?%&'
 ```
 
-### Test private 50
+### Test
 ```input
 ```
 ```output

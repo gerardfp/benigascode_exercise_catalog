@@ -27,7 +27,7 @@ S'imprimirà l'estat final dels gobelets, amb un asterisc per al gobelet on qued
 
 ## Tests
 
-### Test 5.88
+### Test
 ```input
 L L L L 
 ```
@@ -35,7 +35,7 @@ L L L L
 _ _ *
 ```
 
-### Test 5.88
+### Test
 ```input
 L L L L 
 ```
@@ -43,7 +43,7 @@ L L L L
 _ _ *
 ```
 
-### Test private 5.88
+### Test
 ```input
 L L L R 
 ```
@@ -51,7 +51,7 @@ L L L R
 _ * _
 ```
 
-### Test private 5.88
+### Test
 ```input
 L L R L 
 ```
@@ -59,7 +59,7 @@ L L R L
 _ * _
 ```
 
-### Test private 5.88
+### Test
 ```input
 L L R R 
 ```
@@ -67,7 +67,7 @@ L L R R
 * _ _
 ```
 
-### Test private 5.88
+### Test
 ```input
 L R L L 
 ```
@@ -75,7 +75,7 @@ L R L L
 _ * _
 ```
 
-### Test private 5.88
+### Test
 ```input
 L R L R 
 ```
@@ -83,7 +83,7 @@ L R L R
 * _ _
 ```
 
-### Test private 5.88
+### Test
 ```input
 L R R L 
 ```
@@ -91,7 +91,7 @@ L R R L
 * _ _
 ```
 
-### Test private 5.88
+### Test
 ```input
 L R R R 
 ```
@@ -99,7 +99,7 @@ L R R R
 _ _ *
 ```
 
-### Test private 5.88
+### Test
 ```input
 R L L L 
 ```
@@ -107,7 +107,7 @@ R L L L
 _ * _
 ```
 
-### Test private 5.88
+### Test
 ```input
 R L L R 
 ```
@@ -115,7 +115,7 @@ R L L R
 * _ _
 ```
 
-### Test private 5.88
+### Test
 ```input
 R L R L 
 ```
@@ -123,7 +123,7 @@ R L R L
 * _ _
 ```
 
-### Test private 5.88
+### Test
 ```input
 R L R R 
 ```
@@ -131,7 +131,7 @@ R L R R
 _ _ *
 ```
 
-### Test private 5.88
+### Test
 ```input
 R R L L 
 ```
@@ -139,7 +139,7 @@ R R L L
 * _ _
 ```
 
-### Test private 5.88
+### Test
 ```input
 R R L R 
 ```
@@ -147,7 +147,7 @@ R R L R
 _ _ *
 ```
 
-### Test private 5.88
+### Test
 ```input
 R R R L 
 ```
@@ -155,7 +155,7 @@ R R R L
 _ _ *
 ```
 
-### Test private 5.92
+### Test
 ```input
 R R R R 
 ```

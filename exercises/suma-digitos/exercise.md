@@ -16,7 +16,7 @@ La suma dels dígits de cada nombre, separats per un salt de línia
 
 ## Tests
 
-### Test 9.09
+### Test
 ```input
 1111 2222 1234 1000 0
 ```
@@ -27,7 +27,7 @@ La suma dels dígits de cada nombre, separats per un salt de línia
 1
 ```
 
-### Test 9.09
+### Test
 ```input
 9999 0
 ```
@@ -35,7 +35,7 @@ La suma dels dígits de cada nombre, separats per un salt de línia
 36
 ```
 
-### Test private 9.09
+### Test
 ```input
 1111 1111 1111 1111 1111 0
 ```
@@ -47,7 +47,7 @@ La suma dels dígits de cada nombre, separats per un salt de línia
 4
 ```
 
-### Test private 9.09
+### Test
 ```input
 1234 4321 0
 ```
@@ -56,7 +56,7 @@ La suma dels dígits de cada nombre, separats per un salt de línia
 10
 ```
 
-### Test private 9.09
+### Test
 ```input
 0001 0010 0100 1000 0
 ```
@@ -67,7 +67,7 @@ La suma dels dígits de cada nombre, separats per un salt de línia
 1
 ```
 
-### Test private 9.09
+### Test
 ```input
 0001 0020 0300 4000 0
 ```
@@ -78,7 +78,7 @@ La suma dels dígits de cada nombre, separats per un salt de línia
 4
 ```
 
-### Test private 9.09
+### Test
 ```input
 0001 0002 0003 0004 0005 0006 0007 0
 ```
@@ -92,7 +92,7 @@ La suma dels dígits de cada nombre, separats per un salt de línia
 7
 ```
 
-### Test private 9.09
+### Test
 ```input
 5476 9184 8794 7623 1862 4729 8248 0
 ```
@@ -106,7 +106,7 @@ La suma dels dígits de cada nombre, separats per un salt de línia
 22
 ```
 
-### Test private 9.09
+### Test
 ```input
 8746 3794 8736 8302 7019 0987 8210 9302 2948 1429 9542 0980 0098 3424 0
 ```
@@ -127,7 +127,7 @@ La suma dels dígits de cada nombre, separats per un salt de línia
 13
 ```
 
-### Test private 9.09
+### Test
 ```input
 1111 0
 ```
@@ -135,7 +135,7 @@ La suma dels dígits de cada nombre, separats per un salt de línia
 4
 ```
 
-### Test private 9.1
+### Test
 ```input
 0
 ```

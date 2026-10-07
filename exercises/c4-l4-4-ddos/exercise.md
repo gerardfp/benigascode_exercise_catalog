@@ -25,7 +25,7 @@ S'imprimirà el missatge "DDos alert", cada cop que es superin les 4 connexions 
 
 ## Tests
 
-### Test 12.5
+### Test
 ```input
 0.2  0.2  0.3      -1.0
 ```
@@ -33,7 +33,7 @@ S'imprimirà el missatge "DDos alert", cada cop que es superin les 4 connexions 
 DDoS alert
 ```
 
-### Test 12.5
+### Test
 ```input
 0.1  0.2  0.3      -1
 ```
@@ -41,14 +41,14 @@ DDoS alert
 DDoS alert
 ```
 
-### Test private 12.5
+### Test
 ```input
 0.5  0.2  0.3      -1
 ```
 ```output
 ```
 
-### Test private 12.5
+### Test
 ```input
 0.5  0.2  0.3  0.2      -1
 ```
@@ -56,7 +56,7 @@ DDoS alert
 DDoS alert
 ```
 
-### Test private 12.5
+### Test
 ```input
 0.5  0.2  0.3  0.2  0.6  0.1      -1
 ```
@@ -65,7 +65,7 @@ DDoS alert
 DDoS alert
 ```
 
-### Test private 12.5
+### Test
 ```input
 0.5  0.2  0.3  0.2  0.1  0.1      -1
 ```
@@ -75,7 +75,7 @@ DDoS alert
 DDoS alert
 ```
 
-### Test private 12.5
+### Test
 ```input
 0.5  0.2  0.3  1.2  0.1  0.1  0.1  0.1  0.7  0.4  0.1  0.2  0.6      -1
 ```
@@ -87,7 +87,7 @@ DDoS alert
 DDoS alert
 ```
 
-### Test private 12.5
+### Test
 ```input
 0.3  0.3  0.3  0.2  0.2  0.5  0.2  0.1  0.1  0.1  0.1  0.7  0.4  0.1  0.2  0.6  0.9  0.1      -1
 ```

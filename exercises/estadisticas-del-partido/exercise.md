@@ -62,7 +62,7 @@ FINAL DEL PARTIDO, GANA VISITANTE: 2 3
 
 ## Tests
 
-### Test 14.29
+### Test
 ```input
 0 0 1 0 -1 -1
 ```
@@ -72,7 +72,7 @@ GOL LOCAL, GANA LOCAL: 1 0
 FINAL DEL PARTIDO, GANA LOCAL: 1 0
 ```
 
-### Test 14.29
+### Test
 ```input
 0 0 0 1 -1 -1
 ```
@@ -82,7 +82,7 @@ GOL VISITANTE, GANA VISITANTE: 0 1
 FINAL DEL PARTIDO, GANA VISITANTE: 0 1
 ```
 
-### Test private 14.29
+### Test
 ```input
 0 0 1 0 2 0 2 1 2 2 -1 -1
 ```
@@ -95,7 +95,7 @@ GOL VISITANTE, EMPATE: 2 2
 FINAL DEL PARTIDO, EMPATE: 2 2
 ```
 
-### Test private 14.29
+### Test
 ```input
 0 0 1 0 1 1 -1 -1
 ```
@@ -106,7 +106,7 @@ GOL VISITANTE, EMPATE: 1 1
 FINAL DEL PARTIDO, EMPATE: 1 1
 ```
 
-### Test private 14.29
+### Test
 ```input
 0 0 0 1 0 2 1 2 -1 -1
 ```
@@ -118,7 +118,7 @@ GOL LOCAL, GANA VISITANTE: 1 2
 FINAL DEL PARTIDO, GANA VISITANTE: 1 2
 ```
 
-### Test private 14.29
+### Test
 ```input
 0 0 1 0 2 0 2 1 2 2 2 3 3 3 3 4 4 4 5 4 -1 -1
 ```
@@ -136,7 +136,7 @@ GOL LOCAL, GANA LOCAL: 5 4
 FINAL DEL PARTIDO, GANA LOCAL: 5 4
 ```
 
-### Test private 14.26
+### Test
 ```input
 0 0 -1 -1
 ```

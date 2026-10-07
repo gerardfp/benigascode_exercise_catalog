@@ -35,7 +35,7 @@ entero
 
 ## Tests
 
-### Test 25
+### Test
 ```input
 5
 main class void static main
@@ -46,7 +46,7 @@ main
 2
 ```
 
-### Test 25
+### Test
 ```input
 6
 public static void main string args
@@ -57,7 +57,7 @@ void
 1
 ```
 
-### Test private 25
+### Test
 ```input
 3
 char int string
@@ -68,7 +68,7 @@ float
 0
 ```
 
-### Test private 25
+### Test
 ```input
 13
 continue for switch boolean do if break else case int char float while

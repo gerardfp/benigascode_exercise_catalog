@@ -19,7 +19,7 @@ Se imprimirá en una sola línea cada palabra del texto, separadas por espacio e
 
 ## Tests
 
-### Test 10
+### Test
 ```input
 4 java runs very fast
 1 very
@@ -28,7 +28,7 @@ Se imprimirá en una sola línea cada palabra del texto, separadas por espacio e
 java runs _very_ fast
 ```
 
-### Test 10
+### Test
 ```input
 4 write once run everywhere
 2 once everywhere
@@ -37,7 +37,7 @@ java runs _very_ fast
 write _once_ run _everywhere_
 ```
 
-### Test 10
+### Test
 ```input
 4 write once test everywhere
 1 write
@@ -46,7 +46,7 @@ write _once_ run _everywhere_
 _write_ once test everywhere
 ```
 
-### Test 10
+### Test
 ```input
 8 java is for programmers and for end users
 3 java for end
@@ -55,7 +55,7 @@ _write_ once test everywhere
 _java_ is _for_ programmers and _for_ _end_ users
 ```
 
-### Test 10
+### Test
 ```input
 35 Oracle Java is the #1 programming language and development platform it reduces costs shortens development timeframes drives innovation and improves application services Java continues to be the development platform of choice for enterprises and developers
 4 Java development #1 choice
@@ -64,7 +64,7 @@ _java_ is _for_ programmers and _for_ _end_ users
 Oracle _Java_ is the _#1_ programming language and _development_ platform it reduces costs shortens _development_ timeframes drives innovation and improves application services _Java_ continues to be the _development_ platform of _choice_ for enterprises and developers
 ```
 
-### Test private 10
+### Test
 ```input
 10 a b c d e f g h i j
 5 b g a c f

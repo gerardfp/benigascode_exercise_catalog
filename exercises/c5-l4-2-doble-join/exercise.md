@@ -58,7 +58,7 @@ Per últim caldrà indicar el número de tuples retornades per la consulta: "(X 
 
 ## Tests
 
-### Test 16.67
+### Test
 ```input
 2
 1 Turing, Alan
@@ -84,7 +84,7 @@ Codd  |Edgar|Bases de dades|10.00
 (4 rows)
 ```
 
-### Test 16.67
+### Test
 ```input
 1
 1 Von Neumann, John
@@ -102,7 +102,7 @@ Von Neumann|John|Fonaments de Hardware|10.00
 (1 rows)
 ```
 
-### Test private 16.67
+### Test
 ```input
 1
 4096 Von Neumann, John
@@ -120,7 +120,7 @@ Von Neumann|John|Fonaments de Hardware|10.00
 (1 rows)
 ```
 
-### Test private 16.67
+### Test
 ```input
 3
 101 Torvalds, Linus
@@ -156,7 +156,7 @@ Rubin   |Andy |Programacio                                | 8.00
 (7 rows)
 ```
 
-### Test private 16.67
+### Test
 ```input
 4
 99 Codd, Edgar
@@ -202,7 +202,7 @@ Marx       |Karl |Planificacio i administracio de xarxes| 5.00
 (11 rows)
 ```
 
-### Test private 16.65
+### Test
 ```input
 7
 87 Dijkstra, Edsger

@@ -25,7 +25,7 @@ El segon nombre és la quantitat d'ous que fan falta per omplir l'última ouera.
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 44
 ```
@@ -33,7 +33,7 @@ El segon nombre és la quantitat d'ous que fan falta per omplir l'última ouera.
 2 4
 ```
 
-### Test 20
+### Test
 ```input
 44
 ```
@@ -41,7 +41,7 @@ El segon nombre és la quantitat d'ous que fan falta per omplir l'última ouera.
 2 4
 ```
 
-### Test private 20
+### Test
 ```input
 20
 ```
@@ -49,7 +49,7 @@ El segon nombre és la quantitat d'ous que fan falta per omplir l'última ouera.
 1 4
 ```
 
-### Test private 20
+### Test
 ```input
 0
 ```
@@ -57,7 +57,7 @@ El segon nombre és la quantitat d'ous que fan falta per omplir l'última ouera.
 0 0
 ```
 
-### Test private 20
+### Test
 ```input
 48
 ```

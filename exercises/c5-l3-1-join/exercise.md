@@ -51,7 +51,7 @@ Per últim caldrà indicar el número de tuples retornades per la consulta: "(X 
 
 ## Tests
 
-### Test 16.67
+### Test
 ```input
 3
 1 1 Java 0
@@ -71,7 +71,7 @@ gcc             |GNU             |      0.00
 (3 rows)
 ```
 
-### Test 16.67
+### Test
 ```input
 3
 1 1 Java 0
@@ -91,7 +91,7 @@ gcc             |GNU             |      0.00
 (3 rows)
 ```
 
-### Test private 16.67
+### Test
 ```input
 1
 14 8 Firefox 0
@@ -107,7 +107,7 @@ Firefox         |Mozilla         |      0.00
 (1 rows)
 ```
 
-### Test private 16.67
+### Test
 ```input
 9
 7 6 Gnome 0
@@ -129,7 +129,7 @@ name            |merchant        |price
 (0 rows)
 ```
 
-### Test private 16.67
+### Test
 ```input
 1
 10 6 gcc 0
@@ -152,7 +152,7 @@ gcc             |GNU             |      0.00
 (1 rows)
 ```
 
-### Test private 16.65
+### Test
 ```input
 15
 1 1 Java 0

@@ -1,5 +1,6 @@
 ---
 slug: tres-en-raya
+tags: [matrix]
 ---
 # OXO
 
@@ -8,20 +9,18 @@ Donat un tauler de tres en ratlla, determina el guanyador, o si hi ha empat.
 ## Input
 
 El tauler consisteix en 3 línies amb 3 caracters cada línia.
-Les caselles del tauler buides es marquen amb un '-'
-Les caselles ocupades per fitxes es marquen amb 'O' i 'X'.
+Les caselles del tauler buides es marquen amb un `-`
+Les caselles ocupades per fitxes es marquen amb `O` i `X`.
 
 El tauler és vàlid
 
 ## Output
 
-El guanyador es mostrarà amb la seva marca, i s'usa '-' per a l'empat.
-
-{ X | O | - }
+El guanyador es mostrarà amb la seva marca `X` `O`, i `-` per a l'empat.
 
 ## Tests
 
-### Test 8.33
+### Test
 ```input
 O--
 -O-
@@ -31,7 +30,7 @@ XXX
 X
 ```
 
-### Test 8.33
+### Test
 ```input
 --X
 OOO
@@ -41,7 +40,7 @@ OOO
 O
 ```
 
-### Test private 8.33
+### Test
 ```input
 XXX
 00X
@@ -51,7 +50,7 @@ X00
 X
 ```
 
-### Test private 8.33
+### Test
 ```input
 O-X
 -XO
@@ -61,7 +60,7 @@ XO-
 X
 ```
 
-### Test private 8.33
+### Test
 ```input
 OXX
 XOX
@@ -71,7 +70,7 @@ XOO
 O
 ```
 
-### Test private 8.33
+### Test
 ```input
 XO-
 XO-
@@ -81,7 +80,7 @@ X--
 X
 ```
 
-### Test private 8.33
+### Test
 ```input
 XO-
 XO-
@@ -91,7 +90,7 @@ XO-
 O
 ```
 
-### Test private 8.33
+### Test
 ```input
 XXO
 XXO
@@ -101,7 +100,7 @@ O-O
 O
 ```
 
-### Test private 8.33
+### Test
 ```input
 OXO
 OXO
@@ -111,7 +110,7 @@ XOX
 -
 ```
 
-### Test private 8.33
+### Test
 ```input
 XXO
 OXX
@@ -121,7 +120,7 @@ XOO
 -
 ```
 
-### Test private 8.33
+### Test
 ```input
 OXO
 XOX
@@ -131,7 +130,7 @@ XOX
 -
 ```
 
-### Test private 8.37
+### Test
 ```input
 XXX
 O--

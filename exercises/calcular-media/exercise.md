@@ -50,7 +50,7 @@ NO_DATA
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 10 20 30 -1
 
@@ -60,7 +60,7 @@ NO_DATA
 
 ```
 
-### Test 20
+### Test
 ```input
 42 -99
 
@@ -70,7 +70,7 @@ NO_DATA
 
 ```
 
-### Test private 30
+### Test
 ```input
 -5
 
@@ -80,7 +80,7 @@ NO_DATA
 
 ```
 
-### Test private 30
+### Test
 ```input
 100 200 150 75 25 -10
 

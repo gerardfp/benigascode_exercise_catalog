@@ -33,7 +33,7 @@ La entrada consisteix en una primera seqüència d'  números, i una segona d'  
 
 ## Tests
 
-### Test 8.33
+### Test
 ```input
 3    100 200 300
 3    100 200 300
@@ -42,7 +42,7 @@ La entrada consisteix en una primera seqüència d'  números, i una segona d'  
 SI
 ```
 
-### Test 8.33
+### Test
 ```input
 2 111 111
 2 111 111
@@ -51,7 +51,7 @@ SI
 SI
 ```
 
-### Test private 8.33
+### Test
 ```input
 4    11 22 33 44
 3    11 22 33
@@ -60,7 +60,7 @@ SI
 NO
 ```
 
-### Test private 8.33
+### Test
 ```input
 4    11 22 33 44
 5    11 22 33 55 44
@@ -69,7 +69,7 @@ NO
 NO
 ```
 
-### Test private 8.33
+### Test
 ```input
 3     7 8 9
 10    1 2 3 4 5 6 7 8 9 10
@@ -78,7 +78,7 @@ NO
 SI
 ```
 
-### Test private 8.33
+### Test
 ```input
 1    1
 4    2 3 1 4
@@ -87,7 +87,7 @@ SI
 SI
 ```
 
-### Test private 8.33
+### Test
 ```input
 3    11 22 33
 3    33 22 11
@@ -96,7 +96,7 @@ SI
 NO
 ```
 
-### Test private 8.33
+### Test
 ```input
 3    4 6 5
 5    3 2 465 7 8
@@ -105,7 +105,7 @@ NO
 NO
 ```
 
-### Test private 8.33
+### Test
 ```input
 3    3 5 4
 6    3 5 4 3 5 4
@@ -114,7 +114,7 @@ NO
 SI
 ```
 
-### Test private 8.33
+### Test
 ```input
 3    3 5 4
 5    1 2 3 5 4
@@ -123,7 +123,7 @@ SI
 SI
 ```
 
-### Test private 8.33
+### Test
 ```input
 3   7 8 9
 8   1 7 8 1 1 7 8 9
@@ -132,7 +132,7 @@ SI
 SI
 ```
 
-### Test private 8.37
+### Test
 ```input
 3   7 8 9
 5   1 1 1 7 8

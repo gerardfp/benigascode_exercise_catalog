@@ -19,7 +19,7 @@ La nota mitjana
 
 ## Tests
 
-### Test 25
+### Test
 ```input
 0 5 10
 ```
@@ -27,7 +27,7 @@ La nota mitjana
 5.0
 ```
 
-### Test 25
+### Test
 ```input
 0 5 10
 ```
@@ -35,7 +35,7 @@ La nota mitjana
 5.0
 ```
 
-### Test private 25
+### Test
 ```input
 5 7.5 10
 ```
@@ -43,7 +43,7 @@ La nota mitjana
 7.5
 ```
 
-### Test private 25
+### Test
 ```input
 6.75 7.25 8.4
 ```

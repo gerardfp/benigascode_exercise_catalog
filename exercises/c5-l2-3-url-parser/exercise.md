@@ -48,7 +48,7 @@ Les variables  i  són de tipus String[], inicialitzats amb els seus segments.
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 http://user:pass@example.com:3000/docs/api/index.php?version=7&lang=java#strings
 ```
@@ -63,7 +63,7 @@ String[] query = {"version=7", "lang=java"};
 String fragment = "strings";
 ```
 
-### Test 20
+### Test
 ```input
 http://user:pass@example.com:3000/docs/api/index.php?version=7&lang=java#strings
 ```
@@ -78,7 +78,7 @@ String[] query = {"version=7", "lang=java"};
 String fragment = "strings";
 ```
 
-### Test private 20
+### Test
 ```input
 http://richard:stallman@www.gnu.org:80/philosophy/free-sw.html?r=1.663#history
 ```
@@ -93,7 +93,7 @@ String[] query = {"r=1.663"};
 String fragment = "history";
 ```
 
-### Test private 20
+### Test
 ```input
 https://linus:torvalds@git-scm.com:8080/downloads/linux?v=2.21&dev=true#arch
 ```
@@ -108,7 +108,7 @@ String[] query = {"v=2.21", "dev=true"};
 String fragment = "arch";
 ```
 
-### Test private 20
+### Test
 ```input
 https://linus:torvalds@git-scm.com:8080/downloads/gnu/linux?v=2.21&dev=true#arch
 ```

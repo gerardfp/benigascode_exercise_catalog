@@ -43,7 +43,7 @@ S'imprimirà l'inventari ordenat segons els camps indicats.
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 CPU RAM DISC IP
 192.168.1.1 8 4000 500
@@ -61,7 +61,7 @@ __END__
 192.168.1.4 8 2000 200
 ```
 
-### Test 20
+### Test
 ```input
 CPU RAM DISC IP
 192.168.1.1 8 4000 500
@@ -79,7 +79,7 @@ __END__
 192.168.1.4 8 2000 200
 ```
 
-### Test private 20
+### Test
 ```input
 CPU DISC RAM IP
 192.168.0.1 4 3000 120
@@ -95,7 +95,7 @@ __END__
 192.168.0.22 4 3000 120
 ```
 
-### Test private 20
+### Test
 ```input
 IP CPU RAM DISC
 10.1.1.2 8 2000 500
@@ -113,7 +113,7 @@ __END__
 10.2.2.1 6 3500 400
 ```
 
-### Test private 20
+### Test
 ```input
 DISC CPU RAM IP
 192.168.35.64   4 2000 500

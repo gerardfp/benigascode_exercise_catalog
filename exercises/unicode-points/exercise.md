@@ -17,7 +17,7 @@ text
 
 ## Tests
 
-### Test 33.33
+### Test
 ```input
 97 98 99 100 101 102
 ```
@@ -25,7 +25,7 @@ text
 abcdef
 ```
 
-### Test private 33.33
+### Test
 ```input
 119 97 32 121 101 97
 ```
@@ -33,7 +33,7 @@ abcdef
 wa yea
 ```
 
-### Test private 33.34
+### Test
 ```input
 65 90 97 122 48 57
 ```

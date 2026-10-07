@@ -31,14 +31,14 @@ public class Main {
 
 ## Tests
 
-### Test 50
+### Test
 ```input
 ```
 ```output
 Java 15 incorpora Text Blocks, que es delimiten amb """
 ```
 
-### Test private 50
+### Test
 ```input
 ```
 ```output

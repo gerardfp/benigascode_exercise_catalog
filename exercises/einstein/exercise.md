@@ -28,14 +28,14 @@ public class Main {
 
 ## Tests
 
-### Test 50
+### Test
 ```input
 ```
 ```output
 Life is like riding a bicycle. To keep your balance you must keep moving.
 ```
 
-### Test private 50
+### Test
 ```input
 ```
 ```output

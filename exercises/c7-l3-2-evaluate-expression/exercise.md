@@ -18,7 +18,7 @@ El resultat de l'expressió
 
 ## Tests
 
-### Test 9.09
+### Test
 ```input
 1
 ```
@@ -26,7 +26,7 @@ El resultat de l'expressió
 1
 ```
 
-### Test 9.09
+### Test
 ```input
 2+2
 ```
@@ -34,7 +34,7 @@ El resultat de l'expressió
 4
 ```
 
-### Test private 9.09
+### Test
 ```input
 2+2+2
 ```
@@ -42,7 +42,7 @@ El resultat de l'expressió
 6
 ```
 
-### Test private 9.09
+### Test
 ```input
 2*2
 ```
@@ -50,7 +50,7 @@ El resultat de l'expressió
 4
 ```
 
-### Test private 9.09
+### Test
 ```input
 2*2*2
 ```
@@ -58,7 +58,7 @@ El resultat de l'expressió
 8
 ```
 
-### Test private 9.09
+### Test
 ```input
 2+3*4
 ```
@@ -66,7 +66,7 @@ El resultat de l'expressió
 14
 ```
 
-### Test private 9.09
+### Test
 ```input
 2*3+4
 ```
@@ -74,7 +74,7 @@ El resultat de l'expressió
 10
 ```
 
-### Test private 9.09
+### Test
 ```input
 2*3+4*5
 ```
@@ -82,7 +82,7 @@ El resultat de l'expressió
 26
 ```
 
-### Test private 9.09
+### Test
 ```input
 2+3*4+5
 ```
@@ -90,7 +90,7 @@ El resultat de l'expressió
 19
 ```
 
-### Test private 9.09
+### Test
 ```input
 2+10*1+1*100
 ```
@@ -98,7 +98,7 @@ El resultat de l'expressió
 112
 ```
 
-### Test private 9.1
+### Test
 ```input
 123*456+789*123+456*789
 ```

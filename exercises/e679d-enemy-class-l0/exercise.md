@@ -50,7 +50,7 @@ public class Main {
 
 ## Tests
 
-### Test 50
+### Test
 ```input
 ```
 ```output
@@ -59,7 +59,7 @@ AMAZONA   Health: 40/40   Weapon: 70/70
 BRUJO     Health: 30/30   Weapon: 80/80
 ```
 
-### Test private 50
+### Test
 ```input
 ```
 ```output

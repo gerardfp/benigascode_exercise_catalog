@@ -43,7 +43,7 @@ c = total persones majors de 65
 
 ## Tests
 
-### Test 25
+### Test
 ```input
 5
 divendres
@@ -74,7 +74,7 @@ diumenge
 +65  : 6
 ```
 
-### Test 25
+### Test
 ```input
 1
 divendres
@@ -97,7 +97,7 @@ diumenge
 +65  : 0
 ```
 
-### Test private 25
+### Test
 ```input
 10
 divendres
@@ -138,7 +138,7 @@ diumenge
 +65  : 18
 ```
 
-### Test private 25
+### Test
 ```input
 1
 divendres

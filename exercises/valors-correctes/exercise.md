@@ -41,7 +41,7 @@ public class Main {
 
 ## Tests
 
-### Test 50
+### Test
 ```input
 ```
 ```output
@@ -52,7 +52,7 @@ true
 true
 ```
 
-### Test private 50
+### Test
 ```input
 ```
 ```output

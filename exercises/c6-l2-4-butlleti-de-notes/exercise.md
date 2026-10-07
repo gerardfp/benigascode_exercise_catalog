@@ -68,7 +68,7 @@ public class Main {
 
 ## Tests
 
-### Test 16.67
+### Test
 ```input
 3
 Practiques 9 20
@@ -79,7 +79,7 @@ Examen 5 50
 Average Grade: 6.70
 ```
 
-### Test 16.67
+### Test
 ```input
 2
 Projecte 10 50
@@ -89,7 +89,7 @@ Examen 0 50
 Average Grade: 5.00
 ```
 
-### Test private 16.67
+### Test
 ```input
 3
 Practiques 9 20
@@ -100,7 +100,7 @@ Examen 5 50
 Average Grade: 6.70
 ```
 
-### Test private 16.67
+### Test
 ```input
 5
 Projecte 8 30
@@ -113,7 +113,7 @@ Examen 5 40
 Average Grade: 6.60
 ```
 
-### Test private 16.67
+### Test
 ```input
 3
 Examen1 5 25
@@ -124,7 +124,7 @@ Examen3 10 50
 Average Grade: 7.93
 ```
 
-### Test private 16.65
+### Test
 ```input
 1
 Examen 7.75 100

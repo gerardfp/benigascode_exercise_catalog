@@ -28,7 +28,7 @@ Un número flotant corresponent a la nota
 
 ## Tests
 
-### Test 7.14
+### Test
 ```input
 0
 ```
@@ -36,7 +36,7 @@ Un número flotant corresponent a la nota
 INSUFICIENT
 ```
 
-### Test 7.14
+### Test
 ```input
 4
 ```
@@ -44,7 +44,7 @@ INSUFICIENT
 INSUFICIENT
 ```
 
-### Test private 7.14
+### Test
 ```input
 4.5
 ```
@@ -52,7 +52,7 @@ INSUFICIENT
 INSUFICIENT
 ```
 
-### Test private 7.14
+### Test
 ```input
 4.999
 ```
@@ -60,7 +60,7 @@ INSUFICIENT
 INSUFICIENT
 ```
 
-### Test private 7.14
+### Test
 ```input
 5
 ```
@@ -68,7 +68,7 @@ INSUFICIENT
 SUFICIENT
 ```
 
-### Test private 7.14
+### Test
 ```input
 5.999
 ```
@@ -76,7 +76,7 @@ SUFICIENT
 SUFICIENT
 ```
 
-### Test private 7.14
+### Test
 ```input
 6
 ```
@@ -84,7 +84,7 @@ SUFICIENT
 BE
 ```
 
-### Test private 7.14
+### Test
 ```input
 6.999
 ```
@@ -92,7 +92,7 @@ BE
 BE
 ```
 
-### Test private 7.14
+### Test
 ```input
 7
 ```
@@ -100,7 +100,7 @@ BE
 NOTABLE
 ```
 
-### Test private 7.14
+### Test
 ```input
 8.499
 ```
@@ -108,7 +108,7 @@ NOTABLE
 NOTABLE
 ```
 
-### Test private 7.14
+### Test
 ```input
 8.5
 ```
@@ -116,7 +116,7 @@ NOTABLE
 EXCEL.LENT
 ```
 
-### Test private 7.14
+### Test
 ```input
 9.255
 ```
@@ -124,7 +124,7 @@ EXCEL.LENT
 EXCEL.LENT
 ```
 
-### Test private 7.14
+### Test
 ```input
 9.999
 ```
@@ -132,7 +132,7 @@ EXCEL.LENT
 EXCEL.LENT
 ```
 
-### Test private 7.18
+### Test
 ```input
 10
 ```

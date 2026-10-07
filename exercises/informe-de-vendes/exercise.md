@@ -45,7 +45,7 @@ public class Main {
 
 ## Tests
 
-### Test 16.67
+### Test
 ```input
 5
 10 20 50 70 120
@@ -55,7 +55,7 @@ public class Main {
 [10, 30, 80, 150, 270]
 ```
 
-### Test 16.67
+### Test
 ```input
 3
 100 150 250
@@ -65,7 +65,7 @@ public class Main {
 [100, 250, 500]
 ```
 
-### Test private 16.67
+### Test
 ```input
 4
 1 3 6 10
@@ -75,7 +75,7 @@ public class Main {
 [1, 4, 10, 20]
 ```
 
-### Test private 16.67
+### Test
 ```input
 1
 1000
@@ -85,7 +85,7 @@ public class Main {
 [1000]
 ```
 
-### Test private 16.67
+### Test
 ```input
 2
 1000 1000
@@ -95,7 +95,7 @@ public class Main {
 [1000, 2000]
 ```
 
-### Test private 16.65
+### Test
 ```input
 10
 5 4 3 6 4 8 7 4 1 2

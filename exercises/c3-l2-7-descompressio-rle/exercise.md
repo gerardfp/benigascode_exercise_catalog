@@ -32,7 +32,7 @@ La cadena descomprimida
 
 ## Tests
 
-### Test 14.29
+### Test
 ```input
 3B4N
 ```
@@ -40,7 +40,7 @@ La cadena descomprimida
 BBBNNNN
 ```
 
-### Test 14.29
+### Test
 ```input
 3B4N
 ```
@@ -48,7 +48,7 @@ BBBNNNN
 BBBNNNN
 ```
 
-### Test private 14.29
+### Test
 ```input
 5B3N1B
 ```
@@ -56,7 +56,7 @@ BBBNNNN
 BBBBBNNNB
 ```
 
-### Test private 14.29
+### Test
 ```input
 1B5N1B
 ```
@@ -64,7 +64,7 @@ BBBBBNNNB
 BNNNNNB
 ```
 
-### Test private 14.29
+### Test
 ```input
 1A3B4A3N2C1A5D
 ```
@@ -72,7 +72,7 @@ BNNNNNB
 ABBBAAAANNNCCADDDDD
 ```
 
-### Test private 14.29
+### Test
 ```input
 8W7H7A9T
 ```
@@ -80,7 +80,7 @@ ABBBAAAANNNCCADDDDD
 WWWWWWWWHHHHHHHAAAAAAATTTTTTTTT
 ```
 
-### Test private 14.26
+### Test
 ```input
 1J1A1V1A
 ```

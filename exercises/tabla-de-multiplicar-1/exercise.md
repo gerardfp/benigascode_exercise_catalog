@@ -37,7 +37,7 @@ a x b = c
 
 ## Tests
 
-### Test 50
+### Test
 ```input
 1
 ```
@@ -154,7 +154,7 @@ a x b = c
 10 x 10 = 100
 ```
 
-### Test private 50
+### Test
 ```input
 10
 ```

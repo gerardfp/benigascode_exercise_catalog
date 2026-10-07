@@ -118,7 +118,7 @@ public class Solution {
 0:3
 ```
 
-### Test private
+### Test
 ```input
 3
 1 2 2

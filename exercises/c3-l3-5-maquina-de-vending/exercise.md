@@ -35,7 +35,7 @@ S'imprimiràn els següents missatges, en funció del *workflow* de la màquina:
 
 ## Tests
 
-### Test 14.29
+### Test
 ```input
 5
 0.75
@@ -53,7 +53,7 @@ Balance:0.25
 Refund:0.25
 ```
 
-### Test 14.29
+### Test
 ```input
 5
 0.75
@@ -74,7 +74,7 @@ Balance:0.5
 Refund:0.5
 ```
 
-### Test private 14.29
+### Test
 ```input
 5
 0.75
@@ -97,7 +97,7 @@ Insert coin
 Refund:0.0
 ```
 
-### Test private 14.29
+### Test
 ```input
 2
 1.5
@@ -121,7 +121,7 @@ Balance:1.5
 Refund:1.5
 ```
 
-### Test private 14.29
+### Test
 ```input
 1
 0.5
@@ -145,7 +145,7 @@ Insert coin
 Product unavailable
 ```
 
-### Test private 14.29
+### Test
 ```input
 2
 0.5
@@ -184,7 +184,7 @@ Refund:0.25
 Insert coin
 ```
 
-### Test private 14.26
+### Test
 ```input
 2
 0.5

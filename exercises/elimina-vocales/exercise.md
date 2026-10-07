@@ -17,7 +17,7 @@ La frase sin las vocales.
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 hola mundo!
 ```
@@ -25,7 +25,7 @@ hola mundo!
 hl mnd!
 ```
 
-### Test 20
+### Test
 ```input
 lalalA
 ```
@@ -33,7 +33,7 @@ lalalA
 lll
 ```
 
-### Test private 20
+### Test
 ```input
 xa, XA, xE, xI, xO, xu
 ```
@@ -41,7 +41,7 @@ xa, XA, xE, xI, xO, xu
 x, X, x, x, x, x
 ```
 
-### Test private 20
+### Test
 ```input
 xAaAxeEe
 ```
@@ -49,7 +49,7 @@ xAaAxeEe
 xx
 ```
 
-### Test private 20
+### Test
 ```input
 la
 ```

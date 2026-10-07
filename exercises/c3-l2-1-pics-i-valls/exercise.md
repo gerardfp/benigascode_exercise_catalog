@@ -21,7 +21,7 @@ S'imprimirà el nombre de pics i el nombre de valls. També s'imprimirà el valo
 
 ## Tests
 
-### Test 9.09
+### Test
 ```input
 1 3 5 2 4 6 7 3 2 4     -1
 ```
@@ -32,7 +32,7 @@ S'imprimirà el nombre de pics i el nombre de valls. També s'imprimirà el valo
 1
 ```
 
-### Test 9.09
+### Test
 ```input
 2 3 5 6 4 7 5 3 2 4     -1
 ```
@@ -43,7 +43,7 @@ S'imprimirà el nombre de pics i el nombre de valls. També s'imprimirà el valo
 2
 ```
 
-### Test private 9.09
+### Test
 ```input
 4 3 5 6 4 8 5 6 2 3     -1
 ```
@@ -54,7 +54,7 @@ S'imprimirà el nombre de pics i el nombre de valls. També s'imprimirà el valo
 2
 ```
 
-### Test private 9.09
+### Test
 ```input
 4 3 2 1 2 3 5     -1
 ```
@@ -65,7 +65,7 @@ S'imprimirà el nombre de pics i el nombre de valls. També s'imprimirà el valo
 1
 ```
 
-### Test private 9.09
+### Test
 ```input
 4 4 2 2 3 3 1     -1
 ```
@@ -76,7 +76,7 @@ S'imprimirà el nombre de pics i el nombre de valls. També s'imprimirà el valo
 1
 ```
 
-### Test private 9.09
+### Test
 ```input
 1 1 1 2 3 3 1 1 3 4 5 5 6     -1
 ```
@@ -87,7 +87,7 @@ S'imprimirà el nombre de pics i el nombre de valls. També s'imprimirà el valo
 1
 ```
 
-### Test private 9.09
+### Test
 ```input
 45 45 45 89 89 1 3 25 25 24 25 24 2     -1
 ```
@@ -98,7 +98,7 @@ S'imprimirà el nombre de pics i el nombre de valls. També s'imprimirà el valo
 1
 ```
 
-### Test private 9.09
+### Test
 ```input
 1 1     -1
 ```
@@ -109,7 +109,7 @@ S'imprimirà el nombre de pics i el nombre de valls. També s'imprimirà el valo
 1
 ```
 
-### Test private 9.09
+### Test
 ```input
 4 5     -1
 ```
@@ -120,7 +120,7 @@ S'imprimirà el nombre de pics i el nombre de valls. També s'imprimirà el valo
 4
 ```
 
-### Test private 9.09
+### Test
 ```input
 7 5     -1
 ```
@@ -131,7 +131,7 @@ S'imprimirà el nombre de pics i el nombre de valls. També s'imprimirà el valo
 5
 ```
 
-### Test private 9.1
+### Test
 ```input
 1 4 3 5 2 6 4 9     -1
 ```

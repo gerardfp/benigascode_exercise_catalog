@@ -17,7 +17,7 @@ Un entero indicando la cantidad de números leídos
 
 ## Tests
 
-### Test 14.29
+### Test
 ```input
 0
 ```
@@ -25,7 +25,7 @@ Un entero indicando la cantidad de números leídos
 0
 ```
 
-### Test 14.29
+### Test
 ```input
 5 4 2 5 7 0
 ```
@@ -33,7 +33,7 @@ Un entero indicando la cantidad de números leídos
 5
 ```
 
-### Test private 14.29
+### Test
 ```input
 3 5 6 3 0
 ```
@@ -41,7 +41,7 @@ Un entero indicando la cantidad de números leídos
 4
 ```
 
-### Test private 14.29
+### Test
 ```input
 8 6 -1 7 0
 ```
@@ -49,7 +49,7 @@ Un entero indicando la cantidad de números leídos
 4
 ```
 
-### Test private 14.29
+### Test
 ```input
 1 0
 ```
@@ -57,7 +57,7 @@ Un entero indicando la cantidad de números leídos
 1
 ```
 
-### Test private 14.29
+### Test
 ```input
 7 4 6 9 0
 ```
@@ -65,7 +65,7 @@ Un entero indicando la cantidad de números leídos
 4
 ```
 
-### Test private 14.26
+### Test
 ```input
 5 8 0
 ```

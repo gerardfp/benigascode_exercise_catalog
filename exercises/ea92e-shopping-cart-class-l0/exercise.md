@@ -54,7 +54,7 @@ public class Main {
 
 ## Tests
 
-### Test 50
+### Test
 ```input
 4
 FREKVENS Altavoz, 10x20 cm
@@ -74,7 +74,7 @@ ShoppingCart
        ENEBY Altavoz Bluetooth, 30x30 cm   89.99
 ```
 
-### Test private 50
+### Test
 ```input
 2
 LILLHULT MiniUSB cable, 0.4 m

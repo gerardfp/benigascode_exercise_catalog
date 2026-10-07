@@ -73,7 +73,7 @@ S'imprimirà el percentatge d'èxit de cada opció en format Array.
 
 ## Tests
 
-### Test 16.67
+### Test
 ```input
 3
 5
@@ -87,7 +87,7 @@ false
 [75.0, 50.0, 50.0]
 ```
 
-### Test 16.67
+### Test
 ```input
 3
 6
@@ -102,7 +102,7 @@ false
 [75.0, 66.66667, 50.0]
 ```
 
-### Test private 16.67
+### Test
 ```input
 2
 5
@@ -116,7 +116,7 @@ true
 [80.0, 50.0]
 ```
 
-### Test private 16.67
+### Test
 ```input
 5
 10
@@ -135,7 +135,7 @@ true
 [50.0, 75.0, 60.000004, 50.0, 50.0]
 ```
 
-### Test private 16.67
+### Test
 ```input
 5
 100
@@ -145,7 +145,7 @@ false true true false false false true false true false false true true true fal
 [33.333336, 47.368423, 33.333336, 60.000004, 50.0]
 ```
 
-### Test private 16.65
+### Test
 ```input
 3
 1000

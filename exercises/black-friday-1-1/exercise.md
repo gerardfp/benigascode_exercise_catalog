@@ -28,7 +28,7 @@ S'imprimirà cada producte en una nova línia: el codi i el preu apujat (float).
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 2 5
 HW_Hled2 100
@@ -49,7 +49,7 @@ SK8_Plus 550.0
 TK_CPANA 110.0
 ```
 
-### Test 20
+### Test
 ```input
 2 15
 UE_Boom_2 59
@@ -70,7 +70,7 @@ HP_M404dn 177.76001
 Epson_EH_TW610 658.9
 ```
 
-### Test private 20
+### Test
 ```input
 5 3.33
 Mi_TV_4S 349
@@ -103,7 +103,7 @@ HW_T530 168.37
 MediaPad_M5 197.75
 ```
 
-### Test private 20
+### Test
 ```input
 2 5
 HW_Hled2 100
@@ -164,7 +164,7 @@ HW_T530 168.37
 MediaPad_M5 197.75
 ```
 
-### Test private 20
+### Test
 ```input
 3 10
 yCat9000 1000

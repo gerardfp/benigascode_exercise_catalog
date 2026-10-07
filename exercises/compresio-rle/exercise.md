@@ -30,7 +30,7 @@ La cadena comprimida
 
 ## Tests
 
-### Test 14.29
+### Test
 ```input
 BN
 ```
@@ -38,7 +38,7 @@ BN
 1B1N
 ```
 
-### Test 14.29
+### Test
 ```input
 BBBNNNN
 ```
@@ -46,7 +46,7 @@ BBBNNNN
 3B4N
 ```
 
-### Test private 14.29
+### Test
 ```input
 BBBBBNNNB
 ```
@@ -54,7 +54,7 @@ BBBBBNNNB
 5B3N1B
 ```
 
-### Test private 14.29
+### Test
 ```input
 BNNNNNB
 ```
@@ -62,7 +62,7 @@ BNNNNNB
 1B5N1B
 ```
 
-### Test private 14.29
+### Test
 ```input
 ABBBAAAANNNCCADDDDD
 ```
@@ -70,7 +70,7 @@ ABBBAAAANNNCCADDDDD
 1A3B4A3N2C1A5D
 ```
 
-### Test private 14.29
+### Test
 ```input
 WWWWWWWWHHHHHHHAAAAAAATTTTTTTTTTTTTT
 ```
@@ -78,7 +78,7 @@ WWWWWWWWHHHHHHHAAAAAAATTTTTTTTTTTTTT
 8W7H7A14T
 ```
 
-### Test private 14.26
+### Test
 ```input
 JAVA
 ```

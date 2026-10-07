@@ -19,7 +19,7 @@ A continuació venen els nombres de la matriu.
 
 ## Tests
 
-### Test 6.25
+### Test
 ```input
 2
 1 1
@@ -29,7 +29,7 @@ A continuació venen els nombres de la matriu.
 SI
 ```
 
-### Test 6.25
+### Test
 ```input
 2
 1 2
@@ -39,7 +39,7 @@ SI
 SI
 ```
 
-### Test private 6.25
+### Test
 ```input
 3
 0 0 0
@@ -50,7 +50,7 @@ SI
 SI
 ```
 
-### Test private 6.25
+### Test
 ```input
 4
 1 2 3 4
@@ -62,7 +62,7 @@ SI
 SI
 ```
 
-### Test private 6.25
+### Test
 ```input
 3
 0 0 0
@@ -73,7 +73,7 @@ SI
 NO
 ```
 
-### Test private 6.25
+### Test
 ```input
 3
 0 0 0
@@ -84,7 +84,7 @@ NO
 SI
 ```
 
-### Test private 6.25
+### Test
 ```input
 3
 0 0 0
@@ -95,7 +95,7 @@ SI
 NO
 ```
 
-### Test private 6.25
+### Test
 ```input
 3
 0 0 0
@@ -106,7 +106,7 @@ NO
 NO
 ```
 
-### Test private 6.25
+### Test
 ```input
 5
 11 12 13 14 15
@@ -119,7 +119,7 @@ NO
 NO
 ```
 
-### Test private 6.25
+### Test
 ```input
 5
 11 12 13 14 15
@@ -132,7 +132,7 @@ NO
 SI
 ```
 
-### Test private 6.25
+### Test
 ```input
 2
 1 2 0 3
@@ -141,7 +141,7 @@ SI
 SI
 ```
 
-### Test private 6.25
+### Test
 ```input
 3
 1 2 3 0 4 5 0 0 6
@@ -150,7 +150,7 @@ SI
 SI
 ```
 
-### Test private 6.25
+### Test
 ```input
 9
  1  5  7  3  6  4  0  0  9 
@@ -167,7 +167,7 @@ SI
 SI
 ```
 
-### Test private 6.25
+### Test
 ```input
 13
  8  4  7  6  8  2  6  9  4  1  7  9  4 
@@ -188,7 +188,7 @@ SI
 NO
 ```
 
-### Test private 6.25
+### Test
 ```input
 5
  6  8  1  3  6 
@@ -201,7 +201,7 @@ NO
 NO
 ```
 
-### Test private 6.25
+### Test
 ```input
 9
  0  6  6  9  1  7  0  8  7 

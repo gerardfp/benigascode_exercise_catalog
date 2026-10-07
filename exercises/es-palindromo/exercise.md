@@ -55,7 +55,7 @@ NO
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 radar
 ```
@@ -63,7 +63,7 @@ radar
 SI
 ```
 
-### Test 20
+### Test
 ```input
 java
 ```
@@ -71,7 +71,7 @@ java
 NO
 ```
 
-### Test private 30
+### Test
 ```input
 Anita lava la tina
 ```
@@ -79,7 +79,7 @@ Anita lava la tina
 SI
 ```
 
-### Test private 30
+### Test
 ```input
 benigascode plataforma educativa
 ```

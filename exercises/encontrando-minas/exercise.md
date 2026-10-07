@@ -20,7 +20,7 @@ S'escriurà la posició (fila i columna, separades per un espai) de cada mina tr
 
 ## Tests
 
-### Test 12.5
+### Test
 ```input
 2 2
 0 1
@@ -30,7 +30,7 @@ S'escriurà la posició (fila i columna, separades per un espai) de cada mina tr
 1 2
 ```
 
-### Test 12.5
+### Test
 ```input
 3 3
 1 0 0
@@ -42,7 +42,7 @@ S'escriurà la posició (fila i columna, separades per un espai) de cada mina tr
 3 3
 ```
 
-### Test private 12.5
+### Test
 ```input
 3 4
 1 1 0 0
@@ -56,7 +56,7 @@ S'escriurà la posició (fila i columna, separades per un espai) de cada mina tr
 3 2
 ```
 
-### Test private 12.5
+### Test
 ```input
 1 1
 1
@@ -65,7 +65,7 @@ S'escriurà la posició (fila i columna, separades per un espai) de cada mina tr
 1 1
 ```
 
-### Test private 12.5
+### Test
 ```input
 5 5
 0 0 0 0 0
@@ -78,7 +78,7 @@ S'escriurà la posició (fila i columna, separades per un espai) de cada mina tr
 3 3
 ```
 
-### Test private 12.5
+### Test
 ```input
 1 4
 0 1 0 1
@@ -88,7 +88,7 @@ S'escriurà la posició (fila i columna, separades per un espai) de cada mina tr
 1 4
 ```
 
-### Test private 12.5
+### Test
 ```input
 4 1
 0
@@ -101,7 +101,7 @@ S'escriurà la posició (fila i columna, separades per un espai) de cada mina tr
 4 1
 ```
 
-### Test private 12.5
+### Test
 ```input
 7 6
 0 1 0 1 1 0

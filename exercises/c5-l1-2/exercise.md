@@ -81,7 +81,7 @@ public class Main {
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 1 2 3 2  -1
 ```
@@ -92,7 +92,7 @@ public class Main {
 ( )(*)( )(*)( )
 ```
 
-### Test 20
+### Test
 ```input
 1 2 3 2   -1
 ```
@@ -103,7 +103,7 @@ public class Main {
 ( )(*)( )(*)( )
 ```
 
-### Test private 20
+### Test
 ```input
 0 4 2   -1
 ```
@@ -113,7 +113,7 @@ public class Main {
 (*)( )(*)( )(*)
 ```
 
-### Test private 20
+### Test
 ```input
 0 3 2 4 1 0 4 0 3 2 1   -1
 ```
@@ -131,7 +131,7 @@ public class Main {
 (*)( )( )( )( )
 ```
 
-### Test private 20
+### Test
 ```input
 0 2 4 1 3 0 2 4 1 3  -1
 ```

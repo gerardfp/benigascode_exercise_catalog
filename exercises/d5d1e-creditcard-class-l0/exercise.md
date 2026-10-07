@@ -45,7 +45,7 @@ public class Main {
 
 ## Tests
 
-### Test 33.33
+### Test
 ```input
 Lola Mento
 1234567812345678
@@ -59,7 +59,7 @@ Saldo: 2000.5
 Limit: 300.0
 ```
 
-### Test private 33.33
+### Test
 ```input
 Elena Nito
 9876543219876543
@@ -73,7 +73,7 @@ Saldo: 0.0
 Limit: 1000000.0
 ```
 
-### Test private 33.34
+### Test
 ```input
 Penelope Luda
 1234567891234567

@@ -76,7 +76,7 @@ S'imprimirà l'espai ocupat en cada disc un cop s'han emmagatzemat tots els bloc
 90 92 99 117 87 92
 ```
 
-### Test private
+### Test
 ```input
 8
 100 0 110 70 20 35 45 90

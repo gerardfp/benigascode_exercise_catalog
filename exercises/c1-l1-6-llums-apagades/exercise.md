@@ -21,7 +21,7 @@ S'ha d'imprimir `true` si tots els llums estan apagats, i `false` si hi ha algú
 
 ## Tests
 
-### Test 25
+### Test
 ```input
 false false false false
 ```
@@ -29,7 +29,7 @@ false false false false
 true
 ```
 
-### Test 25
+### Test
 ```input
 false false false false
 ```
@@ -37,7 +37,7 @@ false false false false
 true
 ```
 
-### Test private 25
+### Test
 ```input
 true false false false
 ```
@@ -45,7 +45,7 @@ true false false false
 false
 ```
 
-### Test private 25
+### Test
 ```input
 false false false true
 ```

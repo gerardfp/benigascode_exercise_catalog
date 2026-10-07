@@ -79,7 +79,7 @@ Per exemple: suposem que el bit-field es **34**:
 
 ## Tests
 
-### Test 12.5
+### Test
 ```input
 10
 ```
@@ -88,7 +88,7 @@ EXT4_SYNC_FL
 EXT4_UNRM_FL
 ```
 
-### Test 12.5
+### Test
 ```input
 11
 ```
@@ -98,7 +98,7 @@ EXT4_UNRM_FL
 EXT4_SECRM_FL
 ```
 
-### Test private 12.5
+### Test
 ```input
 23
 ```
@@ -109,7 +109,7 @@ EXT4_UNRM_FL
 EXT4_SECRM_FL
 ```
 
-### Test private 12.5
+### Test
 ```input
 31
 ```
@@ -121,7 +121,7 @@ EXT4_UNRM_FL
 EXT4_SECRM_FL
 ```
 
-### Test private 12.5
+### Test
 ```input
 170
 ```
@@ -132,7 +132,7 @@ EXT4_SYNC_FL
 EXT4_UNRM_FL
 ```
 
-### Test private 12.5
+### Test
 ```input
 255
 ```
@@ -147,7 +147,7 @@ EXT4_UNRM_FL
 EXT4_SECRM_FL
 ```
 
-### Test private 12.5
+### Test
 ```input
 1
 ```
@@ -155,7 +155,7 @@ EXT4_SECRM_FL
 EXT4_SECRM_FL
 ```
 
-### Test private 12.5
+### Test
 ```input
 64
 ```

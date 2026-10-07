@@ -40,7 +40,7 @@ El elemento k está comprendido entre 0 y N-1 (siendo N el tamaño del vector).
 
 ## Tests
 
-### Test 25
+### Test
 ```input
 10
 1 2 3 4 5 6 7 8 9 10
@@ -50,7 +50,7 @@ El elemento k está comprendido entre 0 y N-1 (siendo N el tamaño del vector).
 2 3 4 5 6 7 8 9 10 1
 ```
 
-### Test 25
+### Test
 ```input
 5
 10 20 30 40 50
@@ -60,7 +60,7 @@ El elemento k está comprendido entre 0 y N-1 (siendo N el tamaño del vector).
 40 50 10 20 30
 ```
 
-### Test private 25
+### Test
 ```input
 4
 1 2 3 4
@@ -70,7 +70,7 @@ El elemento k está comprendido entre 0 y N-1 (siendo N el tamaño del vector).
 1 2 3 4
 ```
 
-### Test private 25
+### Test
 ```input
 3
 5 6 7

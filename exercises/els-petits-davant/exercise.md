@@ -29,7 +29,7 @@ public class Main {
 
 ## Tests
 
-### Test 7.69
+### Test
 ```input
 1 2 3
 ```
@@ -37,7 +37,7 @@ public class Main {
 true
 ```
 
-### Test 7.69
+### Test
 ```input
 1 3 2
 ```
@@ -45,7 +45,7 @@ true
 false
 ```
 
-### Test private 7.69
+### Test
 ```input
 2 1 3
 ```
@@ -53,7 +53,7 @@ false
 false
 ```
 
-### Test private 7.69
+### Test
 ```input
 2 3 1
 ```
@@ -61,7 +61,7 @@ false
 false
 ```
 
-### Test private 7.69
+### Test
 ```input
 3 1 2
 ```
@@ -69,7 +69,7 @@ false
 false
 ```
 
-### Test private 7.69
+### Test
 ```input
 3 2 1
 ```
@@ -77,7 +77,7 @@ false
 false
 ```
 
-### Test private 7.69
+### Test
 ```input
 1 1 1
 ```
@@ -85,7 +85,7 @@ false
 true
 ```
 
-### Test private 7.69
+### Test
 ```input
 1 1 2
 ```
@@ -93,7 +93,7 @@ true
 true
 ```
 
-### Test private 7.69
+### Test
 ```input
 1 2 1
 ```
@@ -101,7 +101,7 @@ true
 false
 ```
 
-### Test private 7.69
+### Test
 ```input
 1 2 2
 ```
@@ -109,7 +109,7 @@ false
 true
 ```
 
-### Test private 7.69
+### Test
 ```input
 10 1000 1000000
 ```
@@ -117,7 +117,7 @@ true
 true
 ```
 
-### Test private 7.69
+### Test
 ```input
 213 213 123
 ```
@@ -125,7 +125,7 @@ true
 false
 ```
 
-### Test private 7.72
+### Test
 ```input
 100 100 1000
 ```

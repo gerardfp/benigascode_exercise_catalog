@@ -21,7 +21,7 @@ Un nombre enter indicant el perímetre del rectangle
 
 ## Tests
 
-### Test 12.5
+### Test
 ```input
 3 2
 0 0
@@ -30,7 +30,7 @@ Un nombre enter indicant el perímetre del rectangle
 10
 ```
 
-### Test 12.5
+### Test
 ```input
 3 2
 0 0
@@ -39,7 +39,7 @@ Un nombre enter indicant el perímetre del rectangle
 10
 ```
 
-### Test private 12.5
+### Test
 ```input
 1 1
 1 1
@@ -48,7 +48,7 @@ Un nombre enter indicant el perímetre del rectangle
 0
 ```
 
-### Test private 12.5
+### Test
 ```input
 2 2
 1 1
@@ -57,7 +57,7 @@ Un nombre enter indicant el perímetre del rectangle
 4
 ```
 
-### Test private 12.5
+### Test
 ```input
 1 1
 -1 -1
@@ -66,7 +66,7 @@ Un nombre enter indicant el perímetre del rectangle
 8
 ```
 
-### Test private 12.5
+### Test
 ```input
 4 7
 -2 -5
@@ -75,7 +75,7 @@ Un nombre enter indicant el perímetre del rectangle
 36
 ```
 
-### Test private 12.5
+### Test
 ```input
 7 6
 2 4
@@ -84,7 +84,7 @@ Un nombre enter indicant el perímetre del rectangle
 14
 ```
 
-### Test private 12.5
+### Test
 ```input
 3 10
 1 8

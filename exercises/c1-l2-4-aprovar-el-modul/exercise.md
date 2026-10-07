@@ -27,7 +27,7 @@ S'imprimirà `true` si l'alumne aprova el mòdul, o `false` si no l'aprova.
 
 ## Tests
 
-### Test 14.29
+### Test
 ```input
 6 2 4
 3 0 0
@@ -37,7 +37,7 @@ S'imprimirà `true` si l'alumne aprova el mòdul, o `false` si no l'aprova.
 false
 ```
 
-### Test 14.29
+### Test
 ```input
 6 5 4
 3 1 5
@@ -47,7 +47,7 @@ false
 false
 ```
 
-### Test private 14.29
+### Test
 ```input
 6 0 8
 3 2 5
@@ -57,7 +57,7 @@ false
 false
 ```
 
-### Test private 14.29
+### Test
 ```input
 6 3 4
 3 3 5
@@ -67,7 +67,7 @@ false
 false
 ```
 
-### Test private 14.29
+### Test
 ```input
 6 3 5
 3 3 10
@@ -77,7 +77,7 @@ false
 true
 ```
 
-### Test private 14.29
+### Test
 ```input
 10 5 5
 3 3 0
@@ -87,7 +87,7 @@ true
 true
 ```
 
-### Test private 14.26
+### Test
 ```input
 1 0 0
 1 0 0

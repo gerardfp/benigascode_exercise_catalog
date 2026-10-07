@@ -64,7 +64,7 @@ public class Main {
 
 ## Tests
 
-### Test 33.33
+### Test
 ```input
 ryu 80 90 80
 honda 100 60 50
@@ -73,7 +73,7 @@ honda 100 60 50
 ryu
 ```
 
-### Test private 33.33
+### Test
 ```input
 blanka 80 80 80
 chun-li 60 90 100
@@ -82,7 +82,7 @@ chun-li 60 90 100
 chun-li
 ```
 
-### Test private 33.34
+### Test
 ```input
 ryu 80 90 80
 ken 80 80 90

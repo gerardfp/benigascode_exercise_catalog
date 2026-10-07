@@ -24,7 +24,7 @@ Es generarà una programa Java amb una classe anomenada "Dictionari", que inicia
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 hola
 adeu
@@ -41,7 +41,7 @@ class Dictionari {
 }
 ```
 
-### Test 20
+### Test
 ```input
 una
 llista
@@ -60,7 +60,7 @@ class Dictionari {
 }
 ```
 
-### Test private 20
+### Test
 ```input
 festival
 triangle
@@ -81,7 +81,7 @@ class Dictionari {
 }
 ```
 
-### Test private 20
+### Test
 ```input
 metaprogramming
 __END__
@@ -94,7 +94,7 @@ class Dictionari {
 }
 ```
 
-### Test private 20
+### Test
 ```input
 metaprogramming
 rocks

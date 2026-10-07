@@ -38,7 +38,7 @@ public class Main {
 
 ## Tests
 
-### Test 33.33
+### Test
 ```input
 main.cpp Archivo C++
 Main.java Archivo Java
@@ -52,7 +52,7 @@ Archivo Java Main.java
 Archivo C++ main.cpp 
 ```
 
-### Test private 33.33
+### Test
 ```input
 index.php Archivo PHP
 sample.cs Archivo C#
@@ -66,7 +66,7 @@ Archivo C# sample.cs
 Archivo PHP index.php
 ```
 
-### Test private 33.34
+### Test
 ```input
 index.ts Archivo TypeScript
 out.asm Archivo assembler

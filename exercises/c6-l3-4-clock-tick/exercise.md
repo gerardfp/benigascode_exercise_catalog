@@ -50,7 +50,7 @@ public class E12 {
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 1 60 3600 0   -1
 ```
@@ -61,7 +61,7 @@ public class E12 {
 00:00:00
 ```
 
-### Test 20
+### Test
 ```input
 1 60 3600 0   -1
 ```
@@ -72,7 +72,7 @@ public class E12 {
 00:00:00
 ```
 
-### Test private 20
+### Test
 ```input
 1 0 60 0 3600    -1
 ```
@@ -84,7 +84,7 @@ public class E12 {
 01:00:00
 ```
 
-### Test private 20
+### Test
 ```input
 1 1 1 1 60 60 60 3600 3600   -1
 ```
@@ -100,7 +100,7 @@ public class E12 {
 02:03:04
 ```
 
-### Test private 20
+### Test
 ```input
 34 456 23 32435 0 34235    -1
 ```

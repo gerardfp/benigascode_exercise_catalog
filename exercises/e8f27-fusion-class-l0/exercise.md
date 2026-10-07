@@ -66,7 +66,7 @@ public class Main {
 
 ## Tests
 
-### Test 50
+### Test
 ```input
 ```
 ```output
@@ -78,7 +78,7 @@ Gotenks: fuerza=150, velocidad=190
 Gogeta: fuerza=190, velocidad=190
 ```
 
-### Test private 50
+### Test
 ```input
 ```
 ```output

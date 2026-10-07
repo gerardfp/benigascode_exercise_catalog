@@ -32,7 +32,7 @@ Se imprimirá la imagen resultante tras aplicar el blending mode indicado a las 
 
 ## Tests
 
-### Test 16.67
+### Test
 ```input
 3 3
 
@@ -52,7 +52,7 @@ ADD
 0 1 0
 ```
 
-### Test 16.67
+### Test
 ```input
 3 3
 
@@ -72,7 +72,7 @@ NORMAL
 0 1 0
 ```
 
-### Test private 16.67
+### Test
 ```input
 2 3
 
@@ -89,7 +89,7 @@ ADD
 5 7 2
 ```
 
-### Test private 16.67
+### Test
 ```input
 2 3
 
@@ -106,7 +106,7 @@ NORMAL
 5 5 2
 ```
 
-### Test private 16.67
+### Test
 ```input
 5 5
 
@@ -132,7 +132,7 @@ ADD
 5 4 5 5 5
 ```
 
-### Test private 16.65
+### Test
 ```input
 5 5
 

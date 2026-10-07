@@ -18,7 +18,7 @@ El mismo texto con las vocales en mayúscula.
 
 ## Tests
 
-### Test 25
+### Test
 ```input
 hola mundo!
 END
@@ -27,7 +27,7 @@ END
 hOlA mUndO!
 ```
 
-### Test 25
+### Test
 ```input
 aae io uu
 ae, iii.
@@ -40,7 +40,7 @@ AE, III.
 OU
 ```
 
-### Test private 25
+### Test
 ```input
 lorem ipsum dolor sit amet,
 consectetur adipiscing elit.
@@ -55,7 +55,7 @@ AlIqUAm Ut IAcUlIs EnIm,
 sIt AmEt tEmpOr mAssA.
 ```
 
-### Test private 25
+### Test
 ```input
 a
 END

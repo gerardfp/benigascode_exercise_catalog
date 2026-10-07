@@ -38,7 +38,7 @@ Les dues últimes són la separació per valor (valor parell/imparell).
 
 ## Tests
 
-### Test 14.29
+### Test
 ```input
 3    
 1 2 3
@@ -51,7 +51,7 @@ Les dues últimes són la separació per valor (valor parell/imparell).
 1 3
 ```
 
-### Test 14.29
+### Test
 ```input
 5    
 5 4 8 6 7
@@ -64,7 +64,7 @@ Les dues últimes són la separació per valor (valor parell/imparell).
 5 7
 ```
 
-### Test private 14.29
+### Test
 ```input
 2   
 6 3
@@ -77,7 +77,7 @@ Les dues últimes són la separació per valor (valor parell/imparell).
 3
 ```
 
-### Test private 14.29
+### Test
 ```input
 10    
 3 6 34 6 2 4 6 23 45 4
@@ -90,7 +90,7 @@ Les dues últimes són la separació per valor (valor parell/imparell).
 3 23 45
 ```
 
-### Test private 14.29
+### Test
 ```input
 5   
 2 3 4 5 6
@@ -103,7 +103,7 @@ Les dues últimes són la separació per valor (valor parell/imparell).
 3 5
 ```
 
-### Test private 14.29
+### Test
 ```input
 2  
 1 2
@@ -116,7 +116,7 @@ Les dues últimes són la separació per valor (valor parell/imparell).
 1
 ```
 
-### Test private 14.26
+### Test
 ```input
 20
 3 5 4 2 6 7 8 0 1 5 3 4 5 6 3 7 8 1 0 4

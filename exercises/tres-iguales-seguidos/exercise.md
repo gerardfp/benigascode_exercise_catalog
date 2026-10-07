@@ -19,7 +19,7 @@ Un "SI" o un "NO" por cada secuencia de números leída; separados por un salto 
 
 ## Tests
 
-### Test 50
+### Test
 ```input
 3
 1 4 3 5 5 5 6 8 5 3 8 9 5 5 5 8 7 3 5 0
@@ -32,7 +32,7 @@ NO
 SI
 ```
 
-### Test private 50
+### Test
 ```input
 2
 4 6 7 9 0

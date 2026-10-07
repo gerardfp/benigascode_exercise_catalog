@@ -31,7 +31,7 @@ Si no se ha colado nadie se escribirá .
 
 ## Tests
 
-### Test 16.67
+### Test
 ```input
 5
 1 4 3 2 5
@@ -41,7 +41,7 @@ La persona con el ticket 4 se ha colado por delante de 2 personas.
 La persona con el ticket 3 se ha colado por delante de 1 personas.
 ```
 
-### Test 16.67
+### Test
 ```input
 10
 1 2 5 6 3 4 10 14 13 12
@@ -53,7 +53,7 @@ La persona con el ticket 14 se ha colado por delante de 2 personas.
 La persona con el ticket 13 se ha colado por delante de 1 personas.
 ```
 
-### Test private 16.67
+### Test
 ```input
 6
 23 2 7 5 24 25
@@ -63,7 +63,7 @@ La persona con el ticket 23 se ha colado por delante de 3 personas.
 La persona con el ticket 7 se ha colado por delante de 1 personas.
 ```
 
-### Test private 16.67
+### Test
 ```input
 4
 23 25 24 5
@@ -74,7 +74,7 @@ La persona con el ticket 25 se ha colado por delante de 2 personas.
 La persona con el ticket 24 se ha colado por delante de 1 personas.
 ```
 
-### Test private 16.67
+### Test
 ```input
 5
 7 12 13 17 23
@@ -83,7 +83,7 @@ La persona con el ticket 24 se ha colado por delante de 1 personas.
 COLA EN ORDEN
 ```
 
-### Test private 16.65
+### Test
 ```input
 7
 1 5 8 27 33 36 41

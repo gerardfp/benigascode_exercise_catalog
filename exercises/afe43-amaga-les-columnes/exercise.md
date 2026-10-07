@@ -31,7 +31,7 @@ Tots els camps de la taula han d'ocupar **10 espais i aliniats a l'esquerra**
 
 ## Tests
 
-### Test 25
+### Test
 ```input
 4 6
 Nombre  Apellidos UF1 UF2 UF3 FINAL
@@ -49,7 +49,7 @@ Pepe      Alvarez   1
 Eloy      Lopez     7      
 ```
 
-### Test 25
+### Test
 ```input
 4 6
 Nombre  Apellidos UF1 UF2 UF3 FINAL
@@ -67,7 +67,7 @@ Pepe      1         2         1         1
 Eloy      7         8         7         7  
 ```
 
-### Test private 25
+### Test
 ```input
 6 3
 Columna1 Columna2 Columna3
@@ -89,7 +89,7 @@ Campo41
 Campo51  
 ```
 
-### Test private 25
+### Test
 ```input
 6 3
 Columna1 Columna2 Columna3

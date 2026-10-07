@@ -17,7 +17,7 @@ Un número indicando la cantidad de divisores
 
 ## Tests
 
-### Test 9.09
+### Test
 ```input
 6
 ```
@@ -25,7 +25,7 @@ Un número indicando la cantidad de divisores
 4
 ```
 
-### Test 9.09
+### Test
 ```input
 12
 ```
@@ -33,7 +33,7 @@ Un número indicando la cantidad de divisores
 6
 ```
 
-### Test private 9.09
+### Test
 ```input
 17
 ```
@@ -41,7 +41,7 @@ Un número indicando la cantidad de divisores
 2
 ```
 
-### Test private 9.09
+### Test
 ```input
 0
 ```
@@ -49,7 +49,7 @@ Un número indicando la cantidad de divisores
 0
 ```
 
-### Test private 9.09
+### Test
 ```input
 1
 ```
@@ -57,7 +57,7 @@ Un número indicando la cantidad de divisores
 1
 ```
 
-### Test private 9.09
+### Test
 ```input
 2
 ```
@@ -65,7 +65,7 @@ Un número indicando la cantidad de divisores
 2
 ```
 
-### Test private 9.09
+### Test
 ```input
 60
 ```
@@ -73,7 +73,7 @@ Un número indicando la cantidad de divisores
 12
 ```
 
-### Test private 9.09
+### Test
 ```input
 5160
 ```
@@ -81,7 +81,7 @@ Un número indicando la cantidad de divisores
 32
 ```
 
-### Test private 9.09
+### Test
 ```input
 9985
 ```
@@ -89,7 +89,7 @@ Un número indicando la cantidad de divisores
 4
 ```
 
-### Test private 9.09
+### Test
 ```input
 9973
 ```
@@ -97,7 +97,7 @@ Un número indicando la cantidad de divisores
 2
 ```
 
-### Test private 9.1
+### Test
 ```input
 3
 ```

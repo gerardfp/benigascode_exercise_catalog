@@ -106,7 +106,7 @@ El tamany d'indentació és **4 espais**.
 
 ## Tests
 
-### Test 11.11
+### Test
 ```input
 if(true){
    a=3;
@@ -121,7 +121,7 @@ if(true){
 }
 ```
 
-### Test 11.11
+### Test
 ```input
 if(true){
    a=3;
@@ -137,7 +137,7 @@ if(true){
 }
 ```
 
-### Test private 11.11
+### Test
 ```input
    while(true){
    a=3;
@@ -155,7 +155,7 @@ while(true){
 }
 ```
 
-### Test private 11.11
+### Test
 ```input
     if(true){
         a=10;
@@ -173,7 +173,7 @@ if(true){
 }
 ```
 
-### Test private 11.11
+### Test
 ```input
    if(true){
    a=3;
@@ -195,7 +195,7 @@ if(true){
 }
 ```
 
-### Test private 11.11
+### Test
 ```input
  if(true){
         a=10;
@@ -219,7 +219,7 @@ if(true){
 }
 ```
 
-### Test private 11.11
+### Test
 ```input
  if(true){
         a=10;
@@ -250,7 +250,7 @@ if(true){
 }
 ```
 
-### Test private 11.11
+### Test
 ```input
 while(!false){
     if(true){
@@ -289,7 +289,7 @@ while(!false){
 }
 ```
 
-### Test private 11.12
+### Test
 ```input
 if(true){
 a();

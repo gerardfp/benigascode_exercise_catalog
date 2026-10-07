@@ -25,7 +25,7 @@ S'imprimirà el nombre mínim de salts que necessita donar per a arribar al fina
 
 ## Tests
 
-### Test 12.5
+### Test
 ```input
 1 2 1 2 2 3 2 1   -1
 ```
@@ -33,7 +33,7 @@ S'imprimirà el nombre mínim de salts que necessita donar per a arribar al fina
 3
 ```
 
-### Test 12.5
+### Test
 ```input
 1 2 1 2 1 2 3 1   -1
 ```
@@ -41,7 +41,7 @@ S'imprimirà el nombre mínim de salts que necessita donar per a arribar al fina
 4
 ```
 
-### Test private 12.5
+### Test
 ```input
 2 2 1 1 1 2 3 1   -1
 ```
@@ -49,7 +49,7 @@ S'imprimirà el nombre mínim de salts que necessita donar per a arribar al fina
 2
 ```
 
-### Test private 12.5
+### Test
 ```input
 3 3 2 2 1   -1
 ```
@@ -57,7 +57,7 @@ S'imprimirà el nombre mínim de salts que necessita donar per a arribar al fina
 0
 ```
 
-### Test private 12.5
+### Test
 ```input
 1 2 3 4   -1
 ```
@@ -65,7 +65,7 @@ S'imprimirà el nombre mínim de salts que necessita donar per a arribar al fina
 3
 ```
 
-### Test private 12.5
+### Test
 ```input
 1   -1
 ```
@@ -73,7 +73,7 @@ S'imprimirà el nombre mínim de salts que necessita donar per a arribar al fina
 0
 ```
 
-### Test private 12.5
+### Test
 ```input
 1 2 3 4 1 2 3 4 5 6 7 8 1   -1
 ```
@@ -81,7 +81,7 @@ S'imprimirà el nombre mínim de salts que necessita donar per a arribar al fina
 10
 ```
 
-### Test private 12.5
+### Test
 ```input
 9 5 1 2 3 1 2  -1
 ```

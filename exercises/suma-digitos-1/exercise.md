@@ -18,7 +18,7 @@ Un número entero
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 123
 ```
@@ -26,7 +26,7 @@ Un número entero
 6
 ```
 
-### Test 20
+### Test
 ```input
 11111
 ```
@@ -34,7 +34,7 @@ Un número entero
 5
 ```
 
-### Test private 20
+### Test
 ```input
 100000
 ```
@@ -42,7 +42,7 @@ Un número entero
 1
 ```
 
-### Test private 20
+### Test
 ```input
 2147483647
 ```
@@ -50,7 +50,7 @@ Un número entero
 46
 ```
 
-### Test private 20
+### Test
 ```input
 1
 ```

@@ -23,7 +23,7 @@ El nombre de llumins necessaris per fer la piràmide.
 
 ## Tests
 
-### Test 8.33
+### Test
 ```input
 1
 ```
@@ -31,7 +31,7 @@ El nombre de llumins necessaris per fer la piràmide.
 3
 ```
 
-### Test 8.33
+### Test
 ```input
 1
 ```
@@ -39,7 +39,7 @@ El nombre de llumins necessaris per fer la piràmide.
 3
 ```
 
-### Test private 8.33
+### Test
 ```input
 2
 ```
@@ -47,7 +47,7 @@ El nombre de llumins necessaris per fer la piràmide.
 9
 ```
 
-### Test private 8.33
+### Test
 ```input
 3
 ```
@@ -55,7 +55,7 @@ El nombre de llumins necessaris per fer la piràmide.
 18
 ```
 
-### Test private 8.33
+### Test
 ```input
 4
 ```
@@ -63,7 +63,7 @@ El nombre de llumins necessaris per fer la piràmide.
 30
 ```
 
-### Test private 8.33
+### Test
 ```input
 5
 ```
@@ -71,7 +71,7 @@ El nombre de llumins necessaris per fer la piràmide.
 45
 ```
 
-### Test private 8.33
+### Test
 ```input
 6
 ```
@@ -79,7 +79,7 @@ El nombre de llumins necessaris per fer la piràmide.
 63
 ```
 
-### Test private 8.33
+### Test
 ```input
 10
 ```
@@ -87,7 +87,7 @@ El nombre de llumins necessaris per fer la piràmide.
 165
 ```
 
-### Test private 8.33
+### Test
 ```input
 50
 ```
@@ -95,7 +95,7 @@ El nombre de llumins necessaris per fer la piràmide.
 3825
 ```
 
-### Test private 8.33
+### Test
 ```input
 115
 ```
@@ -103,7 +103,7 @@ El nombre de llumins necessaris per fer la piràmide.
 20010
 ```
 
-### Test private 8.33
+### Test
 ```input
 800
 ```
@@ -111,7 +111,7 @@ El nombre de llumins necessaris per fer la piràmide.
 961200
 ```
 
-### Test private 8.37
+### Test
 ```input
 999
 ```

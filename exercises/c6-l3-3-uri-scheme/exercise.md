@@ -57,7 +57,7 @@ public class E11 {
 
 ## Tests
 
-### Test 25
+### Test
 ```input
 http
 www.mydomain.com
@@ -69,7 +69,7 @@ fragment1
 http://www.mydomain.com/path/to?query=true#fragment1
 ```
 
-### Test 25
+### Test
 ```input
 http
 www.mydomain.com
@@ -81,7 +81,7 @@ fragment1
 http://www.mydomain.com/path/to?query=true#fragment1
 ```
 
-### Test private 25
+### Test
 ```input
 https
 anotherdomain.cat
@@ -93,7 +93,7 @@ frag
 https://anotherdomain.cat/path/to/page?q=1&s=1#frag
 ```
 
-### Test private 25
+### Test
 ```input
 https
 domainname.org

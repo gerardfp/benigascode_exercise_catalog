@@ -20,7 +20,7 @@ Un numero entero por cada secuencia de numeros; separados por un salto de línea
 
 ## Tests
 
-### Test 33.33
+### Test
 ```input
 1
 1 2 3 5 7 11 13 17 19 23 0
@@ -29,7 +29,7 @@ Un numero entero por cada secuencia de numeros; separados por un salto de línea
 10
 ```
 
-### Test private 33.33
+### Test
 ```input
 2
 4 6 2 10 5 0
@@ -40,7 +40,7 @@ Un numero entero por cada secuencia de numeros; separados por un salto de línea
 0
 ```
 
-### Test private 33.34
+### Test
 ```input
 1
 1 0

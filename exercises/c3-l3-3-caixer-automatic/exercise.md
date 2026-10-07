@@ -38,7 +38,7 @@ EL REPL anirà mostrant el resultat de les operacions. Els missatges de sortida 
 
 ## Tests
 
-### Test 11.11
+### Test
 ```input
 INGRESSAR 10
 RETIRAR 5
@@ -51,7 +51,7 @@ Retirar diners -> 5.00
 >> Saldo: 5.00
 ```
 
-### Test 11.11
+### Test
 ```input
 INGRESSAR 10
 RETIRAR 5
@@ -64,7 +64,7 @@ Retirar diners -> 5.00
 >> Saldo: 5.00
 ```
 
-### Test private 11.11
+### Test
 ```input
 INGRESSAR 10
 RETIRAR 5
@@ -80,7 +80,7 @@ Retirar diners -> 5.00
 >> Saldo: 0.00
 ```
 
-### Test private 11.11
+### Test
 ```input
 INGRESSAR 10
 RETIRAR 10
@@ -96,7 +96,7 @@ Saldo insuficient
 >> Saldo: 0.00
 ```
 
-### Test private 11.11
+### Test
 ```input
 INGRESSAR 10
 RETIRAR 5
@@ -118,7 +118,7 @@ Saldo insuficient
 >> Saldo: 0.00
 ```
 
-### Test private 11.11
+### Test
 ```input
 INGRESSAR 10
 RETIRAR 5
@@ -140,7 +140,7 @@ Retirar diners -> 10.00
 >> Saldo: 5.00
 ```
 
-### Test private 11.11
+### Test
 ```input
 INGRESSAR 10.5
 INGRESSAR 10.5
@@ -160,7 +160,7 @@ Retirar diners -> 5.50
 >> Saldo: 15.50
 ```
 
-### Test private 11.11
+### Test
 ```input
 INGRESSAR 10
 PAGAR
@@ -177,7 +177,7 @@ Retirar diners -> 5.00
 >> Saldo: 5.00
 ```
 
-### Test private 11.12
+### Test
 ```input
 INGRESSAR 10
 TRANSF

@@ -18,7 +18,7 @@ S'imprimirà  si el producte està caducat, o  si no ho està.
 
 ## Tests
 
-### Test 11.11
+### Test
 ```input
  1 1 2020
  1 1 2020
@@ -27,7 +27,7 @@ S'imprimirà  si el producte està caducat, o  si no ho està.
 false
 ```
 
-### Test 11.11
+### Test
 ```input
 1 1 2030
 1 1 2020
@@ -36,7 +36,7 @@ false
 false
 ```
 
-### Test private 11.11
+### Test
 ```input
 1 2 2020
 1 1 2020
@@ -45,7 +45,7 @@ false
 false
 ```
 
-### Test private 11.11
+### Test
 ```input
 2 1 2020
 1 1 2020
@@ -54,7 +54,7 @@ false
 false
 ```
 
-### Test private 11.11
+### Test
 ```input
 1 1 2020
 2 1 2020
@@ -63,7 +63,7 @@ false
 true
 ```
 
-### Test private 11.11
+### Test
 ```input
 1 1 2020
 1 2 2020
@@ -72,7 +72,7 @@ true
 true
 ```
 
-### Test private 11.11
+### Test
 ```input
 1 1 2020
 1 1 2030
@@ -81,7 +81,7 @@ true
 true
 ```
 
-### Test private 11.11
+### Test
 ```input
 2 2 2020
 1 1 2030
@@ -90,7 +90,7 @@ true
 true
 ```
 
-### Test private 11.12
+### Test
 ```input
 1 1 2030
 2 2 2020

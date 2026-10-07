@@ -52,7 +52,7 @@ NO_PRIMO
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 7
 ```
@@ -60,7 +60,7 @@ NO_PRIMO
 PRIMO
 ```
 
-### Test 20
+### Test
 ```input
 12
 ```
@@ -68,7 +68,7 @@ PRIMO
 NO_PRIMO
 ```
 
-### Test private 30
+### Test
 ```input
 1
 ```
@@ -76,7 +76,7 @@ NO_PRIMO
 NO_PRIMO
 ```
 
-### Test private 30
+### Test
 ```input
 997
 ```

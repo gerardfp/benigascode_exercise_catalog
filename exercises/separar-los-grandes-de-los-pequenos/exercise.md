@@ -20,7 +20,7 @@ Las dos secuencias separadas por un salto de línea.
 
 ## Tests
 
-### Test 14.29
+### Test
 ```input
 3   1 2 3
 2
@@ -30,7 +30,7 @@ Las dos secuencias separadas por un salto de línea.
 3
 ```
 
-### Test 14.29
+### Test
 ```input
 5    100 300 400 200 500
 300
@@ -40,7 +40,7 @@ Las dos secuencias separadas por un salto de línea.
 400 500
 ```
 
-### Test private 14.29
+### Test
 ```input
 5    34 56 78 45 12
 50
@@ -50,7 +50,7 @@ Las dos secuencias separadas por un salto de línea.
 56 78
 ```
 
-### Test private 14.29
+### Test
 ```input
 3    67 78 89
 10
@@ -59,7 +59,7 @@ Las dos secuencias separadas por un salto de línea.
 67 78 89
 ```
 
-### Test private 14.29
+### Test
 ```input
 3    67 78 89
 100
@@ -68,7 +68,7 @@ Las dos secuencias separadas por un salto de línea.
 67 78 89
 ```
 
-### Test private 14.29
+### Test
 ```input
 5    3 1 4 2 5
 1
@@ -78,7 +78,7 @@ Las dos secuencias separadas por un salto de línea.
 3 4 2 5
 ```
 
-### Test private 14.26
+### Test
 ```input
 10    12 12 13 18 19 15 16 20 17 18
 17

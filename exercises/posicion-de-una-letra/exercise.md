@@ -18,7 +18,7 @@ Un enter indicant la posició de la lletra. Si la lletra no hi és al text, s'im
 
 ## Tests
 
-### Test 14.29
+### Test
 ```input
 hola mon!
 o
@@ -27,7 +27,7 @@ o
 1
 ```
 
-### Test 14.29
+### Test
 ```input
 hola mon!
 m
@@ -36,7 +36,7 @@ m
 5
 ```
 
-### Test private 14.29
+### Test
 ```input
 hola mon!
 z
@@ -45,7 +45,7 @@ z
 -1
 ```
 
-### Test private 14.29
+### Test
 ```input
 hola mons
 s
@@ -54,7 +54,7 @@ s
 8
 ```
 
-### Test private 14.29
+### Test
 ```input
 a
 a
@@ -63,7 +63,7 @@ a
 0
 ```
 
-### Test private 14.29
+### Test
 ```input
 hola hola
 h
@@ -72,7 +72,7 @@ h
 0
 ```
 
-### Test private 14.26
+### Test
 ```input
 fadsfds
 d

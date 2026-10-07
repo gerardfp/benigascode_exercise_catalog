@@ -50,7 +50,7 @@ public class Main {
 
 ## Tests
 
-### Test 33.33
+### Test
 ```input
 10 5
 5 10
@@ -63,7 +63,7 @@ public class Main {
 2.50 * -2.00 + 5.00 = 0
 ```
 
-### Test private 33.33
+### Test
 ```input
 10 5
 5 10
@@ -76,7 +76,7 @@ public class Main {
 2.50 * -2.00 + 5.00 = 0
 ```
 
-### Test private 33.34
+### Test
 ```input
 100 500
 1 5

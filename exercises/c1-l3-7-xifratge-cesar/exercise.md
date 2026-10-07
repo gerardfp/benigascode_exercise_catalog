@@ -18,7 +18,7 @@ S'escriurà la paraula codificada.
 
 ## Tests
 
-### Test 11.11
+### Test
 ```input
 beca
 3
@@ -27,7 +27,7 @@ beca
 ehfd
 ```
 
-### Test 11.11
+### Test
 ```input
 beca
 3
@@ -36,7 +36,7 @@ beca
 ehfd
 ```
 
-### Test private 11.11
+### Test
 ```input
 beca
 5
@@ -45,7 +45,7 @@ beca
 gjhf
 ```
 
-### Test private 11.11
+### Test
 ```input
 hola
 10
@@ -54,7 +54,7 @@ hola
 ryvk
 ```
 
-### Test private 11.11
+### Test
 ```input
 java
 20
@@ -63,7 +63,7 @@ java
 dupu
 ```
 
-### Test private 11.11
+### Test
 ```input
 zeta
 27
@@ -72,7 +72,7 @@ zeta
 afub
 ```
 
-### Test private 11.11
+### Test
 ```input
 char
 78
@@ -81,7 +81,7 @@ char
 char
 ```
 
-### Test private 11.11
+### Test
 ```input
 long
 112
@@ -90,7 +90,7 @@ long
 twvo
 ```
 
-### Test private 11.12
+### Test
 ```input
 byte
 0

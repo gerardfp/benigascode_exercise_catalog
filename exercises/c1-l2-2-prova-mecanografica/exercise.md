@@ -29,7 +29,7 @@ S'ha d'imprimir la Precisió (percentatge d'encerts) i la Velocitat (paraules pe
 
 ## Tests
 
-### Test 12.5
+### Test
 ```input
 1 1 1
 ```
@@ -38,7 +38,7 @@ S'ha d'imprimir la Precisió (percentatge d'encerts) i la Velocitat (paraules pe
 12
 ```
 
-### Test 12.5
+### Test
 ```input
 100 10 60
 ```
@@ -47,7 +47,7 @@ S'ha d'imprimir la Precisió (percentatge d'encerts) i la Velocitat (paraules pe
 20
 ```
 
-### Test private 12.5
+### Test
 ```input
 10 3 60
 ```
@@ -56,7 +56,7 @@ S'ha d'imprimir la Precisió (percentatge d'encerts) i la Velocitat (paraules pe
 2
 ```
 
-### Test private 12.5
+### Test
 ```input
 60 0 10
 ```
@@ -65,7 +65,7 @@ S'ha d'imprimir la Precisió (percentatge d'encerts) i la Velocitat (paraules pe
 72
 ```
 
-### Test private 12.5
+### Test
 ```input
 300 37 65
 ```
@@ -74,7 +74,7 @@ S'ha d'imprimir la Precisió (percentatge d'encerts) i la Velocitat (paraules pe
 55
 ```
 
-### Test private 12.5
+### Test
 ```input
 789 7 165
 ```
@@ -83,7 +83,7 @@ S'ha d'imprimir la Precisió (percentatge d'encerts) i la Velocitat (paraules pe
 57
 ```
 
-### Test private 12.5
+### Test
 ```input
 60 60 6
 ```
@@ -92,7 +92,7 @@ S'ha d'imprimir la Precisió (percentatge d'encerts) i la Velocitat (paraules pe
 120
 ```
 
-### Test private 12.5
+### Test
 ```input
 1 1 1
 ```

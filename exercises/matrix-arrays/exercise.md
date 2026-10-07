@@ -20,7 +20,7 @@ S'imprimiran el nombre de zeros i uns separats per espai en blanc
 
 ## Tests
 
-### Test 33.33
+### Test
 ```input
 2 4
 0 1 0 1
@@ -30,7 +30,7 @@ S'imprimiran el nombre de zeros i uns separats per espai en blanc
 3 5
 ```
 
-### Test private 33.33
+### Test
 ```input
 4 6
 1 1 0 1 0 0
@@ -42,7 +42,7 @@ S'imprimiran el nombre de zeros i uns separats per espai en blanc
 9 15
 ```
 
-### Test private 33.34
+### Test
 ```input
 5 3
 1 0 0

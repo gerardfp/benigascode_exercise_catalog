@@ -17,7 +17,7 @@ true | false
 
 ## Tests
 
-### Test 12.5
+### Test
 ```input
 Hello world!
 END
@@ -27,7 +27,7 @@ e
 false
 ```
 
-### Test 12.5
+### Test
 ```input
 Hello World!
 END
@@ -37,7 +37,7 @@ a
 true
 ```
 
-### Test private 12.5
+### Test
 ```input
 Hello World!
 END
@@ -47,7 +47,7 @@ u
 true
 ```
 
-### Test private 12.5
+### Test
 ```input
 Lorem ipsum 
 dolor sit amet, 
@@ -59,7 +59,7 @@ x
 true
 ```
 
-### Test private 12.5
+### Test
 ```input
 a
 END
@@ -69,7 +69,7 @@ a
 false
 ```
 
-### Test private 12.5
+### Test
 ```input
 Lorem ipsum 
 dolor sit amet, 
@@ -81,7 +81,7 @@ g
 false
 ```
 
-### Test private 12.5
+### Test
 ```input
 aaaa
 END
@@ -91,7 +91,7 @@ a
 false
 ```
 
-### Test private 12.5
+### Test
 ```input
 aaaa
 END

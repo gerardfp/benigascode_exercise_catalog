@@ -20,7 +20,7 @@ Un "SI" o un "NO" por cada caso de prueba, separados por un salto de linea "\n"
 
 ## Tests
 
-### Test 12.5
+### Test
 ```input
 1
 1 2 3 1 0
@@ -29,7 +29,7 @@ Un "SI" o un "NO" por cada caso de prueba, separados por un salto de linea "\n"
 SI
 ```
 
-### Test 12.5
+### Test
 ```input
 1
 1 2 3 4 0
@@ -38,7 +38,7 @@ SI
 NO
 ```
 
-### Test private 12.5
+### Test
 ```input
 2
 1 2 3 1 0
@@ -49,7 +49,7 @@ SI
 SI
 ```
 
-### Test private 12.5
+### Test
 ```input
 2
 1 2 3 1 0
@@ -60,7 +60,7 @@ SI
 NO
 ```
 
-### Test private 12.5
+### Test
 ```input
 3
 1 0
@@ -73,7 +73,7 @@ NO
 SI
 ```
 
-### Test private 12.5
+### Test
 ```input
 4
 1 2 1 2 0
@@ -88,7 +88,7 @@ SI
 SI
 ```
 
-### Test private 12.5
+### Test
 ```input
 3
 5 4 2 0
@@ -101,7 +101,7 @@ SI
 SI
 ```
 
-### Test private 12.5
+### Test
 ```input
 2
 6 7 4 9 0

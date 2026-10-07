@@ -32,7 +32,7 @@ Si no es pot realitzar, s'indicarà amb el missatge d'error "Invalid command  fo
 
 ## Tests
 
-### Test 3.23
+### Test
 ```input
 _  CREATE
 ```
@@ -40,7 +40,7 @@ _  CREATE
 CREATED
 ```
 
-### Test 3.23
+### Test
 ```input
 _  CREATE
 ```
@@ -48,7 +48,7 @@ _  CREATE
 CREATED
 ```
 
-### Test private 3.23
+### Test
 ```input
 _  START
 ```
@@ -56,7 +56,7 @@ _  START
 Invalid command START for state _
 ```
 
-### Test private 3.23
+### Test
 ```input
 _  PAUSE
 ```
@@ -64,7 +64,7 @@ _  PAUSE
 Invalid command PAUSE for state _
 ```
 
-### Test private 3.23
+### Test
 ```input
 _  UNPAUSE
 ```
@@ -72,7 +72,7 @@ _  UNPAUSE
 Invalid command UNPAUSE for state _
 ```
 
-### Test private 3.23
+### Test
 ```input
 _  STOP
 ```
@@ -80,7 +80,7 @@ _  STOP
 Invalid command STOP for state _
 ```
 
-### Test private 3.23
+### Test
 ```input
 _  RM
 ```
@@ -88,7 +88,7 @@ _  RM
 Invalid command RM for state _
 ```
 
-### Test private 3.23
+### Test
 ```input
 CREATED  CREATE
 ```
@@ -96,7 +96,7 @@ CREATED  CREATE
 Invalid command CREATE for state CREATED
 ```
 
-### Test private 3.23
+### Test
 ```input
 CREATED  START
 ```
@@ -104,7 +104,7 @@ CREATED  START
 RUNNING
 ```
 
-### Test private 3.23
+### Test
 ```input
 CREATED  PAUSE
 ```
@@ -112,7 +112,7 @@ CREATED  PAUSE
 Invalid command PAUSE for state CREATED
 ```
 
-### Test private 3.23
+### Test
 ```input
 CREATED  UNPAUSE
 ```
@@ -120,7 +120,7 @@ CREATED  UNPAUSE
 Invalid command UNPAUSE for state CREATED
 ```
 
-### Test private 3.23
+### Test
 ```input
 CREATED  STOP
 ```
@@ -128,7 +128,7 @@ CREATED  STOP
 Invalid command STOP for state CREATED
 ```
 
-### Test private 3.23
+### Test
 ```input
 CREATED  RM
 ```
@@ -136,7 +136,7 @@ CREATED  RM
 DELETED
 ```
 
-### Test private 3.23
+### Test
 ```input
 RUNNING  CREATE
 ```
@@ -144,7 +144,7 @@ RUNNING  CREATE
 Invalid command CREATE for state RUNNING
 ```
 
-### Test private 3.23
+### Test
 ```input
 RUNNING  START
 ```
@@ -152,7 +152,7 @@ RUNNING  START
 Invalid command START for state RUNNING
 ```
 
-### Test private 3.23
+### Test
 ```input
 RUNNING  PAUSE
 ```
@@ -160,7 +160,7 @@ RUNNING  PAUSE
 PAUSED
 ```
 
-### Test private 3.23
+### Test
 ```input
 RUNNING  UNPAUSE
 ```
@@ -168,7 +168,7 @@ RUNNING  UNPAUSE
 Invalid command UNPAUSE for state RUNNING
 ```
 
-### Test private 3.23
+### Test
 ```input
 RUNNING  STOP
 ```
@@ -176,7 +176,7 @@ RUNNING  STOP
 STOPPED
 ```
 
-### Test private 3.23
+### Test
 ```input
 RUNNING  RM
 ```
@@ -184,7 +184,7 @@ RUNNING  RM
 Invalid command RM for state RUNNING
 ```
 
-### Test private 3.23
+### Test
 ```input
 PAUSED  CREATE
 ```
@@ -192,7 +192,7 @@ PAUSED  CREATE
 Invalid command CREATE for state PAUSED
 ```
 
-### Test private 3.23
+### Test
 ```input
 PAUSED  START
 ```
@@ -200,7 +200,7 @@ PAUSED  START
 Invalid command START for state PAUSED
 ```
 
-### Test private 3.23
+### Test
 ```input
 PAUSED  PAUSE
 ```
@@ -208,7 +208,7 @@ PAUSED  PAUSE
 Invalid command PAUSE for state PAUSED
 ```
 
-### Test private 3.23
+### Test
 ```input
 PAUSED  UNPAUSE
 ```
@@ -216,7 +216,7 @@ PAUSED  UNPAUSE
 RUNNING
 ```
 
-### Test private 3.23
+### Test
 ```input
 PAUSED  STOP
 ```
@@ -224,7 +224,7 @@ PAUSED  STOP
 Invalid command STOP for state PAUSED
 ```
 
-### Test private 3.23
+### Test
 ```input
 PAUSED  RM
 ```
@@ -232,7 +232,7 @@ PAUSED  RM
 Invalid command RM for state PAUSED
 ```
 
-### Test private 3.23
+### Test
 ```input
 STOPPED  CREATE
 ```
@@ -240,7 +240,7 @@ STOPPED  CREATE
 Invalid command CREATE for state STOPPED
 ```
 
-### Test private 3.23
+### Test
 ```input
 STOPPED  START
 ```
@@ -248,7 +248,7 @@ STOPPED  START
 RUNNING
 ```
 
-### Test private 3.23
+### Test
 ```input
 STOPPED  PAUSE
 ```
@@ -256,7 +256,7 @@ STOPPED  PAUSE
 Invalid command PAUSE for state STOPPED
 ```
 
-### Test private 3.23
+### Test
 ```input
 STOPPED  UNPAUSE
 ```
@@ -264,7 +264,7 @@ STOPPED  UNPAUSE
 Invalid command UNPAUSE for state STOPPED
 ```
 
-### Test private 3.23
+### Test
 ```input
 STOPPED  STOP
 ```
@@ -272,7 +272,7 @@ STOPPED  STOP
 Invalid command STOP for state STOPPED
 ```
 
-### Test private 3.1
+### Test
 ```input
 STOPPED  RM
 ```

@@ -20,7 +20,7 @@ Una seqüència de N nombres enters. La seqüència acaba amb un -1.
 
 ## Tests
 
-### Test 12.5
+### Test
 ```input
 0 1    -1
 ```
@@ -28,7 +28,7 @@ Una seqüència de N nombres enters. La seqüència acaba amb un -1.
 SI
 ```
 
-### Test 12.5
+### Test
 ```input
 0 1 2     -1
 ```
@@ -36,7 +36,7 @@ SI
 NO
 ```
 
-### Test private 12.5
+### Test
 ```input
 0 1 1 2 3 5 8 13 21 34      -1
 ```
@@ -44,7 +44,7 @@ NO
 SI
 ```
 
-### Test private 12.5
+### Test
 ```input
 0 1 1    -1
 ```
@@ -52,7 +52,7 @@ SI
 SI
 ```
 
-### Test private 12.5
+### Test
 ```input
 0 1 1 2 3 4     -1
 ```
@@ -60,7 +60,7 @@ SI
 NO
 ```
 
-### Test private 12.5
+### Test
 ```input
 5 6 11 17 28   -1
 ```
@@ -68,7 +68,7 @@ NO
 NO
 ```
 
-### Test private 12.5
+### Test
 ```input
 0 2 2 4 6 10 -1
 ```
@@ -76,7 +76,7 @@ NO
 NO
 ```
 
-### Test private 12.5
+### Test
 ```input
 0 0 0 0 0 -1
 ```

@@ -27,7 +27,7 @@ S'imprimirà el *thumb height* i el *scroll jump*, arrodonits sense decimals.
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 100 300 20
 ```
@@ -36,7 +36,7 @@ S'imprimirà el *thumb height* i el *scroll jump*, arrodonits sense decimals.
 5
 ```
 
-### Test 20
+### Test
 ```input
 100 200 25
 ```
@@ -45,7 +45,7 @@ S'imprimirà el *thumb height* i el *scroll jump*, arrodonits sense decimals.
 4
 ```
 
-### Test private 20
+### Test
 ```input
 100 250 25
 ```
@@ -54,7 +54,7 @@ S'imprimirà el *thumb height* i el *scroll jump*, arrodonits sense decimals.
 5
 ```
 
-### Test private 20
+### Test
 ```input
 100 300 20
 ```
@@ -63,7 +63,7 @@ S'imprimirà el *thumb height* i el *scroll jump*, arrodonits sense decimals.
 5
 ```
 
-### Test private 20
+### Test
 ```input
 100 320 10
 ```

@@ -66,7 +66,7 @@ a x b = c
 
 ## Tests
 
-### Test 20
+### Test
 ```input
 4 6
 ```
@@ -106,7 +106,7 @@ a x b = c
 6 x 10 = 60
 ```
 
-### Test 20
+### Test
 ```input
 5 5
 ```
@@ -124,7 +124,7 @@ a x b = c
 5 x 10 = 50
 ```
 
-### Test private 20
+### Test
 ```input
 1 2
 ```
@@ -153,7 +153,7 @@ a x b = c
 2 x 10 = 20
 ```
 
-### Test private 20
+### Test
 ```input
 1 1
 ```
@@ -171,7 +171,7 @@ a x b = c
 1 x 10 = 10
 ```
 
-### Test private 20
+### Test
 ```input
 10 10
 ```

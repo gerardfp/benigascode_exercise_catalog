@@ -50,7 +50,7 @@ public class Main {
 
 ## Tests
 
-### Test 25
+### Test
 ```input
 5
 Hamburguesa Refresco Patatas Ensalada Tarta
@@ -65,7 +65,7 @@ Tarta 1
 15.0
 ```
 
-### Test 25
+### Test
 ```input
 3
 Pizza Frankfurt Sandwich
@@ -79,7 +79,7 @@ Frankfurt 2
 17.0
 ```
 
-### Test private 25
+### Test
 ```input
 6
 Pizza Burguer Hotdog Chips Kebab Burrito
@@ -95,7 +95,7 @@ Burrito 1
 26.25
 ```
 
-### Test private 25
+### Test
 ```input
 3
 Hamburguesa Patatas Bebida

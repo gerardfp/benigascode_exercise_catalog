@@ -34,7 +34,7 @@ false - si l'equip A va per darrere de l'equip B
 
 ## Tests
 
-### Test 25
+### Test
 ```input
 1 0 0 0 0
 0 0 0 0 0
@@ -43,7 +43,7 @@ false - si l'equip A va per darrere de l'equip B
 true
 ```
 
-### Test 25
+### Test
 ```input
 3 0 0 6 0
 0 1 2 0 8
@@ -52,7 +52,7 @@ true
 true
 ```
 
-### Test private 25
+### Test
 ```input
 3 0 0 5 0
 3 0 0 6 0
@@ -61,7 +61,7 @@ true
 false
 ```
 
-### Test private 25
+### Test
 ```input
 5 0 10 20 2
 0 15 0 25 8

@@ -12,7 +12,7 @@ Una nota amb o sense decimals
 
 ## Tests
 
-### Test 16.67
+### Test
 ```input
 5.1
 ```
@@ -20,7 +20,7 @@ Una nota amb o sense decimals
 5
 ```
 
-### Test 16.67
+### Test
 ```input
 7.49
 ```
@@ -28,7 +28,7 @@ Una nota amb o sense decimals
 7
 ```
 
-### Test private 16.67
+### Test
 ```input
 10
 ```
@@ -36,7 +36,7 @@ Una nota amb o sense decimals
 10
 ```
 
-### Test private 16.67
+### Test
 ```input
 4.5
 ```
@@ -44,7 +44,7 @@ Una nota amb o sense decimals
 5
 ```
 
-### Test private 16.67
+### Test
 ```input
 7.75
 ```
@@ -52,7 +52,7 @@ Una nota amb o sense decimals
 8
 ```
 
-### Test private 16.65
+### Test
 ```input
 6
 ```

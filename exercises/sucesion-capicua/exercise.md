@@ -17,7 +17,7 @@ El primer número  indica la quantitat de números que hi ha en la seqüència. 
 
 ## Tests
 
-### Test 10
+### Test
 ```input
 3    1 2 1
 ```
@@ -25,7 +25,7 @@ El primer número  indica la quantitat de números que hi ha en la seqüència. 
 SI
 ```
 
-### Test 10
+### Test
 ```input
 5    100 200 300 200 100
 ```
@@ -33,7 +33,7 @@ SI
 SI
 ```
 
-### Test private 10
+### Test
 ```input
 6    100 200 300 300 200 100
 ```
@@ -41,7 +41,7 @@ SI
 SI
 ```
 
-### Test private 10
+### Test
 ```input
 1    100
 ```
@@ -49,7 +49,7 @@ SI
 SI
 ```
 
-### Test private 10
+### Test
 ```input
 2    100 100
 ```
@@ -57,7 +57,7 @@ SI
 SI
 ```
 
-### Test private 10
+### Test
 ```input
 4    100 100 200 100
 ```
@@ -65,7 +65,7 @@ SI
 NO
 ```
 
-### Test private 10
+### Test
 ```input
 3    100 100 200
 ```
@@ -73,7 +73,7 @@ NO
 NO
 ```
 
-### Test private 10
+### Test
 ```input
 20    1 2 3 4 5 6 7 8 9 10 10 9 8 7 6 5 4 3 2 1
 ```
@@ -81,7 +81,7 @@ NO
 SI
 ```
 
-### Test private 10
+### Test
 ```input
 7
 1 2 3 4 3 90 1
@@ -90,7 +90,7 @@ SI
 NO
 ```
 
-### Test private 10
+### Test
 ```input
 6
 1 2 3 3 90 1

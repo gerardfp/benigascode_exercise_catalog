@@ -72,7 +72,7 @@ public class Main {
 
 ## Tests
 
-### Test 50
+### Test
 ```input
 10 10
 a 2300 9 5
@@ -83,7 +83,7 @@ P1:a #2300 {9, 5}
 P2:b #5700 {7, 6}
 ```
 
-### Test private 50
+### Test
 ```input
 20 20
 gcd 17900 10 10
