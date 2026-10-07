@@ -1,5 +1,6 @@
 ---
 slug: c1-l3-1-dues-reines
+tags: [operadors]
 ---
 # Dues reines
 
@@ -9,27 +10,12 @@ Donades les posicions de les dues reines en un tauler d'escacs, digues si s'amen
 
 ## Input
 
-La entrada consisteix en 4 nombres indicant la  i  de cada reina
+La entrada consisteix en 4 nombres indicant la fila i columna de cada reina
 
 ## Output
 
 true | false
 
-## Plantillas
-
-```java
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
-
-public class Main {
-    public static void main(String args[] ) throws Exception {
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT */
-    }
-}
-```
 
 ## Tests
 

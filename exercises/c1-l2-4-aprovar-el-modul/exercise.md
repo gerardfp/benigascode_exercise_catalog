@@ -1,29 +1,29 @@
 ---
 slug: c1-l2-4-aprovar-el-modul
 ---
-# Aprovar el mòdul
+# Aprovar progrmació
 
-Per a aprovar el mòdul de programació, un alumne ha d'aprovar les 3 Unitats Formatives.
+Per a aprovar l'assignatura programació, un alumne ha d'aprovar els 3 Trimestres.
 
-Per a aprovar la UF1, un alumne ha d'entregar com a mínim el 75% de les pràctiques i traure un com a mínim un 4 en l'examen. També pot aprovar aquesta UF si entrega el 50% de les pràctiques i trau mínim un 5. I també aprova si trau més d'un 7 a l'examen (independentment de les practiques que hagi entregat).
+* Per a aprovar el T1, un alumne ha d'entregar com a mínim el 75% de les pràctiques i traure un com a mínim un 4 en l'examen. També pot aprovar el trimestre si entrega el 50% de les pràctiques i trau mínim un 5. I també aprova si trau més d'un 7 a l'examen (independentment de les practiques que haja entregat).
 
-Per a aprovar la UF2, ha d'entregar com a mínim el 75% de les pràctiques i traure un com a mínim un 4 en l'examen. També pot aprovar si entrega totes les pràctiques o si entrega mínim el 50% de les pràctiques i trau com a mínim un 5 a l'examen.
+* Per a aprovar el T2, ha d'entregar com a mínim el 75% de les pràctiques i traure un com a mínim un 4 en l'examen. També pot aprovar si entrega totes les pràctiques o si entrega mínim el 50% de les pràctiques i trau com a mínim un 5 a l'examen.
 
-Per a aprovar la UF3, un alumne ha d'entregar totes les pràctiques i traure un com a mínim un 5 en l'examen.
+* Per a aprovar el T3, un alumne ha d'entregar totes les pràctiques i traure un com a mínim un 5 en l'examen.
 
 ## Input
 
-La entrada consisteix en 9 nombres:
+La entrada consisteix en 9 nombres.
 
-     (UF1)
+Per a cada trimestre s'indica:
 
-     (UF2)
-
-     (UF3)
+* El nombre de pràctiques que s'havien d'entregar
+* El nombre de pràctiques que ha entregat
+* La nota que ha tret a l'examen
 
 ## Output
 
-S'imprimirà `true` si l'alumne aprova el mòdul, o `false` si no l'aprova.
+S'imprimirà `true` si l'alumne aprova programació, o `false` si no l'aprova.
 
 ## Tests
 

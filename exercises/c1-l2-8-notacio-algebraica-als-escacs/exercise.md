@@ -1,6 +1,6 @@
 ---
 slug: c1-l2-8-notacio-algebraica-als-escacs
-tags: [scanner, i/o]
+tags: [operadors]
 ---
 # Notació algebraica als escacs
 
