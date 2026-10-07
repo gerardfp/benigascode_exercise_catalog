@@ -1,5 +1,6 @@
 ---
 slug: c1-l2-3-rellotge-de-manilles
+tags: [operadors]
 ---
 # Rellotge de manilles
 
@@ -11,7 +12,7 @@ Però totes tres manilles avancen sempre a cada segon. Així, per exemple si és
 
 ## Input
 
-La entrada consisteix en una hora en format HH:MM:SS
+La entrada consisteix en una hora en format H M S
 
 ## Output
 
@@ -38,6 +39,9 @@ S'imprimiran els graus de cada manilla (HH,MM,SS) que corresponen a l'hora, cada
 180.0
 0.0
 ```
+```explanation
+![](e2.png)
+```
 
 ### Test
 ```input
@@ -47,6 +51,9 @@ S'imprimiran els graus de cada manilla (HH,MM,SS) que corresponen a l'hora, cada
 285.0
 180.0
 0.0
+```
+```explanation
+![](e3.png)
 ```
 
 ### Test
@@ -58,6 +65,10 @@ S'imprimiran els graus de cada manilla (HH,MM,SS) que corresponen a l'hora, cada
 93.0
 180.0
 ```
+```explanation
+![](e4.png)
+```
+
 
 ### Test
 ```input

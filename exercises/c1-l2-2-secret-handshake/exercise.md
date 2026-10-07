@@ -1,5 +1,6 @@
 ---
 slug: c1-l2-2-secret-handshake
+tags: [selection]
 ---
 # Secret Handshake
 
@@ -17,8 +18,6 @@ Vosaltres i els vostres companys de cohort dels que "sabeu" quan es tracta d’u
 ## Input
 
 La entrada consisteix en una seqüència de 4 bits, separats per espais.
-
-4 bits
 
 ## Output
 

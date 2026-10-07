@@ -1,5 +1,6 @@
 ---
 slug: c1-l2-3-ieee-1541
+tags: [selection]
 ---
 # IEEE 1541
 
@@ -22,38 +23,23 @@ Programa un conversor d'unitats binàries.
 
 La entrada consisteix en les unitats (U), el prefixe binari (sP) i la unitat de mesura (sU), que s'han de convertir.
 
-A continuació hi ha un fletxa "->" indicant la operació de conversió.
+A continuació hi ha un fletxa `->` indicant la operació de conversió.
 
 A continuació ve el prefixe binari (dP) i la unitat de mesura (dU) a la qual s'han de convertir.
 
 Els Prefixs i Unitats són aquests:
 
-Prefixs = { _ | Ki | Mi | Gi | Ti | Pi | Ei }
+Prefixs = { `_` | `Ki` | `Mi` | `Gi` | `Ti` | `Pi` | `Ei` }
 
-Unitats = { bit | byte }
+Unitats = { `bit` | `byte` }
 
-El prefix '_' indica l'absència de prefix.
-
-0 <= U <= 1152921504606846976
-
-Els prefixs i les unitats són valids.
-
-Tant les unitats d'entrada com les de sortida són nombres sense decimals.
+El prefix `_` indica l'absència de prefix.
 
 ## Output
 
 S'escriurà la igualtat de la conversió.
-S'ha d'eliminanr el _ , i s'han d'unir el prefix i la unitat de mesura:
+S'ha d'eliminanr el `_` , i s'han d'unir el prefix i la unitat de mesura:
 
-Exemples:
-
-```text
-2 Kibytes = 16384 bits
-```
-
-```text
-2 bytes = 16 bits
-```
 
 ## Tests
 
