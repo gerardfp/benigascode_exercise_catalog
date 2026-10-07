@@ -32,9 +32,7 @@ S'imprimirà `true` si el marc és adequat per a la foto, i `false` si no ho és
 ```output
 true
 ```
-```explanation
-![](e0.png)
-```
+
 
 ### Test
 ```input
@@ -53,6 +51,9 @@ true
 ```output
 true
 ```
+```explanation
+![](e3.png)
+```
 
 ### Test
 ```input
@@ -61,6 +62,9 @@ true
 ```
 ```output
 false
+```
+```explanation
+![](e4.png)
 ```
 
 ### Test
@@ -71,6 +75,9 @@ false
 ```output
 true
 ```
+```explanation
+![](e5.png)
+```
 
 ### Test
 ```input
@@ -80,6 +87,9 @@ true
 ```output
 true
 ```
+```explanation
+![](e6.png)
+```
 
 ### Test
 ```input
@@ -88,6 +98,9 @@ true
 ```
 ```output
 false
+```
+```explanation
+![](e7.png)
 ```
 
 ### Test
