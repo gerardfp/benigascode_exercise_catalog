@@ -1,6 +1,6 @@
 ---
 slug: acces-log-analyzer
-tags: [strings]
+tags: [strings, arrays]
 ---
 # Access.log analyzer
 
