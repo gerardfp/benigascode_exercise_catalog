@@ -5,7 +5,7 @@ slug: triler
 
 L'objectiu del joc de triler és que la víctima endevini sota quin dels 3 gobelets es troba la boleta. Els gobelets son manejats per l'estafador, canviant-los de posició i movent la boleta d'un a l'atre.
 
-![image](1570732092-eeaae46518-path4680.png)
+![image](triler-img1.png)
 
 Els moviments del triler tracten de despistar la víctima, però al cap i a la fi cada moviment es resumeix en: "**Moure la bola a l'esquerra o a la dreta**".
 

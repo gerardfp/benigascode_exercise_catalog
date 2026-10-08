@@ -25,7 +25,7 @@ La xarxa a la que pertany un ordinador es calcula a partir de la seva IP i la se
 
 - Es realitza la operació OR entre el primer i el segon nombre. El valor resultant és la IP on acaba la xarxa
 
-![image](1556701591-d5c4f2c2f1-netmask.png)
+![image](c2-l3-1-xarxes-privades-img2.png)
 
 ## Input
 

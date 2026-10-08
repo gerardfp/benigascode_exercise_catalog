@@ -3,11 +3,11 @@ slug: ice-skating-1-1
 ---
 # Ice skating
 
-![image](1612971145-b6c274e4d6-skating.png)
+![image](ice-skating-1-1-img5.png)
 
 En un videojuego hay un mapa en forma de tablero con unas flechas en algunas casillas que apuntan en una dirección: Norte, Sur, Este y Oeste.
 
-![image](1612970877-8634f734fc-skating2.png)
+![image](ice-skating-1-1-img4.png)
 
 El personaje empieza en la casilla 0,0, y desliza en la dirección de la flecha hasta que encuentra otra flecha, y entonces desliza en la dirección de esa flecha. Y así sucesivamente hasta que en un momento dado sale del tablero.
 

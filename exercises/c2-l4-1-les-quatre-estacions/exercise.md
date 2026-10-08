@@ -16,7 +16,7 @@ Les quatre estacions tradicionals tenen el seu inici i final marcats per esdeven
 
 A l'hemisferi sud hivern-estiu i primavera-tardor estan invertits
 
-![image](1556614140-ee3bab1cf9-estacions.png)
+![image](c2-l4-1-les-quatre-estacions-img1.png)
 
 ## Input
 

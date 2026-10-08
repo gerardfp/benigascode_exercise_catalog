@@ -3,7 +3,7 @@ slug: impresora-matricial
 ---
 # Impresora matricial
 
-![image](1584004406-1776a7fcfe-impresora.png)
+![image](impresora-matricial-img2.png)
 
 La impresora matricial consta de un cabezal de impresión que se desplaza de izquierda a derecha imprimiendo sobre la página por impacto, oprimiendo una cinta de tinta contra el papel (similar a una máquina de escribir).
 

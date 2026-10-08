@@ -4,7 +4,7 @@ tags: [loops]
 ---
 # Análisis estadístico de temperaturas
 
-![1739309233-390e328d6b-Capturadesde2025-02-1122-27-01.png](1739309233-390e328d6b-Capturadesde2025-02-1122-27-01.png)
+![analisis-estadistico-de-temperaturas-img0.png](analisis-estadistico-de-temperaturas-img0.png)
 
 
 Dada una serie de temperaturas registradas en un día, realiza un análisis estadístico que incluya:

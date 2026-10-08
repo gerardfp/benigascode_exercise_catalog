@@ -9,11 +9,11 @@ Els usuaris de la màquina insereixen diners, i reben un tíquet per valor dels 
 
 La màquina poseeix un *display* que informa del balanç de diners que l'usuari ha inserit. Està en funcionament ininterrompudament fins es pitja un botó d'apagat.
 
-![image](1557315488-76a32e149f-ticketmachine.png)
+![image](c3-l2-5-ticket-machine-img2.png)
 
 El següent diagrama de flux mostra el funcionament de la màquina:
 
-![image](1607958233-fcab528edf-ticketmachine.png)
+![image](c3-l2-5-ticket-machine-img3.png)
 
 ## Input
 

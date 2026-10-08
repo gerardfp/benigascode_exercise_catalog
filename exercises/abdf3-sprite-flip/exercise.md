@@ -7,11 +7,11 @@ En molts videojocs 2D és bastant comú invertir horitzontal i verticalment un s
 
 Per exemple, a partir d'aquest sprite:
 
-![image](1579042329-5c62c7247d-NewPiskel-1.png.png)
+![image](abdf3-sprite-flip-img0.png)
 
 Podem obtenir els seus "flips" horitzontals i verticals:
 
-![image](1579042393-b2556f6116-NewPiskel1.png)
+![image](abdf3-sprite-flip-img1.png)
 
 ## Input
 

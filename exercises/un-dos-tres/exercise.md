@@ -3,7 +3,7 @@ slug: un-dos-tres
 ---
 # Three card poker
 
-![image](1571217482-1814c43bfa-threecard.png)
+![image](un-dos-tres-img1.png)
 
 Al Three Card Poker es poden fer les següents figures:
 

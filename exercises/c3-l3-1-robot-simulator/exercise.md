@@ -15,7 +15,7 @@ Els robots tenen tres possibles moviments:
 
 Els robots es col loquen en una xarxa hipotètica infinita, orientats cap a una direcció particular (, , , ) en unes coordenades {, }.
 
-![image](1571224490-eaf27bcb9c-Copyofrobot.png)
+![image](c3-l3-1-robot-simulator-img4.png)
 
 Aleshores el robot rep diverses instruccions, moment en què la instal·lació de proves verifica la nova posició del robot i en quina direcció apunta.
 
@@ -33,7 +33,7 @@ Per exemple, la cadena de lletres  significa:
 
 Digueu que un robot comença a {0, 0} mirant al nord. A continuació, executar aquest flux d'instruccions hauria de deixar-lo a {1, 0} mirant al sud.
 
-![image](1556722905-d4573a98ae-robot1.png)
+![image](c3-l3-1-robot-simulator-img1.png)
 
 ## Input
 

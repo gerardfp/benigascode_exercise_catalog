@@ -3,7 +3,7 @@ slug: train-bird
 ---
 # Train bird
 
-![image](birdtrain.gif)
+![image](train-bird-img0.gif)
 
 El problema "A train and a bird" diu així:
 

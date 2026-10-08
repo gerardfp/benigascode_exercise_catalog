@@ -8,7 +8,7 @@ En el món de la informàtica els acrònims són molt comuns: [https://en.wikipe
 
 Transforma una frase en el seu acrònim.
 
-![image](1557483137-04b68bf814-smfw.png)
+![image](acronimo-img1.png)
 
 ## Input
 

@@ -3,7 +3,7 @@ slug: e33c4-full-de-notes
 ---
 # Full de notes
 
-![image](1580920290-fe8cff42df-media.png)
+![image](e33c4-full-de-notes-img1.png)
 
 ## Input
 

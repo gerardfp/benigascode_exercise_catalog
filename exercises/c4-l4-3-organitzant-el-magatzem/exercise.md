@@ -6,11 +6,11 @@ slug: c4-l4-3-organitzant-el-magatzem
 Una empresa de logística té desitja revisar la política de col·locació de productes al magatzem.
 Actualment la política és colocar els productes que van arribant el més al fons i a l'esquerra possible:
 
-![image](1559214723-17c9b9ede4-magatzemmal.png)
+![image](c4-l4-3-organitzant-el-magatzem-img11.png)
 
 Aquesta política però, no és l'òptima, ja que els productes s'haurien pogut col·locar d'aquesta altra forma:
 
-![image](1559214811-a8a2492483-magatzembe.png)
+![image](c4-l4-3-organitzant-el-magatzem-img6.png)
 
 L'empresa desitja realitzar algunes simulacions per a detectar quan ocorren aquests problemes i poder aplicar estratègies diferents.
 

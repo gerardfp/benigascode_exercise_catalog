@@ -5,7 +5,7 @@ slug: c4-l4-4-ddos
 
 Desitjem implementar una sistema d'alerta d'atacs de denegació de servei (DDoS). Aquests atacs consisteixen en que l'atacant realitza una gran quantitat de connexions utilitzant una botnet.
 
-![image](1557432901-54eba1401d-sshattack1.png)
+![image](c4-l4-4-ddos-img10.png)
 
 Una forma de prevenir aquests atacs és mitjançant una política que denegui les connexions si aquestes es produeixen amb massa freqüència (connexions/temps).
 

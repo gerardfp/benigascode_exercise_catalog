@@ -5,7 +5,7 @@ slug: c5-l4-2-doble-join
 
 Donades les tuples de les següents relacions:
 
-![image](1556838783-f34ce0a165-db.png)
+![image](c5-l4-2-doble-join-img2.png)
 Realitza la següent consulta:
 
 ```text

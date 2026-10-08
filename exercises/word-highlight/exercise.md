@@ -3,7 +3,7 @@ slug: word-highlight
 ---
 # Word highlight
 
-![alt text](image.png)
+![alt text](word-highlight-img2.png)
 
 Dado un texto, resalta las palabras que se indiquen.
 

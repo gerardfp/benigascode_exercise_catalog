@@ -5,7 +5,7 @@ slug: c1-l3-8-cub-de-rubik
 
 El cub de Rubik stàndard (de tamany 3) consisteix en 26 "cubies" o "cubelets" (a la part interior no hi ha cap cubelet).
 
-![image](1556380034-03bcac4051-rubik.png)
+![image](c1-l3-8-cub-de-rubik-img0.png)
 
 Hi ha moltes altres variants del cub, amb tamanys i formes diferents.
 

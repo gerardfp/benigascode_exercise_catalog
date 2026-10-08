@@ -3,7 +3,7 @@ slug: inventari
 ---
 # Inventari
 
-![image](1612523128-71db09dc8d-ab1c9693af1c85815c500ef79c575eab.png)
+![image](inventari-img2.png)
 
 En un magatzem és important portar el control de les entrades i sortides de mercaderies i mantenir l'inventari amb la màxima precisió.
 

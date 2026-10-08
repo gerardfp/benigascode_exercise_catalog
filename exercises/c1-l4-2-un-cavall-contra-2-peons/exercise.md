@@ -5,7 +5,7 @@ slug: c1-l4-2-un-cavall-contra-2-peons
 
 Als escacs el cavall pot saltar fent una "L", així:
 
-![image](1556383344-dffbb67ec9-cavallpeons.png)
+![image](c1-l4-2-un-cavall-contra-2-peons-img12.png)
 
 Donada la posició d'un cavall i de dos peons al tauler, digues quants peons està amenaçant el cavall.
 

@@ -3,7 +3,7 @@ slug: c4-l0-0-mitjana-de-vendes
 ---
 # Mitjana de vendes
 
-![image](1573833383-b2e04b415c-Screenshot_2019-11-15Screenshot1.png)
+![image](c4-l0-0-mitjana-de-vendes-img2.png)
 
 Ens demanen un programa per a generar els gràfics de la **mitjana mensual** de vendes d'una empresa, a partir de les dades de vendes de cada dia de l'any.
 

@@ -4,7 +4,7 @@ tags: [matrix]
 ---
 # Amaga les columnes
 
-![image](1579623863-f2d38217d1-excel.png)
+![image](afe43-amaga-les-columnes-img0.png)
 
 Els programes de Full de Càlcul solen tenir la funció d'amagar columnes.
 

@@ -3,7 +3,7 @@ slug: preu-de-lentrada
 ---
 # Preu de l'entrada
 
-![image](1569595180-4a4864113f-ws9pryrtwvt7uqgpzdbo.png)
+![image](preu-de-lentrada-img1.png)
 Un web de venta de tickets per a espectacles calcula el preu d'una entrada a partir d'una sèrie de dades:
 
 - **L'edat de la persona**: si la persona és menor de 6 anys, l'entrada és gratuita. Si és menor de 18 anys, se li aplica un descompte del 10%. I si la persona té 65 anys o més se li aplica un descompte del 15%.

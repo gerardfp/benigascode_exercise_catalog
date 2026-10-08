@@ -3,7 +3,7 @@ slug: galib
 ---
 # Gàlib
 
-![image](1604313863-82312e7a2f-galib.png)
+![image](galib-img1.png)
 
 El terme gàlib designa les dimensions màximes, tant d'alçada com d'amplada, que poden tenir els vehicles i embarcacions o la secció interna dels llocs per on han de passar (túnels, ponts, etc..).
 

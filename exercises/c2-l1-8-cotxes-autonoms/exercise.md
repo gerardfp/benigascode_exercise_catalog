@@ -5,7 +5,7 @@ slug: c2-l1-8-cotxes-autonoms
 
 Els cotxes autònoms ha de prendre decisions sobre la conducció a partir del les dades que perceben els seus sensors de l'entorn.
 
-![image](1557227574-8acd780630-path3911-4.png)
+![image](c2-l1-8-cotxes-autonoms-img1.png)
 
 El nostre cotxe elèctric ha de decidir si pot continuar la marxa en funció de les dades que li arriben del sensors. Aquestes dades són:
 

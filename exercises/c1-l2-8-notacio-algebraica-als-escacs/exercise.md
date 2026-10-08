@@ -12,7 +12,7 @@ La més senzilla és la númèrica, on s'identifica cada fila i columna pel seu 
 
 Una altra notació és l'algebraica, on la fila d'identifica pel seu número i la columna per les lletres minúscules a, b, c, d, e, f, g, h.
 
-![image](1556193381-4e2ad9590a-AlgebraicNotationOnChessboard.png)
+![image](c1-l2-8-notacio-algebraica-als-escacs-img2.png)
 
 ## Input
 

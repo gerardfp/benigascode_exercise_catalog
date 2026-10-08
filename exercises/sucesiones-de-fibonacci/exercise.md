@@ -6,7 +6,7 @@ tags: [scanner, i/o]
 
 La successió de Fibonacci comença amb els nombres 0 i 1, i a partir d'aquests, «cada terme és la suma dels dos anteriors».
 
-![image](1556726526-96eb9e42a6-fibo1.png)
+![image](sucesiones-de-fibonacci-img0.png)
 
 A partir de vàries sequències de nombres, determina si són successions de Fibonacci.
 

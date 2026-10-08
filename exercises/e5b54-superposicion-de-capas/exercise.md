@@ -9,12 +9,12 @@ Los programas de edición de imágenes suelen tener soporte para capas. De esta 
 Modo Normal:
 En el modo Normal las capas superiores cubren a las capas inferiores. Es decir, cada píxel de una capa superior cubre a los píxeles de las capas inferiores que están en la misma posición, excepto si dicho píxel es transparente.
 
-![image](1584007299-2db6973be6-capas1.png)
+![image](e5b54-superposicion-de-capas-img0.png)
 
 Modo Adición:
 En el modo Adición, los píxeles de cada capa que están en la misma posición se suman para obtener el color del píxel resultante.
 
-![image](1584007322-1c887dbb88-capas2.png)
+![image](e5b54-superposicion-de-capas-img2.png)
 
 El color de un píxel se expresa con un número. **Los píxeles transparentes se representan con un 0**.
 

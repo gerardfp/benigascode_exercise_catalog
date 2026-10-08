@@ -3,7 +3,7 @@ slug: e9bed-generador-de-corrent
 ---
 # Generador de corrent
 
-![image](1605034091-4fa49a4cc4-accircuits-acp2.gif)
+![image](e9bed-generador-de-corrent-img0.gif)
 Per a comprovar el funcionament d'un generador de corrent elèctrica alterna, es mesura periòdicament el voltatge de la corrent generada.
 
 Es considera que el generador funciona correctament si el voltatge alterna pujades i baixades. És a dir, si en una medició el voltatge ha pujat, en la següent ha d'haver baixat, i viceversa.

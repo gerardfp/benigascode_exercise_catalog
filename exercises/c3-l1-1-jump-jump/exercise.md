@@ -5,7 +5,7 @@ slug: c3-l1-1-jump-jump
 
 En un joc de plataformes, el personatge ha d'anar fent salts per a poder avançar. En la situació següent, per exemple, haurà de fer 3 salts per a arribar al final:
 
-![image](1556708844-15036d2a78-mariojump.png)
+![image](c3-l1-1-jump-jump-img9.png)
 
 Podem entendre el mapa del joc com una succesió de nombres que indiquen l'altura del terreny. En el cas anterior es podria definir com:
 

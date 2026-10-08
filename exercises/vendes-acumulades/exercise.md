@@ -3,7 +3,7 @@ slug: vendes-acumulades
 ---
 # Vendes acumulades
 
-![image](1612518208-85a36e5f0d-1611072820-bb34bae5ac-accventas.png)
+![image](vendes-acumulades-img2.png)
 
 La venda acumulada d'un mes és sumar a les vendes d'un mes les vendes dels mesos anteriors.
 

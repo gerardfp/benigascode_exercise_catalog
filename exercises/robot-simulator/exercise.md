@@ -14,7 +14,7 @@ Per exemple:
 N N E E S E S W .
 ```
 
-![image](1547568352-2ceaa63457-robot.png)
+![image](robot-simulator-img1.png)
 
 Posició final: {2,0}
 
@@ -24,7 +24,7 @@ Exemple 2:
 N E E N .
 ```
 
-![image](1547570008-85507a4a19-robot1.png)
+![image](robot-simulator-img3.png)
 
 Posició final: {2,2}
 

@@ -3,7 +3,7 @@ slug: inode-flags
 ---
 # Inode flags
 
-![image](1605282938-d03fec0419-inodeflags.png)
+![image](inode-flags-img2.png)
 
 Un arxiu de Linux té una sèrie d'atributs que es poden activar o desactivar amb la comanda `chattr`.
 

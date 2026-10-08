@@ -4,7 +4,7 @@ tags: [condicionales, control-de-flujo]
 ---
 # Parada per manteniment
 
-![image](1603101460-09dd1c92b9-parada.png)
+![image](maquina-parada-img0.png)
 
 Una màquina d'una fàbrica s'ha de parar alguns dies durant unes hores per a realitzar-li el manteniment.
 Es manté un registre de les hores que dura la jornada i les hores que ha estat en funcionament la màquina.

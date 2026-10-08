@@ -14,7 +14,7 @@ En la classe de Naturals estan estudiant els artròpodes. Són animals invertebr
 
 - Els miriàpodes tenen 2 o 4 potes per cada segment del seu cos
 
-![image](1555875809-a55c59095f-artropodes.png)
+![image](c1-l1-12-artropodes-img2.png)
 
 Un dia la professora va demanar als alumnes que portessin artròpodes a classe i els va posar un problema de matemàtiques: calcular el nombre de pates de tots els animals que havien portat.
 

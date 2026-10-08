@@ -4,13 +4,13 @@ tags: [matrix]
 ---
 # Block Puzzle
 
-![image](1613466953-600b40fd49-bp.png)
+![image](block-puzzle-img0.png)
 
 En el juego Block Puzzle, el jugador va colocando unas piezas en el tablero completando filas o columnas. Las piezas no se pueden superponer.
 
 Dado un tablero con las fichas que ya estaban colocadas, y otro tablero con la ficha que desea colocar el jugador, indica si la ficha se puede colocar en esa posición.
 
-![image](1613467406-5443f7c755-blokpuzzle0.png)
+![image](block-puzzle-img1.png)
 
 ## Input
 
@@ -43,6 +43,9 @@ Se imprimirá `true` si la ficha se puede colocar en esa posición, y `false` en
 ```output
 true
 ```
+```explanation
+![](block-puzzle-img2.png)
+```
 
 ### Test
 ```input
@@ -61,6 +64,10 @@ true
 ```output
 false
 ```
+```explanation
+![](block-puzzle-img3.png)
+```
+
 
 ### Test
 ```input

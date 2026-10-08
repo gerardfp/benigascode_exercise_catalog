@@ -3,13 +3,13 @@ slug: teclado-robot
 ---
 # Teclado robot
 
-![image](1613563726-2ffd5674a4-robotkeyboard.jpg)
+![image](teclado-robot-img1.jpg)
 
 Estamos diseñando un robot que sea capaz de escribir usando un teclado.
 
 Para hacerlo más sencillo, hemos diseñado un teclado en el que todas las teclas están en la misma fila:
 
-![image](1613564182-402650a000-laptop-keyboard-computer-isolated-black-key-button-vector-28503589.jpg)
+![image](teclado-robot-img0.jpg)
 
 El orden de las teclas es el siguiente:
 

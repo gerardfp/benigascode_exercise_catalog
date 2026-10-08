@@ -7,7 +7,7 @@ Desde que va llegir sobre el matemàtic Ramanujan, busca el nombre 1729 per tot 
 
 Especialment a les tarjetes busca que sigui un dels grups de nombres de 4 xifres.
 
-![image](1556298623-afb0e1cb38-creditcard.png)
+![image](c1-l3-4-hardy-ramanujan-img2.png)
 
 ## Input
 

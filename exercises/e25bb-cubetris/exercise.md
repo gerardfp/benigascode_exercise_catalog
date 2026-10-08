@@ -7,11 +7,11 @@ En el juego Cubetris, el jugador va colocando unas piezas sobre un tablero inten
 
 Por ejemplo, el jugador podría superar el juego así:
 
-![image](1584006423-02c3bc4e19-cubetris1.png)
+![image](e25bb-cubetris-img0.png)
 
 Si embargo, si juego de esta otra forma, no podría superar el juego, ya que las piezas verde y naranja no habría forma de colocarlas sin superponerse a otras piezas:
 
-![image](1584006454-fc4581ef74-cubetris2.png)
+![image](e25bb-cubetris-img5.png)
 
 Deseamos programar la parte del juego que nos dice si una pieza se puede colocar en una posición, o por el contrario no se puede debido a que se superpondría a otras piezas.
 

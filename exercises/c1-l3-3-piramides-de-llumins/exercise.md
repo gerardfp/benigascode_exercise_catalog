@@ -5,7 +5,7 @@ slug: c1-l3-3-piramides-de-llumins
 
 Al meu oncle li agrada fer figures amb els llumins a les sobretaules, com aquesta piràmide:
 
-![image](1556271563-38f46282f2-llumins.png)
+![image](c1-l3-3-piramides-de-llumins-img10.png)
 
 Per a fer aquesta piràmide de 3 pisos li calen 18 llumins.
 

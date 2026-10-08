@@ -11,7 +11,7 @@ Una forma habitual de gestionar els contenidors és a través de comandaments. P
 
 El següent diagrama ilustra els estats en els que pot estar un contenidor, i els comandaments que es poden executar sobre ell, canviant el seu estat.
 
-![image](1557270926-18375a3fbe-statemachine1.png)
+![image](c2-l3-1-contenidors-img2.png)
 
 Es requereix crear un programa per a gestionar els estats d'un contenidor a través de comandaments.
 

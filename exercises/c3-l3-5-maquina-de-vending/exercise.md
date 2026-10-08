@@ -7,7 +7,7 @@ Es demana implementar una màquina expenedora d'ampolles d'aigua.
 
 El següent diagrama de flux explica el seu funcionament:
 
-![image](1576067419-c0787bb171-vending.png)
+![image](c3-l3-5-maquina-de-vending-img1.png)
 
 ## Input
 

@@ -5,7 +5,7 @@ slug: c5-l2-2-select
 
 Donades les tuples de la següent relació:
 
-![image](1556888264-0b788b0491-db3.png)
+![image](c5-l2-2-select-img2.png)
 
 Realitza les següents consultes:
 

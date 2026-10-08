@@ -10,7 +10,7 @@ En esta versión, los barriles estan situados uno al lado de otro y cada barril 
 
 Cada barril lo dispara con una fuerza, que se representa con un número. Este número indica cuántas posiciones proyectará al gorila. Si el número es positivo hacia la derecha, y si es negativo hacia la izquierda. Se puede observar en la siguiente imagen:
 
-![image](1584006805-c463145c6d-dk1.png)
+![image](cb550-barrel-cannon-img1.png)
 
 El problema consiste en: dadas la fuerzas de unos barriles y el barril donde cae inicialmente el gorila, averiguar si el gorila terminará saliendo por la `IZQUIERDA`, por la `DERECHA`, o si se quedará en un `BUCLE` sin poder salir.
 

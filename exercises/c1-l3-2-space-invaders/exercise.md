@@ -8,7 +8,7 @@ Una de les col·lisions que s'haurà de detectar és quan un dispar dona en un a
 
 El sistema de col·lisions haurà de determinar si el rectangle que envolta l'alien i el rectangle que envolta el dispar estan solapats
 
-![image](1556267080-5852f74644-invaders.png)
+![image](c1-l3-2-space-invaders-img15.png)
 
 ## Input
 

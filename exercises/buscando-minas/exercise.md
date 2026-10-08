@@ -6,7 +6,7 @@ tags: [matrix]
 
 Donat un tauler de buscamines i unes posicions, dir si en aquestes posicions hi ha o no una mina.
 
-![image](1556787599-c2d31e644e-buscaminas2.jpg)
+![image](buscando-minas-img0.jpg)
 
 ## Input
 

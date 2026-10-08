@@ -3,7 +3,7 @@ slug: c2-l1-2-lletres-scrabble
 ---
 # Lletres de l'Scrabble
 
-![image](1571218848-eddd5026fa-captionit9103701852B81.jpg)
+![image](c2-l1-2-lletres-scrabble-img0.jpg)
 
 Donada una lletra, obté la seva puntuació d'Scrabble.
 

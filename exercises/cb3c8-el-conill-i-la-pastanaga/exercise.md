@@ -3,7 +3,7 @@ slug: cb3c8-el-conill-i-la-pastanaga
 ---
 # El conill i les pastanagues
 
-![image](1579687293-784052e851-conillipastanaga3.png)
+![image](cb3c8-el-conill-i-la-pastanaga-img5.png)
 
 Ajuda al conill a menjar-se la pastanagues!
 

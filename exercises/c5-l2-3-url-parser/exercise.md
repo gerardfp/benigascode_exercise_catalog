@@ -26,7 +26,7 @@ Excepte scheme i path, la resta són opcionals.
 
 Un exemple d'una URL completa amb els 8 components, podria ser aquest:
 
-![image](1556921749-f057ec7687-url1.png)
+![image](c5-l2-3-url-parser-img2.png)
 
 Es desitja crear una macro que prengui una URL i la descomposi en els seus components, generant codi Java amb les variables i els seus valors corresponents.
 

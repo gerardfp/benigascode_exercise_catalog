@@ -4,7 +4,7 @@ tags: [control-de-flujo, loops]
 ---
 # Cromos repetits
 
-![image](1580224281-7dc0beb855-Mounstruos-Diablicos-2.jpg)
+![image](c6a99-cromos-repetits-img0.jpg)
 
 David s'està fent una col·lecció de cromos. S'ha fet una app per a portar l'inventari de cromos que té. Ara vol que l'app li digui quins cromos té repetits.
 

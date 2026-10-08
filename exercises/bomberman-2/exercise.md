@@ -4,15 +4,15 @@ tags: [matrix]
 ---
 # Bomberman
 
-![image](bomberman.webp)
+![image](bomberman-2-img0.webp)
 
 Al joc Bomberman, quan explota una bomba, totes les caselles que estan a la mateixa fila o la mateixa columna exploten.
 
-![image](1548259875-acea15403b-tab.png)
+![image](bomberman-2-img1.png)
 
 Si la bomba explota a la casella 6, exploten totes les casellas a la mateixa fila o columna:
 
-![image](1556796557-a1ff1d0cd4-bomberman.png)
+![image](bomberman-2-img2.png)
 
 ## Input
 

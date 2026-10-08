@@ -3,7 +3,7 @@ slug: c3-l0-7-passwd
 ---
 # passwd
 
-![image](1571914537-1def2cb3c0-Untitleddrawing1.png)
+![image](c3-l0-7-passwd-img1.png)
 
 L'arxiu /etc/passwd emmagatzema els usuaris del sistema. Cada línia conté la informació d'un usuari i té els següents camps:
 

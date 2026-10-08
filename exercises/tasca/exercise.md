@@ -3,7 +3,7 @@ slug: tasca
 ---
 # Tasca
 
-![image](1612522198-d7c82ee0c9-assignment.png)
+![image](tasca-img0.png)
 
 A la plataforma d'aprenentatge que estem desenvolupant, els alumnes han de poder realitzar trameses dels seus treballs. Aquestes trameses han de tenir una hora límit.
 Als alumnes que realitzin la tramesa un cop superada aquesta hora límit, la plataforma els informarà del temps excedit.

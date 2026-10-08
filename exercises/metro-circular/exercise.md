@@ -3,7 +3,7 @@ slug: metro-circular
 ---
 # Metro circular
 
-![image](1613557223-c668a643e4-metro-madrid-linea-6.png)
+![image](metro-circular-img18.png)
 
 Estamos desarrollando un app para planificar rutas en metro. Ya la tenemos casi lista, pero hay algunas líneas que son circulares y nos traen de cabeza.
 

@@ -3,7 +3,7 @@ slug: ceros-debajo-de-la-diagonal
 ---
 # Zeros sota la diagonal
 
-![image](1572515447-3bfc4d932d-zerosdiagonal.png)
+![image](ceros-debajo-de-la-diagonal-img1.png)
 
 Donada una matriu quadrada de nombres, digues si tots els nombres per sota de la diagonal són 0.
 

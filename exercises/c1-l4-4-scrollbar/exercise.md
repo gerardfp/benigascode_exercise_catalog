@@ -5,7 +5,7 @@ slug: c1-l4-4-scrollbar
 
 Quan el *content height* és major que el *viewport height*, el navegador web mostra una *scrollbar* amb dues *arrows* i un *thumb* per a poder desplaçar el contingut.
 
-![image](1556406792-3075a3c4c3-scrollbar1.png)
+![image](c1-l4-4-scrollbar-img0.png)
 
 Per cada píxel que es desplaça el *thumb*, el contingut es desplaça proporcionalment en direcció oposada.
 

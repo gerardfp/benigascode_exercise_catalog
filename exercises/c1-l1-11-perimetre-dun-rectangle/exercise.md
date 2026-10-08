@@ -8,7 +8,7 @@ El perímetre d'un rectangle és la suma de la longitud de tots els seus costats
 
 Un rectangle es pot definir proporcionant les coordenades del seu cantó superior dret, i les del seu cantó inferior esquerra:
 
-![image](1555870845-59da793e47-rect.png)
+![image](c1-l1-11-perimetre-dun-rectangle-img0.png)
 
 ## Input
 

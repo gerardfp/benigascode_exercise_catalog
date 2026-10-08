@@ -9,13 +9,13 @@ Estamos desarrollando un juego de simulación de ciudades isométrico. Ya tenemo
 
 Por ejemplo el siguiente mapa se representa con la siguiente matriz:
 
-![image](1612872676-4ec549f4b2-tilemapex.png)
+![image](simcity-img9.png)
 
 Para hacer más atractivo el juego queremos añadir los semáforos en las intersecciones. Emepezaremos contando el número de semáforos que serán necesarios.
 
 Necesitaremos 3 semáforos en aquellas intersecciones donde se crucen 3 carreteras, y 4 en los cruces de 4 carreteras:
 
-![image](1612869695-4137da2748-iso1.png)
+![image](simcity-img10.png)
 
 ## Input
 

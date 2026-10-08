@@ -8,7 +8,7 @@ En un rellotge les manilles avancen una mica a cada segon. La manilla dels segon
 
 Però totes tres manilles avancen sempre a cada segon. Així, per exemple si és la 1:30:00, la manilla de les hores estarà a 45º, la dels minuts a 180º i la dels segons a 360º:
 
-![image](1556012783-3558ed1e8f-Untitleddrawing.png)
+![image](c1-l2-3-rellotge-de-manilles-img4.png)
 
 ## Input
 
@@ -40,7 +40,7 @@ S'imprimiran els graus de cada manilla (HH,MM,SS) que corresponen a l'hora, cada
 0.0
 ```
 ```explanation
-![](e2.png)
+![](c1-l2-3-rellotge-de-manilles-img12.png)
 ```
 
 ### Test
@@ -53,7 +53,7 @@ S'imprimiran els graus de cada manilla (HH,MM,SS) que corresponen a l'hora, cada
 0.0
 ```
 ```explanation
-![](e3.png)
+![](c1-l2-3-rellotge-de-manilles-img13.png)
 ```
 
 ### Test
@@ -66,7 +66,7 @@ S'imprimiran els graus de cada manilla (HH,MM,SS) que corresponen a l'hora, cada
 180.0
 ```
 ```explanation
-![](e4.png)
+![](c1-l2-3-rellotge-de-manilles-img16.png)
 ```
 
 ### Test

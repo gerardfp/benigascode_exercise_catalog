@@ -4,7 +4,7 @@ tags: [control-de-flujo, loops]
 ---
 # Informe de vendes
 
-![image](1612521147-606fe603b9-informeventas.png)
+![image](informe-de-vendes-img0.png)
 
 Es requereix desenvolupar una aplicació que realitzi un informe de vendes.
 

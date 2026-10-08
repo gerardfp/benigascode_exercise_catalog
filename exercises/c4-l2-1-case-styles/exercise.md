@@ -15,7 +15,7 @@ Les més comuns són:
 
 - kebab-case : Lisp, XML
 
-![image](1557003993-80e2d4481c-Untitleddrawing13.png)
+![image](c4-l2-1-case-styles-img0.png)
 
 ## Input
 

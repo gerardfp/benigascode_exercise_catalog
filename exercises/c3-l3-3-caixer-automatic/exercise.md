@@ -8,7 +8,7 @@ Ha de permetre ingressar i retirar diners, i consultar el saldo.
 
 El funcionament que ha de tenir es reflecteix en aquest Diagrama de fluxe:
 
-![image](1557311404-ca4c70d427-caixer4.png)
+![image](c3-l3-3-caixer-automatic-img1.png)
 
 ## Input
 

@@ -4,7 +4,7 @@ tags: [operadors]
 ---
 # Temps de descàrrega
 
-![image](1555864526-a951892bed-Sinttulo.png)
+![image](c1-l1-7-temps-de-descarrega-img0.png)
 
 S'està realitzant un programa per a gestionar descàrregues d'arxius.
 Aquest programa ha de mostrar a l'usuari el temps estimat que trigarà la descàrrega, en funció de la velocitat i el tamany de l'arxiu.

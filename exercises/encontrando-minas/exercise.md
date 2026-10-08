@@ -3,7 +3,7 @@ slug: encontrando-minas
 ---
 # Trobant mines
 
-![image](1556787774-25eb5a4261-buscaminas_05.jpg)
+![image](encontrando-minas-img0.jpg)
 
 Donat un tauler del buscamines, s'ha de dir en quines posicions (fila i columna) es troben les mines.
 

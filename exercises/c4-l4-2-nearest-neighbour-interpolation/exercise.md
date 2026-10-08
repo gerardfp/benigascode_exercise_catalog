@@ -7,7 +7,7 @@ tags: [scanner, i/o]
 Nearest-neighbour interpolation és un algoritme d'escalat d'imatges.
 Quan fem una imatge més gran, l'algoritme Nearest-neighbour genera els nous pixels a partir dels originals més propers:
 
-![image](1559147189-0ee013341f-nninterpolation.png)
+![image](c4-l4-2-nearest-neighbour-interpolation-img0.png)
 
 Aquest algoritme funciona bé per a imatges 'pixel-art', però no és el més adequat per a imatges fotogràfiques ja que crea "dents de serra".
 

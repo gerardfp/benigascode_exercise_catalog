@@ -4,7 +4,7 @@ tags: [arrays]
 ---
 # Orden en la cola
 
-![image](1584006124-8ae74ce392-cola.png)
+![image](aafec-orden-en-la-cola-img0.png)
 
 Para entrar en un sitio hay que coger un ticket con un número y esperar en la cola.
 Hay gente que se cansa de esperar y abandona la cola. Y hay otros que tratan de colarse…

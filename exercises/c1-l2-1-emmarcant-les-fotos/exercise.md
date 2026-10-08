@@ -10,7 +10,7 @@ Els marcs han de ser suficientment grans com per a que càpiga la foto i a més 
 
 La definició del rectangle d'una foto i d'un marc es pot fer amb les coordenades dels seus punts superior-dreta i inferior-esquerra:
 
-![image](1555877655-ba0aa179fe-rect.png)
+![image](c1-l2-1-emmarcant-les-fotos-img11.png)
 
 ## Input
 
@@ -51,7 +51,7 @@ true
 true
 ```
 ```explanation
-![](e3.png)
+![](c1-l2-1-emmarcant-les-fotos-img18.png)
 
 La foto (roig) cap dins del marc (verd) i tenen les mateixes proporcions.
 ```
@@ -65,7 +65,7 @@ La foto (roig) cap dins del marc (verd) i tenen les mateixes proporcions.
 false
 ```
 ```explanation
-![](e4.png)
+![](c1-l2-1-emmarcant-les-fotos-img21.png)
 La foto (roig) cap dins del marc (verd) pero NO tenen les mateixes proporcions.
 ```
 
@@ -78,7 +78,7 @@ La foto (roig) cap dins del marc (verd) pero NO tenen les mateixes proporcions.
 true
 ```
 ```explanation
-![](e5.png)
+![](c1-l2-1-emmarcant-les-fotos-img10.png)
 ```
 
 ### Test
@@ -90,7 +90,7 @@ true
 true
 ```
 ```explanation
-![](e6.png)
+![](c1-l2-1-emmarcant-les-fotos-img12.png)
 ```
 
 ### Test
@@ -102,7 +102,7 @@ true
 false
 ```
 ```explanation
-![](e7.png)
+![](c1-l2-1-emmarcant-les-fotos-img22.png)
 ```
 
 ### Test

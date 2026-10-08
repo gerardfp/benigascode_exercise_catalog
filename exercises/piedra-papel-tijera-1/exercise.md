@@ -3,7 +3,7 @@ slug: piedra-papel-tijera-1
 ---
 # Pedra, Paper, Tisora
 
-![image](1571220517-743a865526-istockphoto-824700882-612x612.jpg)
+![image](piedra-papel-tijera-1-img0.jpg)
 
 Donades un sèrie de rondes del joc Pedra-Paper-Tisora, determina el guanyador de la partida.
 

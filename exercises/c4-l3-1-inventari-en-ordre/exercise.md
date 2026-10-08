@@ -13,7 +13,7 @@ El software d'inventari que tenim a la xarxa obté diversa informació sobre l'e
 
 - Espai de disc (Gb)
 
-![image](1559040147-2ccf4973dc-inventari1.png)
+![image](c4-l3-1-inventari-en-ordre-img0.png)
 
 Amb la informació recopilada podem generar l'inventari de màquines de la xarxa.
 

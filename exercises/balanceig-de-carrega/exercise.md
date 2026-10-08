@@ -10,7 +10,7 @@ En aquest problema tractarem el balanceig de càrrega de dispositius de disc en 
 
 Quan s'ha d'emmagatzemar un bloc de dades, el balancejador de càrrega escull el disc amb més espai disponible per a emmagaztemar-les:
 
-![image](1559057293-33da2565fb-diskbalancer.png)
+![image](balanceig-de-carrega-img1.png)
 
 ## Input
 

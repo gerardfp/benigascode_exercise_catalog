@@ -3,7 +3,7 @@ slug: tpv
 ---
 # TPV
 
-![image](1613469413-94063dea8e-tpv.jpg)
+![image](tpv-img0.jpg)
 
 Estamos desarrollando una aplicación para un Terminal de Punto de Venta de un restaurante de comida rápida.
 

@@ -7,7 +7,7 @@ A un alumne li han manat de deures fer un munt de divisions. Quan les ha acabade
 
 Per exemple, de la següent divisió
 
-![image](1556747675-e04d312e24-1548237925-70aa87de1d-division.png)
+![image](corrigiendo-los-deberes-img2.png)
 
 es digitalitza el **Dividend**, el **Divisor**, el **Quocient** i el **Residu**, i s'obté:
 

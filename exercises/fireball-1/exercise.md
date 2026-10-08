@@ -3,7 +3,7 @@ slug: fireball-1
 ---
 # Fireball
 
-![image](1612775587-3cd3d16243-clash.png)
+![image](fireball-1-img1.png)
 
 En un videojoc els enemics es disposen en una fila. El jugador els hi pot llançar boles de foc i provocar un dany a l'enemic en el qual impacta i també als que estiguin a l'abast de la bola de foc.
 
@@ -27,7 +27,7 @@ El primer nombre  indica la posició (començant per `0`) de l'enemic al qual im
 
 Per exemple, la següent bola de foc impacta a l'enemic en la posició `4` i té un abast `2`:
 
-![image](1612776346-f5253780cc-clash2.png)
+![image](fireball-1-img0.png)
 
 ## Output
 

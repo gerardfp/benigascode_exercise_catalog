@@ -6,7 +6,7 @@ tags: [operadors]
 
 Donades les posicions de les dues reines en un tauler d'escacs, digues si s'amenacen mútuament.
 
-![image](1556194741-5344980f93-escacs.png)
+![image](c1-l3-1-dues-reines-img8.png)
 
 ## Input
 

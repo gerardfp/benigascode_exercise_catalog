@@ -5,7 +5,7 @@ slug: c5-l3-1-join
 
 Donades les tuples de les següents relacions:
 
-![image](1556869986-ef1ae97bb9-db2.png)
+![image](c5-l3-1-join-img1.png)
 
 Realitza la següent consulta:
 

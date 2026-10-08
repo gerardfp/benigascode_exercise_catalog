@@ -3,7 +3,7 @@ slug: contando-minas
 ---
 # Comptant mines
 
-![image](1579771811-79189ea78e-1556787479-4e31cd8cf3-buscaminas.jpg)
+![image](contando-minas-img11.jpg)
 
 Donat un tauler de buscamines, dir per a cada casella sense mina, quantes caselles amb mina té al seu voltant.
 

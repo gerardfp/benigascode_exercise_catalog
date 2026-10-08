@@ -3,7 +3,7 @@ slug: c2-l0-4-la-mida-dun-cargol
 ---
 # La mida d'un cargol
 
-![image](1576672258-b20fcd32e4-cargol.jpg)
+![image](c2-l0-4-la-mida-dun-cargol-img0.jpg)
 Crea un programa que a partir de la mida d'un cargol, mostri el text corresponent a la mida, segons la taula següent:
 
 - D’1 cm (inclòs) a 3 cm (no inclòs): petit

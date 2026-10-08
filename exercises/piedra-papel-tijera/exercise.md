@@ -4,7 +4,7 @@ tags: [condicionales, switch, strings, i/o]
 ---
 # Piedra, papel o tijera
 
-![imatge.png](imatge.png)
+![piedra-papel-tijera-img2.png](piedra-papel-tijera-img2.png)
 
 
 Escribe un programa que simule una partida de **piedra, papel o tijera** entre dos jugadores.

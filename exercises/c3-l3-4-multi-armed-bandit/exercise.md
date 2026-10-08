@@ -8,7 +8,7 @@ En la teoria de la probabilitat, el problema dels bandits de múltiples braços 
 
 Diguem que triem un color per al botó "Comprar ara!". Les opcions són taronja, verd o blau.
 
-![image](1559124318-8e5631e7b4-multiarmedbandits.png)
+![image](c3-l3-4-multi-armed-bandit-img1.png)
 
 L'algoritme funciona així: inicialitzem les tres opcions a 1 click d'1 intent. Així, quan comencem, les dades de proves internes són aquestes:
 

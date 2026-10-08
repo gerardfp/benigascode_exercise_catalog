@@ -3,7 +3,7 @@ slug: salari
 ---
 # Salari
 
-![image](1612774725-e51a4676f3-salario.jpg)
+![image](salari-img8.jpg)
 
 Per a calcular el salari d'un treballador es mira la quantitat d'hores treballades i a quan es paga l'hora.
 

@@ -3,7 +3,7 @@ slug: c3-l0-8-show-line-numbers
 ---
 # Show line numbers
 
-![image](1571930659-32b28bd209-Espaidetreball1_002.png)
+![image](c3-l0-8-show-line-numbers-img2.png)
 
 Necessitem incorporar la funció "Show line numbers" al nostre editor de codi...
 

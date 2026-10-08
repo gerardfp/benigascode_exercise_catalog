@@ -4,7 +4,7 @@ tags: [strings]
 ---
 # Reacció en cadena
 
-![image](1610984838-c68799088b-reaccioencadena0.png)
+![image](reaccio-en-cadena-img20.png)
 
 Hi han una sèrie de bombes col·locades en línia recta i separades per 1 metre.
 
@@ -24,7 +24,7 @@ Per exemple, els següents abasts corresponen a les següents bombes:
 2 1 3 0 1 1
 ```
 
-![image](1611047065-2cb4acf98b-reaccioencadenae.png)
+![image](reaccio-en-cadena-img15.png)
 
 ## Output
 

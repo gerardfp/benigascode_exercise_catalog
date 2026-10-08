@@ -4,7 +4,7 @@ tags: [strings]
 ---
 # Arxius de codi font
 
-![image](1601159416-d284b37cf1-srctypes.png)
+![image](arxius-de-codi-font-img1.png)
 
 Cada llenguatge de programació té les seves pròpies extensions per als arxius de codi font.
 

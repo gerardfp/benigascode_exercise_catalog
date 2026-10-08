@@ -6,7 +6,7 @@ slug: c1-l2-7-tir-amb-arc
 A l'esport de tir amb arc un arquer obté una puntuació segons l'anell on clava la fletxa.
 En una diana com la aquesta, rebria 5 punts al color groc, 4 al vermell, 3 al blau, 2 al negre i 1 al blanc.
 
-![image](1556184434-7bc003fe3f-diana2.png)
+![image](c1-l2-7-tir-amb-arc-img1.png)
 
 L'anell groc té un radi de 5cm, i cada anell és 5cm més gran.
 

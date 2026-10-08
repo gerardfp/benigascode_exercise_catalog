@@ -4,7 +4,7 @@ tags: [condicionales, control-de-flujo]
 ---
 # Separar els parells dels imparells
 
-![image](1574079187-6bb595c935-Untitleddrawing3.png)
+![image](separar-los-pares-de-los-impares-img2.png)
 
 Donada una seqüència de números, s'ha de separar en base a dos criteris:
 

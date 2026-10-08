@@ -3,7 +3,7 @@ slug: tetris-eliminar-linies
 ---
 # Tetris, eliminar línies
 
-![image](1612523216-fc62f6bda7-1611068668-a4adf963d1-21a.png)
+![image](tetris-eliminar-linies-img0.png)
 
 Al Tetris, quan una línia horitzontal es completa, aquesta línia desapareix i totes les peces que estan a sobre descendeixen una posició.
 
@@ -17,7 +17,7 @@ A continuació venen una sèrie de `1` i `0` que indiquen l'estat de cada casell
 
 Per exemple, aquest tauler de Tetris es podria representar així:
 
-![image](1612521867-25f9159e3c-tetris.png)
+![image](tetris-eliminar-linies-img2.png)
 
 ## Output
 

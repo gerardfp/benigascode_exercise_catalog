@@ -13,7 +13,7 @@ Es demana implementar una màquina d'estats bàsica per a un personatge del joc 
 
 Els **estats** possibles d'un personatge són:
 
-![image](1570555428-3edd8a3606-Untitleddrawing.png)
+![image](street-fighter-1-img3.png)
 
 Els **events** que poden canviar l'estat d'un personatge són:
 
@@ -35,7 +35,7 @@ Els **events** que poden canviar l'estat d'un personatge són:
 
 El següent diagrama ilustra les transicions entre estats que provoquen aquests events.
 
-![image](1570555731-03e2925fea-streetfighter.png)
+![image](street-fighter-1-img4.png)
 
 ## Input
 

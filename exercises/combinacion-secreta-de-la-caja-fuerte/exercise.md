@@ -4,7 +4,7 @@ tags: [scanner, i/o]
 ---
 # Combinación secreta de la caja fuerte
 
-![image](1584005061-61c2507dc4-Untitleddrawing.png)
+![image](combinacion-secreta-de-la-caja-fuerte-img2.png)
 
 En una caja fuerte de combinación hay que introducir los números de la combinación secreta en el orden correcto para abrirla.
 

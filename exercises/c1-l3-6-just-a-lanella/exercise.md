@@ -13,7 +13,7 @@ L'anella es defineix per les coordenades del seu centre (, ), i les longituds de
 
 Per exemple, la següent anella té el centre a (0,0), el radi interior 1, i l'exterior 2.
 
-![image](1556368908-05c09d0943-Untitleddrawing4.png)
+![image](c1-l3-6-just-a-lanella-img0.png)
 
 La posició del dard es defineix per les seves coordenades (, ).
 

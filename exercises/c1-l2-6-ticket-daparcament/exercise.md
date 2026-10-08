@@ -4,7 +4,7 @@ tags: [operadors]
 ---
 # Ticket d'aparcament
 
-![image](1556180294-d84162eb53-Untitleddrawing1.png)
+![image](c1-l2-6-ticket-daparcament-img0.png)
 
 Un ticket d'aparcament et permet aparcar durant un temps en funció dels diners que poses i de la tarifa.
 

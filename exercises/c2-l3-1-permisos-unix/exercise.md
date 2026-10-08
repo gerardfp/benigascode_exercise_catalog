@@ -7,7 +7,7 @@ Els permisos de lecture, escritura i execució sobre fitxers en sistemes UNIX-li
 
 Els fitxers són propietat d'un usuari i d'un grup, i s'especifiquen permisos per a les tres classes: propietari del fitxer, els usuaris del grup propietari del fitxer i la resta d'usuaris.
 
-![image](1557229688-38d8ac6b2b-permissions3.png)
+![image](c2-l3-1-permisos-unix-img2.png)
 
 Quan un usuari tracta d'accedir a un fitxer, els permisos efectius que té sobre el fitxer es determinen en base a la primera classe en la qual encaixi.
 

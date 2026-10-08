@@ -4,7 +4,7 @@ tags: [arrays]
 ---
 # Apunts
 
-![image](1575464228-fd15617696-papers-flying-graphic-1024x767.jpg)
+![image](c4-l1-2-apunts-img0.jpg)
 
 En Joan anava a l'institut en monopatí i portava la motxilla oberta... tots els apunts de programació li han sortit volant.
 
