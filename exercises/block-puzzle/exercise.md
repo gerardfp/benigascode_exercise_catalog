@@ -68,7 +68,6 @@ false
 ![](block-puzzle-img3.png)
 ```
 
-
 ### Test
 ```input
 5 5

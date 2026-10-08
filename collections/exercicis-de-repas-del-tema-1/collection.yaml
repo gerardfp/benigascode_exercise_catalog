@@ -1,0 +1,27 @@
+---
+id: "exercicis-de-repas-del-tema-1"
+title: "Exercicis de repàs del Tema 1"
+slug: "exercicis-de-repas-del-tema-1"
+description: ""
+visibility: "PUBLIC"
+language: "java"
+runtime: "java-21"
+compile:
+  command: "javac Main.java"
+  timeout_seconds: 15
+execution:
+  memory_limit_mb: 256
+  timeout_seconds: 3
+  command: "java Main"
+scoring:
+  mode: "weighted"
+  total_score: 100
+comparator:
+  ignore_trailing_whitespace: true
+  type: "exact_line_by_line"
+items:
+- type: "EXERCISE"
+  id: "c4-l0-1-altura-minima"
+  position: 1
+  required: true
+  weight: 1.0
