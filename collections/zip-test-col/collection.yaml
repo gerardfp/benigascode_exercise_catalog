@@ -10,15 +10,15 @@ compile:
   command: "javac Main.java"
   timeout_seconds: 15
 execution:
-  memory_limit_mb: 256
-  timeout_seconds: 3
   command: "java Main"
+  timeout_seconds: 3
+  memory_limit_mb: 256
 scoring:
   mode: "weighted"
   total_score: 100
 comparator:
-  ignore_trailing_whitespace: true
   type: "exact_line_by_line"
+  ignore_trailing_whitespace: true
 items:
 - type: "EXERCISE"
   id: "zip-test-suma"

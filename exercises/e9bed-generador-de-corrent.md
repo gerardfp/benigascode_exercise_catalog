@@ -1,0 +1,55 @@
+---
+slug: e9bed-generador-de-corrent
+---
+# Generador de corrent
+
+![image](assets/e9bed-generador-de-corrent-img0.gif)
+Per a comprovar el funcionament d'un generador de corrent elèctrica alterna, es mesura periòdicament el voltatge de la corrent generada.
+
+Es considera que el generador funciona correctament si el voltatge alterna pujades i baixades. És a dir, si en una medició el voltatge ha pujat, en la següent ha d'haver baixat, i viceversa.
+
+La primera medició respecte de la segona ha de ser de pujada.
+
+## Input
+
+La entrada consisteix en una seqüència de números que representen els voltages mesurats.
+
+La seqüència acaba amb un 0, que no s'ha de computar.
+
+## Output
+
+S'imprimirà "CORRECTE" si la seqüència de números ha anat alternant pujades i baixades, i "INCORRECTE" en cas contrari.
+
+## Tests
+
+### Test
+```input
+1 5 2 7 3   0
+```
+```output
+CORRECTE
+```
+
+### Test
+```input
+2 5 3 6 7   0
+```
+```output
+INCORRECTE
+```
+
+### Test
+```input
+3 1 3 1 3    0
+```
+```output
+INCORRECTE
+```
+
+### Test
+```input
+4 4 3 6 3   0
+```
+```output
+INCORRECTE
+```

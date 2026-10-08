@@ -1,0 +1,147 @@
+---
+slug: simcity
+---
+# Simcity
+
+Los **Tilemaps** son una técnica popular en el desarrollo de juegos 2D, que consiste en construir el mundo del juego a partir de pequeñas imagenes regulares llamadas *tiles*.
+
+Estamos desarrollando un juego de simulación de ciudades isométrico. Ya tenemos listo el desarrollo de las carreteras. El mapa del juego está representado internamente por una matriz de caracteres. Cada caracter corresponde a un *tile* del mapa. Los tiles donde hay carretera corresponden al caracter `#`, y en los que hay hierba, el caracter `.`
+
+Por ejemplo el siguiente mapa se representa con la siguiente matriz:
+
+![image](assets/simcity-img0.png)
+
+Para hacer más atractivo el juego queremos añadir los semáforos en las intersecciones. Emepezaremos contando el número de semáforos que serán necesarios.
+
+Necesitaremos 3 semáforos en aquellas intersecciones donde se crucen 3 carreteras, y 4 en los cruces de 4 carreteras:
+
+![image](assets/simcity-img1.png)
+
+## Input
+
+En primer lugar, los números  y  indican el ancho y alto del mapa, respectivamente.
+
+A continuación vienen los x *tiles* del mapa (`#` `.`). Los *tiles* están separados por espacios en blanco y saltos de línea.
+
+## Output
+
+Un entero indicando la cantidad de semáforos necesaria
+
+## Plantillas
+
+```java
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+      	
+      	
+    }
+}
+```
+
+## Tests
+
+### Test
+```input
+5 5
+. . . . .
+. . # . .
+. # # # .
+. . # . .
+. . . . .
+```
+```output
+4
+```
+
+### Test
+```input
+4 5
+. . . .
+. . # .
+. # # .
+. . # .
+. . . .
+```
+```output
+3
+```
+
+### Test
+```input
+7 4
+. . . . . . .
+. # # # . # .
+. # . # # # .
+. . . . . . .
+```
+```output
+0
+```
+
+### Test
+```input
+6 3
+. # . # . #
+# # # # # #
+. . . # . .
+```
+```output
+7
+```
+
+### Test
+```input
+7 4
+. . # . . . .
+# # # # # # #
+. . . # . # .
+. . . # . # .
+```
+```output
+9
+```
+
+### Test
+```input
+8 5
+. # . # . . # .
+# # # # . . # #
+. # . # . . # .
+. # # # # # # .
+. . # . . # . .
+```
+```output
+19
+```
+
+### Test
+```input
+11 8
+# . . # . . . # . . #
+# . . # # # # # . . #
+# # . # . . . # # # #
+. # # # . . # # . . #
+. . . # . . # . . . #
+. # # # # # # # # # #
+# # . # . . # . . # .
+# . . # # # # # # # .
+```
+```output
+29
+```
+
+### Test
+```input
+4 4
+. . # .
+. . # .
+# # # #
+# . # .
+```
+```output
+4
+```
