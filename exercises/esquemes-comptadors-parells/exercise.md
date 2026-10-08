@@ -4,14 +4,13 @@ tags: [arrays, esquemes]
 ---
 # Comptadors: parells
 
-Escriu un programa que llegeix una sèrie de números, i compta 
-quants son parells.
+Escriu un programa que llegix una sèrie de números, i compta quants són parells.
 
 ## Entrada
 
-A la primera línea hi ha el número `N`, que indica la quantitat de números de la serie.
+A la primera línia hi ha el número `N`, que indica la quantitat de números de la sèrie.
 
-Després ve la sèrie de números, cadascun en una línea.
+Després ve la sèrie de números, cadascun en una línia.
 
 ## Salida
 
