@@ -1,0 +1,22 @@
+---
+id: "array-basics"
+title: "Array basics"
+slug: "array-basics"
+description: ""
+visibility: "PUBLIC"
+language: "java"
+runtime: "java-21"
+compile:
+  timeout_seconds: 15
+  command: "javac Main.java"
+execution:
+  memory_limit_mb: 256
+  command: "java Main"
+  timeout_seconds: 3
+scoring:
+  total_score: 100
+  mode: "weighted"
+comparator:
+  type: "exact_line_by_line"
+  ignore_trailing_whitespace: true
+items: []

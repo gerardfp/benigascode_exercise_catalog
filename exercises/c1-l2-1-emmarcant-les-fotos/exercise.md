@@ -33,7 +33,6 @@ S'imprimirà `true` si el marc és adequat per a la foto, i `false` si no ho és
 true
 ```
 
-
 ### Test
 ```input
 1 1 0 0

@@ -16,7 +16,6 @@ La entrada consisteix en 4 nombres indicant la fila i columna de cada reina
 
 true | false
 
-
 ## Tests
 
 ### Test

@@ -1,5 +1,6 @@
 ---
 slug: c1-l2-4-aprovar-el-modul
+tags: [operadors]
 ---
 # Aprovar progrmació
 

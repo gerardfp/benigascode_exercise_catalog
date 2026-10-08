@@ -69,7 +69,6 @@ S'imprimiran els graus de cada manilla (HH,MM,SS) que corresponen a l'hora, cada
 ![](e4.png)
 ```
 
-
 ### Test
 ```input
 11 59 59

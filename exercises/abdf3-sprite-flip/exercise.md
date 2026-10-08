@@ -1,6 +1,5 @@
 ---
 slug: abdf3-sprite-flip
-slug: [matrix]
 ---
 # Sprite flip
 

@@ -34,7 +34,6 @@ Porcentaje por debajo de la media: `decimal + %`
 Porcentaje por encima de la media: `decimal + %`  
 Existe una temperatura igual a la media: `true | false`
 
-
 ## Tests
 
 ### Test

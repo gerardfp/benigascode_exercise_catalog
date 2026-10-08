@@ -24,7 +24,6 @@ A cada línia hi ha:
 
 S'imprimirà cada arxiu en una línia, primer el `tipus` i després el `nom`.
 
-
 ## Tests
 
 ### Test

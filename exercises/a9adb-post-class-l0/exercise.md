@@ -6,7 +6,6 @@ tags: [classes]
 
 Implementa el constructor de la classe Post.
 
-
 ## Plantillas
 
 ```java
