@@ -4,7 +4,7 @@ tags: [arrays, esquemes]
 ---
 # Comptadors: paraules
 
-Escriu un programa que llegix una sèrie de paraules, després llegeix una paraula a comparar, i compta quantae són iguals a esta última paraula.
+Escriu un programa que llegix una sèrie de paraules, després llegeix una paraula a comparar, i compta quantes són iguals a esta última paraula.
 
 ## Entrada
 
