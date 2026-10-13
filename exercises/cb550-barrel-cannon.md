@@ -1,6 +1,6 @@
 ---
-slug: barrel-cannon
-tags: [arrays]
+slug: cb550-barrel-cannon
+tags: [array]
 ---
 # Barrel Cannon
 
