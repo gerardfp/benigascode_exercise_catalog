@@ -1,6 +1,7 @@
 ---
-slug: a-hello-you
+slug: hello-you
 tags: [i/o]
+difficulty: 1
 ---
 # Hello you
 
