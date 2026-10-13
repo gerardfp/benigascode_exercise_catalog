@@ -6,7 +6,7 @@ tags: [array]
 
 ![image](assets/block-puzzle-img0.png)
 
-En el juego Block Puzzle, el jugador va colocando unas piezas en el tablero completando filas o columnas. Las piezas no se pueden superponer.
+En el juego Block Puzzle, el jugador va colocando unas piezas en el tablero, completando filas o columnas. Las piezas no se pueden superponer.
 
 Dado un tablero con las fichas que ya estaban colocadas, y otro tablero con la ficha que desea colocar el jugador, indica si la ficha se puede colocar en esa posición.
 
