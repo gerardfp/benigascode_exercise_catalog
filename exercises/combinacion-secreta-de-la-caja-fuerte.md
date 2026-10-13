@@ -1,6 +1,6 @@
 ---
 slug: combinacion-secreta-de-la-caja-fuerte
-tags: [scanner, i/o]
+tags: [for]
 ---
 # Combinación secreta de la caja fuerte
 
@@ -47,7 +47,7 @@ ABIERTA
 CERRADA
 ```
 
-### Test
+### Test private
 ```input
 1 1 1
 1 1 2 1 1 2    -1

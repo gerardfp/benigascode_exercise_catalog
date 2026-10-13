@@ -1,5 +1,6 @@
 ---
 slug: data-valida
+tags: [operadors]
 ---
 # Data vàlida
 
@@ -26,6 +27,8 @@ Tres nombres corresponents a una data en format `dd/mm/yyyy`
 ```output
 true
 ```
+#### Explanation
+1 d'Octubre del 2000 és una data vàlida
 
 ### Test
 ```input
@@ -34,6 +37,8 @@ true
 ```output
 true
 ```
+#### Explanation
+32 d'Ocutbre del 2000 no és una data vàlida
 
 ### Test
 ```input
@@ -42,6 +47,8 @@ true
 ```output
 false
 ```
+#### Explanation
+31 d'Octubre del 2000 és una data vàlida
 
 ### Test
 ```input
@@ -58,6 +65,8 @@ true
 ```output
 false
 ```
+#### Explanation
+El 2000 és bixest
 
 ### Test
 ```input
@@ -66,6 +75,8 @@ false
 ```output
 true
 ```
+#### Explanation
+El 1900 no és bixest
 
 ### Test
 ```input
@@ -74,6 +85,8 @@ true
 ```output
 false
 ```
+#### Explanation
+El 1904 és bixest
 
 ### Test
 ```input
@@ -139,7 +152,7 @@ true
 false
 ```
 
-### Test
+### Test private
 ```input
 0 1 2020
 ```

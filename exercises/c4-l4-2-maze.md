@@ -1,5 +1,6 @@
 ---
 slug: c4-l4-2-maze
+tags: [recursivitat]
 ---
 # Maze
 
@@ -11,14 +12,12 @@ En primer lloc hi ha el nombre de línies que té el laberint. A continuació ve
 
 Cada caracter significa:
 
-```text
+```
 '#' mur
 ' ' cami
 '^' inici
 '_' sortida
 ```
-
-No hi ha
 
 ## Output
 
@@ -305,7 +304,7 @@ oo#   #     #   #             #   # #   # #   #         #       #   #     #   # 
 ###############################################################################o#
 ```
 
-### Test
+### Test private
 ```input
 11
 ###########_#

@@ -1,5 +1,6 @@
 ---
 slug: c6-l2-1-termometre
+tags: [class, L0]
 ---
 # Termòmetre
 
@@ -121,7 +122,7 @@ Termometre 2
 --------
 ```
 
-### Test
+### Test private
 ```input
 100
 100

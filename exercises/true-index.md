@@ -1,5 +1,6 @@
 ---
 slug: true-index
+tags: [arrays]
 ---
 # True index
 
@@ -74,7 +75,7 @@ public class Main {
 [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
 ```
 
-### Test
+### Test private
 ```input
 45 78 93 23 4 55 61  -1
 ```

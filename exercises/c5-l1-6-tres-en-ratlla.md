@@ -131,7 +131,7 @@ XOO
 -
 ```
 
-### Test
+### Test private
 ```input
 OXO
 XOX

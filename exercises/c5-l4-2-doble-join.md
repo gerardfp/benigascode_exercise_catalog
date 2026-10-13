@@ -8,9 +8,9 @@ Donades les tuples de les següents relacions:
 ![image](assets/c5-l4-2-doble-join-img0.png)
 Realitza la següent consulta:
 
-```text
-SELECT cognoms, nom, moduls.nom AS modul, nota
-FROM alumnes
+```
+SELECT cognoms, nom, moduls.nom AS modul, nota 
+FROM alumnes 
     JOIN notes ON alumnes.id = notes.idAlumne
     JOIN moduls ON moduls.id = notes.idModul
 ```
@@ -22,35 +22,33 @@ En primer lloc va el nombre de tuples i després les tuples, cadascuna en una l�
 
 Per a la taula **alumnes** el format de cada tupla és:
 
-```text
+```
 id cognoms, nom
 ```
 
 Per a la taula **moduls** el format és:
 
-```text
+```
 id nom
 ```
 
 Per a la taula **notes** el format és:
 
-```text
+```
 idAlumne idModul nota
 ```
-
-No hi ha cap restricció significativa
 
 ## Output
 
 La sortida serà el resultat de la consulta en format taula:
 
-```text
+```
 cognoms|nom|modul|nota
 -------+---+-----+----
        |   |     |
 ```
 
-L'amplada de cada columna serà igual a la longitud màxima dels seus valors. La nota s'haurà de posar amb dos decimals.
+L'amplada de cada columna serà igual a la longitud màxima dels seus valors. La nota s'haurà de posar amb dos decimals. 
 
 Tot el text s'ha d'aliniar a la dreta.
 
@@ -202,7 +200,7 @@ Marx       |Karl |Planificacio i administracio de xarxes| 5.00
 (11 rows)
 ```
 
-### Test
+### Test private
 ```input
 7
 87 Dijkstra, Edsger

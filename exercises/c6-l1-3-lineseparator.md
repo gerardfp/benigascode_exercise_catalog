@@ -1,13 +1,12 @@
 ---
 slug: c6-l1-3-lineseparator
-tags: [condicionales, control-de-flujo]
+tags: [class, L0]
 ---
 # LineSeparator
 
 Completa el mètode main():
 
 - Crea un objecte de la classe LineSeparator
-
 - Estableix el tamany de la linea a partir de la dades d'entrada.
 
 ## Input
@@ -80,7 +79,7 @@ Aqui sota hi surt una line de 7 guions
 -------
 ```
 
-### Test
+### Test private
 ```input
 10 20 30   -1
 ```

@@ -1,5 +1,6 @@
 ---
 slug: hora-dapertura-operadors-ternari
+tags: [operadors, ternari]
 ---
 # Hora d'apertura
 
@@ -82,7 +83,7 @@ Dissabte
 10:00
 ```
 
-### Test
+### Test private
 ```input
 Diumenge
 ```

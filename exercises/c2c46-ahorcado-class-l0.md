@@ -1,10 +1,18 @@
 ---
 slug: c2c46-ahorcado-class-l0
-tags: [classes]
+tags: [class, L0]
 ---
 # Ahorcado
 
-Crea la clase `Ahorcado`
+Crea la clase Ahorcado
+
+## Input
+
+-
+
+## Output
+
+-
 
 ## Plantillas
 
@@ -222,7 +230,7 @@ c o n s t r u
 YOU WIN
 ```
 
-### Test
+### Test private
 ```input
 classe
 c l a e z x v b n m

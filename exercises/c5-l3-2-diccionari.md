@@ -1,6 +1,5 @@
 ---
 slug: c5-l3-2-diccionari
-tags: [scanner, i/o]
 ---
 # Diccionari
 
@@ -15,8 +14,6 @@ També disposem del recurs de la metaprogramació, que consisteix en programes q
 Una llista de paraules, separades per salts de línia.
 
 La llista de paraules acaba amb '**END**'
-
-No hi ha restriccions significatives.
 
 ## Output
 
@@ -94,7 +91,7 @@ class Dictionari {
 }
 ```
 
-### Test
+### Test private
 ```input
 metaprogramming
 rocks

@@ -9,8 +9,6 @@ Se deben ir leyendo números hasta que se lea un 0. El programa debe mostrar la 
 
 Una secuencia de N números.
 
-0 <= 1 <= 10^7
-
 ## Output
 
 Un entero indicando la cantidad de números leídos
@@ -65,7 +63,7 @@ Un entero indicando la cantidad de números leídos
 4
 ```
 
-### Test
+### Test private
 ```input
 5 8 0
 ```

@@ -1,5 +1,6 @@
 ---
 slug: c2-l1-2-lletres-scrabble
+tags: [if, switch]
 ---
 # Lletres de l'Scrabble
 
@@ -7,7 +8,7 @@ slug: c2-l1-2-lletres-scrabble
 
 Donada una lletra, obté la seva puntuació d'Scrabble.
 
-```text
+```
 Letter                             Value
 A, E, I, O, U, L, N, R, S, T       1
 D, G                               2
@@ -21,8 +22,6 @@ Q, Z                               10
 ## Input
 
 Un caracter
-
-El caracter és una lletra de l'Scrabble
 
 ## Output
 
@@ -238,7 +237,7 @@ Q
 10
 ```
 
-### Test
+### Test private
 ```input
 Z
 ```

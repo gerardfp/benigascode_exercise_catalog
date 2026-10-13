@@ -9,8 +9,6 @@ Dado un número, calcula la cantidad de divisores que tiene.
 
 Un número entero N
 
-0 <= N <= 10^9
-
 ## Output
 
 Un número indicando la cantidad de divisores
@@ -24,6 +22,8 @@ Un número indicando la cantidad de divisores
 ```output
 4
 ```
+#### Explanation
+El 6 es divisible por 1, 2, 3 y 6
 
 ### Test
 ```input
@@ -32,6 +32,8 @@ Un número indicando la cantidad de divisores
 ```output
 6
 ```
+#### Explanation
+El 12 es divisible por 1, 2, 3, 4, 6 y 12
 
 ### Test
 ```input
@@ -40,6 +42,8 @@ Un número indicando la cantidad de divisores
 ```output
 2
 ```
+#### Explanation
+El 17 es divisible por 1 y 17
 
 ### Test
 ```input
@@ -97,7 +101,7 @@ Un número indicando la cantidad de divisores
 2
 ```
 
-### Test
+### Test private
 ```input
 3
 ```

@@ -1,5 +1,6 @@
 ---
 slug: ec528-producte-class-l0
+tags: [class]
 ---
 # Producte
 
@@ -73,7 +74,7 @@ Preu:       79.5
 Stock:      3
 ```
 
-### Test
+### Test private
 ```input
 G.Skill Trident Z RGB
 DDR4 3200 PC4-25600 16GB 2x8GB CL16

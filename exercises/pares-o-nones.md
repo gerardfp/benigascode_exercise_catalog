@@ -1,6 +1,6 @@
 ---
 slug: pares-o-nones
-tags: [condicionales, control-de-flujo]
+tags: [ternari]
 ---
 # Pares o nones
 
@@ -72,7 +72,7 @@ pares 3
 segon jugador
 ```
 
-### Test
+### Test private
 ```input
 pares 3
 nones 2

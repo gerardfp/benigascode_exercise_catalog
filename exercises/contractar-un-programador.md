@@ -1,5 +1,6 @@
 ---
 slug: contractar-un-programador
+tags: [operadors]
 ---
 # Contractar un programador
 
@@ -18,11 +19,8 @@ Escriu un programa que a partir de les dades digui si passa el procés de selecc
 L'entrada consta de 4 dades.
 
 - un boolea indicant si coneix Java
-
 - un enter indicant els anys d'experiència en Java
-
 - un boolea indicant si coneix Python
-
 - un enter indicant els anys d'experiència en Python
 
 ## Output
@@ -88,8 +86,10 @@ false 1
 ```output
 false
 ```
+#### Explanation
+Inexplicablement, aquest candidat té 1 any d'experiència en Java, però no coneix el llenguatge...
 
-### Test
+### Test private
 ```input
 false 0
 true 2

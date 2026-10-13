@@ -1,5 +1,6 @@
 ---
 slug: ebeac-fighters-class-l0
+tags: [class, L0]
 ---
 # Fighters
 
@@ -82,7 +83,7 @@ chun-li 60 90 100
 chun-li
 ```
 
-### Test
+### Test private
 ```input
 ryu 80 90 80
 ken 80 80 90

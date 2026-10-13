@@ -1,10 +1,18 @@
 ---
 slug: ae12f-notas-class-l0
-tags: [classes]
+tags: [class, L0]
 ---
 # Notas
 
-Crea la classe `Alumne`
+Crea la classe Alumne
+
+## Input
+
+-
+
+## Output
+
+-
 
 ## Plantillas
 
@@ -16,7 +24,7 @@ import java.math.*;
 import java.util.regex.*;
 
 
-// write your code here
+// escriu el codi aqui
 
 public class Main {
 
@@ -54,7 +62,7 @@ public class Main {
 Nota media: 7.1
 ```
 
-### Test
+### Test private
 ```input
 3
 10 5 0

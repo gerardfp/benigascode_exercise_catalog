@@ -1,5 +1,6 @@
 ---
 slug: f831b-tabla-class-l0
+tags: [class, L0]
 ---
 # Taula
 
@@ -92,7 +93,7 @@ zzzzzzzzzz
 zzzzzzzzzz
 ```
 
-### Test
+### Test private
 ```input
 7 25 x
 ```

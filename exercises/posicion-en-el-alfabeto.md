@@ -1,6 +1,5 @@
 ---
 slug: posicion-en-el-alfabeto
-tags: [scanner, i/o]
 ---
 # Posició a l'alfabet
 
@@ -76,7 +75,7 @@ tochararray
 24
 ```
 
-### Test
+### Test private
 ```input
 jived fox nymph grabs quick waltz
 ```

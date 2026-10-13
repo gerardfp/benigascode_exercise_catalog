@@ -9,7 +9,7 @@ La distància Hamming entre dos Strings de la mateixa longitud és la quantitat 
 
 Exemple:
 
-```text
+```
 Hola mon
 Hala man
 ```
@@ -136,7 +136,7 @@ a
 -1
 ```
 
-### Test
+### Test private
 ```input
 aa
 ab

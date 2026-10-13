@@ -9,8 +9,6 @@ Se deben ir leyendo números hasta que se lea un 0. El programa debe mostrar "SI
 
 Un secuencia de N números enteros que finaliza con un 0.
 
-1 <= N <= 10^7
-
 ## Output
 
 "SI" o "NO"
@@ -73,7 +71,7 @@ SI
 SI
 ```
 
-### Test
+### Test private
 ```input
 1 2 3 4 0
 ```

@@ -16,7 +16,6 @@ Podem obtenir els seus "flips" horitzontals i verticals:
 ## Input
 
 En primer lloc el nombre de línies de l'sprite.
-
 A continuació ve l'sprite ASCII-ART.
 
 ## Output
@@ -135,7 +134,7 @@ S'imprimirà l'*spritesheet* amb l'spirte ORIGINAL, junt amb les inversions HORI
 ####
 ```
 
-### Test
+### Test private
 ```input
 48
 i`it)v|[[[[(//s+)`(-\\/JJgbdd@@@@@@@dmKK(c!(/-[2=/cct/!-v\!_L\)|

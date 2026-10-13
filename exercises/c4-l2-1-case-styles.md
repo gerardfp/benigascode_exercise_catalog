@@ -7,12 +7,10 @@ Existeixen nombroses convencions a l'hora d'escollir la seqüència de caracters
 
 Normalment, a cada llenguatge hi ha unes convencions, encara que cada organització té el seu propi estil.
 
-Les més comuns són:
+Les més comuns són: 
 
 - CamelCase : Java, C#, Javascript, Go, Ruby, JSON
-
 - snake_case : Python, PHP, C, C++
-
 - kebab-case : Lisp, XML
 
 ![image](assets/c4-l2-1-case-styles-img0.png)
@@ -20,8 +18,6 @@ Les més comuns són:
 ## Input
 
 Les paraules que componen l'identificador
-
-No hi ha restriccions sigificatives
 
 ## Output
 
@@ -85,7 +81,7 @@ fork-join-worker-thread-factory
 fork_join_worker_thread_factory
 ```
 
-### Test
+### Test private
 ```input
 abstract transactional data source spring context tests
 ```

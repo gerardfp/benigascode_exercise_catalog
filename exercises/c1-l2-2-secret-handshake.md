@@ -1,6 +1,6 @@
 ---
 slug: c1-l2-2-secret-handshake
-tags: [selection]
+tags: [if]
 ---
 # Secret Handshake
 
@@ -8,7 +8,7 @@ Hi ha 10 tipus de persones al món: *els que entenen el binari i els que no*.
 
 Vosaltres i els vostres companys de cohort dels que "sabeu" quan es tracta d’un binari decidiu crear una "salutació" secreta.
 
-```text
+```
 1 = fer l'ullet
 10 = doble parpalleig
 100 = tancar el ulls
@@ -98,7 +98,7 @@ fer l'ullet
 doble parpalleig
 ```
 
-### Test
+### Test private
 ```input
 1 1 1 1
 ```

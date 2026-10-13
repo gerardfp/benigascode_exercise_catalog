@@ -1,5 +1,6 @@
 ---
 slug: c2-l3-1-permisos-unix
+tags: [if]
 ---
 # Permisos UNIX
 
@@ -18,10 +19,6 @@ Donats els permisos, i l'usuari i grup propietaris d'un fitxer, calcula els perm
 A la primera línia venen els 9 permisos P, separats per espais en blanc, i l'usuari i grup propietaris.
 
 A la segona línia ve l'usuari que tracta d'accedir al fitxer, i els 3 grups als que pertany.
-
-P = { - | r | w | x }
-
-L'usuari pertany sempre a 3 grups.
 
 ## Output
 
@@ -101,7 +98,7 @@ alumne3 root informatica asix
 rwx
 ```
 
-### Test
+### Test private
 ```input
 r w x r w x r - - root root
 alumne3 root informatica asix

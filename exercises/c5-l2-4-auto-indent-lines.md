@@ -1,6 +1,5 @@
 ---
 slug: c5-l2-4-auto-indent-lines
-tags: [algorithms, strings]
 ---
 # Auto-Indent Lines
 
@@ -10,7 +9,7 @@ Hi ha diferents estils d'indentació per als llenguatges que defineixen els bloc
 
 - K&R
 
-```text
+```
 while (x == y) {
     something();
     somethingelse();
@@ -19,7 +18,7 @@ while (x == y) {
 
 - Allman
 
-```text
+```
 while (x == y)
 {
     something();
@@ -29,7 +28,7 @@ while (x == y)
 
 - GNU
 
-```text
+```
 while (x == y)
   {
     something ();
@@ -39,7 +38,7 @@ while (x == y)
 
 - Whitesmiths
 
-```text
+```
 while (x == y)
     {
     something();
@@ -49,7 +48,7 @@ while (x == y)
 
 - Horstmann
 
-```text
+```
 while (x == y)
 {   something();
     somethingelse();
@@ -58,7 +57,7 @@ while (x == y)
 
 - Pico
 
-```text
+```
 while (x == y)
 {   something();
     somethingelse(); }
@@ -66,7 +65,7 @@ while (x == y)
 
 - Ratliff
 
-```text
+```
 while (x == y) {
     something();
     somethingelse();
@@ -75,7 +74,7 @@ while (x == y) {
 
 - Lisp
 
-```text
+```
 while (x == y)
   { something();
     somethingelse(); }
@@ -83,26 +82,25 @@ while (x == y)
 
 - Haskell
 
-```text
+```
 while (x == y)
   { something()
   ; somethingelse()
-  ;
+  ; 
   }
 ```
 
-Amb els IDE tenim l'opció d'Auto-Indentar el codi. *¿Com ho fan....?*
+Amb els IDE tenim l'opció d'Auto-Indentar el codi. ¿Com ho fan?
 
 ## Input
 
 La entrada és un codi escrit amb indentació K&R, però els espais d'indentació mal col·locats.
-Tots els blocs del codi estan entre claus `{}`.
-El codi acaba amb la marca `END`.
+Tots els blocs del codi estan entre claus {}
+El codi acaba amb la marca END.
 
 ## Output
 
-S'escriurà el codi correctament indentat, estil K&R. 
-El tamany d'indentació és **4 espais**.
+S'escriurà el codi correctament indentat, estil K&R. El tamany d'indentació és 4 espais.
 
 ## Tests
 
@@ -289,7 +287,7 @@ while(!false){
 }
 ```
 
-### Test
+### Test private
 ```input
 if(true){
 a();

@@ -1,5 +1,6 @@
 ---
 slug: els-petits-davant
+tags: [operadors]
 ---
 # Els petits davant
 
@@ -12,20 +13,6 @@ tres números enters
 ## Output
 
 `true` | `false`
-
-## Plantillas
-
-```java
-import java.util.Scanner;
-
-public class Main {
-    public static void main(String[] args) {
-    	Scanner scanner = new Scanner(System.in);
-      
-      	
-    }
-}
-```
 
 ## Tests
 
@@ -125,7 +112,7 @@ true
 false
 ```
 
-### Test
+### Test private
 ```input
 100 100 1000
 ```

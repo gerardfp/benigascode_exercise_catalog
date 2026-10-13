@@ -1,6 +1,5 @@
 ---
 slug: estadisticas-del-partido
-tags: [condicionales, control-de-flujo]
 ---
 # Estadísticas del partido
 
@@ -21,28 +20,17 @@ Este sería un ejemplo de entrada:
 **0 0 1 0 1 1 1 2 2 2 2 3 -1 -1**
 
 - Empieza el partido, empate 0 0
-
 - Marca el equipo Local, 1 0
-
 - Empata el equipo Visitante, 1 1
-
 - Marca el equipo Visitante, 1 2
-
 - Empata el equipo Local, 2 2
-
 - Marca el equipo Visitante, 2 3
-
 - Final del partido, -1 -1
-
 - Gana el equipo Visitante
 
 ## Input
 
 0 0 1 0 1 1 1 2 2 2 2 3 -1 -1
-
-La entrada acabará cuando se lea un marcador  -1 -1
-
-El formato de la entrada SIEMPRE será correcto.
 
 ## Output
 
@@ -136,7 +124,7 @@ GOL LOCAL, GANA LOCAL: 5 4
 FINAL DEL PARTIDO, GANA LOCAL: 5 4
 ```
 
-### Test
+### Test private
 ```input
 0 0 -1 -1
 ```

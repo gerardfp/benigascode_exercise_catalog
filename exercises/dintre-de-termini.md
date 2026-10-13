@@ -1,5 +1,6 @@
 ---
 slug: dintre-de-termini
+tags: [if]
 ---
 # Dintre de termini
 
@@ -21,7 +22,7 @@ Cal llegir el dia, mes i any de cada data amb `nextInt()`. S'hauràn de descarta
 
 Una possible idea per a la solució és presuposar que la segona data està enmig, i després veure si es compleix alguna condició que impliqui que realment no està enmig.
 
-```text
+```
 // suposem que està enmig
 boolean enmig = true;
 
@@ -36,21 +37,6 @@ if (any1 > any2) {
 
 // imprimim el resultat
 System.out.println(enmig);
-```
-
-## Plantillas
-
-```java
-import java.util.Scanner;
-
-public class Main {
-
-    public static void main(String[] args) {
-      	Scanner scanner = new Scanner(System.in);
-      
-      
-    }
-}
 ```
 
 ## Tests
@@ -271,7 +257,7 @@ false
 true
 ```
 
-### Test
+### Test private
 ```input
 27 / 12 / 2020      27 / 10 / 2050      7 / 12 / 2020 
 ```

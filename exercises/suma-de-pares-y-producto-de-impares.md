@@ -1,6 +1,5 @@
 ---
 slug: suma-de-pares-y-producto-de-impares
-tags: [matemáticas, algorithms]
 ---
 # Suma de parells i producte d'imparells
 
@@ -36,7 +35,7 @@ Imprimeix la suma dels números parells en una línia, en la següent línia el 
 4
 ```
 
-### Test
+### Test private
 ```input
 7 4 8 1 2 3 7 3 -1
 ```

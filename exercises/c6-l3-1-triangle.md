@@ -80,7 +80,7 @@ Area triangle1: 361.55
 Area triangle2: 58.39
 ```
 
-### Test
+### Test private
 ```input
 0 89
 103 0

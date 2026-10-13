@@ -1,10 +1,10 @@
 ---
 slug: carta-formal
-tags: [control-de-flujo, loops]
+tags: [scanner]
 ---
 # Carta formal
 
-Desitjem enviar una carta formal als nostres clients, i volem generar de forma automàtica l'encapçalament per a cada client.
+Desitjem enviar una carta formal als nostres clients, i volem generar de forma automàtica l'encapçalament per a cada client. 
 
 A la nostra base de dades de client tenim els camps: tractament, nom, cognom1 i cognom2.
 
@@ -14,32 +14,16 @@ Fes un programa que generi aquest encapçalament amb el format que s'observa a *
 
 L'entrada consta de 4 línies:
 
-```text
-`tractament
+```
+tractament
 nom
 cognom1
 cognom2
-`
 ```
 
 ## Output
 
 -
-
-## Plantillas
-
-```java
-import java.util.Scanner;
-
-public class Main {
-
-    public static void main(String[] args) {
-      	Scanner scanner = new Scanner(System.in);
-      
-      
-    }
-}
-```
 
 ## Tests
 
@@ -69,7 +53,7 @@ Excelentissima senyora de la Fuente Rodriguez, Maria Antonia
 El principal objectiu de la present carta...
 ```
 
-### Test
+### Test private
 ```input
 Sra.
 Juana

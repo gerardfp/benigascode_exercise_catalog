@@ -32,9 +32,6 @@ Imprimix la quantitat de números majors que el mínim.
 ```output
 3
 ```
-```explanation
-El 150 és el número mínim. El 200, el 300 i el 400 són majors
-```
 
 ### Test
 ```input
@@ -47,9 +44,6 @@ El 150 és el número mínim. El 200, el 300 i el 400 són majors
 ```
 ```output
 1
-```
-```explanation
-El 10 és el número mínim. Els quatre són majors
 ```
 
 ### Test

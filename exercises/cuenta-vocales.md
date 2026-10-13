@@ -11,7 +11,7 @@ Un texto terminado con un salto de línea.
 
 ## Output
 
-En la primera linea la cantidad de `a`, en la siguiente linea la cantidad de `e`, etc.
+En la primera linea la cantidad de 'a', en la siguiente linea la cantidad de 'e', etc.
 
 ## Tests
 
@@ -75,7 +75,7 @@ aA eE iI oO u
 1
 ```
 
-### Test
+### Test private
 ```input
 aeiou
 ```

@@ -34,8 +34,47 @@ S'imprimirà l'espai ocupat en cada disc un cop s'han emmagatzemat tots els bloc
 ```output
 10 9
 ```
-```explanation
+#### Explanation
 Disposem de dos discs, la ocupació inicial dels quals és:
+
+```
+0 0
+```
+
+Aleshores, arriba el primer bloc de dades de tamany **2**, i el balancejador escull el primer disc:
+
+```
+2 0
+```
+
+Després, arriba el segon bloc de dades de tamany **3**, i el balancejador escull el segon disc, ja que és el que menys ocupació té:
+
+```
+2 3
+```
+
+Després arriba el bloc de tamany **6**, i el balancejador escull el primer disc, que està menys ocupat:
+
+```
+8 3
+```
+
+Quan arriba el bloc de tamany **1**, el balancejador escull el segon disc:
+
+```
+8 4
+```
+
+Per al bloc de tamany **5**, s'escull també el segon disc (el menys ocupat):
+
+```
+8 9
+```
+
+Per últim el bloc **2** s'escriu al primer disc:
+
+```
+10 9
 ```
 
 ### Test
@@ -47,8 +86,41 @@ Disposem de dos discs, la ocupació inicial dels quals és:
 ```output
 10 9
 ```
-```explanation
+#### Explanation
 Inicialment tenim aquesta ocupació dels discs:
+
+```
+1 4 5
+```
+
+El bloc de tamany **1** s'escriu al primer disc:
+
+```
+2 4 5
+```
+
+El bloc de tamany **2** s'escriu al primer disc:
+
+```
+4 4 5
+```
+
+El bloc de tamany **3** s'escriu al primer disc:
+
+```
+7 4 5
+```
+
+El bloc de tamany **4** s'escriu al segon disc:
+
+```
+7 8 5
+```
+
+El bloc de tamany **5** s'escriu al tercer disc:
+
+```
+7 8 10
 ```
 
 ### Test

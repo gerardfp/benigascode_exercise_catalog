@@ -1,10 +1,18 @@
 ---
 slug: book-class-4
-tags: [classes]
+tags: [class]
 ---
 # Book
 
 Defineix la classe Book. Ha de contenir tres camps: camp string `title`, camp enter `yearOfPublishing` i camp booleà `isAvailable`.
+
+## Input
+
+-
+
+## Output
+
+-
 
 ## Plantillas
 
@@ -30,15 +38,6 @@ public class Main {
 ```
 
 ## Tests
-
-### Test
-```input
-```
-```output
-Through the looking glass
-1871
-true
-```
 
 ### Test
 ```input

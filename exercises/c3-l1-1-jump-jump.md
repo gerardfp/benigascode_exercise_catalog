@@ -1,5 +1,6 @@
 ---
 slug: c3-l1-1-jump-jump
+tags: [for]
 ---
 # Jump, jump!
 
@@ -9,7 +10,7 @@ En un joc de plataformes, el personatge ha d'anar fent salts per a poder avança
 
 Podem entendre el mapa del joc com una succesió de nombres que indiquen l'altura del terreny. En el cas anterior es podria definir com:
 
-```text
+```
 1 2 1 2 2 3 2 1
 ```
 
@@ -32,6 +33,8 @@ S'imprimirà el nombre mínim de salts que necessita donar per a arribar al fina
 ```output
 3
 ```
+#### Explanation
+![image](1556709457-6cc7ee1123-mariojump1.png)
 
 ### Test
 ```input
@@ -40,6 +43,8 @@ S'imprimirà el nombre mínim de salts que necessita donar per a arribar al fina
 ```output
 4
 ```
+#### Explanation
+![image](1556709511-828a9a0edb-mariojump2.png)
 
 ### Test
 ```input
@@ -48,6 +53,8 @@ S'imprimirà el nombre mínim de salts que necessita donar per a arribar al fina
 ```output
 2
 ```
+#### Explanation
+![image](1556709588-dbfc64e6ec-mariojump3.png)
 
 ### Test
 ```input
@@ -56,6 +63,8 @@ S'imprimirà el nombre mínim de salts que necessita donar per a arribar al fina
 ```output
 0
 ```
+#### Explanation
+![image](1556709670-a608b4b485-mariojump4.png)
 
 ### Test
 ```input
@@ -64,6 +73,8 @@ S'imprimirà el nombre mínim de salts que necessita donar per a arribar al fina
 ```output
 3
 ```
+#### Explanation
+![image](1556709748-f6f5dce969-mariojump5.png)
 
 ### Test
 ```input
@@ -81,7 +92,7 @@ S'imprimirà el nombre mínim de salts que necessita donar per a arribar al fina
 10
 ```
 
-### Test
+### Test private
 ```input
 9 5 1 2 3 1 2  -1
 ```

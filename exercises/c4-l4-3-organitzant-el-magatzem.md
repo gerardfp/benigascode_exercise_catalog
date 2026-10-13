@@ -1,5 +1,6 @@
 ---
 slug: c4-l4-3-organitzant-el-magatzem
+tags: [arrays]
 ---
 # Organitzant el magatzem
 
@@ -18,10 +19,8 @@ L'empresa desitja realitzar algunes simulacions per a detectar quan ocorren aque
 
 L'entrada consta en primer lloc del tamany del magatzem (MxN).
 A continuació venen els productes que s'han d'emmagatzemar.
-Primer ve el nombre de productes que venen a continuació.
+Primer ve el nombre de productes que venen a continuació. 
 Per a cada producte s'indica el nombre de línies de la seva figura, i a continuació ve la figura.
-
-No hi ha
 
 ## Output
 
@@ -80,6 +79,8 @@ abbc
 abb.
 ....
 ```
+#### Explanation
+![image](1559226664-8e4e36c703-Selecci_002.png)
 
 ### Test
 ```input
@@ -99,6 +100,8 @@ ppx
 pxx
 ppx
 ```
+#### Explanation
+![image](1559227037-8c097577c6-Selecci_003.png)
 
 ### Test
 ```input
@@ -118,6 +121,8 @@ oooo
 oooo
 ....
 ```
+#### Explanation
+![image](1559227945-568354aa08-Selecci_004.png)
 
 ### Test
 ```input
@@ -201,7 +206,7 @@ sslvtv
 ..llv.
 ```
 
-### Test
+### Test private
 ```input
 5 10
 10

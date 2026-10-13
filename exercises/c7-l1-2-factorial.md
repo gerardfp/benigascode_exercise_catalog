@@ -1,5 +1,6 @@
 ---
 slug: c7-l1-2-factorial
+tags: [recursivitat]
 ---
 # Factorial
 
@@ -7,15 +8,13 @@ Escriu un algorisme recursiu per a calcular el factorial d'un nombre:
 
 Exemple
 
-```text
+```
 5! = 5*4*3*2*1 = 120
 ```
 
 ## Input
 
 Un nombre enter
-
-No hi ha
 
 ## Output
 
@@ -71,7 +70,7 @@ El factorial
 3628800
 ```
 
-### Test
+### Test private
 ```input
 15
 ```

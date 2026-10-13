@@ -53,9 +53,6 @@ tijera
 ```output
 Resultado: Ganaste
 ```
-```explanation
-La piedra gana a la tijera.
-```
 
 ### Test
 ```input
@@ -64,9 +61,6 @@ papel
 ```
 ```output
 Resultado: Ganaste
-```
-```explanation
-La tijera gana al papel.
 ```
 
 ### Test
@@ -77,9 +71,6 @@ piedra
 ```output
 Resultado: Ganaste
 ```
-```explanation
-El papel gana a la piedra.
-```
 
 ### Test
 ```input
@@ -88,9 +79,6 @@ piedra
 ```
 ```output
 Resultado: Perdiste
-```
-```explanation
-La piedra del segundo jugador gana a la tijera.
 ```
 
 ### Test
@@ -101,9 +89,6 @@ tijera
 ```output
 Resultado: Perdiste
 ```
-```explanation
-La tijera del segundo jugador gana al papel.
-```
 
 ### Test
 ```input
@@ -112,9 +97,6 @@ papel
 ```
 ```output
 Resultado: Perdiste
-```
-```explanation
-El papel del segundo jugador gana a la piedra.
 ```
 
 ### Test
@@ -152,9 +134,6 @@ piedra
 ```output
 Resultado: Mano desconocida: ¡elige piedra, papel o tijera!
 ```
-```explanation
-La mano del primer jugador no es válida.
-```
 
 ### Test
 ```input
@@ -163,9 +142,6 @@ lagarto
 ```
 ```output
 Resultado: Mano desconocida: ¡elige piedra, papel o tijera!
-```
-```explanation
-La mano del segundo jugador no es válida.
 ```
 
 ### Test
@@ -175,7 +151,4 @@ spock
 ```
 ```output
 Resultado: Mano desconocida: ¡elige piedra, papel o tijera!
-```
-```explanation
-Ninguna de las dos manos es válida.
 ```

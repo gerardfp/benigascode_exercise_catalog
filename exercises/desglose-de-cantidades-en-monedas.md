@@ -1,5 +1,6 @@
 ---
 slug: desglose-de-cantidades-en-monedas
+tags: [if]
 ---
 # Desglossament en monedes
 
@@ -32,7 +33,7 @@ Si solament s'utilitza 1 moneda en el desglossament, s'ha d'imprimir "moneda" en
 4 monedes de 1
 ```
 
-### Test
+### Test private
 ```input
 2026
 ```

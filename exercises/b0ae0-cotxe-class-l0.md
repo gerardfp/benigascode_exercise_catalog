@@ -1,10 +1,18 @@
 ---
 slug: b0ae0-cotxe-class-l0
-tags: [classes]
+tags: [class, L0]
 ---
 # Cotxe
 
-Implementa el **constructor** de la classe `Car`
+Implementa el **constructor** de la classe Car
+
+## Input
+
+-
+
+## Output
+
+-
 
 ## Plantillas
 
@@ -23,7 +31,7 @@ class Car {
     float braking;
     float cornering;
 
-    // write your code here
+    // escriu el codi aqui
 }
 
 public class Main {
@@ -77,7 +85,7 @@ PAGANI HUAYRA BC       370  2.29  28.90  1.66
 FERRARI FXX K EVO      370  2.50  24.30  1.48 
 ```
 
-### Test
+### Test private
 ```input
 4
 CHEVROLET CAMARO SS

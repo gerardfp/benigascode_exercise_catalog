@@ -1,5 +1,6 @@
 ---
 slug: d5d1e-creditcard-class-l0
+tags: [class, L0]
 ---
 # CreditCard
 
@@ -73,7 +74,7 @@ Saldo: 0.0
 Limit: 1000000.0
 ```
 
-### Test
+### Test private
 ```input
 Penelope Luda
 1234567891234567
