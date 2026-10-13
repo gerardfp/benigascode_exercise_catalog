@@ -1,5 +1,6 @@
 ---
 slug: triler
+tags: [if]
 ---
 # Triler
 
@@ -19,8 +20,6 @@ Els moviments són "circulars", és a dir, si la bola està per exemple al prime
 
 L'entrada consta de quatre lletres "L" o "R" (separades per espais en blanc) que indiquen els moviments que fa l'estafador.
 
-Sempre es realitzen 4 moviments
-
 ## Output
 
 S'imprimirà l'estat final dels gobelets, amb un asterisc per al gobelet on queda la bola, i un guió baix per als gobelets que no la tenen.
@@ -34,6 +33,26 @@ L L L L
 ```output
 _ _ *
 ```
+#### Explanation
+`
+Inici: * _ _
+`
+
+`
+Mov L: _ _ *
+`
+
+`
+Mov L: _ * _
+`
+
+`
+Mov L: * _ _
+`
+
+`
+Mov L: _ _ *
+`
 
 ### Test
 ```input
@@ -42,6 +61,26 @@ L L L L
 ```output
 _ _ *
 ```
+#### Explanation
+`
+Inici: * _ _
+`
+
+`
+Mov L: _ _ *
+`
+
+`
+Mov L: _ * _
+`
+
+`
+Mov L: * _ _
+`
+
+`
+Mov R: _ * _
+`
 
 ### Test
 ```input
@@ -50,6 +89,26 @@ L L L R
 ```output
 _ * _
 ```
+#### Explanation
+`
+Inici: * _ _
+`
+
+`
+Mov L: _ _ *
+`
+
+`
+Mov L: _ * _
+`
+
+`
+Mov R: _ _ *
+`
+
+`
+Mov L: _ * _
+`
 
 ### Test
 ```input
@@ -58,6 +117,26 @@ L L R L
 ```output
 _ * _
 ```
+#### Explanation
+`
+Inici: * _ _
+`
+
+`
+Mov L: _ _ *
+`
+
+`
+Mov L: _ * _
+`
+
+`
+Mov R: _ _ *
+`
+
+`
+Mov R: * _ _
+`
 
 ### Test
 ```input
@@ -66,6 +145,26 @@ L L R R
 ```output
 * _ _
 ```
+#### Explanation
+`
+Inici: * _ _
+`
+
+`
+Mov L: _ _ *
+`
+
+`
+Mov R: * _ _
+`
+
+`
+Mov L: _ _ *
+`
+
+`
+Mov L: _ * _
+`
 
 ### Test
 ```input
@@ -155,7 +254,7 @@ R R R L
 _ _ *
 ```
 
-### Test
+### Test private
 ```input
 R R R R 
 ```

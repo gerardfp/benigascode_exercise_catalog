@@ -1,14 +1,32 @@
 ---
 slug: arrodonir-la-nota
-tags: [casting, operators]
+tags: [conversio]
 ---
 # Arrodonir la nota
 
-Al butlletí de notes no es poden posar notes amb decimals, així que el professor ha decidit arrodonir-les. Si els decimals estan per baix de 0.5 es trunca la nota (es lleven els decimals), però si són igual o majors que 0.5 aleshores s'arrodonix cap amunt.
+Al butlletí de notes no es poden posar notes amb decimals, així que el professor ha decidit arrodonir-les. Si els decimals estan per sota de 0.5 es trunca la nota (es lleven els decimals), però si són igual o majors que 0.5 aleshores s'arrodoneix cap amunt.
 
 ## Input
 
-Una nota, amb o sense decimals
+Una nota amb o sense decimals
+
+## Output
+
+enter
+
+## Plantillas
+
+```java
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+      
+      
+    }
+}
+```
 
 ## Tests
 
@@ -52,7 +70,7 @@ Una nota, amb o sense decimals
 8
 ```
 
-### Test
+### Test private
 ```input
 6
 ```

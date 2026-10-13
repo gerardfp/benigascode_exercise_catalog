@@ -1,5 +1,6 @@
 ---
 slug: stigid-sert
+tags: [operadors, aritmetics]
 ---
 # stigid serT
 
@@ -12,20 +13,6 @@ Un enter de 3 xifres
 ## Output
 
 -
-
-## Plantillas
-
-```java
-import java.util.Scanner;
-
-public class Main {
-    public static void main(String[] args) {
-      	Scanner scanner = new Scanner(System.in);
-      	
-      	
-    }
-}
-```
 
 ## Tests
 
@@ -61,7 +48,7 @@ public class Main {
 1
 ```
 
-### Test
+### Test private
 ```input
 812
 ```

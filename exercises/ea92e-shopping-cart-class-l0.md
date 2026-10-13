@@ -1,5 +1,6 @@
 ---
 slug: ea92e-shopping-cart-class-l0
+tags: [class, L0]
 ---
 # Shopping Cart
 
@@ -74,7 +75,7 @@ ShoppingCart
        ENEBY Altavoz Bluetooth, 30x30 cm   89.99
 ```
 
-### Test
+### Test private
 ```input
 2
 LILLHULT MiniUSB cable, 0.4 m

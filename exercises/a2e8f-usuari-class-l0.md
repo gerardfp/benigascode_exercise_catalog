@@ -1,5 +1,6 @@
 ---
 slug: a2e8f-usuari-class-l0
+tags: [class, L0]
 ---
 # Usuari
 
@@ -53,15 +54,6 @@ public class Main {
 ```
 
 ## Tests
-
-### Test
-```input
-```
-```output
-  1001 | acasas   | Armando Casas    | acasas@mail.com    
-  1002 | equito   | Esteban Quito    | equito@mail.com    
-  1003 | centes   | Cindy Entes      | centes@mail.com  
-```
 
 ### Test
 ```input

@@ -4,11 +4,11 @@ tags: [strings]
 ---
 # Palíndrom
 
-Donada una frase, digues si és un palíndrom
+Donada una frase, digues si és un palíndrom 
 
 No s'han de comptar els espais en blanc, ni els caracters de puntuació:
 
-```text
+```
 . , ' ! ? -
 ```
 
@@ -128,7 +128,7 @@ opo!
 true
 ```
 
-### Test
+### Test private
 ```input
 ala!
 ```

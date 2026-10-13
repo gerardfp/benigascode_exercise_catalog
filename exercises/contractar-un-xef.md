@@ -1,5 +1,6 @@
 ---
 slug: contractar-un-xef
+tags: [scanner]
 ---
 # Contractar un xef
 
@@ -15,13 +16,9 @@ si necessitem un xef de cuina `{tipus cuina}`."
 L'entrada consta de 5 línies:
 
 - A la primera línia hi ha el nom (String)
-
 - A la segona línia hi ha l'edat (int)
-
 - A la tercera línia hi ha el nivell d'estudis (String)
-
 - A la quarta línia hi ha els anys (int)
-
 - A la cinquena línia hi ha el tipus de cuina (String)
 
 ## Output
@@ -78,7 +75,7 @@ vanguardista
 El formulari de Maria Elena s'ha completat. Et contactarem si necessitem un xef de cuina vanguardista.
 ```
 
-### Test
+### Test private
 ```input
 Josep Antoni
 20

@@ -13,8 +13,6 @@ Dado un número de bolos, determina si es posible organizarlos para que se forme
 
 Un numero N de bolos
 
-1 <= N <= 100000
-
 ## Output
 
 true | false
@@ -28,6 +26,14 @@ true | false
 ```output
 true
 ```
+#### Explanation
+6 bolos se pueden colocar perfectamente:
+
+```
+o o o
+ o o
+  o
+```
 
 ### Test
 ```input
@@ -35,6 +41,15 @@ true
 ```
 ```output
 false
+```
+#### Explanation
+8 bolos no se pueden colocar de forma perfecta. Quedaría incompleto.
+
+```
+o o
+ o o o
+  o o
+   o
 ```
 
 ### Test
@@ -44,6 +59,17 @@ false
 ```output
 true
 ```
+#### Explanation
+21 bolos se pueden colocar perfectamente:
+
+```
+o o o o o o
+ o o o o o
+  o o o o
+   o o o
+    o o
+     o
+```
 
 ### Test
 ```input
@@ -51,6 +77,14 @@ true
 ```
 ```output
 false
+```
+#### Explanation
+Con 4 bolos el triángulo queda incompleto:
+
+```
+o
+ o o
+  o
 ```
 
 ### Test
@@ -117,7 +151,7 @@ false
 false
 ```
 
-### Test
+### Test private
 ```input
 3
 ```

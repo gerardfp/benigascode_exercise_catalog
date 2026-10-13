@@ -1,5 +1,6 @@
 ---
 slug: de-0-a-4
+tags: [literals]
 ---
 # De 0 a 4
 
@@ -23,17 +24,6 @@ public class Main {
 ```
 
 ## Tests
-
-### Test
-```input
-```
-```output
-0
-1
-2
-3
-4
-```
 
 ### Test
 ```input

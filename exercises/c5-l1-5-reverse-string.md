@@ -1,6 +1,5 @@
 ---
 slug: c5-l1-5-reverse-string
-tags: [strings]
 ---
 # Reverse String
 
@@ -80,7 +79,7 @@ pipiripip
 is this a very long reversed string? yes, it is.
 ```
 
-### Test
+### Test private
 ```input
 abcd
 ```

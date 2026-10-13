@@ -6,32 +6,36 @@ tags: [variables]
 
 Canvia el codi següent per fer que la sortida sigui aquesta:
 
-```text
+```
 3 4 5
 ```
 
 Per fer-ho, assigna correctament els valors a les variables.
 
+## Input
+
+-
+
+## Output
+
+-
+
 ## Plantillas
 
 ```java
-void main() {
-    int a;
-    int b;
-    int c;
+public class Main {
 
-    System.out.println(a + " " + b + " " + c);
+    public static void main(String[] args) {
+        int a;
+        int b;
+        int c;
+
+        System.out.println(a + " " + b + " " + c);
+    }
 }
 ```
 
 ## Tests
-
-### Test
-```input
-```
-```output
-3 5 4
-```
 
 ### Test
 ```input

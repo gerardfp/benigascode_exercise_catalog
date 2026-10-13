@@ -1,10 +1,18 @@
 ---
 slug: bf6f0-functiongame2-class-l0
-tags: [classes]
+tags: [class, L0]
 ---
 # FunctionGame2
 
-Crea els mètodes de la classe `FunctionGame2`
+Crea els mètodes de la classe FunctionGame2
+
+## Input
+
+-
+
+## Output
+
+-
 
 ## Plantillas
 
@@ -185,7 +193,7 @@ function7   2 java javascript   3 java javascript java   5 swift dart python c# 
 [c++, java, python, java, haskell, go, rust, kotlin, perl, bash] -> 2
 ```
 
-### Test
+### Test private
 ```input
 function8  1 2 3  4 6 5  8 7 9  21 31 11  61 41 51  91 81 71  10 10 11  11 10 10  12 12 12
 ```

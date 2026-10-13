@@ -1,5 +1,6 @@
 ---
 slug: c2-l2-1-permisos-unix
+tags: [if]
 ---
 # Permisos octals UNIX
 
@@ -14,14 +15,14 @@ Per exemple, el nombre octal 4765 indica que els permisos especials són 4, el d
 
 ![image](assets/c2-l2-1-permisos-unix-img0.png)
 
-Per a traduir el permisos octals en els permisos **rwx** corresponents, cal passar cada xifra a binari.
+Per a traduir el permisos octals en els permisos **rwx** corresponents, cal passar cada xifra a binari. 
 
-Per als permisos d'usuari, grup i altres, un 0 en la primera i segona xifra binària siginifica que el permisos de lectura i espcriptura, respectivament, no es concedeixen, i un 1 que sí es concedeixen.
+Per als permisos d'usuari, grup i altres, un 0 en la primera i segona xifra binària siginifica que el permisos de lectura i espcriptura, respectivament, no es concedeixen, i un 1 que sí es concedeixen. 
 Per al permís d'execució, un 0 significa que no es concedeix, i un 1 que sí es concedeix. A més a més, si es concedeix el permís d'execució i també i hi ha un 1 en la xifra binària especial corresponent, aleshores s'aplica el permís especial.
 
 ![image](assets/c2-l2-1-permisos-unix-img1.png)
 
-```text
+```
 usuari:
     r: lectura
     w: escriptura
@@ -46,8 +47,6 @@ altres
 ## Input
 
 La entrada consisteix en un nombre octal P indicant els permisos.
-
-0 <= P <= 7777
 
 ## Output
 
@@ -223,7 +222,7 @@ rwsrwsr--
 rwsrwsrwT
 ```
 
-### Test
+### Test private
 ```input
 7777
 ```

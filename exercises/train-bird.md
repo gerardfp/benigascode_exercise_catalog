@@ -1,5 +1,6 @@
 ---
 slug: train-bird
+tags: [operadors]
 ---
 # Train bird
 
@@ -16,9 +17,7 @@ Quants kms recorrerà l'ocell fins que el tren arribi a l'estació?
 L'entrada són tres números decimals:
 
 - Distancia del tren
-
 - Velocitat del tren
-
 - Velocitat de l'ocell
 
 ## Output
@@ -42,6 +41,8 @@ Després, segons aquest temps i la velocitat a la que vola l'ocell, es calcula l
 ```output
 30.0
 ```
+#### Explanation
+El tren trigarà 1 hora en arribar. L'ocell en 1 hora recorrerà 30 kms.
 
 ### Test
 ```input
@@ -52,6 +53,8 @@ Després, segons aquest temps i la velocitat a la que vola l'ocell, es calcula l
 ```output
 500.0
 ```
+#### Explanation
+El tren trigarà 5 hores en arribar. L'ocell en 5 hores recorrerà 500 kms.
 
 ### Test
 ```input
@@ -83,7 +86,7 @@ Després, segons aquest temps i la velocitat a la que vola l'ocell, es calcula l
 256.59363
 ```
 
-### Test
+### Test private
 ```input
 10
 1

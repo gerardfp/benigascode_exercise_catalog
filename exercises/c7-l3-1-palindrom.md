@@ -1,5 +1,6 @@
 ---
 slug: c7-l3-1-palindrom
+tags: [recursivitat]
 ---
 # Palíndrom
 
@@ -8,8 +9,6 @@ Donat un String, dir si és un palíndrom.
 ## Input
 
 String
-
-No hi ha
 
 ## Output
 
@@ -81,7 +80,7 @@ abcdcb
 false
 ```
 
-### Test
+### Test private
 ```input
 abcdcbaa
 ```

@@ -1,6 +1,6 @@
 ---
 slug: auto-test
-tags: [strings, arrays]
+tags: [arrays]
 ---
 # Auto-test
 
@@ -14,7 +14,7 @@ El usuario introducirá las respuestas a cada pregunta, y al finalizar se le mos
 
 Las respuestas correctas a las preguntas del test son estas:
 
-```text
+```
 "a", "b", "a", "c", "a", "b", "b", "c", "b", "c", "a", "c", "b", "a", "a", "a", "c", "c", "b", "a", "c", "b", "c", "c", "a", "a", "c", "a", "a", "c"
 ```
 
@@ -24,15 +24,11 @@ La entrada consiste en las respuestas del usuario: 30 letras (`a`, `b`, `c`) sep
 
 ## Output
 
-- En la primera línea se imprimirá `TEST SUPENDIDO` o `TEST APROBADO`
-
-- En la segunda línea se imprimirá `X fallos`
-
-- En la tercera línea se imprimirán los números de pregunta separados por espacios en blanco. Si el número de pregunta solo ocupa un dígito, se precederá con un espacio.
-
-- En la cuarta línia se imprimirán las respuestas dadas por el usuario. Cada respuesta irá precedida y sucedida por un espacio en blanco.
-
-- En la quinta línia se alinearán las respuestas correctas a aquellas preguntas que se hayan fallado.
+1. En la primera línea se imprimirá `TEST SUPENDIDO` o `TEST APROBADO`
+2. En la segunda línea se imprimirá `X fallos`
+3. En la tercera línea se imprimirán los números de pregunta separados por espacios en blanco. Si el número de pregunta solo ocupa un dígito, se precederá con un espacio.
+4. En la cuarta línia se imprimirán las respuestas dadas por el usuario. Cada respuesta irá precedida y sucedida por un espacio en blanco.
+5. En la quinta línia se alinearán las respuestas correctas a aquellas preguntas que se hayan fallado.
 
 ## Tests
 
@@ -60,7 +56,7 @@ TEST APROBADO
                                                                                           
 ```
 
-### Test
+### Test private
 ```input
 a b b c a c a c b a a c b a a a b a b a c a c c a a c c a c 
 ```

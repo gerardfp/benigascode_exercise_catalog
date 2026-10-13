@@ -11,7 +11,7 @@ Farem un joc de pistes amb posicions d'un Array.
 
 Per exemple:
 
-```text
+```
 String[] pistes = {"Ves a 2", "Ves a 4", "Ves a 1", "PREMI", "Ves a 3"}
 ```
 
@@ -101,7 +101,7 @@ Calent $1
 PREMI
 ```
 
-### Test
+### Test private
 ```input
 5 0 @
 Aqui no @1

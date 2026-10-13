@@ -1,6 +1,6 @@
 ---
 slug: c3-l4-1-build-a-wall
-tags: [algorithms]
+tags: [for]
 ---
 # Another brick in the wall
 
@@ -15,8 +15,6 @@ En aquesta ocasió la banda ens demana una aplicació que generi un mur ASCII-AR
 
 L'entrada consisteix en 4 nombres: amplada del maó, alçada del maó, nombre de maons per línia, nombre de línies de maons.
 
-No hi ha restriccions significatives.
-
 ## Output
 
 S'imprimirà un mur de les dimensions especificades.
@@ -24,7 +22,7 @@ El mur ha de començar amb un maó complet.
 
 Exemple de mur 8-1-3-3:
 
-```text
+```
 ----------------------------
 |        |        |        |
 ----------------------------
@@ -113,7 +111,7 @@ Exemple de mur 8-1-3-3:
 -----------------------------
 ```
 
-### Test
+### Test private
 ```input
 8 1 6 10
 ```

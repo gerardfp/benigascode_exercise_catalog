@@ -1,5 +1,6 @@
 ---
 slug: street-fighter-1
+tags: [if]
 ---
 # Street Fighter
 
@@ -18,19 +19,12 @@ Els **estats** possibles d'un personatge són:
 Els **events** que poden canviar l'estat d'un personatge són:
 
 - JOYSTICK_UP: El jugador ha accionat el joystick cap amunt
-
 - JOYSTICK_LEFT/RIGHT: El jugador ha accionat el joystick a esquerra o dreta
-
 - JOYSTICK_CENTER: El jugador a deixat el joystick al centre
-
 - PUNCH_KEY: El jugador a polsat el botó de cop de puny
-
 - KICK_KEY: El jugador a polsat el botó de cop de peu
-
 - PUNCH_END: L'acció de cop de puny ha acabat
-
 - KICK_END: L'acció de cop de peu ha acabat
-
 - TOUCH_FLOOR: El personatge ha tocat terra
 
 El següent diagrama ilustra les transicions entre estats que provoquen aquests events.
@@ -42,10 +36,7 @@ El següent diagrama ilustra les transicions entre estats que provoquen aquests 
 L'entrada consta de dues paraules:
 
 - L'estat actual del personatge: {"IDLE", "WALK", "JUMP", "KICK", "PUNCH"}
-
 - L'event que ha ocorregut: {"JOYSTICK_UP", "JOYSTICK_LEFT/RIGHT", "JOYSTICK_CENTER", "PUNCH_KEY", "KICK_KEY", "PUNCH_END", "KICK_END", "TOUCH_FLOOR"}
-
-No hi ha
 
 ## Output
 
@@ -62,6 +53,9 @@ IDLE JOYSTICK_UP
 ```output
 JUMPING
 ```
+#### Explanation
+El personatge es troba en estat "IDLE" i ocorre l'event "JOYSTICK_UP".
+El nou estat passa a ser "JUMPING"
 
 ### Test
 ```input
@@ -70,6 +64,9 @@ IDLE JOYSTICK_UP
 ```output
 JUMPING
 ```
+#### Explanation
+El personatge es troba en estat "IDLE" i ocorre l'event "JOYSTICK_LEFT/RIGHT".
+El nou estat passa a ser "WALKING"
 
 ### Test
 ```input
@@ -78,6 +75,9 @@ IDLE JOYSTICK_LEFT/RIGHT
 ```output
 WALKING
 ```
+#### Explanation
+L'estat del personatge és "IDLE" i ocorre l'event "JOYSTICK_CENTER".
+Aquest event **no** modifica l'estat del personatge.
 
 ### Test
 ```input
@@ -375,7 +375,7 @@ PUNCHING KICK_END
 PUNCHING
 ```
 
-### Test
+### Test private
 ```input
 PUNCHING TOUCH_FLOOR
 ```

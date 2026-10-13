@@ -1,10 +1,18 @@
 ---
 slug: aac7e-functiongame-class-l0
-tags: [classes]
+tags: [class, L0]
 ---
 # FunctionGame
 
 Implementa els mètodes (funcions) de la classe FunctionGame
+
+## Input
+
+-
+
+## Output
+
+-
 
 ## Plantillas
 
@@ -17,7 +25,7 @@ import java.util.regex.*;
 
 class FunctionGame {
   
-  // write your code here
+  // escriu el codi aqui
 
 }
 
@@ -175,7 +183,7 @@ function7 1 2 3 4 7 5 8 5 11 8 5 5 3 3
 3,3 -> 3
 ```
 
-### Test
+### Test private
 ```input
 function8 1 2 3  5 4 6  9 8 7  9 7 7  8 8 9  7 9 7   10 10 10
 ```

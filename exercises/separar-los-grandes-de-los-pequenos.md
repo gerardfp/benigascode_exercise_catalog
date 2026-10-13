@@ -1,6 +1,5 @@
 ---
 slug: separar-los-grandes-de-los-pequenos
-tags: [condicionales, control-de-flujo]
 ---
 # Separar los grandes de los pequeños
 
@@ -11,8 +10,6 @@ Dada un secuencia de números y un valor límite, separar la secuencia en dos se
 El primer número N indica el tamaño de la secuencia. A continuación viene la secuencia.
 
 Después viene el valor límite.
-
-1 <= N <= 100
 
 ## Output
 
@@ -78,7 +75,7 @@ Las dos secuencias separadas por un salto de línea.
 3 4 2 5
 ```
 
-### Test
+### Test private
 ```input
 10    12 12 13 18 19 15 16 20 17 18
 17

@@ -1,5 +1,6 @@
 ---
 slug: c5-l4-4-sopa-de-lletres
+tags: [strings]
 ---
 # Sopa de lletres
 
@@ -14,8 +15,6 @@ La entrada consisteix en primer lloc en un nombre que indica la quantitat de fil
 Cada línia de la sopa de lletres consta d'una sèrie de caracters separats per espais en blanc.
 
 A continuació ve una línia en blanc, i després una llista de paraules que hi ha que cercar, separadaes per espais en blanc.
-
-No hi ha restriccions significatives.
 
 ## Output
 
@@ -157,7 +156,7 @@ F I F I
 I F I F
 ```
 
-### Test
+### Test private
 ```input
 9
 t r u e i f s x z w n e b r

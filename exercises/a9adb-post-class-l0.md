@@ -1,10 +1,18 @@
 ---
 slug: a9adb-post-class-l0
-tags: [classes]
+tags: [class, L0]
 ---
 # Post
 
 Implementa el constructor de la classe Post.
+
+## Input
+
+-
+
+## Output
+
+-
 
 ## Plantillas
 
@@ -22,7 +30,7 @@ class Post {
     int favs;
     int retweets;
 
-    // write your code here
+    // escriu el codi aqui
 }
 
 public class Main {
@@ -41,27 +49,6 @@ public class Main {
 ```
 
 ## Tests
-
-### Test
-```input
-```
-```output
-------------------------------------
-| @realdonaltrump                  |
-| Make America Great Again #MAGA   |
-| <3 2000000        & 10000000     |
-------------------------------------
-------------------------------------
-| @realdonaltrump                  |
-| You are fake news                |
-| <3 5986587        & 325646       |
-------------------------------------
-------------------------------------
-| @realdonaltrump                  |
-| Global warming is a HOAX         |
-| <3 200            & 1000         |
-------------------------------------
-```
 
 ### Test
 ```input

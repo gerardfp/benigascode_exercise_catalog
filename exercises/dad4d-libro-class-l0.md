@@ -1,5 +1,6 @@
 ---
 slug: dad4d-libro-class-l0
+tags: [class, L0]
 ---
 # Libro
 
@@ -82,7 +83,7 @@ Peter van der Linden
 *****
 ```
 
-### Test
+### Test private
 ```input
 C: A Reference Manual
 978-0130895929

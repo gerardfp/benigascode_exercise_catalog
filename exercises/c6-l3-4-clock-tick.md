@@ -1,5 +1,6 @@
 ---
 slug: c6-l3-4-clock-tick
+tags: [class]
 ---
 # Clock tick
 
@@ -100,7 +101,7 @@ public class E12 {
 02:03:04
 ```
 
-### Test
+### Test private
 ```input
 34 456 23 32435 0 34235    -1
 ```

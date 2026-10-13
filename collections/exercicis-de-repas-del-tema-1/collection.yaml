@@ -10,15 +10,15 @@ compile:
   command: "javac Main.java"
   timeout_seconds: 15
 execution:
-  command: "java Main"
-  timeout_seconds: 3
   memory_limit_mb: 256
+  timeout_seconds: 3
+  command: "java Main"
 scoring:
-  mode: "weighted"
   total_score: 100
+  mode: "weighted"
 comparator:
-  type: "exact_line_by_line"
   ignore_trailing_whitespace: true
+  type: "exact_line_by_line"
 items:
 - type: "EXERCISE"
   id: "c4-l0-1-altura-minima"

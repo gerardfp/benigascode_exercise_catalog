@@ -1,10 +1,18 @@
 ---
 slug: dbb58-bikes-class-l0
-tags: [classes]
+tags: [class, L0]
 ---
 # Bikes
 
 Implementa el mètode Race.fastest()
+
+## Input
+
+-
+
+## Output
+
+-
 
 ## Plantillas
 
@@ -82,7 +90,7 @@ public class Main {
 40
 ```
 
-### Test
+### Test private
 ```input
 0
 ```

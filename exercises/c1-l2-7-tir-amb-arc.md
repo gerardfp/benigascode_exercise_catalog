@@ -1,5 +1,6 @@
 ---
 slug: c1-l2-7-tir-amb-arc
+tags: [operadors]
 ---
 # Tir amb arc
 
@@ -29,6 +30,10 @@ S'imprimirà la puntuació obtinguda amb el tir.
 ```output
 5
 ```
+#### Explanation
+Just al centre de la diana són 5 punts
+
+![image](1556185042-320aa99307-diana6.png)
 
 ### Test
 ```input
@@ -37,6 +42,8 @@ S'imprimirà la puntuació obtinguda amb el tir.
 ```output
 5
 ```
+#### Explanation
+![image](1556185014-65faba0237-diana4.png)
 
 ### Test
 ```input
@@ -45,6 +52,8 @@ S'imprimirà la puntuació obtinguda amb el tir.
 ```output
 4
 ```
+#### Explanation
+![image](1556185253-09358173da-diana7.png)
 
 ### Test
 ```input
@@ -53,6 +62,8 @@ S'imprimirà la puntuació obtinguda amb el tir.
 ```output
 3
 ```
+#### Explanation
+![image](1556185387-2c54f88dc5-diana8.png)
 
 ### Test
 ```input
@@ -61,6 +72,8 @@ S'imprimirà la puntuació obtinguda amb el tir.
 ```output
 2
 ```
+#### Explanation
+![image](1556185446-428aa40768-diana9.png)
 
 ### Test
 ```input
@@ -69,6 +82,10 @@ S'imprimirà la puntuació obtinguda amb el tir.
 ```output
 1
 ```
+#### Explanation
+Ha fet diana just al límit entre l'anell vermell i el blau, per tant es compta la puntuació del blau.
+
+![image](1556185553-25bfa5ae8c-diana10.png)
 
 ### Test
 ```input
@@ -102,7 +119,7 @@ S'imprimirà la puntuació obtinguda amb el tir.
 1
 ```
 
-### Test
+### Test private
 ```input
 -2.67 4.89
 ```

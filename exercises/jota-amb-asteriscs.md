@@ -1,5 +1,6 @@
 ---
 slug: jota-amb-asteriscs
+tags: [literals]
 ---
 # Jota amb asteriscs
 
@@ -23,19 +24,6 @@ public class Main {
 ```
 
 ## Tests
-
-### Test
-```input
-```
-```output
-********
-      **
-      **
-      **
-**    **
-**    **
- *******
-```
 
 ### Test
 ```input

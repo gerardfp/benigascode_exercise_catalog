@@ -1,6 +1,5 @@
 ---
 slug: rota-el-vector-en-el-elemento-k
-tags: [arrays, estructuras-de-datos]
 ---
 # Rota el vector en el elemento k
 
@@ -30,10 +29,6 @@ Esta sería la salida para el caso del ejemplo:
 
 1 2 3 4 5 6 7 8 9 10
 
-El formato de entrada SIEMPRE será correcto.
-
-El elemento k está comprendido entre 0 y N-1 (siendo N el tamaño del vector).
-
 ## Output
 
 2 3 4 5 6 7 8 9 10 1
@@ -48,34 +43,4 @@ El elemento k está comprendido entre 0 y N-1 (siendo N el tamaño del vector).
 ```
 ```output
 2 3 4 5 6 7 8 9 10 1
-```
-
-### Test
-```input
-5
-10 20 30 40 50
-3
-```
-```output
-40 50 10 20 30
-```
-
-### Test
-```input
-4
-1 2 3 4
-0
-```
-```output
-1 2 3 4
-```
-
-### Test
-```input
-3
-5 6 7
-2
-```
-```output
-7 5 6
 ```

@@ -1,5 +1,6 @@
 ---
 slug: c4-l4-4-ddos
+tags: [for]
 ---
 # DDoS
 
@@ -9,7 +10,7 @@ Desitjem implementar una sistema d'alerta d'atacs de denegació de servei (DDoS)
 
 Una forma de prevenir aquests atacs és mitjançant una política que denegui les connexions si aquestes es produeixen amb massa freqüència (connexions/temps).
 
-Implementarem al firewall un sistema de detecció d'atacs DDoS, que alerti quan es produeixen més connexions de les permeses en un període de temps.
+Implementarem al firewall un sistema de detecció d'atacs DDoS, que alerti quan es produeixen més connexions de les permeses en un període de temps. 
 
 Establirem aquesta política a 4 connexions en 1 segon. Cada cop que es superi aquesta freqüència es mostrarà una alerta.
 
@@ -32,6 +33,18 @@ S'imprimirà el missatge "DDos alert", cada cop que es superin les 4 connexions 
 ```output
 DDoS alert
 ```
+#### Explanation
+![image](1572516606-a8c13d5340-DDoS1.png)
+
+Es produeix la primera connexió
+
+Passen 0.1 segons i es produeix la segona connexió
+
+Passen 0.2 segons i es produeix la tercera connexió
+
+Passen 0.3 segons i es produeix la quarta connexió
+
+S'han produït 4 connexions en 0.6 segons
 
 ### Test
 ```input
@@ -40,6 +53,18 @@ DDoS alert
 ```output
 DDoS alert
 ```
+#### Explanation
+![image](1572516637-2294a6cb4c-DDoS1.png)
+
+Es produeix la primera connexió
+
+Passen 0.5 segons i es produeix la segona connexió
+
+Passen 0.2 segons i es produeix la tercera connexió
+
+Passen 0.3 segons i es produeix la quarta connexió
+
+S'han produït 4 connexions en 1 segon, és a dir, no s'ha superat el límit.
 
 ### Test
 ```input
@@ -47,6 +72,20 @@ DDoS alert
 ```
 ```output
 ```
+#### Explanation
+![image](1572517334-23683973d0-DDoS5.png)
+
+Es produeix la primera connexió
+
+Passen 0.5 segons i es produeix la segona connexió
+
+Passen 0.2 segons i es produeix la tercera connexió
+
+Passen 0.3 segons i es produeix la quarta connexió
+
+Passen 0.2 segons i es produeix la cinquena connexió
+
+Entre la segona i la cinquena connexió han passat 0.7 segons, és a dir, s'ha superat el límit.
 
 ### Test
 ```input
@@ -55,6 +94,14 @@ DDoS alert
 ```output
 DDoS alert
 ```
+#### Explanation
+![image](1572517132-99186b103b-DDoS4.png)
+
+S'han produït dues alertes: 
+
+entre la segona i cinquena connexió (0.2+0.3+0.2)
+
+i entre la quarta i la setena (0.2+0.6+0.1).
 
 ### Test
 ```input
@@ -64,6 +111,14 @@ DDoS alert
 DDoS alert
 DDoS alert
 ```
+#### Explanation
+![image](1572517590-cca83a9fe1-DDoS6.png)
+
+0.2+0.3+0.2
+
+0.3+0.2+0.1
+
+0.2+0.1+0.1
 
 ### Test
 ```input
@@ -87,7 +142,7 @@ DDoS alert
 DDoS alert
 ```
 
-### Test
+### Test private
 ```input
 0.3  0.3  0.3  0.2  0.2  0.5  0.2  0.1  0.1  0.1  0.1  0.7  0.4  0.1  0.2  0.6  0.9  0.1      -1
 ```

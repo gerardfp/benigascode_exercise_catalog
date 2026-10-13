@@ -9,8 +9,6 @@ Dada una secuencia de números, calcula las veces que ha habido un incremento re
 
 Una secuencia de N números enteros, terminada con un 0.
 
-1 <= N <= 100
-
 ## Output
 
 Un número entero indicando la cantidad de incrementos.
@@ -24,6 +22,8 @@ Un número entero indicando la cantidad de incrementos.
 ```output
 1
 ```
+#### Explanation
+Se ha producido **1** incremento: del 6 al 8
 
 ### Test
 ```input
@@ -32,6 +32,8 @@ Un número entero indicando la cantidad de incrementos.
 ```output
 2
 ```
+#### Explanation
+Se han producido **2** incrementos: del 1 al 5, y del 5 al 9
 
 ### Test
 ```input
@@ -40,6 +42,8 @@ Un número entero indicando la cantidad de incrementos.
 ```output
 0
 ```
+#### Explanation
+No se ha producido ningún incremento.
 
 ### Test
 ```input
@@ -48,6 +52,8 @@ Un número entero indicando la cantidad de incrementos.
 ```output
 0
 ```
+#### Explanation
+No se ha producido ningún incremento.
 
 ### Test
 ```input
@@ -65,7 +71,7 @@ Un número entero indicando la cantidad de incrementos.
 79
 ```
 
-### Test
+### Test private
 ```input
 1 2 0
 ```

@@ -84,7 +84,7 @@ What you see is what you get
 WYSIWYG
 ```
 
-### Test
+### Test private
 ```input
 hola Mon
 ```

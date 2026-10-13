@@ -1,6 +1,6 @@
 ---
 slug: declaracio-invalida-de-variables
-tags: [scanner, i/o]
+tags: [variables]
 ---
 # Declaració invàlida de variables
 
@@ -29,13 +29,6 @@ public class Main {
 ```
 
 ## Tests
-
-### Test
-```input
-```
-```output
-3943574
-```
 
 ### Test
 ```input

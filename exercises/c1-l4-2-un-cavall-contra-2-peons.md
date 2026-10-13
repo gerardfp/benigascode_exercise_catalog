@@ -1,5 +1,6 @@
 ---
 slug: c1-l4-2-un-cavall-contra-2-peons
+tags: [operadors]
 ---
 # Un cavall contra dos peons
 
@@ -28,6 +29,8 @@ La posició del cavall, i del dos peons
 ```output
 1
 ```
+#### Explanation
+![image](1556383992-2399b03885-cavallpeons1.png)
 
 ### Test
 ```input
@@ -38,6 +41,8 @@ La posició del cavall, i del dos peons
 ```output
 1
 ```
+#### Explanation
+![image](1556384047-ed8d954478-cavallpeons2.png)
 
 ### Test
 ```input
@@ -48,6 +53,8 @@ La posició del cavall, i del dos peons
 ```output
 2
 ```
+#### Explanation
+![image](1556384115-a21b4284b9-cavallpeons3.png)
 
 ### Test
 ```input
@@ -58,6 +65,8 @@ La posició del cavall, i del dos peons
 ```output
 0
 ```
+#### Explanation
+![image](1556384180-3aa3857b16-cavallpeons4.png)
 
 ### Test
 ```input
@@ -68,6 +77,8 @@ La posició del cavall, i del dos peons
 ```output
 2
 ```
+#### Explanation
+![image](1556384253-e52c2dc2a5-cavallpeons5.png)
 
 ### Test
 ```input
@@ -89,7 +100,7 @@ La posició del cavall, i del dos peons
 0
 ```
 
-### Test
+### Test private
 ```input
 8 2
 7 4

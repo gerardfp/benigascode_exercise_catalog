@@ -1,5 +1,6 @@
 ---
 slug: ec7cc-song-class-l0
+tags: [class, L0]
 ---
 # Song
 
@@ -68,7 +69,7 @@ true
 ****
 ```
 
-### Test
+### Test private
 ```input
 Whole Lotta Love
 Led Zeppelin

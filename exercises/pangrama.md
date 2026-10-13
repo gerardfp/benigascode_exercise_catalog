@@ -7,7 +7,7 @@ Donat un text, dir si utilitza **totes** les lletres de l'alfabet.
 
 Alfabet:
 
-```text
+```
 abcdefghijklmnopqrstuvwxyz
 ```
 
@@ -53,7 +53,7 @@ hello world of java programming
 false
 ```
 
-### Test
+### Test private
 ```input
 hello
 ```

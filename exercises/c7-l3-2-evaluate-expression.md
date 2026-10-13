@@ -1,6 +1,6 @@
 ---
 slug: c7-l3-2-evaluate-expression
-tags: [scanner, i/o]
+tags: [recursivitat]
 ---
 # Evaluate expression
 
@@ -9,8 +9,6 @@ Donat un String amb una expressió aritmètica de sumes i multiplicacions, avalu
 ## Input
 
 Un string amb una expressió aritmètica de sumes i multiplicacions enteres.
-
-No hi ha
 
 ## Output
 
@@ -98,7 +96,7 @@ El resultat de l'expressió
 112
 ```
 
-### Test
+### Test private
 ```input
 123*456+789*123+456*789
 ```

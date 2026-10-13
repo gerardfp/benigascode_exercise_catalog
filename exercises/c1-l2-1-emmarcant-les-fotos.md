@@ -6,7 +6,7 @@ tags: [operadors]
 
 En Joan té un munt de fotos per a emmarcar, i vol comprar els marcs.
 
-Els marcs han de ser suficientment grans com per a que càpiga la foto i a més a més ha de tenir la mateixa proporció per a que quede bé.
+Els marcs han de ser suficientment grans com per a que hi càpiga la foto i a més a més ha de tenir la mateixa proporció per a que quedi bé.
 
 La definició del rectangle d'una foto i d'un marc es pot fer amb les coordenades dels seus punts superior-dreta i inferior-esquerra:
 
@@ -20,7 +20,7 @@ Per a cada rectangle s'indiquen les coordenades (x, y) dels seus cantons superio
 
 ## Output
 
-S'imprimirà `true` si el marc és adequat per a la foto, i `false` si no ho és.
+S'imprimirà "true" si el marc és adequat per a la foto, i "false" si no ho és.
 
 ## Tests
 
@@ -32,6 +32,8 @@ S'imprimirà `true` si el marc és adequat per a la foto, i `false` si no ho és
 ```output
 true
 ```
+#### Explanation
+La foto i el marc són iguals, per tant si que hi cap i sí que té la mateixa proporció.
 
 ### Test
 ```input
@@ -41,6 +43,10 @@ true
 ```output
 true
 ```
+#### Explanation
+El marc és més gran que la foto i la proporció és la mateixa
+
+![image](1555878340-48b497f50d-CopyofUntitleddrawing.png)
 
 ### Test
 ```input
@@ -50,11 +56,10 @@ true
 ```output
 true
 ```
-```explanation
-![](c1-l2-1-emmarcant-les-fotos-img18.png)
+#### Explanation
+El marc és més gran que la foto, però la proporció no és la mateixa
 
-La foto (roig) cap dins del marc (verd) i tenen les mateixes proporcions.
-```
+![image](1555878430-f38596f669-CopyofUntitleddrawing1.png)
 
 ### Test
 ```input
@@ -64,10 +69,10 @@ La foto (roig) cap dins del marc (verd) i tenen les mateixes proporcions.
 ```output
 false
 ```
-```explanation
-![](c1-l2-1-emmarcant-les-fotos-img21.png)
-La foto (roig) cap dins del marc (verd) pero NO tenen les mateixes proporcions.
-```
+#### Explanation
+La foto i el marc tenen el mateix tamany i la proporció és la mateixa
+
+![image](1555879053-3342c40546-CopyofUntitleddrawing2.png)
 
 ### Test
 ```input
@@ -77,9 +82,10 @@ La foto (roig) cap dins del marc (verd) pero NO tenen les mateixes proporcions.
 ```output
 true
 ```
-```explanation
-![](c1-l2-1-emmarcant-les-fotos-img10.png)
-```
+#### Explanation
+El marc i la foto tenen el mateix tamany i la proporció és la mateixa
+
+![image](1555879295-34ac02cb8e-CopyofUntitleddrawing3.png)
 
 ### Test
 ```input
@@ -89,9 +95,10 @@ true
 ```output
 true
 ```
-```explanation
-![](c1-l2-1-emmarcant-les-fotos-img12.png)
-```
+#### Explanation
+Tenen la mateixa proporció, però el marc és més petit que la foto:
+
+![image](1555879528-3ab846a9f3-CopyofUntitleddrawing4.png)
 
 ### Test
 ```input
@@ -100,9 +107,6 @@ true
 ```
 ```output
 false
-```
-```explanation
-![](c1-l2-1-emmarcant-les-fotos-img22.png)
 ```
 
 ### Test
@@ -114,7 +118,7 @@ false
 false
 ```
 
-### Test
+### Test private
 ```input
 4 3  0 1
 8 6  0 1

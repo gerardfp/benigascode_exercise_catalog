@@ -1,6 +1,6 @@
 ---
 slug: c7-l2-2-reverse-string
-tags: [strings]
+tags: [recursivitat]
 ---
 # Reverse String
 
@@ -9,8 +9,6 @@ Donat un String, invirteix-lo.
 ## Input
 
 Una línia de text
-
-No hi ha.
 
 ## Output
 
@@ -42,7 +40,7 @@ ab c d efgh
 hgfe d c ba
 ```
 
-### Test
+### Test private
 ```input
 cgctagcttagctaacg
 ```

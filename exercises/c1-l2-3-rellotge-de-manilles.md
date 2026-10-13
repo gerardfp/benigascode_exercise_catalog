@@ -12,7 +12,7 @@ Però totes tres manilles avancen sempre a cada segon. Així, per exemple si és
 
 ## Input
 
-La entrada consisteix en una hora en format H M S
+La entrada consisteix en una hora en format HH:MM:SS
 
 ## Output
 
@@ -29,6 +29,12 @@ S'imprimiran els graus de cada manilla (HH,MM,SS) que corresponen a l'hora, cada
 0.0
 0.0
 ```
+#### Explanation
+La manilla de les hores està a 75º
+La manilla dels minuts està a 180º
+La manilla dels segons està a 0º
+
+![image](1556022285-3fe4c312ef-Untitleddrawing1.png)
 
 ### Test
 ```input
@@ -39,9 +45,8 @@ S'imprimiran els graus de cada manilla (HH,MM,SS) que corresponen a l'hora, cada
 180.0
 0.0
 ```
-```explanation
-![](c1-l2-3-rellotge-de-manilles-img12.png)
-```
+#### Explanation
+![image](1556022397-a3d147dc67-Untitleddrawing2.png)
 
 ### Test
 ```input
@@ -52,9 +57,8 @@ S'imprimiran els graus de cada manilla (HH,MM,SS) que corresponen a l'hora, cada
 180.0
 0.0
 ```
-```explanation
-![](c1-l2-3-rellotge-de-manilles-img13.png)
-```
+#### Explanation
+![image](1556022638-d1d05fdcb6-Untitleddrawing4.png)
 
 ### Test
 ```input
@@ -64,9 +68,6 @@ S'imprimiran els graus de cada manilla (HH,MM,SS) que corresponen a l'hora, cada
 7.75
 93.0
 180.0
-```
-```explanation
-![](c1-l2-3-rellotge-de-manilles-img16.png)
 ```
 
 ### Test
@@ -89,7 +90,7 @@ S'imprimiran els graus de cada manilla (HH,MM,SS) que corresponen a l'hora, cada
 138.0
 ```
 
-### Test
+### Test private
 ```input
 6 30 30
 ```

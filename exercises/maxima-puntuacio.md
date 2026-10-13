@@ -1,6 +1,6 @@
 ---
 slug: maxima-puntuacio
-tags: [scanner, i/o]
+tags: [for]
 ---
 # Màxima puntuació
 
@@ -57,7 +57,7 @@ Xavier 70
 Grace 105
 ```
 
-### Test
+### Test private
 ```input
 Grace 105
 Kathleen 99

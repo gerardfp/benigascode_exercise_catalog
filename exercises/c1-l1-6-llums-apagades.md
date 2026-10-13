@@ -1,6 +1,6 @@
 ---
 slug: c1-l1-6-llums-apagades
-tags: [operadors]
+tags: [operadors, logics]
 ---
 # Llums apagats
 
@@ -29,6 +29,8 @@ false false false false
 ```output
 true
 ```
+#### Explanation
+Tots els llums estan apagats
 
 ### Test
 ```input
@@ -37,6 +39,8 @@ false false false false
 ```output
 true
 ```
+#### Explanation
+El primer llum està encés
 
 ### Test
 ```input
@@ -45,8 +49,10 @@ true false false false
 ```output
 false
 ```
+#### Explanation
+L'últim llum està encés
 
-### Test
+### Test private
 ```input
 false false false true
 ```

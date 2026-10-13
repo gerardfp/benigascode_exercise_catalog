@@ -1,5 +1,6 @@
 ---
 slug: c6-l3-3-uri-scheme
+tags: [class]
 ---
 # URI Scheme
 
@@ -10,13 +11,9 @@ Completa la classe URL, i el mètode main()
 La entrada consta de 5 línies:
 
 - protocol
-
 - domain
-
 - path
-
 - query
-
 - fragment
 
 ## Output
@@ -93,7 +90,7 @@ frag
 https://anotherdomain.cat/path/to/page?q=1&s=1#frag
 ```
 
-### Test
+### Test private
 ```input
 https
 domainname.org

@@ -1,6 +1,6 @@
 ---
 slug: completa-la-declaracio
-tags: [scanner, i/o]
+tags: [variables]
 ---
 # Completa la declaració
 
@@ -30,13 +30,6 @@ public class Main {
 ```
 
 ## Tests
-
-### Test
-```input
-```
-```output
-123456
-```
 
 ### Test
 ```input

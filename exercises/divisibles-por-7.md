@@ -9,8 +9,6 @@ A partir de una secuencia de números, decir si cada uno de ellos es divisible p
 
 Una secuencia de (N) números terminada en 0.
 
-0 <= N <= 10^7
-
 ## Output
 
 Un "SI" o un "NO" por cada número leído.
@@ -38,7 +36,7 @@ SI
 SI
 ```
 
-### Test
+### Test private
 ```input
 4 4 0
 ```

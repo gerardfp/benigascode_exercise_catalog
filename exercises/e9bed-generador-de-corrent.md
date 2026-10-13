@@ -1,5 +1,6 @@
 ---
 slug: e9bed-generador-de-corrent
+tags: [for]
 ---
 # Generador de corrent
 
@@ -45,8 +46,10 @@ INCORRECTE
 ```output
 INCORRECTE
 ```
+#### Explanation
+La primera i la segona medició no són de pujada
 
-### Test
+### Test private
 ```input
 4 4 3 6 3   0
 ```

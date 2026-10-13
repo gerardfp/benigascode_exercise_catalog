@@ -32,9 +32,6 @@ Imprimix la quantitat de números divisibles pel divisor.
 ```output
 1
 ```
-```explanation
-Només el 27 es divisible per 3
-```
 
 ### Test
 ```input
@@ -47,9 +44,6 @@ Només el 27 es divisible per 3
 ```
 ```output
 2
-```
-```explanation
-El 425 i el 225 son dibisibles per 5
 ```
 
 ### Test
@@ -69,7 +63,4 @@ El 425 i el 225 son dibisibles per 5
 ```
 ```output
 0
-```
-```explanation
-Cap número es divisible per 12
 ```

@@ -6,17 +6,19 @@ tags: [operadors]
 
 ![image](assets/c1-l2-6-ticket-daparcament-img0.png)
 
-Un ticket d'aparcament et permet aparcar durant un temps en funció dels diners que poses i de la tarifa.
+Un ticket d'aparcament et permet aparcar durant un temps en funció dels diners que hi posis i de la tarifa.
 
-Quan s'imprimix el ticket, s'indica l'hora d'inici de l'aparcament, i l'hora de finalització (calculada a partir dels diners i de la tarifa).
+Quan s'imprimeix el ticket, s'indica l'hora d'inici de l'aparcament, i l'hora de finalització (calculada a partir dels diners i de la tarifa).
 
 ## Input
 
-- Tres enters indiquen l'hora d'inici (hores, minuts i segons),
+- un nombre enter indica l'hora d'inici (hores, minuts i segons),
+- un nombre float indica la quantitat de diners introduits,
+- un nombre float indica la tarifa.
 
-- Un decimal indica la quantitat de diners introduits,
+Els diners s'indiquen en Euros.
 
-- Un decimal indica la tarifa (Minuts/Euros)
+La tarifa s'indica en Minuts/Euros.
 
 ## Output
 
@@ -33,6 +35,14 @@ S'imprimirà l'hora de finalització en format H:M:S
 ```output
 0:0:0
 ```
+#### Explanation
+L'hora d'inici és 0:0:0
+
+La tarifa són 60 minuts per euro
+
+S'ha introduit 1 euro
+
+Per tant s'obté una hora d'aparcament
 
 ### Test
 ```input
@@ -43,6 +53,12 @@ S'imprimirà l'hora de finalització en format H:M:S
 ```output
 1:0:0
 ```
+#### Explanation
+L'hora d'inici és 10:0:0
+La tarifa són 30 minuts per euro
+S'ha introduit 1 euro
+
+Per tant es tenen 30 minuts d'aparcament
 
 ### Test
 ```input
@@ -53,6 +69,11 @@ S'imprimirà l'hora de finalització en format H:M:S
 ```output
 10:30:0
 ```
+#### Explanation
+La tarifa és 1 minut per euro
+S'ha introduit 0.5 euros
+
+El temps d'aparcament són 30 segons
 
 ### Test
 ```input
@@ -63,6 +84,10 @@ S'imprimirà l'hora de finalització en format H:M:S
 ```output
 10:15:30
 ```
+#### Explanation
+La tarifa és 0.5 minuts per euro (30 segons per euro)
+S'han introduït 0.5 euros
+El temps són 15 segons
 
 ### Test
 ```input
@@ -114,7 +139,7 @@ S'imprimirà l'hora de finalització en format H:M:S
 18:53:15
 ```
 
-### Test
+### Test private
 ```input
 6 17 59
 20.5

@@ -1,12 +1,12 @@
 ---
 slug: c5-l1-1-leds
+tags: [class, L0]
 ---
 # Leds
 
 Implementa els mètodes switchOn() i switchOff() de la classe Led.
 
 - switchOn() canvia la variable 'state' a 'true'
-
 - switchOff() canvia la variable 'state' a 'false'
 
 ## Input
@@ -80,7 +80,7 @@ public class Main {
 ( )(*)
 ```
 
-### Test
+### Test private
 ```input
 ```
 ```output

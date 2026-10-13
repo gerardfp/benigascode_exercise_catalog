@@ -1,5 +1,6 @@
 ---
 slug: d1e2a-contact-class-l0
+tags: [class, L0]
 ---
 # Contact
 
@@ -68,7 +69,7 @@ C/Calleja, 2
 Barcelona
 ```
 
-### Test
+### Test private
 ```input
 Alba
 Bosa Garcia

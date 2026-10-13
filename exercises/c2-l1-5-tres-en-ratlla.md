@@ -1,5 +1,6 @@
 ---
 slug: c2-l1-5-tres-en-ratlla
+tags: [if]
 ---
 # Tres en ratlla
 
@@ -12,8 +13,6 @@ El tauler consta de nou nombres corresponents a les nou caselles.
 Les caselles buides es marquen amb un 0.
 
 Les caselles amb una fitxa es marquen amb un 1 o un 2.
-
-El tauler és vàlid.
 
 ## Output
 
@@ -111,7 +110,7 @@ Jugador2
 Jugador1
 ```
 
-### Test
+### Test private
 ```input
 0 0 0
 0 0 0

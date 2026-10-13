@@ -1,6 +1,6 @@
 ---
 slug: cada-paraula-a-una-linia
-tags: [condicionales, control-de-flujo]
+tags: [scanner]
 ---
 # Cada paraula a una línia
 
@@ -81,7 +81,7 @@ d
 e
 ```
 
-### Test
+### Test private
 ```input
 q w d r t
 ```
