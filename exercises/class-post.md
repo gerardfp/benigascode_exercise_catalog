@@ -1,19 +1,11 @@
 ---
-slug: a9adb-post-class-l0
-tags: [class, L0]
-difficulty: 5
+slug: class-post
+tags: [class]
+difficulty: 3
 ---
 # Post
 
 Implementa el constructor de la classe Post.
-
-## Input
-
--
-
-## Output
-
--
 
 ## Plantillas
 

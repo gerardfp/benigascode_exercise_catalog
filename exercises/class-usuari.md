@@ -1,7 +1,7 @@
 ---
-slug: a2e8f-usuari-class-l0
-tags: [class, L0]
-difficulty: 5
+slug: class-usuari
+tags: [class, ]
+difficulty: 3
 ---
 # Usuari
 
