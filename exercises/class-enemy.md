@@ -1,19 +1,11 @@
 ---
-slug: e679d-enemy-class-l0
-tags: [class, L0]
+slug: class-enemy
+tags: [class]
 difficulty: 5
 ---
 # Enemy
 
 Implementa les classes necessàries
-
-## Input
-
--
-
-## Output
-
--
 
 ## Plantillas
 

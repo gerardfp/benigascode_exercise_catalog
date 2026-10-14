@@ -1,5 +1,5 @@
 ---
-slug: c2-l2-1-permisos-unix
+slug: permisos-octals-unix
 tags: [if]
 difficulty: 5
 ---

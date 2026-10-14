@@ -1,11 +1,11 @@
 ---
-slug: c7-l2-2-reverse-string
+slug: recursive-reverse-string
 tags: [recursivitat]
 difficulty: 5
 ---
 # Reverse String
 
-Donat un String, invirteix-lo.
+Donat un String, invirteix-lo (implementant un algorisme recursiu)
 
 ## Input
 

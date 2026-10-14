@@ -1,6 +1,6 @@
 ---
-slug: ec7cc-song-class-l0
-tags: [class, L0]
+slug: class-song
+tags: [class]
 difficulty: 5
 ---
 # Song

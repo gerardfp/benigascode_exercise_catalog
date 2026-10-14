@@ -1,6 +1,6 @@
 ---
-slug: scrabble-2-1
-tags: [for]
+slug: scrabble
+tags: [loops]
 difficulty: 5
 ---
 # Scrabble

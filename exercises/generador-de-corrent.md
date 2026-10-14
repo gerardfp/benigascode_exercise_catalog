@@ -1,6 +1,6 @@
 ---
-slug: e9bed-generador-de-corrent
-tags: [for]
+slug: generador-de-corrent
+tags: [loops]
 difficulty: 5
 ---
 # Generador de corrent

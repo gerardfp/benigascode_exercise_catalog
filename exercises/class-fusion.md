@@ -1,19 +1,12 @@
 ---
-slug: e8f27-fusion-class-l0
-tags: [class, L0]
+slug: class-fusion
+tags: [class]
 difficulty: 5
 ---
 # Fusion
 
-Crea el mètode Fusion.fusionar()
+Crea el mètode `Fusion.fusionar()`
 
-## Input
-
--
-
-## Output
-
--
 
 ## Plantillas
 

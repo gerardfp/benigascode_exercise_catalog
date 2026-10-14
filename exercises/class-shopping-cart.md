@@ -1,19 +1,12 @@
 ---
-slug: ea92e-shopping-cart-class-l0
-tags: [class, L0]
+slug: class-shopping-cart
+tags: [class]
 difficulty: 5
 ---
 # Shopping Cart
 
 Crea les classes necessàries.
 
-## Input
-
--
-
-## Output
-
--
 
 ## Plantillas
 

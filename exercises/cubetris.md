@@ -1,6 +1,6 @@
 ---
-slug: e25bb-cubetris
-tags: [array]
+slug: cubetris
+tags: [matrix]
 difficulty: 5
 ---
 # Cubetris

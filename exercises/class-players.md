@@ -1,19 +1,11 @@
 ---
-slug: f2eb6-players
-tags: [class, L0]
+slug: class-players
+tags: [class]
 difficulty: 5
 ---
 # Players
 
 Crea els objectes necessaris.
-
-## Input
-
--
-
-## Output
-
--
 
 ## Plantillas
 

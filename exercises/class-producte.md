@@ -1,19 +1,11 @@
 ---
-slug: ec528-producte-class-l0
+slug: class-producte
 tags: [class]
 difficulty: 5
 ---
 # Producte
 
 Assigna els valors als camps de l'objecte `producte` a partir de les dades de l'entrada.
-
-## Input
-
--
-
-## Output
-
--
 
 ## Plantillas
 

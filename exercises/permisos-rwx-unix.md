@@ -1,9 +1,9 @@
 ---
-slug: c2-l3-1-permisos-unix
+slug: permisos-rwx-unix
 tags: [if]
 difficulty: 5
 ---
-# Permisos UNIX
+# Permisos rwx UNIX
 
 Els permisos de lecture, escritura i execució sobre fitxers en sistemes UNIX-like són gestionats en tres classes: usuari, grup i altres.
 

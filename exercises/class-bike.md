@@ -1,19 +1,12 @@
 ---
-slug: dbb58-bikes-class-l0
-tags: [class, L0]
+slug: class-bike
+tags: [class]
 difficulty: 5
 ---
 # Bikes
 
-Implementa el mètode Race.fastest()
+Implementa el mètode `Race.fastest()`
 
-## Input
-
--
-
-## Output
-
--
 
 ## Plantillas
 

@@ -1,5 +1,5 @@
 ---
-slug: cb550-barrel-cannon
+slug: barrel-cannon
 tags: [array]
 difficulty: 5
 ---

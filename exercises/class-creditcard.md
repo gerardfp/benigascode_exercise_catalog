@@ -1,19 +1,13 @@
 ---
-slug: d5d1e-creditcard-class-l0
-tags: [class, L0]
+slug: class-creditcard
+tags: [class]
 difficulty: 5
 ---
 # CreditCard
 
 Crea la classe `CreditCard`.
 
-## Input
 
--
-
-## Output
-
--
 
 ## Plantillas
 

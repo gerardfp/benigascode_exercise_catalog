@@ -1,19 +1,11 @@
 ---
-slug: f831b-tabla-class-l0
-tags: [class, L0]
+slug: class-taula
+tags: [class]
 difficulty: 5
 ---
 # Taula
 
-Completa els constructors de els classes Taula, Fila, Columna i Casella
-
-## Input
-
--
-
-## Output
-
--
+Completa els constructors de els classes `Taula`, `Fila`, `Columna` i `Casella`
 
 ## Plantillas
 

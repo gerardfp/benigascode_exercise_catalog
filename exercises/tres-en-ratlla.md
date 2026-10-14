@@ -1,5 +1,5 @@
 ---
-slug: c2-l1-5-tres-en-ratlla
+slug: tres-en-ratlla
 tags: [if]
 difficulty: 5
 ---

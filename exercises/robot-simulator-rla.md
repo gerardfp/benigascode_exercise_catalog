@@ -1,6 +1,6 @@
 ---
-slug: c3-l3-1-robot-simulator
-tags: [for]
+slug: robot-simulator-rla
+tags: [loops]
 difficulty: 5
 ---
 # Robot simulator

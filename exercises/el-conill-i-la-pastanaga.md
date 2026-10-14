@@ -1,5 +1,6 @@
 ---
-slug: cb3c8-el-conill-i-la-pastanaga
+slug: el-conill-i-la-pastanaga
+tags: [matrix]
 difficulty: 5
 ---
 # El conill i les pastanagues

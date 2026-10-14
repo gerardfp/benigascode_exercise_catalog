@@ -1,19 +1,12 @@
 ---
-slug: e2ac7-rebajas-class-l0
-tags: [class, L0]
+slug: class-descuento
+tags: [class]
 difficulty: 5
 ---
-# Rebaixes
+# Descuentos
 
--
+Implementa els métodes necessaris.
 
-## Input
-
--
-
-## Output
-
--
 
 ## Plantillas
 

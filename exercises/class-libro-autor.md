@@ -1,5 +1,5 @@
 ---
-slug: dad4d-libro-class-l0
+slug: class-libro-autor
 tags: [class, L0]
 difficulty: 5
 ---
@@ -7,13 +7,6 @@ difficulty: 5
 
 Crea les classes `Libro` i `Autor`
 
-## Input
-
--
-
-## Output
-
--
 
 ## Plantillas
 

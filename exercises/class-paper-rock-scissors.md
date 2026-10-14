@@ -5,15 +5,7 @@ difficulty: 5
 ---
 # Paper, rock, scissors
 
-Implementa les classes Game i Player
-
-## Input
-
--
-
-## Output
-
--
+Implementa les classes `Game` i `Player`
 
 ## Plantillas
 

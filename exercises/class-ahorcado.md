@@ -1,19 +1,11 @@
 ---
-slug: c2c46-ahorcado-class-l0
-tags: [class, L0]
+slug: class-ahorcado
+tags: [class]
 difficulty: 5
 ---
 # Ahorcado
 
-Crea la clase Ahorcado
-
-## Input
-
--
-
-## Output
-
--
+Crea la clase `Ahorcado`
 
 ## Plantillas
 

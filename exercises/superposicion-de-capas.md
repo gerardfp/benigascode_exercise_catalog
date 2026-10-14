@@ -1,5 +1,5 @@
 ---
-slug: e5b54-superposicion-de-capas
+slug: superposicion-de-capas
 tags: [array]
 difficulty: 5
 ---

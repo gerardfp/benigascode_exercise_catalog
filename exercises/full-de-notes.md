@@ -1,6 +1,6 @@
 ---
-slug: e33c4-full-de-notes
-tags: [for]
+slug: full-de-notes
+tags: [loops]
 difficulty: 5
 ---
 # Full de notes

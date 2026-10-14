@@ -1,19 +1,12 @@
 ---
-slug: d1e2a-contact-class-l0
-tags: [class, L0]
+slug: contact-class-l0
+tags: [class]
 difficulty: 5
 ---
 # Contact
 
 Assigna els valors dels camps a partir de les dades de l'entrada.
 
-## Input
-
--
-
-## Output
-
--
 
 ## Plantillas
 
