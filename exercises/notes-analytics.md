@@ -1,6 +1,7 @@
 ---
 slug: notes-analytics
 tags: [if]
+difficulty: 5
 ---
 # Avaluació final
 

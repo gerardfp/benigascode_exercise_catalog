@@ -1,6 +1,7 @@
 ---
 slug: un-dos-tres
 tags: [if]
+difficulty: 5
 ---
 # Three card poker
 

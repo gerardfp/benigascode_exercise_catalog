@@ -1,5 +1,6 @@
 ---
 slug: suma-de-pares-y-producto-de-impares
+difficulty: 5
 ---
 # Suma de parells i producte d'imparells
 

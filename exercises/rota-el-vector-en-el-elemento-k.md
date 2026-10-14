@@ -1,5 +1,6 @@
 ---
 slug: rota-el-vector-en-el-elemento-k
+difficulty: 5
 ---
 # Rota el vector en el elemento k
 

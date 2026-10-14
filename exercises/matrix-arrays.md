@@ -1,6 +1,7 @@
 ---
 slug: matrix-arrays
 tags: [arrays]
+difficulty: 5
 ---
 # Matrix
 

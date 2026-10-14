@@ -1,33 +1,15 @@
 ---
-slug: a-hello-world
+slug: ascii-world
 tags: [literals]
+difficulty: 5
 ---
 # Hello World ASCII-art
 
 Imprimeix "HELLO WORLD" en ASCII-Art
 
-## Input
-
--
-
-## Output
-
--
-
 ## Tests
 
 ### Test
-```input
-```
-```output
-"%   *&  %)&>*%  =+     &!     /&![%{\    +,       ?<  .:;*!<,  ])<;]>   )!     /<-[\>
-<;   {<  -%      -%     <%     :;   [;    {;       "*  ?{   ?!  ?*   \|  :=     \|   ?\
-,![=+((  }:;=.   <;     ?-     }[   }*     ?]  -  '*   &:   [.  +;=-:,   =]     )"    ;)
-*)   .>  -]      {!     |;     =<   -.     {; |(| <%   ,|   (%  -,  .\   }-     ?/   +?
-%+   *&  })=(\{  "<}&%  &[/|>  \+]&"!/      <\' '(+    '&![%{'  [%   ?<  %|<?+  ;=?%&'
-```
-
-### Test private
 ```input
 ```
 ```output

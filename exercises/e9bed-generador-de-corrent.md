@@ -1,6 +1,7 @@
 ---
 slug: e9bed-generador-de-corrent
 tags: [for]
+difficulty: 5
 ---
 # Generador de corrent
 

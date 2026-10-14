@@ -1,5 +1,6 @@
 ---
 slug: c6-l2-2-equation
+difficulty: 5
 ---
 # Equation
 

@@ -1,6 +1,7 @@
 ---
 slug: esquemes-comptadors-parells
 tags: [arrays, esquemes]
+difficulty: 5
 ---
 # Comptadors: parells
 

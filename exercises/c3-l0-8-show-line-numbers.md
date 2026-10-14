@@ -1,6 +1,7 @@
 ---
 slug: c3-l0-8-show-line-numbers
 tags: [for]
+difficulty: 5
 ---
 # Show line numbers
 

@@ -1,6 +1,7 @@
 ---
 slug: fizz-buzz-for
 tags: [for]
+difficulty: 5
 ---
 # Fizz Buzz
 

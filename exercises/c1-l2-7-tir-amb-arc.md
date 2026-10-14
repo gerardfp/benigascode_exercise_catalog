@@ -1,6 +1,7 @@
 ---
 slug: c1-l2-7-tir-amb-arc
 tags: [operadors]
+difficulty: 5
 ---
 # Tir amb arc
 

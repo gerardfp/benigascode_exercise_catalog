@@ -1,6 +1,7 @@
 ---
 slug: c1-l3-4-hardy-ramanujan
 tags: [operadors]
+difficulty: 5
 ---
 # Hardy-Ramanujan
 

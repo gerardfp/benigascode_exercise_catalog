@@ -1,5 +1,6 @@
 ---
 slug: picos-maximos
+difficulty: 5
 ---
 # Picos máximos
 

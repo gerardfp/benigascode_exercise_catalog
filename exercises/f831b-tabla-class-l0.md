@@ -1,6 +1,7 @@
 ---
 slug: f831b-tabla-class-l0
 tags: [class, L0]
+difficulty: 5
 ---
 # Taula
 

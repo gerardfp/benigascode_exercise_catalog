@@ -1,6 +1,7 @@
 ---
 slug: teclado-robot
 tags: [array]
+difficulty: 5
 ---
 # Teclado robot
 

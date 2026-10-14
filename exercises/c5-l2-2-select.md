@@ -1,5 +1,6 @@
 ---
 slug: c5-l2-2-select
+difficulty: 5
 ---
 # SELECT
 

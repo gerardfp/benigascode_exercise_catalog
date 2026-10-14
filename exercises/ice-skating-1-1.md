@@ -1,6 +1,7 @@
 ---
 slug: ice-skating-1-1
 tags: [arrays]
+difficulty: 5
 ---
 # Ice skating
 

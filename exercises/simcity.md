@@ -1,6 +1,7 @@
 ---
 slug: simcity
 tags: [arrays]
+difficulty: 5
 ---
 # Simcity
 

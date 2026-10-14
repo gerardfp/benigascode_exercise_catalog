@@ -1,6 +1,7 @@
 ---
 slug: separar-los-pares-de-los-impares
 tags: [array]
+difficulty: 5
 ---
 # Separar els parells dels imparells
 

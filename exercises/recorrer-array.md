@@ -1,5 +1,6 @@
 ---
 slug: recorrer-array
+difficulty: 5
 ---
 # En qué posiciones está la palabra?
 

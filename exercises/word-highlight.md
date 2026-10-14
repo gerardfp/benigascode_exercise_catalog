@@ -1,5 +1,6 @@
 ---
 slug: word-highlight
+difficulty: 5
 ---
 # Word highlight
 

@@ -1,5 +1,6 @@
 ---
 slug: fizz-buzz
+difficulty: 5
 ---
 # FizzBuzz en Rango
 

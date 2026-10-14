@@ -1,5 +1,6 @@
 ---
 slug: c4-l3-1-inventari-en-ordre
+difficulty: 5
 ---
 # Inventari en ordre
 

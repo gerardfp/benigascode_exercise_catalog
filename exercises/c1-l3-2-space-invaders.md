@@ -1,6 +1,7 @@
 ---
 slug: c1-l3-2-space-invaders
 tags: [operadors]
+difficulty: 5
 ---
 # Space Invaders
 

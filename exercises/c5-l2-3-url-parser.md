@@ -1,5 +1,6 @@
 ---
 slug: c5-l2-3-url-parser
+difficulty: 5
 ---
 # URL parser
 

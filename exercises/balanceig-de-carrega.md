@@ -1,6 +1,7 @@
 ---
 slug: balanceig-de-carrega
 tags: [arrays]
+difficulty: 5
 ---
 # Balanceig de càrrega
 

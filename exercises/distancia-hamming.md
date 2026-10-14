@@ -1,5 +1,6 @@
 ---
 slug: distancia-hamming
+difficulty: 5
 ---
 # Distància Hamming
 

@@ -1,6 +1,7 @@
 ---
 slug: e25bb-cubetris
 tags: [array]
+difficulty: 5
 ---
 # Cubetris
 

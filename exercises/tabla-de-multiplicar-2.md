@@ -1,6 +1,7 @@
 ---
 slug: tabla-de-multiplicar-2
 tags: [for]
+difficulty: 5
 ---
 # Taula de multiplicar entre dos nombres
 

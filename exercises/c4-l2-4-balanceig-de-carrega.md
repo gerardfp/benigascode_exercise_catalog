@@ -1,5 +1,6 @@
 ---
 slug: c4-l2-4-balanceig-de-carrega
+difficulty: 5
 ---
 # Balanceig de càrrega
 

@@ -1,6 +1,7 @@
 ---
 slug: c5-l1-1-leds
 tags: [class, L0]
+difficulty: 5
 ---
 # Leds
 

@@ -1,5 +1,6 @@
 ---
 slug: c5-l3-2-diccionari
+difficulty: 5
 ---
 # Diccionari
 

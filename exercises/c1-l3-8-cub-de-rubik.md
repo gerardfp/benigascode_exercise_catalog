@@ -1,6 +1,7 @@
 ---
 slug: c1-l3-8-cub-de-rubik
 tags: [operadors]
+difficulty: 5
 ---
 # Cub de Rubik
 

@@ -1,6 +1,7 @@
 ---
 slug: c3-l0-7-passwd
 tags: [for]
+difficulty: 5
 ---
 # passwd
 

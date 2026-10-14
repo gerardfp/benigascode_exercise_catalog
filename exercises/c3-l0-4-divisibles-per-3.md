@@ -1,6 +1,7 @@
 ---
 slug: c3-l0-4-divisibles-per-3
 tags: [for]
+difficulty: 5
 ---
 # Divisibles per 3
 

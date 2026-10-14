@@ -1,6 +1,7 @@
 ---
 slug: el-ultimo-que-sume
 tags: [arrays]
+difficulty: 5
 ---
 # L'últim que sumi
 

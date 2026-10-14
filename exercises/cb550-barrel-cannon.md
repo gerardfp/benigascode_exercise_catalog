@@ -1,6 +1,7 @@
 ---
 slug: cb550-barrel-cannon
 tags: [array]
+difficulty: 5
 ---
 # Barrel Cannon
 

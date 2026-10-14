@@ -1,6 +1,7 @@
 ---
 slug: c3-l0-2-interval
 tags: [for]
+difficulty: 5
 ---
 # Interval
 

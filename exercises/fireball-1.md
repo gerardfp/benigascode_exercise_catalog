@@ -1,6 +1,7 @@
 ---
 slug: fireball-1
 tags: [arrays]
+difficulty: 5
 ---
 # Fireball
 

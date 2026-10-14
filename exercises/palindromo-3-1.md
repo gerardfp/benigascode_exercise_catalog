@@ -1,6 +1,7 @@
 ---
 slug: palindromo-3-1
 tags: [strings]
+difficulty: 5
 ---
 # Palíndrom
 

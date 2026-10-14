@@ -1,6 +1,7 @@
 ---
 slug: black-friday-1-1
 tags: [for]
+difficulty: 5
 ---
 # Black Friday
 

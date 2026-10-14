@@ -1,6 +1,7 @@
 ---
 slug: calcular-media
 tags: [matemáticas, algorithms]
+difficulty: 5
 ---
 # Calcular la media de una serie de números
 

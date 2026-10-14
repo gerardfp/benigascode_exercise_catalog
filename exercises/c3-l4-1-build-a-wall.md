@@ -1,6 +1,7 @@
 ---
 slug: c3-l4-1-build-a-wall
 tags: [for]
+difficulty: 5
 ---
 # Another brick in the wall
 

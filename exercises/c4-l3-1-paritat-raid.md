@@ -1,5 +1,6 @@
 ---
 slug: c4-l3-1-paritat-raid
+difficulty: 5
 ---
 # Paritat RAID
 

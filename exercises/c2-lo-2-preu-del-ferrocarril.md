@@ -1,6 +1,7 @@
 ---
 slug: c2-lo-2-preu-del-ferrocarril
 tags: [if]
+difficulty: 5
 ---
 # Preu del ferrocarril
 

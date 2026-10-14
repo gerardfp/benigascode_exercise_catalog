@@ -1,6 +1,7 @@
 ---
 slug: c3-l2-5-ticket-machine
 tags: [for]
+difficulty: 5
 ---
 # Ticket machine
 

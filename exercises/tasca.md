@@ -1,6 +1,7 @@
 ---
 slug: tasca
 tags: [arrays]
+difficulty: 5
 ---
 # Tasca
 

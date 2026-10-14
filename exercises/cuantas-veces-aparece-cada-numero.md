@@ -1,6 +1,7 @@
 ---
 slug: cuantas-veces-aparece-cada-numero
 tags: [arrays]
+difficulty: 5
 ---
 # Cuantas veces aparece cada número
 

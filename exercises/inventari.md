@@ -1,6 +1,7 @@
 ---
 slug: inventari
 tags: [arrays]
+difficulty: 5
 ---
 # Inventari
 

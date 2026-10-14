@@ -1,5 +1,6 @@
 ---
 slug: vocales-mayusculas
+difficulty: 5
 ---
 # Vocales Mayúsculas
 

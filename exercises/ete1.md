@@ -1,5 +1,6 @@
 ---
 slug: ete1
+difficulty: 5
 ---
 # Primero igual al último
 

@@ -1,5 +1,6 @@
 ---
 slug: pangrama
+difficulty: 5
 ---
 # Pangrama
 

@@ -1,6 +1,7 @@
 ---
 slug: c7-l3-2-evaluate-expression
 tags: [recursivitat]
+difficulty: 5
 ---
 # Evaluate expression
 

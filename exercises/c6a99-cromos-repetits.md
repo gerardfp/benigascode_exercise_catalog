@@ -1,5 +1,6 @@
 ---
 slug: c6a99-cromos-repetits
+difficulty: 5
 ---
 # Cromos repetits
 

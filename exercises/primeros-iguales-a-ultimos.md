@@ -1,5 +1,6 @@
 ---
 slug: primeros-iguales-a-ultimos
+difficulty: 5
 ---
 # Primeros iguales a últimos
 

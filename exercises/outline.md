@@ -1,6 +1,7 @@
 ---
 slug: outline
 tags: [arrays]
+difficulty: 5
 ---
 # Outline
 

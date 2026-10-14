@@ -1,6 +1,7 @@
 ---
 slug: c7-l1-1-suma-els-n-primers-nombres
 tags: [recursivitat]
+difficulty: 5
 ---
 # Suma els n primers nombres
 

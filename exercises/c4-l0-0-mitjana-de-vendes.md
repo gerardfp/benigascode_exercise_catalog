@@ -1,5 +1,6 @@
 ---
 slug: c4-l0-0-mitjana-de-vendes
+difficulty: 5
 ---
 # Mitjana de vendes
 

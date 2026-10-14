@@ -1,6 +1,7 @@
 ---
 slug: c2-l1-5-tres-en-ratlla
 tags: [if]
+difficulty: 5
 ---
 # Tres en ratlla
 

@@ -1,6 +1,7 @@
 ---
 slug: stigid-sert
 tags: [operadors, aritmetics]
+difficulty: 5
 ---
 # stigid serT
 

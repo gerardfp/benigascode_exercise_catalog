@@ -1,6 +1,7 @@
 ---
 slug: porter-de-discoteca
 tags: [if]
+difficulty: 5
 ---
 # Porter de discoteca
 

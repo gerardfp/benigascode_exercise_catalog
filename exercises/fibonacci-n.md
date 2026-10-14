@@ -1,6 +1,7 @@
 ---
 slug: fibonacci-n
 tags: [matemáticas, algorithms]
+difficulty: 5
 ---
 # Término N de Fibonacci
 

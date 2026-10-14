@@ -1,6 +1,7 @@
 ---
 slug: combinacion-secreta-de-la-caja-fuerte
 tags: [for]
+difficulty: 5
 ---
 # Combinación secreta de la caja fuerte
 

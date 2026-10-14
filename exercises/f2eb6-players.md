@@ -1,6 +1,7 @@
 ---
 slug: f2eb6-players
 tags: [class, L0]
+difficulty: 5
 ---
 # Players
 

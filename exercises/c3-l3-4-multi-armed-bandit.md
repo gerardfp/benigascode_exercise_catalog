@@ -1,5 +1,6 @@
 ---
 slug: c3-l3-4-multi-armed-bandit
+difficulty: 5
 ---
 # Multi-armed bandit
 

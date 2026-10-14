@@ -1,6 +1,7 @@
 ---
 slug: c1-l4-4-scrollbar
 tags: [operadors]
+difficulty: 5
 ---
 # Scrollbar
 

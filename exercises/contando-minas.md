@@ -1,5 +1,6 @@
 ---
 slug: contando-minas
+difficulty: 5
 ---
 # Comptant mines
 

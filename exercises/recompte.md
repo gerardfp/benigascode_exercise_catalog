@@ -1,6 +1,7 @@
 ---
-slug: a-recompte
-tags: [operadors, aritmetics]
+slug: recompte
+tags: [operators, arithmetic]
+difficulty: 5
 ---
 # Sortida en autobús
 

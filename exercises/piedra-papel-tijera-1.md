@@ -1,6 +1,7 @@
 ---
 slug: piedra-papel-tijera-1
 tags: [for]
+difficulty: 5
 ---
 # Pedra, Paper, Tisora
 

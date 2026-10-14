@@ -1,6 +1,7 @@
 ---
 slug: inner-box
 tags: [class]
+difficulty: 5
 ---
 # Inner Box
 

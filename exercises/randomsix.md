@@ -1,6 +1,7 @@
 ---
 slug: randomsix
 tags: [for]
+difficulty: 5
 ---
 # RandomSix
 

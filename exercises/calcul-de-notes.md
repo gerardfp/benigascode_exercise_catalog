@@ -1,6 +1,7 @@
 ---
 slug: calcul-de-notes
 tags: [if]
+difficulty: 5
 ---
 # Càlcul de notes
 

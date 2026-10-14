@@ -1,6 +1,7 @@
 ---
 slug: c2-l1-2-lletres-scrabble
 tags: [if, switch]
+difficulty: 5
 ---
 # Lletres de l'Scrabble
 

@@ -1,5 +1,6 @@
 ---
 slug: separar-los-grandes-de-los-pequenos
+difficulty: 5
 ---
 # Separar los grandes de los pequeños
 

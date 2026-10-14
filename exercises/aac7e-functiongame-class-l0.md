@@ -1,6 +1,7 @@
 ---
 slug: aac7e-functiongame-class-l0
 tags: [class, L0]
+difficulty: 5
 ---
 # FunctionGame
 

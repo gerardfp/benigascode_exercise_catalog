@@ -1,5 +1,6 @@
 ---
 slug: posicion-en-el-alfabeto
+difficulty: 5
 ---
 # Posició a l'alfabet
 

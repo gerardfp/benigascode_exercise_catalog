@@ -1,5 +1,6 @@
 ---
 slug: estan-todos
+difficulty: 5
 ---
 # Hi sou tots i totes?
 

@@ -1,6 +1,7 @@
 ---
 slug: c3-l0-6-code-analyzer
 tags: [for]
+difficulty: 5
 ---
 # Code analyzer
 

@@ -1,6 +1,7 @@
 ---
 slug: c3-l3-3-caixer-automatic
 tags: [for]
+difficulty: 5
 ---
 # Caixer automàtic
 

@@ -1,6 +1,7 @@
 ---
 slug: c6-l3-4-clock-tick
 tags: [class]
+difficulty: 5
 ---
 # Clock tick
 

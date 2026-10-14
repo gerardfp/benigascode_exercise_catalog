@@ -1,6 +1,7 @@
 ---
 slug: c2-l0-4-la-mida-dun-cargol
 tags: [if]
+difficulty: 5
 ---
 # La mida d'un cargol
 

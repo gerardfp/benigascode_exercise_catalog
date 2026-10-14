@@ -1,6 +1,7 @@
 ---
 slug: d3da3-paper-rock-scissors-class-l0
 tags: [class, L0]
+difficulty: 5
 ---
 # Paper, rock, scissors
 

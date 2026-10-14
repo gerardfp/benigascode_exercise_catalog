@@ -1,5 +1,6 @@
 ---
 slug: c6-l3-1-triangle
+difficulty: 5
 ---
 # Triangle
 

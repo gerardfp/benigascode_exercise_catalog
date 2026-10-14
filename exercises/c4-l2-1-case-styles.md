@@ -1,5 +1,6 @@
 ---
 slug: c4-l2-1-case-styles
+difficulty: 5
 ---
 # CaSe StYlEs
 

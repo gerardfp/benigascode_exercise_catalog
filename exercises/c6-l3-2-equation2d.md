@@ -1,5 +1,6 @@
 ---
 slug: c6-l3-2-equation2d
+difficulty: 5
 ---
 # Equation2d
 

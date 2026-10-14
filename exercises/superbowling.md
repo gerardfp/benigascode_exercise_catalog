@@ -1,5 +1,6 @@
 ---
 slug: superbowling
+difficulty: 5
 ---
 # Superbowling
 

@@ -1,6 +1,7 @@
 ---
 slug: mezcla-de-secuencias
 tags: [array]
+difficulty: 5
 ---
 # Mescla de seqüències
 

@@ -1,6 +1,7 @@
 ---
 slug: c2-l1-7-saluda-en-diferents-llenguatges
 tags: [if, switch]
+difficulty: 5
 ---
 # Saluda en diferents idiomes
 

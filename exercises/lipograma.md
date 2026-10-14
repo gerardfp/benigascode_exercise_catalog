@@ -1,6 +1,7 @@
 ---
 slug: lipograma
 tags: [strings]
+difficulty: 5
 ---
 # Lipograma
 

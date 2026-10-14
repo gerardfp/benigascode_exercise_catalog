@@ -1,6 +1,7 @@
 ---
 slug: robot-simulator
 tags: [for]
+difficulty: 5
 ---
 # Robot simulator
 

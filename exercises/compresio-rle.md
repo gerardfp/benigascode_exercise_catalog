@@ -1,6 +1,7 @@
 ---
 slug: compresio-rle
 tags: [for]
+difficulty: 5
 ---
 # Compressió RLE
 

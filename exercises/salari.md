@@ -1,6 +1,7 @@
 ---
 slug: salari
 tags: [array]
+difficulty: 5
 ---
 # Salari
 

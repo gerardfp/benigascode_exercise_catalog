@@ -1,5 +1,6 @@
 ---
 slug: secuencias-rotativas
+difficulty: 5
 ---
 # Parin les rotatives!
 

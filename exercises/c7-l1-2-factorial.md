@@ -1,6 +1,7 @@
 ---
 slug: c7-l1-2-factorial
 tags: [recursivitat]
+difficulty: 5
 ---
 # Factorial
 

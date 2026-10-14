@@ -1,6 +1,7 @@
 ---
 slug: c2c46-ahorcado-class-l0
 tags: [class, L0]
+difficulty: 5
 ---
 # Ahorcado
 

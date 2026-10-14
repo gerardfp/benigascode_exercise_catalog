@@ -1,6 +1,7 @@
 ---
 slug: inode-flags
 tags: [if]
+difficulty: 5
 ---
 # Inode flags
 

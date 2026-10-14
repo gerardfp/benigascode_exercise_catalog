@@ -1,6 +1,7 @@
 ---
 slug: c7-l2-2-reverse-string
 tags: [recursivitat]
+difficulty: 5
 ---
 # Reverse String
 

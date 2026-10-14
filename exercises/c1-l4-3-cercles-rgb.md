@@ -1,6 +1,7 @@
 ---
 slug: c1-l4-3-cercles-rgb
 tags: [operadors]
+difficulty: 5
 ---
 # Cercles RGB
 

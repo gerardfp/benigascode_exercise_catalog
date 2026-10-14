@@ -1,6 +1,7 @@
 ---
 slug: sucesion-capicua
 tags: [arrays]
+difficulty: 5
 ---
 # Capicua
 

@@ -1,5 +1,6 @@
 ---
 slug: afe43-amaga-les-columnes
+difficulty: 5
 ---
 # Amaga les columnes
 

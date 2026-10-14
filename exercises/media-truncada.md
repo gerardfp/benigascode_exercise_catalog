@@ -1,6 +1,7 @@
 ---
 slug: media-truncada
 tags: [for]
+difficulty: 5
 ---
 # Media truncada
 

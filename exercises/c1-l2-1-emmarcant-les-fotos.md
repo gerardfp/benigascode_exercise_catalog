@@ -1,6 +1,7 @@
 ---
 slug: c1-l2-1-emmarcant-les-fotos
 tags: [operadors]
+difficulty: 5
 ---
 # Emmarcant les fotos
 

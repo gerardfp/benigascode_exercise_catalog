@@ -1,5 +1,6 @@
 ---
 slug: sumas-encadenadas
+difficulty: 5
 ---
 # Sumas encadenadas
 

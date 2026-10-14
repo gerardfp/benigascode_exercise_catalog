@@ -1,6 +1,7 @@
 ---
 slug: inicialitzar-array
 tags: [arrays]
+difficulty: 5
 ---
 # Inicialitzar array
 

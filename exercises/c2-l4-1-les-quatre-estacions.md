@@ -1,6 +1,7 @@
 ---
 slug: c2-l4-1-les-quatre-estacions
 tags: [if]
+difficulty: 5
 ---
 # Les quatre estacions
 

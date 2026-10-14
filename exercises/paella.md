@@ -1,6 +1,7 @@
 ---
 slug: paella
 tags: [operadors, aritmetics]
+difficulty: 5
 ---
 # Paella
 

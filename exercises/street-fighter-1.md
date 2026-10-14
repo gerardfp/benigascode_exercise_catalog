@@ -1,6 +1,7 @@
 ---
 slug: street-fighter-1
 tags: [if]
+difficulty: 5
 ---
 # Street Fighter
 

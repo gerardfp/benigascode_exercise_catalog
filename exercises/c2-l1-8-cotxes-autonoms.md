@@ -1,6 +1,7 @@
 ---
 slug: c2-l1-8-cotxes-autonoms
 tags: [if]
+difficulty: 5
 ---
 # Cotxes autònoms
 

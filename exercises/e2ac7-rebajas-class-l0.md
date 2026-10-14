@@ -1,6 +1,7 @@
 ---
 slug: e2ac7-rebajas-class-l0
 tags: [class, L0]
+difficulty: 5
 ---
 # Rebaixes
 

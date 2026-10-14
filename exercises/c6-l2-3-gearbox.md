@@ -1,5 +1,6 @@
 ---
 slug: c6-l2-3-gearbox
+difficulty: 5
 ---
 # GearBox
 

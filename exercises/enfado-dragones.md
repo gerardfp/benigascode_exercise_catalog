@@ -1,6 +1,7 @@
 ---
 slug: enfado-dragones
 tags: [condicionales, i/o, loops]
+difficulty: 5
 ---
 # El enfado de los dragones
 

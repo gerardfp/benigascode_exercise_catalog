@@ -1,6 +1,7 @@
 ---
 slug: ordenar-numeros
 tags: [arrays, estructuras-de-datos]
+difficulty: 5
 ---
 # Ordenar lista de enteros ascendente
 

@@ -1,5 +1,6 @@
 ---
 slug: fontana-di-puig
+difficulty: 5
 ---
 # Fontana di Puig
 

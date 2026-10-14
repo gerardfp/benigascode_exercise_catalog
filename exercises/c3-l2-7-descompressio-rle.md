@@ -1,6 +1,7 @@
 ---
 slug: c3-l2-7-descompressio-rle
 tags: [for]
+difficulty: 5
 ---
 # Descompressió RLE
 

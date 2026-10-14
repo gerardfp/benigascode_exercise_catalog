@@ -1,6 +1,7 @@
 ---
 slug: c7-l3-1-palindrom
 tags: [recursivitat]
+difficulty: 5
 ---
 # Palíndrom
 

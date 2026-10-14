@@ -1,6 +1,7 @@
 ---
 slug: book-class-4
 tags: [class]
+difficulty: 5
 ---
 # Book
 

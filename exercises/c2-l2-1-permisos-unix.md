@@ -1,6 +1,7 @@
 ---
 slug: c2-l2-1-permisos-unix
 tags: [if]
+difficulty: 5
 ---
 # Permisos octals UNIX
 

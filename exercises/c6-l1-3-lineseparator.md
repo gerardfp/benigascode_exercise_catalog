@@ -1,6 +1,7 @@
 ---
 slug: c6-l1-3-lineseparator
 tags: [class, L0]
+difficulty: 5
 ---
 # LineSeparator
 

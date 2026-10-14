@@ -1,6 +1,7 @@
 ---
 slug: dintre-de-termini
 tags: [if]
+difficulty: 5
 ---
 # Dintre de termini
 

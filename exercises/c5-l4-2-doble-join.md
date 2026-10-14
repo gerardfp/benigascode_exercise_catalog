@@ -1,5 +1,6 @@
 ---
 slug: c5-l4-2-doble-join
+difficulty: 5
 ---
 # Doble JOIN
 

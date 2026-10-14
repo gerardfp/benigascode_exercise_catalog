@@ -1,6 +1,7 @@
 ---
 slug: b0ae0-cotxe-class-l0
 tags: [class, L0]
+difficulty: 5
 ---
 # Cotxe
 

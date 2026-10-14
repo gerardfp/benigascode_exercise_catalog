@@ -1,6 +1,7 @@
 ---
 slug: enquesta-frameworks
 tags: [if]
+difficulty: 5
 ---
 # Enquesta frameworks
 

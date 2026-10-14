@@ -1,5 +1,6 @@
 ---
 slug: dos-reinas
+difficulty: 5
 ---
 # Dos Reinas
 

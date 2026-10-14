@@ -1,6 +1,7 @@
 ---
 slug: c3-l1-1-jump-jump
 tags: [for]
+difficulty: 5
 ---
 # Jump, jump!
 

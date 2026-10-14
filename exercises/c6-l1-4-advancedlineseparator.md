@@ -1,6 +1,7 @@
 ---
 slug: c6-l1-4-advancedlineseparator
 tags: [class, L0]
+difficulty: 5
 ---
 # AdvancedLineSeparator
 

@@ -1,5 +1,6 @@
 ---
 slug: suma-de-dos-secuencias
+difficulty: 5
 ---
 # Suma de dos secuencias
 

@@ -1,6 +1,7 @@
 ---
 slug: triler
 tags: [if]
+difficulty: 5
 ---
 # Triler
 

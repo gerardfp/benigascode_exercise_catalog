@@ -1,5 +1,6 @@
 ---
 slug: del-1-al-5
+difficulty: 5
 ---
 # Del 1 al 5
 

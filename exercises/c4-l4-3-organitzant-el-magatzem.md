@@ -1,6 +1,7 @@
 ---
 slug: c4-l4-3-organitzant-el-magatzem
 tags: [arrays]
+difficulty: 5
 ---
 # Organitzant el magatzem
 

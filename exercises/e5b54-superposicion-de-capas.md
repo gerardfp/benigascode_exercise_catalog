@@ -1,6 +1,7 @@
 ---
 slug: e5b54-superposicion-de-capas
 tags: [array]
+difficulty: 5
 ---
 # Superposición de capas
 

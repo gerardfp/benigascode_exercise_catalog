@@ -1,6 +1,7 @@
 ---
 slug: c1-l3-3-piramides-de-llumins
 tags: [operadors]
+difficulty: 5
 ---
 # Piràmides de llumins
 

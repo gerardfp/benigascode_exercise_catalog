@@ -1,6 +1,7 @@
 ---
 slug: c1-l2-8-notacio-algebraica-als-escacs
 tags: [conversio]
+difficulty: 5
 ---
 # Notació algebraica als escacs
 

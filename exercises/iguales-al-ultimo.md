@@ -1,6 +1,7 @@
 ---
 slug: iguales-al-ultimo
 tags: [arrays]
+difficulty: 5
 ---
 # Iguals a l'últim
 

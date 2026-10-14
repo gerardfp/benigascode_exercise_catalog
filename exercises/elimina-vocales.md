@@ -1,5 +1,6 @@
 ---
 slug: elimina-vocales
+difficulty: 5
 ---
 # Elimina vocales
 

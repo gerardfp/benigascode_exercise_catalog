@@ -1,6 +1,7 @@
 ---
 slug: ec7cc-song-class-l0
 tags: [class, L0]
+difficulty: 5
 ---
 # Song
 

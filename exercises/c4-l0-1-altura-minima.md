@@ -1,6 +1,7 @@
 ---
 slug: c4-l0-1-altura-minima
 tags: [arrays]
+difficulty: 5
 ---
 # Altura mínima
 

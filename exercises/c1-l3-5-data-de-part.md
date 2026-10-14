@@ -1,6 +1,7 @@
 ---
 slug: c1-l3-5-data-de-part
 tags: [operadors]
+difficulty: 5
 ---
 # Data de caducitat
 

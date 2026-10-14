@@ -1,6 +1,7 @@
 ---
 slug: c2-l1-4-operacions-aritmetiques
 tags: [if]
+difficulty: 5
 ---
 # Expressions aritmètiques
 

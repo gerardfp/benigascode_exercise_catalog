@@ -1,5 +1,6 @@
 ---
 slug: c6-l2-4-butlleti-de-notes
+difficulty: 5
 ---
 # Butlletí de notes
 

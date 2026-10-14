@@ -1,6 +1,7 @@
 ---
 slug: corrigiendo-los-deberes
 tags: [for]
+difficulty: 5
 ---
 # Corregint els deures
 

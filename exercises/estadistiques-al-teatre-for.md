@@ -1,6 +1,7 @@
 ---
 slug: estadistiques-al-teatre-for
 tags: [for]
+difficulty: 5
 ---
 # Estadístiques al teatre
 

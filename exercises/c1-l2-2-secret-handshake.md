@@ -1,6 +1,7 @@
 ---
 slug: c1-l2-2-secret-handshake
 tags: [if]
+difficulty: 5
 ---
 # Secret Handshake
 

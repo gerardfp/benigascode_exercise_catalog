@@ -1,6 +1,7 @@
 ---
 slug: maquina-parada
 tags: [for]
+difficulty: 5
 ---
 # Parada per manteniment
 

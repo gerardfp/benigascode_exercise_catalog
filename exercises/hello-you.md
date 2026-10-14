@@ -1,6 +1,7 @@
 ---
-slug: a-hello-you
+slug: hello-you
 tags: [scanner]
+difficulty: 5
 ---
 # Hello you
 
@@ -17,13 +18,9 @@ La paraula "Hola" seguida d'un espai en blanc, el nom de la persona, i una excla
 ## Plantillas
 
 ```java
-// posa aquí els imports necessaris
 
-public class Main {
-
-    public static void main(String[] args) {
-        // posa aquí el codi
-    }
+void main() {
+    // write your code here
 }
 ```
 

@@ -1,6 +1,7 @@
 ---
 slug: banderas
 tags: [for]
+difficulty: 5
 ---
 # Banderes
 

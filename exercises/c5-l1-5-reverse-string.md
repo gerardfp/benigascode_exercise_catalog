@@ -1,5 +1,6 @@
 ---
 slug: c5-l1-5-reverse-string
+difficulty: 5
 ---
 # Reverse String
 

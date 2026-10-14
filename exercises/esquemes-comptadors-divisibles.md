@@ -1,6 +1,7 @@
 ---
 slug: esquemes-comptadors-divisibles
 tags: [arrays, esquemes]
+difficulty: 5
 ---
 # Comptadors: divisibles
 

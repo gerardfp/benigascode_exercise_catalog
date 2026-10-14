@@ -1,5 +1,6 @@
 ---
 slug: precision-mecanografica
+difficulty: 5
 ---
 # Precisión mecanográfica
 

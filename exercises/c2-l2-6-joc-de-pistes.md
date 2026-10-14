@@ -1,5 +1,6 @@
 ---
 slug: c2-l2-6-joc-de-pistes
+difficulty: 5
 ---
 # Joc de pistes
 

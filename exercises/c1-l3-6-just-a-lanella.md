@@ -1,6 +1,7 @@
 ---
 slug: c1-l3-6-just-a-lanella
 tags: [operadors]
+difficulty: 5
 ---
 # Just a l'anella
 

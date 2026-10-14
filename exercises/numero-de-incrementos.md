@@ -1,5 +1,6 @@
 ---
 slug: numero-de-incrementos
+difficulty: 5
 ---
 # Número de incrementos
 

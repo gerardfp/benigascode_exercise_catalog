@@ -1,6 +1,7 @@
 ---
 slug: cada-paraula-a-una-linia
 tags: [scanner]
+difficulty: 5
 ---
 # Cada paraula a una línia
 

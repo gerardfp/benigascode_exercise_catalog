@@ -1,6 +1,7 @@
 ---
 slug: unicode-points
 tags: [conversio]
+difficulty: 5
 ---
 # Unicode points
 

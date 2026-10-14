@@ -1,6 +1,7 @@
 ---
 slug: c1-l2-3-rellotge-de-manilles
 tags: [operadors]
+difficulty: 5
 ---
 # Rellotge de manilles
 

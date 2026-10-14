@@ -1,6 +1,7 @@
 ---
 slug: encontrando-minas
 tags: [for]
+difficulty: 5
 ---
 # Trobant mines
 

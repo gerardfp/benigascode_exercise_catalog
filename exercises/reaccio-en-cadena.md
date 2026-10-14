@@ -1,6 +1,7 @@
 ---
 slug: reaccio-en-cadena
 tags: [arrays]
+difficulty: 5
 ---
 # Reacció en cadena
 

@@ -1,5 +1,6 @@
 ---
 slug: cuantas-veces-esta-la-palabra
+difficulty: 5
 ---
 # Cuántas veces está la palabra?
 

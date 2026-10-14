@@ -1,6 +1,7 @@
 ---
 slug: einstein
 tags: [literals]
+difficulty: 5
 ---
 # Cita Einstein
 

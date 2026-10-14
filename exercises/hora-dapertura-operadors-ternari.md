@@ -1,6 +1,7 @@
 ---
 slug: hora-dapertura-operadors-ternari
 tags: [operadors, ternari]
+difficulty: 5
 ---
 # Hora d'apertura
 

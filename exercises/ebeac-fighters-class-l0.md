@@ -1,6 +1,7 @@
 ---
 slug: ebeac-fighters-class-l0
 tags: [class, L0]
+difficulty: 5
 ---
 # Fighters
 

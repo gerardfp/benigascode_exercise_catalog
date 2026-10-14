@@ -1,5 +1,6 @@
 ---
 slug: buscando-minas
+difficulty: 5
 ---
 # Cercant mines
 

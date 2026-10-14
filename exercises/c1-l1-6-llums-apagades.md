@@ -1,6 +1,7 @@
 ---
 slug: c1-l1-6-llums-apagades
 tags: [operadors, logics]
+difficulty: 5
 ---
 # Llums apagats
 

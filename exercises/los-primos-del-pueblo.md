@@ -1,5 +1,6 @@
 ---
 slug: los-primos-del-pueblo
+difficulty: 5
 ---
 # Los primos del pueblo
 

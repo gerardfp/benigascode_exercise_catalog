@@ -1,5 +1,6 @@
 ---
 slug: numero-de-divisores
+difficulty: 5
 ---
 # Número de divisores
 

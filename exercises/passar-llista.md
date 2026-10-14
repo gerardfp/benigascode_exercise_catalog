@@ -1,6 +1,7 @@
 ---
 slug: passar-llista
 tags: [arrays]
+difficulty: 5
 ---
 # Passar llista
 

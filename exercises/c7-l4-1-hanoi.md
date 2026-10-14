@@ -1,6 +1,7 @@
 ---
 slug: c7-l4-1-hanoi
 tags: [recursivitat]
+difficulty: 5
 ---
 # Hanoi
 

@@ -1,6 +1,7 @@
 ---
 slug: c3-l2-1-pics-i-valls
 tags: [for]
+difficulty: 5
 ---
 # Pics i valls
 

@@ -1,6 +1,7 @@
 ---
 slug: c4-l1-2-apunts
 tags: [arrays]
+difficulty: 5
 ---
 # Apunts
 

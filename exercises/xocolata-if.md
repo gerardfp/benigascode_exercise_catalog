@@ -1,6 +1,7 @@
 ---
 slug: xocolata-if
 tags: [operadors, ternari]
+difficulty: 5
 ---
 # Xocolata
 

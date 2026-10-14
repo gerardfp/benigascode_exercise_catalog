@@ -1,5 +1,6 @@
 ---
 slug: c5-l2-5-hansel-i-gretel
+difficulty: 5
 ---
 # Hansel i Gretel
 

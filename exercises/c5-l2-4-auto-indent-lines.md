@@ -1,5 +1,6 @@
 ---
 slug: c5-l2-4-auto-indent-lines
+difficulty: 5
 ---
 # Auto-Indent Lines
 

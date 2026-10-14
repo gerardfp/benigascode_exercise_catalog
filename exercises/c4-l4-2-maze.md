@@ -1,6 +1,7 @@
 ---
 slug: c4-l4-2-maze
 tags: [recursivitat]
+difficulty: 5
 ---
 # Maze
 

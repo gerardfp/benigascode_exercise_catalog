@@ -1,6 +1,7 @@
 ---
 slug: c2-l3-1-xarxes-privades
 tags: [if]
+difficulty: 5
 ---
 # Xarxes privades
 

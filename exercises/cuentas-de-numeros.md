@@ -1,5 +1,6 @@
 ---
 slug: cuentas-de-numeros
+difficulty: 5
 ---
 # Cuentas de números
 

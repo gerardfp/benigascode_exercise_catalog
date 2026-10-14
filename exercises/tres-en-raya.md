@@ -1,5 +1,6 @@
 ---
 slug: tres-en-raya
+difficulty: 5
 ---
 # OXO
 

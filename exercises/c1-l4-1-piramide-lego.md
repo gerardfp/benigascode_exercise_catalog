@@ -1,6 +1,7 @@
 ---
 slug: c1-l4-1-piramide-lego
 tags: [operadors]
+difficulty: 5
 ---
 # Piràmide lego
 

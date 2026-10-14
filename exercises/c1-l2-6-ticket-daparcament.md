@@ -1,6 +1,7 @@
 ---
 slug: c1-l2-6-ticket-daparcament
 tags: [operadors]
+difficulty: 5
 ---
 # Ticket d'aparcament
 

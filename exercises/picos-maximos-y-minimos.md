@@ -1,5 +1,6 @@
 ---
 slug: picos-maximos-y-minimos
+difficulty: 5
 ---
 # Picos máximos y mínimos
 

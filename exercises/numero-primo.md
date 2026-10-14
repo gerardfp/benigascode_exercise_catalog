@@ -1,6 +1,7 @@
 ---
 slug: numero-primo
 tags: [matemáticas, algorithms]
+difficulty: 5
 ---
 # Determinar si un número es primo
 

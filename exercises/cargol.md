@@ -1,6 +1,7 @@
 ---
 slug: cargol
 tags: [operadors]
+difficulty: 5
 ---
 # Cargol
 

@@ -1,5 +1,6 @@
 ---
 slug: el-primo-del-pueblo
+difficulty: 5
 ---
 # El primo del pueblo
 

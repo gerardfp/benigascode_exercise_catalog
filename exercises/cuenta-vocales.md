@@ -1,5 +1,6 @@
 ---
 slug: cuenta-vocales
+difficulty: 5
 ---
 # Cuenta vocales
 

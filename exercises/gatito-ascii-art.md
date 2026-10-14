@@ -1,6 +1,7 @@
 ---
 slug: gatito-ascii-art
 tags: [literals]
+difficulty: 5
 ---
 # Gatito ASCII-art
 

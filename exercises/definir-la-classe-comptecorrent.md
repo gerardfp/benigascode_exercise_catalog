@@ -1,6 +1,7 @@
 ---
 slug: definir-la-classe-comptecorrent
 tags: [class]
+difficulty: 5
 ---
 # Definir la classe CompteCorrent
 

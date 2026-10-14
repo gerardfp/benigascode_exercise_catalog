@@ -1,6 +1,7 @@
 ---
 slug: c2-l1-5-trendingtopic
 tags: [TrendingTopic, strings]
+difficulty: 5
 ---
 # c2-l1-5-trendingtopic
 

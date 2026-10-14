@@ -1,5 +1,6 @@
 ---
 slug: subsecuencia-1
+difficulty: 5
 ---
 # Subseqüència
 

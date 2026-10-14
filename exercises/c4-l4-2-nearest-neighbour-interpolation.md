@@ -1,5 +1,6 @@
 ---
 slug: c4-l4-2-nearest-neighbour-interpolation
+difficulty: 5
 ---
 # Nearest-neighbour interpolation
 

@@ -1,6 +1,7 @@
 ---
 slug: c3-l0-5-compta-vocals
 tags: [for]
+difficulty: 5
 ---
 # Filtra vocals
 

@@ -1,6 +1,7 @@
 ---
 slug: c1-l1-8-lliga-de-futbol
 tags: [operadors]
+difficulty: 5
 ---
 # Lliga de futbol
 

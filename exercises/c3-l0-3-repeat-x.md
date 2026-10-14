@@ -1,6 +1,7 @@
 ---
 slug: c3-l0-3-repeat-x
 tags: [for]
+difficulty: 5
 ---
 # Repeat X
 

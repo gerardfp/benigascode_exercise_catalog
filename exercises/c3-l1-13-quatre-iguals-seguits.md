@@ -1,6 +1,7 @@
 ---
 slug: c3-l1-13-quatre-iguals-seguits
 tags: [for]
+difficulty: 5
 ---
 # Quatre iguals seguits
 

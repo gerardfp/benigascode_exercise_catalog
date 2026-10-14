@@ -1,5 +1,6 @@
 ---
 slug: c5-l1-6-tres-en-ratlla
+difficulty: 5
 ---
 # OXO
 

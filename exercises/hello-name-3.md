@@ -1,6 +1,7 @@
 ---
 slug: hello-name-3
 tags: [literals]
+difficulty: 5
 ---
 # Hello, NOM!
 

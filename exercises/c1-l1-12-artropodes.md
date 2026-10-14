@@ -1,6 +1,7 @@
 ---
 slug: c1-l1-12-artropodes
 tags: [operadors, aritmetics]
+difficulty: 5
 ---
 # Artròpodes
 

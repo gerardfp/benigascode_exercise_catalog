@@ -1,6 +1,7 @@
 ---
 slug: sucesiones-de-fibonacci
 tags: [for]
+difficulty: 5
 ---
 # Successions de Fibonacci
 

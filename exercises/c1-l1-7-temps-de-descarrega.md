@@ -1,6 +1,7 @@
 ---
 slug: c1-l1-7-temps-de-descarrega
 tags: [operadors, aritmetics]
+difficulty: 5
 ---
 # Temps de descàrrega
 

@@ -1,6 +1,7 @@
 ---
 slug: maxima-puntuacio
 tags: [for]
+difficulty: 5
 ---
 # Màxima puntuació
 

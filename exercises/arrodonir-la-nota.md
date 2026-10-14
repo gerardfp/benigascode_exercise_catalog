@@ -1,6 +1,7 @@
 ---
 slug: arrodonir-la-nota
 tags: [conversio]
+difficulty: 5
 ---
 # Arrodonir la nota
 

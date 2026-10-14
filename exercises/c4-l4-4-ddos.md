@@ -1,6 +1,7 @@
 ---
 slug: c4-l4-4-ddos
 tags: [for]
+difficulty: 5
 ---
 # DDoS
 

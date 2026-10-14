@@ -1,6 +1,7 @@
 ---
 slug: c1-l3-7-xifratge-cesar
 tags: [operadors]
+difficulty: 5
 ---
 # Xifratge cèsar
 

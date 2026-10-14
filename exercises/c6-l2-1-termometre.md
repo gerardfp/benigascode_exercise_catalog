@@ -1,6 +1,7 @@
 ---
 slug: c6-l2-1-termometre
 tags: [class, L0]
+difficulty: 5
 ---
 # Termòmetre
 

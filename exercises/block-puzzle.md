@@ -1,6 +1,7 @@
 ---
 slug: block-puzzle
 tags: [array]
+difficulty: 5
 ---
 # Block Puzzle
 

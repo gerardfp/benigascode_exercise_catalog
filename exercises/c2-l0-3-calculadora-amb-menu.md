@@ -1,6 +1,7 @@
 ---
 slug: c2-l0-3-calculadora-amb-menu
 tags: [if, switch]
+difficulty: 5
 ---
 # Calculadora amb menú
 

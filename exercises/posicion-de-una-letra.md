@@ -1,6 +1,7 @@
 ---
 slug: posicion-de-una-letra
 tags: [array]
+difficulty: 5
 ---
 # Posició d'una lletra en un text
 

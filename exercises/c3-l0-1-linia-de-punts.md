@@ -1,6 +1,7 @@
 ---
 slug: c3-l0-1-linia-de-punts
 tags: [for]
+difficulty: 5
 ---
 # Línia de punts
 

@@ -1,5 +1,6 @@
 ---
 slug: c4-l4-1-acces-log-analyzer
+difficulty: 5
 ---
 # Access.log analyzer
 

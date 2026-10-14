@@ -1,6 +1,7 @@
 ---
 slug: e8f27-fusion-class-l0
 tags: [class, L0]
+difficulty: 5
 ---
 # Fusion
 

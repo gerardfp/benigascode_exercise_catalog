@@ -1,6 +1,7 @@
 ---
 slug: notacio-vectorial
 tags: [for]
+difficulty: 5
 ---
 # Notació arrays
 

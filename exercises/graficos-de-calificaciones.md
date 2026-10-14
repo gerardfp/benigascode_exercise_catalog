@@ -1,6 +1,7 @@
 ---
 slug: graficos-de-calificaciones
 tags: [for]
+difficulty: 5
 ---
 # Gràfics de qualificacions
 

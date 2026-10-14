@@ -1,5 +1,6 @@
 ---
 slug: estadisticas-del-partido
+difficulty: 5
 ---
 # Estadísticas del partido
 

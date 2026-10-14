@@ -1,6 +1,7 @@
 ---
 slug: arxius-de-codi-font
 tags: [scanner]
+difficulty: 5
 ---
 # Arxius de codi font
 

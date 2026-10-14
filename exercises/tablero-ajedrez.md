@@ -1,6 +1,7 @@
 ---
 slug: tablero-ajedrez
 tags: [for]
+difficulty: 5
 ---
 # Tauler d'Escacs
 

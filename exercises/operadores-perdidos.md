@@ -1,6 +1,7 @@
 ---
 slug: operadores-perdidos
 tags: [if]
+difficulty: 5
 ---
 # Operadors perduts
 

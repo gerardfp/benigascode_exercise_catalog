@@ -1,6 +1,7 @@
 ---
 slug: c1-l1-5-nota-mitjana
 tags: [operadors]
+difficulty: 5
 ---
 # Nota mitjana   aritmètics
 

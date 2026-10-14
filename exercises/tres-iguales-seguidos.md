@@ -1,5 +1,6 @@
 ---
 slug: tres-iguales-seguidos
+difficulty: 5
 ---
 # Tres iguales seguidos
 

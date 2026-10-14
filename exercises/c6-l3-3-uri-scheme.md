@@ -1,6 +1,7 @@
 ---
 slug: c6-l3-3-uri-scheme
 tags: [class]
+difficulty: 5
 ---
 # URI Scheme
 

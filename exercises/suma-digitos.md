@@ -1,6 +1,7 @@
 ---
 slug: suma-digitos
 tags: [for]
+difficulty: 5
 ---
 # Suma dígits
 

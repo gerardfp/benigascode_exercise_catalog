@@ -1,5 +1,6 @@
 ---
 slug: cuenta-palabras
+difficulty: 5
 ---
 # Cuenta palabras
 

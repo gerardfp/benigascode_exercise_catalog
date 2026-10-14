@@ -1,5 +1,6 @@
 ---
 slug: bomberman-2
+difficulty: 5
 ---
 # Bomberman
 

@@ -1,6 +1,7 @@
 ---
 slug: c1-l4-2-un-cavall-contra-2-peons
 tags: [operadors]
+difficulty: 5
 ---
 # Un cavall contra dos peons
 

@@ -1,6 +1,7 @@
 ---
 slug: canastas
 tags: [for]
+difficulty: 5
 ---
 # Encistellaments
 

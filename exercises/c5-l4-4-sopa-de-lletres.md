@@ -1,6 +1,7 @@
 ---
 slug: c5-l4-4-sopa-de-lletres
 tags: [strings]
+difficulty: 5
 ---
 # Sopa de lletres
 

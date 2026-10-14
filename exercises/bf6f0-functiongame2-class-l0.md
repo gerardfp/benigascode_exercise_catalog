@@ -1,6 +1,7 @@
 ---
 slug: bf6f0-functiongame2-class-l0
 tags: [class, L0]
+difficulty: 5
 ---
 # FunctionGame2
 

@@ -1,6 +1,7 @@
 ---
 slug: de-0-a-4
 tags: [literals]
+difficulty: 5
 ---
 # De 0 a 4
 

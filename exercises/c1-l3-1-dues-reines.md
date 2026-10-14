@@ -1,6 +1,7 @@
 ---
 slug: c1-l3-1-dues-reines
 tags: [operadors]
+difficulty: 5
 ---
 # Dues reines
 

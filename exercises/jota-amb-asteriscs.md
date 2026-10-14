@@ -1,6 +1,7 @@
 ---
 slug: jota-amb-asteriscs
 tags: [literals]
+difficulty: 5
 ---
 # Jota amb asteriscs
 

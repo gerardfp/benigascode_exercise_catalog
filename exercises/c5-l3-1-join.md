@@ -1,5 +1,6 @@
 ---
 slug: c5-l3-1-join
+difficulty: 5
 ---
 # JOIN
 

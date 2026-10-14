@@ -1,5 +1,6 @@
 ---
 slug: esta-la-palabra-si-o-no
+difficulty: 5
 ---
 # Está la palabra? si o no?
 

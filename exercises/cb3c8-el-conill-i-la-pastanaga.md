@@ -1,5 +1,6 @@
 ---
 slug: cb3c8-el-conill-i-la-pastanaga
+difficulty: 5
 ---
 # El conill i les pastanagues
 

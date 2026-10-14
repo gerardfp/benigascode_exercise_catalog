@@ -1,6 +1,7 @@
 ---
 slug: e33c4-full-de-notes
 tags: [for]
+difficulty: 5
 ---
 # Full de notes
 

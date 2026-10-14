@@ -1,6 +1,7 @@
 ---
 slug: ec528-producte-class-l0
 tags: [class]
+difficulty: 5
 ---
 # Producte
 

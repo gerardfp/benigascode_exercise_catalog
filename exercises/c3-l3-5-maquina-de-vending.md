@@ -1,6 +1,7 @@
 ---
 slug: c3-l3-5-maquina-de-vending
 tags: [for]
+difficulty: 5
 ---
 # Màquina de vending
 

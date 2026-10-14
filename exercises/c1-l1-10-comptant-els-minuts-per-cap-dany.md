@@ -1,6 +1,7 @@
 ---
 slug: c1-l1-10-comptant-els-minuts-per-cap-dany
 tags: [operadors, aritmetics]
+difficulty: 5
 ---
 # Comptant els minuts per cap d'any
 

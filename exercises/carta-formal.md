@@ -1,6 +1,7 @@
 ---
 slug: carta-formal
 tags: [scanner]
+difficulty: 5
 ---
 # Carta formal
 

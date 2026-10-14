@@ -1,6 +1,7 @@
 ---
 slug: c1-l1-9-sobren-ous
 tags: [operadors, ternari]
+difficulty: 5
 ---
 # Sobren ous
 

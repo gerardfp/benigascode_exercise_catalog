@@ -1,6 +1,7 @@
 ---
 slug: acces-log-analyzer
 tags: [strings, arrays]
+difficulty: 5
 ---
 # Access.log analyzer
 

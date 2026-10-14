@@ -1,6 +1,7 @@
 ---
 slug: scrabble-2-1
 tags: [for]
+difficulty: 5
 ---
 # Scrabble
 

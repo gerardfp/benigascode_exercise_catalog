@@ -1,6 +1,7 @@
 ---
 slug: a9adb-post-class-l0
 tags: [class, L0]
+difficulty: 5
 ---
 # Post
 

@@ -1,5 +1,6 @@
 ---
 slug: llista-despera
+difficulty: 5
 ---
 # Llista d'espera
 

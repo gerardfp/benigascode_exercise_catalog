@@ -1,5 +1,6 @@
 ---
 slug: suma-digitos-1
+difficulty: 5
 ---
 # Suma dígitos 1
 

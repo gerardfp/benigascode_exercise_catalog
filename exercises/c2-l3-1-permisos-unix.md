@@ -1,6 +1,7 @@
 ---
 slug: c2-l3-1-permisos-unix
 tags: [if]
+difficulty: 5
 ---
 # Permisos UNIX
 

@@ -1,6 +1,7 @@
 ---
 slug: ceros-debajo-de-la-diagonal
 tags: [for]
+difficulty: 5
 ---
 # Zeros sota la diagonal
 

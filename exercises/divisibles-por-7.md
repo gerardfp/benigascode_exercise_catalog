@@ -1,5 +1,6 @@
 ---
 slug: divisibles-por-7
+difficulty: 5
 ---
 # Divisibles por 7
 

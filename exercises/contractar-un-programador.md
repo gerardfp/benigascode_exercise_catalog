@@ -1,6 +1,7 @@
 ---
 slug: contractar-un-programador
 tags: [operadors]
+difficulty: 5
 ---
 # Contractar un programador
 

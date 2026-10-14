@@ -1,6 +1,7 @@
 ---
 slug: train-bird
 tags: [operadors]
+difficulty: 5
 ---
 # Train bird
 

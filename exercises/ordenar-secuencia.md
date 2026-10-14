@@ -1,5 +1,6 @@
 ---
 slug: ordenar-secuencia
+difficulty: 5
 ---
 # Ordenar seqüència
 

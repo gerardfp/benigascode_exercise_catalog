@@ -1,6 +1,7 @@
 ---
 slug: c7-l2-1-successio-de-fibonacci
 tags: [recursivitat]
+difficulty: 5
 ---
 # Successió de Fibonacci
 

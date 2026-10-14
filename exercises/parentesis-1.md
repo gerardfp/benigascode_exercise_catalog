@@ -1,6 +1,7 @@
 ---
 slug: parentesis-1
 tags: [for]
+difficulty: 5
 ---
 # Parèntesis
 
