@@ -1,5 +1,5 @@
 ---
-slug: abdf3-sprite-flip
+slug: sprite-flip
 difficulty: 5
 ---
 # Sprite flip

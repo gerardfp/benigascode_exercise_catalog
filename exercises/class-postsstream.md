@@ -1,19 +1,11 @@
 ---
-slug: b46d0-postsstream-class-l0
-tags: [class, L0]
+slug: class-postsstream
+tags: [class]
 difficulty: 5
 ---
 # PostsStream
 
 Crea els objectes necessaris.
-
-## Input
-
--
-
-## Output
-
--
 
 ## Plantillas
 

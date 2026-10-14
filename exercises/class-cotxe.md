@@ -1,19 +1,11 @@
 ---
-slug: b0ae0-cotxe-class-l0
-tags: [class, L0]
+slug: class-cotxe
+tags: [class]
 difficulty: 5
 ---
 # Cotxe
 
-Implementa el **constructor** de la classe Car
-
-## Input
-
--
-
-## Output
-
--
+Implementa el **constructor** de la classe `Car`
 
 ## Plantillas
 

@@ -1,19 +1,12 @@
 ---
-slug: aac7e-functiongame-class-l0
-tags: [class, L0]
+slug: class-functiongame
+tags: [class]
 difficulty: 5
 ---
 # FunctionGame
 
-Implementa els mètodes (funcions) de la classe FunctionGame
+Implementa els mètodes (funcions) de la classe `FunctionGame`
 
-## Input
-
--
-
-## Output
-
--
 
 ## Plantillas
 

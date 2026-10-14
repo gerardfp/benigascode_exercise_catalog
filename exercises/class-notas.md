@@ -1,19 +1,11 @@
 ---
-slug: ae12f-notas-class-l0
-tags: [class, L0]
+slug: class-notas
+tags: [class]
 difficulty: 5
 ---
 # Notas
 
-Crea la classe Alumne
-
-## Input
-
--
-
-## Output
-
--
+Crea la classe `Alumno`
 
 ## Plantillas
 
