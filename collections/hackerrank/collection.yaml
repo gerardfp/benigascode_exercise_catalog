@@ -8,18 +8,18 @@ visibility: "PUBLIC"
 language: "java"
 runtime: "java-21"
 compile:
-  command: "javac Main.java"
   timeout_seconds: 15
+  command: "javac Main.java"
 execution:
+  command: "java Main"
   timeout_seconds: 3
   memory_limit_mb: 256
-  command: "java Main"
 scoring:
   mode: "weighted"
   total_score: 100
 comparator:
-  ignore_trailing_whitespace: true
   type: "exact_line_by_line"
+  ignore_trailing_whitespace: true
 items:
 - type: "EXERCISE"
   id: "a-hello-world"
