@@ -27,7 +27,7 @@ Tres nombres enters:
 SI
 ```
 #### Explanation
-![image](1601981625-69da57c544-x1.png)
+![image](assets/xocolata-if-img0.png)
 
 ### Test
 ```input
@@ -37,7 +37,7 @@ SI
 SI
 ```
 #### Explanation
-![image](1601981699-fa5aceb80f-x2.png)
+![image](assets/xocolata-if-img1.png)
 
 ### Test
 ```input
@@ -47,7 +47,7 @@ SI
 NO
 ```
 #### Explanation
-![image](1601981744-333e143db0-x3.png)
+![image](assets/xocolata-if-img2.png)
 
 ### Test
 ```input

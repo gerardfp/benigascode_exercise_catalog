@@ -34,7 +34,7 @@ S'imprimirà el nombre mínim de salts que necessita donar per a arribar al fina
 3
 ```
 #### Explanation
-![image](1556709457-6cc7ee1123-mariojump1.png)
+![image](assets/c3-l1-1-jump-jump-img1.png)
 
 ### Test
 ```input
@@ -44,7 +44,7 @@ S'imprimirà el nombre mínim de salts que necessita donar per a arribar al fina
 4
 ```
 #### Explanation
-![image](1556709511-828a9a0edb-mariojump2.png)
+![image](assets/c3-l1-1-jump-jump-img2.png)
 
 ### Test
 ```input
@@ -54,7 +54,7 @@ S'imprimirà el nombre mínim de salts que necessita donar per a arribar al fina
 2
 ```
 #### Explanation
-![image](1556709588-dbfc64e6ec-mariojump3.png)
+![image](assets/c3-l1-1-jump-jump-img3.png)
 
 ### Test
 ```input
@@ -64,7 +64,7 @@ S'imprimirà el nombre mínim de salts que necessita donar per a arribar al fina
 0
 ```
 #### Explanation
-![image](1556709670-a608b4b485-mariojump4.png)
+![image](assets/c3-l1-1-jump-jump-img4.png)
 
 ### Test
 ```input
@@ -74,7 +74,7 @@ S'imprimirà el nombre mínim de salts que necessita donar per a arribar al fina
 3
 ```
 #### Explanation
-![image](1556709748-f6f5dce969-mariojump5.png)
+![image](assets/c3-l1-1-jump-jump-img5.png)
 
 ### Test
 ```input

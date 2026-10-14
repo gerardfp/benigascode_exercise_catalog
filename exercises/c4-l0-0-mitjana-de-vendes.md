@@ -90,7 +90,7 @@ La propietat <span style="font-size: 100%; display: inline-block;" class="MathJa
 </div>
 ```
 #### Explanation
-![image](1573834291-961176ab96-Screenshot_2019-11-15Screenshot2.png)
+![image](assets/c4-l0-0-mitjana-de-vendes-img1.png)
 
 ### Test
 ```input
@@ -126,7 +126,7 @@ La propietat <span style="font-size: 100%; display: inline-block;" class="MathJa
 </div>
 ```
 #### Explanation
-![image](1573834344-816e74a0f5-Screenshot_2019-11-15Screenshot3.png)
+![image](assets/c4-l0-0-mitjana-de-vendes-img2.png)
 
 ### Test
 ```input
@@ -162,7 +162,7 @@ La propietat <span style="font-size: 100%; display: inline-block;" class="MathJa
 </div>
 ```
 #### Explanation
-![image](1573834388-efd3356389-Screenshot_2019-11-15Screenshot4.png)
+![image](assets/c4-l0-0-mitjana-de-vendes-img3.png)
 
 ### Test
 ```input
@@ -198,7 +198,7 @@ La propietat <span style="font-size: 100%; display: inline-block;" class="MathJa
 </div>
 ```
 #### Explanation
-![image](1573834426-c60d883821-Screenshot_2019-11-15Screenshot5.png)
+![image](assets/c4-l0-0-mitjana-de-vendes-img4.png)
 
 ### Test
 ```input
@@ -234,7 +234,7 @@ La propietat <span style="font-size: 100%; display: inline-block;" class="MathJa
 </div>
 ```
 #### Explanation
-![image](1573834469-27a011b8ea-Screenshot_2019-11-15Screenshot6.png)
+![image](assets/c4-l0-0-mitjana-de-vendes-img5.png)
 
 ### Test
 ```input

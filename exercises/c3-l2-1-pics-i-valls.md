@@ -35,7 +35,7 @@ S'imprimirà el nombre de pics i el nombre de valls. També s'imprimirà el valo
 #### Explanation
 Hi ha dos pics, dues valles, el valor màxim és 7 i el mínim és 2
 
-![image](1556718572-f8070cdfb6-chart2.png)
+![image](assets/c3-l2-1-pics-i-valls-img1.png)
 
 ### Test
 ```input
@@ -50,7 +50,7 @@ Hi ha dos pics, dues valles, el valor màxim és 7 i el mínim és 2
 #### Explanation
 Hi ha tres pics, quatre valls, el valor màxim és 8 i el mínim 2.
 
-![image](1556718711-3d051714aa-chart3.png)
+![image](assets/c3-l2-1-pics-i-valls-img2.png)
 
 ### Test
 ```input
@@ -65,7 +65,7 @@ Hi ha tres pics, quatre valls, el valor màxim és 8 i el mínim 2.
 #### Explanation
 Hi ha zero pics, una vall, el màxim és 5 i el mínim 1 
 
-![image](1556718842-2ba8a5a9cb-chart4.png)
+![image](assets/c3-l2-1-pics-i-valls-img3.png)
 
 ### Test
 ```input
@@ -78,7 +78,7 @@ Hi ha zero pics, una vall, el màxim és 5 i el mínim 1
 1
 ```
 #### Explanation
-![image](1556718955-c8e2aab542-chart5.png)
+![image](assets/c3-l2-1-pics-i-valls-img4.png)
 
 ### Test
 ```input
@@ -91,7 +91,7 @@ Hi ha zero pics, una vall, el màxim és 5 i el mínim 1
 1
 ```
 #### Explanation
-![image](1556719054-3e91fac8c2-chart6.png)
+![image](assets/c3-l2-1-pics-i-valls-img5.png)
 
 ### Test
 ```input

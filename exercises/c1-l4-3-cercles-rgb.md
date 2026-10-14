@@ -35,7 +35,7 @@ El nombre de colors distints que es veuran.
 5
 ```
 #### Explanation
-![image](1556400403-81415111d2-rgb1.png)
+![image](assets/c1-l4-3-cercles-rgb-img1.png)
 
 ### Test
 ```input
@@ -47,7 +47,7 @@ El nombre de colors distints que es veuran.
 5
 ```
 #### Explanation
-![image](1556400504-46e405efd0-rgb2.png)
+![image](assets/c1-l4-3-cercles-rgb-img2.png)
 
 ### Test
 ```input
@@ -59,7 +59,7 @@ El nombre de colors distints que es veuran.
 4
 ```
 #### Explanation
-![image](1556400588-a2612a86b5-rgb3.png)
+![image](assets/c1-l4-3-cercles-rgb-img3.png)
 
 ### Test
 ```input
@@ -71,7 +71,7 @@ El nombre de colors distints que es veuran.
 3
 ```
 #### Explanation
-![image](1556404149-55cfc50a49-rgb15.png)
+![image](assets/c1-l4-3-cercles-rgb-img4.png)
 
 ### Test
 ```input
@@ -83,7 +83,7 @@ El nombre de colors distints que es veuran.
 4
 ```
 #### Explanation
-![image](1556403831-bebcfe2bd5-rgb14.png)
+![image](assets/c1-l4-3-cercles-rgb-img5.png)
 
 ### Test
 ```input
@@ -95,7 +95,7 @@ El nombre de colors distints que es veuran.
 4
 ```
 #### Explanation
-![image](1556401318-b3855eeed6-rgb6.png)
+![image](assets/c1-l4-3-cercles-rgb-img6.png)
 
 ### Test
 ```input
@@ -107,7 +107,7 @@ El nombre de colors distints que es veuran.
 7
 ```
 #### Explanation
-![image](1556401893-8941b321ae-rgb7.png)
+![image](assets/c1-l4-3-cercles-rgb-img7.png)
 
 ### Test
 ```input
@@ -119,7 +119,7 @@ El nombre de colors distints que es veuran.
 5
 ```
 #### Explanation
-![image](1556402096-b4b1e6bb46-rgb8.png)
+![image](assets/c1-l4-3-cercles-rgb-img8.png)
 
 ### Test
 ```input
@@ -131,7 +131,7 @@ El nombre de colors distints que es veuran.
 3
 ```
 #### Explanation
-![image](1556402239-2427c6bf94-rgb9.png)
+![image](assets/c1-l4-3-cercles-rgb-img9.png)
 
 ### Test
 ```input
@@ -143,7 +143,7 @@ El nombre de colors distints que es veuran.
 4
 ```
 #### Explanation
-![image](1556402734-86c80870cd-rgb10.png)
+![image](assets/c1-l4-3-cercles-rgb-img10.png)
 
 ### Test
 ```input
@@ -155,7 +155,7 @@ El nombre de colors distints que es veuran.
 6
 ```
 #### Explanation
-![image](1556402922-18764a315f-rgb11.png)
+![image](assets/c1-l4-3-cercles-rgb-img11.png)
 
 ### Test
 ```input
@@ -167,7 +167,7 @@ El nombre de colors distints que es veuran.
 6
 ```
 #### Explanation
-![image](1556403237-f8b8f5eac0-rgb12.png)
+![image](assets/c1-l4-3-cercles-rgb-img12.png)
 
 ### Test
 ```input
@@ -179,7 +179,7 @@ El nombre de colors distints que es veuran.
 6
 ```
 #### Explanation
-![image](1556403552-f7e09bb5b1-rgb13.png)
+![image](assets/c1-l4-3-cercles-rgb-img13.png)
 
 ### Test private
 ```input

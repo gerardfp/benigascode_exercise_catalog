@@ -80,7 +80,7 @@ abb.
 ....
 ```
 #### Explanation
-![image](1559226664-8e4e36c703-Selecci_002.png)
+![image](assets/c4-l4-3-organitzant-el-magatzem-img2.png)
 
 ### Test
 ```input
@@ -101,7 +101,7 @@ pxx
 ppx
 ```
 #### Explanation
-![image](1559227037-8c097577c6-Selecci_003.png)
+![image](assets/c4-l4-3-organitzant-el-magatzem-img3.png)
 
 ### Test
 ```input
@@ -122,7 +122,7 @@ oooo
 ....
 ```
 #### Explanation
-![image](1559227945-568354aa08-Selecci_004.png)
+![image](assets/c4-l4-3-organitzant-el-magatzem-img4.png)
 
 ### Test
 ```input

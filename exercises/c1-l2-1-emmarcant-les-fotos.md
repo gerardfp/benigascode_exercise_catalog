@@ -46,7 +46,7 @@ true
 #### Explanation
 El marc és més gran que la foto i la proporció és la mateixa
 
-![image](1555878340-48b497f50d-CopyofUntitleddrawing.png)
+![image](assets/c1-l2-1-emmarcant-les-fotos-img1.png)
 
 ### Test
 ```input
@@ -59,7 +59,7 @@ true
 #### Explanation
 El marc és més gran que la foto, però la proporció no és la mateixa
 
-![image](1555878430-f38596f669-CopyofUntitleddrawing1.png)
+![image](assets/c1-l2-1-emmarcant-les-fotos-img2.png)
 
 ### Test
 ```input
@@ -72,7 +72,7 @@ false
 #### Explanation
 La foto i el marc tenen el mateix tamany i la proporció és la mateixa
 
-![image](1555879053-3342c40546-CopyofUntitleddrawing2.png)
+![image](assets/c1-l2-1-emmarcant-les-fotos-img3.png)
 
 ### Test
 ```input
@@ -85,7 +85,7 @@ true
 #### Explanation
 El marc i la foto tenen el mateix tamany i la proporció és la mateixa
 
-![image](1555879295-34ac02cb8e-CopyofUntitleddrawing3.png)
+![image](assets/c1-l2-1-emmarcant-les-fotos-img4.png)
 
 ### Test
 ```input
@@ -98,7 +98,7 @@ true
 #### Explanation
 Tenen la mateixa proporció, però el marc és més petit que la foto:
 
-![image](1555879528-3ab846a9f3-CopyofUntitleddrawing4.png)
+![image](assets/c1-l2-1-emmarcant-les-fotos-img5.png)
 
 ### Test
 ```input

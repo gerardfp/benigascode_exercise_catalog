@@ -51,7 +51,7 @@ Se imprimirá el tablero resultante tras tras colocar (o no) la pieza.
 4 4 4 3
 ```
 #### Explanation
-![image](1584006558-f20e97da32-cubetris3.png)
+![image](assets/e25bb-cubetris-img2.png)
 
 ### Test
 ```input
@@ -71,7 +71,7 @@ Se imprimirá el tablero resultante tras tras colocar (o no) la pieza.
 0 2 2
 ```
 #### Explanation
-![image](1584006584-1f3a991d34-cubetris4.png)
+![image](assets/e25bb-cubetris-img3.png)
 
 ### Test
 ```input
@@ -91,7 +91,7 @@ Se imprimirá el tablero resultante tras tras colocar (o no) la pieza.
 0 0 0
 ```
 #### Explanation
-![image](1584006626-f379b73710-cubetris5.png)
+![image](assets/e25bb-cubetris-img4.png)
 
 ### Test private
 ```input

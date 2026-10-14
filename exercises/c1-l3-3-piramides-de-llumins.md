@@ -32,7 +32,7 @@ El nombre de llumins necessaris per fer la piràmide.
 3
 ```
 #### Explanation
-![image](1556271775-3375f463d1-llumins1.png)
+![image](assets/c1-l3-3-piramides-de-llumins-img1.png)
 
 ### Test
 ```input
@@ -43,7 +43,7 @@ El nombre de llumins necessaris per fer la piràmide.
 ```
 #### Explanation
 9
-![image](1556271844-ec87a381e8-llumins2.png)
+![image](assets/c1-l3-3-piramides-de-llumins-img2.png)
 
 ### Test
 ```input
@@ -53,7 +53,7 @@ El nombre de llumins necessaris per fer la piràmide.
 9
 ```
 #### Explanation
-![image](1556271869-b8d476adf8-llumins.png)
+![image](assets/c1-l3-3-piramides-de-llumins-img3.png)
 
 ### Test
 ```input
@@ -63,7 +63,7 @@ El nombre de llumins necessaris per fer la piràmide.
 18
 ```
 #### Explanation
-![image](1556271993-3faea1d6a1-llumins4.png)
+![image](assets/c1-l3-3-piramides-de-llumins-img4.png)
 
 ### Test
 ```input

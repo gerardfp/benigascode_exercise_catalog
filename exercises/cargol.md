@@ -43,7 +43,7 @@ public class Main {
 4
 ```
 #### Explanation
-![image](1601420565-ca68dfa438-cargol.png)
+![image](assets/cargol-img0.png)
 
 ### Test
 ```input
@@ -53,7 +53,7 @@ public class Main {
 2
 ```
 #### Explanation
-![image](1601420706-04227ef7c8-cargol2.png)
+![image](assets/cargol-img1.png)
 
 ### Test
 ```input
@@ -63,7 +63,7 @@ public class Main {
 4
 ```
 #### Explanation
-![image](1601421627-65fb1ccd48-cargol3.png)
+![image](assets/cargol-img2.png)
 
 ### Test
 ```input

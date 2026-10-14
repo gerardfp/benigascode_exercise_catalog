@@ -41,7 +41,7 @@ S'imprimirà la posició de l'última bomba en explotar (començant a comptar pe
 3
 ```
 #### Explanation
-![image](1611046827-10c04574a5-reaccioencadena0.png)
+![image](assets/reaccio-en-cadena-img2.png)
 
 ### Test
 ```input
@@ -52,7 +52,7 @@ S'imprimirà la posició de l'última bomba en explotar (començant a comptar pe
 5
 ```
 #### Explanation
-![image](1611047127-8b7ed9561a-reaccioencadena1.png)
+![image](assets/reaccio-en-cadena-img3.png)
 
 ### Test
 ```input
@@ -63,7 +63,7 @@ S'imprimirà la posició de l'última bomba en explotar (començant a comptar pe
 4
 ```
 #### Explanation
-![image](1611047166-591b5a7c34-reaccioencadena2.png)
+![image](assets/reaccio-en-cadena-img4.png)
 
 ### Test
 ```input
@@ -74,7 +74,7 @@ S'imprimirà la posició de l'última bomba en explotar (començant a comptar pe
 5
 ```
 #### Explanation
-![image](1611047228-4d4c895af9-reaccioencadena3.png)
+![image](assets/reaccio-en-cadena-img5.png)
 
 ### Test
 ```input
@@ -85,7 +85,7 @@ S'imprimirà la posició de l'última bomba en explotar (començant a comptar pe
 3
 ```
 #### Explanation
-![image](1611047265-047cefcc65-reaccioencadena4.png)
+![image](assets/reaccio-en-cadena-img6.png)
 
 ### Test
 ```input
@@ -96,7 +96,7 @@ S'imprimirà la posició de l'última bomba en explotar (començant a comptar pe
 1
 ```
 #### Explanation
-![image](1611047304-da3fd67741-reaccioencadena5.png)
+![image](assets/reaccio-en-cadena-img7.png)
 
 ### Test
 ```input
@@ -107,7 +107,7 @@ S'imprimirà la posició de l'última bomba en explotar (començant a comptar pe
 5
 ```
 #### Explanation
-![image](1611047337-b2f87007b2-reaccioencadena6.png)
+![image](assets/reaccio-en-cadena-img8.png)
 
 ### Test
 ```input
@@ -145,7 +145,7 @@ S'imprimirà la posició de l'última bomba en explotar (començant a comptar pe
 4
 ```
 #### Explanation
-![image](1613064771-d693fed1b8-reaccioencadena.png)
+![image](assets/reaccio-en-cadena-img9.png)
 
 ### Test
 ```input

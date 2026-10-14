@@ -43,7 +43,7 @@ Un entero indicando la cantidad de semáforos necesaria
 4
 ```
 #### Explanation
-![image](1612870272-b3cc3fed74-isotest1.png)
+![image](assets/simcity-img2.png)
 
 ### Test
 ```input
@@ -58,7 +58,7 @@ Un entero indicando la cantidad de semáforos necesaria
 3
 ```
 #### Explanation
-![image](1612870439-faf61d0ae7-isotest2.png)
+![image](assets/simcity-img3.png)
 
 ### Test
 ```input
@@ -72,7 +72,7 @@ Un entero indicando la cantidad de semáforos necesaria
 0
 ```
 #### Explanation
-![image](1612870793-3a1cd41e84-isotest3.png)
+![image](assets/simcity-img4.png)
 
 ### Test
 ```input
@@ -85,7 +85,7 @@ Un entero indicando la cantidad de semáforos necesaria
 7
 ```
 #### Explanation
-![image](1612871080-7dfa0f4797-isotest4.png)
+![image](assets/simcity-img5.png)
 
 ### Test
 ```input

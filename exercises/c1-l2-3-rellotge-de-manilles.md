@@ -34,7 +34,7 @@ La manilla de les hores està a 75º
 La manilla dels minuts està a 180º
 La manilla dels segons està a 0º
 
-![image](1556022285-3fe4c312ef-Untitleddrawing1.png)
+![image](assets/c1-l2-3-rellotge-de-manilles-img1.png)
 
 ### Test
 ```input
@@ -46,7 +46,7 @@ La manilla dels segons està a 0º
 0.0
 ```
 #### Explanation
-![image](1556022397-a3d147dc67-Untitleddrawing2.png)
+![image](assets/c1-l2-3-rellotge-de-manilles-img2.png)
 
 ### Test
 ```input
@@ -58,7 +58,7 @@ La manilla dels segons està a 0º
 0.0
 ```
 #### Explanation
-![image](1556022638-d1d05fdcb6-Untitleddrawing4.png)
+![image](assets/c1-l2-3-rellotge-de-manilles-img3.png)
 
 ### Test
 ```input

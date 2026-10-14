@@ -54,7 +54,7 @@ public class Main {
 950
 ```
 #### Explanation
-![image](1611050866-21320a93e2-salari1.png)
+![image](assets/salari-img1.png)
 
 ### Test
 ```input
@@ -67,7 +67,7 @@ public class Main {
 50
 ```
 #### Explanation
-![image](1611050889-e49c3b87e0-salari2.png)
+![image](assets/salari-img2.png)
 
 ### Test
 ```input
@@ -80,7 +80,7 @@ public class Main {
 50
 ```
 #### Explanation
-![image](1611051047-01363d03ab-salari4.png)
+![image](assets/salari-img3.png)
 
 ### Test
 ```input
@@ -93,7 +93,7 @@ public class Main {
 106
 ```
 #### Explanation
-![image](1611050923-a03691059b-salari3.png)
+![image](assets/salari-img4.png)
 
 ### Test
 ```input

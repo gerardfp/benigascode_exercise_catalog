@@ -32,7 +32,7 @@ El nombre de peces necessàries
 1
 ```
 #### Explanation
-![image](1556382453-eca1a030c5-lego3.png)
+![image](assets/c1-l4-1-piramide-lego-img2.png)
 
 ### Test
 ```input
@@ -50,7 +50,7 @@ El nombre de peces necessàries
 14
 ```
 #### Explanation
-![image](1556382656-90785cc9b1-lego4.png)
+![image](assets/c1-l4-1-piramide-lego-img3.png)
 
 ### Test
 ```input

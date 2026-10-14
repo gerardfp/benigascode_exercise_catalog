@@ -50,7 +50,7 @@ El barril en la posición  4 tiene fuerza  1   →   la posición de DK pasa a s
 
 Como 5 es mayor que la posición del último barril, DK ha salido por la DERECHA.
 
-![image](1584006901-4ea46d5871-dk2.png)
+![image](assets/cb550-barrel-cannon-img1.png)
 
 ### Test
 ```input
@@ -72,7 +72,7 @@ El barril en la posición  0 tiene fuerza -2   →   la posición de DK pasa a s
 
 Como -2 es menor que la posición del primer barril, DK ha salido por la IZQUIERDA
 
-![image](1584006996-808264f89f-dk3.png)
+![image](assets/cb550-barrel-cannon-img2.png)
 
 ### Test
 ```input
@@ -94,7 +94,7 @@ El barril en la posición  2 tiene fuerza  1   →   la posición de DK pasa a s
 
 A partir de aqui entra en un BUCLE
 
-![image](1584007063-42878b6513-dk4.png)
+![image](assets/cb550-barrel-cannon-img3.png)
 
 ### Test private
 ```input

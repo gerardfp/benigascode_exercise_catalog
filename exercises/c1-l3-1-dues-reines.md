@@ -43,7 +43,7 @@ public class Main {
 true
 ```
 #### Explanation
-![image](1556195269-a879d1b83b-escacs1.png)
+![image](assets/c1-l3-1-dues-reines-img1.png)
 
 ### Test
 ```input
@@ -54,7 +54,7 @@ true
 true
 ```
 #### Explanation
-![image](1556195317-517dd415bf-escacs2.png)
+![image](assets/c1-l3-1-dues-reines-img2.png)
 
 ### Test
 ```input
@@ -65,7 +65,7 @@ true
 true
 ```
 #### Explanation
-![image](1556195389-a4f6ccb1d2-escacs3.png)
+![image](assets/c1-l3-1-dues-reines-img3.png)
 
 ### Test
 ```input
@@ -76,7 +76,7 @@ true
 false
 ```
 #### Explanation
-![image](1556195455-4980310fd6-escacs4.png)
+![image](assets/c1-l3-1-dues-reines-img4.png)
 
 ### Test
 ```input
@@ -87,7 +87,7 @@ false
 true
 ```
 #### Explanation
-![image](1556195473-d80d7cef34-escacs4.png)
+![image](assets/c1-l3-1-dues-reines-img5.png)
 
 ### Test
 ```input
@@ -98,7 +98,7 @@ true
 true
 ```
 #### Explanation
-![image](1556195579-9c56778dbc-escacs5.png)
+![image](assets/c1-l3-1-dues-reines-img6.png)
 
 ### Test
 ```input
@@ -109,7 +109,7 @@ true
 true
 ```
 #### Explanation
-![image](1556195596-87a216037f-escacs5.png)
+![image](assets/c1-l3-1-dues-reines-img7.png)
 
 ### Test
 ```input
@@ -120,7 +120,7 @@ true
 true
 ```
 #### Explanation
-![image](1556195658-999fe108b5-escacs6.png)
+![image](assets/c1-l3-1-dues-reines-img8.png)
 
 ### Test
 ```input
@@ -131,7 +131,7 @@ true
 true
 ```
 #### Explanation
-![image](1556195680-d675747010-escacs6.png)
+![image](assets/c1-l3-1-dues-reines-img9.png)
 
 ### Test
 ```input
@@ -142,7 +142,7 @@ true
 true
 ```
 #### Explanation
-![image](1556195818-3c6bd9959a-escacs8.png)
+![image](assets/c1-l3-1-dues-reines-img10.png)
 
 ### Test private
 ```input

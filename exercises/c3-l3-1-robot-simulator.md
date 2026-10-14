@@ -57,7 +57,7 @@ ARALLLA
 S
 ```
 #### Explanation
-![image](1556724013-136b540c81-robot2.png)
+![image](assets/c3-l3-1-robot-simulator-img2.png)
 
 ### Test
 ```input
@@ -70,7 +70,7 @@ AARARAL
 E
 ```
 #### Explanation
-![image](1556724175-5c764e8a77-robot3.png)
+![image](assets/c3-l3-1-robot-simulator-img3.png)
 
 ### Test
 ```input
@@ -83,7 +83,7 @@ RALAARA
 E
 ```
 #### Explanation
-![image](1571225362-52f07d515b-Copyofrobot2.png)
+![image](assets/c3-l3-1-robot-simulator-img4.png)
 
 ### Test
 ```input

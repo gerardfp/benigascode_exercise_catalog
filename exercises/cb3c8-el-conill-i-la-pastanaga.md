@@ -34,7 +34,7 @@ S'escriurà el nombre de moviments que necessita el conill per a menjar-se totes
 4
 ```
 #### Explanation
-![image](1579687708-bb45929a01-Copyofconillipastanaga.png)
+![image](assets/cb3c8-el-conill-i-la-pastanaga-img1.png)
 
 ### Test
 ```input
@@ -47,7 +47,7 @@ S'escriurà el nombre de moviments que necessita el conill per a menjar-se totes
 8
 ```
 #### Explanation
-![image](1579687811-88ce3dd644-Copyofconillipastanaga1.png)
+![image](assets/cb3c8-el-conill-i-la-pastanaga-img2.png)
 
 ### Test
 ```input
@@ -62,7 +62,7 @@ S'escriurà el nombre de moviments que necessita el conill per a menjar-se totes
 10
 ```
 #### Explanation
-![image](1579688105-0a0c835d56-Copyofconillipastanaga2.png)
+![image](assets/cb3c8-el-conill-i-la-pastanaga-img3.png)
 
 ### Test
 ```input

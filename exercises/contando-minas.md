@@ -40,7 +40,7 @@ Les caselles amb mina es deixaran igual, és a dir, amb un 1.
 0 0 0 0 0
 ```
 #### Explanation
-![image](1579770712-76129abf4d-comptantmines.png)
+![image](assets/contando-minas-img1.png)
 
 ### Test
 ```input
@@ -59,7 +59,7 @@ Les caselles amb mina es deixaran igual, és a dir, amb un 1.
 0 0 1 1 1
 ```
 #### Explanation
-![image](1579770736-090eb8fd1a-comptantmines.png)
+![image](assets/contando-minas-img2.png)
 
 ### Test
 ```input
@@ -75,7 +75,7 @@ Les caselles amb mina es deixaran igual, és a dir, amb un 1.
 0 0 0
 ```
 #### Explanation
-![image](1579771049-9306b93af6-comptantmines3.png)
+![image](assets/contando-minas-img3.png)
 
 ### Test
 ```input
@@ -91,7 +91,7 @@ Les caselles amb mina es deixaran igual, és a dir, amb un 1.
 1 1 1
 ```
 #### Explanation
-![image](1579770893-f223a7401b-comptantmines1.png)
+![image](assets/contando-minas-img4.png)
 
 ### Test
 ```input
@@ -109,7 +109,7 @@ Les caselles amb mina es deixaran igual, és a dir, amb un 1.
 2 2 1 0
 ```
 #### Explanation
-![image](1579771165-5b4c6f4def-comptantmines4.png)
+![image](assets/contando-minas-img5.png)
 
 ### Test
 ```input
@@ -121,7 +121,7 @@ Les caselles amb mina es deixaran igual, és a dir, amb un 1.
 1 2 1 1
 ```
 #### Explanation
-![image](1579770970-f69b5ab884-comptantmines2.png)
+![image](assets/contando-minas-img6.png)
 
 ### Test
 ```input
@@ -141,7 +141,7 @@ Les caselles amb mina es deixaran igual, és a dir, amb un 1.
 1 1 2 1 1
 ```
 #### Explanation
-![image](1579771521-b658579128-comptantmines5.png)
+![image](assets/contando-minas-img7.png)
 
 ### Test
 ```input
@@ -159,7 +159,7 @@ Les caselles amb mina es deixaran igual, és a dir, amb un 1.
 0
 ```
 #### Explanation
-![image](1579771599-f4e8a8184e-comptantmines6.png)
+![image](assets/contando-minas-img8.png)
 
 ### Test
 ```input

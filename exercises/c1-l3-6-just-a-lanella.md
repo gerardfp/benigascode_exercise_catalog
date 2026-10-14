@@ -35,7 +35,7 @@ La posició del dard es defineix per les seves coordenades (<span style="font-si
 false
 ```
 #### Explanation
-![image](1556369178-28e339d068-Untitleddrawing5.png)
+![image](assets/c1-l3-6-just-a-lanella-img1.png)
 
 ### Test
 ```input
@@ -46,7 +46,7 @@ false
 false
 ```
 #### Explanation
-![image](1556369256-ce412f3d62-Untitleddrawing6.png)
+![image](assets/c1-l3-6-just-a-lanella-img2.png)
 
 ### Test
 ```input
@@ -57,7 +57,7 @@ false
 true
 ```
 #### Explanation
-![image](1556369339-261bdb2e0a-Untitleddrawing7.png)
+![image](assets/c1-l3-6-just-a-lanella-img3.png)
 
 ### Test
 ```input
@@ -68,7 +68,7 @@ true
 true
 ```
 #### Explanation
-![image](1556369499-88a312afba-Untitleddrawing8.png)
+![image](assets/c1-l3-6-just-a-lanella-img4.png)
 
 ### Test
 ```input
@@ -79,7 +79,7 @@ true
 true
 ```
 #### Explanation
-![image](1556369627-1e2a335549-Untitleddrawing10.png)
+![image](assets/c1-l3-6-just-a-lanella-img5.png)
 
 ### Test
 ```input
@@ -90,7 +90,7 @@ true
 false
 ```
 #### Explanation
-![image](1556369674-d8ed912ec6-Untitleddrawing11.png)
+![image](assets/c1-l3-6-just-a-lanella-img6.png)
 
 ### Test
 ```input

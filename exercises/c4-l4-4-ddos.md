@@ -34,7 +34,7 @@ S'imprimirà el missatge "DDos alert", cada cop que es superin les 4 connexions 
 DDoS alert
 ```
 #### Explanation
-![image](1572516606-a8c13d5340-DDoS1.png)
+![image](assets/c4-l4-4-ddos-img1.png)
 
 Es produeix la primera connexió
 
@@ -54,7 +54,7 @@ S'han produït 4 connexions en 0.6 segons
 DDoS alert
 ```
 #### Explanation
-![image](1572516637-2294a6cb4c-DDoS1.png)
+![image](assets/c4-l4-4-ddos-img2.png)
 
 Es produeix la primera connexió
 
@@ -73,7 +73,7 @@ S'han produït 4 connexions en 1 segon, és a dir, no s'ha superat el límit.
 ```output
 ```
 #### Explanation
-![image](1572517334-23683973d0-DDoS5.png)
+![image](assets/c4-l4-4-ddos-img3.png)
 
 Es produeix la primera connexió
 
@@ -95,7 +95,7 @@ Entre la segona i la cinquena connexió han passat 0.7 segons, és a dir, s'ha s
 DDoS alert
 ```
 #### Explanation
-![image](1572517132-99186b103b-DDoS4.png)
+![image](assets/c4-l4-4-ddos-img4.png)
 
 S'han produït dues alertes: 
 
@@ -112,7 +112,7 @@ DDoS alert
 DDoS alert
 ```
 #### Explanation
-![image](1572517590-cca83a9fe1-DDoS6.png)
+![image](assets/c4-l4-4-ddos-img5.png)
 
 0.2+0.3+0.2
 

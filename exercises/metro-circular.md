@@ -47,7 +47,7 @@ E
 600
 ```
 #### Explanation
-![image](1613560119-6348dc040e-metrocircular.png)
+![image](assets/metro-circular-img1.png)
 
 ### Test
 ```input
@@ -64,7 +64,7 @@ D
 700
 ```
 #### Explanation
-![image](1613560146-2d9750b799-metrocircular.png)
+![image](assets/metro-circular-img2.png)
 
 ### Test
 ```input
@@ -80,7 +80,7 @@ D
 100
 ```
 #### Explanation
-![image](1613560532-4ade3f8d58-metrocircular.png)
+![image](assets/metro-circular-img3.png)
 
 ### Test
 ```input
@@ -98,7 +98,7 @@ D
 300
 ```
 #### Explanation
-![image](1613560687-7fe39cc0cf-metrocircular.png)
+![image](assets/metro-circular-img4.png)
 
 ### Test
 ```input
@@ -116,7 +116,7 @@ B
 600
 ```
 #### Explanation
-![image](1613561737-9385f797ec-metrocircular.png)
+![image](assets/metro-circular-img5.png)
 
 ### Test
 ```input
@@ -133,7 +133,7 @@ A
 700
 ```
 #### Explanation
-![image](1613561863-879bd1635a-metrocircular.png)
+![image](assets/metro-circular-img6.png)
 
 ### Test
 ```input
@@ -149,7 +149,7 @@ A
 100
 ```
 #### Explanation
-![image](1613561980-a9ddd017e5-metrocircular.png)
+![image](assets/metro-circular-img7.png)
 
 ### Test
 ```input
@@ -167,7 +167,7 @@ A
 300
 ```
 #### Explanation
-![image](1613562284-7f038b18af-metrocircular.png)
+![image](assets/metro-circular-img8.png)
 
 ### Test
 ```input

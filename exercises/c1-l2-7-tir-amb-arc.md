@@ -33,7 +33,7 @@ S'imprimirà la puntuació obtinguda amb el tir.
 #### Explanation
 Just al centre de la diana són 5 punts
 
-![image](1556185042-320aa99307-diana6.png)
+![image](assets/c1-l2-7-tir-amb-arc-img1.png)
 
 ### Test
 ```input
@@ -43,7 +43,7 @@ Just al centre de la diana són 5 punts
 5
 ```
 #### Explanation
-![image](1556185014-65faba0237-diana4.png)
+![image](assets/c1-l2-7-tir-amb-arc-img2.png)
 
 ### Test
 ```input
@@ -53,7 +53,7 @@ Just al centre de la diana són 5 punts
 4
 ```
 #### Explanation
-![image](1556185253-09358173da-diana7.png)
+![image](assets/c1-l2-7-tir-amb-arc-img3.png)
 
 ### Test
 ```input
@@ -63,7 +63,7 @@ Just al centre de la diana són 5 punts
 3
 ```
 #### Explanation
-![image](1556185387-2c54f88dc5-diana8.png)
+![image](assets/c1-l2-7-tir-amb-arc-img4.png)
 
 ### Test
 ```input
@@ -73,7 +73,7 @@ Just al centre de la diana són 5 punts
 2
 ```
 #### Explanation
-![image](1556185446-428aa40768-diana9.png)
+![image](assets/c1-l2-7-tir-amb-arc-img5.png)
 
 ### Test
 ```input
@@ -85,7 +85,7 @@ Just al centre de la diana són 5 punts
 #### Explanation
 Ha fet diana just al límit entre l'anell vermell i el blau, per tant es compta la puntuació del blau.
 
-![image](1556185553-25bfa5ae8c-diana10.png)
+![image](assets/c1-l2-7-tir-amb-arc-img6.png)
 
 ### Test
 ```input

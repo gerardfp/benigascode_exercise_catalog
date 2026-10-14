@@ -49,7 +49,7 @@ Les dues últimes són la separació per valor (valor parell/imparell).
 1 3
 ```
 #### Explanation
-![image](1574078686-3418215226-Untitleddrawing2.png)
+![image](assets/separar-los-pares-de-los-impares-img1.png)
 
 Posició parell: 1, 3
 

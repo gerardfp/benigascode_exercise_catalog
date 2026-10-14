@@ -30,7 +30,7 @@ true | false
 false
 ```
 #### Explanation
-![image](1556268123-3520e7d647-invaders1.png)
+![image](assets/c1-l3-2-space-invaders-img1.png)
 
 ### Test
 ```input
@@ -41,7 +41,7 @@ false
 false
 ```
 #### Explanation
-![image](1556268246-9de6b7378f-invaders2.png)
+![image](assets/c1-l3-2-space-invaders-img2.png)
 
 ### Test
 ```input
@@ -52,7 +52,7 @@ false
 false
 ```
 #### Explanation
-![image](1556268298-3f6f7eaf9d-invaders3.png)
+![image](assets/c1-l3-2-space-invaders-img3.png)
 
 ### Test
 ```input
@@ -63,7 +63,7 @@ false
 true
 ```
 #### Explanation
-![image](1556268414-decb7c5c18-invaders4.png)
+![image](assets/c1-l3-2-space-invaders-img4.png)
 
 ### Test
 ```input
@@ -74,7 +74,7 @@ true
 true
 ```
 #### Explanation
-![image](1556268518-5dbd54bea2-invaders5.png)
+![image](assets/c1-l3-2-space-invaders-img5.png)
 
 ### Test
 ```input
@@ -85,7 +85,7 @@ true
 false
 ```
 #### Explanation
-![image](1556268609-e363207d98-invaders6.png)
+![image](assets/c1-l3-2-space-invaders-img6.png)
 
 ### Test
 ```input
@@ -96,7 +96,7 @@ false
 true
 ```
 #### Explanation
-![image](1556268707-ce9cb439e8-invaders7.png)
+![image](assets/c1-l3-2-space-invaders-img7.png)
 
 ### Test
 ```input
