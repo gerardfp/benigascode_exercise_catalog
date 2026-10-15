@@ -1,7 +1,7 @@
 ---
 slug: acronimo
 tags: [strings]
-difficulty: 5
+difficulty: 4
 ---
 # Acrònims
 

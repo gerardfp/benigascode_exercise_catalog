@@ -96,8 +96,8 @@ Amb els IDE tenim l'opció d'Auto-Indentar el codi. ¿Com ho fan?
 ## Input
 
 La entrada és un codi escrit amb indentació K&R, però els espais d'indentació mal col·locats.
-Tots els blocs del codi estan entre claus {}
-El codi acaba amb la marca END.
+Tots els blocs del codi estan entre claus `{` i `}`. Els blocs poden estar buits.
+El codi acaba amb la marca `END`.
 
 ## Output
 

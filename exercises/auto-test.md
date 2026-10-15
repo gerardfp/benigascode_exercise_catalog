@@ -1,7 +1,7 @@
 ---
 slug: auto-test
 tags: [arrays]
-difficulty: 5
+difficulty: 4
 ---
 # Auto-test
 

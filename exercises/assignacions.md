@@ -1,7 +1,7 @@
 ---
 slug: assignacions
 tags: [variables]
-difficulty: 5
+difficulty: 1
 ---
 # Assignacions
 
@@ -13,13 +13,6 @@ Canvia el codi següent per fer que la sortida sigui aquesta:
 
 Per fer-ho, assigna correctament els valors a les variables.
 
-## Input
-
--
-
-## Output
-
--
 
 ## Solutions
 
@@ -36,15 +29,12 @@ void main() {
 ## Plantillas
 
 ```java
-public class Main {
+void main() {
+    int a;
+    int b;
+    int c;
 
-    public static void main(String[] args) {
-        int a;
-        int b;
-        int c;
-
-        System.out.println(a + " " + b + " " + c);
-    }
+    IO.println(a + " " + b + " " + c);   
 }
 ```
 

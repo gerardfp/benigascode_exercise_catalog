@@ -1,25 +1,18 @@
 ---
-slug: advancedlineseparator
-tags: [class, L0]
-difficulty: 5
+slug: class-advancedlineseparator
+tags: [class]
+difficulty: 3
 ---
 # AdvancedLineSeparator
 
-Completa la classe AdvancedLineSeparator:
+Completa la classe `AdvancedLineSeparator`:
 
-- Afegeix els camps que hi manquen
+- Afegeix els camps que falten
 
-Completa el mètode Solution.main():
+Completa el mètode `Solution.main()`:
 
-- Crida adequadament al mètode AdvancedLineSeparator.print()
+- Crida adequadament al mètode `AdvancedLineSeparator.print()`
 
-## Input
-
--
-
-## Output
-
--
 
 ## Solutions
 

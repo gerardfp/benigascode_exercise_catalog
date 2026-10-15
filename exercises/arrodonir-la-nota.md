@@ -1,13 +1,12 @@
 ---
 slug: arrodonir-la-nota
 tags: [conversio]
-difficulty: 5
+difficulty: 2
 ---
 # Arrodonir la nota
 
 Al butlletí de notes no es poden posar notes amb decimals, així que el professor ha decidit arrodonir-les. 
-Si els decimals estan per sota de 0.5 es trunca la nota (es lleven els decimals), 
-però si són igual o majors que 0.5 aleshores s'arrodoneix cap amunt.
+Si els decimals estan per sota de 0.5 es trunca la nota (es lleven els decimals), però si són igual o majors que 0.5 aleshores s'arrodoneix cap amunt.
 
 ## Input
 
@@ -25,15 +24,6 @@ void main() {
     double nota = scanner.nextDouble();
     int notaArrodonida = (int) Math.round(nota);
     IO.println(notaArrodonida);
-}
-```
-
-## Plantillas
-
-```java
-void main() {
-		Scanner scanner = new Scanner(System.in);
-      
 }
 ```
 
