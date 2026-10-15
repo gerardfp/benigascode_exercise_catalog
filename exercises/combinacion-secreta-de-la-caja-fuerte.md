@@ -1,7 +1,7 @@
 ---
 slug: combinacion-secreta-de-la-caja-fuerte
-tags: [for]
-difficulty: 5
+tags: [loops]
+difficulty: 4
 ---
 # Combinación secreta de la caja fuerte
 
@@ -13,11 +13,11 @@ En una caja fuerte de combinación hay que introducir los números de la combina
 
 La entrada consiste en primer lugar en tres números que indican la combinación secreta.
 
-A continuación viene la secuencia de números introducidos (como mínimo 3). La secuencia termina con -1.
+A continuación viene la secuencia de números introducidos (como mínimo 3). La secuencia termina con `-1`.
 
 ## Output
 
-Se imprimirá "ABIERTA" si se ha introducido en algún momento la combinación secreta o "CERRADA" en caso contrario.
+Se imprimirá `ABIERTA` si se ha introducido en algún momento la combinación secreta o `CERRADA` en caso contrario.
 
 ## Solutions
 
