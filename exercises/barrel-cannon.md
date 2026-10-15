@@ -27,6 +27,39 @@ El último número <span style="font-size: 100%; display: inline-block;" class="
 
 { IZQUIERDA | DERECHA | BUCLE }
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    int[] barrels = new int[n];
+    for (int i = 0; i < n; i++) {
+        barrels[i] = sc.nextInt();
+    }
+    int pos = sc.nextInt();
+
+    boolean[] visited = new boolean[n];
+    while (true) {
+        if (pos < 0) {
+            IO.println("IZQUIERDA");
+            break;
+        }
+        if (pos >= n) {
+            IO.println("DERECHA");
+            break;
+        }
+        if (visited[pos]) {
+            IO.println("BUCLE");
+            break;
+        }
+        visited[pos] = true;
+        pos += barrels[pos];
+    }
+}
+```
+
 ## Tests
 
 ### Test

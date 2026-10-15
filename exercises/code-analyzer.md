@@ -19,6 +19,25 @@ El codi acaba amb la paraula <span style="font-size: 100%; display: inline-block
 
 S'imprimirà la quantitat de classes definides.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int count = 0;
+    while (sc.hasNext()) {
+        String token = sc.next();
+        if (token.equals("END")) {
+            break;
+        }
+        if (token.equals("class")) {
+            count++;
+        }
+    }
+    IO.println(count);
+}
+```
+
 ## Tests
 
 ### Test

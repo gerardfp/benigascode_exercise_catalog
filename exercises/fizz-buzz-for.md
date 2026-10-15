@@ -23,6 +23,30 @@ Dos nombres enters <span style="font-size: 100%; display: inline-block;" class="
 
 Cada número o `Fizz` o `Buzz` o `FizzBuzz` en una línia diferent
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+    int step = a <= b ? 1 : -1;
+    for (int i = a; ; i += step) {
+        if (i % 3 == 0 && i % 5 == 0) {
+            IO.println("FizzBuzz");
+        } else if (i % 3 == 0) {
+            IO.println("Fizz");
+        } else if (i % 5 == 0) {
+            IO.println("Buzz");
+        } else {
+            IO.println(i);
+        }
+        if (i == b) break;
+    }
+}
+```
+
 ## Tests
 
 ### Test

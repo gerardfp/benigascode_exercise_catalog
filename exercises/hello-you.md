@@ -15,6 +15,18 @@ Un string <span style="font-size: 100%; display: inline-block;" class="MathJax_S
 
 La paraula "Hola" seguida d'un espai en blanc, el nom de la persona, i una exclamació "!"
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (sc.hasNextLine()) {
+        String name = sc.nextLine();
+        IO.println("Hola " + name + "!");
+    }
+}
+```
+
 ## Plantillas
 
 ```java

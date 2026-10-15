@@ -103,6 +103,30 @@ El codi acaba amb la marca END.
 
 S'escriurà el codi correctament indentat, estil K&R. El tamany d'indentació és 4 espais.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int indent = 0;
+    while (sc.hasNextLine()) {
+        String line = sc.nextLine().trim();
+        if (line.equals("END")) break;
+        if (line.isEmpty()) continue;
+        if (line.startsWith("}")) {
+            indent--;
+        }
+        for (int i = 0; i < indent; i++) {
+            IO.print("    ");
+        }
+        IO.println(line);
+        if (line.endsWith("{")) {
+            indent++;
+        }
+    }
+}
+```
+
 ## Tests
 
 ### Test
@@ -144,7 +168,6 @@ if(true){
 }
 
 END
-
 
 ```
 ```output

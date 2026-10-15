@@ -28,6 +28,23 @@ La entrada consta de tres nombres:
 
 S'ha d'imprimir la Precisió (percentatge d'encerts) i la Velocitat (paraules per minut), cadscun en una línia, i sense decimals.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int c = sc.nextInt();
+    int e = sc.nextInt();
+    int t = sc.nextInt();
+
+    int precisio = (c - e) * 100 / c;
+    int velocitat = (c * 12) / t;
+
+    IO.println(precisio);
+    IO.println(velocitat);
+}
+```
+
 ## Tests
 
 ### Test

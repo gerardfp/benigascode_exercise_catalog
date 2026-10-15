@@ -7,6 +7,41 @@ difficulty: 5
 
 Assigna els valors dels camps a partir de les dades de l'entrada.
 
+## Solutions
+
+```java
+class Direccion {
+    String calle;
+    String codPostal;
+    String ciudad;
+    String provincia;
+}
+
+class Contacto {
+    String nombre;
+    String apellidos;
+    Direccion direccion;
+}
+
+void main() {
+    Scanner scanner = new Scanner(System.in);
+
+    Contacto contacto = new Contacto();
+    contacto.direccion = new Direccion();
+
+    contacto.nombre = scanner.nextLine();
+    contacto.apellidos = scanner.nextLine();
+    contacto.direccion.calle = scanner.nextLine();
+    contacto.direccion.codPostal = scanner.nextLine();
+    contacto.direccion.ciudad = scanner.nextLine();
+    contacto.direccion.provincia = scanner.nextLine();
+
+    IO.println(contacto.apellidos + ", " + contacto.nombre);
+    IO.println(contacto.direccion.calle);
+    IO.println(contacto.direccion.codPostal + " - " + contacto.direccion.ciudad);
+    IO.println(contacto.direccion.provincia);
+}
+```
 
 ## Plantillas
 

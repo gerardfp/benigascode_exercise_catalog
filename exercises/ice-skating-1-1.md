@@ -26,6 +26,69 @@ A continuación viene la definición del tablero:
 
 Indicar las coordenadas (x y) de la última casilla del tablero por la cual sale el personaje.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int W = sc.nextInt();
+    int H = sc.nextInt();
+
+    char[][] grid = new char[H][W];
+    for (int r = 0; r < H; r++) {
+        for (int c = 0; c < W; c++) {
+            grid[r][c] = sc.next().charAt(0);
+        }
+    }
+
+    int x = 0;
+    int y = 0;
+    int dx = 0;
+    int dy = 0;
+
+    boolean[][][] visited = new boolean[H][W][4];
+
+    while (true) {
+        char cell = grid[y][x];
+        if (cell == 'N') {
+            dx = 0;
+            dy = -1;
+        } else if (cell == 'S') {
+            dx = 0;
+            dy = 1;
+        } else if (cell == 'E') {
+            dx = 1;
+            dy = 0;
+        } else if (cell == 'W') {
+            dx = -1;
+            dy = 0;
+        }
+
+        int dirIndex = (dx == 0 && dy == -1) ? 0 :
+                       (dx == 0 && dy == 1)  ? 1 :
+                       (dx == 1 && dy == 0)  ? 2 : 3;
+
+        if (visited[y][x][dirIndex]) {
+            break;
+        }
+        visited[y][x][dirIndex] = true;
+
+        int nextX = x + dx;
+        int nextY = y + dy;
+
+        if (nextX < 0 || nextX >= W || nextY < 0 || nextY >= H) {
+            break;
+        }
+
+        x = nextX;
+        y = nextY;
+    }
+
+    IO.println(x + " " + y);
+}
+```
+
 ## Tests
 
 ### Test

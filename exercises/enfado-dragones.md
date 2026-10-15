@@ -33,7 +33,29 @@ enfadado si le han robado entre 10 y 50 monedas.
 
 furioso si le han robado más de 50 monedas.
 
-Plantillas
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    for (int i = 0; i < n; i++) {
+        int m = sc.nextInt();
+        if (m < 10) {
+            IO.println("tranquilo");
+        } else if (m <= 50) {
+            IO.println("enfadado");
+        } else {
+            IO.println("furioso");
+        }
+    }
+}
+```
+
+## Plantillas
+
+```java
 import java.io.*;
 
 public class Main {
@@ -41,80 +63,81 @@ public class Main {
         // Escribe aquí tu solución
     }
 }
+```
 
-import sys
+## Tests
 
-def main():
-    # Escribe aquí tu solución
-    pass
-
-if __name__ == '__main__':
-    main()
-
-Tests
-Test
+### Test
+```input
 5
 3
 10
 25
 50
 51
-
+```
+```output
 tranquilo
 enfadado
 enfadado
 enfadado
 furioso
+```
 
-El primer dragón ha perdido solo 3 monedas y está tranquilo.
-Los dragones que han perdido entre 10 y 50 monedas están enfadados.
-El último ha perdido 51 monedas y está furioso.
-
-Test
+### Test
+```input
 3
 0
 1
 9
-
+```
+```output
 tranquilo
 tranquilo
 tranquilo
+```
 
-Ninguno ha perdido 10 monedas, así que todos están tranquilos.
-
-Test private 2
+### Test private
+```input
 4
 10
 11
 49
 50
+```
+```output
+enfadado
+enfadado
+enfadado
+enfadado
+```
 
-enfadado
-enfadado
-enfadado
-enfadado
-
-Test private 2
+### Test private
+```input
 4
 51
 100
 999
 1000
+```
+```output
+furioso
+furioso
+furioso
+furioso
+```
 
-furioso
-furioso
-furioso
-furioso
-
-Test private 3
+### Test private
+```input
 1
 0
-
+```
+```output
 tranquilo
+```
 
-Caso límite: solo hay un dragón y no le han robado ninguna moneda.
-
-Test private 3
+### Test private
+```input
 100
 10
 10
@@ -216,85 +239,8 @@ Test private 3
 10
 10
 10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-10
-
+```
+```output
 enfadado
 enfadado
 enfadado
@@ -395,19 +341,4 @@ enfadado
 enfadado
 enfadado
 enfadado
-enfadado
-enfadado
-enfadado
-enfadado
-enfadado
-enfadado
-enfadado
-enfadado
-enfadado
-enfadado
-enfadado
-enfadado
-enfadado
-enfadado
-enfadado
-enfadado
+```

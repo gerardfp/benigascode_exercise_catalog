@@ -15,6 +15,25 @@ Una línia de text
 
 El text amb l'ordre dels caracters invertit.
 
+## Solutions
+
+```java
+String reverse(String s) {
+    if (s.length() <= 1) {
+        return s;
+    }
+    return reverse(s.substring(1)) + s.charAt(0);
+}
+
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (sc.hasNextLine()) {
+        String line = sc.nextLine();
+        IO.println(reverse(line));
+    }
+}
+```
+
 ## Tests
 
 ### Test

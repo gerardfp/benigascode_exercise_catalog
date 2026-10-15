@@ -19,6 +19,17 @@ La entrada consisteix en un nombre <span style="font-size: 100%; display: inline
 
 S'imprimira el nombre de "cubelets" que té el cub.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    double n = sc.nextDouble();
+    double ans = 6 * n * n - 12 * n + 8;
+    IO.println("%.0f".formatted(ans));
+}
+```
+
 ## Tests
 
 ### Test

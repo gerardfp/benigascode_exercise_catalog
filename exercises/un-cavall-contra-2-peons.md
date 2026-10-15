@@ -19,6 +19,30 @@ La posició del cavall, i del dos peons
 
 0 | 1 | 2
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int kr = sc.nextInt();
+    int kc = sc.nextInt();
+    int p1r = sc.nextInt();
+    int p1c = sc.nextInt();
+    int p2r = sc.nextInt();
+    int p2c = sc.nextInt();
+
+    int count = 0;
+    if (Math.abs(kr - p1r) * Math.abs(kc - p1c) == 2) {
+        count++;
+    }
+    if (Math.abs(kr - p2r) * Math.abs(kc - p2c) == 2) {
+        count++;
+    }
+
+    IO.println(count);
+}
+```
+
 ## Tests
 
 ### Test

@@ -27,6 +27,43 @@ L'entrada consta de 4 dades.
 
 S'imprimirà el preu final de l'entrada amb 2 xifres decimals.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    double p = sc.nextDouble();
+    int e = sc.nextInt();
+    int d = sc.nextInt();
+    boolean c = sc.nextBoolean();
+
+    if (e < 6) {
+        IO.println("0.00");
+        return;
+    }
+
+    double percentatge = 0.0;
+    if (c) {
+        percentatge -= 30.0;
+    } else {
+        if (e < 18) {
+            percentatge -= 10.0;
+        } else if (e >= 65) {
+            percentatge -= 15.0;
+        }
+    }
+
+    if (d == 3) {
+        percentatge -= 25.0;
+    } else if (d == 6 || d == 7) {
+        percentatge += 5.0;
+    }
+
+    double total = p * (1.0 + percentatge / 100.0);
+    IO.println("%.2f".formatted(total));
+}
+```
+
 ## Tests
 
 ### Test

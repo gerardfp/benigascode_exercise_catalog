@@ -24,6 +24,36 @@ Seguidament ve un seqüència amb els tamanys dels blocs de dades que s'han d'em
 
 S'imprimirà l'espai ocupat en cada disc un cop s'han emmagatzemat tots els blocs.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    int[] disks = new int[n];
+    for (int i = 0; i < n; i++) {
+        disks[i] = sc.nextInt();
+    }
+    while (sc.hasNextInt()) {
+        int block = sc.nextInt();
+        if (block == 0) break;
+        int minIdx = 0;
+        for (int i = 1; i < n; i++) {
+            if (disks[i] < disks[minIdx]) {
+                minIdx = i;
+            }
+        }
+        disks[minIdx] += block;
+    }
+    for (int i = 0; i < n; i++) {
+        if (i > 0) IO.print(" ");
+        IO.print(disks[i]);
+    }
+    IO.println();
+}
+```
+
 ## Tests
 
 ### Test

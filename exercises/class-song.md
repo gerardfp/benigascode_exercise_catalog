@@ -15,11 +15,37 @@ Crea l'objecte `song` i asigna-li els camps amb les dades de l'entrada.
 
 -
 
+## Solutions
+
+```java
+class Song {
+    String name;
+    String artist;
+    float rating;
+    boolean favorite;
+}
+
+void main() {
+    Scanner scanner = new Scanner(System.in);
+
+    Song song = new Song();
+    song.name = scanner.nextLine();
+    song.artist = scanner.nextLine();
+    song.rating = (float) Double.parseDouble(scanner.nextLine());
+    song.favorite = scanner.nextLine().equals("true");
+
+    IO.print(song.favorite ? "<3 " : "   ");
+    IO.println(song.artist + " - " + song.name);
+    for (int i = 0; i < (int) song.rating; i++) {
+        IO.print("*");
+    }
+}
+```
+
 ## Plantillas
 
 ```java
 import java.util.Scanner;
-
 
 class Song {
     String name;

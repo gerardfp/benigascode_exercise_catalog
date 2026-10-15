@@ -23,6 +23,39 @@ Una línia amb un String.
 
 'true' | 'false'
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextLine()) return;
+    String line = sc.nextLine().toLowerCase();
+    
+    int i = 0;
+    int j = line.length() - 1;
+    boolean pal = true;
+    while (i < j) {
+        char ci = line.charAt(i);
+        if (ci == ' ' || ci == '.' || ci == ',' || ci == '\'' || ci == '!' || ci == '?' || ci == '-') {
+            i++;
+            continue;
+        }
+        char cj = line.charAt(j);
+        if (cj == ' ' || cj == '.' || cj == ',' || cj == '\'' || cj == '!' || cj == '?' || cj == '-') {
+            j--;
+            continue;
+        }
+        if (ci != cj) {
+            pal = false;
+            break;
+        }
+        i++;
+        j--;
+    }
+    IO.println(pal);
+}
+```
+
 ## Tests
 
 ### Test

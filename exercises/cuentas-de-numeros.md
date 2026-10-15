@@ -15,6 +15,33 @@ Cada caso de prueba consta de una secuencia de N números que termina con un 0.
 
 Por cada caso de prueba, un entero indicando la cantidad de números leídos; y separados por un salto de línea.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) {
+        return;
+    }
+    int t = sc.nextInt();
+    if (t == 0) {
+        IO.println(0);
+        return;
+    }
+    for (int i = 0; i < t; i++) {
+        int count = 0;
+        while (sc.hasNextInt()) {
+            int n = sc.nextInt();
+            if (n == 0) {
+                break;
+            }
+            count++;
+        }
+        IO.println(count);
+    }
+}
+```
+
 ## Tests
 
 ### Test

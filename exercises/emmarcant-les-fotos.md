@@ -23,6 +23,39 @@ Per a cada rectangle s'indiquen les coordenades (x, y) dels seus cantons superio
 
 S'imprimirà "true" si el marc és adequat per a la foto, i "false" si no ho és.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int fx1 = sc.nextInt();
+    int fy1 = sc.nextInt();
+    int fx2 = sc.nextInt();
+    int fy2 = sc.nextInt();
+
+    int mx1 = sc.nextInt();
+    int my1 = sc.nextInt();
+    int mx2 = sc.nextInt();
+    int my2 = sc.nextInt();
+
+    int fw = Math.abs(fx1 - fx2);
+    int fh = Math.abs(fy1 - fy2);
+    int mw = Math.abs(mx1 - mx2);
+    int mh = Math.abs(my1 - my2);
+
+    int pMin = Math.min(fw, fh);
+    int pMax = Math.max(fw, fh);
+    int mMin = Math.min(mw, mh);
+    int mMax = Math.max(mw, mh);
+
+    boolean fits = mMin >= pMin && mMax >= pMax;
+    boolean sameRatio = (pMin * mMax) == (pMax * mMin);
+
+    IO.println(fits && sameRatio);
+}
+```
+
 ## Tests
 
 ### Test

@@ -14,6 +14,27 @@ Una frase terminada con un salto de linea '\n'
 
 La frase sin las vocales.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    while (sc.hasNextLine()) {
+        String s = sc.nextLine();
+        String res = "";
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' ||
+                c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U') {
+                continue;
+            }
+            res += c;
+        }
+        IO.println(res);
+    }
+}
+```
+
 ## Tests
 
 ### Test

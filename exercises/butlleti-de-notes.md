@@ -16,6 +16,58 @@ Afegeix els camps i mètodes que falten a la classe ReportCard.
 
 -
 
+## Solutions
+
+```java
+class Grade {
+    String name;
+    float grade;
+    float weight;
+
+    Grade(String n, float g, float w) {
+        name = n;
+        grade = g;
+        weight = w;
+    }
+}
+
+class ReportCard {
+    Grade[] grades;
+    float averageGrade;
+
+    ReportCard(int numGrades) {
+        grades = new Grade[numGrades];
+    }
+
+    void calculateAverageGrade() {
+        float sum = 0;
+        for (int i = 0; i < grades.length; i++) {
+            sum += grades[i].grade * grades[i].weight;
+        }
+        averageGrade = sum / 100f;
+    }
+}
+
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    ReportCard reportCard = new ReportCard(n);
+
+    for (int i = 0; i < n; i++) {
+        String assignment = sc.next();
+        float grade = sc.nextFloat();
+        float weight = sc.nextFloat();
+
+        reportCard.grades[i] = new Grade(assignment, grade, weight);
+    }
+
+    reportCard.calculateAverageGrade();
+
+    IO.println("Average Grade: %.2f".formatted(reportCard.averageGrade));
+}
+```
+
 ## Plantillas
 
 ```java

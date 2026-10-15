@@ -37,6 +37,33 @@ De les divisions incorrectes, el programa haurà de mostrar el número de divisi
 número) quocient residu
 ```
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int divIndex = 1;
+    while (sc.hasNextInt()) {
+        int dividend = sc.nextInt();
+        int divisor = sc.nextInt();
+        int quotient = sc.nextInt();
+        int remainder = sc.nextInt();
+
+        if (dividend == 0 && divisor == 0 && quotient == 0 && remainder == 0) {
+            break;
+        }
+
+        int correctQuotient = dividend / divisor;
+        int correctRemainder = dividend % divisor;
+
+        if (quotient != correctQuotient || remainder != correctRemainder) {
+            IO.println(divIndex + ") " + correctQuotient + " " + correctRemainder);
+        }
+        divIndex++;
+    }
+}
+```
+
 ## Tests
 
 ### Test

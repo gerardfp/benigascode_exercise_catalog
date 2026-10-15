@@ -14,6 +14,31 @@ Un texto terminado con un salto de línea.
 
 En la primera linea la cantidad de 'a', en la siguiente linea la cantidad de 'e', etc.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    String line = sc.hasNextLine() ? sc.nextLine().toLowerCase() : "";
+    int a = 0, e = 0, i = 0, o = 0, u = 0;
+    for (int idx = 0; idx < line.length(); idx++) {
+        char c = line.charAt(idx);
+        switch (c) {
+            case 'a' -> a++;
+            case 'e' -> e++;
+            case 'i' -> i++;
+            case 'o' -> o++;
+            case 'u' -> u++;
+        }
+    }
+    IO.println(a);
+    IO.println(e);
+    IO.println(i);
+    IO.println(o);
+    IO.println(u);
+}
+```
+
 ## Tests
 
 ### Test

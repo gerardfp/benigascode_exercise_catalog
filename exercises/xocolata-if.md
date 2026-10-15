@@ -18,6 +18,21 @@ Tres nombres enters:
 
 `SI` | `NO`
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    int m = sc.nextInt();
+    int k = sc.nextInt();
+
+    boolean possible = k < n * m && (k % n == 0 || k % m == 0);
+    IO.println(possible ? "SI" : "NO");
+}
+```
+
 ## Tests
 
 ### Test

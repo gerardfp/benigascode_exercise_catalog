@@ -15,6 +15,20 @@ String
 
 L'string amb els caracters en ordre invers.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    String s = sc.nextLine();
+    String rev = "";
+    for (int i = s.length() - 1; i >= 0; i--) {
+        rev += s.charAt(i);
+    }
+    IO.println(rev);
+}
+```
+
 ## Tests
 
 ### Test

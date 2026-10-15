@@ -27,6 +27,24 @@ T: tiempo empleado (en segundos)
 
 Se debe imprimir la Precisión (porcentaje de aciertos) y la Velocidad (palabras por minuto), cada uno en una línea, y sin decimales.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int l = sc.nextInt();
+    int e = sc.nextInt();
+    int t = sc.nextInt();
+
+    int precision = (l - e) * 100 / l;
+    int velocidad = (l * 12) / t;
+
+    IO.println(precision);
+    IO.println(velocidad);
+}
+```
+
 ## Tests
 
 ### Test

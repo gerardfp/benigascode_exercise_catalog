@@ -14,6 +14,23 @@ String
 
 La posició de cada lletra en una línia diferent.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    while (sc.hasNextLine()) {
+        String line = sc.nextLine().toLowerCase();
+        for (int i = 0; i < line.length(); i++) {
+            char c = line.charAt(i);
+            if (c >= 'a' && c <= 'z') {
+                IO.println(c - 'a');
+            }
+        }
+    }
+}
+```
+
 ## Tests
 
 ### Test

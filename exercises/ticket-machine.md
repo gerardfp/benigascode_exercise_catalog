@@ -33,6 +33,35 @@ S'anirà mostrant el resultat de les operacions:
 - PRINT TICKET: `Ticket: $BALANCE`
 - REFUND: `Refund: $BALANCE`
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int balance = 0;
+    while (sc.hasNext()) {
+        String op = sc.next();
+        if (op.equals("OFF")) {
+            break;
+        } else if (op.equals("INSERT")) {
+            int amount = sc.nextInt();
+            balance += amount;
+            IO.println("Balance: " + balance);
+        } else if (op.equals("CONFIRM")) {
+            if (balance > 0) {
+                IO.println("Ticket: " + balance);
+                balance = 0;
+            }
+        } else if (op.equals("CANCEL")) {
+            if (balance > 0) {
+                IO.println("Refund: " + balance);
+                balance = 0;
+            }
+        }
+    }
+}
+```
+
 ## Tests
 
 ### Test

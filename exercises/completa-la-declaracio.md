@@ -17,6 +17,15 @@ No oblidis el `;` al final de la sentència.
 
 -
 
+## Solutions
+
+```java
+void main() {
+    int variable = 123456;
+    IO.println(variable);
+}
+```
+
 ## Plantillas
 
 ```java

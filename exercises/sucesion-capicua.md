@@ -16,6 +16,28 @@ El primer número <span style="font-size: 100%; display: inline-block;" class="M
 "SI" si la seqüència és capicua.
 "NO" si no ho és.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    int[] a = new int[n];
+    for (int i = 0; i < n; i++) {
+        a[i] = sc.nextInt();
+    }
+    boolean ok = true;
+    for (int i = 0; i < n / 2; i++) {
+        if (a[i] != a[n - 1 - i]) {
+            ok = false;
+            break;
+        }
+    }
+    IO.println(ok ? "SI" : "NO");
+}
+```
+
 ## Tests
 
 ### Test

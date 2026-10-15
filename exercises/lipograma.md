@@ -17,6 +17,24 @@ A continuació ve el caràcter.
 
 true | false
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    String text = "";
+    while (sc.hasNextLine()) {
+        String line = sc.nextLine();
+        if (line.equals("END")) {
+            break;
+        }
+        text += line;
+    }
+    String c = sc.next();
+    IO.println(!text.contains(c));
+}
+```
+
 ## Tests
 
 ### Test

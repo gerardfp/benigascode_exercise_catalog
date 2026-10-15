@@ -25,6 +25,29 @@ La tarifa s'indica en Minuts/Euros.
 
 S'imprimirà l'hora de finalització en format H:M:S
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int h = sc.nextInt();
+    int m = sc.nextInt();
+    int s = sc.nextInt();
+    double tariff = sc.nextDouble();
+    double money = sc.nextDouble();
+
+    int addedSec = (int) (tariff * money * 60);
+    int totalSec = h * 3600 + m * 60 + s + addedSec;
+
+    int resH = (totalSec / 3600) % 24;
+    int resM = (totalSec % 3600) / 60;
+    int resS = totalSec % 60;
+
+    IO.println(resH + ":" + resM + ":" + resS);
+}
+```
+
 ## Tests
 
 ### Test

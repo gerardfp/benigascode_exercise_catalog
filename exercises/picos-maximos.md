@@ -27,6 +27,35 @@ Por cada caso de prueba se indica en el primer número N la cantidad de números
 
 Por cada caso de prueba se imprimirá en una linea la secuencia de picos encontrados, separados por un espacio.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int T = sc.nextInt();
+    for (int t = 0; t < T; t++) {
+        int N = sc.nextInt();
+        int[] a = new int[N];
+        for (int i = 0; i < N; i++) {
+            a[i] = sc.nextInt();
+        }
+        boolean first = true;
+        for (int i = 0; i < N; i++) {
+            boolean isPeak = (i == 0 || a[i] > a[i - 1]) && (i == N - 1 || a[i] > a[i + 1]);
+            if (isPeak) {
+                if (!first) {
+                    IO.print(" ");
+                }
+                IO.print(a[i]);
+                first = false;
+            }
+        }
+        IO.println("");
+    }
+}
+```
+
 ## Tests
 
 ### Test

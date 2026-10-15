@@ -29,6 +29,30 @@ Una cadena de L caracters comprimida en RLE
 
 La cadena descomprimida
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    while (sc.hasNext()) {
+        String s = sc.next();
+        int count = 0;
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (c >= '0' && c <= '9') {
+                count = count * 10 + (c - '0');
+            } else {
+                for (int j = 0; j < count; j++) {
+                    IO.print(c);
+                }
+                count = 0;
+            }
+        }
+        IO.println();
+    }
+}
+```
+
 ## Tests
 
 ### Test

@@ -21,7 +21,6 @@ Cada enemic té un nivell de vida, i quan els alcança la bola de foc els hi res
     - El segon nombre $R$ indica l'abast de la bola de foc
     - El tercer nombre $D$ indica el dany que causa la bola de foc.
 
-
 - L'entrada finalitza amb tres `-1`
 
 <p>Per exemple, la següent bola de foc impacta a l'enemic en la posició `4` i té un abast `2`:
@@ -31,6 +30,38 @@ Cada enemic té un nivell de vida, i quan els alcança la bola de foc els hi res
 ## Output
 
 Per cada bola llançada, s'imprimirà en una nova línia el nivell de vida resultant dels enemics, separats per espais.
+
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    int[] hp = new int[n];
+    for (int i = 0; i < n; i++) {
+        hp[i] = sc.nextInt();
+    }
+    while (sc.hasNextInt()) {
+        int p = sc.nextInt();
+        int r = sc.nextInt();
+        int d = sc.nextInt();
+        if (p == -1 && r == -1 && d == -1) {
+            break;
+        }
+        int start = Math.max(0, p - r);
+        int end = Math.min(n - 1, p + r);
+        for (int i = start; i <= end; i++) {
+            hp[i] = Math.max(0, hp[i] - d);
+        }
+        for (int i = 0; i < n; i++) {
+            if (i > 0) IO.print(" ");
+            IO.print(hp[i]);
+        }
+        IO.println();
+    }
+}
+```
 
 ## Tests
 

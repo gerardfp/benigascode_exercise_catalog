@@ -19,6 +19,14 @@ Life is like riding a bicycle. To keep your balance you must keep moving.
 
 -
 
+## Solutions
+
+```java
+void main() {
+    IO.println("Life is like riding a bicycle. To keep your balance you must keep moving.");
+}
+```
+
 ## Plantillas
 
 ```java

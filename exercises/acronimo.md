@@ -19,6 +19,24 @@ Una frase en una línia.
 
 L'acrònim de la frase
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    String line = sc.nextLine();
+    String[] words = line.split(" ");
+    String acronym = "";
+    for (int i = 0; i < words.length; i++) {
+        String word = words[i];
+        if (word.length() > 0) {
+            acronym += word.substring(0, 1).toUpperCase();
+        }
+    }
+    IO.println(acronym);
+}
+```
+
 ## Tests
 
 ### Test

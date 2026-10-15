@@ -71,6 +71,35 @@ Per exemple: suposem que el bit-field es **34**:
 - tractem de restar 2: sí es pot. Imprimim `EXT4_UNRM_FL`. Restem 2 i queda **0**
 - tractem de restar 1: no es pot
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+
+    int[] values = {128, 64, 32, 16, 8, 4, 2, 1};
+    String[] names = {
+        "EXT4_NOATIME_FL",
+        "EXT4_NODUMP_FL",
+        "EXT4_APPEND_FL",
+        "EXT4_IMMUTABLE_FL",
+        "EXT4_SYNC_FL",
+        "EXT4_COMPR_FL",
+        "EXT4_UNRM_FL",
+        "EXT4_SECRM_FL"
+    };
+
+    for (int i = 0; i < values.length; i++) {
+        if (n >= values[i]) {
+            IO.println(names[i]);
+            n -= values[i];
+        }
+    }
+}
+```
+
 ## Tests
 
 ### Test

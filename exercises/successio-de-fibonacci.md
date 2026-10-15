@@ -17,6 +17,23 @@ Un nombre N
 
 El número de la successió de Fibonacci que ocupa la posició N
 
+## Solutions
+
+```java
+int fib(int n) {
+    if (n <= 0) return 0;
+    if (n == 1) return 1;
+    return fib(n - 1) + fib(n - 2);
+}
+
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    IO.println(fib(n));
+}
+```
+
 ## Tests
 
 ### Test

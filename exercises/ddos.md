@@ -25,6 +25,32 @@ La seqüencia acaba amb -1.
 
 S'imprimirà el missatge "DDos alert", cada cop que es superin les 4 connexions en menys d'1 segon.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    double t1 = -1, t2 = -1, t3 = -1;
+    int count = 0;
+    while (sc.hasNextDouble()) {
+        double val = sc.nextDouble();
+        if (val < 0) {
+            break;
+        }
+        t1 = t2;
+        t2 = t3;
+        t3 = val;
+        count++;
+        if (count >= 3) {
+            double sum = t1 + t2 + t3;
+            if (sum < 1.0 - 1e-6) {
+                IO.println("DDoS alert");
+            }
+        }
+    }
+}
+```
+
 ## Tests
 
 ### Test

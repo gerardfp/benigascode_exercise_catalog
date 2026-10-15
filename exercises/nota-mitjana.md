@@ -19,6 +19,18 @@ El tercer nombre <span style="font-size: 100%; display: inline-block;" class="Ma
 
 La nota mitjana
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    float a = sc.nextFloat();
+    float b = sc.nextFloat();
+    float c = sc.nextFloat();
+    IO.println((a + b + c) / 3);
+}
+```
+
 ## Tests
 
 ### Test

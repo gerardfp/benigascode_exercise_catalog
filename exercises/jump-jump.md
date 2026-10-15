@@ -25,6 +25,30 @@ La entrada consta d'una successió de N nombres que indiquen l'altura H del terr
 
 S'imprimirà el nombre mínim de salts que necessita donar per a arribar al final.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int prev = sc.nextInt();
+    if (prev == -1) {
+        IO.println(0);
+        return;
+    }
+    int jumps = 0;
+    while (sc.hasNextInt()) {
+        int curr = sc.nextInt();
+        if (curr == -1) break;
+        if (curr > prev) {
+            jumps++;
+        }
+        prev = curr;
+    }
+    IO.println(jumps);
+}
+```
+
 ## Tests
 
 ### Test

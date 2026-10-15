@@ -18,6 +18,37 @@ Aquest mètode ha d'emmagatzemar en la variable 'x' la solució a l'equació:
 
 -
 
+## Solutions
+
+```java
+class Equation {
+    float a, b;
+    float x;
+
+    void calculateSolution() {
+        x = -b / a;
+        if (x == 0.0f) {
+            x = 0.0f;
+        }
+    }
+}
+
+void main() {
+    Locale.setDefault(Locale.US);
+    Scanner scanner = new Scanner(System.in);
+    scanner.useLocale(Locale.US);
+    Equation equation = new Equation();
+
+    while (scanner.hasNextFloat()) {
+        equation.a = scanner.nextFloat();
+        if (equation.a == 0) break;
+        equation.b = scanner.nextFloat();
+        equation.calculateSolution();
+        IO.println("%.2f * %.2f + %.2f = 0".formatted(equation.a, equation.x, equation.b));
+    }
+}
+```
+
 ## Plantillas
 
 ```java

@@ -28,6 +28,28 @@ L'entrada consta de 5 dades:
 
 S'imprimirà "ENTRA" si el sistema autoritza l'accés i "NO ENTRA" en cas contrari.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int edat = sc.nextInt();
+    String sexe = sc.next();
+    boolean arracades = sc.nextBoolean();
+    boolean benVestit = sc.nextBoolean();
+    boolean vip = sc.nextBoolean();
+
+    if (vip) {
+        IO.println("ENTRA");
+    } else if (edat >= 18 && benVestit && (!sexe.equals("home") || !arracades)) {
+        IO.println("ENTRA");
+    } else {
+        IO.println("NO ENTRA");
+    }
+}
+```
+
 ## Tests
 
 ### Test

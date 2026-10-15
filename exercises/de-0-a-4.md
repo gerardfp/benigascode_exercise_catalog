@@ -15,6 +15,16 @@ Escriu un programa que imprimeixi els números de `1` a `4` inclusive. Cada nomb
 
 -
 
+## Solutions
+
+```java
+void main() {
+    for (int i = 0; i <= 4; i++) {
+        IO.println(i);
+    }
+}
+```
+
 ## Plantillas
 
 ```java

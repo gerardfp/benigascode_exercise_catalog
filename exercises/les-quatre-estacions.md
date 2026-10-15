@@ -24,6 +24,39 @@ La entrada consta d'un dia i mes de l'any.
 
 S'imprimirà l'estació corresponent a l'hemisferi nord i a l'hemisferi sud.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int day = sc.nextInt();
+    int month = sc.nextInt();
+
+    int date = month * 100 + day;
+
+    String north;
+    String south;
+
+    if (date >= 321 && date < 621) {
+        north = "Primavera";
+        south = "Tardor";
+    } else if (date >= 621 && date < 923) {
+        north = "Estiu";
+        south = "Hivern";
+    } else if (date >= 923 && date < 1221) {
+        north = "Tardor";
+        south = "Primavera";
+    } else {
+        north = "Hivern";
+        south = "Estiu";
+    }
+
+    IO.println(north);
+    IO.println(south);
+}
+```
+
 ## Tests
 
 ### Test

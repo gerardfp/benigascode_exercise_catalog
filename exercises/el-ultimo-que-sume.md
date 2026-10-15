@@ -15,6 +15,26 @@ El primer nombre <span style="font-size: 100%; display: inline-block;" class="Ma
 
 La seqüència resultant
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    int[] nums = new int[n];
+    for (int i = 0; i < n; i++) {
+        nums[i] = sc.nextInt();
+    }
+    int last = nums[n - 1];
+    for (int i = 0; i < n; i++) {
+        nums[i] += last;
+        IO.print(nums[i] + (i < n - 1 ? " " : ""));
+    }
+    IO.println();
+}
+```
+
 ## Tests
 
 ### Test

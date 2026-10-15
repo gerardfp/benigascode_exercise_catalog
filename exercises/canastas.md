@@ -41,6 +41,36 @@ L'entrada acaba amb un -1.
 
 El nombre de cistelles d'1, 2 i 3 punts, en diferents línies.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int prev = 0;
+    int c1 = 0;
+    int c2 = 0;
+    int c3 = 0;
+    while (sc.hasNextInt()) {
+        int score = sc.nextInt();
+        if (score == -1) {
+            break;
+        }
+        int diff = score - prev;
+        if (diff == 1) {
+            c1++;
+        } else if (diff == 2) {
+            c2++;
+        } else if (diff == 3) {
+            c3++;
+        }
+        prev = score;
+    }
+    IO.println(c1);
+    IO.println(c2);
+    IO.println(c3);
+}
+```
+
 ## Tests
 
 ### Test

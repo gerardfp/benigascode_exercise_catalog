@@ -23,6 +23,21 @@ L'últim nombre $N$ indica la quantitat de llibres que té en Miquel.
 
 `true` | `false`
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int p = sc.nextInt();
+    int g = sc.nextInt();
+    int l = sc.nextInt();
+    int n = sc.nextInt();
+
+    IO.println(p * g * l >= n);
+}
+```
+
 ## Tests
 
 ### Test
@@ -36,7 +51,6 @@ true
 1 prestatgeria X 1 prestatge X 1 llibre = 1 llibre de capacitat
 
 La quantitat de llibres és 1, per tant sí que caben.
-
 
 ### Test
 ```input

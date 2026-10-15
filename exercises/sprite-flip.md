@@ -23,6 +23,54 @@ A continuació ve l'sprite ASCII-ART.
 
 S'imprimirà l'*spritesheet* amb l'spirte ORIGINAL, junt amb les inversions HORITZONTAL, VERTICAL i HORITZONTAL/VERTICAL (separades per línies en blanc).
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    sc.nextLine();
+    String[] lines = new String[n];
+    for (int i = 0; i < n; i++) {
+        lines[i] = sc.nextLine();
+    }
+
+    // 1. Original
+    for (int i = 0; i < n; i++) {
+        IO.println(lines[i]);
+    }
+    IO.println();
+
+    // 2. Horizontal flip
+    for (int i = 0; i < n; i++) {
+        String s = lines[i];
+        String rev = "";
+        for (int j = s.length() - 1; j >= 0; j--) {
+            rev += s.charAt(j);
+        }
+        IO.println(rev);
+    }
+    IO.println();
+
+    // 3. Vertical flip
+    for (int i = n - 1; i >= 0; i--) {
+        IO.println(lines[i]);
+    }
+    IO.println();
+
+    // 4. Horizontal & Vertical flip
+    for (int i = n - 1; i >= 0; i--) {
+        String s = lines[i];
+        String rev = "";
+        for (int j = s.length() - 1; j >= 0; j--) {
+            rev += s.charAt(j);
+        }
+        IO.println(rev);
+    }
+}
+```
+
 ## Tests
 
 ### Test

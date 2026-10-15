@@ -17,6 +17,24 @@ A continuació venen els números de la seqüència.
 
 La seqüència de números en ordre invers, separats per espais.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    int[] arr = new int[n];
+    for (int i = 0; i < n; i++) {
+        arr[i] = sc.nextInt();
+    }
+    for (int i = n - 1; i >= 0; i--) {
+        IO.print(arr[i] + (i > 0 ? " " : ""));
+    }
+    IO.println();
+}
+```
+
 ## Tests
 
 ### Test

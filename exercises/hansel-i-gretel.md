@@ -20,6 +20,72 @@ El mapa està envoltat d'un marc amb coixinets '#'.
 
 S'imprimirà el mapa del bosc a cada passa que hagin donat Hansel i Gretel recuperant les engrunes de pa.
 
+## Solutions
+
+```java
+void printGrid(char[][] grid) {
+    for (int i = 0; i < grid.length; i++) {
+        for (int j = 0; j < grid[i].length; j++) {
+            IO.print(grid[i][j]);
+        }
+        IO.println();
+    }
+}
+
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextLine()) return;
+    String firstLine = sc.nextLine().trim();
+    if (firstLine.isEmpty()) return;
+    int R = Integer.parseInt(firstLine);
+
+    char[][] grid = new char[R][];
+    for (int i = 0; i < R; i++) {
+        grid[i] = sc.nextLine().toCharArray();
+    }
+
+    int hr = -1, hc = -1;
+    for (int r = 0; r < R; r++) {
+        for (int c = 0; c < grid[r].length; c++) {
+            if (grid[r][c] == 'H') {
+                hr = r;
+                hc = c;
+                break;
+            }
+        }
+        if (hr != -1) break;
+    }
+
+    printGrid(grid);
+
+    int[] dr = {-1, 1, 0, 0};
+    int[] dc = {0, 0, -1, 1};
+
+    while (true) {
+        int nextR = -1, nextC = -1;
+        for (int d = 0; d < 4; d++) {
+            int nr = hr + dr[d];
+            int nc = hc + dc[d];
+            if (nr >= 0 && nr < R && nc >= 0 && nc < grid[nr].length) {
+                if (grid[nr][nc] == '.') {
+                    nextR = nr;
+                    nextC = nc;
+                    break;
+                }
+            }
+        }
+        if (nextR == -1) {
+            break;
+        }
+        grid[hr][hc] = ' ';
+        grid[nextR][nextC] = 'H';
+        hr = nextR;
+        hc = nextC;
+        printGrid(grid);
+    }
+}
+```
+
 ## Tests
 
 ### Test

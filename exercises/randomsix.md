@@ -39,6 +39,23 @@ El segon nombre <span style="font-size: 100%; display: inline-block;" class="Mat
 
 La seqüència de nombres generada, separats per un salt de línía.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int seed = sc.nextInt();
+    int n = sc.nextInt();
+
+    for (int i = 0; i < n; i++) {
+        int units = seed % 10;
+        int tens = seed / 10;
+        seed = tens + units * 6;
+        IO.println(seed);
+    }
+}
+```
+
 ## Tests
 
 ### Test

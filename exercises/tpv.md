@@ -30,6 +30,37 @@ En primer lugar se indican los datos de la carta de productos:
 
 Se imprimirá el precio total del pedido en formato float.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    String[] names = new String[n];
+    for (int i = 0; i < n; i++) {
+        names[i] = sc.next();
+    }
+    double[] prices = new double[n];
+    for (int i = 0; i < n; i++) {
+        prices[i] = sc.nextDouble();
+    }
+    int m = sc.nextInt();
+    double total = 0.0;
+    for (int i = 0; i < m; i++) {
+        String item = sc.next();
+        int qty = sc.nextInt();
+        for (int j = 0; j < n; j++) {
+            if (names[j].equals(item)) {
+                total += prices[j] * qty;
+                break;
+            }
+        }
+    }
+    IO.println(total);
+}
+```
+
 ## Plantillas
 
 ```java
@@ -41,7 +72,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         scanner.useLocale(Locale.ENGLISH);
-      	
       	
     }
 }

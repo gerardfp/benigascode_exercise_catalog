@@ -27,6 +27,28 @@ El format és:
 id: vegades
 ```
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    int[] counts = new int[69];
+    for (int i = 0; i < n; i++) {
+        int id = sc.nextInt();
+        if (id >= 1 && id <= 68) {
+            counts[id]++;
+        }
+    }
+
+    for (int id = 1; id <= 68; id++) {
+        if (counts[id] > 1) {
+            IO.println(id + ": " + counts[id]);
+        }
+    }
+}
+```
+
 ## Tests
 
 ### Test

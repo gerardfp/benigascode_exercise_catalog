@@ -22,6 +22,32 @@ La entrada consta de 2 nombres decimals (X, Y) que indiquen la posició on s'ha 
 
 S'imprimirà la puntuació obtinguda amb el tir.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextDouble()) return;
+    double x = sc.nextDouble();
+    double y = sc.nextDouble();
+
+    double d2 = x * x + y * y;
+    if (d2 < 25.0) {
+        IO.println(5);
+    } else if (d2 < 100.0) {
+        IO.println(4);
+    } else if (d2 < 225.0) {
+        IO.println(3);
+    } else if (d2 < 400.0) {
+        IO.println(2);
+    } else if (d2 < 625.0) {
+        IO.println(1);
+    } else {
+        IO.println(0);
+    }
+}
+```
+
 ## Tests
 
 ### Test

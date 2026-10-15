@@ -33,6 +33,32 @@ A continuación vienen las <span style="font-size: 100%; display: inline-block;"
 
 Se imprimirá el texto final escrito por el robot.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    String keys = "QWERTYUIOPASDFGHJKLZXCVBNM";
+    int pos = 0;
+    String result = "";
+    for (int i = 0; i < n; i++) {
+        int move = sc.nextInt();
+        int newPos = pos + move;
+        if (newPos < 0) {
+            pos = 0;
+        } else if (newPos >= keys.length()) {
+            pos = keys.length() - 1;
+        } else {
+            pos = newPos;
+            result = result + keys.charAt(pos);
+        }
+    }
+    IO.println(result);
+}
+```
+
 ## Tests
 
 ### Test

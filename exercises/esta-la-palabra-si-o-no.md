@@ -32,6 +32,32 @@ A continuación vienen las <span style="font-size: 100%; display: inline-block;"
 
 `YES` | `NO`
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    String[] words = new String[n];
+    for (int i = 0; i < n; i++) {
+        words[i] = sc.next();
+    }
+    String target = sc.next();
+    boolean found = false;
+    for (int i = 0; i < n; i++) {
+        if (words[i].equals(target)) {
+            found = true;
+            break;
+        }
+    }
+    if (found) {
+        IO.println("YES");
+    } else {
+        IO.println("NO");
+    }
+}
+```
+
 ## Tests
 
 ### Test

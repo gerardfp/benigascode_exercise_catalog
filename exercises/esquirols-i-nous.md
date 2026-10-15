@@ -18,6 +18,17 @@ Dos enters positius <span style="font-size: 100%; display: inline-block;" class=
 
 -
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    int k = sc.nextInt();
+    IO.println(k % n);
+}
+```
+
 ## Tests
 
 ### Test

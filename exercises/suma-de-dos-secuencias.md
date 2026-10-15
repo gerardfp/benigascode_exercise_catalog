@@ -15,6 +15,34 @@ Para cada secuencia primero se indica la cantidad N de números que hay en la se
 
 La secuencia de números resultante, separados por espacios en blanco
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n1 = sc.nextInt();
+    int[] a = new int[n1];
+    for (int i = 0; i < n1; i++) {
+        a[i] = sc.nextInt();
+    }
+
+    if (!sc.hasNextInt()) return;
+    int n2 = sc.nextInt();
+    int[] b = new int[n2];
+    for (int i = 0; i < n2; i++) {
+        b[i] = sc.nextInt();
+    }
+
+    int n = Math.min(n1, n2);
+    for (int i = 0; i < n; i++) {
+        if (i > 0) IO.print(" ");
+        IO.print(a[i] + b[i]);
+    }
+    IO.println();
+}
+```
+
 ## Tests
 
 ### Test

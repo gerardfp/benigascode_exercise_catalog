@@ -20,6 +20,23 @@ La quantitat <span style="font-size: 100%; display: inline-block;" class="MathJa
 
 El preu del bolet.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    double distancia = sc.nextDouble();
+    int dies = sc.nextInt();
+
+    double preu = (distancia * 35) / 100.0;
+    if (dies > 7 && distancia > 800) {
+        preu = (preu * 70) / 100.0;
+    }
+
+    IO.println(preu);
+}
+```
+
 ## Tests
 
 ### Test

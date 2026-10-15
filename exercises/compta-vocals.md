@@ -18,6 +18,22 @@ L'entrada consta de dues parts:
 
 S'imprimirà cada vocal en una línia
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    for (int i = 0; i < n; i++) {
+        String s = sc.next();
+        char c = s.charAt(0);
+        if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
+            IO.println(c);
+        }
+    }
+}
+```
+
 ## Tests
 
 ### Test

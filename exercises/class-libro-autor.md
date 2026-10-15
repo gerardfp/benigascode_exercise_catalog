@@ -7,6 +7,46 @@ difficulty: 5
 
 Crea les classes `Libro` i `Autor`
 
+## Solutions
+
+```java
+class Autor {
+    String nombre;
+    double rating;
+}
+
+class Libro {
+    Autor autor;
+    String titulo;
+    String ISBN;
+    double rating;
+}
+
+void main() {
+    Scanner scanner = new Scanner(System.in);
+
+    Libro libro = new Libro();
+    libro.autor = new Autor();
+
+    libro.titulo = scanner.nextLine();
+    libro.ISBN = scanner.nextLine();
+    libro.rating = Double.parseDouble(scanner.nextLine());
+    libro.autor.nombre = scanner.nextLine();
+    libro.autor.rating = Double.parseDouble(scanner.nextLine());
+
+    IO.println(libro.ISBN);
+    IO.println(libro.titulo);
+    for (int i = 0; i < (int) libro.rating; i++) {
+        IO.print("*");
+    }
+    IO.println();
+    IO.println(libro.autor.nombre);
+    for (int i = 0; i < (int) libro.autor.rating; i++) {
+        IO.print("*");
+    }
+    IO.println();
+}
+```
 
 ## Plantillas
 
@@ -14,8 +54,6 @@ Crea les classes `Libro` i `Autor`
 import java.util.Scanner;
 
 // escriu el codi aqui
-
-
 
 public class Main {
 

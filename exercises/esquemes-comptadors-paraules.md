@@ -19,6 +19,27 @@ Per últim ve la paraula a comparar.
 
 Imprimix la quantitat de paraules iguals a la paraula a comparar.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    String[] words = new String[n];
+    for (int i = 0; i < n; i++) {
+        words[i] = sc.next();
+    }
+    String target = sc.next();
+    int count = 0;
+    for (int i = 0; i < n; i++) {
+        if (words[i].equals(target)) {
+            count++;
+        }
+    }
+    IO.println(count);
+}
+```
+
 ## Tests
 
 ### Test

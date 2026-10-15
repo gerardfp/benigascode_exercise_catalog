@@ -7,6 +7,41 @@ difficulty: 5
 
 Crea les classes necessàries.
 
+## Solutions
+
+```java
+class Product {
+    String name;
+    float price;
+}
+
+class ShoppingCart {
+    Product[] products;
+}
+
+void main() {
+    Scanner scanner = new Scanner(System.in);
+
+    ShoppingCart shoppingCart = new ShoppingCart();
+
+    int nProducts = scanner.nextInt();
+    scanner.nextLine();
+
+    shoppingCart.products = new Product[nProducts];
+
+    for (int i = 0; i < nProducts; i++) {
+        shoppingCart.products[i] = new Product();
+        shoppingCart.products[i].name = scanner.nextLine();
+        shoppingCart.products[i].price = scanner.nextFloat();
+        scanner.nextLine();
+    }
+
+    IO.println("ShoppingCart");
+    for (int i = 0; i < nProducts; i++) {
+        IO.print("%40s  %6.2f%n".formatted(shoppingCart.products[i].name, shoppingCart.products[i].price));
+    }
+}
+```
 
 ## Plantillas
 
@@ -16,7 +51,6 @@ import java.util.*;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
-
 
 // escriu el codi aqui
 

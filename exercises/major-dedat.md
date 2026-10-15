@@ -15,6 +15,16 @@ un enter
 
 -
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int age = sc.nextInt();
+    IO.println(age >= 18);
+}
+```
+
 ## Tests
 
 ### Test

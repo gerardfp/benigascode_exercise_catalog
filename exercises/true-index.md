@@ -15,6 +15,30 @@ Una sèrie de números enters que representen l'índex dels elements que han de 
 
 -
 
+## Solutions
+
+```java
+void main() {
+    Scanner scanner = new Scanner(System.in);
+    boolean[] array = new boolean[100];
+
+    int index = scanner.nextInt();
+    while (index != -1) {
+        if (index >= 0 && index < 100) {
+            array[index] = true;
+        }
+        index = scanner.nextInt();
+    }
+
+    String out = "[";
+    for (int i = 0; i < array.length; i++) {
+        out += (array[i] ? "true" : "false") + (i < array.length - 1 ? ", " : "");
+    }
+    out += "]";
+    IO.println(out);
+}
+```
+
 ## Plantillas
 
 ```java
@@ -28,12 +52,10 @@ public class Main {
 
       	// crea l'array de 100 booleans
       
-      
         int index = scanner.nextInt();
         while(index != -1){
           	// assigna el valor 'true' a l'element de l'array en la posicio 'index'
 			
-          
             index = scanner.nextInt();
         }
 

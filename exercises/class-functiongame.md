@@ -7,6 +7,80 @@ difficulty: 5
 
 Implementa els mètodes (funcions) de la classe `FunctionGame`
 
+## Solutions
+
+```java
+class FunctionGame {
+    int function1(int x) { return x + 1; }
+    int function2(int x) { return x - 3; }
+    int function3(int x) { return x * 10; }
+    int function4(int x) { return 2 * x - 1; }
+    int function5(int x) { return 6; }
+    int function6(int x, int y) { return x + y; }
+    int function7(int x, int y) { return Math.max(x, y); }
+    int function8(int x, int y, int z) { return Math.min(x, Math.min(y, z)); }
+}
+
+void main() {
+    Scanner scanner = new Scanner(System.in);
+    FunctionGame functionGame = new FunctionGame();
+    String functionName = scanner.next();
+
+    if ("function1".equals(functionName)) {
+        for (int i = 5; i-- > 0;) {
+            int param = scanner.nextInt();
+            int returnValue = functionGame.function1(param);
+            IO.println(param + " -> " + returnValue);
+        }
+    } else if ("function2".equals(functionName)) {
+        for (int i = 5; i-- > 0;) {
+            int param = scanner.nextInt();
+            int returnValue = functionGame.function2(param);
+            IO.println(param + " -> " + returnValue);
+        }
+    } else if ("function3".equals(functionName)) {
+        for (int i = 5; i-- > 0;) {
+            int param = scanner.nextInt();
+            int returnValue = functionGame.function3(param);
+            IO.println(param + " -> " + returnValue);
+        }
+    } else if ("function4".equals(functionName)) {
+        for (int i = 5; i-- > 0;) {
+            int param = scanner.nextInt();
+            int returnValue = functionGame.function4(param);
+            IO.println(param + " -> " + returnValue);
+        }
+    } else if ("function5".equals(functionName)) {
+        for (int i = 5; i-- > 0;) {
+            int param = scanner.nextInt();
+            int returnValue = functionGame.function5(param);
+            IO.println(param + " -> " + returnValue);
+        }
+    } else if ("function6".equals(functionName)) {
+        for (int i = 5; i-- > 0;) {
+            int param1 = scanner.nextInt();
+            int param2 = scanner.nextInt();
+            int returnValue = functionGame.function6(param1, param2);
+            IO.println(param1 + "," + param2 + " -> " + returnValue);
+        }
+    } else if ("function7".equals(functionName)) {
+        for (int i = 7; i-- > 0;) {
+            int param1 = scanner.nextInt();
+            int param2 = scanner.nextInt();
+            int returnValue = functionGame.function7(param1, param2);
+            IO.println(param1 + "," + param2 + " -> " + returnValue);
+        }
+    } else if ("function8".equals(functionName)) {
+        for (int i = 7; i-- > 0;) {
+            int param1 = scanner.nextInt();
+            int param2 = scanner.nextInt();
+            int param3 = scanner.nextInt();
+            int returnValue = functionGame.function8(param1, param2, param3);
+            IO.println(param1 + "," + param2 + "," + param3 + " -> " + returnValue);
+        }
+    }
+}
+```
 
 ## Plantillas
 

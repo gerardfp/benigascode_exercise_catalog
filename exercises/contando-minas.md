@@ -22,6 +22,51 @@ En cada casella sense mina s'escriurà el número de mines que té al seu voltan
 
 Les caselles amb mina es deixaran igual, és a dir, amb un 1.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int rows = sc.nextInt();
+    int cols = sc.nextInt();
+    int[][] grid = new int[rows][cols];
+    for (int r = 0; r < rows; r++) {
+        for (int c = 0; c < cols; c++) {
+            grid[r][c] = sc.nextInt();
+        }
+    }
+
+    int[] dr = {-1, -1, -1, 0, 0, 1, 1, 1};
+    int[] dc = {-1, 0, 1, -1, 1, -1, 0, 1};
+
+    for (int r = 0; r < rows; r++) {
+        for (int c = 0; c < cols; c++) {
+            int val;
+            if (grid[r][c] == 1) {
+                val = 1;
+            } else {
+                int count = 0;
+                for (int d = 0; d < 8; d++) {
+                    int nr = r + dr[d];
+                    int nc = c + dc[d];
+                    if (nr >= 0 && nr < rows && nc >= 0 && nc < cols) {
+                        if (grid[nr][nc] == 1) {
+                            count++;
+                        }
+                    }
+                }
+                val = count;
+            }
+            IO.print(val);
+            if (c < cols - 1) {
+                IO.print(" ");
+            }
+        }
+        IO.println();
+    }
+}
+```
+
 ## Tests
 
 ### Test

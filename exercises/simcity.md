@@ -29,6 +29,41 @@ A continuación vienen los <span style="font-size: 100%; display: inline-block;"
 
 Un entero indicando la cantidad de semáforos necesaria
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int W = sc.nextInt();
+    int H = sc.nextInt();
+
+    char[][] grid = new char[H][W];
+    for (int r = 0; r < H; r++) {
+        for (int c = 0; c < W; c++) {
+            grid[r][c] = sc.next().charAt(0);
+        }
+    }
+
+    int total = 0;
+    for (int r = 0; r < H; r++) {
+        for (int c = 0; c < W; c++) {
+            if (grid[r][c] == '#') {
+                int count = 0;
+                if (r > 0 && grid[r - 1][c] == '#') count++;
+                if (r < H - 1 && grid[r + 1][c] == '#') count++;
+                if (c > 0 && grid[r][c - 1] == '#') count++;
+                if (c < W - 1 && grid[r][c + 1] == '#') count++;
+                if (count == 3) total += 3;
+                else if (count == 4) total += 4;
+            }
+        }
+    }
+
+    IO.println(total);
+}
+```
+
 ## Tests
 
 ### Test

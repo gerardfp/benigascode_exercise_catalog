@@ -17,6 +17,20 @@ Donats 6 code points, imprimeix el text codificat.
 
 text
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    String res = "";
+    while (sc.hasNextInt()) {
+        int code = sc.nextInt();
+        res += (char) code;
+    }
+    IO.println(res);
+}
+```
+
 ## Tests
 
 ### Test

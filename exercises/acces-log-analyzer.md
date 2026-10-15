@@ -76,6 +76,125 @@ S'imprimirà en distintes línies:
 - L'User Agent més utilitzat pels visitants
 - L'hora del dia que més peticions s'han realitzat
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    String[] hosts = new String[1000];
+    String[] resources = new String[1000];
+    String[] referrers = new String[1000];
+    String[] userAgents = new String[1000];
+    String[] hours = new String[1000];
+    int n = 0;
+
+    while (sc.hasNextLine()) {
+        String line = sc.nextLine();
+        if (line.equals("__END__") || line.trim().equals("__END__")) break;
+        if (line.trim().isEmpty()) continue;
+
+        int space1 = line.indexOf(' ');
+        String host = line.substring(0, space1);
+
+        int d1 = line.indexOf('[');
+        int d2 = line.indexOf(']');
+        String date = line.substring(d1 + 1, d2);
+        String hour = "" + Integer.parseInt(date.split(":")[1]);
+
+        int q1 = line.indexOf('"');
+        int q2 = line.indexOf('"', q1 + 1);
+        String req = line.substring(q1 + 1, q2);
+        String res = req.split(" ")[1];
+
+        int q3 = line.indexOf('"', q2 + 1);
+        int q4 = line.indexOf('"', q3 + 1);
+        String ref = line.substring(q3 + 1, q4);
+
+        int q5 = line.indexOf('"', q4 + 1);
+        int q6 = line.indexOf('"', q5 + 1);
+        String ua = line.substring(q5 + 1, q6);
+
+        hosts[n] = host;
+        resources[n] = res;
+        referrers[n] = ref;
+        userAgents[n] = ua;
+        hours[n] = hour;
+        n++;
+    }
+
+    int maxHost = -1;
+    String bestHost = "";
+    for (int i = 0; i < n; i++) {
+        int cnt = 0;
+        for (int j = 0; j < n; j++) {
+            if (hosts[i].equals(hosts[j])) cnt++;
+        }
+        if (cnt > maxHost) {
+            maxHost = cnt;
+            bestHost = hosts[i];
+        }
+    }
+
+    int maxRes = -1;
+    String bestRes = "";
+    for (int i = 0; i < n; i++) {
+        int cnt = 0;
+        for (int j = 0; j < n; j++) {
+            if (resources[i].equals(resources[j])) cnt++;
+        }
+        if (cnt > maxRes) {
+            maxRes = cnt;
+            bestRes = resources[i];
+        }
+    }
+
+    int maxRef = -1;
+    String bestRef = "";
+    for (int i = 0; i < n; i++) {
+        int cnt = 0;
+        for (int j = 0; j < n; j++) {
+            if (referrers[i].equals(referrers[j])) cnt++;
+        }
+        if (cnt >= maxRef) {
+            maxRef = cnt;
+            bestRef = referrers[i];
+        }
+    }
+
+    int maxUa = -1;
+    String bestUa = "";
+    for (int i = 0; i < n; i++) {
+        int cnt = 0;
+        for (int j = 0; j < n; j++) {
+            if (userAgents[i].equals(userAgents[j])) cnt++;
+        }
+        if (cnt >= maxUa) {
+            maxUa = cnt;
+            bestUa = userAgents[i];
+        }
+    }
+
+    int maxHour = -1;
+    String bestHour = "";
+    for (int i = 0; i < n; i++) {
+        int cnt = 0;
+        for (int j = 0; j < n; j++) {
+            if (hours[i].equals(hours[j])) cnt++;
+        }
+        if (cnt > maxHour) {
+            maxHour = cnt;
+            bestHour = hours[i];
+        }
+    }
+
+    IO.println(bestHost);
+    IO.println(bestRes);
+    IO.println(bestRef);
+    IO.println(bestUa);
+    IO.println(bestHour);
+}
+```
+
 ## Tests
 
 ### Test

@@ -49,6 +49,38 @@ Salida:
 VACIO
 ```
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    if (n <= 0) {
+        IO.println("VACIO");
+        return;
+    }
+    int[] a = new int[n];
+    for (int i = 0; i < n; i++) {
+        a[i] = sc.nextInt();
+    }
+    for (int i = 0; i < n - 1; i++) {
+        for (int j = 0; j < n - 1 - i; j++) {
+            if (a[j] > a[j + 1]) {
+                int temp = a[j];
+                a[j] = a[j + 1];
+                a[j + 1] = temp;
+            }
+        }
+    }
+    for (int i = 0; i < n; i++) {
+        if (i > 0) IO.print(" ");
+        IO.print(a[i]);
+    }
+    IO.println();
+}
+```
+
 ## Tests
 
 ### Test

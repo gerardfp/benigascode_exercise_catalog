@@ -20,6 +20,26 @@ La entrada consisteix en la definició dels dos rectangles. Per a cada rectangle
 
 true | false
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int x1 = sc.nextInt();
+    int y1 = sc.nextInt();
+    int w1 = sc.nextInt();
+    int h1 = sc.nextInt();
+    int x2 = sc.nextInt();
+    int y2 = sc.nextInt();
+    int w2 = sc.nextInt();
+    int h2 = sc.nextInt();
+
+    boolean overlap = (x1 < x2 + w2) && (x2 < x1 + w1) && (y1 < y2 + h2) && (y2 < y1 + h1);
+    IO.println(overlap);
+}
+```
+
 ## Tests
 
 ### Test

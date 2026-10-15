@@ -21,6 +21,34 @@ El primer número <span style="font-size: 100%; display: inline-block;" class="M
 "SI" si han pujat tots els alumnes.
 "NO" en cas contrari.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    boolean[] present = new boolean[n + 1];
+    while (sc.hasNextInt()) {
+        int id = sc.nextInt();
+        if (id >= 1 && id <= n) {
+            present[id] = true;
+        }
+    }
+    boolean allPresent = true;
+    for (int i = 1; i <= n; i++) {
+        if (!present[i]) {
+            allPresent = false;
+            break;
+        }
+    }
+    if (allPresent) {
+        IO.println("SI");
+    } else {
+        IO.println("NO");
+    }
+}
+```
+
 ## Tests
 
 ### Test

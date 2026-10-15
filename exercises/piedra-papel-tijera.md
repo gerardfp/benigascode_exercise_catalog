@@ -7,7 +7,6 @@ difficulty: 5
 
 ![piedra-papel-tijera-img2.png](assets/piedra-papel-tijera-img0.png)
 
-
 Escribe un programa que simule una partida de **piedra, papel o tijera** entre dos jugadores.
 
 El programa debe pedir al primer jugador que elija una mano y después pedir al segundo jugador que elija su mano. Las opciones válidas son:
@@ -43,6 +42,33 @@ Las reglas son las habituales:
 - La piedra gana a la tijera.
 - La tijera gana al papel.
 - El papel gana a la piedra.
+
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNext()) return;
+    String p1 = sc.next();
+    if (!sc.hasNext()) return;
+    String p2 = sc.next();
+
+    boolean p1Valid = p1.equals("piedra") || p1.equals("papel") || p1.equals("tijera");
+    boolean p2Valid = p2.equals("piedra") || p2.equals("papel") || p2.equals("tijera");
+
+    if (!p1Valid || !p2Valid) {
+        IO.println("Resultado: Mano desconocida: ¡elige piedra, papel o tijera!");
+    } else if (p1.equals(p2)) {
+        IO.println("Resultado: Empate");
+    } else if ((p1.equals("piedra") && p2.equals("tijera"))
+            || (p1.equals("tijera") && p2.equals("papel"))
+            || (p1.equals("papel") && p2.equals("piedra"))) {
+        IO.println("Resultado: Ganaste");
+    } else {
+        IO.println("Resultado: Perdiste");
+    }
+}
+```
 
 ## Tests
 

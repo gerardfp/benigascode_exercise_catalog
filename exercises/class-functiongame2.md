@@ -7,6 +7,152 @@ difficulty: 5
 
 Crea els mètodes de la classe `FunctionGame2`
 
+## Solutions
+
+```java
+class FunctionGame2 {
+    boolean function1(int param) {
+        return param % 2 == 0;
+    }
+
+    boolean function2(float param) {
+        return param >= 0;
+    }
+
+    String function3(int param1, String param2) {
+        String res = "";
+        for (int i = 0; i < param1; i++) {
+            res += param2;
+        }
+        return res;
+    }
+
+    int function4(int[] param) {
+        int sum = 0;
+        for (int x : param) {
+            sum += x;
+        }
+        return sum;
+    }
+
+    int[] function5(int[] param) {
+        int[] res = new int[param.length];
+        for (int i = 0; i < param.length; i++) {
+            res[i] = param[i] * 2;
+        }
+        return res;
+    }
+
+    String[] function6(int param1, boolean param2) {
+        String[] res = new String[param1];
+        for (int i = 0; i < param1; i++) {
+            res[i] = param2 ? "cierto" : "falso";
+        }
+        return res;
+    }
+
+    int function7(String[] param) {
+        int count = 0;
+        for (String s : param) {
+            if ("java".equals(s)) {
+                count++;
+            }
+        }
+        return count;
+    }
+
+    int[] function8(int param1, int param2, int param3) {
+        int[] res = new int[]{param1, param2, param3};
+        if (res[0] > res[1]) { int t = res[0]; res[0] = res[1]; res[1] = t; }
+        if (res[1] > res[2]) { int t = res[1]; res[1] = res[2]; res[2] = t; }
+        if (res[0] > res[1]) { int t = res[0]; res[0] = res[1]; res[1] = t; }
+        return res;
+    }
+}
+
+void main() {
+    Scanner scanner = new Scanner(System.in);
+    FunctionGame2 fg2 = new FunctionGame2();
+
+    String functionName = scanner.next();
+
+    switch (functionName) {
+        case "function1":
+            for (int i = 5; i-- > 0; ) {
+                int param = scanner.nextInt();
+                boolean returnValue = fg2.function1(param);
+                IO.println(param + " -> " + returnValue);
+            }
+            break;
+        case "function2":
+            for (int i = 6; i-- > 0; ) {
+                float param = scanner.nextFloat();
+                boolean returnValue = fg2.function2(param);
+                IO.println(param + " -> " + returnValue);
+            }
+            break;
+        case "function3":
+            for (int i = 4; i-- > 0; ) {
+                int param1 = scanner.nextInt();
+                String param2 = scanner.next();
+                String returnValue = fg2.function3(param1, param2);
+                IO.println(param1 + "," + param2 + " -> " + returnValue);
+            }
+            break;
+        case "function4":
+            for (int i = 4; i-- > 0; ) {
+                int size = scanner.nextInt();
+                int[] param = new int[size];
+                for (int j = 0; j < size; j++) {
+                    param[j] = scanner.nextInt();
+                }
+                int returnValue = fg2.function4(param);
+                IO.println(Arrays.toString(param) + " -> " + returnValue);
+            }
+            break;
+        case "function5":
+            for (int i = 4; i-- > 0; ) {
+                int size = scanner.nextInt();
+                int[] param = new int[size];
+                for (int j = 0; j < size; j++) {
+                    param[j] = scanner.nextInt();
+                }
+                int[] returnValue = fg2.function5(param);
+                IO.println(Arrays.toString(param) + " -> " + Arrays.toString(returnValue));
+            }
+            break;
+        case "function6":
+            for (int i = 4; i-- > 0; ) {
+                int param1 = scanner.nextInt();
+                boolean param2 = scanner.nextBoolean();
+                String[] returnValue = fg2.function6(param1, param2);
+                IO.println(param1 + "," + param2 + " -> " + Arrays.toString(returnValue));
+            }
+            break;
+        case "function7":
+            for (int i = 5; i-- > 0; ) {
+                int size = scanner.nextInt();
+                String[] param = new String[size];
+                for (int j = 0; j < size; j++) {
+                    param[j] = scanner.next();
+                }
+                int returnValue = fg2.function7(param);
+                IO.println(Arrays.toString(param) + " -> " + returnValue);
+            }
+            break;
+        case "function8":
+            for (int i = 9; i-- > 0; ) {
+                int param1 = scanner.nextInt();
+                int param2 = scanner.nextInt();
+                int param3 = scanner.nextInt();
+                int[] returnValue = fg2.function8(param1, param2, param3);
+                IO.println(param1 + "," + param2 + "," + param3 + " -> " + Arrays.toString(returnValue));
+            }
+            break;
+    }
+}
+```
+
 ## Plantillas
 
 ```java

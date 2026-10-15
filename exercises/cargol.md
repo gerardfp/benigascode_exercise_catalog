@@ -15,6 +15,29 @@ Tres números enters positius: <span style="font-size: 100%; display: inline-blo
 
 -
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int h = sc.nextInt();
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+
+    int pos = 0;
+    int day = 0;
+    while (true) {
+        day++;
+        pos += a;
+        if (pos >= h) {
+            break;
+        }
+        pos -= b;
+    }
+    IO.println(day);
+}
+```
+
 ## Plantillas
 
 ```java
@@ -28,7 +51,6 @@ public class Main {
       	int h = scanner.nextInt();
       	int a = scanner.nextInt();
       	int b = scanner.nextInt();
-      
       
     }
 }

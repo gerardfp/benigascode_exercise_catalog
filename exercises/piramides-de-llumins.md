@@ -23,6 +23,18 @@ La entrada consta d'un número <span style="font-size: 100%; display: inline-blo
 
 El nombre de llumins necessaris per fer la piràmide.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    int ans = 3 * n * (n + 1) / 2;
+    IO.println(ans);
+}
+```
+
 ## Tests
 
 ### Test

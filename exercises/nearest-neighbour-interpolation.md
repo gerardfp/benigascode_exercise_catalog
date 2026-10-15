@@ -22,6 +22,43 @@ Finalment venen el factor d'escalat horitzontal <span style="font-size: 100%; di
 
 S'imprimirà la imatge escalada segons els factors horitzontal i vertical.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextLine()) return;
+    String firstLine = sc.nextLine().trim();
+    if (firstLine.length() == 0) return;
+    int n = Integer.parseInt(firstLine);
+
+    String[] lines = new String[n];
+    for (int i = 0; i < n; i++) {
+        lines[i] = sc.nextLine();
+    }
+    int scaleX = sc.nextInt();
+    int scaleY = sc.nextInt();
+
+    for (int i = 0; i < n; i++) {
+        String line = lines[i];
+        char[] scaled = new char[line.length() * scaleX];
+        int idx = 0;
+        for (int j = 0; j < line.length(); j++) {
+            char ch = line.charAt(j);
+            for (int k = 0; k < scaleX; k++) {
+                scaled[idx++] = ch;
+            }
+        }
+        for (int vy = 0; vy < scaleY; vy++) {
+            for (int k = 0; k < scaled.length; k++) {
+                IO.print(scaled[k]);
+            }
+            IO.println();
+        }
+    }
+}
+```
+
 ## Tests
 
 ### Test

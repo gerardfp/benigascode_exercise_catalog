@@ -15,6 +15,21 @@ Un enter de 3 xifres
 
 -
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    int c = n % 10;
+    int b = (n / 10) % 10;
+    int a = n / 100;
+    int res = c * 100 + b * 10 + a;
+    IO.println(res);
+}
+```
+
 ## Tests
 
 ### Test

@@ -15,6 +15,21 @@ Dos nombres enters <span style="font-size: 100%; display: inline-block;" class="
 
 S'imprimiran els nombres de l'interval, sense separació entre ells.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+    for (int i = a; i < b; i++) {
+        IO.print(i);
+    }
+    IO.println();
+}
+```
+
 ## Tests
 
 ### Test

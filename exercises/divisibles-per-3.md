@@ -15,6 +15,21 @@ Dos nombres enters <span style="font-size: 100%; display: inline-block;" class="
 
 S'imprimirà cada número en una línia.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+    for (int i = a; i <= b; i++) {
+        if (i % 3 == 0) {
+            IO.println(i);
+        }
+    }
+}
+```
+
 ## Tests
 
 ### Test

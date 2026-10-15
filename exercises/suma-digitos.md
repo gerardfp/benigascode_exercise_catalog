@@ -15,6 +15,25 @@ Una seqüència d'<span style="font-size: 100%; display: inline-block;" class="M
 
 La suma dels dígits de cada nombre, separats per un salt de línia
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    while (sc.hasNext()) {
+        String s = sc.next();
+        if (s.equals("0")) {
+            break;
+        }
+        int sum = 0;
+        for (int i = 0; i < s.length(); i++) {
+            sum += s.charAt(i) - '0';
+        }
+        IO.println(sum);
+    }
+}
+```
+
 ## Tests
 
 ### Test

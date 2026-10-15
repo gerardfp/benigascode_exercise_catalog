@@ -30,6 +30,69 @@ En snake_case les paraules es separen amb _ i es posen en majúscules si totes l
 
 En kebab-case totes les lletres van sempre en minúscula, i separades amb -
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    String input = "";
+    while (sc.hasNextLine()) {
+        String l = sc.nextLine();
+        if (!l.isEmpty()) {
+            if (!input.isEmpty()) {
+                input += " ";
+            }
+            input += l;
+        }
+    }
+    String[] words = input.trim().split("\\s+");
+
+    // 1. CamelCase
+    String camel = "";
+    for (int i = 0; i < words.length; i++) {
+        String w = words[i];
+        if (!w.isEmpty()) {
+            camel += w.substring(0, 1).toUpperCase() + w.substring(1).toLowerCase();
+        }
+    }
+
+    // 2. kebab-case
+    String kebab = "";
+    for (int i = 0; i < words.length; i++) {
+        if (i > 0) {
+            kebab += "-";
+        }
+        kebab += words[i].toLowerCase();
+    }
+
+    // 3. snake_case
+    boolean allUpper = true;
+    for (int i = 0; i < input.length(); i++) {
+        char c = input.charAt(i);
+        if (c >= 'a' && c <= 'z') {
+            allUpper = false;
+            break;
+        }
+    }
+
+    String snake = "";
+    for (int i = 0; i < words.length; i++) {
+        if (i > 0) {
+            snake += "_";
+        }
+        if (allUpper) {
+            snake += words[i].toUpperCase();
+        } else {
+            snake += words[i].toLowerCase();
+        }
+    }
+
+    IO.println(camel);
+    IO.println(kebab);
+    IO.println(snake);
+}
+```
+
 ## Tests
 
 ### Test

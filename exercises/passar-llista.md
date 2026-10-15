@@ -20,6 +20,38 @@ A continuació ve una sèrie amb els noms dels alumnes que hi ha a la classe. La
 
 Per cada alumne de la classe, s'escriurà la seva posició a la llista, o la paraula `NO` si no hi és a la llista.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    String[] list = new String[n];
+    for (int i = 0; i < n; i++) {
+        list[i] = sc.next();
+    }
+    while (sc.hasNext()) {
+        String name = sc.next();
+        if (name.equals("__FI__")) {
+            break;
+        }
+        int pos = -1;
+        for (int i = 0; i < n; i++) {
+            if (list[i].equals(name)) {
+                pos = i + 1;
+                break;
+            }
+        }
+        if (pos != -1) {
+            IO.println(pos);
+        } else {
+            IO.println("NO");
+        }
+    }
+}
+```
+
 ## Plantillas
 
 ```java
@@ -34,7 +66,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
       
-      	
     }
 }
 ```

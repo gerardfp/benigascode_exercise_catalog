@@ -77,6 +77,48 @@ Disk 3: 11111010
 Parity: 10110101
 ```
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int D = sc.nextInt();
+    int B = sc.nextInt();
+    int N = sc.nextInt();
+
+    int dataDisks = D - 1;
+    String[] disks = new String[D];
+    for (int i = 0; i < D; i++) {
+        disks[i] = "";
+    }
+
+    int numStripes = N / (dataDisks * B);
+    for (int s = 0; s < numStripes; s++) {
+        int[][] stripeBits = new int[dataDisks][B];
+        for (int d = 0; d < dataDisks; d++) {
+            for (int b = 0; b < B; b++) {
+                int bit = sc.nextInt();
+                stripeBits[d][b] = bit;
+                disks[d] += bit;
+            }
+        }
+        for (int b = 0; b < B; b++) {
+            int p = 0;
+            for (int d = 0; d < dataDisks; d++) {
+                p ^= stripeBits[d][b];
+            }
+            disks[D - 1] += p;
+        }
+    }
+
+    for (int d = 0; d < dataDisks; d++) {
+        IO.println("Disk " + (d + 1) + ": " + disks[d]);
+    }
+    IO.println("Parity: " + disks[D - 1]);
+}
+```
+
 ## Tests
 
 ### Test

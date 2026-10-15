@@ -7,6 +7,55 @@ difficulty: 5
 
 Implementa el **constructor** de la classe `Car`
 
+## Solutions
+
+```java
+class Car {
+    String model;
+    int topSpeed;
+    float acceleration;
+    float braking;
+    float cornering;
+
+    public Car(String model, int topSpeed, float acceleration, float braking, float cornering) {
+        this.model = model;
+        this.topSpeed = topSpeed;
+        this.acceleration = acceleration;
+        this.braking = braking;
+        this.cornering = cornering;
+    }
+}
+
+void main() {
+    Scanner scanner = new Scanner(System.in);
+    scanner.useLocale(Locale.US);
+
+    int numCars = scanner.nextInt();
+    scanner.nextLine();
+
+    Car[] cars = new Car[numCars];
+
+    for (int i = 0; i < numCars; i++) {
+        cars[i] = new Car(scanner.nextLine(), scanner.nextInt(), scanner.nextFloat(), scanner.nextFloat(), scanner.nextFloat());
+        scanner.nextLine();
+    }
+
+    for (int i = 0; i < numCars - 1; i++) {
+        for (int j = 0; j < numCars - 1 - i; j++) {
+            if (cars[j].topSpeed < cars[j + 1].topSpeed) {
+                Car tmp = cars[j];
+                cars[j] = cars[j + 1];
+                cars[j + 1] = tmp;
+            }
+        }
+    }
+
+    for (int i = 0; i < numCars; i++) {
+        IO.println("%-20s  %4d  %4.2f  %4.2f  %4.2f ".formatted(cars[i].model, cars[i].topSpeed, cars[i].acceleration, cars[i].braking, cars[i].cornering));
+    }
+}
+```
+
 ## Plantillas
 
 ```java
@@ -15,7 +64,6 @@ import java.util.*;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
-
 
 class Car {
     String model;

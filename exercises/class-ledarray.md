@@ -7,6 +7,68 @@ difficulty: 5
 
 Implementa el mètode `switchLed` de la classe `LedArray`. El mètode rep com a paràmetre la posició d'un led, i inverteix el seu estat.
 
+## Solutions
+
+```java
+class OLed {
+    boolean state;
+
+    void switchOn() {
+        state = true;
+    }
+
+    void switchOff() {
+        state = false;
+    }
+
+    void draw() {
+        if (state) {
+            IO.print("(*)");
+        } else {
+            IO.print("( )");
+        }
+    }
+}
+
+class LedArray {
+    OLed[] leds;
+
+    LedArray(int size) {
+        leds = new OLed[size];
+        for (int i = 0; i < size; i++) {
+            leds[i] = new OLed();
+        }
+    }
+
+    void switchLed(int position) {
+        if (position >= 0 && position < leds.length) {
+            if (leds[position].state) {
+                leds[position].switchOff();
+            } else {
+                leds[position].switchOn();
+            }
+        }
+    }
+
+    void draw() {
+        for (OLed led : leds) {
+            led.draw();
+        }
+    }
+}
+
+void main() {
+    Scanner scanner = new Scanner(System.in);
+    LedArray ledArray = new LedArray(5);
+
+    int position;
+    while ((position = scanner.nextInt()) != -1) {
+        ledArray.switchLed(position);
+        ledArray.draw();
+        IO.println();
+    }
+}
+```
 
 ## Plantillas
 
@@ -53,7 +115,6 @@ class LedArray {
         }
     }
 }
-
 
 public class Main {
 

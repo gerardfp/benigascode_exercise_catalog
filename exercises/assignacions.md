@@ -21,6 +21,18 @@ Per fer-ho, assigna correctament els valors a les variables.
 
 -
 
+## Solutions
+
+```java
+void main() {
+    int a = 3;
+    int b = 5;
+    int c = 4;
+
+    IO.println(a + " " + b + " " + c);
+}
+```
+
 ## Plantillas
 
 ```java

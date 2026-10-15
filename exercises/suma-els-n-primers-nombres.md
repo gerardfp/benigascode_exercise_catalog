@@ -21,6 +21,21 @@ Un nombre enter
 
 La suma
 
+## Solutions
+
+```java
+int sum(int n) {
+    if (n <= 1) return n;
+    return n + sum(n - 1);
+}
+
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    IO.println(sum(n));
+}
+```
+
 ## Tests
 
 ### Test

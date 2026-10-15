@@ -19,6 +19,24 @@ l'entrada consta de 4 dades:
 
 S'imprimirà el jugador que guanya: `primer jugador` | `segon jugador`
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    String p1Choice = sc.next();
+    int p1Fingers = sc.nextInt();
+    String p2Choice = sc.next();
+    int p2Fingers = sc.nextInt();
+
+    int total = p1Fingers + p2Fingers;
+    boolean isEven = (total % 2 == 0);
+    boolean p1Wins = isEven ? p1Choice.equals("pares") : p1Choice.equals("nones");
+
+    IO.println(p1Wins ? "primer jugador" : "segon jugador");
+}
+```
+
 ## Plantillas
 
 ```java

@@ -15,6 +15,37 @@ Cada caso de prueba es una secuencia de N números que termina con un 0.
 
 Un numero entero por cada secuencia de numeros; separados por un salto de línea.
 
+## Solutions
+
+```java
+boolean isPrime(int n) {
+    if (n <= 0) return false;
+    for (int i = 2; i * i <= n; i++) {
+        if (n % i == 0) return false;
+    }
+    return true;
+}
+
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int t = sc.nextInt();
+    for (int k = 0; k < t; k++) {
+        int count = 0;
+        while (sc.hasNextInt()) {
+            int num = sc.nextInt();
+            if (num == 0) {
+                break;
+            }
+            if (isPrime(num)) {
+                count++;
+            }
+        }
+        IO.println(count);
+    }
+}
+```
+
 ## Tests
 
 ### Test
