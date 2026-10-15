@@ -1,6 +1,6 @@
 ---
 slug: tir-amb-arc
-tags: [conditionals, if-else, math, geometry]
+tags: [conditionals, if-else, math]
 difficulty: 2
 ---
 # Tir amb arc

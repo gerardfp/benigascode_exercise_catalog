@@ -1,6 +1,6 @@
 ---
 slug: build-a-wall
-tags: [loops, nested-loops, ascii-art, patterns]
+tags: [loops, nested-loops]
 difficulty: 4
 ---
 # Another brick in the wall

@@ -1,6 +1,6 @@
 ---
 slug: inner-box
-tags: [classes, oop, geometry]
+tags: [classes, oop, math]
 difficulty: 3
 ---
 # Inner Box

@@ -1,6 +1,6 @@
 ---
 slug: join
-tags: [arrays, loops, nested-loops, scanner, database]
+tags: [arrays, loops, nested-loops, scanner]
 difficulty: 5
 ---
 # JOIN

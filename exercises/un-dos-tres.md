@@ -1,6 +1,6 @@
 ---
 slug: un-dos-tres
-tags: [conditionals, if-else, game, cards]
+tags: [conditionals, if-else]
 difficulty: 2
 ---
 # Three card poker

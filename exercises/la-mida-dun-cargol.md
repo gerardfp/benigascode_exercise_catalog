@@ -1,6 +1,6 @@
 ---
 slug: la-mida-dun-cargol
-tags: [conditionals, if-else, intervals]
+tags: [conditionals, if-else, relational-operators]
 difficulty: 2
 ---
 # La mida d'un cargol

@@ -1,6 +1,6 @@
 ---
 slug: lliga-de-futbol
-tags: [operators, arithmetic, relational-operators, sports]
+tags: [operators, arithmetic, relational-operators]
 difficulty: 2
 ---
 # Lliga de futbol

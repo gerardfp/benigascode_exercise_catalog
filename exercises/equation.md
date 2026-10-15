@@ -1,6 +1,6 @@
 ---
 slug: equation
-tags: [classes, oop, math, algebra]
+tags: [classes, oop, math]
 difficulty: 3
 ---
 # Equation

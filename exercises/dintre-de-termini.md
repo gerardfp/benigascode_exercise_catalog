@@ -1,6 +1,6 @@
 ---
 slug: dintre-de-termini
-tags: [conditionals, if-else, operators, relational-operators, date-time]
+tags: [conditionals, if-else, operators, relational-operators]
 difficulty: 2
 ---
 # Dintre de termini

@@ -1,6 +1,6 @@
 ---
 slug: banderas
-tags: [loops, nested-loops, conditionals, patterns]
+tags: [loops, nested-loops, conditionals]
 difficulty: 5
 ---
 # Banderes

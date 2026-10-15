@@ -1,6 +1,6 @@
 ---
 slug: bomberman
-tags: [matrices, 2d-arrays, loops, nested-loops, game]
+tags: [matrices, 2d-arrays, loops, nested-loops]
 difficulty: 4
 ---
 # Bomberman

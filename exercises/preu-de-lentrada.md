@@ -1,6 +1,6 @@
 ---
 slug: preu-de-lentrada
-tags: [conditionals, if-else, intervals]
+tags: [conditionals, if-else, relational-operators]
 difficulty: 2
 ---
 # Preu de l'entrada

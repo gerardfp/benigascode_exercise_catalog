@@ -1,6 +1,6 @@
 ---
 slug: scrabble
-tags: [strings, loops, for-loop, conditionals, switch, game]
+tags: [strings, loops, for-loop, conditionals, switch]
 difficulty: 3
 ---
 # Scrabble

@@ -1,6 +1,6 @@
 ---
 slug: hanoi
-tags: [arrays, recursion, game]
+tags: [arrays, recursion]
 difficulty: 5
 ---
 # Hanoi

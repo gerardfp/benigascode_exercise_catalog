@@ -1,6 +1,6 @@
 ---
 slug: el-conill-i-la-pastanaga
-tags: [matrices, 2d-arrays, loops, nested-loops, game]
+tags: [matrices, 2d-arrays, loops, nested-loops]
 difficulty: 4
 ---
 # El conill i les pastanagues

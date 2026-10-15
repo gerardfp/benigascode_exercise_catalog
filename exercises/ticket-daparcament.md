@@ -1,6 +1,6 @@
 ---
 slug: ticket-daparcament
-tags: [operators, arithmetic, modulo, time]
+tags: [operators, arithmetic, modulo]
 difficulty: 2
 ---
 # Ticket d'aparcament

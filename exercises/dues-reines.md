@@ -1,6 +1,6 @@
 ---
 slug: dues-reines
-tags: [operators, booleans, math, chess]
+tags: [operators, booleans, math]
 difficulty: 2
 ---
 # Dues reines

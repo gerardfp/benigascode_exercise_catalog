@@ -1,6 +1,6 @@
 ---
 slug: piedra-papel-tijera
-tags: [conditionals, switch, game]
+tags: [conditionals, switch]
 difficulty: 2
 ---
 # Piedra, papel o tijera

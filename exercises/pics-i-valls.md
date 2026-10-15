@@ -1,6 +1,6 @@
 ---
 slug: pics-i-valls
-tags: [loops, for-loop, ascii-art, patterns]
+tags: [loops, for-loop]
 difficulty: 3
 ---
 # Pics i valls

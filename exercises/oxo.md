@@ -1,6 +1,6 @@
 ---
 slug: OXO
-tags: [matrices, 2d-arrays, conditionals, game, board-game]
+tags: [matrices, 2d-arrays, conditionals]
 difficulty: 4
 ---
 # OXO

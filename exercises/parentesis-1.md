@@ -1,6 +1,6 @@
 ---
 slug: parentesis-1
-tags: [strings, loops, for-loop, counters, syntax-parsing]
+tags: [strings, loops, for-loop, counters, parsing]
 difficulty: 3
 ---
 # Parèntesis

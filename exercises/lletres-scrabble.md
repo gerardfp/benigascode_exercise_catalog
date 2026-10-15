@@ -1,6 +1,6 @@
 ---
 slug: lletres-scrabble
-tags: [strings, conditionals, switch, game]
+tags: [strings, conditionals, switch]
 difficulty: 2
 ---
 # Lletres de l'Scrabble

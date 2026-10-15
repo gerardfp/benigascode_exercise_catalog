@@ -1,6 +1,6 @@
 ---
 slug: maquina-parada
-tags: [loops, for-loop, counters, intervals]
+tags: [loops, for-loop, relational-operators, counters]
 difficulty: 3
 ---
 # Parada per manteniment

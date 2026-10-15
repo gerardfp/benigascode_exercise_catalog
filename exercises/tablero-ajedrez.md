@@ -1,6 +1,6 @@
 ---
 slug: tablero-ajedrez
-tags: [loops, nested-loops, operators, modulo, ascii-art, patterns]
+tags: [loops, nested-loops, operators, modulo]
 difficulty: 3
 ---
 # Tauler d'Escacs

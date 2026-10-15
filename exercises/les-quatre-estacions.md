@@ -1,6 +1,6 @@
 ---
 slug: les-quatre-estacions
-tags: [conditionals, if-else, date-time]
+tags: [conditionals, if-else]
 difficulty: 2
 ---
 # Les quatre estacions

@@ -1,6 +1,6 @@
 ---
 slug: gatito-ascii-art
-tags: [literals, io, ascii-art]
+tags: [literals, io]
 difficulty: 1
 ---
 # Gatito ASCII-art

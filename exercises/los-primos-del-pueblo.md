@@ -1,6 +1,6 @@
 ---
 slug: los-primos-del-pueblo
-tags: [loops, nested-loops, math, counters, prime-numbers]
+tags: [loops, nested-loops, math, counters]
 difficulty: 3
 ---
 # Los primos del pueblo

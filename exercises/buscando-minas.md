@@ -1,6 +1,6 @@
 ---
 slug: buscando-minas
-tags: [matrices, 2d-arrays, conditionals, game]
+tags: [matrices, 2d-arrays, conditionals]
 difficulty: 3
 ---
 # Cercant mines

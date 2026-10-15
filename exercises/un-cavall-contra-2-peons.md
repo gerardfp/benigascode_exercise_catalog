@@ -1,6 +1,6 @@
 ---
 slug: un-cavall-contra-2-peons
-tags: [operators, booleans, geometry, chess]
+tags: [operators, booleans, math]
 difficulty: 2
 ---
 # Un cavall contra dos peons

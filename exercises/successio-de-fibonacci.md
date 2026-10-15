@@ -1,6 +1,6 @@
 ---
 slug: successio-de-fibonacci
-tags: [recursion, math, fibonacci]
+tags: [recursion, math]
 difficulty: 3
 ---
 # Successió de Fibonacci

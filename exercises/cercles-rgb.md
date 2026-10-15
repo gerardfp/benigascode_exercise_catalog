@@ -1,6 +1,6 @@
 ---
 slug: cercles-rgb
-tags: [operators, math, geometry]
+tags: [operators, math]
 difficulty: 9
 ---
 # Cercles RGB

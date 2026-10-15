@@ -1,6 +1,6 @@
 ---
 slug: estadisticas-del-partido
-tags: [loops, while-loop, conditionals, counters, sports]
+tags: [loops, while-loop, conditionals, counters]
 difficulty: 3
 ---
 # Estadísticas del partido

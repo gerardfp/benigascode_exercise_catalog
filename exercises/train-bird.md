@@ -1,6 +1,6 @@
 ---
 slug: train-bird
-tags: [operators, arithmetic, math, physics]
+tags: [operators, arithmetic, math]
 difficulty: 1
 ---
 # Train bird
