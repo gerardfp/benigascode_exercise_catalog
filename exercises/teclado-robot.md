@@ -1,6 +1,6 @@
 ---
 slug: teclado-robot
-tags: [arrays, loops, math, simulation, coordinates]
+tags: [arrays, loops, math, coordinates]
 difficulty: 4
 ---
 # Teclado robot

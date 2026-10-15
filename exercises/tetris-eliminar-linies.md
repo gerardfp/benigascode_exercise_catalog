@@ -1,6 +1,6 @@
 ---
 slug: tetris-eliminar-linies
-tags: [arrays, matrices, 2d-arrays, loops, simulation, game]
+tags: [arrays, matrices, 2d-arrays, loops, game]
 difficulty: 4
 ---
 # Tetris, eliminar línies

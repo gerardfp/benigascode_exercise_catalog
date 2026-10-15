@@ -1,6 +1,6 @@
 ---
 slug: gearbox
-tags: [classes, oop, simulation]
+tags: [classes, oop]
 difficulty: 3
 ---
 # GearBox

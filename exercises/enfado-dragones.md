@@ -1,6 +1,6 @@
 ---
 slug: enfado-dragones
-tags: [loops, while-loop, conditionals, simulation]
+tags: [loops, while-loop, conditionals]
 difficulty: 2
 ---
 # El enfado de los dragones

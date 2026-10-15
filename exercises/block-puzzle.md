@@ -1,6 +1,6 @@
 ---
 slug: block-puzzle
-tags: [matrices, 2d-arrays, loops, nested-loops, simulation, game]
+tags: [matrices, 2d-arrays, loops, nested-loops, game]
 difficulty: 4
 ---
 # Block Puzzle

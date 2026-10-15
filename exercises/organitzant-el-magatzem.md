@@ -1,6 +1,6 @@
 ---
 slug: organitzant-el-magatzem
-tags: [arrays, loops, sorting, simulation]
+tags: [arrays, loops, sorting]
 difficulty: 5
 ---
 # Organitzant el magatzem

@@ -1,6 +1,6 @@
 ---
 slug: inode-flags
-tags: [arrays, conditionals, operators, bitwise, simulation]
+tags: [arrays, conditionals, operators, bitwise]
 difficulty: 3
 ---
 # Inode flags

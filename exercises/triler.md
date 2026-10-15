@@ -1,6 +1,6 @@
 ---
 slug: triler
-tags: [arrays, loops, simulation, game]
+tags: [arrays, loops, game]
 difficulty: 3
 ---
 # Triler

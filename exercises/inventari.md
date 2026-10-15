@@ -1,6 +1,6 @@
 ---
 slug: inventari
-tags: [arrays, loops, while-loop, simulation]
+tags: [arrays, loops, while-loop]
 difficulty: 4
 ---
 # Inventari

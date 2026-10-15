@@ -1,6 +1,6 @@
 ---
 slug: apunts
-tags: [arrays, loops, for-loop, sorting, simulation]
+tags: [arrays, loops, for-loop, sorting]
 difficulty: 5
 ---
 # Apunts

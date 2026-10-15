@@ -1,6 +1,6 @@
 ---
 slug: el-club-de-la-lucha
-tags: [arrays, loops, simulation, game]
+tags: [arrays, loops, game]
 difficulty: 4
 ---
 # El club de la lucha

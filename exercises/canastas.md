@@ -1,6 +1,6 @@
 ---
 slug: canastas
-tags: [loops, while-loop, conditionals, simulation, game]
+tags: [loops, while-loop, conditionals, game]
 difficulty: 5
 ---
 # Encistellaments

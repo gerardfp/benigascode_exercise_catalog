@@ -1,6 +1,6 @@
 ---
 slug: balanceig-de-carrega
-tags: [arrays, loops, min-max, simulation]
+tags: [arrays, loops, min-max]
 difficulty: 6
 ---
 # Balanceig de càrrega

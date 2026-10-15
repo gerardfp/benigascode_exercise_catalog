@@ -1,6 +1,6 @@
 ---
 slug: street-fighter-1
-tags: [loops, conditionals, switch, simulation, state-machine]
+tags: [loops, conditionals, switch, game, state-machine]
 difficulty: 3
 ---
 # Street Fighter

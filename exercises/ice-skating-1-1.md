@@ -1,6 +1,6 @@
 ---
 slug: ice-skating-1-1
-tags: [matrices, 2d-arrays, loops, simulation, game]
+tags: [matrices, 2d-arrays, loops, game]
 difficulty: 5
 ---
 # Ice skating
