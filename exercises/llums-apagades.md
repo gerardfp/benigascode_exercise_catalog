@@ -1,6 +1,6 @@
 ---
 slug: llums-apagades
-tags: [operadors, logics]
+tags: [operators, booleans, logical-operators]
 difficulty: 2
 ---
 # Llums apagats

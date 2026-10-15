@@ -1,6 +1,6 @@
 ---
 slug: xarxes-privades
-tags: [if]
+tags: [conditionals, if-else, parsing, networking]
 difficulty: 3
 ---
 # Xarxes privades

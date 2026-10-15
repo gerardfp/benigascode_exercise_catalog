@@ -1,6 +1,6 @@
 ---
 slug: definir-la-classe-comptecorrent
-tags: [class]
+tags: [classes, oop]
 difficulty: 2
 ---
 # Definir la classe CompteCorrent

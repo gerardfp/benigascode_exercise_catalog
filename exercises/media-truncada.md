@@ -1,6 +1,6 @@
 ---
 slug: media-truncada
-tags: [loops, esquemes]
+tags: [loops, while-loop, operators, arithmetic, accumulators, min-max]
 difficulty: 3
 ---
 # Media truncada

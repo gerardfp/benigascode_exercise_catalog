@@ -1,6 +1,6 @@
 ---
 slug: paritat-raid
-tags: [arrays, loops]
+tags: [arrays, loops, nested-loops, operators, bitwise, simulation]
 difficulty: 5
 ---
 # Paritat RAID

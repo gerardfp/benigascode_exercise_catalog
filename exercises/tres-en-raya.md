@@ -1,6 +1,6 @@
 ---
 slug: tres-en-raya
-tags: [matrix, if]
+tags: [matrices, 2d-arrays, conditionals, game, board-game]
 difficulty: 4
 ---
 # OXO

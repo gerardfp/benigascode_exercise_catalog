@@ -1,6 +1,6 @@
 ---
 slug: superbowling
-tags: [operadors, aritmetics]
+tags: [operators, arithmetic, math]
 difficulty: 1
 ---
 # Superbowling

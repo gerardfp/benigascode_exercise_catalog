@@ -1,6 +1,6 @@
 ---
 slug: comptant-els-minuts-per-cap-dany
-tags: [operadors, aritmetics]
+tags: [operators, arithmetic, modulo, time]
 difficulty: 1
 ---
 # Comptant els minuts per cap d'any

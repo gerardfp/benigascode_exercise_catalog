@@ -1,6 +1,6 @@
 ---
 slug: estan-todos
-tags: [arrays, esquemes]
+tags: [arrays, loops, for-loop, flags, search]
 difficulty: 3
 ---
 # Hi sou tots i totes?

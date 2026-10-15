@@ -1,6 +1,6 @@
 ---
 slug: jota-amb-asteriscs
-tags: [literals]
+tags: [literals, io, ascii-art]
 difficulty: 1
 ---
 # Jota amb asteriscs

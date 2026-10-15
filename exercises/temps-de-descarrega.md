@@ -1,6 +1,6 @@
 ---
 slug: temps-de-descarrega
-tags: [operadors, aritmetics]
+tags: [operators, arithmetic, math]
 difficulty: 1
 ---
 # Temps de descàrrega

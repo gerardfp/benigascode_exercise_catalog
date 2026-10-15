@@ -1,6 +1,6 @@
 ---
 slug: fibonacci-n
-tags: [loops, math]
+tags: [loops, for-loop, math, fibonacci]
 difficulty: 3
 ---
 # Término N de Fibonacci

@@ -1,6 +1,6 @@
 ---
 slug: mezcla-de-secuencias
-tags: [arrays, esquemes]
+tags: [arrays, loops, while-loop, merge, two-pointers]
 difficulty: 4
 ---
 # Mescla de seqüències

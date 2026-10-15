@@ -1,6 +1,6 @@
 ---
 slug: compta-vocals
-tags: [loops, if]
+tags: [strings, loops, for-loop, conditionals, counters]
 difficulty: 2
 ---
 # Filtra vocals

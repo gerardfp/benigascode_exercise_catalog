@@ -1,6 +1,6 @@
 ---
 slug: calcul-de-notes
-tags: [if]
+tags: [conditionals, if-else]
 difficulty: 2
 ---
 # Càlcul de notes

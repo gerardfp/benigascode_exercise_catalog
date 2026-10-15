@@ -1,6 +1,6 @@
 ---
 slug: reaccio-en-cadena
-tags: [arrays, loops]
+tags: [arrays, loops, simulation, physics]
 difficulty: 4
 ---
 # Reacció en cadena

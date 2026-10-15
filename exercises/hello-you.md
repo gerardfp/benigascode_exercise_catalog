@@ -1,6 +1,6 @@
 ---
 slug: hello-you
-tags: [scanner]
+tags: [strings, scanner, io]
 difficulty: 1
 ---
 # Hello you

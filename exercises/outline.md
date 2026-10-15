@@ -1,6 +1,6 @@
 ---
 slug: outline
-tags: [arrays, loops]
+tags: [arrays, matrices, 2d-arrays, loops, nested-loops, ascii-art, patterns]
 difficulty: 5
 ---
 # Outline

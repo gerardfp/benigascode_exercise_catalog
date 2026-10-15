@@ -1,6 +1,6 @@
 ---
 slug: data-de-part
-tags: [operadors, relacionals]
+tags: [conditionals, operators, relational-operators, date-time]
 difficulty: 2
 ---
 # Data de caducitat

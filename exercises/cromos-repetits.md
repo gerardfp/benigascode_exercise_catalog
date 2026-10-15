@@ -1,6 +1,6 @@
 ---
 slug: cromos-repetits
-tags: [arrays, esquemes]
+tags: [arrays, loops, for-loop, counters, frequency-array]
 difficulty: 3
 ---
 # Cromos repetits

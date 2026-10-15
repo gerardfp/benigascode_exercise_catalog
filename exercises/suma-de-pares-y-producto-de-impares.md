@@ -1,6 +1,6 @@
 ---
 slug: suma-de-pares-y-producto-de-impares
-tags: [loops, esquemes]
+tags: [loops, while-loop, operators, modulo, accumulators]
 difficulty: 3
 ---
 # Suma de parells i producte d'imparells

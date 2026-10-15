@@ -1,6 +1,6 @@
 ---
 slug: inicialitzar-array
-tags: [arrays]
+tags: [arrays, types, loops, for-loop]
 difficulty: 2
 ---
 # Inicialitzar array

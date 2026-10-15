@@ -1,6 +1,6 @@
 ---
 slug: hora-dapertura-operadors-ternari
-tags: [ternari]
+tags: [strings, conditionals, ternary]
 difficulty: 2
 ---
 # Hora d'apertura

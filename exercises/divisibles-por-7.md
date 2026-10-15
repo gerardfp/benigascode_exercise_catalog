@@ -1,6 +1,6 @@
 ---
 slug: divisibles-por-7
-tags: [loops]
+tags: [loops, while-loop, conditionals, operators, modulo]
 difficulty: 2
 ---
 # Divisibles por 7

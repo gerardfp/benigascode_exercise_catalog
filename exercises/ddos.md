@@ -1,6 +1,6 @@
 ---
 slug: ddos
-tags: [loops, esquemes]
+tags: [loops, while-loop, counters, accumulators, simulation]
 difficulty: 4
 ---
 # DDoS

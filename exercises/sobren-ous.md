@@ -1,6 +1,6 @@
 ---
 slug: sobren-ous
-tags: [ternari]
+tags: [conditionals, ternary, operators, arithmetic, modulo]
 difficulty: 2
 ---
 # Sobren ous

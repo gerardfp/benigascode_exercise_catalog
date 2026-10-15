@@ -1,6 +1,6 @@
 ---
 slug: tpv
-tags: [arrays, loops]
+tags: [arrays, loops, operators, arithmetic, accumulators]
 difficulty: 3
 ---
 # TPV

@@ -1,6 +1,6 @@
 ---
 slug: compresio-rle
-tags: [strings, loops]
+tags: [strings, loops, string-manipulation, compression]
 difficulty: 4
 ---
 # Compressió RLE

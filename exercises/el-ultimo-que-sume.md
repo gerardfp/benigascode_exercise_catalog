@@ -1,6 +1,6 @@
 ---
 slug: el-ultimo-que-sume
-tags: [arrays, loops]
+tags: [arrays, loops, for-loop, operators, arithmetic]
 difficulty: 3
 ---
 # L'últim que sumi

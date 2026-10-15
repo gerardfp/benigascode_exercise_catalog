@@ -1,6 +1,6 @@
 ---
 slug: contractar-un-xef
-tags: [scanner]
+tags: [strings, scanner, io]
 difficulty: 1
 ---
 # Contractar un xef

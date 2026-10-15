@@ -1,6 +1,6 @@
 ---
 slug: randomsix
-tags: [loops, random]
+tags: [loops, while-loop, math, random]
 difficulty: 3
 ---
 # RandomSix

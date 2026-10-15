@@ -1,6 +1,6 @@
 ---
 slug: barrel-cannon
-tags: [arrays]
+tags: [arrays, loops, simulation, game]
 difficulty: 6
 ---
 # Barrel Cannon

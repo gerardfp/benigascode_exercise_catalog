@@ -1,6 +1,6 @@
 ---
 slug: precision-mecanografica
-tags: [conversio]
+tags: [operators, arithmetic, casting, formatting]
 difficulty: 2
 ---
 # Precisión mecanográfica

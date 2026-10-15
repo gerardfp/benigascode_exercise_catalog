@@ -1,6 +1,6 @@
 ---
 slug: secret-handshake
-tags: [if]
+tags: [conditionals, if-else, operators, bitwise, binary]
 difficulty: 2
 ---
 # Secret Handshake

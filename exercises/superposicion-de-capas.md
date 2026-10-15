@@ -1,6 +1,6 @@
 ---
 slug: superposicion-de-capas
-tags: [matrix]
+tags: [matrices, 2d-arrays, loops, nested-loops, simulation, image-processing]
 difficulty: 4
 ---
 # Superposición de capas

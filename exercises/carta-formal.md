@@ -1,6 +1,6 @@
 ---
 slug: carta-formal
-tags: [scanner]
+tags: [strings, scanner, io, formatting]
 difficulty: 1
 ---
 # Carta formal

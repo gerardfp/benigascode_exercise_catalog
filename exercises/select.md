@@ -1,6 +1,6 @@
 ---
 slug: select
-tags: [arrays, scanner, strings]
+tags: [arrays, strings, loops, nested-loops, scanner, simulation, database]
 difficulty: 6
 ---
 # SELECT

@@ -1,6 +1,6 @@
 ---
 slug: suma-digitos
-tags: [loops, math]
+tags: [loops, while-loop, operators, arithmetic, modulo, accumulators]
 difficulty: 3
 ---
 # Suma dígits

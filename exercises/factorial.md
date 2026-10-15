@@ -1,6 +1,6 @@
 ---
 slug: factorial
-tags: [recursivitat]
+tags: [recursion, operators, arithmetic, math]
 difficulty: 3
 ---
 # Factorial

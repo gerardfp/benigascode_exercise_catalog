@@ -1,6 +1,6 @@
 ---
 slug: black-friday
-tags: [loops]
+tags: [loops, conditionals, operators, arithmetic, accumulators]
 difficulty: 4
 ---
 # Black Friday

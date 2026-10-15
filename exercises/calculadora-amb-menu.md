@@ -1,6 +1,6 @@
 ---
 slug: calculadora-amb-menu
-tags: [if, switch]
+tags: [conditionals, if-else, switch, operators, arithmetic]
 difficulty: 2
 ---
 # Calculadora amb menú

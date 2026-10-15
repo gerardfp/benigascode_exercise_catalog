@@ -1,6 +1,6 @@
 ---
 slug: esquemes-comptadors-majors-que
-tags: [arrays, esquemes]
+tags: [arrays, loops, for-loop, operators, relational-operators, counters]
 difficulty: 3
 ---
 # Comptadors: majors que

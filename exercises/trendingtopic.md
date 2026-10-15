@@ -1,6 +1,6 @@
 ---
 slug: trendingtopic
-tags: [strings, arrays, esquemes]
+tags: [arrays, strings, counters, sorting, string-manipulation]
 difficulty: 5
 ---
 # c2-l1-5-trendingtopic

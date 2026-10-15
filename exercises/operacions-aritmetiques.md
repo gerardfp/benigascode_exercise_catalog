@@ -1,6 +1,6 @@
 ---
 slug: operacions-aritmetiques
-tags: [if, switch]
+tags: [conditionals, switch, operators, arithmetic, parsing]
 difficulty: 2
 ---
 # Expressions aritmètiques

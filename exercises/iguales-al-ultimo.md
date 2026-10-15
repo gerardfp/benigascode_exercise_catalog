@@ -1,6 +1,6 @@
 ---
 slug: iguales-al-ultimo
-tags: [arrays, esquemes]
+tags: [arrays, loops, for-loop, counters]
 difficulty: 3
 ---
 # Iguals a l'últim

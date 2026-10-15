@@ -1,6 +1,6 @@
 ---
 slug: combinacion-secreta-de-la-caja-fuerte
-tags: [loops]
+tags: [loops, while-loop, sentinel-loop, flags]
 difficulty: 4
 ---
 # Combinación secreta de la caja fuerte

@@ -1,6 +1,6 @@
 ---
 slug: altura-minima
-tags: [arrays]
+tags: [arrays, loops, for-loop, conditionals, filtering]
 difficulty: 3
 ---
 # Altura mínima

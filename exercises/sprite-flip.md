@@ -1,6 +1,6 @@
 ---
 slug: sprite-flip
-tags: [matrix]
+tags: [matrices, 2d-arrays, loops, nested-loops, image-processing]
 difficulty: 4
 ---
 # Sprite flip

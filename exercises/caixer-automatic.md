@@ -1,6 +1,6 @@
 ---
 slug: caixer-automatic
-tags: [loops]
+tags: [loops, while-loop, operators, arithmetic, greedy]
 difficulty: 4
 ---
 # Caixer automàtic

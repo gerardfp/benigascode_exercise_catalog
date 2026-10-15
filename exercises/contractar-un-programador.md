@@ -1,6 +1,6 @@
 ---
 slug: contractar-un-programador
-tags: [operadors, logics]
+tags: [conditionals, operators, booleans, logical-operators]
 difficulty: 2
 ---
 # Contractar un programador

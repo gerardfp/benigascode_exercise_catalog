@@ -1,6 +1,6 @@
 ---
 slug: equation2d
-tags: [class, math]
+tags: [arrays, classes, oop, math, algebra]
 difficulty: 4
 ---
 # Equation2d

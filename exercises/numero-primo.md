@@ -1,6 +1,6 @@
 ---
 slug: numero-primo
-tags: [loops, math]
+tags: [loops, for-loop, math, flags, prime-numbers]
 difficulty: 3
 ---
 # Determinar si un número es primo

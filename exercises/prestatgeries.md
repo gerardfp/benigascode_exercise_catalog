@@ -1,6 +1,6 @@
 ---
 slug: prestatgeries
-tags: [operadors, relacionals]
+tags: [operators, booleans, relational-operators]
 difficulty: 1
 ---
 # Llibres i prestatgeries

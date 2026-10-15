@@ -1,6 +1,6 @@
 ---
 slug: notes-analytics
-tags: [if]
+tags: [conditionals, if-else, operators, arithmetic]
 difficulty: 2
 ---
 # Avaluació final

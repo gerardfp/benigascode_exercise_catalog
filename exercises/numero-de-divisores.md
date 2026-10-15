@@ -1,6 +1,6 @@
 ---
 slug: numero-de-divisores
-tags: [loops, math]
+tags: [loops, for-loop, operators, modulo, math, counters]
 difficulty: 2
 ---
 # Número de divisores

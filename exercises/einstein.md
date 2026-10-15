@@ -1,6 +1,6 @@
 ---
 slug: einstein
-tags: [literals]
+tags: [literals, io]
 difficulty: 1
 ---
 # Cita Einstein

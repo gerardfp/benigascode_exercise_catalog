@@ -1,6 +1,6 @@
 ---
 slug: calcular-media
-tags: [loops, math, esquemes]
+tags: [loops, operators, arithmetic, math, accumulators]
 difficulty: 3
 ---
 # Calcular la media de una serie de números

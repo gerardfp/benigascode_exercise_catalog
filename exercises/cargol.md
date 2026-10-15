@@ -1,6 +1,6 @@
 ---
 slug: cargol
-tags: [operadors, aritmetics]
+tags: [loops, operators, arithmetic, simulation]
 difficulty: 3
 ---
 # Cargol

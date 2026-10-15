@@ -1,6 +1,6 @@
 ---
 slug: cuenta-vocales
-tags: [strings, loops, esquemes]
+tags: [strings, loops, for-loop, counters, char-frequency]
 difficulty: 3
 ---
 # Cuenta vocales

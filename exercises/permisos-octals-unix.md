@@ -1,6 +1,6 @@
 ---
 slug: permisos-octals-unix
-tags: [if]
+tags: [strings, conditionals, switch, operators, bitwise]
 difficulty: 2
 ---
 # Permisos octals UNIX

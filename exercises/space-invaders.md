@@ -1,6 +1,6 @@
 ---
 slug: space-invaders
-tags: [operadors, logics]
+tags: [operators, booleans, geometry, game]
 difficulty: 2
 ---
 # Space Invaders

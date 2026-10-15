@@ -1,6 +1,6 @@
 ---
 slug: pares-o-nones
-tags: [ternari]
+tags: [conditionals, ternary, operators, modulo, game]
 difficulty: 1
 ---
 # Pares o nones

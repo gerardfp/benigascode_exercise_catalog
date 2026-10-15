@@ -1,6 +1,6 @@
 ---
 slug: full-de-notes
-tags: [loops, esquemes]
+tags: [loops, while-loop, accumulators, min-max]
 difficulty: 3
 ---
 # Full de notes

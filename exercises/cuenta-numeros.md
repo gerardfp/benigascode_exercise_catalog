@@ -1,6 +1,6 @@
 ---
 slug: cuenta-numeros
-tags: [loops, esquemes]
+tags: [loops, while-loop, sentinel-loop, counters]
 difficulty: 2
 ---
 # Cuenta números

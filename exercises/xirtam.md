@@ -1,6 +1,6 @@
 ---
 slug: xirtam
-tags: [matrix]
+tags: [matrices, 2d-arrays, loops, nested-loops, conditionals]
 difficulty: 3
 ---
 # Xirtam

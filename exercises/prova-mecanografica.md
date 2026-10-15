@@ -1,6 +1,6 @@
 ---
 slug: prova-mecanografica
-tags: [conversio]
+tags: [operators, arithmetic, casting, formatting]
 difficulty: 2
 ---
 # Prova mecanogràfica

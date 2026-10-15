@@ -1,6 +1,6 @@
 ---
 slug: triangle
-tags: [class]
+tags: [classes, oop, math, geometry]
 difficulty: 3
 ---
 # Triangle

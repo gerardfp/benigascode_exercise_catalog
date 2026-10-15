@@ -1,6 +1,6 @@
 ---
 slug: xocolata-if
-tags: [operadors, aritmetics]
+tags: [operators, arithmetic, math]
 difficulty: 1
 ---
 # Xocolata

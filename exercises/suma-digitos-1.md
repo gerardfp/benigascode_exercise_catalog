@@ -1,6 +1,6 @@
 ---
 slug: suma-digitos-1
-tags: [strings, loops]
+tags: [strings, loops, char-arithmetic, accumulators]
 difficulty: 2
 ---
 # Suma dígitos 1

@@ -1,6 +1,6 @@
 ---
 slug: palindrom
-tags: [recursivitat, strings]
+tags: [strings, recursion, flags]
 difficulty: 3
 ---
 # Palíndrom

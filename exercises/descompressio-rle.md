@@ -1,6 +1,6 @@
 ---
 slug: descompressio-rle
-tags: [strings, loops]
+tags: [strings, loops, string-manipulation, compression]
 difficulty: 4
 ---
 # Descompressió RLE

@@ -1,6 +1,6 @@
 ---
 slug: cuentas-de-numeros
-tags: [loops, esquemes]
+tags: [loops, while-loop, nested-loops, sentinel-loop, counters]
 difficulty: 3
 ---
 # Cuentas de números

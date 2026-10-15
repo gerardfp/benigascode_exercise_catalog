@@ -1,6 +1,6 @@
 ---
 slug: robot-simulator
-tags: [loops, strings]
+tags: [strings, loops, simulation, coordinates]
 difficulty: 3
 ---
 # Robot simulator

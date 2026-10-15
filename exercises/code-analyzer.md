@@ -1,6 +1,6 @@
 ---
 slug: code-analyzer
-tags: [loops, strings]
+tags: [strings, loops, while-loop, sentinel-loop, counters]
 difficulty: 3
 ---
 # Code analyzer

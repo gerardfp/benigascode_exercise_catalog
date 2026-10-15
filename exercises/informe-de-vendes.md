@@ -1,6 +1,6 @@
 ---
 slug: informe-de-vendes
-tags: [arrays, esquemes]
+tags: [arrays, loops, for-loop, accumulators, min-max]
 difficulty: 3
 ---
 # Informe de vendes

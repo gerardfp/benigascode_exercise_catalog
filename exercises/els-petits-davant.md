@@ -1,6 +1,6 @@
 ---
 slug: els-petits-davant
-tags: [operadors, relacionals]
+tags: [conditionals, operators, relational-operators, sorting]
 difficulty: 2
 ---
 # Els petits davant

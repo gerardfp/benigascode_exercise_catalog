@@ -1,6 +1,6 @@
 ---
 slug: fireball
-tags: [arrays, loops]
+tags: [arrays, loops, simulation, game]
 difficulty: 3
 ---
 # Fireball

@@ -1,6 +1,6 @@
 ---
 slug: permisos-rwx-unix
-tags: [if]
+tags: [strings, conditionals, string-manipulation]
 difficulty: 2
 ---
 # Permisos rwx UNIX

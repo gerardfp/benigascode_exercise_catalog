@@ -1,6 +1,6 @@
 ---
 slug: vendes-acumulades
-tags: [loops, esquemes]
+tags: [loops, for-loop, operators, arithmetic, accumulators]
 difficulty: 3
 ---
 # Vendes acumulades

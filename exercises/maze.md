@@ -1,6 +1,6 @@
 ---
 slug: maze
-tags: [recursivitat, matrix]
+tags: [matrices, 2d-arrays, recursion, game, backtracking]
 difficulty: 6
 ---
 # Maze

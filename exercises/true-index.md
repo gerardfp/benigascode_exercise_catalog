@@ -1,6 +1,6 @@
 ---
 slug: true-index
-tags: [arrays]
+tags: [arrays, loops, for-loop, booleans]
 difficulty: 2
 ---
 # True index

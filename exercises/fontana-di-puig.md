@@ -1,6 +1,6 @@
 ---
 slug: fontana-di-puig
-tags: [loops, esquemes]
+tags: [loops, while-loop, counters, accumulators]
 difficulty: 3
 ---
 # Fontana di Puig

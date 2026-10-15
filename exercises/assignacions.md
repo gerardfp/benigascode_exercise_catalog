@@ -1,6 +1,6 @@
 ---
 slug: assignacions
-tags: [variables]
+tags: [variables, types]
 difficulty: 1
 ---
 # Assignacions

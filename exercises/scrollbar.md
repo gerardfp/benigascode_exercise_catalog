@@ -1,6 +1,6 @@
 ---
 slug: scrollbar
-tags: [operadors, aritmetics]
+tags: [operators, arithmetic, math, gui]
 difficulty: 3
 ---
 # Scrollbar

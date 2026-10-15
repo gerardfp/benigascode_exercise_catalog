@@ -1,6 +1,6 @@
 ---
 slug: maxima-puntuacio
-tags: [loops, esquemes]
+tags: [strings, loops, while-loop, min-max]
 difficulty: 3
 ---
 # Màxima puntuació

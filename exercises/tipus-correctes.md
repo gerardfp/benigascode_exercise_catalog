@@ -1,6 +1,6 @@
 ---
 slug: tipus-correctes
-tags: [variables]
+tags: [variables, types]
 difficulty: 1
 ---
 # Tipus correctes

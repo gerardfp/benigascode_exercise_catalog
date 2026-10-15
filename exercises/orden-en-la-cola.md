@@ -1,6 +1,6 @@
 ---
 slug: orden-en-la-cola
-tags: [arrays, esquemes]
+tags: [arrays, loops, for-loop, flags, search]
 difficulty: 3
 ---
 # Orden en la cola

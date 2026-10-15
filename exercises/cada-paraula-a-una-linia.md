@@ -1,6 +1,6 @@
 ---
 slug: cada-paraula-a-una-linia
-tags: [scanner]
+tags: [strings, scanner, io]
 difficulty: 1
 ---
 # Cada paraula a una línia

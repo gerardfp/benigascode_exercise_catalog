@@ -1,6 +1,6 @@
 ---
 slug: recursive-reverse-string
-tags: [recursivitat, strings]
+tags: [strings, recursion, string-manipulation]
 difficulty: 3
 ---
 # Reverse String

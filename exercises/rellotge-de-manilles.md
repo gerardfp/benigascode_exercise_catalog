@@ -1,6 +1,6 @@
 ---
 slug: rellotge-de-manilles
-tags: [operadors, math]
+tags: [operators, math, geometry, time]
 difficulty: 3
 ---
 # Rellotge de manilles

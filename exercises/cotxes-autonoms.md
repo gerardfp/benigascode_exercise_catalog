@@ -1,6 +1,6 @@
 ---
 slug: cotxes-autonoms
-tags: [operadors, logics]
+tags: [conditionals, if-else, operators, booleans, logical-operators]
 difficulty: 2
 ---
 # Cotxes autònoms

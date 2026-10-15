@@ -1,6 +1,6 @@
 ---
 slug: nearest-neighbour-interpolation
-tags: [matrix, loops]
+tags: [matrices, 2d-arrays, loops, nested-loops, image-processing, scaling]
 difficulty: 5
 ---
 # Nearest-neighbour interpolation

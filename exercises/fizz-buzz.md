@@ -1,6 +1,6 @@
 ---
 slug: fizz-buzz
-tags: [loops, if]
+tags: [loops, for-loop, conditionals, operators, modulo]
 difficulty: 2
 ---
 # FizzBuzz en Rango

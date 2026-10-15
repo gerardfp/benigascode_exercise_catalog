@@ -1,6 +1,6 @@
 ---
 slug: esquirols-i-nous
-tags: [operadors, aritmetics]
+tags: [operators, arithmetic, modulo]
 difficulty: 1
 ---
 # Esquirols i nous

@@ -1,6 +1,6 @@
 ---
 slug: acronimo
-tags: [strings]
+tags: [strings, loops, string-manipulation]
 difficulty: 4
 ---
 # Acrònims

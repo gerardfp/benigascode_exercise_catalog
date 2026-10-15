@@ -1,6 +1,6 @@
 ---
 slug: lineseparator
-tags: [class]
+tags: [classes, oop, formatting]
 difficulty: 2
 ---
 # LineSeparator

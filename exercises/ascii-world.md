@@ -1,6 +1,6 @@
 ---
 slug: ascii-world
-tags: [literals]
+tags: [literals, io, ascii-art]
 difficulty: 1
 ---
 # Hello World ASCII-art

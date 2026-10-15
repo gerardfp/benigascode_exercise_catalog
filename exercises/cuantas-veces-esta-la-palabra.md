@@ -1,6 +1,6 @@
 ---
 slug: cuantas-veces-esta-la-palabra
-tags: [arrays, strings, esquemes]
+tags: [arrays, strings, loops, for-loop, counters, search]
 difficulty: 3
 ---
 # Cuántas veces está la palabra?

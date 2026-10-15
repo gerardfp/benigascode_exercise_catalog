@@ -1,6 +1,6 @@
 ---
 slug: nota-mitjana
-tags: [operadors, aritmetics]
+tags: [operators, arithmetic, accumulators]
 difficulty: 1
 ---
 # Nota mitjana   aritmètics

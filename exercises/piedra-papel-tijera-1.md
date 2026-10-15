@@ -1,6 +1,6 @@
 ---
 slug: piedra-papel-tijera-1
-tags: [loops, if]
+tags: [loops, while-loop, conditionals, counters, game]
 difficulty: 3
 ---
 # Pedra, Paper, Tisora

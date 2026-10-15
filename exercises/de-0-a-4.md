@@ -1,6 +1,6 @@
 ---
 slug: de-0-a-4
-tags: [loops]
+tags: [loops, for-loop]
 difficulty: 1
 ---
 # De 0 a 4

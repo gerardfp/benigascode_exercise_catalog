@@ -1,6 +1,6 @@
 ---
 slug: notacio-vectorial
-tags: [arrays, loops]
+tags: [arrays, loops, for-loop]
 difficulty: 2
 ---
 # Notació arrays

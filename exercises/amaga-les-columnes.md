@@ -1,6 +1,6 @@
 ---
 slug: amaga-les-columnes
-tags: [matrix]
+tags: [matrices, 2d-arrays, loops, nested-loops, filtering]
 difficulty: 5
 ---
 # Amaga les columnes

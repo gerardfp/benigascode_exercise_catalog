@@ -1,6 +1,6 @@
 ---
 slug: linia-de-punts
-tags: [loops]
+tags: [loops, for-loop, patterns]
 difficulty: 1
 ---
 # Línia de punts

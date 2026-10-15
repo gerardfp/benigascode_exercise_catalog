@@ -1,6 +1,6 @@
 ---
 slug: del-reves
-tags: [arrays]
+tags: [arrays, loops, for-loop, reverse]
 difficulty: 2
 ---
 # Del revés

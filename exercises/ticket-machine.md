@@ -1,6 +1,6 @@
 ---
 slug: ticket-machine
-tags: [loops, if]
+tags: [loops, while-loop, conditionals, simulation]
 difficulty: 3
 ---
 # Ticket machine

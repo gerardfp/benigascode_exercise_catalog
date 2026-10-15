@@ -1,6 +1,6 @@
 ---
 slug: dos-secuencias-iguales
-tags: [arrays, esquemes]
+tags: [arrays, loops, for-loop, flags, comparison]
 difficulty: 3
 ---
 # Dues seqüències iguals

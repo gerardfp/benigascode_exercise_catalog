@@ -1,6 +1,6 @@
 ---
 slug: arrodonir-la-nota
-tags: [conversio]
+tags: [operators, arithmetic, casting, math]
 difficulty: 2
 ---
 # Arrodonir la nota

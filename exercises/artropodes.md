@@ -1,6 +1,6 @@
 ---
 slug: artropodes
-tags: [operadors, aritmetics]
+tags: [operators, arithmetic, scanner]
 difficulty: 1
 ---
 # Artròpodes

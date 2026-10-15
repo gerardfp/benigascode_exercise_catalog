@@ -1,6 +1,6 @@
 ---
 slug: repeat-x
-tags: [loops]
+tags: [loops, for-loop, patterns]
 difficulty: 1
 ---
 # Repeat X

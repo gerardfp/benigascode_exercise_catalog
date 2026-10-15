@@ -1,6 +1,6 @@
 ---
 slug: xifratge-cesar
-tags: [strings, operadors]
+tags: [strings, operators, modulo, char-arithmetic, cryptography]
 difficulty: 3
 ---
 # Xifratge cèsar

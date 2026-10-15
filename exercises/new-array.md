@@ -1,6 +1,6 @@
 ---
 slug: new-array
-tags: [arrays]
+tags: [arrays, types]
 difficulty: 2
 ---
 # New array

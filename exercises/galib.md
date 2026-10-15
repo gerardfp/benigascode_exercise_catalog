@@ -1,6 +1,6 @@
 ---
 slug: galib
-tags: [loops, esquemes]
+tags: [loops, while-loop, conditionals, counters]
 difficulty: 3
 ---
 # Gàlib

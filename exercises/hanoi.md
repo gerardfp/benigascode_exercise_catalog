@@ -1,6 +1,6 @@
 ---
 slug: hanoi
-tags: [recursivitat, arrays]
+tags: [arrays, recursion, simulation, game]
 difficulty: 5
 ---
 # Hanoi

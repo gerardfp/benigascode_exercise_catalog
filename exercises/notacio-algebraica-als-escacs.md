@@ -1,6 +1,6 @@
 ---
 slug: notacio-algebraica-als-escacs
-tags: [conversio]
+tags: [casting, chess, char, coordinates]
 difficulty: 2
 ---
 # Notació algebraica als escacs

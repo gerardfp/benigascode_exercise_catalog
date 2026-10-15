@@ -1,6 +1,6 @@
 ---
 slug: generador-de-corrent
-tags: [loops, esquemes]
+tags: [loops, while-loop, counters, accumulators, simulation]
 difficulty: 3
 ---
 # Generador de corrent

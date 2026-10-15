@@ -1,6 +1,6 @@
 ---
 slug: auto-test
-tags: [arrays]
+tags: [arrays, loops, for-loop, accumulators, filtering]
 difficulty: 4
 ---
 # Auto-test

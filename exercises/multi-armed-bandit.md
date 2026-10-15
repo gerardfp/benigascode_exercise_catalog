@@ -1,6 +1,6 @@
 ---
 slug: multi-armed-bandit
-tags: [arrays, loops]
+tags: [arrays, loops, simulation, probability]
 difficulty: 4
 ---
 # Multi-armed bandit

@@ -1,6 +1,6 @@
 ---
 slug: preu-del-ferrocarril
-tags: [if]
+tags: [conditionals, if-else, operators, arithmetic]
 difficulty: 2
 ---
 # Preu del ferrocarril

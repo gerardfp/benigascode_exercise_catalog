@@ -1,6 +1,6 @@
 ---
 slug: stigid-sert
-tags: [operadors, aritmetics]
+tags: [operators, arithmetic, modulo, math]
 difficulty: 1
 ---
 # stigid serT

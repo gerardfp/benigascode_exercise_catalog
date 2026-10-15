@@ -1,6 +1,6 @@
 ---
 slug: termometre
-tags: [class]
+tags: [classes, oop, formatting]
 difficulty: 2
 ---
 # Termòmetre

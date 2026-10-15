@@ -1,6 +1,6 @@
 ---
 slug: impresora-matricial
-tags: [loops]
+tags: [loops, while-loop, ascii-art, patterns]
 difficulty: 3
 ---
 # Impresora matricial

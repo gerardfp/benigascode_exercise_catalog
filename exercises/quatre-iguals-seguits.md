@@ -1,6 +1,6 @@
 ---
 slug: quatre-iguals-seguits
-tags: [loops, esquemes]
+tags: [loops, while-loop, sentinel-loop, counters]
 difficulty: 3
 ---
 # Quatre iguals seguits

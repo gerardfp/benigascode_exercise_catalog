@@ -1,6 +1,6 @@
 ---
 slug: reverse-string
-tags: [strings]
+tags: [strings, loops, for-loop, string-manipulation, reverse]
 difficulty: 2
 ---
 # Reverse String

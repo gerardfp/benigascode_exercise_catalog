@@ -1,6 +1,6 @@
 ---
 slug: divisibles-per-3
-tags: [loops]
+tags: [loops, for-loop, conditionals, operators, modulo]
 difficulty: 2
 ---
 # Divisibles per 3

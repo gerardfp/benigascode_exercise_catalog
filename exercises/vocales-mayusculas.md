@@ -1,6 +1,6 @@
 ---
 slug: vocales-mayusculas
-tags: [strings, loops]
+tags: [strings, loops, string-manipulation]
 difficulty: 3
 ---
 # Vocales Mayúsculas

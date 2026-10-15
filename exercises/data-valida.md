@@ -1,6 +1,6 @@
 ---
 slug: data-valida
-tags: [if]
+tags: [conditionals, if-else, booleans, date-time]
 difficulty: 2
 ---
 # Data vàlida

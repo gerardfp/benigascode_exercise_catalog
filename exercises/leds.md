@@ -1,6 +1,6 @@
 ---
 slug: leds
-tags: [class]
+tags: [classes, oop, booleans]
 difficulty: 2
 ---
 # Leds

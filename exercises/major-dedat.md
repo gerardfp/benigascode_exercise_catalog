@@ -1,6 +1,6 @@
 ---
 slug: major-dedat
-tags: [operadors, relacionals]
+tags: [operators, booleans, relational-operators]
 difficulty: 1
 ---
 # Major d'edat

@@ -1,6 +1,6 @@
 ---
 slug: ordenar-secuencia
-tags: [arrays, esquemes]
+tags: [arrays, loops, nested-loops, sorting]
 difficulty: 4
 ---
 # Ordenar seqüència

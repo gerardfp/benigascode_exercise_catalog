@@ -1,6 +1,6 @@
 ---
 slug: unicode-points
-tags: [conversio, strings]
+tags: [strings, casting, formatting, char]
 difficulty: 2
 ---
 # Unicode points

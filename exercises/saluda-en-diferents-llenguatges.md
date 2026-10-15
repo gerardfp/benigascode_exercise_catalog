@@ -1,6 +1,6 @@
 ---
 slug: saluda-en-diferents-llenguatges
-tags: [if, switch]
+tags: [strings, conditionals, switch]
 difficulty: 2
 ---
 # Saluda en diferents idiomes

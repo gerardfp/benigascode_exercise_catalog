@@ -1,6 +1,6 @@
 ---
 slug: esquemes-comptadors-parells
-tags: [arrays, esquemes]
+tags: [arrays, loops, for-loop, operators, modulo, counters]
 difficulty: 3
 ---
 # Comptadors: parells

@@ -1,6 +1,6 @@
 ---
 slug: contando-minas
-tags: [matrix]
+tags: [matrices, 2d-arrays, loops, nested-loops, counters, game]
 difficulty: 4
 ---
 # Comptant mines

@@ -1,6 +1,6 @@
 ---
 slug: tres-en-ratlla
-tags: [arrays, if]
+tags: [arrays, conditionals, game, board-game]
 difficulty: 4
 ---
 # Tres en ratlla

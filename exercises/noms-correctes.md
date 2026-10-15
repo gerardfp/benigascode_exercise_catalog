@@ -1,6 +1,6 @@
 ---
 slug: noms-correctes
-tags: [variables]
+tags: [variables, types]
 difficulty: 1
 ---
 # Noms correctes

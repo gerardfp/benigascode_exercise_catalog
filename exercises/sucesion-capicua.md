@@ -1,6 +1,6 @@
 ---
 slug: sucesion-capicua
-tags: [arrays, esquemes]
+tags: [arrays, loops, for-loop, flags, two-pointers]
 difficulty: 3
 ---
 # Capicua

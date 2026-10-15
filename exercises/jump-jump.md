@@ -1,6 +1,6 @@
 ---
 slug: jump-jump
-tags: [loops]
+tags: [loops, while-loop, simulation, game]
 difficulty: 3
 ---
 # Jump, jump!

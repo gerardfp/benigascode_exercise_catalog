@@ -1,6 +1,6 @@
 ---
 slug: del-1-al-5
-tags: [loops, esquemes]
+tags: [loops, while-loop, sentinel-loop, flags, search]
 difficulty: 3
 ---
 # Del 1 al 5

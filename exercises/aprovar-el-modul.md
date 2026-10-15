@@ -1,6 +1,6 @@
 ---
 slug: aprovar-el-modul
-tags: [operadors, logics]
+tags: [conditionals, operators, arithmetic, booleans]
 difficulty: 2
 ---
 # Aprovar el mòdul

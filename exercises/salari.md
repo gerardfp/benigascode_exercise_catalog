@@ -1,6 +1,6 @@
 ---
 slug: salari
-tags: [arrays, esquemes]
+tags: [arrays, loops, for-loop, operators, arithmetic, accumulators]
 difficulty: 3
 ---
 # Salari

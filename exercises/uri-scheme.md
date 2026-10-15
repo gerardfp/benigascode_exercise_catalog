@@ -1,6 +1,6 @@
 ---
 slug: uri-scheme
-tags: [class]
+tags: [strings, classes, oop, parsing]
 difficulty: 3
 ---
 # URI Scheme

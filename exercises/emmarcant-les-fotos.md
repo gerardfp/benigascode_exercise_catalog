@@ -1,6 +1,6 @@
 ---
 slug: emmarcant-les-fotos
-tags: [if, math]
+tags: [conditionals, if-else, math, geometry]
 difficulty: 3
 ---
 # Emmarcant les fotos

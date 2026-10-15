@@ -1,6 +1,6 @@
 ---
 slug: hansel-i-gretel
-tags: [matrix, loops]
+tags: [matrices, 2d-arrays, loops, nested-loops, simulation, game]
 difficulty: 5
 ---
 # Hansel i Gretel

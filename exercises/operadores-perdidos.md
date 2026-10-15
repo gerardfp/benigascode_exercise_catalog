@@ -1,6 +1,6 @@
 ---
 slug: operadores-perdidos
-tags: [if]
+tags: [conditionals, if-else, operators, arithmetic]
 difficulty: 2
 ---
 # Operadors perduts

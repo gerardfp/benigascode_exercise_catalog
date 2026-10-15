@@ -1,6 +1,6 @@
 ---
 slug: case-styles
-tags: [strings]
+tags: [strings, loops, string-manipulation]
 difficulty: 4
 ---
 # CaSe StYlEs

@@ -1,6 +1,6 @@
 ---
 slug: picos-maximos-y-minimos
-tags: [loops, esquemes]
+tags: [loops, while-loop, sentinel-loop, counters, min-max]
 difficulty: 4
 ---
 # Picos máximos y mínimos

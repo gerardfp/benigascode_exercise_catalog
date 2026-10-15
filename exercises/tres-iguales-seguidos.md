@@ -1,6 +1,6 @@
 ---
 slug: tres-iguales-seguidos
-tags: [loops, esquemes]
+tags: [loops, while-loop, nested-loops, sentinel-loop, flags]
 difficulty: 3
 ---
 # Tres iguales seguidos

@@ -1,6 +1,6 @@
 ---
 slug: word-highlight
-tags: [strings, arrays]
+tags: [arrays, strings, string-manipulation, formatting]
 difficulty: 4
 ---
 # Word highlight

@@ -1,6 +1,6 @@
 ---
 slug: contenidors
-tags: [if, strings]
+tags: [strings, conditionals, if-else, simulation]
 difficulty: 3
 ---
 # Contenidors

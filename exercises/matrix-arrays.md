@@ -1,6 +1,6 @@
 ---
 slug: matrix-arrays
-tags: [matrix, esquemes]
+tags: [matrices, 2d-arrays, loops, nested-loops, counters]
 difficulty: 3
 ---
 # Matrix

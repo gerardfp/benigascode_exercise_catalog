@@ -1,6 +1,6 @@
 ---
 slug: piramides-de-llumins
-tags: [operadors, aritmetics]
+tags: [operators, arithmetic, math]
 difficulty: 1
 ---
 # Piràmides de llumins
