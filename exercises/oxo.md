@@ -1,6 +1,7 @@
 ---
 slug: OXO
-difficulty: 5
+tags: [matrix, if]
+difficulty: 4
 ---
 # OXO
 

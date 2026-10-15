@@ -1,7 +1,7 @@
 ---
 slug: valors-correctes
 tags: [variables]
-difficulty: 5
+difficulty: 1
 ---
 # Valors correctes
 

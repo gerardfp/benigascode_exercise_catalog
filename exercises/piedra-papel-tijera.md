@@ -1,7 +1,7 @@
 ---
 slug: piedra-papel-tijera
-tags: [condicionales, switch, strings, i/o]
-difficulty: 5
+tags: [if, switch]
+difficulty: 2
 ---
 # Piedra, papel o tijera
 

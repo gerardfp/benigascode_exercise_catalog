@@ -1,5 +1,6 @@
 ---
 slug: balanceig-de-carrega
+tags: [arrays, esquemes]
 difficulty: 6
 ---
 # Balanceig de càrrega

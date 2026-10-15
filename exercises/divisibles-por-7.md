@@ -1,6 +1,7 @@
 ---
 slug: divisibles-por-7
-difficulty: 5
+tags: [loops]
+difficulty: 2
 ---
 # Divisibles por 7
 

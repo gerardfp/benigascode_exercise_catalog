@@ -1,7 +1,7 @@
 ---
 slug: lletres-scrabble
 tags: [if, switch]
-difficulty: 5
+difficulty: 2
 ---
 # Lletres de l'Scrabble
 

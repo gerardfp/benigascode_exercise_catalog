@@ -1,6 +1,7 @@
 ---
 slug: diccionari
-difficulty: 5
+tags: [arrays, strings]
+difficulty: 3
 ---
 # Diccionari
 

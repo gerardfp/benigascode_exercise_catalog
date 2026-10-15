@@ -1,6 +1,6 @@
 ---
 slug: barrel-cannon
-tags: [array]
+tags: [arrays]
 difficulty: 6
 ---
 # Barrel Cannon

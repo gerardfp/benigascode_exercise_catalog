@@ -1,7 +1,7 @@
 ---
 slug: esquemes-comptadors-majors-que
 tags: [arrays, esquemes]
-difficulty: 5
+difficulty: 3
 ---
 # Comptadors: majors que
 

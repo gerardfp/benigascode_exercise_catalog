@@ -1,6 +1,7 @@
 ---
 slug: precision-mecanografica
-difficulty: 5
+tags: [conversio]
+difficulty: 2
 ---
 # Precisión mecanográfica
 

@@ -1,7 +1,7 @@
 ---
 slug: preu-del-ferrocarril
 tags: [if]
-difficulty: 5
+difficulty: 2
 ---
 # Preu del ferrocarril
 

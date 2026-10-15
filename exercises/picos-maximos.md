@@ -1,6 +1,7 @@
 ---
 slug: picos-maximos
-difficulty: 5
+tags: [loops, esquemes]
+difficulty: 3
 ---
 # Picos máximos
 

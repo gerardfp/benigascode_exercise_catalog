@@ -1,6 +1,6 @@
 ---
 slug: aprovar-el-modul
-tags: [operadors]
+tags: [operadors, logics]
 difficulty: 2
 ---
 # Aprovar el mòdul

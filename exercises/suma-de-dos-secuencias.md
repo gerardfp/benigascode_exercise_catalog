@@ -1,6 +1,7 @@
 ---
 slug: suma-de-dos-secuencias
-difficulty: 5
+tags: [arrays, loops]
+difficulty: 3
 ---
 # Suma de dos secuencias
 

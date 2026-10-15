@@ -1,7 +1,7 @@
 ---
 slug: interval
-tags: [for]
-difficulty: 5
+tags: [loops]
+difficulty: 2
 ---
 # Interval
 

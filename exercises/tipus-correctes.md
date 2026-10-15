@@ -1,7 +1,7 @@
 ---
 slug: tipus-correctes
 tags: [variables]
-difficulty: 5
+difficulty: 1
 ---
 # Tipus correctes
 

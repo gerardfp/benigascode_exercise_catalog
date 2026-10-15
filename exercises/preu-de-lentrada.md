@@ -1,7 +1,7 @@
 ---
 slug: preu-de-lentrada
 tags: [if]
-difficulty: 5
+difficulty: 2
 ---
 # Preu de l'entrada
 

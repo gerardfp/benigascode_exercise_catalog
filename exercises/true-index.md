@@ -1,7 +1,7 @@
 ---
 slug: true-index
 tags: [arrays]
-difficulty: 5
+difficulty: 2
 ---
 # True index
 

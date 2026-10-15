@@ -1,6 +1,7 @@
 ---
 slug: equation2d
-difficulty: 5
+tags: [class, math]
+difficulty: 4
 ---
 # Equation2d
 

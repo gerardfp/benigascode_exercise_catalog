@@ -1,7 +1,7 @@
 ---
 slug: prova-mecanografica
 tags: [conversio]
-difficulty: 5
+difficulty: 2
 ---
 # Prova mecanogràfica
 

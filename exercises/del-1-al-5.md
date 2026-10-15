@@ -1,6 +1,7 @@
 ---
 slug: del-1-al-5
-difficulty: 5
+tags: [loops, esquemes]
+difficulty: 3
 ---
 # Del 1 al 5
 

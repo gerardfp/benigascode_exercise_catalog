@@ -1,7 +1,7 @@
 ---
 slug: cub-de-rubik
-tags: [operadors]
-difficulty: 5
+tags: [operadors, aritmetics]
+difficulty: 1
 ---
 # Cub de Rubik
 

@@ -1,6 +1,6 @@
 ---
 slug: case-styles
-tags: [string]
+tags: [strings]
 difficulty: 4
 ---
 # CaSe StYlEs

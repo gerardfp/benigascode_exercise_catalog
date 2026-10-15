@@ -1,6 +1,7 @@
 ---
 slug: triangle
-difficulty: 5
+tags: [class]
+difficulty: 3
 ---
 # Triangle
 

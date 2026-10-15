@@ -1,7 +1,7 @@
 ---
 slug: media-truncada
-tags: [for]
-difficulty: 5
+tags: [loops, esquemes]
+difficulty: 3
 ---
 # Media truncada
 

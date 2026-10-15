@@ -1,7 +1,7 @@
 ---
 slug: emmarcant-les-fotos
-tags: [operadors]
-difficulty: 5
+tags: [if, math]
+difficulty: 3
 ---
 # Emmarcant les fotos
 

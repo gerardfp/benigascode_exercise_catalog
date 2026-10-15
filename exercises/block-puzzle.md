@@ -1,6 +1,6 @@
 ---
 slug: block-puzzle
-tags: [array]
+tags: [matrix]
 difficulty: 4
 ---
 # Block Puzzle

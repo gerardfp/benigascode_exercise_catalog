@@ -1,7 +1,7 @@
 ---
 slug: posicion-de-una-letra
-tags: [array]
-difficulty: 5
+tags: [arrays, strings, esquemes]
+difficulty: 2
 ---
 # Posició d'una lletra en un text
 

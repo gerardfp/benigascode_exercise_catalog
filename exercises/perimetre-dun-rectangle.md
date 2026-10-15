@@ -1,7 +1,7 @@
 ---
 slug: perimetre-dun-rectangle
 tags: [operadors, aritmetics]
-difficulty: 5
+difficulty: 1
 ---
 # Perímetre d'un rectangle
 

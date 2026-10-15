@@ -1,7 +1,7 @@
 ---
 slug: show-line-numbers
-tags: [for]
-difficulty: 5
+tags: [loops, strings]
+difficulty: 2
 ---
 # Show line numbers
 

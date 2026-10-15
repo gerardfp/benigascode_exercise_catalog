@@ -1,7 +1,7 @@
 ---
 slug: prestatgeries
 tags: [operadors, relacionals]
-difficulty: 3
+difficulty: 1
 ---
 # Llibres i prestatgeries
 

@@ -1,6 +1,7 @@
 ---
 slug: estan-todos
-difficulty: 5
+tags: [arrays, esquemes]
+difficulty: 3
 ---
 # Hi sou tots i totes?
 

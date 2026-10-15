@@ -1,7 +1,7 @@
 ---
 slug: desglose-de-cantidades-en-monedas
-tags: [if]
-difficulty: 5
+tags: [if, operadors]
+difficulty: 2
 ---
 # Desglossament en monedes
 

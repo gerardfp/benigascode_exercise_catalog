@@ -1,7 +1,7 @@
 ---
 slug: leds
-tags: [class, L0]
-difficulty: 5
+tags: [class]
+difficulty: 2
 ---
 # Leds
 

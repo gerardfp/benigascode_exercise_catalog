@@ -1,5 +1,6 @@
 ---
 slug: auto-indent-lines
+tags: [strings, loops]
 difficulty: 5
 ---
 # Auto-Indent Lines

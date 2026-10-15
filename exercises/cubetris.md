@@ -1,7 +1,7 @@
 ---
 slug: cubetris
 tags: [matrix]
-difficulty: 5
+difficulty: 4
 ---
 # Cubetris
 

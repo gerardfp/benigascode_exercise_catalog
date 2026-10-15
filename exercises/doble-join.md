@@ -1,6 +1,7 @@
 ---
 slug: doble-join
-difficulty: 5
+tags: [arrays, scanner]
+difficulty: 6
 ---
 # Doble JOIN
 

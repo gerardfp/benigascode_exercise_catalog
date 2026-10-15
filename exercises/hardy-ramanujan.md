@@ -1,7 +1,7 @@
 ---
 slug: hardy-ramanujan
-tags: [operadors]
-difficulty: 5
+tags: [operadors, relacionals]
+difficulty: 2
 ---
 # Hardy-Ramanujan
 

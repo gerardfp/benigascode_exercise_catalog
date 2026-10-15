@@ -1,7 +1,7 @@
 ---
 slug: divisibles-per-3
-tags: [for]
-difficulty: 5
+tags: [loops]
+difficulty: 2
 ---
 # Divisibles per 3
 

@@ -1,7 +1,7 @@
 ---
 slug: generador-de-corrent
-tags: [loops]
-difficulty: 5
+tags: [loops, esquemes]
+difficulty: 3
 ---
 # Generador de corrent
 

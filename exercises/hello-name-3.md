@@ -1,7 +1,7 @@
 ---
 slug: hello-name-3
-tags: [literals]
-difficulty: 5
+tags: [literals, variables]
+difficulty: 1
 ---
 # Hello, NOM!
 

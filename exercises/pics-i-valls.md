@@ -1,7 +1,7 @@
 ---
 slug: pics-i-valls
-tags: [for]
-difficulty: 5
+tags: [loops, esquemes]
+difficulty: 3
 ---
 # Pics i valls
 

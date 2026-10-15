@@ -1,7 +1,7 @@
 ---
 slug: randomsix
-tags: [for]
-difficulty: 5
+tags: [loops, random]
+difficulty: 3
 ---
 # RandomSix
 

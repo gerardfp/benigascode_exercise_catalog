@@ -1,6 +1,7 @@
 ---
 slug: dos-reinas
-difficulty: 5
+tags: [if]
+difficulty: 3
 ---
 # Dos Reinas
 

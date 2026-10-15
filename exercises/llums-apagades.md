@@ -1,7 +1,7 @@
 ---
 slug: llums-apagades
 tags: [operadors, logics]
-difficulty: 5
+difficulty: 2
 ---
 # Llums apagats
 

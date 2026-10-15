@@ -1,7 +1,7 @@
 ---
 slug: mezcla-de-secuencias
-tags: [array]
-difficulty: 5
+tags: [arrays, esquemes]
+difficulty: 4
 ---
 # Mescla de seqüències
 

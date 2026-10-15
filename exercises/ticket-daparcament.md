@@ -1,7 +1,7 @@
 ---
 slug: ticket-daparcament
-tags: [operadors]
-difficulty: 5
+tags: [operadors, aritmetics]
+difficulty: 2
 ---
 # Ticket d'aparcament
 

@@ -1,6 +1,7 @@
 ---
 slug: fontana-di-puig
-difficulty: 5
+tags: [loops, esquemes]
+difficulty: 3
 ---
 # Fontana di Puig
 

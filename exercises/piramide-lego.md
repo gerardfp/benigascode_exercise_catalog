@@ -1,7 +1,7 @@
 ---
 slug: piramide-lego
-tags: [operadors]
-difficulty: 5
+tags: [operadors, aritmetics]
+difficulty: 1
 ---
 # Piràmide lego
 

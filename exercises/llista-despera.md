@@ -1,6 +1,7 @@
 ---
 slug: llista-despera
-difficulty: 5
+tags: [arrays, esquemes]
+difficulty: 3
 ---
 # Llista d'espera
 

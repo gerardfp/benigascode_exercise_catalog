@@ -1,5 +1,6 @@
 ---
 slug: buscando-minas
+tags: [matrix]
 difficulty: 3
 ---
 # Cercant mines

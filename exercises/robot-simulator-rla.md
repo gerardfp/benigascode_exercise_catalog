@@ -1,7 +1,7 @@
 ---
 slug: robot-simulator-rla
-tags: [loops]
-difficulty: 5
+tags: [loops, strings]
+difficulty: 4
 ---
 # Robot simulator
 

@@ -1,6 +1,7 @@
 ---
 slug: estadisticas-del-partido
-difficulty: 5
+tags: [loops, if]
+difficulty: 3
 ---
 # Estadísticas del partido
 

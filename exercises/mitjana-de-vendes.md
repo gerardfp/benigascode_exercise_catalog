@@ -1,6 +1,7 @@
 ---
 slug: mitjana-de-vendes
-difficulty: 5
+tags: [arrays, esquemes]
+difficulty: 3
 ---
 # Mitjana de vendes
 

@@ -1,7 +1,7 @@
 ---
 slug: xarxes-privades
 tags: [if]
-difficulty: 5
+difficulty: 3
 ---
 # Xarxes privades
 

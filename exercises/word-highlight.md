@@ -1,6 +1,7 @@
 ---
 slug: word-highlight
-difficulty: 5
+tags: [strings, arrays]
+difficulty: 4
 ---
 # Word highlight
 

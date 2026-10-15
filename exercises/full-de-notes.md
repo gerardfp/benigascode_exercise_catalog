@@ -1,7 +1,7 @@
 ---
 slug: full-de-notes
-tags: [loops]
-difficulty: 5
+tags: [loops, esquemes]
+difficulty: 3
 ---
 # Full de notes
 

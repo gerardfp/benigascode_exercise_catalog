@@ -1,6 +1,6 @@
 ---
 slug: sopa-de-lletres
-tags: [strings]
+tags: [matrix, strings]
 difficulty: 5
 ---
 # Sopa de lletres

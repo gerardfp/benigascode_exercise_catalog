@@ -1,7 +1,7 @@
 ---
 slug: xirtam
-tags: [arrays]
-difficulty: 5
+tags: [matrix]
+difficulty: 3
 ---
 # Xirtam
 

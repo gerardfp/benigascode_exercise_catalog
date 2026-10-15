@@ -1,7 +1,7 @@
 ---
 slug: lliga-de-futbol
-tags: [operadors]
-difficulty: 5
+tags: [operadors, relacionals]
+difficulty: 2
 ---
 # Lliga de futbol
 

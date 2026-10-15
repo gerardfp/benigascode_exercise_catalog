@@ -1,0 +1,33 @@
+UNIDAD 1
+* Se han identificado los bloques que componen la estructura de un programa informático.
+* Se han creado proyectos de desarrollo de aplicaciones.
+* Se han utilizado entornos integrados de desarrollo.
+* Se han identificado los distintos tipos de variables y la utilidad específica de cada uno.
+* Se ha modificado el código de un programa para crear y utilizar variables.
+* Se han creado y utilizado constantes y literales.
+* Se han clasificado, reconocido y utilizado en expresiones los operadores del lenguaje.
+* Se ha comprobado el funcionamiento de las conversiones de tipo explícitas e implícitas.
+* Se han introducido comentarios en el código.
+* Se han escrito programas simples.
+* Se han escrito llamadas a métodos estáticos. (se refiere al IO.println() o IO.readln())
+* Se han utilizado parámetros en la llamada a métodos. (se refiere al IO.println() o IO.readln())
+* Se ha utilizado el entorno integrado de desarrollo en la creación y compilación de programas simples.
+
+UNIDAD 2
+* Se ha escrito y probado código que haga uso de estructuras de selección.
+* Se han utilizado estructuras de repetición.
+* Se han reconocido las posibilidades de las sentencias de salto.
+* Se han creado programas ejecutables utilizando diferentes estructuras de control.
+
+UNIDAD 3
+* Se han escrito programas que utilicen matrices (arrays).
+
+UNIDAD 4
+* Se han identificado los fundamentos de la programación orientada a objetos. (se refiere al uso de Scanner, String, Math o Random entre otros)
+* Se han instanciado objetos a partir de clases predefinidas. (se refiere al uso de Scanner, String, Math o Random entre otros)
+* Se han utilizado métodos y propiedades de los objetos. (se refiere al uso de Scanner, String, Math o Random entre otros)
+* Se han incorporado y utilizado librerías de objetos. (se refiere al uso de Scanner, String, Math o Random entre otros)
+* Se han utilizado constructores. (se refiere al uso de Scanner, String, Math o Random entre otros)
+* Se ha utilizado la consola para realizar operaciones de entrada y salida de información (Scanner, IO).
+* Se han reconocido las posibilidades de entrada / salida del lenguaje y las librerías asociadas (Scanner, IO).
+* Se han aplicado formatos en la visualización de la información (String formatter).

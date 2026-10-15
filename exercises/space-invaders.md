@@ -1,7 +1,7 @@
 ---
 slug: space-invaders
-tags: [operadors]
-difficulty: 5
+tags: [operadors, logics]
+difficulty: 2
 ---
 # Space Invaders
 

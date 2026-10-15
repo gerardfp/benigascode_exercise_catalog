@@ -1,7 +1,7 @@
 ---
 slug: factorial
 tags: [recursivitat]
-difficulty: 5
+difficulty: 3
 ---
 # Factorial
 

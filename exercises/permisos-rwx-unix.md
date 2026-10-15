@@ -1,7 +1,7 @@
 ---
 slug: permisos-rwx-unix
 tags: [if]
-difficulty: 5
+difficulty: 2
 ---
 # Permisos rwx UNIX
 

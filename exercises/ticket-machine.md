@@ -1,7 +1,7 @@
 ---
 slug: ticket-machine
-tags: [for]
-difficulty: 5
+tags: [loops, if]
+difficulty: 3
 ---
 # Ticket machine
 

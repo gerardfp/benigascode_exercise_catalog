@@ -1,7 +1,7 @@
 ---
 slug: cotxes-autonoms
-tags: [if]
-difficulty: 5
+tags: [operadors, logics]
+difficulty: 2
 ---
 # Cotxes autònoms
 

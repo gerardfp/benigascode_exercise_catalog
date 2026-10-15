@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portal d'Exercicis | Java 26</title>
+    <script src="../assets/js/script.js"></script>
+    <link rel="stylesheet" href="../assets/css/estil.css">
+    <style>
+        .exercise-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.25em;
+            margin: 2em 0;
+        }
+        .ex-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-default);
+            border-radius: var(--radius-md);
+            padding: 1.25em;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+        }
+        .ex-card:hover {
+            border-color: var(--accent-blue);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+        }
+        .ex-card h3 {
+            margin-top: 0;
+            color: #f1f5f9;
+            font-size: 1.2rem;
+        }
+        .ex-badge {
+            display: inline-block;
+            padding: 0.2em 0.6em;
+            font-size: 0.75rem;
+            font-weight: 700;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.8em;
+        }
+        .badge-u1 { background: #0369a1; color: #e0f2fe; }
+        .badge-u2 { background: #b45309; color: #fef3c7; }
+        .badge-u3 { background: #047857; color: #d1fae5; }
+        .badge-u4 { background: #0e7490; color: #cffafe; }
+        .badge-u5 { background: #1d4ed8; color: #dbeafe; }
+        .badge-u6 { background: #6d28d9; color: #ede9fe; }
+        .badge-u7 { background: #4338ca; color: #e0e7ff; }
+        .badge-u8 { background: #be185d; color: #fce7f3; }
+        .badge-u9 { background: #ea580c; color: #ffedd5; }
+    </style>
+</head>
+<body>
+<nav></nav>
+<header>
+    <p><a href="../index.html">← Tornar al curs Java 26</a></p>
+    <h1>Portal d'Exercicis Java 26</h1>
+    <p>Col·lecció de qüestionaris interactius autocorregibles, exercicis pràctics i projectes de programació organitzats per Unitats Didàctiques.</p>
+</header>
+
+<section>
+    <h2>Exercicis i Qüestionaris Temàtics per Unitat</h2>
+    <div class="exercise-grid">
+        <div class="ex-card">
+            <div>
+                <span class="ex-badge badge-u1">U1</span>
+                <h3>Elements Bàsics</h3>
+                <p>51 qüestionaris interactius (literals, variables, operadors, ternari, expressions switch, càsting/parsing, IO.readln) i 11 reptes pràctics progressius.</p>
+            </div>
+            <a href="u1/index.html" class="exercise-btn">Qüestionaris i Exercicis</a>
+        </div>
+
+        <div class="ex-card">
+            <div>
+                <span class="ex-badge badge-u2">U2</span>
+                <h3>Control de Flux</h3>
+                <p>Qüestionaris de selecció (if-else, switch amb ->), bucles (for, while, do-while), salts break/continue i reptes de programació.</p>
+            </div>
+            <a href="u2/index.html" class="exercise-btn">Qüestionaris i Exercicis</a>
+        </div>
+
+        <div class="ex-card">
+            <div>
+                <span class="ex-badge badge-u3">U3</span>
+                <h3>Arrays i Matrius</h3>
+                <p>Qüestionaris d'arrays unidimensionals i matrius 2D, índexs, recorreguts, màxims, mínims i operacions sobre taulers.</p>
+            </div>
+            <a href="u3/index.html" class="exercise-btn">Qüestionaris i Exercicis</a>
+        </div>
+
+        <div class="ex-card">
+            <div>
+                <span class="ex-badge badge-u4">U4</span>
+                <h3>Utils del JDK</h3>
+                <p>Lectura amb Scanner, manipulació de text amb String, càlculs amb Math, generació aleatòria amb Random i formatatge amb .formatted().</p>
+            </div>
+            <a href="u4/index.html" class="exercise-btn">Qüestionaris i Exercicis</a>
+        </div>
+
+        <div class="ex-card">
+            <div>
+                <span class="ex-badge badge-u5">U5</span>
+                <h3>Esquemes Algorítmics</h3>
+                <p>Qüestionaris de recorregut, cerca i ordenació, i 12 reptes pràctics: comptadors, acumuladors, cerca de màxims i posició, cerca binària, algorismes d'ordenació i mescla ordenada.</p>
+            </div>
+            <a href="u5/index.html" class="exercise-btn">Qüestionaris i Exercicis</a>
+        </div>
+
+        <div class="ex-card">
+            <div>
+                <span class="ex-badge badge-u6">U6</span>
+                <h3>Classes, Herència i Excepcions</h3>
+                <p>Qüestionari de POO i projectes complets: Persona, TextBox, Object Racing, jerarquies Animals i Workers, Shape2D i gestió d'excepcions.</p>
+            </div>
+            <a href="u6/index.html" class="exercise-btn">Qüestionaris i Projectes</a>
+        </div>
+
+        <div class="ex-card">
+            <div>
+                <span class="ex-badge badge-u7">U7</span>
+                <h3>Col·leccions Avançades</h3>
+                <p>Utilitats amb List (StringListUtils), Calendari d'Exàmens, operacions amb Set i Map, Streams funcionals i Expressions Regulars (Regex).</p>
+            </div>
+            <a href="u7/index.html" class="exercise-btn">Qüestionaris i Projectes</a>
+        </div>
+
+        <div class="ex-card">
+            <div>
+                <span class="ex-badge badge-u8">U8</span>
+                <h3>Persistència</h3>
+                <p>Lectura i escriptura de fitxers de text amb java.nio.file (Path, Files), formats d'intercanvi JSON i XML, i connexions JDBC a bases de dades.</p>
+            </div>
+            <a href="u8/index.html" class="exercise-btn">Veure Exercicis</a>
+        </div>
+
+        <div class="ex-card">
+            <div>
+                <span class="ex-badge badge-u9">U9</span>
+                <h3>Interfícies Gràfiques (GUI)</h3>
+                <p>Finestres d'escriptori amb JFrame, etiquetes, camps de text, botons interactius, controladors ActionListener i aplicació conversora.</p>
+            </div>
+            <a href="u9/index.html" class="exercise-btn">Veure Exercicis</a>
+        </div>
+    </div>
+
+    <div class="challenge">
+        <h3>Pràctica en el teu entorn de desenvolupament</h3>
+        <p>Tots els exercicis estan dissenyats per ser implementats i provats directament en el teu IDE local (IntelliJ IDEA).</p>
+    </div>
+</section>
+</body>
+</html>

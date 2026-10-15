@@ -1,7 +1,7 @@
 ---
 slug: vendes-acumulades
-tags: [for]
-difficulty: 5
+tags: [loops, esquemes]
+difficulty: 3
 ---
 # Vendes acumulades
 

@@ -1,7 +1,7 @@
 ---
 slug: contenidors
-tags: [if]
-difficulty: 5
+tags: [if, strings]
+difficulty: 3
 ---
 # Contenidors
 

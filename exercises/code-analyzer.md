@@ -1,6 +1,6 @@
 ---
 slug: code-analyzer
-tags: [for]
+tags: [loops, strings]
 difficulty: 3
 ---
 # Code analyzer

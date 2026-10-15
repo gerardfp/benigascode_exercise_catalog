@@ -1,7 +1,7 @@
 ---
 slug: inventari
-tags: [arrays]
-difficulty: 5
+tags: [arrays, loops]
+difficulty: 4
 ---
 # Inventari
 

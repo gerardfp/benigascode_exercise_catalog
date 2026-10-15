@@ -1,6 +1,7 @@
 ---
 slug: select
-difficulty: 5
+tags: [arrays, scanner, strings]
+difficulty: 6
 ---
 # SELECT
 

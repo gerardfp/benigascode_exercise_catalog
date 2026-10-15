@@ -1,7 +1,7 @@
 ---
 slug: salari
-tags: [array]
-difficulty: 5
+tags: [arrays, esquemes]
+difficulty: 3
 ---
 # Salari
 

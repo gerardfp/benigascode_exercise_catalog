@@ -1,7 +1,7 @@
 ---
 slug: maze
-tags: [recursivitat]
-difficulty: 5
+tags: [recursivitat, matrix]
+difficulty: 6
 ---
 # Maze
 

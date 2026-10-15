@@ -1,6 +1,7 @@
 ---
 slug: fizz-buzz
-difficulty: 5
+tags: [loops, if]
+difficulty: 2
 ---
 # FizzBuzz en Rango
 

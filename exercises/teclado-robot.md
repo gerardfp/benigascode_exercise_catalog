@@ -1,7 +1,7 @@
 ---
 slug: teclado-robot
-tags: [array]
-difficulty: 5
+tags: [arrays, loops]
+difficulty: 4
 ---
 # Teclado robot
 

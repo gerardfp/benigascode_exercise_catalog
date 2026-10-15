@@ -1,7 +1,7 @@
 ---
 slug: impresora-matricial
-tags: [for]
-difficulty: 5
+tags: [loops]
+difficulty: 3
 ---
 # Impresora matricial
 

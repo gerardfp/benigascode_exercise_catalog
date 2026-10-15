@@ -1,7 +1,7 @@
 ---
 slug: fizz-buzz-for
-tags: [for]
-difficulty: 5
+tags: [loops, if]
+difficulty: 2
 ---
 # Fizz Buzz
 

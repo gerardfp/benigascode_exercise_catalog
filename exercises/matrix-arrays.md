@@ -1,7 +1,7 @@
 ---
 slug: matrix-arrays
-tags: [arrays]
-difficulty: 5
+tags: [matrix, esquemes]
+difficulty: 3
 ---
 # Matrix
 

@@ -1,6 +1,7 @@
 ---
 slug: posicion-en-el-alfabeto
-difficulty: 5
+tags: [strings, loops]
+difficulty: 2
 ---
 # Posició a l'alfabet
 

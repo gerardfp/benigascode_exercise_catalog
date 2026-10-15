@@ -1,7 +1,7 @@
 ---
 slug: uri-scheme
 tags: [class]
-difficulty: 5
+difficulty: 3
 ---
 # URI Scheme
 

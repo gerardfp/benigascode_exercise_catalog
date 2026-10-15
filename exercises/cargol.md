@@ -1,6 +1,6 @@
 ---
 slug: cargol
-tags: [operadors]
+tags: [operadors, aritmetics]
 difficulty: 3
 ---
 # Cargol

@@ -1,6 +1,7 @@
 ---
 slug: cuenta-palabras
-difficulty: 5
+tags: [loops, scanner, esquemes]
+difficulty: 2
 ---
 # Cuenta palabras
 

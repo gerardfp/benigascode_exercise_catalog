@@ -1,7 +1,7 @@
 ---
 slug: piedra-papel-tijera-1
-tags: [for]
-difficulty: 5
+tags: [loops, if]
+difficulty: 3
 ---
 # Pedra, Paper, Tisora
 

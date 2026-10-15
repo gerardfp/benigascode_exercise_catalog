@@ -1,7 +1,7 @@
 ---
 slug: xifratge-cesar
-tags: [operadors]
-difficulty: 5
+tags: [strings, operadors]
+difficulty: 3
 ---
 # Xifratge cèsar
 

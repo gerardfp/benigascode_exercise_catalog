@@ -1,6 +1,7 @@
 ---
 slug: sumas-encadenadas
-difficulty: 5
+tags: [loops, esquemes]
+difficulty: 3
 ---
 # Sumas encadenadas
 

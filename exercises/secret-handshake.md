@@ -1,7 +1,7 @@
 ---
 slug: secret-handshake
 tags: [if]
-difficulty: 5
+difficulty: 2
 ---
 # Secret Handshake
 

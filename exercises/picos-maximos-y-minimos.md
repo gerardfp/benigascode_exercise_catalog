@@ -1,6 +1,7 @@
 ---
 slug: picos-maximos-y-minimos
-difficulty: 5
+tags: [loops, esquemes]
+difficulty: 4
 ---
 # Picos máximos y mínimos
 

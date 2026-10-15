@@ -1,7 +1,7 @@
 ---
 slug: data-valida
-tags: [operadors]
-difficulty: 5
+tags: [if]
+difficulty: 2
 ---
 # Data vàlida
 

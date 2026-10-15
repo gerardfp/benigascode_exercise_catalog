@@ -1,6 +1,7 @@
 ---
 slug: distancia-hamming
-difficulty: 5
+tags: [strings, loops]
+difficulty: 3
 ---
 # Distància Hamming
 

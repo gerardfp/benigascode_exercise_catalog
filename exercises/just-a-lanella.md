@@ -1,7 +1,7 @@
 ---
 slug: just-a-lanella
-tags: [operadors]
-difficulty: 5
+tags: [operadors, logics, math]
+difficulty: 2
 ---
 # Just a l'anella
 

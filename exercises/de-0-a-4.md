@@ -1,7 +1,7 @@
 ---
 slug: de-0-a-4
-tags: [literals]
-difficulty: 5
+tags: [loops]
+difficulty: 1
 ---
 # De 0 a 4
 

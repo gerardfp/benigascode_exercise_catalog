@@ -1,7 +1,7 @@
 ---
 slug: tpv
-tags: [array]
-difficulty: 5
+tags: [arrays, loops]
+difficulty: 3
 ---
 # TPV
 

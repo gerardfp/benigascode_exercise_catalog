@@ -1,7 +1,7 @@
 ---
 slug: esquemes-comptadors-paraules
-tags: [arrays, esquemes]
-difficulty: 5
+tags: [arrays, strings, esquemes]
+difficulty: 3
 ---
 # Comptadors: paraules
 

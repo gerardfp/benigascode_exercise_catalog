@@ -1,6 +1,7 @@
 ---
 slug: sprite-flip
-difficulty: 5
+tags: [matrix]
+difficulty: 4
 ---
 # Sprite flip
 

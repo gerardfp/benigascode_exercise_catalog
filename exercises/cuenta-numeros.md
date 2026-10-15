@@ -1,6 +1,7 @@
 ---
 slug: cuenta-numeros
-difficulty: 5
+tags: [loops, esquemes]
+difficulty: 2
 ---
 # Cuenta números
 

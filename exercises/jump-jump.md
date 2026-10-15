@@ -1,7 +1,7 @@
 ---
 slug: jump-jump
-tags: [for]
-difficulty: 5
+tags: [loops]
+difficulty: 3
 ---
 # Jump, jump!
 

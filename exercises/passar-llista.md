@@ -1,7 +1,7 @@
 ---
 slug: passar-llista
-tags: [arrays]
-difficulty: 5
+tags: [arrays, strings, esquemes]
+difficulty: 3
 ---
 # Passar llista
 

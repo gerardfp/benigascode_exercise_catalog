@@ -1,6 +1,7 @@
 ---
 slug: suma-digitos-1
-difficulty: 5
+tags: [strings, loops]
+difficulty: 2
 ---
 # Suma dígitos 1
 

@@ -1,7 +1,7 @@
 ---
 slug: hello-you
 tags: [scanner]
-difficulty: 5
+difficulty: 1
 ---
 # Hello you
 

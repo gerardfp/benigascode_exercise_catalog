@@ -1,6 +1,7 @@
 ---
 slug: contando-minas
-difficulty: 5
+tags: [matrix]
+difficulty: 4
 ---
 # Comptant mines
 

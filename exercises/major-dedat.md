@@ -1,7 +1,7 @@
 ---
 slug: major-dedat
 tags: [operadors, relacionals]
-difficulty: 5
+difficulty: 1
 ---
 # Major d'edat
 

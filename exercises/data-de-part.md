@@ -1,7 +1,7 @@
 ---
 slug: data-de-part
-tags: [operadors]
-difficulty: 5
+tags: [operadors, relacionals]
+difficulty: 2
 ---
 # Data de caducitat
 

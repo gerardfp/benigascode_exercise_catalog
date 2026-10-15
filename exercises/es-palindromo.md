@@ -1,7 +1,7 @@
 ---
 slug: es-palindromo
 tags: [strings]
-difficulty: 5
+difficulty: 3
 ---
 # Comprobador de Palíndromos
 

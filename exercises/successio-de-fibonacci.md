@@ -1,7 +1,7 @@
 ---
 slug: successio-de-fibonacci
-tags: [recursivitat]
-difficulty: 5
+tags: [recursivitat, math]
+difficulty: 3
 ---
 # Successió de Fibonacci
 

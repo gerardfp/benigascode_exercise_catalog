@@ -1,5 +1,6 @@
 ---
 slug: paritat-raid
+tags: [arrays, loops]
 difficulty: 5
 ---
 # Paritat RAID

@@ -1,7 +1,7 @@
 ---
 slug: pares-o-nones
 tags: [ternari]
-difficulty: 5
+difficulty: 1
 ---
 # Pares o nones
 

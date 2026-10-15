@@ -1,7 +1,7 @@
 ---
 slug: fireball
-tags: [arrays]
-difficulty: 5
+tags: [arrays, loops]
+difficulty: 3
 ---
 # Fireball
 

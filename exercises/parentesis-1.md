@@ -1,7 +1,7 @@
 ---
 slug: parentesis-1
-tags: [for]
-difficulty: 5
+tags: [loops, strings]
+difficulty: 3
 ---
 # Parèntesis
 

@@ -1,7 +1,7 @@
 ---
 slug: inode-flags
-tags: [if]
-difficulty: 5
+tags: [if, arrays]
+difficulty: 3
 ---
 # Inode flags
 

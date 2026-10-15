@@ -1,7 +1,7 @@
 ---
 slug: suma-els-n-primers-nombres
 tags: [recursivitat]
-difficulty: 5
+difficulty: 2
 ---
 # Suma els n primers nombres
 

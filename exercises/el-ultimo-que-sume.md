@@ -1,7 +1,7 @@
 ---
 slug: el-ultimo-que-sume
-tags: [arrays]
-difficulty: 5
+tags: [arrays, loops]
+difficulty: 3
 ---
 # L'últim que sumi
 

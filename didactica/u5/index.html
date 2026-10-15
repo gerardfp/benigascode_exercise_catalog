@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Unitat 5: Esquemes Algorítmics | Tutorial Java 26</title>
+    <script src="../assets/js/script.js"></script>
+    <link rel="stylesheet" href="../assets/css/estil.css">
+    <link rel="stylesheet" href="../assets/stepper/stepper.css">
+    <script src="../assets/stepper/stepper.js"></script>
+</head>
+<body>
+<nav></nav>
+
+<header>
+    <div class="header-nav">
+        <a href="../index.html">← Índex del curs</a>
+        <a href="../exercicis/u5/index.html" class="ex-link-pill">Exercicis</a>
+    </div>
+    <h1>Unitat 5. Esquemes Algorítmics</h1>
+
+    <div class="abstract">
+        <p><strong>Unitat Didàctica 5:</strong></p>
+        <p>En aquesta unitat aprendràs:</p>
+        <div class="check">Concepte d'esquema algorítmic i la decisió clau: <strong>Recorregut</strong> vs <strong>Cerca</strong></div>
+        <div class="check">Esquemes de recorregut: comptadors, acumuladors (suma/mitjana), extrems (màxims i mínims) i banderes (flags)</div>
+        <div class="check">Esquemes de cerca: cerca lineal amb sortida anticipada i cerca dicotòmica o binària sobre dades ordenades</div>
+        <div class="check">Cerca dicotòmica o binària sobre col·leccions ordenades: estratègia <em>divideix i venceràs</em> i cost logarítmic</div>
+        <div class="check">Algorismes clàssics d'ordenació: Bombolla (<em>Bubble Sort</em>), Selecció directa (<em>Selection Sort</em>) i Inserció directa</div>
+        <div class="check">Mescla (<em>Merge</em>) de dues seqüències ordenades en temps lineal</div>
+    </div>
+</header>
+
+<section>
+
+    <h2>1. Què és un esquema algorítmic?</h2>
+    <p>En programació, molts problemes aparentment diferents comparteixen en realitat la mateixa estructura lògica fonamental. Un <strong>esquema algorítmic</strong> és un patró de disseny provat i reutilitzable per resoldre una família concreta de problemes sobre col·leccions o fluxos de dades.</p>
+    
+    <p>En lloc de reinventar la roda cada vegada, els programadors identifiquem quin esquema s'adapta millor a la situació i l'apliquem amb seguretat. Tots els esquemes iteratius sobre seqüències consten de cinc fases bàsiques:</p>
+
+    <ol>
+        <li><strong>Inicialització:</strong> establir l'estat inicial de les variables de treball (comptadors a 0, acumuladors a 0 o 1, índexs inicials, banderes booleanes).</li>
+        <li><strong>Condició de continuació:</strong> expressió booleana que governa el bucle i determina quan continuar o quan aturar-se.</li>
+        <li><strong>Tractament de l'element:</strong> inspeccionar o operar amb l'element actual de la seqüència.</li>
+        <li><strong>Avanç:</strong> passar a la següent posició o element de la col·lecció.</li>
+        <li><strong>Finalització:</strong> càlcul o tractament posterior un cop acabat el bucle (per exemple, dividir la suma entre el total per obtenir la mitjana, o comprovar si s'ha trobat l'element).</li>
+    </ol>
+
+    <div class="important">
+        <h3>La Gran Decisió: Recorregut vs. Cerca</h3>
+        <p>Davant de qualsevol problema sobre una col·lecció de dades, la primera pregunta que t'has de fer és:</p>
+        <ul>
+            <li><strong>Recorregut (<em>Traversal</em>):</strong> Cal inspeccionar o processar <strong>tots els elements obligatòriament</strong>? (Exemples: calcular la mitjana de notes, incrementar el sou a tots els treballadors, comptar quants números són parells). En un recorregut, el bucle mai s'atura abans d'arribar al final.</li>
+            <li><strong>Cerca (<em>Search</em>):</strong> Volem localitzar un element concret o saber si es compleix una condició? (Exemples: comprovar si un usuari existeix, trobar el primer múltiple de 7). En una cerca, <strong>ens hem d'aturar tan bon punt trobem l'objectiu</strong>. Continuar examinant la resta d'elements és ineficient i un mal disseny algorítmic.</li>
+        </ul>
+    </div>
+
+    <h2>2. Esquemes de Recorregut</h2>
+    <p>Els esquemes de recorregut examinen cada element d'una seqüència des del primer fins a l'últim sense interrupció.</p>
+
+    <h3>2.1 Comptadors</h3>
+    <p>Un <strong>comptador</strong> és una variable entera que s'inicialitza a zero i s'incrementa en una quantitat constant (generalment <code class="w">+1</code>) cada vegada que un element compleix una determinada condició.</p>
+
+    <h3>2.2 Acumuladors</h3>
+    <p>Un <strong>acumulador</strong> és una variable que agrega o suma els valors dels elements d'una seqüència. Si l'acumulació és una suma, s'inicialitza a <code class="w">0</code> (l'element neutre de la suma); si és un producte, s'inicialitza a <code class="w">1</code> (l'element neutre de la multiplicació).</p>
+
+    <p>A continuació pots veure en acció tots dos esquemes combinats: comptem quants alumnes han aprovat (comptador) i sumem les seves notes (acumulador) per després calcular la mitjana dels aprovats.</p>
+
+    <div class="stepper-v2" java auto title="Esquema de Recorregut: Comptador i Acumulador">
+<code class="source">
+int[] notes = {4, 7, 2, 9, 5, 8};
+int aprovats = 0;
+int suma = 0;
+
+for (int i = 0; i < notes.length; i++) {
+    int nota = notes[i];
+    if (nota >= 5) {
+        aprovats++;
+        suma += nota;
+    }
+}
+println("Aprovats: " + aprovats);
+println("Suma aprovats: " + suma);
+</code>
+    </div>
+
+    <h3>2.3 Màxims i Mínims (Extrems)</h3>
+    <p>La determinació del valor màxim o mínim d'una seqüència és un <strong>esquema de recorregut</strong>: tret que la col·lecció estigui ordenada, cal examinar obligatòriament tots els elements per assegurar que cap altre supera el candidat actual.</p>
+
+    <div class="warning">
+        <h3>Regla d'or dels Extrems (Màxims i Mínims)</h3>
+        <p>Quan busques el màxim o mínim d'un array, <strong>mai inicialitzis el màxim a zero</strong> ni a un valor arbitrari! Si tots els números de l'array fossin negatius (per exemple: <code>{-10, -5, -20}</code>), un màxim inicialitzat a 0 retornaria erròniament 0 com a resultat.</p>
+        <p>La manera correcta i universal és inicialitzar sempre la variable amb el <strong>primer element de la seqüència</strong> (<code>valors[0]</code>) i començar el bucle des de l'índex <code>1</code>:</p>
+    </div>
+
+    <p>A més del propi valor extrem, sovint necessitem registrar la <strong>posició (índex)</strong> on s'ha trobat. Observa com s'actualitzen de manera coordinada tant <code>max</code> com <code>posMax</code>:</p>
+
+    <div class="stepper-v2" java auto title="Esquema d'Extrems: Màxim i la Seva Posició">
+<code class="source">
+int[] valors = {12, 45, 67, 23, 89, 34};
+int max = valors[0];
+int posMax = 0;
+
+for (int i = 1; i < valors.length; i++) {
+    if (valors[i] > max) {
+        max = valors[i];
+        posMax = i;
+    }
+}
+println("Maxim: " + max + " a posicio " + posMax);
+</code>
+    </div>
+
+    <h3>2.4 Banderes o Indicadors (Flags)</h3>
+    <p>Una <strong>bandera</strong> (<em>flag</em>) és una variable booleana que registra si s'ha complert o no una propietat al llarg del recorregut. Es distingeixen dos tipus fonamentals de preguntes lògiques:</p>
+    <ul>
+        <li><strong>Predicat Universal ("Tots compleixen la condició?"):</strong> La bandera s'inicialitza a <code class="w">true</code> (suposem d'entrada que tots la compleixen). Si en qualsevol moment trobem un sol element que <em>no</em> la compleix, canviem la bandera a <code class="w">false</code> i podem interrompre el bucle.</li>
+        <li><strong>Predicat Existencial ("Almenys un compleix la condició?"):</strong> La bandera s'inicialitza a <code class="w">false</code> (suposem que ningú la compleix). En el moment que trobem el primer que la compleix, canviem a <code class="w">true</code> i ens aturem.</li>
+    </ul>
+
+    <div class="sc" java>
+// Exemple: Comprovar si TOTS els números d'un array són positius
+int[] numeros = {12, 5, 8, -3, 19};
+boolean totsPositius = true;
+
+for (int i = 0; i < numeros.length; i++) {
+    if (numeros[i] <= 0) {
+        totsPositius = false;
+        break; // Ja hem trobat un contraexemple, no cal continuar!
+    }
+}
+println("Són tots positius? " + totsPositius);
+    </div>
+
+    <h2>3. Esquemes de Cerca</h2>
+
+    <h3>3.1 Cerca Seqüencial (Lineal)</h3>
+    <p>La <strong>cerca seqüencial</strong> és l'algorisme de cerca més intuïtiu: recorre els elements un rere l'altre des del principi fins que troba l'element buscat o arriba al final de l'array. És l'únic mètode que podem utilitzar quan les dades <strong>no estan ordenades</strong>.</p>
+    
+    <p>Fixa't en l'ús de <code class="w">break</code> per finalitzar immediatament tan bon punt es localitza l'índex:</p>
+
+    <div class="stepper-v2" java auto title="Cerca Lineal amb Índex">
+<code class="source">
+int[] dades = {14, 25, 8, 42, 19};
+int objectiu = 42;
+int pos = -1;
+
+for (int i = 0; i < dades.length; i++) {
+    if (dades[i] == objectiu) {
+        pos = i;
+        break;
+    }
+}
+println("Trobat a index: " + pos);
+</code>
+    </div>
+
+    <h3>3.2 Cerca Dicotòmica o Binària</h3>
+    <p>Quan tenim una col·lecció de dades <strong>prèviament ordenada</strong>, no cal examinar els elements d'un en un. La <strong>cerca binària</strong> aprofita l'ordre aplicant la potent estratègia de <em>divideix i venceràs</em>:</p>
+
+    <ol>
+        <li>Calculem l'índex central de l'interval: <code class="w">mig = (esquerra + dreta) / 2</code>.</li>
+        <li>Si l'element del mig és exactament el que busquem, hem acabat!</li>
+        <li>Si l'element del mig és <em>més petit</em> que el buscat, sabem amb certesa absoluta que el nostre valor ha d'estar a la meitat dreta: ajustem <code class="w">esquerra = mig + 1</code>.</li>
+        <li>Si l'element del mig és <em>més gran</em>, ha d'estar a la meitat esquerra: ajustem <code class="w">dreta = mig - 1</code>.</li>
+        <li>Repetim mentre <code class="w">esquerra &lt;= dreta</code>. Si es creuen i no l'hem trobat, l'element no és a l'array.</li>
+    </ol>
+
+    <p>Observa en aquest <em>stepper</em> com els límits <code>esq</code> i <code>dre</code> s'acosten ràpidament fins a localitzar el número <code>23</code> en només 3 comparacions:</p>
+
+    <div class="stepper-v2" java auto title="Cerca Dicotòmica / Binària">
+<code class="source">
+int[] ordenat = {2, 5, 8, 12, 16, 23, 38, 56, 72, 91};
+int clau = 23;
+int esq = 0;
+int dre = ordenat.length - 1;
+int trobat = -1;
+
+while (esq <= dre) {
+    int mig = (esq + dre) / 2;
+    if (ordenat[mig] == clau) {
+        trobat = mig;
+        break;
+    } else if (ordenat[mig] < clau) {
+        esq = mig + 1;
+    } else {
+        dre = mig - 1;
+    }
+}
+println("Index clau: " + trobat);
+</code>
+    </div>
+
+    <div class="note">
+        <h3>Per què la cerca binària és tan revolucionària?</h3>
+        <p>A cada iteració, la cerca binària descarta la <strong>meitat</strong> dels elements restants. El seu cost computacional és <strong>$O(\log_2 n)$</strong> enfront del cost lineal <strong>$O(n)$</strong> de la cerca seqüencial:</p>
+        <ul>
+            <li>Per a un array de <strong>1.000 elements</strong>: la cerca seqüencial fa fins a 1.000 passos; la cerca binària en fa com a màxim <strong>10</strong>.</li>
+            <li>Per a <strong>1.000.000 d'elements</strong>: la seqüencial requereix fins a 1 milió de passos; la binària necessita només <strong>20 comparacions</strong>!</li>
+        </ul>
+    </div>
+
+    <h2>4. Esquemes d'Ordenació</h2>
+    <p>Tenir les dades ordenades és el requisit previ per fer cerques ultraràpides. Vegem els tres algorismes clàssics d'ordenació directa que tot programador ha de dominar.</p>
+
+    <h3>4.1 Mètode de la Bombolla (Bubble Sort)</h3>
+    <p>El mètode de la bombolla compara repetidament elements adjacents (veïns) i els intercanvia si estan en l'ordre incorrecte. En cada passada completa pel bucle exterior, el valor més gran restant "flota" fins a la seva posició definitiva al final de l'array, com si fos una bombolla d'aire en l'aigua.</p>
+
+    <div class="stepper-v2" java auto title="Mètode de la Bombolla (Bubble Sort)">
+<code class="source">
+int[] arr = {5, 1, 4, 2, 8};
+int n = arr.length;
+
+for (int i = 0; i < n - 1; i++) {
+    for (int j = 0; j < n - i - 1; j++) {
+        if (arr[j] > arr[j + 1]) {
+            int temp = arr[j];
+            arr[j] = arr[j + 1];
+            arr[j + 1] = temp;
+        }
+    }
+}
+println("Primer: " + arr[0] + ", ultim: " + arr[n - 1]);
+</code>
+    </div>
+
+    <h3>4.2 Selecció Directa (Selection Sort)</h3>
+    <p>L'algorisme de selecció divideix virtualment l'array en dues parts: la subllista d'elements ja ordenats (a l'esquerra) i la subllista d'elements pendents d'ordenar (a la dreta).</p>
+    <p>A cada iteració, cerca l'element mínim de la part desordenada i l'intercanvia amb el primer element pendent. Té l'avantatge que realitza molts menys intercanvis de memòria que la bombolla:</p>
+
+    <div class="stepper-v2" java auto title="Selecció Directa (Selection Sort)">
+<code class="source">
+int[] a = {29, 10, 14, 37, 13};
+int n = a.length;
+
+for (int i = 0; i < n - 1; i++) {
+    int minIdx = i;
+    for (int j = i + 1; j < n; j++) {
+        if (a[j] < a[minIdx]) {
+            minIdx = j;
+        }
+    }
+    int tmp = a[i];
+    a[i] = a[minIdx];
+    a[minIdx] = tmp;
+}
+println("Ordenat primer: " + a[0]);
+</code>
+    </div>
+
+    <h3>4.3 Inserció Directa (Insertion Sort)</h3>
+    <p>És la forma natural en què la majoria de persones ordenem les cartes quan juguem a la baralla: mantenim les cartes ordenades a la mà esquerra i, en rebre una nova carta, la desplacem cap enrere comparant-la amb les anteriors fins a trobar el seu lloc exacte.</p>
+
+    <div class="sc" java>
+int[] valors = {8, 3, 5, 1, 9};
+
+for (int i = 1; i < valors.length; i++) {
+    int clau = valors[i];
+    int j = i - 1;
+
+    // Desplacem els elements més grans que la clau cap a la dreta
+    while (j >= 0 && valors[j] > clau) {
+        valors[j + 1] = valors[j];
+        j--;
+    }
+    valors[j + 1] = clau;
+}
+    </div>
+
+    <h2>5. Mescla de Seqüències Ordenades (Merge)</h2>
+    <p>La <strong>fusió o mescla</strong> és un esquema que rep dos arrays $A$ i $B$ que ja estan ordenats i construeix un nou array $C$ amb tots els elements de tots dos, també perfectament ordenat.</p>
+    <p>Utilitza tres punters (<code class="w">i</code>, <code class="w">j</code>, <code class="w">k</code>) que avancen compassadament comparant els elements del capdamunt de cada llista. Funciona en temps estrictament lineal <strong>$O(n + m)$</strong> i és el cor del famós algorisme d'ordenació <em>Merge Sort</em>:</p>
+
+    <div class="sc" java>
+int[] a = {2, 5, 9, 14};
+int[] b = {3, 7, 8, 12, 20};
+int[] c = new int[a.length + b.length];
+
+int i = 0, j = 0, k = 0;
+
+// Mentre quedin elements a TOTS DOS arrays:
+while (i < a.length && j < b.length) {
+    if (a[i] <= b[j]) {
+        c[k] = a[i];
+        i++;
+    } else {
+        c[k] = b[j];
+        j++;
+    }
+    k++;
+}
+
+// Buidem els elements que hagin quedat pendents:
+while (i < a.length) { c[k++] = a[i++]; }
+while (j < b.length) { c[k++] = b[j++]; }
+    </div>
+
+    <h2>6. Resum Comparatiu dels Esquemes</h2>
+
+    <div class="work">
+        <table style="width: 100%; border-collapse: collapse; margin: 1em 0;">
+            <thead>
+                <tr style="border-bottom: 2px solid var(--border-default); text-align: left;">
+                    <th style="padding: 0.6em;">Esquema</th>
+                    <th style="padding: 0.6em;">Objectiu</th>
+                    <th style="padding: 0.6em;">Precondició</th>
+                    <th style="padding: 0.6em;">Complexitat</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="border-bottom: 1px solid var(--border-subtle);">
+                    <td style="padding: 0.6em;"><strong>Recorregut</strong></td>
+                    <td style="padding: 0.6em;">Comptar, sumar, transformar tots els elements</td>
+                    <td style="padding: 0.6em;">Cap</td>
+                    <td style="padding: 0.6em;">$O(n)$</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border-subtle);">
+                    <td style="padding: 0.6em;"><strong>Cerca Lineal</strong></td>
+                    <td style="padding: 0.6em;">Localitzar element en dades desordenades</td>
+                    <td style="padding: 0.6em;">Cap</td>
+                    <td style="padding: 0.6em;">$O(n)$</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border-subtle);">
+                    <td style="padding: 0.6em;"><strong>Cerca Binària</strong></td>
+                    <td style="padding: 0.6em;">Localitzar element ràpidament</td>
+                    <td style="padding: 0.6em;"><strong>Array ordenat</strong></td>
+                    <td style="padding: 0.6em;">$O(\log n)$</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border-subtle);">
+                    <td style="padding: 0.6em;"><strong>Bombolla / Selecció</strong></td>
+                    <td style="padding: 0.6em;">Ordenar arrays</td>
+                    <td style="padding: 0.6em;">Cap</td>
+                    <td style="padding: 0.6em;">$O(n^2)$</td>
+                </tr>
+                <tr>
+                    <td style="padding: 0.6em;"><strong>Mescla (Merge)</strong></td>
+                    <td style="padding: 0.6em;">Unir dues llistes ordenades</td>
+                    <td style="padding: 0.6em;"><strong>Totes dues ordenades</strong></td>
+                    <td style="padding: 0.6em;">$O(n + m)$</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="exercise-card">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+            <div>
+                <h3 style="margin: 0 0 0.3rem 0; color: #f1f5f9;">Exercicis Pràctics i Qüestionaris</h3>
+                <p style="margin: 0; color: var(--text-muted); font-size: 0.95rem;">Posa a prova els teus coneixements d'esquemes algorítmics completant els reptes interactius i els projectes d'ordenació i cerca.</p>
+            </div>
+            <a href="../exercicis/u5/index.html" class="ex-link-pill">Exercicis</a>
+        </div>
+    </div>
+</section>
+</body>
+</html>

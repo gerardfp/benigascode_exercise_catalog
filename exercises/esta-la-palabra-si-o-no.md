@@ -1,6 +1,7 @@
 ---
 slug: esta-la-palabra-si-o-no
-difficulty: 5
+tags: [arrays, strings, esquemes]
+difficulty: 3
 ---
 # Está la palabra? si o no?
 

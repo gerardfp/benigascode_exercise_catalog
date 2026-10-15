@@ -1,7 +1,7 @@
 ---
 slug: declaracio-invalida-de-variables
 tags: [variables]
-difficulty: 5
+difficulty: 1
 ---
 # Declaració invàlida de variables
 

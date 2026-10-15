@@ -1,5 +1,6 @@
 ---
 slug: join
+tags: [arrays, scanner]
 difficulty: 5
 ---
 # JOIN

@@ -1,7 +1,7 @@
 ---
 slug: noms-correctes
 tags: [variables]
-difficulty: 5
+difficulty: 1
 ---
 # Noms correctes
 

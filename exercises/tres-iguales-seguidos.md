@@ -1,6 +1,7 @@
 ---
 slug: tres-iguales-seguidos
-difficulty: 5
+tags: [loops, esquemes]
+difficulty: 3
 ---
 # Tres iguales seguidos
 

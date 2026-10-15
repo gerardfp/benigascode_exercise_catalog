@@ -1,6 +1,7 @@
 ---
 slug: separar-los-grandes-de-los-pequenos
-difficulty: 5
+tags: [arrays, esquemes]
+difficulty: 3
 ---
 # Separar los grandes de los pequeños
 

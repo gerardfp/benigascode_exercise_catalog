@@ -1,7 +1,7 @@
 ---
 slug: operacions-aritmetiques
-tags: [if]
-difficulty: 5
+tags: [if, switch]
+difficulty: 2
 ---
 # Expressions aritmètiques
 

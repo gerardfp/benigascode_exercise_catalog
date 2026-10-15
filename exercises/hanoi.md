@@ -1,6 +1,6 @@
 ---
 slug: hanoi
-tags: [recursivitat]
+tags: [recursivitat, arrays]
 difficulty: 5
 ---
 # Hanoi

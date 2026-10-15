@@ -1,6 +1,7 @@
 ---
 slug: ete1
-difficulty: 5
+tags: [loops]
+difficulty: 2
 ---
 # Primero igual al último
 

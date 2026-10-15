@@ -1,7 +1,7 @@
 ---
 slug: el-conill-i-la-pastanaga
 tags: [matrix]
-difficulty: 5
+difficulty: 4
 ---
 # El conill i les pastanagues
 

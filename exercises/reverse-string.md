@@ -1,7 +1,7 @@
 ---
 slug: reverse-string
-tags: [string]
-difficulty: 5
+tags: [strings]
+difficulty: 2
 ---
 # Reverse String
 

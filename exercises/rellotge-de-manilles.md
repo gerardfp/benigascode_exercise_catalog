@@ -1,7 +1,7 @@
 ---
 slug: rellotge-de-manilles
-tags: [operadors]
-difficulty: 5
+tags: [operadors, math]
+difficulty: 3
 ---
 # Rellotge de manilles
 

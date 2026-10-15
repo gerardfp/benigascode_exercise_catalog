@@ -1,7 +1,7 @@
 ---
 slug: passwd
-tags: [for]
-difficulty: 5
+tags: [loops, strings]
+difficulty: 3
 ---
 # passwd
 

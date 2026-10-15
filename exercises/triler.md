@@ -1,7 +1,7 @@
 ---
 slug: triler
-tags: [if]
-difficulty: 5
+tags: [if, loops]
+difficulty: 3
 ---
 # Triler
 

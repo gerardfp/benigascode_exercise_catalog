@@ -1,7 +1,7 @@
 ---
 slug: nota-mitjana
-tags: [operadors]
-difficulty: 5
+tags: [operadors, aritmetics]
+difficulty: 1
 ---
 # Nota mitjana   aritmètics
 

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Unitat 4: Utils del JDK | Tutorial Java 26</title>
+    <script src="../assets/js/script.js"></script>
+    <link rel="stylesheet" href="../assets/css/estil.css">
+    <link rel="stylesheet" href="../assets/stepper/stepper.css">
+    <script src="../assets/stepper/stepper.js"></script>
+</head>
+<body>
+<nav></nav>
+
+<header>
+    <div class="header-nav">
+        <a href="../index.html">← Índex del curs</a>
+        <a href="../exercicis/u4/index.html" class="ex-link-pill">Exercicis</a>
+    </div>
+    <h1>Unitat 4. Utils del JDK</h1>
+
+    <div class="abstract">
+        <p><strong>Unitat Didàctica 4:</strong></p>
+        <p>En aquesta unitat aprendràs:</p>
+        <div class="check">Lectura de dades per teclat amb <code>Scanner</code></div>
+        <div class="check">Tractament i manipulació de text amb <code>String</code></div>
+        <div class="check">Càlculs i constants matemàtiques amb <code>Math</code></div>
+        <div class="check">Generació de valors aleatoris amb <code>Random</code></div>
+    </div>
+</header>
+
+<section>
+
+
+
+    <h2>1. <code>Scanner</code></h2>
+    <p>La utilitat <code>Scanner</code> ens permet llegir les dades introduïdes per teclat a la consola. 
+        A diferència de <code>IO.readln()</code>, l'Scanner permet llegir diverses dades en una mateixa línia.</p>
+
+    <p>Per començar a llegir, preparem un lector (<code>scanner</code>) vinculat a l'entrada estàndard del sistema (<code>System.in</code>):</p>
+    <code>
+Scanner scanner = new Scanner(System.in);
+    </code>
+
+    <p>Segons el tipus de dada que esperem rebre, farem servir el mètode adequat:</p>
+    <ul>
+        <li><code>scanner.nextLine()</code>: llegeix el text fins a trobar un salt de línia <code>\n</code>.</li>
+        <li><code>scanner.next()</code>: llegeix només la següent paraula (fins a trobar un espai en blanc o salt de línia).</li>
+        <li><code>scanner.nextInt()</code>: llegeix un nombre enter (<code>int</code>).</li>
+        <li><code>scanner.nextDouble()</code>: llegeix un nombre decimal (<code>double</code>).</li>
+        <li><code>scanner.nextBoolean()</code>: llegeix un valor booleà (<code>true</code> o <code>false</code>).</li>
+    </ul>
+
+    <code>
+void main() {
+    Scanner scanner = new Scanner(System.in);
+
+    print("Com et dius? ");
+    String nom = scanner.nextLine();
+
+    print("Quants anys tens? ");
+    int edat = scanner.nextInt();
+
+    print("Quina alçada tens en metres (ex: 1,75)? ");
+    double alcada = scanner.nextDouble();
+
+    println("Hola " + nom + ", tens " + edat + " anys i fas " + alcada + "m!");
+}
+    </code>
+
+    <div class="warning">
+        <p><code>nextLine()</code> <u><strong>descarta</strong></u> els salts de línea (<code>\n</code>), els altres métodes deixen el salt de línea al búffer.</p>
+
+        <br>
+
+        <img src="scannerbuffer1.png" alt="Exemple de Scanner" style="max-width: 100%; border-radius: 0.5rem; box-shadow: 0 0 1rem rgba(0,0,0,0.2);">
+        <br>
+        <img src="scannerbuffer2.png" alt="Exemple de Scanner" style="max-width: 100%; border-radius: 0.5rem; box-shadow: 0 0 1rem rgba(0,0,0,0.2);">
+    </div>
+
+    <div class="caution">
+        <p><code>InputMismatchException</code></p>
+        <p>Si l'scanner es troba amb un valor que no coincideix amb el tipus de dada esperat, es produirà una <strong>excepció</strong> 
+            i el programa s'aturarà.</p>
+    </div>
+
+    <h2>2. <code>String</code></h2>
+
+    <h3>Operacions bàsiques amb <code>String</code></h3>
+    <p>Aquestes són les operacions més habituals que utilitzaràs per treballar amb text:</p>
+    <ul>
+        <li><code>text.length()</code>: retorna el nombre total de caràcters de la cadena.</li>
+        <li><code>text.charAt(index)</code>: retorna el caràcter a la posició indicada (el primer caràcter sempre és a la posició <code>0</code>).</li>
+        <li><code>text.toUpperCase()</code> / <code>text.toLowerCase()</code>: retorna el text convertit a majúscules o a minúscules.</li>
+        <li><code>text.trim()</code> / <code>text.strip()</code>: elimina els espais en blanc sobrants dels extrems.</li>
+        <li><code>text.substring(inici, fi)</code>: extreu un fragment de text des de la posició <code>inici</code> fins a <code>fi - 1</code>.</li>
+        <li><code>text.contains("paraula")</code>: retorna <code>true</code> si el text conté la paraula indicada.</li>
+        <li><code>text.startsWith("prefix")</code> / <code>text.endsWith("sufix")</code>: comprova com comença o acaba un text.</li>
+        <li><code>text.replace("vell", "nou")</code>: canvia totes les aparicions d'un text per un altre.</li>
+        <li><code>text.equals(altre)</code>: compara si dos textos tenen exactament el mateix contingut (<code>true</code> o <code>false</code>).</li>
+        <li><code>text.equalsIgnoreCase(altre)</code>: compara dos textos ignorant majúscules i minúscules.</li>
+        <li><code>text.split("delimitador")</code>: divideix el text en un array de cadenes utilitzant el delimitador indicat.</li>
+    </ul>
+
+    <code>
+void main() {
+    String nom = "  Maria Garcia  ";
+
+    println("Original: '" + nom + "'");
+    println("Longitud: " + nom.length());
+    println("Sense espais: '" + nom.trim() + "'");
+    println("En majúscules: " + nom.toUpperCase());
+    println("Primer caràcter: " + nom.trim().charAt(0));
+    println("Conté 'Garcia'? " + nom.contains("Garcia"));
+    println("Subcadena (0..5): " + nom.trim().substring(0, 5)); // Maria
+    println("Substitució: " + nom.replace("Garcia", "Pérez"));
+    println("És igual a 'Maria Garcia'? " + nom.trim().equals("Maria Garcia"));
+
+
+    // SPLIT
+    String frase = "Hola, com estàs?";
+    String[] paraules = frase.split(" ");    // paraules = { "Hola,", "com", "estàs?" }
+
+    println("Paraules de la frase:");
+    println(paraules[0]); // Hola,
+    println(paraules[1]); // com
+    println(paraules[2]); // estàs?
+
+    // SPLIT
+    String[] noms = "Anna;Joan;Pere;Laura".split(";");  
+          // noms = { "Anna", "Joan", "Pere", "Laura" }
+
+    // SPLIT
+    String[] parts = "27/10/1981".split("/");  
+          // parts = { "27", "10", "1981"
+}
+    </code>
+
+    <h3>Format de dades amb <code>.formatted()</code></h3>
+    <p>Quan hem de mostrar xifres amb un nombre concret de decimals, alinear columnes o construir missatges amb variables, podem aplicar el mètode <code>.formatted(...)</code> directament sobre qualsevol cadena de text o Text Block:</p>
+
+    <p>Els especificadors de format més comuns són:</p>
+    <ul>
+        <li><code>%s</code>: per incrustar cadenes de text.</li>
+        <li><code>%d</code>: per a nombres enters (<code>int</code>, <code>long</code>).</li>
+        <li><code>%.2f</code>: per a nombres decimals (<code>double</code>) amb exactament 2 xifres decimals.</li>
+        <li><code>%n</code>: per afegir un salt de línia independent del sistema operatiu.</li>
+    </ul>
+
+    <code>
+void main() {
+    String producte = "Portàtil";
+    double preu = 899.95;
+    int quantitat = 2;
+
+    // .formatted() substitueix els especificadors pels valors indicats:
+    String linia = "Producte: %-12s | Unitats: %2d | Preu: %8.2f €".formatted(producte, quantitat, preu);
+    println(linia);
+
+    String total = "Total a pagar: %.2f €".formatted(preu * quantitat);
+    println(total);
+
+    // Funciona de manera idèntica amb Text Blocks per a plantilles multilínia:
+    String factura = """
+        =========== FACTURA SIMPLIFICADA ===========
+        Article: %s
+        Total:   %.2f €
+        ============================================
+        """.formatted(producte, preu * quantitat);
+
+    println(factura);
+}
+    </code>
+
+    <div class="note">
+        <p>Observa l'ús de les cometes triples <code>"""..."""</code> per a definir cadenes de text multilínia.</p>
+    </div>
+
+
+    <h2>3. <code>Math</code></h2>
+    <p><code>Math</code> proporciona un conjunt complet de funcions i constants matemàtiques.</p>
+
+    <p>S'utilitza escrivint directament <code>Math.</code> seguit del nom de l'operació o constant que necessitem:</p>
+
+    <ul>
+        <li><code>Math.PI</code>: nombre pi (approx).</li>
+        <li><code>Math.sqrt(x)</code>: calcula l'arrel quadrada ($\sqrt{x}$).</li>
+        <li><code>Math.pow(base, exponent)</code>: calcula la potència $\text{base}^{\text{exponent}}$ (retorna sempre un <code>double</code>).</li>
+        <li><code>Math.abs(x)</code>: calcula el valor absolut (elimina el signe negatiu d'un número).</li>
+        <li><code>Math.max(a, b)</code> / <code>Math.min(a, b)</code>: retorna el valor més gran o el més petit entre dos números.</li>
+        <li><code>Math.round(x)</code>: arrodoneix un nombre decimal a l'enter més proper.</li>
+        <li><code>Math.floor(x)</code>: arrodoneix cap avall a l'enter inferior més proper.</li>
+        <li><code>Math.ceil(x)</code>: arrodoneix cap amunt a l'enter superior més proper.</li>
+        <li><code>Math.random()</code>: genera un nombre decimal aleatori entre <code>0.0</code> (inclòs) i <code>1.0</code> (exclòs).</li>
+    </ul>
+
+    <code>
+void main() {
+    double radi = 5.0;
+    double area = Math.PI * Math.pow(radi, 2);
+    println("Àrea del cercle: " + area);
+
+    double arrel = Math.sqrt(144);
+    println("Arrel de 144: " + arrel); // 12.0
+
+    println("Màxim entre 45 i 80: " + Math.max(45, 80)); // 80
+    println("Mínim entre 45 i 80: " + Math.min(45, 80)); // 45
+    println("Valor absolut de -15: " + Math.abs(-15));     // 15
+
+    println("Arrodonir 4.7: " + Math.round(4.7)); // 5
+    println("Sòl (floor) de 4.7: " + Math.floor(4.7)); // 4.0
+    println("Sostre (ceil) de 4.2: " + Math.ceil(4.2)); // 5.0
+}
+    </code>
+
+    <h2>4. <code>Random</code></h2>
+    <p>Podem utilitzar la utilitat <code>Random</code> quan volem generar valors a l'atzar amb més flexibilitat 
+        (nombres enters en intervals concrets, daus, cartes, simulacions,...) </p>
+
+    <p>Primer preparem el generador:</p>
+    <code>
+Random random = new Random();
+    </code>
+
+    <p>I després podem utilitzar les seves operacions:</p>
+    <ul>
+        <li><code>random.nextInt(limit)</code>: genera un enter a l'atzar entre <code>0</code> i <code>límit - 1</code>.</li>
+        <li><code>random.nextInt(start, end)</code>: genera un enter entre <code>start</code> i <code>end - 1</code>.</li>
+        <li><code>random.nextDouble()</code>: genera un decimal aleatori entre <code>0.0</code> i <code>1.0</code>.</li>
+        <li><code>random.nextBoolean()</code>: genera un valor booleà (<code>true</code> o <code>false</code>) amb un 50% de probabilitat.</li>
+    </ul>
+
+    <code>
+void main() {
+    Random random = new Random();
+
+    // Simulació d'un dau de 6 cares:
+    int dau = random.nextInt(1, 7);
+    println("Ha sortit el dau: " + dau);
+
+    // Llançament d'una moneda:
+    boolean esCara = random.nextBoolean();
+    println("Ha sortit cara? " + esCara);
+
+    // Probabilitat decimal:
+    double percentatge = random.nextDouble() * 100;
+    println("Percentatge d'èxit: %.1f%%".formatted(percentatge));
+}
+    </code>
+
+
+</section>
+
+
+<section>
+    <div class="exercise-card">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+            <div>
+                <h3 style="margin: 0 0 0.3rem 0; color: #f1f5f9;">Exercicis Pràctics i Qüestionaris</h3>
+                <p style="margin: 0; color: var(--text-muted); font-size: 0.95rem;">Posa a prova el que has après completant els qüestionaris interactius auto-avaluables i els reptes de programació.</p>
+            </div>
+            <a href="../exercicis/u4/index.html" class="ex-link-pill">Exercicis</a>
+        </div>
+    </div>
+</section>
+</body>
+</html>

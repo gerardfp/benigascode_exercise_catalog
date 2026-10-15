@@ -1,7 +1,7 @@
 ---
 slug: informe-de-vendes
-tags: [arrays]
-difficulty: 5
+tags: [arrays, esquemes]
+difficulty: 3
 ---
 # Informe de vendes
 

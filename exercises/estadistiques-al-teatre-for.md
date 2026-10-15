@@ -1,7 +1,7 @@
 ---
 slug: estadistiques-al-teatre-for
-tags: [for]
-difficulty: 5
+tags: [loops, esquemes]
+difficulty: 3
 ---
 # Estadístiques al teatre
 

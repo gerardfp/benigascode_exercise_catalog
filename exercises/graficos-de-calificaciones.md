@@ -1,7 +1,7 @@
 ---
 slug: graficos-de-calificaciones
-tags: [for]
-difficulty: 5
+tags: [loops, esquemes]
+difficulty: 3
 ---
 # Gràfics de qualificacions
 

@@ -1,7 +1,7 @@
 ---
 slug: sobren-ous
-tags: [operadors, ternari]
-difficulty: 5
+tags: [ternari]
+difficulty: 2
 ---
 # Sobren ous
 

@@ -1,7 +1,7 @@
 ---
 slug: del-reves
 tags: [arrays]
-difficulty: 5
+difficulty: 2
 ---
 # Del revés
 

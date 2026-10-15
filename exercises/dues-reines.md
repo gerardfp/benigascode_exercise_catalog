@@ -1,7 +1,7 @@
 ---
 slug: dues-reines
-tags: [operadors]
-difficulty: 5
+tags: [operadors, logics]
+difficulty: 2
 ---
 # Dues reines
 

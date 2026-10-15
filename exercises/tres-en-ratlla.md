@@ -1,7 +1,7 @@
 ---
 slug: tres-en-ratlla
-tags: [if]
-difficulty: 5
+tags: [arrays, if]
+difficulty: 4
 ---
 # Tres en ratlla
 

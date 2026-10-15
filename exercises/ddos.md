@@ -1,7 +1,7 @@
 ---
 slug: ddos
-tags: [for]
-difficulty: 5
+tags: [loops, esquemes]
+difficulty: 4
 ---
 # DDoS
 

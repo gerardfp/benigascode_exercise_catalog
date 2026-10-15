@@ -1,6 +1,7 @@
 ---
 slug: gearbox
-difficulty: 5
+tags: [class]
+difficulty: 3
 ---
 # GearBox
 

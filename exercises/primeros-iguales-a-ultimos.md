@@ -1,6 +1,7 @@
 ---
 slug: primeros-iguales-a-ultimos
-difficulty: 5
+tags: [loops, esquemes]
+difficulty: 3
 ---
 # Primeros iguales a últimos
 

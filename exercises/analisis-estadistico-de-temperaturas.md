@@ -1,6 +1,6 @@
 ---
 slug: analisis-estadistico-de-temperaturas
-tags: [loops]
+tags: [loops, esquemes]
 difficulty: 3
 ---
 # Análisis estadístico de temperaturas

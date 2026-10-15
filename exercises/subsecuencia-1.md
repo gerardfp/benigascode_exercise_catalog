@@ -1,6 +1,7 @@
 ---
 slug: subsecuencia-1
-difficulty: 5
+tags: [arrays, esquemes]
+difficulty: 4
 ---
 # Subseqüència
 

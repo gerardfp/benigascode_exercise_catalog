@@ -1,6 +1,7 @@
 ---
 slug: pangrama
-difficulty: 5
+tags: [strings, esquemes]
+difficulty: 4
 ---
 # Pangrama
 

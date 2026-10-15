@@ -1,7 +1,7 @@
 ---
 slug: els-petits-davant
-tags: [operadors]
-difficulty: 5
+tags: [operadors, relacionals]
+difficulty: 2
 ---
 # Els petits davant
 

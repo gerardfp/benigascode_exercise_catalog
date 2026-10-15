@@ -1,7 +1,7 @@
 ---
 slug: maquina-de-vending
-tags: [for]
-difficulty: 5
+tags: [loops, if]
+difficulty: 4
 ---
 # Màquina de vending
 

@@ -1,6 +1,7 @@
 ---
 slug: url-parser
-difficulty: 5
+tags: [strings, scanner]
+difficulty: 6
 ---
 # URL parser
 

@@ -1,7 +1,7 @@
 ---
 slug: contractar-un-xef
 tags: [scanner]
-difficulty: 5
+difficulty: 1
 ---
 # Contractar un xef
 

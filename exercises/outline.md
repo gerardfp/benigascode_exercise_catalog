@@ -1,6 +1,6 @@
 ---
 slug: outline
-tags: [arrays]
+tags: [arrays, loops]
 difficulty: 5
 ---
 # Outline

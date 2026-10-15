@@ -1,7 +1,7 @@
 ---
 slug: superposicion-de-capas
-tags: [array]
-difficulty: 5
+tags: [matrix]
+difficulty: 4
 ---
 # Superposición de capas
 

@@ -1,5 +1,6 @@
 ---
 slug: hansel-i-gretel
+tags: [matrix, loops]
 difficulty: 5
 ---
 # Hansel i Gretel

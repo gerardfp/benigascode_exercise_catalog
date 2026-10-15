@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Unitat 2: Control de Flux | Tutorial Java 26</title>
+    <script src="../assets/js/script.js"></script>
+    <link rel="stylesheet" href="../assets/css/estil.css">
+    <link rel="stylesheet" href="../assets/stepper/stepper.css">
+    <script src="../assets/stepper/stepper.js"></script>
+</head>
+<body>
+<nav></nav>
+
+<header>
+    <div class="header-nav">
+        <a href="../index.html">← Índex del curs</a>
+        <a href="../exercicis/u2/index.html" class="ex-link-pill">Exercicis</a>
+    </div>
+    <h1>Unitat 2. Control de Flux</h1>
+
+    <div class="abstract">
+        <p><strong>Unitat Didàctica 2:</strong></p>
+        <p>En aquesta unitat aprendràs:</p>
+        <div class="check">Estructures de selecció: <code>if-else</code>, <code>if-else-if</code> i la sentència <code>switch</code></div>
+        <div class="check">Bucles: <code>for</code> (decrementant, ometent parts, anidats) i <code>while</code></div>
+        <div class="check">Salts de control: <code>break</code>, <code>continue</code> i etiquetes</div>
+    </div>
+</header>
+
+<section>
+
+    <h2>Estructures de Control: Prendre decisions i repetir tasques</h2>
+    <p>Els ordinadors són increïblement ràpids fent càlculs, però la seva veritable potència rau en la capacitat de <strong>prendre decisions</strong> segons certes condicions i de <strong>repetir tasques</strong> milers o milions de vegades sense cansar-se.</p>
+    <p>Per defecte, un programa s'executa <em>seqüencialment</em>: instrucció rere instrucció, de dalt a baix. Les estructures de control ens permeten trencar aquest flux lineal.</p>
+
+    <h2>1. Sentències Condicionals: if-else i switch</h2>
+    <h3><code class="w">if-else</code></h3>
+    <p>La sentència bàsica per a prendre decisions és <code class="w">if</code>. Si la condició booleana és certa (<code class="w">true</code>), s'executa el bloc de codi associat; en cas contrari, es pot saltar o executar una branca alternativa amb <code class="w">else</code>:</p>
+    <div class="stepper-v2" java auto title="Sentència Switch Bàsica">
+        <code class="source">
+        int edat = 18;
+        if (edat &gt;= 18) {
+            println("Ets major d'edat.");
+        } else {
+            println("Ets menor d'edat.");
+        }
+        </code>
+    </div>
+    
+
+    <p>Quan tenim múltiples camins possibles, podem encadenar sentències amb <code class="w">else if</code>:</p>
+
+    <div class="stepper-v2" java auto title="Sentència Switch Bàsica">
+        <code class="source">
+int nota = 85;
+if (nota &gt;= 90) {
+    println("Excel·lent");
+} else if (nota &gt;= 70) {
+    println("Notable");
+} else if (nota &gt;= 50) {
+    println("Aprovat");
+} else {
+    println("Suspès");
+}
+        </code>
+    </div>
+
+    <h3><code class="w">switch</code></h3>
+    <p>Quan volem ramificar el flux d'execució d'un programa comparant el valor d'una variable o expressió amb múltiples 
+        valors possibles, la <strong>sentència <code class="w">switch</code></strong> ofereix una sintaxi molt més clara i neta que encadenar múltiples <code>if-else if</code>.</p>
+
+    <p>La diferència principal entre l'expressió switch i la sentència switch és que l'expressió switch retorna un valor, mentre que la sentència switch no retorna cap valor.</p>
+    <p>Observa en el següent <em>stepper</em> interactiu com el programa avalua la variable <code>opcio</code>, salta directament al cas coincident (<code>case 2</code>), executa la seva acció i immediatament continua després del switch</p>
+
+    <div class="stepper-v2" java auto title="Sentència Switch Bàsica">
+<code class="source">
+int opcio = 2;
+switch (opcio) {
+    case 1 -> println("Nou joc");
+    case 2 -> println("Carregar partida");
+    case 3 -> println("Configuració");
+    default -> println("Opció no vàlida");
+}
+println("Fi del menú");
+</code>
+    </div>
+
+    <h4>Múltiples etiquetes en un sol case</h4>
+    <p>Amb el <em>enhanced switch</em> és molt fàcil tractar diversos valors conjuntament separant-los per comes en una sola línia:</p>
+
+    <div class="stepper-v2" java auto title="Switch amb Múltiples Etiquetes">
+<code class="source">
+int dia = 6;
+switch (dia) {
+    case 1, 2, 3, 4, 5 -> println("Dia feiner");
+    case 6, 7 -> println("Cap de setmana!");
+    default -> println("Dia no vàlid");
+}
+</code>
+    </div>
+
+    <h2>2. Estructures Repetitives: Els bucles for i while</h2>
+    <p>Un bucle és una estructura que repeteix un conjunt d'instruccions mentre es compleixi una condició determinada. Cada repetició s'anomena <strong>iteració</strong>.</p>
+
+    <h3><code class="w">for</code></h3>
+    <p>El bucle <code class="w">for</code> s'utilitza habitualment quan sabem per endavant quantes vegades volem repetir un bloc de codi. Consta de tres parts separades per punt i coma:</p>
+    <ul>
+        <li><strong>Inicialització:</strong> s'executa una sola vegada a l'inici (habitualment declara un comptador com <code class="w">int i = 0</code>).</li>
+        <li><strong>Condició:</strong> s'avalua abans de cada iteració. Si és <code class="w">true</code>, el cos s'executa; si és <code class="w">false</code>, el bucle s'acaba.</li>
+        <li><strong>Modificació:</strong> s'executa després de cada iteració (habitualment incrementa o decrementa el comptador <code class="w">i++</code> / <code class="w">i--</code>).</li>
+    </ul>
+
+    <p>Fes servir els controls interactius del <em>stepper</em> següent per avançar pas a pas. Observa com a cada iteració es comprova la condició, s'executa el cos i s'actualitza el comptador a la memòria:</p>
+
+    <div class="stepper-v2" java auto title="Bucle For Bàsic">
+<code class="source">
+int n = 5;
+for (int i = 0; i < n; i++) {
+    print(i + " ");
+}
+</code>
+    </div>
+
+    <h4>Bucle for decrementant</h4>
+    <p>També podem comptar cap enrere començant des d'un valor superior i utilitzant l'operador de decrement <code class="w">i--</code>:</p>
+
+    <div class="stepper-v2" java auto title="Bucle For Decrementant">
+<code class="source">
+for (int i = 5; i > 0; i--) {
+    print(i + " ");
+}
+println("Llançament!");
+</code>
+    </div>
+
+    <h4>Ometre parts en un bucle for</h4>
+    <p>Totes les parts d'un <code class="w">for</code> són opcionals. Podem ometre la inicialització o la modificació si la lògica del bucle depèn d'altres operacions o d'una lectura d'entrada:</p>
+
+    <div class="stepper-v2" java auto in="3
+4
+6" title="Bucle For Ometent Parts">
+<code class="source">
+println("Endevina el número secret:");
+for (; Integer.parseInt(IO.readln()) != 6; ) {
+    println("Segueix intentant-ho");
+}
+println("L'has endevinat!");
+</code>
+    </div>
+
+    <h4>Bucles for anidats</h4>
+    <p>Podem posar un bucle dins d'un altre bucle (bucles niats o anidats). Per cada iteració del bucle exterior, el bucle interior s'executa completament des de l'inici fins al final:</p>
+
+    <div class="stepper-v2" java auto title="Bucles For Anidats">
+<code class="source">
+for (int i = 0; i < 3; i++) {
+    for (int j = 0; j < 3; j++) {
+        print(i + "," + j + " ");
+    }
+    println();
+}
+</code>
+    </div>
+
+    <h3><code class="w">while</code></h3>
+    <p>El bucle <code class="w">while</code> comprova una condició <em>abans</em> d'executar el cos (pre-condició). S'utilitza quan no sabem exactament quantes iteracions caldrà fer, sinó que depenem d'un estat que canvia:</p>
+
+    <div class="stepper-v2" java auto title="Bucle While">
+<code class="source">
+int i = 0;
+while (i < 5) {
+    print(i + " ");
+    i++;
+}
+</code>
+    </div>
+
+    <h2>3. Salts de Control: break i continue</h2>
+    <p>De vegades necessitem interrompre un bucle abans d'hora o saltar-nos una iteració concreta sense aturar tot el procés.</p>
+
+    <h3><code class="w">break</code></h3>
+    <p>La sentència <code class="w">break</code> finalitza immediatament el bucle més proper que l'envolta, transferint el control a la següent instrucció fora del bucle:</p>
+
+    <div class="stepper-v2" java auto title="Sentència Break">
+<code class="source">
+int i = 10;
+while (true) {
+    print(i + " ");
+    if (i == 5) {
+        break;
+    }
+    i--;
+}
+</code>
+    </div>
+
+    <h4>break en bucles niats</h4>
+    <p>Quan tenim un bucle dins d'un altre (bucles niats), un <code class="w">break</code> només atura el bucle intern on es troba, deixant que el bucle extern continuï la seva execució normal:</p>
+
+    <div class="stepper-v2" java auto title="Break en Bucles Niats">
+<code class="source">
+for (int i = 0; i < 3; i++) {
+    for (int j = 0; j < 3; j++) {
+        print(j + " ");
+        if (i == j) {
+            break;
+        }
+    }
+    println();
+}
+</code>
+    </div>
+
+    <h3><code class="w">continue</code></h3>
+    <p>A diferència de <code class="w">break</code>, la sentència <code class="w">continue</code> <strong>no atura el bucle</strong>, sinó que salta immediatament a la següent iteració (executant la part de modificació en un <code>for</code>):</p>
+
+    <div class="stepper-v2" java auto title="Sentència Continue">
+<code class="source">
+int n = 5;
+for (int i = 0; i < n; i++) {
+    if (i % 2 != 0) {
+        continue;
+    }
+    print(i + " ");
+}
+</code>
+    </div>
+
+    <h3>break i continue etiquetats</h3>
+    <p>Per defecte, tant <code class="w">break</code> com <code class="w">continue</code> només afecten el bucle més immediat que els conté. Quan treballem amb bucles niats i volem aturar o continuar un bucle superior, podem associar-li una <strong>etiqueta</strong> (<em>label</em>) amb el format <code>nom_etiqueta: for (...)</code>:</p>
+
+    <div class="stepper-v2" java auto title="Break i Continue Etiquetats">
+<code class="source">
+bucle_i:
+for (int i = 0; i < 3; i++) {
+    bucle_j:
+    for (int j = 0; j < 3; j++) {
+        if (i == 1 && j == 1) {
+            break bucle_i;
+        }
+        print(i + "," + j + " ");
+    }
+    println();
+}
+</code>
+    </div>
+
+    <div class="exercise-card">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+            <div>
+                <h3 style="margin: 0 0 0.3rem 0; color: #f1f5f9;">Exercicis Pràctics i Qüestionaris</h3>
+                <p style="margin: 0; color: var(--text-muted); font-size: 0.95rem;">Posa a prova el que has après completant els qüestionaris interactius auto-avaluables i els reptes de programació.</p>
+            </div>
+            <a href="../exercicis/u2/index.html" class="ex-link-pill">Exercicis</a>
+        </div>
+    </div>
+</section>
+</body>
+</html>

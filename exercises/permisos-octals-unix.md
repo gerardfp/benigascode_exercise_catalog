@@ -1,7 +1,7 @@
 ---
 slug: permisos-octals-unix
 tags: [if]
-difficulty: 5
+difficulty: 2
 ---
 # Permisos octals UNIX
 

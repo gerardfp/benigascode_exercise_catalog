@@ -1,6 +1,7 @@
 ---
 slug: multi-armed-bandit
-difficulty: 5
+tags: [arrays, loops]
+difficulty: 4
 ---
 # Multi-armed bandit
 

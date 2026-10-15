@@ -1,5 +1,6 @@
 ---
 slug: nearest-neighbour-interpolation
+tags: [matrix, loops]
 difficulty: 5
 ---
 # Nearest-neighbour interpolation

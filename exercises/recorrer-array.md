@@ -1,6 +1,7 @@
 ---
 slug: recorrer-array
-difficulty: 5
+tags: [arrays, strings, esquemes]
+difficulty: 2
 ---
 # En qué posiciones está la palabra?
 

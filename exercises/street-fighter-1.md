@@ -1,7 +1,7 @@
 ---
 slug: street-fighter-1
-tags: [if]
-difficulty: 5
+tags: [if, loops]
+difficulty: 3
 ---
 # Street Fighter
 

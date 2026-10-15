@@ -1,7 +1,7 @@
 ---
 slug: completa-la-declaracio
 tags: [variables]
-difficulty: 5
+difficulty: 1
 ---
 # Completa la declaració
 

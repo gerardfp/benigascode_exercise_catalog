@@ -1,7 +1,7 @@
 ---
 slug: notacio-algebraica-als-escacs
 tags: [conversio]
-difficulty: 5
+difficulty: 2
 ---
 # Notació algebraica als escacs
 

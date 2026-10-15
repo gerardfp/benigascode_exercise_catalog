@@ -1,6 +1,7 @@
 ---
 slug: tabla-de-multiplicar-1
-difficulty: 5
+tags: [loops]
+difficulty: 1
 ---
 # Tabla de multiplicar 1
 

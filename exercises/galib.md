@@ -1,7 +1,7 @@
 ---
 slug: galib
-tags: [for]
-difficulty: 5
+tags: [loops, esquemes]
+difficulty: 3
 ---
 # Gàlib
 

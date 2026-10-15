@@ -1,6 +1,6 @@
 ---
 slug: metro-circular
-tags: [array]
+tags: [arrays, loops]
 difficulty: 5
 ---
 # Metro circular

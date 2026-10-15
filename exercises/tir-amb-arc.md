@@ -1,7 +1,7 @@
 ---
 slug: tir-amb-arc
-tags: [operadors]
-difficulty: 5
+tags: [if, math]
+difficulty: 2
 ---
 # Tir amb arc
 

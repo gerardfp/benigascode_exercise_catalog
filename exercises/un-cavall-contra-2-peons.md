@@ -1,7 +1,7 @@
 ---
 slug: un-cavall-contra-2-peons
-tags: [operadors]
-difficulty: 5
+tags: [operadors, logics]
+difficulty: 2
 ---
 # Un cavall contra dos peons
 

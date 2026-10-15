@@ -1,7 +1,7 @@
 ---
 slug: scrabble
-tags: [loops]
-difficulty: 5
+tags: [loops, strings]
+difficulty: 3
 ---
 # Scrabble
 

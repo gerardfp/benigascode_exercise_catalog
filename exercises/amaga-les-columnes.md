@@ -1,5 +1,6 @@
 ---
 slug: amaga-les-columnes
+tags: [matrix]
 difficulty: 5
 ---
 # Amaga les columnes
