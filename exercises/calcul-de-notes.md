@@ -1,7 +1,7 @@
 ---
 slug: calcul-de-notes
 tags: [if]
-difficulty: 5
+difficulty: 2
 ---
 # Càlcul de notes
 
@@ -20,7 +20,7 @@ Un número flotant corresponent a la nota
 
 ## Output
 
-{ INSUFICIENT | SUFICIENT | BE | NOTABLE | EXCEL.LENT | MATRICULA }
+{ `INSUFICIENT` | `SUFICIENT` | `BE` | `NOTABLE` | `EXCEL.LENT` | `MATRICULA` }
 
 ## Solutions
 

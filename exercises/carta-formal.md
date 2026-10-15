@@ -1,7 +1,7 @@
 ---
 slug: carta-formal
 tags: [scanner]
-difficulty: 5
+difficulty: 1
 ---
 # Carta formal
 
@@ -9,7 +9,7 @@ Desitjem enviar una carta formal als nostres clients, i volem generar de forma a
 
 A la nostra base de dades de client tenim els camps: tractament, nom, cognom1 i cognom2.
 
-Fes un programa que generi aquest encapçalament amb el format que s'observa a **Sample Output**
+Fes un programa que generi aquest encapçalament amb el format que s'observa als tests proporcionats.
 
 ## Input
 
@@ -21,10 +21,6 @@ nom
 cognom1
 cognom2
 ```
-
-## Output
-
--
 
 ## Solutions
 

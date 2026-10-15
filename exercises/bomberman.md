@@ -1,7 +1,7 @@
 ---
 slug: bomberman
 tags: [matrix]
-difficulty: 5
+difficulty: 4
 ---
 # Bomberman
 

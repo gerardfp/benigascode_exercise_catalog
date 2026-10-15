@@ -1,6 +1,6 @@
 ---
 slug: balanceig-de-carrega
-difficulty: 5
+difficulty: 6
 ---
 # Balanceig de càrrega
 
@@ -14,11 +14,11 @@ Quan s'ha d'emmagatzemar un bloc de dades, el balancejador de càrrega escull el
 
 ## Input
 
-En primer lloc trobem el nombre de discs <span style="font-size: 100%; display: inline-block;" class="MathJax_SVG" id="MathJax-Element-1-Frame"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1.924ex" height="2.176ex" style="vertical-align: -0.338ex;" viewBox="0 -791.3 828.5 936.9" role="img" focusable="false"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><path stroke-width="1" d="M287 628Q287 635 230 637Q207 637 200 638T193 647Q193 655 197 667T204 682Q206 683 403 683Q570 682 590 682T630 676Q702 659 752 597T803 431Q803 275 696 151T444 3L430 1L236 0H125H72Q48 0 41 2T33 11Q33 13 36 25Q40 41 44 43T67 46Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628ZM703 469Q703 507 692 537T666 584T629 613T590 629T555 636Q553 636 541 636T512 636T479 637H436Q392 637 386 627Q384 623 313 339T242 52Q242 48 253 48T330 47Q335 47 349 47T373 46Q499 46 581 128Q617 164 640 212T683 339T703 469Z"></path></g></svg></span>.
+En primer lloc trobem el nombre de discs $D$.
 
 A continuació ve l'espai ocupat a cada disc.
 
-Seguidament ve un seqüència amb els tamanys dels blocs de dades que s'han d'emmagatzemar. La seqüència finalitza amb un 0.
+Seguidament ve un seqüència amb els tamanys dels blocs de dades que s'han d'emmagatzemar. La seqüència finalitza amb un `0`.
 
 ## Output
 

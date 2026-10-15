@@ -1,7 +1,7 @@
 ---
 slug: barrel-cannon
 tags: [array]
-difficulty: 5
+difficulty: 6
 ---
 # Barrel Cannon
 

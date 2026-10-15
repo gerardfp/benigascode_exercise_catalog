@@ -1,7 +1,7 @@
 ---
 slug: black-friday
 tags: [loops]
-difficulty: 5
+difficulty: 4
 ---
 # Black Friday
 
