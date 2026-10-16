@@ -1,9 +1,9 @@
 ---
-slug: book-class
+slug: class-book
 tags: [class]
 difficulty: 5
 ---
-# Book
+# Class Book
 
 Defineix la classe `Book`. 
 
