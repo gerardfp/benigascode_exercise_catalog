@@ -3,7 +3,7 @@ slug: trendingtopic
 difficulty: 5.0
 tags: [arrays, strings, counters, sorting]
 ---
-# c2-l1-5-trendingtopic
+# TrendingTopic
 
 Una forma de veure la popularitat dels llenguatges de programació, es veure els cops que es mencionen a les xarxes socials.
 
@@ -11,9 +11,11 @@ A partir d'una sèrie de missatges publicats, volem fer un ranking dels hashtags
 
 ## Input
 
-En primer lloc ve el nombre de missatges. A continuació venen els missatges.
+En primer lloc ve el nombre de missatges. 
 
-Cada missatge està encabit dintre d'unes claus {}
+A continuació venen els missatges.
+
+Cada missatge està encabit dintre d'unes claus `{}`
 
 El missatge pot ocupar vàries línies, però totes elles tenen 1 grau de tabulació.
 

@@ -22,22 +22,22 @@ El significat d'aquests camps és el següent:
 
 - `%t` és el temps en que s'ha rebut la petició. El format és:
 
-```text
-[day/month/year:hour:minute:second zone]
-day = 2*digit
-month = 3*letter
-year = 4*digit
-hour = 2*digit
-minute = 2*digit
-second = 2*digit
-zone = (`+' | `-') 4*digit
-```
+    ```text
+    [day/month/year:hour:minute:second zone]
+    day = 2*digit
+    month = 3*letter
+    year = 4*digit
+    hour = 2*digit
+    minute = 2*digit
+    second = 2*digit
+    zone = (`+' | `-') 4*digit
+    ```
 
 - `%r` és la petició realitzada pel client. El format és:
 
-```text
-%M %U%q %H
-```
+    ```text
+    %M %U%q %H
+    ```
 
 - `%M` és el Mètode (GET, POST, ...)
 
@@ -54,6 +54,8 @@ zone = (`+' | `-') 4*digit
 - `%f` és el lloc del qual el client reporta que ha estat referenciat
 
 - `%a` és l'user-agent: la identificació del navegador web del client
+
+<br>
 
 Es desitja fer una anàlisi d'aquest registre per tal d'esbrinar:
 - El host que més peticions realitza al servidor

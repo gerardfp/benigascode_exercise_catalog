@@ -1,11 +1,11 @@
 ---
 slug: uri-scheme
 difficulty: 3.0
-tags: [strings, classes, oop, parsing]
+tags: [strings, class, parsing]
 ---
 # URI Scheme
 
-Completa la classe URL, i el mètode main()
+Completa la classe `URL`, i el mètode `main()`
 
 ## Input
 

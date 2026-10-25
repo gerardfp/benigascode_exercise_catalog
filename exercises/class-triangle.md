@@ -1,19 +1,11 @@
 ---
-slug: triangle
+slug: class-triangle
 difficulty: 3.0
-tags: [classes, oop, math]
+tags: [class, math]
 ---
 # Triangle
 
-Implementa el mètodes de la classe Triangle:
-
-## Input
-
--
-
-## Output
-
--
+Implementa el mètodes de la classe `Triangle`
 
 ## Plantillas
 

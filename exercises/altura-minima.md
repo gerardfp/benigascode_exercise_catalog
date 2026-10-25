@@ -13,9 +13,9 @@ Avuí a l'escola fan una sortida al parc d'atraccions. La professora ha apuntat 
 
 L'entrada consta de tres parts:
 
-- El primer nombre $N$ indica el nombre de nens i nenes (*int*)
-- A continuació venen les seves alçades (*float*)
-- Per últim, el nombre $M$ indica l'alçada mínima de la muntanya russa (*float*)
+- El primer nombre $N$ indica el nombre de nens i nenes (*enter*)
+- A continuació venen les seves alçades (*decimal*)
+- Per últim, el nombre $M$ indica l'alçada mínima de la muntanya russa (*decimal*)
 
 ## Output
 

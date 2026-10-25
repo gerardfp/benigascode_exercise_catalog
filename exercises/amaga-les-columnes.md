@@ -33,7 +33,7 @@ Tots els camps de la taula han d'ocupar **10 espais i aliniats a l'esquerra**
 ### Test
 ```input
 4 6
-Nombre  Apellidos UF1 UF2 UF3 FINAL
+Nombre  Apellidos T1  T2  T3  FINAL
 Juan    Perez     5   6   6   6
 Pepe    Alvarez   1   2   1   1
 Eloy    Lopez     7   8   7   7
@@ -51,7 +51,7 @@ Eloy      Lopez     7
 ### Test
 ```input
 4 6
-Nombre  Apellidos UF1 UF2 UF3 FINAL
+Nombre  Apellidos T1  T2  T3 FINAL
 Juan    Perez     5   6   6   6
 Pepe    Alvarez   1   2   1   1
 Eloy    Lopez     7   8   7   7
@@ -60,7 +60,7 @@ Eloy    Lopez     7   8   7   7
 2
 ```
 ```output
-Nombre    UF1       UF2       UF3       FINAL     
+Nombre    T1        T2        T3        FINAL     
 Juan      5         6         6         6         
 Pepe      1         2         1         1         
 Eloy      7         8         7         7  

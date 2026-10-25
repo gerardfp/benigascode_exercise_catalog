@@ -66,8 +66,6 @@ S'imprimirà:
 
 Si els parèntesis estan ben emparellats, no s'ha d'imprimir res.
 
-
-
 ## Tests
 
 ### Test

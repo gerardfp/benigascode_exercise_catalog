@@ -81,12 +81,12 @@ Per últim el bloc **2** s'escriu al primer disc:
 
 ### Test
 ```input
-2
-0 0
-2 3 6 1 5 2   0
+3
+1 4 5
+1 2 3 4 5  0
 ```
 ```output
-10 9
+7 8 10
 ```
 #### Explanation
 Inicialment tenim aquesta ocupació dels discs:
@@ -122,16 +122,6 @@ El bloc de tamany **4** s'escriu al segon disc:
 El bloc de tamany **5** s'escriu al tercer disc:
 
 ```
-7 8 10
-```
-
-### Test
-```input
-3
-1 4 5
-1 2 3 4 5  0
-```
-```output
 7 8 10
 ```
 

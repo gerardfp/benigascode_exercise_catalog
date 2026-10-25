@@ -17,7 +17,7 @@ La posició del cavall, i del dos peons
 
 ## Output
 
-0 | 1 | 2
+`0` | `1` | `2`
 
 ## Tests
 
@@ -36,18 +36,6 @@ La posició del cavall, i del dos peons
 ### Test
 ```input
 4 5
-3 3
-5 4
-```
-```output
-1
-```
-#### Explanation
-![image](assets/un-cavall-contra-2-peons-img2.png)
-
-### Test
-```input
-4 5
 2 4
 6 4
 ```
@@ -55,7 +43,7 @@ La posició del cavall, i del dos peons
 2
 ```
 #### Explanation
-![image](assets/un-cavall-contra-2-peons-img3.png)
+![image](assets/un-cavall-contra-2-peons-img2.png)
 
 ### Test
 ```input
@@ -67,7 +55,7 @@ La posició del cavall, i del dos peons
 0
 ```
 #### Explanation
-![image](assets/un-cavall-contra-2-peons-img4.png)
+![image](assets/un-cavall-contra-2-peons-img3.png)
 
 ### Test
 ```input
@@ -79,7 +67,7 @@ La posició del cavall, i del dos peons
 2
 ```
 #### Explanation
-![image](assets/un-cavall-contra-2-peons-img5.png)
+![image](assets/un-cavall-contra-2-peons-img4.png)
 
 ### Test
 ```input
@@ -90,6 +78,8 @@ La posició del cavall, i del dos peons
 ```output
 1
 ```
+#### Explanation
+![image](assets/un-cavall-contra-2-peons-img5.png)
 
 ### Test
 ```input

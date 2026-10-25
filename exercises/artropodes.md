@@ -50,20 +50,6 @@ Només hi ha un insecte, per tant 6 potes
 
 ### Test
 ```input
-1
-0
-0
-0 10
-0 10
-```
-```output
-6
-```
-#### Explanation
-Només hi ha un aràcnid, per tant 8 potes
-
-### Test
-```input
 0
 1 
 0
@@ -74,7 +60,7 @@ Només hi ha un aràcnid, per tant 8 potes
 8
 ```
 #### Explanation
-Només hi ha 2 crustacis, per tant 20 potes
+Només hi ha un aràcnid, per tant 8 potes
 
 ### Test
 ```input
@@ -88,7 +74,7 @@ Només hi ha 2 crustacis, per tant 20 potes
 20
 ```
 #### Explanation
-Hi ha un miriàpode de 10 segments (2 potes per segment), per tant 20 potes
+Només hi ha 2 crustacis, per tant 20 potes
 
 ### Test
 ```input
@@ -102,7 +88,7 @@ Hi ha un miriàpode de 10 segments (2 potes per segment), per tant 20 potes
 20
 ```
 #### Explanation
-Hi ha un miriàpode (de 4 potes per segment) amb 10 segments, per tant 40 potes
+Hi ha un miriàpode de 10 segments (2 potes per segment), per tant 20 potes
 
 ### Test
 ```input
@@ -115,6 +101,8 @@ Hi ha un miriàpode (de 4 potes per segment) amb 10 segments, per tant 40 potes
 ```output
 40
 ```
+#### Explanation
+Hi ha un miriàpode (de 4 potes per segment) amb 10 segments, per tant 40 potes
 
 ### Test
 ```input

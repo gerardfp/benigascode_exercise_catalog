@@ -5,21 +5,22 @@ tags: [arrays, loops]
 ---
 # Triler
 
-L'objectiu del joc de triler és que la víctima endevini sota quin dels 3 gobelets es troba la boleta. Els gobelets son manejats per l'estafador, canviant-los de posició i movent la boleta d'un a l'atre.
+L'objectiu del joc de triler és que la víctima endevini sota quin dels 3 gobelets es troba la boleta. 
+Els gobelets son manejats per l'estafador, canviant-los de posició i movent la boleta d'un a l'atre.
 
 ![image](assets/triler-img0.png)
 
 Els moviments del triler tracten de despistar la víctima, però al cap i a la fi cada moviment es resumeix en: "**Moure la bola a l'esquerra o a la dreta**".
 
-Representarem l'estat del joc amb un "*" per al gobelet que té la bola, i amb "_" els gobelets que no tenen bola.
+Representarem l'estat del joc amb un `*` per al gobelet que té la bola, i amb `_` els gobelets que no tenen bola.
 
-**El joc comença amb la bola al primer gobelet** (* _ _ *). Aleshores, si el triler fa dos moviments cap a la dreta, per exemple, la bola acabará en el tercer gobelet (* _ _ *).
+**El joc comença amb la bola al primer gobelet** (`* _ _`). Aleshores, si el triler fa dos moviments cap a la dreta, per exemple, la bola acabará en el tercer gobelet (`_ _ *`).
 
-Els moviments són "circulars", és a dir, si la bola està per exemple al primer gobelet (* _ _ *) i es fa un moviment a l'esquerra, la bola passa al tercer gobelet (* _ _ *).
+Els moviments són "circulars", és a dir, si la bola està per exemple al primer gobelet (`* _ _`) i es fa un moviment a l'esquerra, la bola passa al tercer gobelet (`_ _ *`).
 
 ## Input
 
-L'entrada consta de quatre lletres "L" o "R" (separades per espais en blanc) que indiquen els moviments que fa l'estafador.
+L'entrada consta de quatre lletres `L` o `R` (separades per espais en blanc) que indiquen els moviments que fa l'estafador.
 
 ## Output
 
@@ -35,53 +36,11 @@ L L L L
 _ _ *
 ```
 #### Explanation
-`
-Inici: * _ _
-`
-
-`
-Mov L: _ _ *
-`
-
-`
-Mov L: _ * _
-`
-
-`
-Mov L: * _ _
-`
-
-`
-Mov L: _ _ *
-`
-
-### Test
-```input
-L L L L 
-```
-```output
-_ _ *
-```
-#### Explanation
-`
-Inici: * _ _
-`
-
-`
-Mov L: _ _ *
-`
-
-`
-Mov L: _ * _
-`
-
-`
-Mov L: * _ _
-`
-
-`
-Mov R: _ * _
-`
+Inici:  `* _ _`
+Mov `L`: `_ _ *`
+Mov `L`: `_ * _`
+Mov `L`: `* _ _`
+Mov `L`: `_ _ *`
 
 ### Test
 ```input
@@ -91,25 +50,11 @@ L L L R
 _ * _
 ```
 #### Explanation
-`
-Inici: * _ _
-`
-
-`
-Mov L: _ _ *
-`
-
-`
-Mov L: _ * _
-`
-
-`
-Mov R: _ _ *
-`
-
-`
-Mov L: _ * _
-`
+Inici: `* _ _`
+Mov `L`: `_ _ *`
+Mov `L`: `_ * _`
+Mov `L`: `* _ _`
+Mov `R`: `_ * _`
 
 ### Test
 ```input
@@ -119,25 +64,11 @@ L L R L
 _ * _
 ```
 #### Explanation
-`
-Inici: * _ _
-`
-
-`
-Mov L: _ _ *
-`
-
-`
-Mov L: _ * _
-`
-
-`
-Mov R: _ _ *
-`
-
-`
-Mov R: * _ _
-`
+Inici: `* _ _`
+Mov `L`: `_ _ *`
+Mov `L`: `_ * _`
+Mov `R`: `_ _ *`
+Mov `L`: `_ * _`
 
 ### Test
 ```input
@@ -147,25 +78,11 @@ L L R R
 * _ _
 ```
 #### Explanation
-`
-Inici: * _ _
-`
-
-`
-Mov L: _ _ *
-`
-
-`
-Mov R: * _ _
-`
-
-`
-Mov L: _ _ *
-`
-
-`
-Mov L: _ * _
-`
+Inici: `* _ _`
+Mov `L`: `_ _ *`
+Mov `L`: `_ * _`
+Mov `R`: `_ _ *`
+Mov `R`: `* _ _`
 
 ### Test
 ```input
@@ -174,6 +91,12 @@ L R L L
 ```output
 _ * _
 ```
+#### Explanation
+Inici: `* _ _`
+Mov `L`: `_ _ *`
+Mov `R`: `* _ _`
+Mov `L`: `_ _ *`
+Mov `L`: `_ * _`
 
 ### Test
 ```input
