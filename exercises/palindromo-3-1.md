@@ -21,7 +21,7 @@ Una línia amb un String.
 
 ## Output
 
-'true' | 'false'
+`true` | `false`
 
 ## Tests
 

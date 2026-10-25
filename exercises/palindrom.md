@@ -13,7 +13,7 @@ String
 
 ## Output
 
-{ true | false }
+{ `true` | `false` }
 
 ## Tests
 

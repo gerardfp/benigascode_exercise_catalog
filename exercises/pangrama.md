@@ -7,8 +7,6 @@ tags: [arrays, strings, loops, for-loop, booleans, flags]
 
 Donat un text, dir si utilitza **totes** les lletres de l'alfabet.
 
-Alfabet:
-
 ```
 abcdefghijklmnopqrstuvwxyz
 ```
@@ -19,7 +17,7 @@ Un text en una sola línia
 
 ## Output
 
-true | false
+`true` | `false`
 
 ## Tests
 
