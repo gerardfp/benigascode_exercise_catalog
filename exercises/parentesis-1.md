@@ -18,37 +18,39 @@ Volem fer un programa que ens indiqui si hi ha algun error d'emparellament de pa
 
 <br>
 
+<details>
+<summary>
+Suggerència per a la solució
+</summary>
+Un possible solució al problema consisteix en:
+- Crear tres comptadors:
 
-> **Suggerència per a la solució**
->
-> Un possible solució al problema consisteix en:
->
-> - Crear tres comptadors:
-> 
-> <ul><li>un per als parèntesis `oberts`
-> - un per als `tancats`
-> - un per al `total` de parèntesis (oberts i tancats)
-> 
-> </li>
-> <li>Aleshores, es van llegint una a una les paraules de l'expressió.
-> 
-> - Si la paraula llegida es un parèntesi obert `(`
-> 
-> <ul><li>es suma 1 al comptador de parèntesis `oberts`
-> - també es suma 1 al `total` de parèntesis.
-> 
-> </li>
-> <li>Si es llegeix un parèntesi tancat `)`
-> 
-> - es suma 1 al de `tancats`
-> - es suma 1 al de `total`
-> - A més a més, mirem si el comptador de `tancats` és major al d'`oberts`
-> 
-> <ul><li>si és així, és que hi ha un error de parèntesi mal tancat. Imprimim l'error, i restem 1 al comptador de `tancats`
-> 
-> </li></ul></li></ul></li>
-> <li>Un cop s'ha acabat de llegir tota l'expressió, s'haurien d'haver comptat el mateix número d'`oberts` que de `tancats`. Si no és així, és que falten parèntesis per tancar.</li>
-> </ul>
+<ul><li>un per als parèntesis `oberts`
+- un per als `tancats`
+- un per al `total` de parèntesis (oberts i tancats)
+
+</li>
+<li>Aleshores, es van llegint una a una les paraules de l'expressió.
+
+- Si la paraula llegida es un parèntesi obert `(`
+
+<ul><li>es suma 1 al comptador de parèntesis `oberts`
+- també es suma 1 al `total` de parèntesis.
+
+</li>
+<li>Si es llegeix un parèntesi tancat `)`
+
+- es suma 1 al de `tancats`
+- es suma 1 al de `total`
+- A més a més, mirem si el comptador de `tancats` és major al d'`oberts`
+
+<ul><li>si és així, és que hi ha un error de parèntesi mal tancat. Imprimim l'error, i restem 1 al comptador de `tancats`
+
+</li></ul></li></ul></li>
+<li>Un cop s'ha acabat de llegir tota l'expressió, s'haurien d'haver comptat el mateix número d'`oberts` que de `tancats`. Si no és així, és que falten parèntesis per tancar.</li>
+</ul>
+</details>
+
 ## Input
 
 L'entrada consisteix en una expressió. Els elements de l'expressió estan separats per espais en blanc.
