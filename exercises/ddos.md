@@ -60,6 +60,14 @@ void main() {
 ```output
 DDoS alert
 ```
+
+### Test
+```input
+0.1  0.2  0.3      -1
+```
+```output
+DDoS alert
+```
 #### Explanation
 ![image](assets/ddos-img1.png)
 
@@ -75,10 +83,9 @@ S'han produït 4 connexions en 0.6 segons
 
 ### Test
 ```input
-0.1  0.2  0.3      -1
+0.5  0.2  0.3      -1
 ```
 ```output
-DDoS alert
 ```
 #### Explanation
 ![image](assets/ddos-img2.png)
@@ -95,9 +102,10 @@ S'han produït 4 connexions en 1 segon, és a dir, no s'ha superat el límit.
 
 ### Test
 ```input
-0.5  0.2  0.3      -1
+0.5  0.2  0.3  0.2      -1
 ```
 ```output
+DDoS alert
 ```
 #### Explanation
 ![image](assets/ddos-img3.png)
@@ -116,9 +124,10 @@ Entre la segona i la cinquena connexió han passat 0.7 segons, és a dir, s'ha s
 
 ### Test
 ```input
-0.5  0.2  0.3  0.2      -1
+0.5  0.2  0.3  0.2  0.6  0.1      -1
 ```
 ```output
+DDoS alert
 DDoS alert
 ```
 #### Explanation
@@ -132,9 +141,10 @@ i entre la quarta i la setena (0.2+0.6+0.1).
 
 ### Test
 ```input
-0.5  0.2  0.3  0.2  0.6  0.1      -1
+0.5  0.2  0.3  0.2  0.1  0.1      -1
 ```
 ```output
+DDoS alert
 DDoS alert
 DDoS alert
 ```
@@ -146,16 +156,6 @@ DDoS alert
 0.3+0.2+0.1
 
 0.2+0.1+0.1
-
-### Test
-```input
-0.5  0.2  0.3  0.2  0.1  0.1      -1
-```
-```output
-DDoS alert
-DDoS alert
-DDoS alert
-```
 
 ### Test
 ```input

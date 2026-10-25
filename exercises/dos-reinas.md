@@ -10,14 +10,14 @@ Dadas las posiciones de las reinas blanca y negra en un tablero de ajedrez, el p
 ## Input
 
 El tablero de ajedrez consiste en 8 lineas de ocho caracteres cada una.
-Cada caracter representa una casilla del tablero.
-El caracter '-' indica una casilla vacía.
-La casilla en la que está la reina BLANCA se indica con una 'B'. 
-La casilla en la que está la reina NEGRA se indica con una 'N'.
+Cada caracter representa una casilla del tablero:
+- Las casillas vaciás se indican con un caracter `-`
+- La casilla en la que está la reina BLANCA se indica con una `B`
+- La casilla en la que está la reina NEGRA se indica con una `N`
 
 ## Output
 
-SI | NO
+`SI` | `NO`
 
 ## Solutions
 

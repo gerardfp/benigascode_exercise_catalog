@@ -13,7 +13,7 @@ Un texto terminado con un salto de línea.
 
 ## Output
 
-En la primera linea la cantidad de 'a', en la siguiente linea la cantidad de 'e', etc.
+En la primera linea la cantidad de `a`, en la siguiente linea la cantidad de `e`, etc.
 
 ## Solutions
 

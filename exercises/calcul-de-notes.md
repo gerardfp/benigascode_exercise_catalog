@@ -16,7 +16,7 @@ Donada una entrada de teclat corresponent a la marca numèrica d'un examen, el p
 
 ## Input
 
-Un número flotant corresponent a la nota
+Un número decimal corresponent a la nota
 
 ## Output
 

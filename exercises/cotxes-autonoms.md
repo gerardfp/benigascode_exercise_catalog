@@ -11,9 +11,9 @@ Els cotxes autònoms ha de prendre decisions sobre la conducció a partir del le
 
 El nostre cotxe elèctric ha de decidir si pot continuar la marxa en funció de les dades que li arriben del sensors. Aquestes dades són:
 
-- Estat del semàfor: r = vermell, g = verd, o = àmbar
-- Vianants creuant el carrer: true, false
-- Agent de circulació: 0 = no hi ha agent, 1 = ens dona pas, 2 = ens fa stop
+- Estat del semàfor: `r` = vermell, `g` = verd, `o` = àmbar
+- Vianants creuant el carrer: `true`, `false`
+- Agent de circulació: `0` = no hi ha agent, `1` = ens dona pas, `2` = ens fa stop
 
 La decisió de continuar o no, en base a les combinacions de les dades del sensor es reflecteix en aquesta taula:
 
@@ -27,11 +27,11 @@ creuar    f t f f f f t t f f f f t t f f f f
 
 ## Input
 
-En primer lloc l'estat del semàfor S, després la presència de vianants V, finalment l'estat de l'agent de circulació A.
+En primer lloc l'estat del semàfor $S$, després la presència de vianants $V$, finalment l'estat de l'agent de circulació $A$.
 
 ## Output
 
-S'imprimirà "CONTINUAR" o "NO CONTINUAR"
+S'imprimirà `CONTINUAR` o `NO CONTINUAR`
 
 ## Solutions
 

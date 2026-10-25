@@ -9,11 +9,11 @@ A partir de una secuencia de números, decir si cada uno de ellos es divisible p
 
 ## Input
 
-Una secuencia de (N) números terminada en 0.
+Una secuencia de $N$ números terminada en `0`.
 
 ## Output
 
-Un "SI" o un "NO" por cada número leído.
+Un `SI` o un `NO` por cada número leído.
 
 ## Solutions
 

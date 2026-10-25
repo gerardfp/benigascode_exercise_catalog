@@ -9,11 +9,11 @@ Dado un número, di si es primo o no.
 
 ## Input
 
-Un número N
+Un número $N$
 
 ## Output
 
-true | false
+`true` | `false`
 
 ## Solutions
 

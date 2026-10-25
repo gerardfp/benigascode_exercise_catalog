@@ -5,15 +5,7 @@ tags: [loops, while-loop, sentinel-loop, counters]
 ---
 # Cuenta números
 
-Se deben ir leyendo números hasta que se lea un 0. El programa debe mostrar la cantidad de números leídos antes del 0.
-
-## Input
-
-Una secuencia de N números.
-
-## Output
-
-Un entero indicando la cantidad de números leídos
+Se deben ir leyendo números hasta que se lea un `0`. El programa debe mostrar la cantidad de números leídos antes del `0`.
 
 ## Solutions
 

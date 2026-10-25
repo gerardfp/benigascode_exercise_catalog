@@ -15,11 +15,11 @@ També disposem del recurs de la metaprogramació, que consisteix en programes q
 
 Una llista de paraules, separades per salts de línia.
 
-La llista de paraules acaba amb '**END**'
+La llista de paraules acaba amb `END`
 
 ## Output
 
-Es generarà una programa Java amb una classe anomenada "Dictionari", que inicialitzi un array d'strings amb les paraules, anomenat "words".
+Es generarà una programa Java amb una classe anomenada `Dictionari`, que inicialitzi un array d'strings amb les paraules, anomenat `words`.
 
 ## Solutions
 

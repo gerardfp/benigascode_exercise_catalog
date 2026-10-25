@@ -1,5 +1,5 @@
 ---
-slug: contact-class-l0
+slug: class-contact
 difficulty: 5.0
 tags: [class]
 ---

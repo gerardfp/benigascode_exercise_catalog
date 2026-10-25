@@ -43,21 +43,11 @@ Falta 1 minut per a les campanades
 
 ### Test
 ```input
-23 59
-```
-```output
-1
-```
-
-### Test
-```input
 23 00
 ```
 ```output
 60
 ```
-#### Explanation
-Queden 1440 minuts (tot el dia)
 
 ### Test
 ```input
@@ -66,6 +56,8 @@ Queden 1440 minuts (tot el dia)
 ```output
 1440
 ```
+#### Explanation
+Queden 1440 minuts (tot el dia)
 
 ### Test private
 ```input

@@ -23,7 +23,7 @@ S'interpreta com 4 bes, 3 enes, 5 bes, 2 enes.
 
 ## Input
 
-Una cadena de L caracters comprimida en RLE
+Una cadena de `L` caracters comprimida en RLE
 
 ## Output
 

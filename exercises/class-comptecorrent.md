@@ -1,19 +1,11 @@
 ---
-slug: definir-la-classe-comptecorrent
+slug: class-comptecorrent
 difficulty: 2.0
-tags: [classes, oop]
+tags: [class]
 ---
 # Definir la classe CompteCorrent
 
-Defineix una classe anomenada CompteCorrent. Ha de tenir tres camps: un enter `saldo`, un String `nomPropietari`, i un boolean `bloquejada`.
-
-## Input
-
--
-
-## Output
-
--
+Defineix una classe anomenada `CompteCorrent`. Ha de tenir tres camps: un enter `saldo`, un String `nomPropietari`, i un boolean `bloquejada`.
 
 ## Plantillas
 

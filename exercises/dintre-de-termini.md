@@ -7,21 +7,12 @@ tags: [conditionals, if-else, operators, relational-operators]
 
 Donades tres dates, digues si la segona és posterior a la primera i anterior a la tercera.
 
-## Input
-
-L'entrada consisteix en tres dates en format `dd / mm / yyyy`.
-
-Les tres dates són distintes.
-
-## Output
-
-S'imprimirà `true` si la segona data és posterior a la primera i anterior a la tercera, i `false` en cas contrari.
-
-**Suggerència per a la solució**
+<details>
+<summary>Suggerència per a la solució</summary>
 
 Cal llegir el dia, mes i any de cada data amb `nextInt()`. S'hauràn de descartar les barres `/` amb `next()`.
 
-Una possible idea per a la solució és presuposar que la segona data està enmig, i després veure si es compleix alguna condició que impliqui que realment no està enmig.
+Una possible algoritme és presuposar que la segona data està enmig, i després veure si es compleix alguna condició que impliqui que realment no està enmig.
 
 ```
 // suposem que està enmig
@@ -39,6 +30,17 @@ if (any1 > any2) {
 // imprimim el resultat
 System.out.println(enmig);
 ```
+</details>
+
+## Input
+
+L'entrada consisteix en tres dates en format `dd / mm / yyyy`.
+
+Les tres dates són distintes.
+
+## Output
+
+S'imprimirà `true` si la segona data és posterior a la primera i anterior a la tercera, i `false` en cas contrari.
 
 ## Solutions
 

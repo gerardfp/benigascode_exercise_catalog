@@ -5,12 +5,12 @@ tags: [loops, while-loop, nested-loops, sentinel-loop, counters]
 ---
 # Cuentas de números
 
-Para cada caso de prueba, se deben ir leyendo números hasta que se lea un 0. El programa debe mostrar la cantidad de números leídos antes del 0.
+Para cada caso de prueba, se deben ir leyendo números hasta que se lea un `0`. El programa debe mostrar la cantidad de números leídos antes del 0.
 
 ## Input
 
-El primer número (T) indica la cantidad de casos de prueba que vienen a continuación.
-Cada caso de prueba consta de una secuencia de N números que termina con un 0.
+El primer número $T$ indica la cantidad de casos de prueba que vienen a continuación.
+Cada caso de prueba consta de una secuencia de números que termina con un `0`.
 
 ## Output
 
