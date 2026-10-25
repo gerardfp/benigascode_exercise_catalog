@@ -18,6 +18,38 @@ La entrada consisteix en un seqüencia de números. Un número positiu indica la
 
 S'ha d'imprimir el temps del rellotge en format `hh:mm:ss` per de cada número llegit de l'entrada.
 
+## Plantillas
+
+```java
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+class Clock {
+    int hours;
+    int minutes;
+    int seconds;
+
+}
+
+public class E12 {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Clock clock = new Clock();
+
+        int t;
+        while((t = scanner.nextInt()) != -1){
+            if(t == 0) clock.reset();
+            else for (int i = 0; i < t; i++) clock.tick();
+            System.out.println(clock.getTime());
+        }
+    }
+}
+```
+
 ## Solutions
 
 ```java
@@ -61,38 +93,6 @@ void main() {
         if (t == 0) clock.reset();
         else for (int i = 0; i < t; i++) clock.tick();
         IO.println(clock.getTime());
-    }
-}
-```
-
-## Plantillas
-
-```java
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
-
-class Clock {
-    int hours;
-    int minutes;
-    int seconds;
-
-}
-
-public class E12 {
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        Clock clock = new Clock();
-
-        int t;
-        while((t = scanner.nextInt()) != -1){
-            if(t == 0) clock.reset();
-            else for (int i = 0; i < t; i++) clock.tick();
-            System.out.println(clock.getTime());
-        }
     }
 }
 ```

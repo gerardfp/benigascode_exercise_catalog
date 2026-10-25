@@ -26,6 +26,18 @@ L'entrada consta de 5 línies:
 
 -
 
+## Plantillas
+
+```java
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+      
+    }
+}
+```
+
 ## Solutions
 
 ```java
@@ -38,18 +50,6 @@ void main() {
     String cuina = sc.nextLine();
 
     IO.println("El formulari de " + nom + " s'ha completat. Et contactarem si necessitem un xef de cuina " + cuina + ".");
-}
-```
-
-## Plantillas
-
-```java
-import java.util.Scanner;
-
-public class Main {
-    public static void main(String[] args) {
-      
-    }
 }
 ```
 

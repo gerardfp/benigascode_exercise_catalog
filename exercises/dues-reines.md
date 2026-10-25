@@ -17,20 +17,6 @@ La entrada consisteix en 4 nombres indicant la <span style="font-size: 100%; dis
 
 true | false
 
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int r1 = sc.nextInt();
-    int c1 = sc.nextInt();
-    int r2 = sc.nextInt();
-    int c2 = sc.nextInt();
-    boolean attacks = (r1 == r2 || c1 == c2 || Math.abs(r1 - r2) == Math.abs(c1 - c2));
-    IO.println(attacks);
-}
-```
-
 ## Plantillas
 
 ```java
@@ -44,6 +30,20 @@ public class Main {
     public static void main(String args[] ) throws Exception {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT */
     }
+}
+```
+
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int r1 = sc.nextInt();
+    int c1 = sc.nextInt();
+    int r2 = sc.nextInt();
+    int c2 = sc.nextInt();
+    boolean attacks = (r1 == r2 || c1 == c2 || Math.abs(r1 - r2) == Math.abs(c1 - c2));
+    IO.println(attacks);
 }
 ```
 

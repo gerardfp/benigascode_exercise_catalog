@@ -19,6 +19,22 @@ A continuación vienen las <span style="font-size: 100%; display: inline-block;"
 
 Se imprimirà la puntuación truncada media
 
+## Plantillas
+
+```java
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        scanner.useLocale(Locale.ENGLISH);
+    	
+    }
+}
+```
+
 ## Solutions
 
 ```java
@@ -37,22 +53,6 @@ void main() {
     }
     double avg = (sum - min - max) / (n - 2);
     IO.println(avg);
-}
-```
-
-## Plantillas
-
-```java
-import java.util.Locale;
-import java.util.Scanner;
-
-public class Main {
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        scanner.useLocale(Locale.ENGLISH);
-    	
-    }
 }
 ```
 

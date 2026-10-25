@@ -25,6 +25,22 @@ A continuació venen el preu per hora, i el preu per hora extra.
 
 S'imprimirà el salari total, sense decimals.
 
+## Plantillas
+
+```java
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        scanner.useLocale(Locale.ENGLISH);
+		
+    }
+}
+```
+
 ## Solutions
 
 ```java
@@ -46,22 +62,6 @@ void main() {
     double pExt = Double.parseDouble(sc.next());
     int total = (int) (normH * pNorm + extH * pExt);
     IO.println(total);
-}
-```
-
-## Plantillas
-
-```java
-import java.util.Locale;
-import java.util.Scanner;
-
-public class Main {
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        scanner.useLocale(Locale.ENGLISH);
-		
-    }
 }
 ```
 

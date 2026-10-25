@@ -61,22 +61,6 @@ L'entrada consta d'un nombre enter que indica la quantitat d'usuaris a generar.
 
 S'imprimiràn les dades dels usuaris amb el format de la l'arxiu /etc/passwd.
 
-## Solutions
-
-```java
-void main() throws Exception {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int n = sc.nextInt();
-    for (int i = 0; i < n; i++) {
-        int uid = 1001 + i;
-        int password = (uid << 29 ^ uid << 17) >>> 1;
-        String encrypted = Base64.getEncoder().encodeToString(MessageDigest.getInstance("md5").digest(String.valueOf(password).getBytes()));
-        IO.println("user" + uid + ":$1$" + encrypted + ":" + uid + ":1000:Usuari " + uid + ":/home/user" + uid + ":/bin/bash");
-    }
-}
-```
-
 ## Plantillas
 
 ```java
@@ -93,6 +77,22 @@ public class Main   {
       // Usa esta instruccion para encryptar el password generado
       // String encrypted = Base64.getEncoder().encodeToString(MessageDigest.getInstance("md5").digest((String.valueOf(password)).getBytes()));
 
+    }
+}
+```
+
+## Solutions
+
+```java
+void main() throws Exception {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    for (int i = 0; i < n; i++) {
+        int uid = 1001 + i;
+        int password = (uid << 29 ^ uid << 17) >>> 1;
+        String encrypted = Base64.getEncoder().encodeToString(MessageDigest.getInstance("md5").digest(String.valueOf(password).getBytes()));
+        IO.println("user" + uid + ":$1$" + encrypted + ":" + uid + ":1000:Usuari " + uid + ":/home/user" + uid + ":/bin/bash");
     }
 }
 ```

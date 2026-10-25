@@ -18,56 +18,6 @@ Implementa els mètodes switchOn() i switchOff() de la classe Led.
 
 -
 
-## Solutions
-
-```java
-class Led {
-    boolean state;
-
-    void switchOn() {
-        state = true;
-    }
-
-    void switchOff() {
-        state = false;
-    }
-
-    void draw() {
-        if (state) {
-            IO.print("(*)");
-        } else {
-            IO.print("( )");
-        }
-    }
-}
-
-void main() {
-    Led l1 = new Led();
-    Led l2 = new Led();
-
-    l1.draw();
-    l2.draw();
-
-    l1.switchOn();
-
-    IO.println();
-    l1.draw();
-    l2.draw();
-
-    l2.switchOn();
-
-    IO.println();
-    l1.draw();
-    l2.draw();
-
-    l1.switchOff();
-
-    IO.println();
-    l1.draw();
-    l2.draw();
-}
-```
-
 ## Plantillas
 
 ```java
@@ -116,6 +66,56 @@ public class Main {
         l1.draw();
         l2.draw();
     }
+}
+```
+
+## Solutions
+
+```java
+class Led {
+    boolean state;
+
+    void switchOn() {
+        state = true;
+    }
+
+    void switchOff() {
+        state = false;
+    }
+
+    void draw() {
+        if (state) {
+            IO.print("(*)");
+        } else {
+            IO.print("( )");
+        }
+    }
+}
+
+void main() {
+    Led l1 = new Led();
+    Led l2 = new Led();
+
+    l1.draw();
+    l2.draw();
+
+    l1.switchOn();
+
+    IO.println();
+    l1.draw();
+    l2.draw();
+
+    l2.switchOn();
+
+    IO.println();
+    l1.draw();
+    l2.draw();
+
+    l1.switchOff();
+
+    IO.println();
+    l1.draw();
+    l2.draw();
 }
 ```
 

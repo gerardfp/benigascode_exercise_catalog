@@ -9,15 +9,6 @@ Donada una variable, afegeix el tipus `int` i assigna-li el valor `123456`.
 
 No oblidis el `;` al final de la sentència.
 
-## Solutions
-
-```java
-void main() {
-    int variable = 123456;
-    IO.println(variable);
-}
-```
-
 ## Plantillas
 
 ```java
@@ -25,6 +16,15 @@ void main() {
 
     variable  // canvia aquesta linia
 
+    IO.println(variable);
+}
+```
+
+## Solutions
+
+```java
+void main() {
+    int variable = 123456;
     IO.println(variable);
 }
 ```

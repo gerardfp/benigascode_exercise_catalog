@@ -18,33 +18,6 @@ Completa el mètode main():
 
 -
 
-## Solutions
-
-```java
-class LineSeparator {
-    int size;
-
-    void print() {
-        for (int i = 0; i < size; i++) {
-            IO.print("-");
-        }
-        IO.println();
-    }
-}
-
-void main() {
-    Scanner scanner = new Scanner(System.in);
-    LineSeparator lineSeparator = new LineSeparator();
-
-    int n;
-    while (scanner.hasNextInt() && (n = scanner.nextInt()) != -1) {
-        IO.println("Aqui sota hi surt una line de %d guions".formatted(n));
-        lineSeparator.size = n;
-        lineSeparator.print();
-    }
-}
-```
-
 ## Plantillas
 
 ```java
@@ -75,6 +48,33 @@ public class Main {
             System.out.format("Aqui sota hi surt una line de %d guions", n);
             lineSeparator.print();
         }
+    }
+}
+```
+
+## Solutions
+
+```java
+class LineSeparator {
+    int size;
+
+    void print() {
+        for (int i = 0; i < size; i++) {
+            IO.print("-");
+        }
+        IO.println();
+    }
+}
+
+void main() {
+    Scanner scanner = new Scanner(System.in);
+    LineSeparator lineSeparator = new LineSeparator();
+
+    int n;
+    while (scanner.hasNextInt() && (n = scanner.nextInt()) != -1) {
+        IO.println("Aqui sota hi surt una line de %d guions".formatted(n));
+        lineSeparator.size = n;
+        lineSeparator.print();
     }
 }
 ```

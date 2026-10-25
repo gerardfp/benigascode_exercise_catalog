@@ -9,6 +9,27 @@ Defineix la classe `Book`.
 
 Ha de contenir tres camps: camp string `title`, camp enter `yearOfPublishing` i camp booleà `isAvailable`.
 
+## Plantillas
+
+```java
+// crea la classe aqui
+
+public class Main {
+
+    public static void main(String[] args) {
+      	Book book = new Book();
+      
+      	book.title = "Through the looking glass";
+      	book.yearOfPublishing = 1871;
+      	book.isAvailable = true;
+      
+      	System.out.println(book.title);
+      	System.out.println(book.yearOfPublishing);
+      	System.out.println(book.isAvailable);
+    }
+}
+```
+
 ## Solutions
 
 ```java
@@ -28,27 +49,6 @@ void main() {
     IO.println(book.title);
     IO.println(book.yearOfPublishing);
     IO.println(book.isAvailable);
-}
-```
-
-## Plantillas
-
-```java
-// crea la classe aqui
-
-public class Main {
-
-    public static void main(String[] args) {
-      	Book book = new Book();
-      
-      	book.title = "Through the looking glass";
-      	book.yearOfPublishing = 1871;
-      	book.isAvailable = true;
-      
-      	System.out.println(book.title);
-      	System.out.println(book.yearOfPublishing);
-      	System.out.println(book.isAvailable);
-    }
 }
 ```
 

@@ -15,6 +15,28 @@ Una sèrie de números enters que representen l'índex dels elements que han de 
 
 -
 
+## Plantillas
+
+```java
+import java.util.Scanner;
+import java.util.Arrays;
+
+void main() {
+    Scanner scanner= new Scanner(System.in);
+
+    // crea l'array de 100 booleans
+
+    int index = scanner.nextInt();
+    while(index != -1){
+        // assigna el valor 'true' a l'element de l'array en la posicio 'index'
+
+        index = scanner.nextInt();
+    }
+
+    IO.println(Arrays.toString(array));
+}
+```
+
 ## Solutions
 
 ```java
@@ -36,28 +58,6 @@ void main() {
     }
     out += "]";
     IO.println(out);
-}
-```
-
-## Plantillas
-
-```java
-import java.util.Scanner;
-import java.util.Arrays;
-
-void main() {
-    Scanner scanner= new Scanner(System.in);
-
-    // crea l'array de 100 booleans
-
-    int index = scanner.nextInt();
-    while(index != -1){
-        // assigna el valor 'true' a l'element de l'array en la posicio 'index'
-
-        index = scanner.nextInt();
-    }
-
-    IO.println(Arrays.toString(array));
 }
 ```
 

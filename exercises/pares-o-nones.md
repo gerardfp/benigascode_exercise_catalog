@@ -19,6 +19,22 @@ l'entrada consta de 4 dades:
 
 S'imprimirà el jugador que guanya: `primer jugador` | `segon jugador`
 
+## Plantillas
+
+```java
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Main {
+    public static void main(String args[] ) throws Exception {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    }
+}
+```
+
 ## Solutions
 
 ```java
@@ -34,22 +50,6 @@ void main() {
     boolean p1Wins = isEven ? p1Choice.equals("pares") : p1Choice.equals("nones");
 
     IO.println(p1Wins ? "primer jugador" : "segon jugador");
-}
-```
-
-## Plantillas
-
-```java
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
-
-public class Main {
-    public static void main(String args[] ) throws Exception {
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT */
-    }
 }
 ```
 

@@ -13,37 +13,6 @@ Completa el mètode `Solution.main()`:
 
 - Crida adequadament al mètode `AdvancedLineSeparator.print()`
 
-## Solutions
-
-```java
-class AdvancedLineSeparator {
-    char charSeparator;
-    int size;
-
-    void print() {
-        for (int i = 0; i < size; i++) {
-            IO.print(charSeparator);
-        }
-        IO.println();
-    }
-}
-
-void main() {
-    Scanner sc = new Scanner(System.in);
-    AdvancedLineSeparator lineSeparator = new AdvancedLineSeparator();
-
-    String line;
-    while (!(line = sc.nextLine()).equals("__END__")) {
-        lineSeparator.charSeparator = line.charAt(0);
-        lineSeparator.size = sc.nextInt();
-        sc.nextLine();
-
-        IO.println("Aqui sota apareix una linea de %s %s".formatted(lineSeparator.size, lineSeparator.charSeparator));
-        lineSeparator.print();
-    }
-}
-```
-
 ## Plantillas
 
 ```java
@@ -77,6 +46,37 @@ public class Main {
 
             System.out.format("Aqui sota apareix una linea de %s %s%n", lineSeparator.size,lineSeparator.charSeparator);
         }
+    }
+}
+```
+
+## Solutions
+
+```java
+class AdvancedLineSeparator {
+    char charSeparator;
+    int size;
+
+    void print() {
+        for (int i = 0; i < size; i++) {
+            IO.print(charSeparator);
+        }
+        IO.println();
+    }
+}
+
+void main() {
+    Scanner sc = new Scanner(System.in);
+    AdvancedLineSeparator lineSeparator = new AdvancedLineSeparator();
+
+    String line;
+    while (!(line = sc.nextLine()).equals("__END__")) {
+        lineSeparator.charSeparator = line.charAt(0);
+        lineSeparator.size = sc.nextInt();
+        sc.nextLine();
+
+        IO.println("Aqui sota apareix una linea de %s %s".formatted(lineSeparator.size, lineSeparator.charSeparator));
+        lineSeparator.print();
     }
 }
 ```

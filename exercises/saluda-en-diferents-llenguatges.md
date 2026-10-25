@@ -32,6 +32,32 @@ S'imprimirà la salutació en l'idioma especificat.
 
 Si l'idioma no és un de la llista, s'imprimirà la frase `No conec el teu idioma, com es diu hola?`, i aleshores s'imprimirà la salutació rebuda.
 
+## Plantillas
+
+```java
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+      
+        /*
+        "French" "Bonjour"
+        "Spanish" "Hola"
+        "Russian" "Zdravstvuyte"
+        "Chinese" "Nin hao"
+        "Japanese" "Konnichiwa"
+        "German" "Guten Tag"
+        "Portuguese" "Ola"
+        "Arabic" "Asalaam alaikum"
+        "Hindi" "Namaste"
+        "Romanian" "Buna ziua"
+        */
+    }
+}
+```
+
 ## Solutions
 
 ```java
@@ -57,32 +83,6 @@ void main() {
                 IO.println(greeting);
             }
         }
-    }
-}
-```
-
-## Plantillas
-
-```java
-import java.util.Scanner;
-
-public class Main {
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-      
-        /*
-        "French" "Bonjour"
-        "Spanish" "Hola"
-        "Russian" "Zdravstvuyte"
-        "Chinese" "Nin hao"
-        "Japanese" "Konnichiwa"
-        "German" "Guten Tag"
-        "Portuguese" "Ola"
-        "Arabic" "Asalaam alaikum"
-        "Hindi" "Namaste"
-        "Romanian" "Buna ziua"
-        */
     }
 }
 ```

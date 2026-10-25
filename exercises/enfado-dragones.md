@@ -33,6 +33,18 @@ enfadado si le han robado entre 10 y 50 monedas.
 
 furioso si le han robado más de 50 monedas.
 
+## Plantillas
+
+```java
+import java.io.*;
+
+public class Main {
+    public static void main(String[] args) throws Exception {
+        // Escribe aquí tu solución
+    }
+}
+```
+
 ## Solutions
 
 ```java
@@ -49,18 +61,6 @@ void main() {
         } else {
             IO.println("furioso");
         }
-    }
-}
-```
-
-## Plantillas
-
-```java
-import java.io.*;
-
-public class Main {
-    public static void main(String[] args) throws Exception {
-        // Escribe aquí tu solución
     }
 }
 ```

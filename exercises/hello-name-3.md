@@ -17,14 +17,6 @@ La teva solució no ha de tenir `<>`.
 
 -
 
-## Solutions
-
-```java
-void main() {
-    String nom = "JOAN";
-}
-```
-
 ## Plantillas
 
 ```java
@@ -33,6 +25,14 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hola, <NOM>!");
     }
+}
+```
+
+## Solutions
+
+```java
+void main() {
+    String nom = "JOAN";
 }
 ```
 

@@ -7,33 +7,6 @@ tags: [class]
 
 Assigna els valors als camps de l'objecte `producte` a partir de les dades de l'entrada.
 
-## Solutions
-
-```java
-class Producte {
-    String nom;
-    String descripcio;
-    float preu;
-    int stock;
-}
-
-void main() {
-    Scanner scanner = new Scanner(System.in);
-
-    Producte producte = new Producte();
-
-    producte.nom = scanner.nextLine();
-    producte.descripcio = scanner.nextLine();
-    producte.preu = Float.parseFloat(scanner.nextLine());
-    producte.stock = Integer.parseInt(scanner.nextLine());
-
-    IO.println("Nom:        " + producte.nom);
-    IO.println("Descripcio: " + producte.descripcio);
-    IO.println("Preu:       " + producte.preu);
-    IO.println("Stock:      " + producte.stock);
-}
-```
-
 ## Plantillas
 
 ```java
@@ -60,6 +33,33 @@ public class Main {
         System.out.println("Preu:       " + producte.preu);
         System.out.println("Stock:      " + producte.stock);
     }
+}
+```
+
+## Solutions
+
+```java
+class Producte {
+    String nom;
+    String descripcio;
+    float preu;
+    int stock;
+}
+
+void main() {
+    Scanner scanner = new Scanner(System.in);
+
+    Producte producte = new Producte();
+
+    producte.nom = scanner.nextLine();
+    producte.descripcio = scanner.nextLine();
+    producte.preu = Float.parseFloat(scanner.nextLine());
+    producte.stock = Integer.parseInt(scanner.nextLine());
+
+    IO.println("Nom:        " + producte.nom);
+    IO.println("Descripcio: " + producte.descripcio);
+    IO.println("Preu:       " + producte.preu);
+    IO.println("Stock:      " + producte.stock);
 }
 ```
 

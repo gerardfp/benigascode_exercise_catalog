@@ -17,17 +17,6 @@ L'entrada és un dia de la setmana.
 
 `8:00` | `10:00`
 
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    String dia = sc.next();
-    String hora = (dia.equals("Dissabte") || dia.equals("Diumenge")) ? "10:00" : "8:00";
-    IO.println(hora);
-}
-```
-
 ## Plantillas
 
 ```java
@@ -42,6 +31,17 @@ public class Main {
     public static void main(String[] args) {
        	Scanner scanner = new Scanner(System.in);
     }
+}
+```
+
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    String dia = sc.next();
+    String hora = (dia.equals("Dissabte") || dia.equals("Diumenge")) ? "10:00" : "8:00";
+    IO.println(hora);
 }
 ```
 

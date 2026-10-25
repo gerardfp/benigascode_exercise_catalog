@@ -37,6 +37,21 @@ L'entrada té dues opcions:
 
 S'imprimirà l'enquesta en el format apuntat als casos de prova
 
+## Plantillas
+
+```java
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+      
+      
+    }
+}
+```
+
 ## Solutions
 
 ```java
@@ -54,21 +69,6 @@ void main() {
         }
     }
     IO.println("Gracies per contestar");
-}
-```
-
-## Plantillas
-
-```java
-import java.util.*;
-
-public class Main {
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-      
-      
-    }
 }
 ```
 

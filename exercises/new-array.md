@@ -27,22 +27,6 @@ posició | valor
 
 -
 
-## Solutions
-
-```java
-void main() {
-    float[] arrayFloats = new float[100];
-    arrayFloats[0] = 31.0f;
-    arrayFloats[1] = 56.0f;
-    arrayFloats[19] = 12.0f;
-    arrayFloats[arrayFloats.length - 1] = 79.0f;
-
-    for (int i = 0; i < arrayFloats.length; i++) {
-        IO.print(arrayFloats[i] + " ");
-    }
-}
-```
-
 ## Plantillas
 
 ```java
@@ -58,6 +42,22 @@ public class Main {
       	for (int i = 0; i < arrayFloats.length; i++) {
          	System.out.print(arrayFloats[i] + " "); 
         }
+    }
+}
+```
+
+## Solutions
+
+```java
+void main() {
+    float[] arrayFloats = new float[100];
+    arrayFloats[0] = 31.0f;
+    arrayFloats[1] = 56.0f;
+    arrayFloats[19] = 12.0f;
+    arrayFloats[arrayFloats.length - 1] = 79.0f;
+
+    for (int i = 0; i < arrayFloats.length; i++) {
+        IO.print(arrayFloats[i] + " ");
     }
 }
 ```

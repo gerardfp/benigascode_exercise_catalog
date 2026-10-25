@@ -20,6 +20,24 @@ A continuació ve una sèrie amb els noms dels alumnes que hi ha a la classe. La
 
 Per cada alumne de la classe, s'escriurà la seva posició a la llista, o la paraula `NO` si no hi és a la llista.
 
+## Plantillas
+
+```java
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+      
+    }
+}
+```
+
 ## Solutions
 
 ```java
@@ -48,24 +66,6 @@ void main() {
         } else {
             IO.println("NO");
         }
-    }
-}
-```
-
-## Plantillas
-
-```java
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
-
-public class Main {
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-      
     }
 }
 ```

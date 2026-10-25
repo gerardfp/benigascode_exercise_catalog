@@ -30,6 +30,22 @@ En primer lugar se indican los datos de la carta de productos:
 
 Se imprimirá el precio total del pedido en formato float.
 
+## Plantillas
+
+```java
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        scanner.useLocale(Locale.ENGLISH);
+      	
+    }
+}
+```
+
 ## Solutions
 
 ```java
@@ -58,22 +74,6 @@ void main() {
         }
     }
     IO.println(total);
-}
-```
-
-## Plantillas
-
-```java
-import java.util.Locale;
-import java.util.Scanner;
-
-public class Main {
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        scanner.useLocale(Locale.ENGLISH);
-      	
-    }
 }
 ```
 

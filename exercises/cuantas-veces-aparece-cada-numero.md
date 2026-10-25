@@ -23,6 +23,16 @@ Se imprimirá en una línea cada `número` de la secuencia y `cuántas` veces ap
 
 Los `números` se deben imprimir ordenados de menor a mayor.
 
+## Plantillas
+
+```java
+public class Solution {
+    public static void main(String[] args) {
+        // Tu código aquí
+    }
+}
+```
+
 ## Solutions
 
 ```java
@@ -53,16 +63,6 @@ void main() {
             i++;
         }
         IO.println(current + ":" + count);
-    }
-}
-```
-
-## Plantillas
-
-```java
-public class Solution {
-    public static void main(String[] args) {
-        // Tu código aquí
     }
 }
 ```

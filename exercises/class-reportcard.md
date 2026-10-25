@@ -9,6 +9,57 @@ Afegeix els camps i mètodes que falten a la classe `ReportCard`.
 
 La variable `weight` indica el pes de l'activitat en la nota final
 
+## Plantillas
+
+```java
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+class Grade {
+    String name;
+    float grade;
+    float weight;
+
+    Grade(String n, float g, float w) {
+        name = n;
+        grade = g;
+        weight = w;
+    }
+}
+
+class ReportCard {
+  
+    ReportCard(int numGrades){
+        grades = new Grade[numGrades];
+    }
+}
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int n = scanner.nextInt();
+	    ReportCard reportCard = new ReportCard(n);
+
+        for (int i = 0; i < n; i++) {
+            String assignment = scanner.next();
+            float grade = scanner.nextFloat();
+            float weight = scanner.nextFloat();
+
+            reportCard.grades[i] = new Grade(assignment, grade, weight);
+        }
+
+        reportCard.calculateAverageGrade();
+
+        System.out.format("Average Grade: %.2f%n", reportCard.averageGrade);
+    }
+}
+```
+
 ## Solutions
 
 ```java
@@ -58,57 +109,6 @@ void main() {
     reportCard.calculateAverageGrade();
 
     IO.println("Average Grade: %.2f".formatted(reportCard.averageGrade));
-}
-```
-
-## Plantillas
-
-```java
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
-
-class Grade {
-    String name;
-    float grade;
-    float weight;
-
-    Grade(String n, float g, float w) {
-        name = n;
-        grade = g;
-        weight = w;
-    }
-}
-
-class ReportCard {
-  
-    ReportCard(int numGrades){
-        grades = new Grade[numGrades];
-    }
-}
-
-public class Main {
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        int n = scanner.nextInt();
-	    ReportCard reportCard = new ReportCard(n);
-
-        for (int i = 0; i < n; i++) {
-            String assignment = scanner.next();
-            float grade = scanner.nextFloat();
-            float weight = scanner.nextFloat();
-
-            reportCard.grades[i] = new Grade(assignment, grade, weight);
-        }
-
-        reportCard.calculateAverageGrade();
-
-        System.out.format("Average Grade: %.2f%n", reportCard.averageGrade);
-    }
 }
 ```
 

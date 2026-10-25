@@ -15,19 +15,6 @@ Dona el nom que li pertoca a cada variable.
 
 -
 
-## Solutions
-
-```java
-void main() {
-    String feature = "Text Blocks";
-    String language = "Java";
-    char quote = '"';
-    int version = 15;
-
-    IO.println(language + " " + version + " incorpora " + feature + ", que es delimiten amb " + quote + quote + quote);
-}
-```
-
 ## Plantillas
 
 ```java
@@ -41,6 +28,19 @@ public class Main {
       
       System.out.println(language + " " + version + " incorpora " + feature + ", que es delimiten amb " + quote + quote + quote);
     }
+}
+```
+
+## Solutions
+
+```java
+void main() {
+    String feature = "Text Blocks";
+    String language = "Java";
+    char quote = '"';
+    int version = 15;
+
+    IO.println(language + " " + version + " incorpora " + feature + ", que es delimiten amb " + quote + quote + quote);
 }
 ```
 

@@ -26,6 +26,21 @@ S'imprimiràn, en format Array, el creixement i les vendes acumulades, cadascun 
 
 *Es permet utilitzar el mètode `Arrays.toString()` per a imprimir els resultats*
 
+## Plantillas
+
+```java
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+      	
+    }
+}
+```
+
 ## Solutions
 
 ```java
@@ -59,21 +74,6 @@ String formatArray(int[] arr) {
         res += arr[i];
     }
     return res + "]";
-}
-```
-
-## Plantillas
-
-```java
-import java.util.Arrays;
-import java.util.Scanner;
-
-public class Main {
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-      	
-    }
 }
 ```
 

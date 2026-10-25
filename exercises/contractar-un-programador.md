@@ -28,6 +28,18 @@ L'entrada consta de 4 dades.
 
 `true` | `false`
 
+## Plantillas
+
+```java
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+      
+    }
+}
+```
+
 ## Solutions
 
 ```java
@@ -40,18 +52,6 @@ void main() {
 
     boolean hires = (knowsJava && javaExp >= 1) || (knowsPython && pythonExp >= 3);
     IO.println(hires);
-}
-```
-
-## Plantillas
-
-```java
-import java.util.Scanner;
-
-public class Main {
-    public static void main(String[] args) {
-      
-    }
 }
 ```
 
