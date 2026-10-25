@@ -5,7 +5,8 @@ tags: [loops, operators, arithmetic]
 ---
 # Cargol
 
-Un cargol vol trepar un pal d'una alçada d'$H$ metres. Si puja $A$ metres durant el dia, però rellisca $B$$ metres avall per la nit, en quin dia aconseguirà arribar a dalt de tot?
+Un cargol vol trepar un pal d'una alçada d'$H$ metres. 
+Si puja $A$ metres durant el dia, però rellisca $B$ metres avall per la nit, en quin dia aconseguirà arribar a dalt de tot?
 
 ## Input
 

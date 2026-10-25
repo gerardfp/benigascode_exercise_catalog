@@ -5,26 +5,17 @@ tags: [literals, io]
 ---
 # Cita Einstein
 
-Escriu un programa Java que mostri aquesta cita d'Einstein:
+Escriu un programa que mostri aquesta cita d'Einstein:
 
 ```
 Life is like riding a bicycle. To keep your balance you must keep moving.
 ```
 
-## Input
-
--
-
-## Output
-
--
-
 ## Plantillas
 
 ```java
-public class Main {
-    public static void main(String[] args) {
-    }
+void main() {
+    // write your code here
 }
 ```
 

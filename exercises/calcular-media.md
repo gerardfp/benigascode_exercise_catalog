@@ -6,7 +6,7 @@ tags: [loops, operators, arithmetic, math, accumulators]
 # Calcular la media de una serie de números
 
 ## Enunciado
-Escribe un programa en Java que lea desde la entrada estándar una serie de números enteros positivos terminada con un número negativo (el cual indica el final de la serie y no debe ser tenido en cuenta para el cálculo).
+Escribe un programa que lea desde la entrada estándar una serie de números enteros positivos terminada con un número negativo (el cual indica el final de la serie y no debe ser tenido en cuenta para el cálculo).
 
 El programa debe calcular y mostrar por la salida estándar la **media aritmética** de los números positivos introducidos, formateada con exactamente dos decimales (ejemplo: `5.50`).
 

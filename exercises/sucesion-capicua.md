@@ -13,8 +13,8 @@ El primer número <span style="font-size: 100%; display: inline-block;" class="M
 
 ## Output
 
-"SI" si la seqüència és capicua.
-"NO" si no ho és.
+`SI` si la seqüència és capicua.
+`NO` si no ho és.
 
 ## Tests
 
