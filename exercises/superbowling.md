@@ -1,7 +1,7 @@
 ---
 slug: superbowling
+difficulty: 1.0
 tags: [operators, arithmetic, math]
-difficulty: 1
 ---
 # Superbowling
 
@@ -18,22 +18,6 @@ Un numero N de bolos
 ## Output
 
 true | false
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    int sum = 0;
-    int i = 1;
-    while (sum < n) {
-        sum += i;
-        i++;
-    }
-    IO.println(sum == n);
-}
-```
 
 ## Tests
 

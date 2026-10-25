@@ -1,7 +1,7 @@
 ---
 slug: termometre
+difficulty: 2.0
 tags: [classes, oop, formatting]
-difficulty: 2
 ---
 # Termòmetre
 
@@ -14,54 +14,6 @@ Implementa els mètodes de la classe Thermometer:
 ## Output
 
 -
-
-## Solutions
-
-```java
-class Thermometer {
-    double celsius;
-
-    void printCelsius() {
-        IO.println("%7.2fC".formatted(celsius));
-    }
-
-    void printFahrenheit() {
-        IO.println("%7.2fF".formatted(celsius * 1.8 + 32));
-    }
-
-    void printKelvin() {
-        IO.println("%7.2fK".formatted(celsius + 273.15));
-    }
-}
-
-void main() {
-    Scanner scanner = new Scanner(System.in);
-
-    Thermometer thermometer1 = new Thermometer();
-    Thermometer thermometer2 = new Thermometer();
-
-    while (scanner.hasNextDouble()) {
-        double a = scanner.nextDouble();
-        if (a < -273.1) {
-            break;
-        }
-        thermometer1.celsius = a;
-        thermometer2.celsius = scanner.nextDouble();
-
-        IO.println("Termometre 1");
-        thermometer1.printCelsius();
-        thermometer1.printFahrenheit();
-        thermometer1.printKelvin();
-
-        IO.println("Termometre 2");
-        thermometer2.printCelsius();
-        thermometer2.printFahrenheit();
-        thermometer2.printKelvin();
-
-        IO.println("--------");
-    }
-}
-```
 
 ## Plantillas
 

@@ -1,7 +1,7 @@
 ---
 slug: tres-en-raya
+difficulty: 4.0
 tags: [matrices, 2d-arrays, conditionals]
-difficulty: 4
 ---
 # OXO
 
@@ -18,45 +18,6 @@ Les caselles ocupades per fitxes es marquen amb 'O' i 'X'.
 El guanyador es mostrarà amb la seva marca, i s'usa '-' per a l'empat.
 
 { X | O | - }
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    char[][] b = new char[3][3];
-    for (int i = 0; i < 3; i++) {
-        String line = sc.next();
-        for (int j = 0; j < 3; j++) {
-            char c = line.charAt(j);
-            if (c == '0') {
-                c = 'O';
-            }
-            b[i][j] = c;
-        }
-    }
-
-    char winner = '-';
-    for (int i = 0; i < 3; i++) {
-        if (b[i][0] != '-' && b[i][0] == b[i][1] && b[i][1] == b[i][2]) {
-            winner = b[i][0];
-        }
-    }
-    for (int j = 0; j < 3; j++) {
-        if (b[0][j] != '-' && b[0][j] == b[1][j] && b[1][j] == b[2][j]) {
-            winner = b[0][j];
-        }
-    }
-    if (b[0][0] != '-' && b[0][0] == b[1][1] && b[1][1] == b[2][2]) {
-        winner = b[0][0];
-    }
-    if (b[0][2] != '-' && b[0][2] == b[1][1] && b[1][1] == b[2][0]) {
-        winner = b[0][2];
-    }
-
-    IO.println(winner);
-}
-```
 
 ## Tests
 

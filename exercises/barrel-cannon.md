@@ -1,7 +1,7 @@
 ---
 slug: barrel-cannon
+difficulty: 6.0
 tags: [arrays, loops]
-difficulty: 6
 ---
 # Barrel Cannon
 
@@ -11,7 +11,7 @@ En esta versión, los barriles estan situados uno al lado de otro y cada barril 
 
 Cada barril lo dispara con una fuerza, que se representa con un número. Este número indica cuántas posiciones proyectará al gorila. Si el número es positivo hacia la derecha, y si es negativo hacia la izquierda. Se puede observar en la siguiente imagen:
 
-![image](assets/cb550-barrel-cannon-img0.png)
+![image](assets/barrel-cannon-img0.png)
 
 El problema consiste en: dadas la fuerzas de unos barriles y el barril donde cae inicialmente el gorila, averiguar si el gorila terminará saliendo por la IZQUIERDA, por la DERECHA, o si se quedará en un BUCLE sin poder salir.
 
@@ -26,39 +26,6 @@ El último número <span style="font-size: 100%; display: inline-block;" class="
 ## Output
 
 { IZQUIERDA | DERECHA | BUCLE }
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int n = sc.nextInt();
-    int[] barrels = new int[n];
-    for (int i = 0; i < n; i++) {
-        barrels[i] = sc.nextInt();
-    }
-    int pos = sc.nextInt();
-
-    boolean[] visited = new boolean[n];
-    while (true) {
-        if (pos < 0) {
-            IO.println("IZQUIERDA");
-            break;
-        }
-        if (pos >= n) {
-            IO.println("DERECHA");
-            break;
-        }
-        if (visited[pos]) {
-            IO.println("BUCLE");
-            break;
-        }
-        visited[pos] = true;
-        pos += barrels[pos];
-    }
-}
-```
 
 ## Tests
 
@@ -84,7 +51,7 @@ El barril en la posición  4 tiene fuerza  1   →   la posición de DK pasa a s
 
 Como 5 es mayor que la posición del último barril, DK ha salido por la DERECHA.
 
-![image](assets/cb550-barrel-cannon-img1.png)
+![image](assets/barrel-cannon-img1.png)
 
 ### Test
 ```input
@@ -106,7 +73,7 @@ El barril en la posición  0 tiene fuerza -2   →   la posición de DK pasa a s
 
 Como -2 es menor que la posición del primer barril, DK ha salido por la IZQUIERDA
 
-![image](assets/cb550-barrel-cannon-img2.png)
+![image](assets/barrel-cannon-img2.png)
 
 ### Test
 ```input
@@ -128,7 +95,7 @@ El barril en la posición  2 tiene fuerza  1   →   la posición de DK pasa a s
 
 A partir de aqui entra en un BUCLE
 
-![image](assets/cb550-barrel-cannon-img3.png)
+![image](assets/barrel-cannon-img3.png)
 
 ### Test private
 ```input

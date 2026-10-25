@@ -1,7 +1,7 @@
 ---
 slug: contractar-un-programador
+difficulty: 2.0
 tags: [conditionals, operators, booleans, logical-operators]
-difficulty: 2
 ---
 # Contractar un programador
 
@@ -27,21 +27,6 @@ L'entrada consta de 4 dades.
 ## Output
 
 `true` | `false`
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    boolean knowsJava = sc.nextBoolean();
-    int javaExp = sc.nextInt();
-    boolean knowsPython = sc.nextBoolean();
-    int pythonExp = sc.nextInt();
-
-    boolean hires = (knowsJava && javaExp >= 1) || (knowsPython && pythonExp >= 3);
-    IO.println(hires);
-}
-```
 
 ## Plantillas
 

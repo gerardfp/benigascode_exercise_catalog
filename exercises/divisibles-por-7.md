@@ -1,7 +1,7 @@
 ---
 slug: divisibles-por-7
+difficulty: 2.0
 tags: [loops, while-loop, conditionals, operators, modulo]
-difficulty: 2
 ---
 # Divisibles por 7
 
@@ -14,25 +14,6 @@ Una secuencia de (N) números terminada en 0.
 ## Output
 
 Un "SI" o un "NO" por cada número leído.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    while (sc.hasNextInt()) {
-        int n = sc.nextInt();
-        if (n == 0) {
-            break;
-        }
-        if (n % 7 == 0) {
-            IO.println("SI");
-        } else {
-            IO.println("NO");
-        }
-    }
-}
-```
 
 ## Tests
 

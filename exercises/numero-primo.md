@@ -1,7 +1,7 @@
 ---
 slug: numero-primo
+difficulty: 3.0
 tags: [loops, for-loop, math, flags]
-difficulty: 3
 ---
 # Determinar si un número es primo
 
@@ -49,31 +49,6 @@ Entrada:
 Salida:
 ```text
 NO_PRIMO
-```
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    if (n <= 1) {
-        IO.println("NO_PRIMO");
-        return;
-    }
-    boolean isPrime = true;
-    for (int i = 2; i * i <= n; i++) {
-        if (n % i == 0) {
-            isPrime = false;
-            break;
-        }
-    }
-    if (isPrime) {
-        IO.println("PRIMO");
-    } else {
-        IO.println("NO_PRIMO");
-    }
-}
 ```
 
 ## Tests

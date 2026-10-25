@@ -1,11 +1,11 @@
 ---
 slug: altura-minima
+difficulty: 3.0
 tags: [arrays, loops, for-loop, conditionals, filtering]
-difficulty: 3
 ---
 # Altura mínima
 
-![image](assets/c4-l0-1-altura-minima-img0.png)
+![image](assets/altura-minima-img0.png)
 
 Avuí a l'escola fan una sortida al parc d'atraccions. La professora ha apuntat l'alçada de cada nen i nena, per veure qui podrà pujar a la muntanya russa i qui no.
 
@@ -20,28 +20,6 @@ L'entrada consta de tres parts:
 ## Output
 
 S'imprimirà `SI` o `NO` en una línia, per a cadascun dels nens i nenes
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int n = sc.nextInt();
-    double[] heights = new double[n];
-    for (int i = 0; i < n; i++) {
-        heights[i] = Double.parseDouble(sc.next());
-    }
-    double minHeight = Double.parseDouble(sc.next());
-    for (int i = 0; i < n; i++) {
-        if (heights[i] >= minHeight) {
-            IO.println("SI");
-        } else {
-            IO.println("NO");
-        }
-    }
-}
-```
 
 ## Tests
 

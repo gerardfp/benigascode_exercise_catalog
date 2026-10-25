@@ -1,7 +1,7 @@
 ---
 slug: esquemes-cerca-lineal-centinella
+difficulty: 3.0
 tags: [loops, while-loop, sentinel-loop, search, flags]
-difficulty: 3
 ---
 # Cerca lineal: cerca fins a centinella
 
@@ -16,24 +16,6 @@ A continuació venen els nombres enters de la seqüència, un per línia, acaban
 ## Salida
 
 Imprimeix `SI` si $X$ ha aparegut abans del `0`, o `NO` en cas contrari.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int x = sc.nextInt();
-    boolean trobat = false;
-    while (sc.hasNextInt()) {
-        int v = sc.nextInt();
-        if (v == 0) break;
-        if (v == x) {
-            trobat = true;
-        }
-    }
-    IO.println(trobat ? "SI" : "NO");
-}
-```
 
 ## Tests
 

@@ -1,7 +1,7 @@
 ---
 slug: matrix-arrays
+difficulty: 3.0
 tags: [matrices, 2d-arrays, loops, nested-loops, counters]
-difficulty: 3
 ---
 # Matrix
 
@@ -18,28 +18,6 @@ A continuació venen els números de la matriu.
 ## Output
 
 S'imprimiran el nombre de zeros i uns separats per espai en blanc
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int r = sc.nextInt();
-    int c = sc.nextInt();
-    int zeros = 0;
-    int ones = 0;
-    for (int i = 0; i < r * c; i++) {
-        int val = sc.nextInt();
-        if (val == 0) {
-            zeros++;
-        } else if (val == 1) {
-            ones++;
-        }
-    }
-    IO.println(zeros + " " + ones);
-}
-```
 
 ## Tests
 

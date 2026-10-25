@@ -1,7 +1,7 @@
 ---
 slug: parentesis-1
+difficulty: 3.0
 tags: [strings, loops, for-loop, counters, parsing]
-difficulty: 3
 ---
 # Parèntesis
 
@@ -61,37 +61,6 @@ Un possible solució al problema consisteix en:
 </li></ul></li></ul></li>
 <li>Un cop s'ha acabat de llegir tota l'expressió, s'haurien d'haver comptat el mateix número d'`oberts` que de `tancats`. Si no és així, és que falten parèntesis per tancar.</li>
 </ul>
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int oberts = 0;
-    int tancats = 0;
-    int total = 0;
-    while (sc.hasNext()) {
-        String token = sc.next();
-        if (token.equals("END")) {
-            break;
-        }
-        if (token.equals("(")) {
-            oberts++;
-            total++;
-        } else if (token.equals(")")) {
-            tancats++;
-            total++;
-            if (tancats > oberts) {
-                IO.println("ERROR: parentesi " + total + " mal tancat");
-                tancats--;
-            }
-        }
-    }
-    if (oberts > tancats) {
-        IO.println("ERROR: falta tancar " + (oberts - tancats) + " parentesis");
-    }
-}
-```
 
 ## Tests
 

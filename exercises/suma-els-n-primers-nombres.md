@@ -1,7 +1,7 @@
 ---
 slug: suma-els-n-primers-nombres
+difficulty: 2.0
 tags: [recursion, operators, arithmetic, math]
-difficulty: 2
 ---
 # Suma els n primers nombres
 
@@ -20,21 +20,6 @@ Un nombre enter
 ## Output
 
 La suma
-
-## Solutions
-
-```java
-int sum(int n) {
-    if (n <= 1) return n;
-    return n + sum(n - 1);
-}
-
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    IO.println(sum(n));
-}
-```
 
 ## Tests
 

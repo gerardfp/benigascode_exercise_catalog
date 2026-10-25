@@ -1,7 +1,7 @@
 ---
 slug: xirtam
+difficulty: 3.0
 tags: [matrices, 2d-arrays, loops, nested-loops, conditionals]
-difficulty: 3
 ---
 # Xirtam
 
@@ -18,29 +18,6 @@ A continuació venen els números de la matriu.
 ## Output
 
 S'imprimirà la matriu, separant els números amb espais en blanc.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int rows = sc.nextInt();
-    int cols = sc.nextInt();
-    for (int r = 0; r < rows; r++) {
-        String line = "";
-        for (int c = 0; c < cols; c++) {
-            int val = sc.nextInt();
-            int flipped = (val == 0) ? 1 : 0;
-            line += flipped;
-            if (c < cols - 1) {
-                line += " ";
-            }
-        }
-        IO.println(line);
-    }
-}
-```
 
 ## Tests
 

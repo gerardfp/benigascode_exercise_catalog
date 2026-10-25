@@ -1,7 +1,7 @@
 ---
 slug: repeat-x
+difficulty: 1.0
 tags: [loops, for-loop]
-difficulty: 1
 ---
 # Repeat X
 
@@ -14,19 +14,6 @@ Un enter <span style="font-size: 100%; display: inline-block;" class="MathJax_SV
 ## Output
 
 S'imprimrà el nombre repetit.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    for (int i = 0; i < n; i++) {
-        IO.print(n);
-    }
-    IO.println();
-}
-```
 
 ## Tests
 

@@ -1,7 +1,7 @@
 ---
 slug: esquemes-acumuladors-mitjana
+difficulty: 3.0
 tags: [arrays, loops, for-loop, operators, arithmetic, accumulators, formatting]
-difficulty: 3
 ---
 # Acumuladors: mitjana aritmètica
 
@@ -16,22 +16,6 @@ A continuació venen els $N$ nombres enters, cadascun en una línia.
 ## Salida
 
 Imprimeix la mitjana aritmètica formatada amb 2 decimals (`%.2f`).
-
-## Solutions
-
-```java
-void main() {
-    Locale.setDefault(Locale.US);
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    double suma = 0;
-    for (int i = 0; i < n; i++) {
-        suma += sc.nextInt();
-    }
-    double mitjana = suma / n;
-    IO.println(String.format(Locale.US, "%.2f", mitjana));
-}
-```
 
 ## Tests
 

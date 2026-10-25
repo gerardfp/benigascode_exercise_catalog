@@ -1,7 +1,7 @@
 ---
 slug: inventari
+difficulty: 4.0
 tags: [arrays, loops, while-loop]
-difficulty: 4
 ---
 # Inventari
 
@@ -38,61 +38,6 @@ L'entrada consisteix en primer lloc en la situació actual del magatzem:
 ## Output
 
 S'imprimirà l'stock final de cada mercaderia, separats per espais en blanc, després de realitzar totes les ordres.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-
-    int maxCap = sc.nextInt();
-    int n = sc.nextInt();
-
-    String[] codes = new String[n];
-    for (int i = 0; i < n; i++) {
-        codes[i] = sc.next();
-    }
-
-    int[] stocks = new int[n];
-    int totalItems = 0;
-    for (int i = 0; i < n; i++) {
-        stocks[i] = sc.nextInt();
-        totalItems += stocks[i];
-    }
-
-    int numOrders = sc.nextInt();
-    for (int o = 0; o < numOrders; o++) {
-        String code = sc.next();
-        int qty = sc.nextInt();
-
-        int idx = -1;
-        for (int i = 0; i < n; i++) {
-            if (codes[i].equals(code)) {
-                idx = i;
-                break;
-            }
-        }
-
-        if (idx != -1) {
-            if (qty > 0) {
-                int add = Math.min(qty, Math.max(0, maxCap - totalItems));
-                stocks[idx] += add;
-                totalItems += add;
-            } else if (qty < 0) {
-                int rem = Math.min(-qty, stocks[idx]);
-                stocks[idx] -= rem;
-                totalItems -= rem;
-            }
-        }
-    }
-
-    for (int i = 0; i < n; i++) {
-        IO.print((i > 0 ? " " : "") + stocks[i]);
-    }
-    IO.println();
-}
-```
 
 ## Tests
 

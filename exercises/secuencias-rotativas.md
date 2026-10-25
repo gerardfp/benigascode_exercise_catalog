@@ -1,7 +1,7 @@
 ---
 slug: secuencias-rotativas
+difficulty: 3.0
 tags: [loops, while-loop, sentinel-loop, flags]
-difficulty: 3
 ---
 # Parin les rotatives!
 
@@ -22,28 +22,6 @@ Després ve la quantitat de números <span style="font-size: 100%; display: inli
 ## Output
 
 La seqüència de números impresos separada per espais.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int n = sc.nextInt();
-    int[] a = new int[n];
-    for (int i = 0; i < n; i++) {
-        a[i] = sc.nextInt();
-    }
-    int k = sc.nextInt();
-    for (int i = 0; i < k; i++) {
-        if (i > 0) {
-            IO.print(" ");
-        }
-        IO.print(a[i % n]);
-    }
-    IO.println();
-}
-```
 
 ## Tests
 

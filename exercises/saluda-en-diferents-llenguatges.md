@@ -1,7 +1,7 @@
 ---
 slug: saluda-en-diferents-llenguatges
+difficulty: 2.0
 tags: [strings, conditionals, switch]
-difficulty: 2
 ---
 # Saluda en diferents idiomes
 
@@ -31,35 +31,6 @@ Si el idioma no és reconegut pel programa, aleshores s'indica la salutació en 
 S'imprimirà la salutació en l'idioma especificat. 
 
 Si l'idioma no és un de la llista, s'imprimirà la frase `No conec el teu idioma, com es diu hola?`, i aleshores s'imprimirà la salutació rebuda.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextLine()) return;
-    String lang = sc.nextLine().trim();
-    switch (lang) {
-        case "French" -> IO.println("Bonjour");
-        case "Spanish" -> IO.println("Hola");
-        case "Russian" -> IO.println("Zdravstvuyte");
-        case "Chinese" -> IO.println("Nin hao");
-        case "Japanese" -> IO.println("Konnichiwa");
-        case "German" -> IO.println("Guten Tag");
-        case "Portuguese" -> IO.println("Ola");
-        case "Arabic" -> IO.println("Asalaam alaikum");
-        case "Hindi" -> IO.println("Namaste");
-        case "Romanian" -> IO.println("Buna ziua");
-        default -> {
-            IO.println("No conec el teu idioma, com es diu hola?");
-            if (sc.hasNextLine()) {
-                String greeting = sc.nextLine().trim();
-                IO.println(greeting);
-            }
-        }
-    }
-}
-```
 
 ## Plantillas
 

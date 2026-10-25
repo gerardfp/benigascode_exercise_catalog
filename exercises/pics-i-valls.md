@@ -1,13 +1,13 @@
 ---
 slug: pics-i-valls
+difficulty: 3.0
 tags: [loops, for-loop]
-difficulty: 3
 ---
 # Pics i valls
 
 Els gràfics de línes mostren la informació en una sèrie de punts de dades connectats per segments de línies rectes. Es tracta d'un tipus bàsic de taula comú en molts camps.
 
-![image](assets/c3-l2-1-pics-i-valls-img0.png)
+![image](assets/pics-i-valls-img0.png)
 
 Un element d'anàlisi d'aquests gràfics és dels pics i valls. Un pic és un valor local màxim, i una vall és un valor local mínim. És a dir, un pic és aquell valor el qual el seu anterior és menor que ell i el seu posterior és menor o igual que ell. I una vall és quan el seu anterior és major que ell i el seu posterior és major o igual que ell.
 
@@ -20,56 +20,6 @@ La entrada consta d'una seqüència de <span style="font-size: 100%; display: in
 ## Output
 
 S'imprimirà el nombre de pics i el nombre de valls. També s'imprimirà el valor màxim i el valor mínim.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int first = sc.nextInt();
-    if (first == -1) return;
-    
-    int min = first;
-    int max = first;
-    
-    if (!sc.hasNextInt()) return;
-    int second = sc.nextInt();
-    if (second == -1) {
-        IO.println(0);
-        IO.println(0);
-        IO.println(max);
-        IO.println(min);
-        return;
-    }
-    
-    min = Math.min(min, second);
-    max = Math.max(max, second);
-    int prev = first;
-    int curr = second;
-    int peaks = 0;
-    int valleys = 0;
-    
-    while (sc.hasNextInt()) {
-        int v = sc.nextInt();
-        if (v == -1) break;
-        min = Math.min(min, v);
-        max = Math.max(max, v);
-        if (curr > prev && curr >= v) {
-            peaks++;
-        } else if (curr < prev && curr <= v) {
-            valleys++;
-        }
-        prev = curr;
-        curr = v;
-    }
-    
-    IO.println(peaks);
-    IO.println(valleys);
-    IO.println(max);
-    IO.println(min);
-}
-```
 
 ## Tests
 
@@ -86,7 +36,7 @@ void main() {
 #### Explanation
 Hi ha dos pics, dues valles, el valor màxim és 7 i el mínim és 2
 
-![image](assets/c3-l2-1-pics-i-valls-img1.png)
+![image](assets/pics-i-valls-img1.png)
 
 ### Test
 ```input
@@ -101,7 +51,7 @@ Hi ha dos pics, dues valles, el valor màxim és 7 i el mínim és 2
 #### Explanation
 Hi ha tres pics, quatre valls, el valor màxim és 8 i el mínim 2.
 
-![image](assets/c3-l2-1-pics-i-valls-img2.png)
+![image](assets/pics-i-valls-img2.png)
 
 ### Test
 ```input
@@ -116,7 +66,7 @@ Hi ha tres pics, quatre valls, el valor màxim és 8 i el mínim 2.
 #### Explanation
 Hi ha zero pics, una vall, el màxim és 5 i el mínim 1 
 
-![image](assets/c3-l2-1-pics-i-valls-img3.png)
+![image](assets/pics-i-valls-img3.png)
 
 ### Test
 ```input
@@ -129,7 +79,7 @@ Hi ha zero pics, una vall, el màxim és 5 i el mínim 1
 1
 ```
 #### Explanation
-![image](assets/c3-l2-1-pics-i-valls-img4.png)
+![image](assets/pics-i-valls-img4.png)
 
 ### Test
 ```input
@@ -142,7 +92,7 @@ Hi ha zero pics, una vall, el màxim és 5 i el mínim 1
 1
 ```
 #### Explanation
-![image](assets/c3-l2-1-pics-i-valls-img5.png)
+![image](assets/pics-i-valls-img5.png)
 
 ### Test
 ```input

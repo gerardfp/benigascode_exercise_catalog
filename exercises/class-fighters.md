@@ -1,7 +1,7 @@
 ---
 slug: class-fighters
+difficulty: 5.0
 tags: [class]
-difficulty: 5
 ---
 # Fighters
 
@@ -16,53 +16,6 @@ El resultat del combat es decideix en funció de les característiques dels comb
 ## Output
 
 -
-
-## Solutions
-
-```java
-class Fighter {
-    String name;
-    float strength;
-    float speed;
-    float agility;
-
-    Fighter(String name, float strength, float speed, float agility) {
-        this.name = name;
-        this.strength = strength;
-        this.speed = speed;
-        this.agility = agility;
-    }
-
-    float getSum(){
-        return strength + speed + agility;
-    }
-}
-
-class Fight {
-    Fighter winner(Fighter f1, Fighter f2) {
-        float sum1 = f1.getSum();
-        float sum2 = f2.getSum();
-        if (sum1 > sum2) {
-            return f1;
-        } else if (sum2 > sum1) {
-            return f2;
-        } else {
-            return null;
-        }
-    }
-}
-
-void main() {
-    Scanner scanner = new Scanner(System.in);
-
-    Fighter f1 = new Fighter(scanner.next(), scanner.nextFloat(), scanner.nextFloat(), scanner.nextFloat());
-    Fighter f2 = new Fighter(scanner.next(), scanner.nextFloat(), scanner.nextFloat(), scanner.nextFloat());
-
-    Fighter winner = new Fight().winner(f1, f2);
-
-    IO.println(winner == null ? "DOUBLE KO" : winner.name);
-}
-```
 
 ## Plantillas
 

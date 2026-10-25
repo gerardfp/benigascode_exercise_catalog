@@ -1,7 +1,7 @@
 ---
 slug: comptant-els-minuts-per-cap-dany
+difficulty: 1.0
 tags: [operators, arithmetic, modulo]
-difficulty: 1
 ---
 # Comptant els minuts per cap d'any
 
@@ -16,18 +16,6 @@ El segon nombre <span style="font-size: 100%; display: inline-block;" class="Mat
 ## Output
 
 Els minuts que falten per a les campanades.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int h = sc.nextInt();
-    int m = sc.nextInt();
-    int remaining = 1440 - (h * 60 + m);
-    IO.println(remaining);
-}
-```
 
 ## Plantillas
 

@@ -1,7 +1,7 @@
 ---
 slug: cuantas-veces-aparece-cada-numero
+difficulty: 3.0
 tags: [arrays, loops, nested-loops, counters]
-difficulty: 3
 ---
 # Cuantas veces aparece cada número
 
@@ -22,40 +22,6 @@ Almacena en un array cuántas veces aparece cada número.
 Se imprimirá en una línea cada `número` de la secuencia y `cuántas` veces aparece, separados por `:`
 
 Los `números` se deben imprimir ordenados de menor a mayor.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    int[] arr = new int[n];
-    for (int i = 0; i < n; i++) {
-        arr[i] = sc.nextInt();
-    }
-
-    for (int i = 1; i < n; i++) {
-        int key = arr[i];
-        int j = i - 1;
-        while (j >= 0 && arr[j] > key) {
-            arr[j + 1] = arr[j];
-            j--;
-        }
-        arr[j + 1] = key;
-    }
-
-    int i = 0;
-    while (i < n) {
-        int current = arr[i];
-        int count = 0;
-        while (i < n && arr[i] == current) {
-            count++;
-            i++;
-        }
-        IO.println(current + ":" + count);
-    }
-}
-```
 
 ## Plantillas
 

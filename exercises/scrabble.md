@@ -1,7 +1,7 @@
 ---
 slug: scrabble
+difficulty: 3.0
 tags: [strings, loops, for-loop, conditionals, switch]
-difficulty: 3
 ---
 # Scrabble
 
@@ -25,31 +25,6 @@ Una paraula
 ## Output
 
 La puntuació obtinguda
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNext()) return;
-    String word = sc.next().toUpperCase();
-    int score = 0;
-    for (int i = 0; i < word.length(); i++) {
-        char c = word.charAt(i);
-        score += switch (c) {
-            case 'A', 'E', 'I', 'O', 'U', 'L', 'N', 'R', 'S', 'T' -> 1;
-            case 'D', 'G' -> 2;
-            case 'B', 'C', 'M', 'P' -> 3;
-            case 'F', 'H', 'V', 'W', 'Y' -> 4;
-            case 'K' -> 5;
-            case 'J', 'X' -> 8;
-            case 'Q', 'Z' -> 10;
-            default -> 0;
-        };
-    }
-    IO.println(score);
-}
-```
 
 ## Tests
 

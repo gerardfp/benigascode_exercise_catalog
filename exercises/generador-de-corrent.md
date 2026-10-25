@@ -1,11 +1,11 @@
 ---
 slug: generador-de-corrent
+difficulty: 3.0
 tags: [loops, while-loop, counters, accumulators]
-difficulty: 3
 ---
 # Generador de corrent
 
-![image](assets/e9bed-generador-de-corrent-img0.gif)
+![image](assets/generador-de-corrent-img0.gif)
 Per a comprovar el funcionament d'un generador de corrent elèctrica alterna, es mesura periòdicament el voltatge de la corrent generada.
 
 Es considera que el generador funciona correctament si el voltatge alterna pujades i baixades. És a dir, si en una medició el voltatge ha pujat, en la següent ha d'haver baixat, i viceversa.
@@ -21,51 +21,6 @@ La seqüència acaba amb un 0, que no s'ha de computar.
 ## Output
 
 S'imprimirà "CORRECTE" si la seqüència de números ha anat alternant pujades i baixades, i "INCORRECTE" en cas contrari.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int prev = sc.nextInt();
-    if (prev == 0) {
-        IO.println("INCORRECTE");
-        return;
-    }
-
-    boolean correct = true;
-    boolean expectUp = true;
-    int count = 1;
-
-    while (sc.hasNextInt()) {
-        int current = sc.nextInt();
-        if (current == 0) break;
-        count++;
-        if (expectUp) {
-            if (current <= prev) {
-                correct = false;
-            }
-        } else {
-            if (current >= prev) {
-                correct = false;
-            }
-        }
-        expectUp = !expectUp;
-        prev = current;
-    }
-
-    if (count < 2) {
-        correct = false;
-    }
-
-    if (correct) {
-        IO.println("CORRECTE");
-    } else {
-        IO.println("INCORRECTE");
-    }
-}
-```
 
 ## Tests
 

@@ -1,7 +1,7 @@
 ---
 slug: permisos-octals-unix
+difficulty: 2.0
 tags: [strings, conditionals, switch, operators, bitwise]
-difficulty: 2
 ---
 # Permisos octals UNIX
 
@@ -14,14 +14,14 @@ La quarta xifra octal indica els permisos rwx per a la resta d'usuaris.
 
 Per exemple, el nombre octal 4765 indica que els permisos especials són 4, el d'usuari 7, el de grup 6 i per als altres 5. Això es tradueix en uns permisos rwsrw-r-x
 
-![image](assets/c2-l2-1-permisos-unix-img0.png)
+![image](assets/permisos-octals-unix-img0.png)
 
 Per a traduir el permisos octals en els permisos **rwx** corresponents, cal passar cada xifra a binari. 
 
 Per als permisos d'usuari, grup i altres, un 0 en la primera i segona xifra binària siginifica que el permisos de lectura i espcriptura, respectivament, no es concedeixen, i un 1 que sí es concedeixen. 
 Per al permís d'execució, un 0 significa que no es concedeix, i un 1 que sí es concedeix. A més a més, si es concedeix el permís d'execució i també i hi ha un 1 en la xifra binària especial corresponent, aleshores s'aplica el permís especial.
 
-![image](assets/c2-l2-1-permisos-unix-img1.png)
+![image](assets/permisos-octals-unix-img1.png)
 
 ```
 usuari:
@@ -52,54 +52,6 @@ La entrada consisteix en un nombre octal P indicant els permisos.
 ## Output
 
 S'imprimiran els permisos en format caràcter.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNext()) return;
-    String s = sc.next();
-    while (s.length() < 4) {
-        s = "0" + s;
-    }
-    int special = s.charAt(0) - '0';
-    int user = s.charAt(1) - '0';
-    int group = s.charAt(2) - '0';
-    int other = s.charAt(3) - '0';
-
-    String res = "";
-
-    // User
-    res += (user & 4) != 0 ? 'r' : '-';
-    res += (user & 2) != 0 ? 'w' : '-';
-    if ((special & 4) != 0) {
-        res += (user & 1) != 0 ? 's' : 'S';
-    } else {
-        res += (user & 1) != 0 ? 'x' : '-';
-    }
-
-    // Group
-    res += (group & 4) != 0 ? 'r' : '-';
-    res += (group & 2) != 0 ? 'w' : '-';
-    if ((special & 2) != 0) {
-        res += (group & 1) != 0 ? 's' : 'S';
-    } else {
-        res += (group & 1) != 0 ? 'x' : '-';
-    }
-
-    // Other
-    res += (other & 4) != 0 ? 'r' : '-';
-    res += (other & 2) != 0 ? 'w' : '-';
-    if ((special & 1) != 0) {
-        res += (other & 1) != 0 ? 't' : 'T';
-    } else {
-        res += (other & 1) != 0 ? 'x' : '-';
-    }
-
-    IO.println(res);
-}
-```
 
 ## Tests
 

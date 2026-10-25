@@ -1,7 +1,7 @@
 ---
 slug: descompressio-rle
-tags: [strings, loops, string-manipulation]
-difficulty: 4
+difficulty: 4.0
+tags: [strings, loops]
 ---
 # Descompressió RLE
 
@@ -28,30 +28,6 @@ Una cadena de L caracters comprimida en RLE
 ## Output
 
 La cadena descomprimida
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    while (sc.hasNext()) {
-        String s = sc.next();
-        int count = 0;
-        for (int i = 0; i < s.length(); i++) {
-            char c = s.charAt(i);
-            if (c >= '0' && c <= '9') {
-                count = count * 10 + (c - '0');
-            } else {
-                for (int j = 0; j < count; j++) {
-                    IO.print(c);
-                }
-                count = 0;
-            }
-        }
-        IO.println();
-    }
-}
-```
 
 ## Tests
 

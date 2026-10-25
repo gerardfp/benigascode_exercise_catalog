@@ -1,7 +1,7 @@
 ---
 slug: esquemes-acumuladors-suma
+difficulty: 3.0
 tags: [arrays, loops, for-loop, operators, arithmetic, accumulators]
-difficulty: 3
 ---
 # Acumuladors: suma total
 
@@ -27,20 +27,6 @@ void main() {
     int suma = 0;
     // TODO: Llegeix els n nombres i acumula la suma
     
-    IO.println(suma);
-}
-```
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    int suma = 0;
-    for (int i = 0; i < n; i++) {
-        suma += sc.nextInt();
-    }
     IO.println(suma);
 }
 ```

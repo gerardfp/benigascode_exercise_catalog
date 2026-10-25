@@ -1,7 +1,7 @@
 ---
 slug: cuenta-numeros
+difficulty: 2.0
 tags: [loops, while-loop, sentinel-loop, counters]
-difficulty: 2
 ---
 # Cuenta números
 
@@ -14,23 +14,6 @@ Una secuencia de N números.
 ## Output
 
 Un entero indicando la cantidad de números leídos
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int count = 0;
-    while (sc.hasNextInt()) {
-        int n = sc.nextInt();
-        if (n == 0) {
-            break;
-        }
-        count++;
-    }
-    IO.println(count);
-}
-```
 
 ## Tests
 

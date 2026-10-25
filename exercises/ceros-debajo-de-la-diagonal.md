@@ -1,7 +1,7 @@
 ---
 slug: ceros-debajo-de-la-diagonal
+difficulty: 4.0
 tags: [matrices, 2d-arrays, loops, nested-loops, flags]
-difficulty: 4
 ---
 # Zeros sota la diagonal
 
@@ -18,29 +18,6 @@ A continuació venen els nombres de la matriu.
 ## Output
 
 { `SI` | `NO` }
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    boolean allZero = true;
-    for (int r = 0; r < n; r++) {
-        for (int c = 0; c < n; c++) {
-            int val = sc.nextInt();
-            if (r > c && val != 0) {
-                allZero = false;
-            }
-        }
-    }
-    if (allZero) {
-        IO.println("SI");
-    } else {
-        IO.println("NO");
-    }
-}
-```
 
 ## Tests
 

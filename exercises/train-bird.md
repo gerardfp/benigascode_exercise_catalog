@@ -1,7 +1,7 @@
 ---
 slug: train-bird
+difficulty: 1.0
 tags: [operators, arithmetic, math]
-difficulty: 1
 ---
 # Train bird
 
@@ -30,19 +30,6 @@ S'imprimirà la distància recorreguda per l'ocell en format `float`
 En primer lloc cal esbrinar el temps que triga el tren en arribar a l'estació.
 
 Després, segons aquest temps i la velocitat a la que vola l'ocell, es calcula la distància recorreguda per l'ocell.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextFloat()) return;
-    float d = sc.nextFloat();
-    float vt = sc.nextFloat();
-    float vb = sc.nextFloat();
-    IO.println((d / vt) * vb);
-}
-```
 
 ## Tests
 

@@ -1,7 +1,7 @@
 ---
 slug: llista-despera
+difficulty: 3.0
 tags: [arrays, loops, for-loop, counters, search]
-difficulty: 3
 ---
 # Llista d'espera
 
@@ -20,32 +20,6 @@ A continuació ve la llista amb el nom (una paraula) del centre escollit per cad
 ## Output
 
 S'imprimirà per a cada aspirant, quants hi ha per davant seu que han elegit el mateix centre, separant els números amb espais en blanc.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    String[] institutes = new String[n];
-    for (int i = 0; i < n; i++) {
-        institutes[i] = sc.next();
-    }
-    for (int i = 0; i < n; i++) {
-        int count = 0;
-        for (int j = 0; j < i; j++) {
-            if (institutes[j].equals(institutes[i])) {
-                count++;
-            }
-        }
-        if (i > 0) {
-            IO.print(" ");
-        }
-        IO.print(count);
-    }
-    IO.println();
-}
-```
 
 ## Tests
 

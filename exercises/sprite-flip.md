@@ -1,7 +1,7 @@
 ---
 slug: sprite-flip
+difficulty: 4.0
 tags: [matrices, 2d-arrays, loops, nested-loops]
-difficulty: 4
 ---
 # Sprite flip
 
@@ -9,11 +9,11 @@ En molts videojocs 2D és bastant comú invertir horitzontal i verticalment un s
 
 Per exemple, a partir d'aquest sprite:
 
-![image](assets/abdf3-sprite-flip-img0.png)
+![image](assets/sprite-flip-img0.png)
 
 Podem obtenir els seus "flips" horitzontals i verticals:
 
-![image](assets/abdf3-sprite-flip-img1.png)
+![image](assets/sprite-flip-img1.png)
 
 ## Input
 
@@ -23,54 +23,6 @@ A continuació ve l'sprite ASCII-ART.
 ## Output
 
 S'imprimirà l'*spritesheet* amb l'spirte ORIGINAL, junt amb les inversions HORITZONTAL, VERTICAL i HORITZONTAL/VERTICAL (separades per línies en blanc).
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int n = sc.nextInt();
-    sc.nextLine();
-    String[] lines = new String[n];
-    for (int i = 0; i < n; i++) {
-        lines[i] = sc.nextLine();
-    }
-
-    // 1. Original
-    for (int i = 0; i < n; i++) {
-        IO.println(lines[i]);
-    }
-    IO.println();
-
-    // 2. Horizontal flip
-    for (int i = 0; i < n; i++) {
-        String s = lines[i];
-        String rev = "";
-        for (int j = s.length() - 1; j >= 0; j--) {
-            rev += s.charAt(j);
-        }
-        IO.println(rev);
-    }
-    IO.println();
-
-    // 3. Vertical flip
-    for (int i = n - 1; i >= 0; i--) {
-        IO.println(lines[i]);
-    }
-    IO.println();
-
-    // 4. Horizontal & Vertical flip
-    for (int i = n - 1; i >= 0; i--) {
-        String s = lines[i];
-        String rev = "";
-        for (int j = s.length() - 1; j >= 0; j--) {
-            rev += s.charAt(j);
-        }
-        IO.println(rev);
-    }
-}
-```
 
 ## Tests
 

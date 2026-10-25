@@ -1,11 +1,11 @@
 ---
 slug: amaga-les-columnes
+difficulty: 5.0
 tags: [matrices, 2d-arrays, loops, nested-loops, filtering]
-difficulty: 5
 ---
 # Amaga les columnes
 
-![image](assets/afe43-amaga-les-columnes-img0.png)
+![image](assets/amaga-les-columnes-img0.png)
 
 Els programes de Full de Càlcul solen tenir la funció d'amagar columnes.
 
@@ -27,39 +27,6 @@ L'entrada consta en primer lloc d'un Full de càlcul:
 
 S'imprimirà la taula, sense mostrar les columnes indicades.
 Tots els camps de la taula han d'ocupar **10 espais i aliniats a l'esquerra**
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int rows = sc.nextInt();
-    int cols = sc.nextInt();
-    String[][] table = new String[rows][cols];
-    for (int r = 0; r < rows; r++) {
-        for (int c = 0; c < cols; c++) {
-            table[r][c] = sc.next();
-        }
-    }
-    int k = sc.nextInt();
-    boolean[] hide = new boolean[cols];
-    for (int i = 0; i < k; i++) {
-        int colIdx = sc.nextInt();
-        if (colIdx >= 1 && colIdx <= cols) {
-            hide[colIdx - 1] = true;
-        }
-    }
-    for (int r = 0; r < rows; r++) {
-        for (int c = 0; c < cols; c++) {
-            if (!hide[c]) {
-                IO.print("%-10s".formatted(table[r][c]));
-            }
-        }
-        IO.println();
-    }
-}
-```
 
 ## Tests
 

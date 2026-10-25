@@ -1,7 +1,7 @@
 ---
 slug: noms-correctes
+difficulty: 1.0
 tags: [variables, types]
-difficulty: 1
 ---
 # Noms correctes
 
@@ -14,19 +14,6 @@ Dona el nom que li pertoca a cada variable.
 ## Output
 
 -
-
-## Solutions
-
-```java
-void main() {
-    String feature = "Text Blocks";
-    String language = "Java";
-    char quote = '"';
-    int version = 15;
-
-    IO.println(language + " " + version + " incorpora " + feature + ", que es delimiten amb " + quote + quote + quote);
-}
-```
 
 ## Plantillas
 

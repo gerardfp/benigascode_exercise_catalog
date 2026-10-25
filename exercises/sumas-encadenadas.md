@@ -1,7 +1,7 @@
 ---
 slug: sumas-encadenadas
+difficulty: 3.0
 tags: [loops, while-loop, sentinel-loop, counters]
-difficulty: 3
 ---
 # Sumas encadenadas
 
@@ -16,34 +16,6 @@ Una secuencia de N números terminados en un 0.
 ## Output
 
 Un número indicando la cantidad de sumas encadenadas.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) {
-        IO.println(0);
-        return;
-    }
-    int n1 = sc.nextInt();
-    if (!sc.hasNextInt()) {
-        IO.println(0);
-        return;
-    }
-    int n2 = sc.nextInt();
-    int count = 0;
-    while (sc.hasNextInt()) {
-        int n3 = sc.nextInt();
-        if (n1 + n2 == n3) {
-            count++;
-        }
-        n1 = n2;
-        n2 = n3;
-    }
-    IO.println(count);
-}
-```
 
 ## Tests
 

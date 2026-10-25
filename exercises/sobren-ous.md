@@ -1,7 +1,7 @@
 ---
 slug: sobren-ous
+difficulty: 2.0
 tags: [conditionals, ternary, operators, arithmetic, modulo]
-difficulty: 2
 ---
 # Sobren ous
 
@@ -24,19 +24,6 @@ S'imprimiran dos nombres separats per un espai en blanc.
 El primer nombre és la quantitat d'oueres que es necessiten.
 
 El segon nombre és la quantitat d'ous que fan falta per omplir l'última ouera.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int n = sc.nextInt();
-    int cartons = n == 0 ? 0 : (n + 23) / 24;
-    int missing = (24 - (n % 24)) % 24;
-    IO.println(cartons + " " + missing);
-}
-```
 
 ## Tests
 

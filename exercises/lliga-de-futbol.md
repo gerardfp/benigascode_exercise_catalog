@@ -1,7 +1,7 @@
 ---
 slug: lliga-de-futbol
+difficulty: 2.0
 tags: [operators, arithmetic, relational-operators]
-difficulty: 2
 ---
 # Lliga de futbol
 
@@ -29,33 +29,6 @@ Las dades de cada equip són:
 true - si l'equip A va per davant de l'equip B
 
 false - si l'equip A va per darrere de l'equip B
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int wA = sc.nextInt();
-    int dA = sc.nextInt();
-    int lA = sc.nextInt();
-    int gfA = sc.nextInt();
-    int gaA = sc.nextInt();
-
-    int wB = sc.nextInt();
-    int dB = sc.nextInt();
-    int lB = sc.nextInt();
-    int gfB = sc.nextInt();
-    int gaB = sc.nextInt();
-
-    int ptsA = wA * 3 + dA;
-    int ptsB = wB * 3 + dB;
-    int diffA = gfA - gaA;
-    int diffB = gfB - gaB;
-
-    boolean ahead = (ptsA > ptsB) || (ptsA == ptsB && diffA > diffB);
-    IO.println(ahead);
-}
-```
 
 ## Tests
 

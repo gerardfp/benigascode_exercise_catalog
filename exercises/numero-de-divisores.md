@@ -1,7 +1,7 @@
 ---
 slug: numero-de-divisores
+difficulty: 2.0
 tags: [loops, for-loop, operators, modulo, math, counters]
-difficulty: 2
 ---
 # Número de divisores
 
@@ -14,26 +14,6 @@ Un número entero N
 ## Output
 
 Un número indicando la cantidad de divisores
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    if (n <= 0) {
-        IO.println(0);
-        return;
-    }
-    int count = 0;
-    for (int i = 1; i <= n; i++) {
-        if (n % i == 0) {
-            count++;
-        }
-    }
-    IO.println(count);
-}
-```
 
 ## Tests
 

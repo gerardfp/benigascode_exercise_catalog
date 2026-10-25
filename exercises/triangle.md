@@ -1,7 +1,7 @@
 ---
 slug: triangle
+difficulty: 3.0
 tags: [classes, oop, math]
-difficulty: 3
 ---
 # Triangle
 
@@ -14,35 +14,6 @@ Implementa el mètodes de la classe Triangle:
 ## Output
 
 -
-
-## Solutions
-
-```java
-class Triangle {
-    float base, height;
-
-    float calculateArea() {
-        return (base * height) / 2;
-    }
-}
-
-void main() {
-    Scanner scanner = new Scanner(System.in);
-
-    Triangle t1 = new Triangle();
-    Triangle t2 = new Triangle();
-
-    t1.base = scanner.nextFloat();
-    t1.height = scanner.nextFloat();
-
-    IO.println("Area triangle1: %.2f".formatted(t1.calculateArea()));
-
-    t2.base = scanner.nextFloat();
-    t2.height = scanner.nextFloat();
-
-    IO.println("Area triangle2: %.2f".formatted(t2.calculateArea()));
-}
-```
 
 ## Plantillas
 

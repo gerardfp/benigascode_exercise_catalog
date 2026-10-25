@@ -1,38 +1,11 @@
 ---
 slug: class-notas
+difficulty: 5.0
 tags: [class]
-difficulty: 5
 ---
 # Notas
 
 Crea la classe `Alumno`
-
-## Solutions
-
-```java
-class Alumno {
-    double[] notas;
-}
-
-void main() {
-    Scanner scanner = new Scanner(System.in);
-    Alumno alumno = new Alumno();
-
-    int numeroNotas = scanner.nextInt();
-    alumno.notas = new double[numeroNotas];
-
-    for (int i = 0; i < numeroNotas; i++) {
-        alumno.notas[i] = scanner.nextDouble();
-    }
-
-    double suma = 0;
-    for (int i = 0; i < numeroNotas; i++) {
-        suma += alumno.notas[i];
-    }
-
-    IO.println("Nota media: " + suma / numeroNotas);
-}
-```
 
 ## Plantillas
 

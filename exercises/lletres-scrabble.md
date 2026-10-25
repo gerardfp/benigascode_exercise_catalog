@@ -1,11 +1,11 @@
 ---
 slug: lletres-scrabble
+difficulty: 2.0
 tags: [strings, conditionals, switch]
-difficulty: 2
 ---
 # Lletres de l'Scrabble
 
-![image](assets/c2-l1-2-lletres-scrabble-img0.jpg)
+![image](assets/lletres-scrabble-img0.jpg)
 
 Donada una lletra, obté la seva puntuació d'Scrabble.
 
@@ -27,27 +27,6 @@ Un caracter
 ## Output
 
 La puntuació de la lletra
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    String s = sc.next().toUpperCase();
-    char c = s.charAt(0);
-    int score = switch (c) {
-        case 'A', 'E', 'I', 'O', 'U', 'L', 'N', 'R', 'S', 'T' -> 1;
-        case 'D', 'G' -> 2;
-        case 'B', 'C', 'M', 'P' -> 3;
-        case 'F', 'H', 'V', 'W', 'Y' -> 4;
-        case 'K' -> 5;
-        case 'J', 'X' -> 8;
-        case 'Q', 'Z' -> 10;
-        default -> 0;
-    };
-    IO.println(score);
-}
-```
 
 ## Tests
 

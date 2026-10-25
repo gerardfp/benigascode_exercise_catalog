@@ -1,7 +1,7 @@
 ---
 slug: esquemes-cerca-lineal-ultima-posicio
+difficulty: 3.0
 tags: [arrays, loops, for-loop, search]
-difficulty: 3
 ---
 # Cerca lineal: última posició d'un valor
 
@@ -18,26 +18,6 @@ A l'última línia hi ha el valor $X$ a cercar.
 ## Salida
 
 Imprimeix l'índex de l'última aparició de $X$, o `-1` si no apareix.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    int[] nums = new int[n];
-    for (int i = 0; i < n; i++) nums[i] = sc.nextInt();
-    int x = sc.nextInt();
-
-    int pos = -1;
-    for (int i = 0; i < n; i++) {
-        if (nums[i] == x) {
-            pos = i;
-        }
-    }
-    IO.println(pos);
-}
-```
 
 ## Tests
 

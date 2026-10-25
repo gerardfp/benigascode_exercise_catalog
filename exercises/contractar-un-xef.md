@@ -1,7 +1,7 @@
 ---
 slug: contractar-un-xef
+difficulty: 1.0
 tags: [strings, scanner, io]
-difficulty: 1
 ---
 # Contractar un xef
 
@@ -25,21 +25,6 @@ L'entrada consta de 5 línies:
 ## Output
 
 -
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    String nom = sc.nextLine();
-    sc.nextLine();
-    sc.nextLine();
-    sc.nextLine();
-    String cuina = sc.nextLine();
-
-    IO.println("El formulari de " + nom + " s'ha completat. Et contactarem si necessitem un xef de cuina " + cuina + ".");
-}
-```
 
 ## Plantillas
 

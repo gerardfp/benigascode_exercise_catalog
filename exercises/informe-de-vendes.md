@@ -1,7 +1,7 @@
 ---
 slug: informe-de-vendes
+difficulty: 3.0
 tags: [arrays, loops, for-loop, accumulators, min-max]
-difficulty: 3
 ---
 # Informe de vendes
 
@@ -25,42 +25,6 @@ A continuació, el volum de vendes de cada mes.
 S'imprimiràn, en format Array, el creixement i les vendes acumulades, cadascun en una línia.
 
 *Es permet utilitzar el mètode `Arrays.toString()` per a imprimir els resultats*
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int n = sc.nextInt();
-    int[] sales = new int[n];
-    for (int i = 0; i < n; i++) {
-        sales[i] = sc.nextInt();
-    }
-
-    int[] growth = new int[n];
-    int[] accum = new int[n];
-
-    for (int i = 0; i < n; i++) {
-        growth[i] = (i == 0) ? sales[0] : sales[i] - sales[i - 1];
-        accum[i] = (i == 0) ? sales[0] : accum[i - 1] + sales[i];
-    }
-
-    IO.println(formatArray(growth));
-    IO.println(formatArray(accum));
-}
-
-String formatArray(int[] arr) {
-    String res = "[";
-    for (int i = 0; i < arr.length; i++) {
-        if (i > 0) {
-            res += ", ";
-        }
-        res += arr[i];
-    }
-    return res + "]";
-}
-```
 
 ## Plantillas
 

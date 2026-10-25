@@ -1,7 +1,7 @@
 ---
 slug: jota-amb-asteriscs
+difficulty: 1.0
 tags: [literals, io]
-difficulty: 1
 ---
 # Jota amb asteriscs
 
@@ -14,20 +14,6 @@ Escriu un programa que imprimeixi la lletra `J` amb asteriscs.
 ## Output
 
 -
-
-## Solutions
-
-```java
-void main() {
-    IO.println("********");
-    IO.println("      **");
-    IO.println("      **");
-    IO.println("      **");
-    IO.println("**    **");
-    IO.println("**    **");
-    IO.println(" *******");
-}
-```
 
 ## Plantillas
 

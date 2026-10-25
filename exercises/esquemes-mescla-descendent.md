@@ -1,7 +1,7 @@
 ---
 slug: esquemes-mescla-descendent
+difficulty: 4.0
 tags: [arrays, loops, while-loop, merge, two-pointers]
-difficulty: 4
 ---
 # Mescla: fusió en ordre descendent
 
@@ -16,42 +16,6 @@ A continuació hi ha la mida $M$ del segon array, seguida dels seus $M$ enters e
 ## Salida
 
 Imprimeix els $N+M$ elements fusionats en ordre descendent en una sola línia, separats per espais.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    int[] a = new int[n];
-    for (int i = 0; i < n; i++) a[i] = sc.nextInt();
-
-    int m = sc.nextInt();
-    int[] b = new int[m];
-    for (int i = 0; i < m; i++) b[i] = sc.nextInt();
-
-    int[] res = new int[n + m];
-    int i = 0, j = 0, k = 0;
-
-    while (i < n && j < m) {
-        if (a[i] >= b[j]) {
-            res[k++] = a[i++];
-        } else {
-            res[k++] = b[j++];
-        }
-    }
-    while (i < n) {
-        res[k++] = a[i++];
-    }
-    while (j < m) {
-        res[k++] = b[j++];
-    }
-
-    for (int p = 0; p < n + m; p++) {
-        IO.print(res[p] + (p < n + m - 1 ? " " : "\n"));
-    }
-}
-```
 
 ## Tests
 

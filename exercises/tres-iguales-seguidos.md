@@ -1,7 +1,7 @@
 ---
 slug: tres-iguales-seguidos
+difficulty: 3.0
 tags: [loops, while-loop, nested-loops, sentinel-loop, flags]
-difficulty: 3
 ---
 # Tres iguales seguidos
 
@@ -15,43 +15,6 @@ Cada secuencia de N números termina con un 0.
 ## Output
 
 Un "SI" o un "NO" por cada secuencia de números leída; separados por un salto de línea.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int t = sc.nextInt();
-    for (int i = 0; i < t; i++) {
-        boolean found = false;
-        int prev = 0;
-        int count = 0;
-        while (true) {
-            int num = sc.nextInt();
-            if (num == 0) {
-                break;
-            }
-            if (count == 0) {
-                prev = num;
-                count = 1;
-            } else if (num == prev) {
-                count++;
-                if (count >= 3) {
-                    found = true;
-                }
-            } else {
-                prev = num;
-                count = 1;
-            }
-        }
-        if (found) {
-            IO.println("SI");
-        } else {
-            IO.println("NO");
-        }
-    }
-}
-```
 
 ## Tests
 

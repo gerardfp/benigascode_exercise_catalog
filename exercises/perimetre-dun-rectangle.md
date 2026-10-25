@@ -1,7 +1,7 @@
 ---
 slug: perimetre-dun-rectangle
+difficulty: 1.0
 tags: [operators, arithmetic, math]
-difficulty: 1
 ---
 # Perímetre d'un rectangle
 
@@ -9,7 +9,7 @@ El perímetre d'un rectangle és la suma de la longitud de tots els seus costats
 
 Un rectangle es pot definir proporcionant les coordenades del seu cantó superior dret, i les del seu cantó inferior esquerra:
 
-![image](assets/c1-l1-11-perimetre-dun-rectangle-img0.png)
+![image](assets/perimetre-dun-rectangle-img0.png)
 
 ## Input
 
@@ -20,25 +20,6 @@ Per a cada coordenada el primer nombre <span style="font-size: 100%; display: in
 ## Output
 
 Un nombre enter indicant el perímetre del rectangle
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int x1 = sc.nextInt();
-    int y1 = sc.nextInt();
-    int x2 = sc.nextInt();
-    int y2 = sc.nextInt();
-
-    int width = Math.abs(x1 - x2);
-    int height = Math.abs(y1 - y2);
-    int perimeter = 2 * (width + height);
-
-    IO.println(perimeter);
-}
-```
 
 ## Tests
 

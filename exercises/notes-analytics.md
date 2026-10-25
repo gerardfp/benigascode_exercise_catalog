@@ -1,7 +1,7 @@
 ---
 slug: notes-analytics
+difficulty: 2.0
 tags: [conditionals, if-else, operators, arithmetic]
-difficulty: 2
 ---
 # Avaluació final
 
@@ -30,33 +30,6 @@ En la quarta línia el nombre total d'hores de la UF (TH) i les hores de faltes 
 ## Output
 
 Aprova | Suspen
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    double t = sc.nextDouble();
-    double e = sc.nextDouble();
-    double p1 = sc.nextDouble();
-    double p2 = sc.nextDouble();
-    double p3 = sc.nextDouble();
-    double ef = sc.nextDouble();
-    double th = sc.nextDouble();
-    double fa = sc.nextDouble();
-
-    boolean attendanceOk = fa < th * 0.2;
-    boolean practicesOk = (e / t) >= 0.75;
-    boolean partialsOk = p1 >= 5 && p2 >= 5 && p3 >= 5;
-    boolean finalOk = ef >= 5;
-
-    if (attendanceOk && ((practicesOk && partialsOk) || finalOk)) {
-        IO.println("Aprova");
-    } else {
-        IO.println("Suspen");
-    }
-}
-```
 
 ## Tests
 

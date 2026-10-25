@@ -1,7 +1,7 @@
 ---
 slug: artropodes
+difficulty: 1.0
 tags: [operators, arithmetic, scanner]
-difficulty: 1
 ---
 # Artròpodes
 
@@ -12,7 +12,7 @@ En la classe de Naturals estan estudiant els artròpodes. Són animals invertebr
 - Els crustacis tenen 10 potes
 - Els miriàpodes tenen 2 o 4 potes per cada segment del seu cos
 
-![image](assets/c1-l1-12-artropodes-img0.png)
+![image](assets/artropodes-img0.png)
 
 Un dia la professora va demanar als alumnes que portessin artròpodes a classe i els va posar un problema de matemàtiques: calcular el nombre de pates de tots els animals que havien portat.
 
@@ -31,25 +31,6 @@ El sisè nombre $M2$ indica el nombre de miriàpodes de 4 potes i el setè nombr
 ## Output
 
 Un nombre indicant la quantitat total de potes.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int insects = sc.nextInt();
-    int arachnids = sc.nextInt();
-    int crustaceans = sc.nextInt();
-    int m1 = sc.nextInt();
-    int s1 = sc.nextInt();
-    int m2 = sc.nextInt();
-    int s2 = sc.nextInt();
-
-    int total = insects * 6 + arachnids * 8 + crustaceans * 10 + m1 * s1 * 2 + m2 * s2 * 4;
-    IO.println(total);
-}
-```
 
 ## Tests
 

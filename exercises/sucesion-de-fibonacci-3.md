@@ -1,7 +1,7 @@
 ---
 slug: sucesion-de-fibonacci-3
+difficulty: 3.0
 tags: [loops, while-loop, math, counters]
-difficulty: 3
 ---
 # Successió de Fibonacci
 
@@ -18,40 +18,6 @@ Una seqüència de N nombres enters. La seqüència acaba amb un -1.
 ## Output
 
 "SI" o "NO"
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int count = 0;
-    boolean ok = true;
-    int prev2 = 0;
-    int prev1 = 0;
-
-    while (sc.hasNextInt()) {
-        int x = sc.nextInt();
-        if (x == -1) break;
-        count++;
-        if (count == 1) {
-            if (x != 0) ok = false;
-            prev2 = x;
-        } else if (count == 2) {
-            if (x != 1) ok = false;
-            prev1 = x;
-        } else {
-            if (x != prev1 + prev2) {
-                ok = false;
-            }
-            prev2 = prev1;
-            prev1 = x;
-        }
-    }
-
-    if (count < 2) ok = false;
-    IO.println(ok ? "SI" : "NO");
-}
-```
 
 ## Tests
 

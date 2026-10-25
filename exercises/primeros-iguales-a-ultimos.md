@@ -1,7 +1,7 @@
 ---
 slug: primeros-iguales-a-ultimos
+difficulty: 3.0
 tags: [loops, while-loop, nested-loops, sentinel-loop, flags]
-difficulty: 3
 ---
 # Primeros iguales a últimos
 
@@ -16,36 +16,6 @@ Cada secuencia finaliza con un 0.
 ## Output
 
 Un "SI" o un "NO" por cada caso de prueba, separados por un salto de linea "\n"
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int t = sc.nextInt();
-    for (int i = 0; i < t; i++) {
-        int first = 0;
-        int last = 0;
-        boolean hasElements = false;
-        while (true) {
-            int num = sc.nextInt();
-            if (num == 0) {
-                break;
-            }
-            if (!hasElements) {
-                first = num;
-                hasElements = true;
-            }
-            last = num;
-        }
-        if (first == last) {
-            IO.println("SI");
-        } else {
-            IO.println("NO");
-        }
-    }
-}
-```
 
 ## Tests
 

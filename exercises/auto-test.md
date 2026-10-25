@@ -1,7 +1,7 @@
 ---
 slug: auto-test
+difficulty: 4.0
 tags: [arrays, loops, for-loop, accumulators, filtering]
-difficulty: 4
 ---
 # Auto-test
 
@@ -30,64 +30,6 @@ La entrada consiste en las respuestas del usuario: 30 letras (`a`, `b`, `c`) sep
 3. En la tercera línea se imprimirán los números de pregunta separados por espacios en blanco. Si el número de pregunta solo ocupa un dígito, se precederá con un espacio.
 4. En la cuarta línia se imprimirán las respuestas dadas por el usuario. Cada respuesta irá precedida y sucedida por un espacio en blanco.
 5. En la quinta línia se alinearán las respuestas correctas a aquellas preguntas que se hayan fallado.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    String[] correct = {
-        "a", "b", "a", "c", "a", "b", "b", "c", "b", "c",
-        "a", "c", "b", "a", "a", "a", "c", "c", "b", "a",
-        "c", "b", "c", "c", "a", "a", "c", "a", "a", "c"
-    };
-
-    String[] user = new String[30];
-    for (int i = 0; i < 30; i++) {
-        user[i] = sc.next();
-    }
-
-    int errors = 0;
-    for (int i = 0; i < 30; i++) {
-        if (!user[i].equals(correct[i])) {
-            errors++;
-        }
-    }
-
-    if (errors <= 3) {
-        IO.println("TEST APROBADO");
-    } else {
-        IO.println("TEST SUSPENDIDO");
-    }
-    IO.println(errors + " fallos.");
-
-    String line3 = "";
-    for (int i = 1; i <= 30; i++) {
-        if (i < 10) {
-            line3 += " " + i + " ";
-        } else {
-            line3 += i + " ";
-        }
-    }
-    IO.println(line3);
-
-    String line4 = "";
-    for (int i = 0; i < 30; i++) {
-        line4 += " " + user[i] + " ";
-    }
-    IO.println(line4);
-
-    String line5 = "";
-    for (int i = 0; i < 30; i++) {
-        if (!user[i].equals(correct[i])) {
-            line5 += " " + correct[i] + " ";
-        } else {
-            line5 += "   ";
-        }
-    }
-    IO.println(line5);
-}
-```
 
 ## Tests
 

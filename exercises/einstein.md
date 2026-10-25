@@ -1,7 +1,7 @@
 ---
 slug: einstein
+difficulty: 1.0
 tags: [literals, io]
-difficulty: 1
 ---
 # Cita Einstein
 
@@ -18,14 +18,6 @@ Life is like riding a bicycle. To keep your balance you must keep moving.
 ## Output
 
 -
-
-## Solutions
-
-```java
-void main() {
-    IO.println("Life is like riding a bicycle. To keep your balance you must keep moving.");
-}
-```
 
 ## Plantillas
 

@@ -1,11 +1,11 @@
 ---
 slug: cromos-repetits
+difficulty: 3.0
 tags: [arrays, loops, for-loop, counters]
-difficulty: 3
 ---
 # Cromos repetits
 
-![image](assets/c6a99-cromos-repetits-img0.jpg)
+![image](assets/cromos-repetits-img0.jpg)
 
 David s'està fent una col·lecció de cromos, i s'ha fet una app per a portar l'inventari de cromos que té. Ara vol que l'app li diga quins cromos té repetits.
 
@@ -25,28 +25,6 @@ El format és:
 
 ```
 id: vegades
-```
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    int[] counts = new int[69];
-    for (int i = 0; i < n; i++) {
-        int id = sc.nextInt();
-        if (id >= 1 && id <= 68) {
-            counts[id]++;
-        }
-    }
-
-    for (int id = 1; id <= 68; id++) {
-        if (counts[id] > 1) {
-            IO.println(id + ": " + counts[id]);
-        }
-    }
-}
 ```
 
 ## Tests

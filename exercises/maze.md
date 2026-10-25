@@ -1,7 +1,7 @@
 ---
 slug: maze
+difficulty: 6.0
 tags: [matrices, 2d-arrays, recursion, backtracking]
-difficulty: 6
 ---
 # Maze
 
@@ -23,70 +23,6 @@ Cada caracter significa:
 ## Output
 
 S'imprimirà el laberint marcant amb el caracter 'o' el cami des de l'inici fins a la sortida.
-
-## Solutions
-
-```java
-char[][] grid;
-boolean[][] visited;
-int rows;
-
-boolean solve(int r, int c) {
-    if (r < 0 || r >= rows || c < 0 || c >= grid[r].length) {
-        return false;
-    }
-    if (visited[r][c] || grid[r][c] == '#') {
-        return false;
-    }
-    visited[r][c] = true;
-    if (grid[r][c] == '_') {
-        grid[r][c] = 'o';
-        return true;
-    }
-    int[] dr = {-1, 1, 0, 0};
-    int[] dc = {0, 0, -1, 1};
-    for (int i = 0; i < 4; i++) {
-        if (solve(r + dr[i], c + dc[i])) {
-            grid[r][c] = 'o';
-            return true;
-        }
-    }
-    return false;
-}
-
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextLine()) return;
-    String first = sc.nextLine().trim();
-    if (first.length() == 0) return;
-    rows = Integer.parseInt(first);
-    grid = new char[rows][];
-    visited = new boolean[rows][];
-    int startR = -1;
-    int startC = -1;
-    for (int i = 0; i < rows; i++) {
-        String line = sc.nextLine();
-        grid[i] = new char[line.length()];
-        visited[i] = new boolean[line.length()];
-        for (int j = 0; j < line.length(); j++) {
-            grid[i][j] = line.charAt(j);
-            if (grid[i][j] == '^') {
-                startR = i;
-                startC = j;
-            }
-        }
-    }
-    if (startR != -1) {
-        solve(startR, startC);
-    }
-    for (int i = 0; i < rows; i++) {
-        for (int j = 0; j < grid[i].length; j++) {
-            IO.print(grid[i][j]);
-        }
-        IO.println();
-    }
-}
-```
 
 ## Tests
 

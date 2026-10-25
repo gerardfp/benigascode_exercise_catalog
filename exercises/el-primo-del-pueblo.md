@@ -1,7 +1,7 @@
 ---
 slug: el-primo-del-pueblo
+difficulty: 3.0
 tags: [loops, for-loop, math, flags]
-difficulty: 3
 ---
 # El primo del pueblo
 
@@ -14,27 +14,6 @@ Un número N
 ## Output
 
 true | false
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    if (n < 2) {
-        IO.println(false);
-        return;
-    }
-    boolean prime = true;
-    for (int i = 2; i * i <= n; i++) {
-        if (n % i == 0) {
-            prime = false;
-            break;
-        }
-    }
-    IO.println(prime);
-}
-```
 
 ## Tests
 

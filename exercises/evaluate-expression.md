@@ -1,7 +1,7 @@
 ---
 slug: evaluate-expression
+difficulty: 5.0
 tags: [strings, recursion, math, parsing]
-difficulty: 5
 ---
 # Evaluate expression
 
@@ -14,27 +14,6 @@ Un string amb una expressió aritmètica de sumes i multiplicacions enteres.
 ## Output
 
 El resultat de l'expressió
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNext()) return;
-    String expr = sc.next();
-    String[] terms = expr.split("\\+");
-    int total = 0;
-    for (int i = 0; i < terms.length; i++) {
-        String[] factors = terms[i].split("\\*");
-        int prod = 1;
-        for (int j = 0; j < factors.length; j++) {
-            prod *= Integer.parseInt(factors[j]);
-        }
-        total += prod;
-    }
-    IO.println(total);
-}
-```
 
 ## Tests
 

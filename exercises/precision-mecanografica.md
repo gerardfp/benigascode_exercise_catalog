@@ -1,7 +1,7 @@
 ---
 slug: precision-mecanografica
+difficulty: 2.0
 tags: [operators, arithmetic, casting, formatting]
-difficulty: 2
 ---
 # Precisión mecanográfica
 
@@ -27,24 +27,6 @@ T: tiempo empleado (en segundos)
 ## Output
 
 Se debe imprimir la Precisión (porcentaje de aciertos) y la Velocidad (palabras por minuto), cada uno en una línea, y sin decimales.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int l = sc.nextInt();
-    int e = sc.nextInt();
-    int t = sc.nextInt();
-
-    int precision = (l - e) * 100 / l;
-    int velocidad = (l * 12) / t;
-
-    IO.println(precision);
-    IO.println(velocidad);
-}
-```
 
 ## Tests
 

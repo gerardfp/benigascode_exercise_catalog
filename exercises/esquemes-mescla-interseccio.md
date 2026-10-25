@@ -1,7 +1,7 @@
 ---
 slug: esquemes-mescla-interseccio
+difficulty: 4.0
 tags: [arrays, loops, while-loop, merge, two-pointers, search]
-difficulty: 4
 ---
 # Mescla: intersecció de dos arrays ordenats
 
@@ -16,44 +16,6 @@ A continuació hi ha la mida $M$ del segon array, seguida dels seus $M$ enters o
 ## Salida
 
 Imprimeix els elements de la intersecció separats per un espai. Si no hi ha cap element comú, imprimeix una línia buida.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    int[] a = new int[n];
-    for (int i = 0; i < n; i++) a[i] = sc.nextInt();
-
-    int m = sc.nextInt();
-    int[] b = new int[m];
-    for (int i = 0; i < m; i++) b[i] = sc.nextInt();
-
-    int i = 0, j = 0;
-    int[] res = new int[Math.min(n, m)];
-    int k = 0;
-
-    while (i < n && j < m) {
-        if (a[i] == b[j]) {
-            if (k == 0 || res[k - 1] != a[i]) {
-                res[k++] = a[i];
-            }
-            i++;
-            j++;
-        } else if (a[i] < b[j]) {
-            i++;
-        } else {
-            j++;
-        }
-    }
-
-    for (int p = 0; p < k; p++) {
-        IO.print(res[p] + (p < k - 1 ? " " : ""));
-    }
-    IO.println();
-}
-```
 
 ## Tests
 

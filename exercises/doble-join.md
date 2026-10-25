@@ -1,13 +1,13 @@
 ---
 slug: doble-join
+difficulty: 6.0
 tags: [arrays, loops, nested-loops, scanner]
-difficulty: 6
 ---
 # Doble JOIN
 
 Donades les tuples de les següents relacions:
 
-![image](assets/c5-l4-2-doble-join-img0.png)
+![image](assets/doble-join-img0.png)
 Realitza la següent consulta:
 
 ```
@@ -55,119 +55,6 @@ L'amplada de cada columna serà igual a la longitud màxima dels seus valors. La
 Tot el text s'ha d'aliniar a la dreta.
 
 Per últim caldrà indicar el número de tuples retornades per la consulta: "(X rows)"
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int numAlumnes = sc.nextInt();
-    int[] alumneId = new int[numAlumnes];
-    String[] alumneCognom = new String[numAlumnes];
-    String[] alumneNom = new String[numAlumnes];
-    for (int i = 0; i < numAlumnes; i++) {
-        alumneId[i] = sc.nextInt();
-        String rest = sc.nextLine().trim();
-        int comma = rest.indexOf(',');
-        alumneCognom[i] = rest.substring(0, comma).trim();
-        alumneNom[i] = rest.substring(comma + 1).trim();
-    }
-
-    int numModuls = sc.nextInt();
-    int[] modulId = new int[numModuls];
-    String[] modulNom = new String[numModuls];
-    for (int i = 0; i < numModuls; i++) {
-        modulId[i] = sc.nextInt();
-        modulNom[i] = sc.nextLine().trim();
-    }
-
-    int numNotes = sc.nextInt();
-    int[] noteAlumne = new int[numNotes];
-    int[] noteModul = new int[numNotes];
-    double[] noteNota = new double[numNotes];
-    for (int i = 0; i < numNotes; i++) {
-        noteAlumne[i] = sc.nextInt();
-        noteModul[i] = sc.nextInt();
-        noteNota[i] = sc.nextDouble();
-    }
-
-    int wCognom = 6; // "cognom".length()
-    boolean hasDijkstra = false;
-    for (int i = 0; i < numAlumnes; i++) {
-        if (alumneCognom[i].equals("Dijkstra")) {
-            hasDijkstra = true;
-        }
-        if (alumneCognom[i].length() > wCognom) {
-            wCognom = alumneCognom[i].length();
-        }
-    }
-    if (hasDijkstra) {
-        wCognom = 7;
-    }
-
-    int wNom = 3; // "nom".length()
-    for (int i = 0; i < numAlumnes; i++) {
-        if (alumneNom[i].length() > wNom) {
-            wNom = alumneNom[i].length();
-        }
-    }
-
-    int wModul = 5; // "modul".length()
-    for (int i = 0; i < numModuls; i++) {
-        if (modulNom[i].length() > wModul) {
-            wModul = modulNom[i].length();
-        }
-    }
-
-    int wNota = 5;
-
-    // Print headers
-    String hCognom = padRight("cognom", wCognom);
-    String hNom = padRight("nom", wNom);
-    String hModul = padRight("modul", wModul);
-    String hNota = padRight("nota", wNota);
-    IO.println(hCognom + "|" + hNom + "|" + hModul + "|" + hNota);
-
-    // Print separator
-    IO.println(dashes(wCognom) + "+" + dashes(wNom) + "+" + dashes(wModul) + "+" + dashes(wNota));
-
-    int count = 0;
-    for (int i = 0; i < numAlumnes; i++) {
-        for (int j = 0; j < numNotes; j++) {
-            if (noteAlumne[j] == alumneId[i]) {
-                for (int m = 0; m < numModuls; m++) {
-                    if (modulId[m] == noteModul[j]) {
-                        count++;
-                        String cStr = padRight(alumneCognom[i], wCognom);
-                        String nStr = padRight(alumneNom[i], wNom);
-                        String mStr = padRight(modulNom[m], wModul);
-                        String notaStr = "%5.2f".formatted(noteNota[j]);
-                        IO.println(cStr + "|" + nStr + "|" + mStr + "|" + notaStr);
-                    }
-                }
-            }
-        }
-    }
-
-    IO.println("(" + count + " rows)");
-}
-
-String padRight(String s, int width) {
-    while (s.length() < width) {
-        s += " ";
-    }
-    return s;
-}
-
-String dashes(int count) {
-    String res = "";
-    for (int i = 0; i < count; i++) {
-        res += "-";
-    }
-    return res;
-}
-```
 
 ## Tests
 

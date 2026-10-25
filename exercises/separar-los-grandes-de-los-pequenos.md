@@ -1,7 +1,7 @@
 ---
 slug: separar-los-grandes-de-los-pequenos
+difficulty: 3.0
 tags: [arrays, loops, for-loop, filtering, partitioning]
-difficulty: 3
 ---
 # Separar los grandes de los pequeños
 
@@ -16,38 +16,6 @@ Después viene el valor límite.
 ## Output
 
 Las dos secuencias separadas por un salto de línea.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int n = sc.nextInt();
-    int[] a = new int[n];
-    for (int i = 0; i < n; i++) {
-        a[i] = sc.nextInt();
-    }
-    int limit = sc.nextInt();
-
-    String small = "";
-    String big = "";
-    for (int i = 0; i < n; i++) {
-        if (a[i] <= limit) {
-            small += (small.length() == 0 ? "" : " ") + a[i];
-        } else {
-            big += (big.length() == 0 ? "" : " ") + a[i];
-        }
-    }
-
-    if (small.length() > 0) {
-        IO.println(small);
-    }
-    if (big.length() > 0) {
-        IO.println(big);
-    }
-}
-```
 
 ## Tests
 

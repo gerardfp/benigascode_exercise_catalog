@@ -1,7 +1,7 @@
 ---
 slug: esquemes-ordenacio-intercanvis
+difficulty: 4.0
 tags: [arrays, loops, nested-loops, sorting, counters]
-difficulty: 4
 ---
 # Ordenació: comptador d'intercanvis en Bubble Sort
 
@@ -16,30 +16,6 @@ A continuació venen els $N$ nombres enters, cadascun en una línia.
 ## Salida
 
 Imprimeix el nombre total d'intercanvis efectuats.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    int[] a = new int[n];
-    for (int i = 0; i < n; i++) a[i] = sc.nextInt();
-
-    int swaps = 0;
-    for (int i = 0; i < n - 1; i++) {
-        for (int j = 0; j < n - 1 - i; j++) {
-            if (a[j] > a[j + 1]) {
-                int tmp = a[j];
-                a[j] = a[j + 1];
-                a[j + 1] = tmp;
-                swaps++;
-            }
-        }
-    }
-    IO.println(swaps);
-}
-```
 
 ## Tests
 

@@ -1,7 +1,7 @@
 ---
 slug: esquemes-ordenacio-insercio
+difficulty: 4.0
 tags: [arrays, loops, nested-loops, while-loop, sorting]
-difficulty: 4
 ---
 # Ordenació: inserció directa (Insertion Sort)
 
@@ -18,31 +18,6 @@ A continuació venen els $N$ nombres enters, cadascun en una línia.
 ## Salida
 
 Imprimeix els $N$ elements ordenats en ordre creixent en una única línia, separats per un espai.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    int[] a = new int[n];
-    for (int i = 0; i < n; i++) a[i] = sc.nextInt();
-
-    for (int i = 1; i < n; i++) {
-        int key = a[i];
-        int j = i - 1;
-        while (j >= 0 && a[j] > key) {
-            a[j + 1] = a[j];
-            j--;
-        }
-        a[j + 1] = key;
-    }
-
-    for (int i = 0; i < n; i++) {
-        IO.print(a[i] + (i < n - 1 ? " " : "\n"));
-    }
-}
-```
 
 ## Tests
 

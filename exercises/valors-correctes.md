@@ -1,7 +1,7 @@
 ---
 slug: valors-correctes
+difficulty: 1.0
 tags: [variables, types]
-difficulty: 1
 ---
 # Valors correctes
 
@@ -14,27 +14,6 @@ Assigna els valors adequats a les següents variables, per tal d'obtenir el resu
 ## Output
 
 -
-
-## Solutions
-
-```java
-void main() {
-    boolean a = true;
-    float b = 35.6f;
-    float c = 2000.0f;
-    String d = "true";
-    char e1 = 't', e2 = 'r', e3 = 'u', e4 = 'e';
-
-    IO.println(a);
-    IO.println(b);
-    IO.println(c);
-    IO.println(d);
-    IO.print(e1);
-    IO.print(e2);
-    IO.print(e3);
-    IO.print(e4);
-}
-```
 
 ## Plantillas
 

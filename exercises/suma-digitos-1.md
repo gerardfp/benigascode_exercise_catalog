@@ -1,7 +1,7 @@
 ---
 slug: suma-digitos-1
+difficulty: 2.0
 tags: [strings, loops, char-arithmetic, accumulators]
-difficulty: 2
 ---
 # Suma dígitos 1
 
@@ -14,20 +14,6 @@ Un número entero positvo N.
 ## Output
 
 Un número entero
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    String s = sc.next();
-    int sum = 0;
-    for (int i = 0; i < s.length(); i++) {
-        sum += s.charAt(i) - '0';
-    }
-    IO.println(sum);
-}
-```
 
 ## Tests
 

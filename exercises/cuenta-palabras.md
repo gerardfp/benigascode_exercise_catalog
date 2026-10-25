@@ -1,7 +1,7 @@
 ---
 slug: cuenta-palabras
+difficulty: 2.0
 tags: [strings, loops, while-loop, scanner, counters]
-difficulty: 2
 ---
 # Cuenta palabras
 
@@ -15,23 +15,6 @@ El texto termina con la palabra END (que no debe procesarse)
 ## Output
 
 Un entero indicando el número de palabras
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int count = 0;
-    while (sc.hasNext()) {
-        String word = sc.next();
-        if (word.equals("END")) {
-            break;
-        }
-        count++;
-    }
-    IO.println(count);
-}
-```
 
 ## Tests
 

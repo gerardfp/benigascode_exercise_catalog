@@ -1,7 +1,7 @@
 ---
 slug: sopa-de-lletres
+difficulty: 5.0
 tags: [matrices, 2d-arrays, strings, loops, nested-loops, search]
-difficulty: 5
 ---
 # Sopa de lletres
 
@@ -22,86 +22,6 @@ A continuació ve una línia en blanc, i després una llista de paraules que hi 
 S'imprimirà la sopa de lletres amb les paraules trobades escrites en majúscules.
 
 (No totes les paraules a cercar estan a la llista, i una paraula pot estar més d'una vegada)
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int R = sc.nextInt();
-    sc.nextLine();
-
-    String[] lines = new String[R];
-    for (int i = 0; i < R; i++) {
-        lines[i] = sc.nextLine().trim();
-    }
-
-    String compacted0 = lines[0].replace(" ", "");
-    int C = compacted0.length();
-
-    char[][] grid = new char[R][C];
-    boolean[][] found = new boolean[R][C];
-
-    for (int r = 0; r < R; r++) {
-        String compacted = lines[r].replace(" ", "");
-        for (int c = 0; c < C; c++) {
-            grid[r][c] = compacted.charAt(c);
-        }
-    }
-
-    while (sc.hasNext()) {
-        String word = sc.next();
-        int L = word.length();
-
-        // Horizontal (left to right)
-        for (int r = 0; r < R; r++) {
-            for (int c = 0; c <= C - L; c++) {
-                boolean match = true;
-                for (int k = 0; k < L; k++) {
-                    if (grid[r][c + k] != word.charAt(k)) {
-                        match = false;
-                        break;
-                    }
-                }
-                if (match) {
-                    for (int k = 0; k < L; k++) {
-                        found[r][c + k] = true;
-                    }
-                }
-            }
-        }
-
-        // Vertical (top to bottom)
-        for (int r = 0; r <= R - L; r++) {
-            for (int c = 0; c < C; c++) {
-                boolean match = true;
-                for (int k = 0; k < L; k++) {
-                    if (grid[r + k][c] != word.charAt(k)) {
-                        match = false;
-                        break;
-                    }
-                }
-                if (match) {
-                    for (int k = 0; k < L; k++) {
-                        found[r + k][c] = true;
-                    }
-                }
-            }
-        }
-    }
-
-    for (int r = 0; r < R; r++) {
-        String row = "";
-        for (int c = 0; c < C; c++) {
-            char ch = grid[r][c];
-            String chStr = found[r][c] ? ("" + ch).toUpperCase() : ("" + ch);
-            row += (c == 0 ? "" : " ") + chStr;
-        }
-        IO.println(row);
-    }
-}
-```
 
 ## Tests
 

@@ -1,7 +1,7 @@
 ---
 slug: recompte
+difficulty: 1.0
 tags: [operators, arithmetic, accumulators]
-difficulty: 1
 ---
 # Sortida en autobús
 
@@ -20,18 +20,6 @@ El tercer nombre <span style="font-size: 100%; display: inline-block;" class="Ma
 ## Output
 
 Un número indicant la capacitat total de passatagers
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int a = sc.nextInt();
-    int b = sc.nextInt();
-    int c = sc.nextInt();
-    IO.println((a + b) * c);
-}
-```
 
 ## Tests
 

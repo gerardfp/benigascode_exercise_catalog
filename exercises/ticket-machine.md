@@ -1,7 +1,7 @@
 ---
 slug: ticket-machine
+difficulty: 3.0
 tags: [loops, while-loop, conditionals]
-difficulty: 3
 ---
 # Ticket machine
 
@@ -11,11 +11,11 @@ Els usuaris de la màquina insereixen diners, i reben un tíquet per valor dels 
 
 La màquina poseeix un *display* que informa del balanç de diners que l'usuari ha inserit. Està en funcionament ininterrompudament fins es pitja un botó d'apagat.
 
-![image](assets/c3-l2-5-ticket-machine-img0.png)
+![image](assets/ticket-machine-img0.png)
 
 El següent diagrama de flux mostra el funcionament de la màquina:
 
-![image](assets/c3-l2-5-ticket-machine-img1.png)
+![image](assets/ticket-machine-img1.png)
 
 ## Input
 
@@ -32,35 +32,6 @@ S'anirà mostrant el resultat de les operacions:
 - ADD MONEY: `Balance: $BALANCE`
 - PRINT TICKET: `Ticket: $BALANCE`
 - REFUND: `Refund: $BALANCE`
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int balance = 0;
-    while (sc.hasNext()) {
-        String op = sc.next();
-        if (op.equals("OFF")) {
-            break;
-        } else if (op.equals("INSERT")) {
-            int amount = sc.nextInt();
-            balance += amount;
-            IO.println("Balance: " + balance);
-        } else if (op.equals("CONFIRM")) {
-            if (balance > 0) {
-                IO.println("Ticket: " + balance);
-                balance = 0;
-            }
-        } else if (op.equals("CANCEL")) {
-            if (balance > 0) {
-                IO.println("Refund: " + balance);
-                balance = 0;
-            }
-        }
-    }
-}
-```
 
 ## Tests
 

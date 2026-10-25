@@ -1,7 +1,7 @@
 ---
 slug: picos-maximos-y-minimos
+difficulty: 4.0
 tags: [loops, while-loop, sentinel-loop, counters, min-max]
-difficulty: 4
 ---
 # Picos máximos y mínimos
 
@@ -24,38 +24,6 @@ Por cada caso de prueba se indica en el primer número N la cantidad de picos qu
 ## Output
 
 Por cada caso de prueba se escribirá en una sola linea la sucesión de números consecutivos, separados por un espacio en blanco.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int T = sc.nextInt();
-    for (int t = 0; t < T; t++) {
-        int n = sc.nextInt();
-        int[] p = new int[n];
-        for (int i = 0; i < n; i++) {
-            p[i] = sc.nextInt();
-        }
-        IO.print(p[0]);
-        for (int i = 0; i < n - 1; i++) {
-            int curr = p[i];
-            int next = p[i + 1];
-            if (curr < next) {
-                for (int v = curr + 1; v <= next; v++) {
-                    IO.print(" " + v);
-                }
-            } else {
-                for (int v = curr - 1; v >= next; v--) {
-                    IO.print(" " + v);
-                }
-            }
-        }
-        IO.println("");
-    }
-}
-```
 
 ## Tests
 

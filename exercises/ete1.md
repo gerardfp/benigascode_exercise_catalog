@@ -1,7 +1,7 @@
 ---
 slug: ete1
+difficulty: 2.0
 tags: [loops, while-loop, sentinel-loop, flags]
-difficulty: 2
 ---
 # Primero igual al último
 
@@ -14,32 +14,6 @@ Un secuencia de N números enteros que finaliza con un 0.
 ## Output
 
 "SI" o "NO"
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int first = sc.nextInt();
-    if (first == 0) {
-        IO.println("NO");
-        return;
-    }
-    int last = first;
-    while (sc.hasNextInt()) {
-        int x = sc.nextInt();
-        if (x == 0) {
-            break;
-        }
-        last = x;
-    }
-    if (first == last) {
-        IO.println("SI");
-    } else {
-        IO.println("NO");
-    }
-}
-```
 
 ## Tests
 

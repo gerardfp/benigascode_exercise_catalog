@@ -1,7 +1,7 @@
 ---
 slug: aprovar-el-modul
+difficulty: 2.0
 tags: [conditionals, operators, arithmetic, booleans]
-difficulty: 2
 ---
 # Aprovar el mòdul
 
@@ -24,30 +24,6 @@ La entrada consisteix en 9 nombres:
 ## Output
 
 S'imprimirà `true` si l'alumne aprova el mòdul, o `false` si no l'aprova.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextDouble()) return;
-    double t1 = Double.parseDouble(sc.next());
-    double d1 = Double.parseDouble(sc.next());
-    double e1 = Double.parseDouble(sc.next());
-    double t2 = Double.parseDouble(sc.next());
-    double d2 = Double.parseDouble(sc.next());
-    double e2 = Double.parseDouble(sc.next());
-    double t3 = Double.parseDouble(sc.next());
-    double d3 = Double.parseDouble(sc.next());
-    double e3 = Double.parseDouble(sc.next());
-
-    boolean uf1 = (d1 >= 0.75 * t1 && e1 >= 4) || (d1 >= 0.50 * t1 && e1 >= 5) || (e1 > 7);
-    boolean uf2 = (d2 >= 0.75 * t2 && e2 >= 4) || (d2 == t2) || (d2 >= 0.50 * t2 && e2 >= 5);
-    boolean uf3 = (d3 == t3 && e3 >= 5);
-
-    IO.println(uf1 && uf2 && uf3);
-}
-```
 
 ## Tests
 

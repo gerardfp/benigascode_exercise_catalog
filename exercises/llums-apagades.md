@@ -1,7 +1,7 @@
 ---
 slug: llums-apagades
+difficulty: 2.0
 tags: [operators, booleans, logical-operators]
-difficulty: 2
 ---
 # Llums apagats
 
@@ -20,20 +20,6 @@ La entrada consta de 4 valors booleans que indiquen si cadascun dels llums està
 ## Output
 
 S'ha d'imprimir `true` si tots els llums estan apagats, i `false` si hi ha algún llum encés.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    boolean l1 = sc.nextBoolean();
-    boolean l2 = sc.nextBoolean();
-    boolean l3 = sc.nextBoolean();
-    boolean l4 = sc.nextBoolean();
-
-    IO.println(!l1 && !l2 && !l3 && !l4);
-}
-```
 
 ## Tests
 

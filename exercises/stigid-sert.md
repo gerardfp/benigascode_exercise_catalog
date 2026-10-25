@@ -1,7 +1,7 @@
 ---
 slug: stigid-sert
+difficulty: 1.0
 tags: [operators, arithmetic, modulo, math]
-difficulty: 1
 ---
 # stigid serT
 
@@ -14,21 +14,6 @@ Un enter de 3 xifres
 ## Output
 
 -
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int n = sc.nextInt();
-    int c = n % 10;
-    int b = (n / 10) % 10;
-    int a = n / 100;
-    int res = c * 100 + b * 10 + a;
-    IO.println(res);
-}
-```
 
 ## Tests
 

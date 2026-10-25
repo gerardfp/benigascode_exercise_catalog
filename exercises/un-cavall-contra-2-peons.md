@@ -1,13 +1,13 @@
 ---
 slug: un-cavall-contra-2-peons
+difficulty: 2.0
 tags: [operators, booleans, math]
-difficulty: 2
 ---
 # Un cavall contra dos peons
 
 Als escacs el cavall pot saltar fent una "L", així:
 
-![image](assets/c1-l4-2-un-cavall-contra-2-peons-img0.png)
+![image](assets/un-cavall-contra-2-peons-img0.png)
 
 Donada la posició d'un cavall i de dos peons al tauler, digues quants peons està amenaçant el cavall.
 
@@ -18,30 +18,6 @@ La posició del cavall, i del dos peons
 ## Output
 
 0 | 1 | 2
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int kr = sc.nextInt();
-    int kc = sc.nextInt();
-    int p1r = sc.nextInt();
-    int p1c = sc.nextInt();
-    int p2r = sc.nextInt();
-    int p2c = sc.nextInt();
-
-    int count = 0;
-    if (Math.abs(kr - p1r) * Math.abs(kc - p1c) == 2) {
-        count++;
-    }
-    if (Math.abs(kr - p2r) * Math.abs(kc - p2c) == 2) {
-        count++;
-    }
-
-    IO.println(count);
-}
-```
 
 ## Tests
 
@@ -55,7 +31,7 @@ void main() {
 1
 ```
 #### Explanation
-![image](assets/c1-l4-2-un-cavall-contra-2-peons-img1.png)
+![image](assets/un-cavall-contra-2-peons-img1.png)
 
 ### Test
 ```input
@@ -67,7 +43,7 @@ void main() {
 1
 ```
 #### Explanation
-![image](assets/c1-l4-2-un-cavall-contra-2-peons-img2.png)
+![image](assets/un-cavall-contra-2-peons-img2.png)
 
 ### Test
 ```input
@@ -79,7 +55,7 @@ void main() {
 2
 ```
 #### Explanation
-![image](assets/c1-l4-2-un-cavall-contra-2-peons-img3.png)
+![image](assets/un-cavall-contra-2-peons-img3.png)
 
 ### Test
 ```input
@@ -91,7 +67,7 @@ void main() {
 0
 ```
 #### Explanation
-![image](assets/c1-l4-2-un-cavall-contra-2-peons-img4.png)
+![image](assets/un-cavall-contra-2-peons-img4.png)
 
 ### Test
 ```input
@@ -103,7 +79,7 @@ void main() {
 2
 ```
 #### Explanation
-![image](assets/c1-l4-2-un-cavall-contra-2-peons-img5.png)
+![image](assets/un-cavall-contra-2-peons-img5.png)
 
 ### Test
 ```input

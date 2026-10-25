@@ -1,17 +1,17 @@
 ---
 slug: piramide-lego
+difficulty: 1.0
 tags: [operators, arithmetic, math]
-difficulty: 1
 ---
 # Piràmide lego
 
 Amb peces de lego de 4x4 pots construir piràmides com aquesta de 3 pisos:
 
-![image](assets/c1-l4-1-piramide-lego-img0.png)
+![image](assets/piramide-lego-img0.png)
 
 Per a construir-la hem utilitzat 14 peces:
 
-![image](assets/c1-l4-1-piramide-lego-img1.png)
+![image](assets/piramide-lego-img1.png)
 
 ¿Quantes peces es necessiten per a construir un piràmide d'un determinat nombre de pisos?
 
@@ -23,18 +23,6 @@ La entrada consta d'un nombre de pisos <span style="font-size: 100%; display: in
 
 El nombre de peces necessàries
 
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextLong()) return;
-    long n = sc.nextLong();
-    long ans = n * (n + 1) * (2 * n + 1) / 6;
-    IO.println(ans);
-}
-```
-
 ## Tests
 
 ### Test
@@ -45,7 +33,7 @@ void main() {
 1
 ```
 #### Explanation
-![image](assets/c1-l4-1-piramide-lego-img2.png)
+![image](assets/piramide-lego-img2.png)
 
 ### Test
 ```input
@@ -63,7 +51,7 @@ void main() {
 14
 ```
 #### Explanation
-![image](assets/c1-l4-1-piramide-lego-img3.png)
+![image](assets/piramide-lego-img3.png)
 
 ### Test
 ```input

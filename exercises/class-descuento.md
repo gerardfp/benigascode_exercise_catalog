@@ -1,56 +1,11 @@
 ---
 slug: class-descuento
+difficulty: 5.0
 tags: [class]
-difficulty: 5
 ---
 # Descuentos
 
 Implementa els métodes necessaris.
-
-## Solutions
-
-```java
-class Producto {
-    String descripcion;
-    float precio;
-
-    Producto(String descripcion, float precio) {
-        this.descripcion = descripcion;
-        this.precio = precio;
-    }
-
-    public String toString() {
-        return "Producto{descripcion='" + descripcion + "', precio=" + precio + "}";
-    }
-}
-
-class Descuento {
-    float valor;
-
-    Descuento(float valor) {
-        this.valor = valor;
-    }
-
-    void aplicar(Producto producto) {
-        producto.precio -= producto.precio * valor / 100f;
-    }
-}
-
-void main() {
-    Scanner scanner = new Scanner(System.in);
-    scanner.useLocale(Locale.US);
-
-    Producto producto = new Producto(scanner.next(), scanner.nextFloat());
-
-    IO.println(producto);
-
-    Descuento descuento = new Descuento(scanner.nextFloat());
-
-    descuento.aplicar(producto);
-
-    IO.println(producto);
-}
-```
 
 ## Plantillas
 

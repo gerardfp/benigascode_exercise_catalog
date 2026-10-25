@@ -1,7 +1,7 @@
 ---
 slug: mezcla-de-secuencias
+difficulty: 4.0
 tags: [arrays, loops, while-loop, merge, two-pointers]
-difficulty: 4
 ---
 # Mescla de seqüències
 
@@ -18,40 +18,6 @@ Per a cada seqüència, el primer nombre <span style="font-size: 100%; display: 
 ## Output
 
 La seqüència resultant.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int n1 = sc.nextInt();
-    int[] a = new int[n1];
-    for (int i = 0; i < n1; i++) {
-        a[i] = sc.nextInt();
-    }
-    int n2 = sc.nextInt();
-    int[] b = new int[n2];
-    for (int i = 0; i < n2; i++) {
-        b[i] = sc.nextInt();
-    }
-
-    String res = "";
-    int i = 0;
-    int j = 0;
-    while (i < n1 || j < n2) {
-        if (i < n1) {
-            if (res.length() > 0) res += " ";
-            res += a[i++];
-        }
-        if (j < n2) {
-            if (res.length() > 0) res += " ";
-            res += b[j++];
-        }
-    }
-    IO.println(res);
-}
-```
 
 ## Tests
 

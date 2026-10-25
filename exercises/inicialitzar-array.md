@@ -1,7 +1,7 @@
 ---
 slug: inicialitzar-array
+difficulty: 2.0
 tags: [arrays, types, loops, for-loop]
-difficulty: 2
 ---
 # Inicialitzar array
 
@@ -16,17 +16,6 @@ Utilitza la plantilla proporcionada.
 ## Output
 
 -
-
-## Solutions
-
-```java
-void main() {
-    int[] numbers = {12, 17, 8, 101, 33};
-    for (int i = 0; i < numbers.length; i++) {
-        IO.println(numbers[i]);
-    }
-}
-```
 
 ## Plantillas
 

@@ -1,7 +1,7 @@
 ---
 slug: pangrama
+difficulty: 4.0
 tags: [arrays, strings, loops, for-loop, booleans, flags]
-difficulty: 4
 ---
 # Pangrama
 
@@ -20,31 +20,6 @@ Un text en una sola línia
 ## Output
 
 true | false
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextLine()) return;
-    String text = sc.nextLine().toLowerCase();
-    boolean[] seen = new boolean[26];
-    for (int i = 0; i < text.length(); i++) {
-        char ch = text.charAt(i);
-        if (ch >= 'a' && ch <= 'z') {
-            seen[ch - 'a'] = true;
-        }
-    }
-    boolean allSeen = true;
-    for (int i = 0; i < 26; i++) {
-        if (!seen[i]) {
-            allSeen = false;
-            break;
-        }
-    }
-    IO.println(allSeen);
-}
-```
 
 ## Tests
 

@@ -1,7 +1,7 @@
 ---
 slug: calcul-de-notes
+difficulty: 2.0
 tags: [conditionals, if-else]
-difficulty: 2
 ---
 # Càlcul de notes
 
@@ -21,28 +21,6 @@ Un número flotant corresponent a la nota
 ## Output
 
 { `INSUFICIENT` | `SUFICIENT` | `BE` | `NOTABLE` | `EXCEL.LENT` | `MATRICULA` }
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    double nota = Double.parseDouble(sc.next());
-    if (nota < 5) {
-        IO.println("INSUFICIENT");
-    } else if (nota < 6) {
-        IO.println("SUFICIENT");
-    } else if (nota < 7) {
-        IO.println("BE");
-    } else if (nota < 8.5) {
-        IO.println("NOTABLE");
-    } else if (nota < 10) {
-        IO.println("EXCEL.LENT");
-    } else {
-        IO.println("MATRICULA");
-    }
-}
-```
 
 ## Tests
 

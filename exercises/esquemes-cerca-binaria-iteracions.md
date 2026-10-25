@@ -1,7 +1,7 @@
 ---
 slug: esquemes-cerca-binaria-iteracions
+difficulty: 4.0
 tags: [arrays, loops, while-loop, search, counters]
-difficulty: 4
 ---
 # Cerca binària: comptador d'iteracions
 
@@ -18,34 +18,6 @@ A l'última línia hi ha el valor objectiu $X$.
 ## Salida
 
 Imprimeix el nombre total d'iteracions realitzades.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    int[] nums = new int[n];
-    for (int i = 0; i < n; i++) nums[i] = sc.nextInt();
-    int x = sc.nextInt();
-
-    int left = 0;
-    int right = n - 1;
-    int iteracions = 0;
-    while (left <= right) {
-        iteracions++;
-        int mid = left + (right - left) / 2;
-        if (nums[mid] == x) {
-            break;
-        } else if (nums[mid] < x) {
-            left = mid + 1;
-        } else {
-            right = mid - 1;
-        }
-    }
-    IO.println(iteracions);
-}
-```
 
 ## Tests
 

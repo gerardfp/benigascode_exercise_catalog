@@ -1,7 +1,7 @@
 ---
 slug: esquemes-banderes-ordre-creixent
+difficulty: 3.0
 tags: [arrays, loops, for-loop, operators, relational-operators, booleans, flags]
-difficulty: 3
 ---
 # Banderes: verificació d'ordre creixent
 
@@ -16,26 +16,6 @@ A continuació venen els $N$ nombres enters, cadascun en una línia.
 ## Salida
 
 Imprimeix `SI` si la seqüència és estrictament creixent, o `NO` en cas contrari.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    int[] nums = new int[n];
-    for (int i = 0; i < n; i++) nums[i] = sc.nextInt();
-
-    boolean creixent = true;
-    for (int i = 0; i < n - 1; i++) {
-        if (nums[i] >= nums[i + 1]) {
-            creixent = false;
-            break;
-        }
-    }
-    IO.println(creixent ? "SI" : "NO");
-}
-```
 
 ## Tests
 

@@ -1,7 +1,7 @@
 ---
 slug: els-petits-davant
+difficulty: 2.0
 tags: [conditionals, operators, relational-operators, sorting]
-difficulty: 2
 ---
 # Els petits davant
 
@@ -14,19 +14,6 @@ tres números enters
 ## Output
 
 `true` | `false`
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int a = sc.nextInt();
-    int b = sc.nextInt();
-    int c = sc.nextInt();
-    IO.println(a <= b && b <= c);
-}
-```
 
 ## Tests
 

@@ -1,14 +1,14 @@
 ---
 slug: tir-amb-arc
+difficulty: 2.0
 tags: [conditionals, if-else, math]
-difficulty: 2
 ---
 # Tir amb arc
 
 A l'esport de tir amb arc un arquer obté una puntuació segons l'anell on clava la fletxa.
 En una diana com la aquesta, rebria 5 punts al color groc, 4 al vermell, 3 al blau, 2 al negre i 1 al blanc.
 
-![image](assets/c1-l2-7-tir-amb-arc-img0.png)
+![image](assets/tir-amb-arc-img0.png)
 
 L'anell groc té un radi de 5cm, i cada anell és 5cm més gran.
 
@@ -22,32 +22,6 @@ La entrada consta de 2 nombres decimals (X, Y) que indiquen la posició on s'ha 
 
 S'imprimirà la puntuació obtinguda amb el tir.
 
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextDouble()) return;
-    double x = sc.nextDouble();
-    double y = sc.nextDouble();
-
-    double d2 = x * x + y * y;
-    if (d2 < 25.0) {
-        IO.println(5);
-    } else if (d2 < 100.0) {
-        IO.println(4);
-    } else if (d2 < 225.0) {
-        IO.println(3);
-    } else if (d2 < 400.0) {
-        IO.println(2);
-    } else if (d2 < 625.0) {
-        IO.println(1);
-    } else {
-        IO.println(0);
-    }
-}
-```
-
 ## Tests
 
 ### Test
@@ -60,7 +34,7 @@ void main() {
 #### Explanation
 Just al centre de la diana són 5 punts
 
-![image](assets/c1-l2-7-tir-amb-arc-img1.png)
+![image](assets/tir-amb-arc-img1.png)
 
 ### Test
 ```input
@@ -70,7 +44,7 @@ Just al centre de la diana són 5 punts
 5
 ```
 #### Explanation
-![image](assets/c1-l2-7-tir-amb-arc-img2.png)
+![image](assets/tir-amb-arc-img2.png)
 
 ### Test
 ```input
@@ -80,7 +54,7 @@ Just al centre de la diana són 5 punts
 4
 ```
 #### Explanation
-![image](assets/c1-l2-7-tir-amb-arc-img3.png)
+![image](assets/tir-amb-arc-img3.png)
 
 ### Test
 ```input
@@ -90,7 +64,7 @@ Just al centre de la diana són 5 punts
 3
 ```
 #### Explanation
-![image](assets/c1-l2-7-tir-amb-arc-img4.png)
+![image](assets/tir-amb-arc-img4.png)
 
 ### Test
 ```input
@@ -100,7 +74,7 @@ Just al centre de la diana són 5 punts
 2
 ```
 #### Explanation
-![image](assets/c1-l2-7-tir-amb-arc-img5.png)
+![image](assets/tir-amb-arc-img5.png)
 
 ### Test
 ```input
@@ -112,7 +86,7 @@ Just al centre de la diana són 5 punts
 #### Explanation
 Ha fet diana just al límit entre l'anell vermell i el blau, per tant es compta la puntuació del blau.
 
-![image](assets/c1-l2-7-tir-amb-arc-img6.png)
+![image](assets/tir-amb-arc-img6.png)
 
 ### Test
 ```input

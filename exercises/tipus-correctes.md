@@ -1,7 +1,7 @@
 ---
 slug: tipus-correctes
+difficulty: 1.0
 tags: [variables, types]
-difficulty: 1
 ---
 # Tipus correctes
 
@@ -14,24 +14,6 @@ Completa el següent programa afegint els tipus correctes a cada variable.
 ## Output
 
 -
-
-## Solutions
-
-```java
-void main() {
-    int y = 2020;
-    String m = "Abril";
-    double t = 37.5;
-    boolean s = false;
-    char c = ';';
-
-    IO.println(y);
-    IO.println(m);
-    IO.println(t);
-    IO.println(s);
-    IO.println(c);
-}
-```
 
 ## Plantillas
 

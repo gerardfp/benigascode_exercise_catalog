@@ -1,7 +1,7 @@
 ---
 slug: esquemes-banderes-existeix-zero
+difficulty: 3.0
 tags: [arrays, loops, for-loop, booleans, flags]
-difficulty: 3
 ---
 # Banderes: existència de zero
 
@@ -16,23 +16,6 @@ A continuació venen els $N$ nombres enters, cadascun en una línia.
 ## Salida
 
 Imprimeix `SI` si existeix almenys un zero, o `NO` si no n'hi ha cap.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    boolean hiHaZero = false;
-    for (int i = 0; i < n; i++) {
-        int x = sc.nextInt();
-        if (x == 0) {
-            hiHaZero = true;
-        }
-    }
-    IO.println(hiHaZero ? "SI" : "NO");
-}
-```
 
 ## Tests
 

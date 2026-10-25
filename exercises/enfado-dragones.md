@@ -1,7 +1,7 @@
 ---
 slug: enfado-dragones
+difficulty: 2.0
 tags: [loops, while-loop, conditionals]
-difficulty: 2
 ---
 # El enfado de los dragones
 
@@ -32,26 +32,6 @@ tranquilo si le han robado menos de 10 monedas.
 enfadado si le han robado entre 10 y 50 monedas.
 
 furioso si le han robado más de 50 monedas.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int n = sc.nextInt();
-    for (int i = 0; i < n; i++) {
-        int m = sc.nextInt();
-        if (m < 10) {
-            IO.println("tranquilo");
-        } else if (m <= 50) {
-            IO.println("enfadado");
-        } else {
-            IO.println("furioso");
-        }
-    }
-}
-```
 
 ## Plantillas
 

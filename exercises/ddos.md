@@ -1,13 +1,13 @@
 ---
 slug: ddos
+difficulty: 4.0
 tags: [loops, while-loop, counters, accumulators]
-difficulty: 4
 ---
 # DDoS
 
 Desitjem implementar una sistema d'alerta d'atacs de denegació de servei (DDoS). Aquests atacs consisteixen en que l'atacant realitza una gran quantitat de connexions utilitzant una botnet.
 
-![image](assets/c4-l4-4-ddos-img0.png)
+![image](assets/ddos-img0.png)
 
 Una forma de prevenir aquests atacs és mitjançant una política que denegui les connexions si aquestes es produeixen amb massa freqüència (connexions/temps).
 
@@ -25,32 +25,6 @@ La seqüencia acaba amb -1.
 
 S'imprimirà el missatge "DDos alert", cada cop que es superin les 4 connexions en menys d'1 segon.
 
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    double t1 = -1, t2 = -1, t3 = -1;
-    int count = 0;
-    while (sc.hasNextDouble()) {
-        double val = sc.nextDouble();
-        if (val < 0) {
-            break;
-        }
-        t1 = t2;
-        t2 = t3;
-        t3 = val;
-        count++;
-        if (count >= 3) {
-            double sum = t1 + t2 + t3;
-            if (sum < 1.0 - 1e-6) {
-                IO.println("DDoS alert");
-            }
-        }
-    }
-}
-```
-
 ## Tests
 
 ### Test
@@ -61,7 +35,7 @@ void main() {
 DDoS alert
 ```
 #### Explanation
-![image](assets/c4-l4-4-ddos-img1.png)
+![image](assets/ddos-img1.png)
 
 Es produeix la primera connexió
 
@@ -81,7 +55,7 @@ S'han produït 4 connexions en 0.6 segons
 DDoS alert
 ```
 #### Explanation
-![image](assets/c4-l4-4-ddos-img2.png)
+![image](assets/ddos-img2.png)
 
 Es produeix la primera connexió
 
@@ -100,7 +74,7 @@ S'han produït 4 connexions en 1 segon, és a dir, no s'ha superat el límit.
 ```output
 ```
 #### Explanation
-![image](assets/c4-l4-4-ddos-img3.png)
+![image](assets/ddos-img3.png)
 
 Es produeix la primera connexió
 
@@ -122,7 +96,7 @@ Entre la segona i la cinquena connexió han passat 0.7 segons, és a dir, s'ha s
 DDoS alert
 ```
 #### Explanation
-![image](assets/c4-l4-4-ddos-img4.png)
+![image](assets/ddos-img4.png)
 
 S'han produït dues alertes: 
 
@@ -139,7 +113,7 @@ DDoS alert
 DDoS alert
 ```
 #### Explanation
-![image](assets/c4-l4-4-ddos-img5.png)
+![image](assets/ddos-img5.png)
 
 0.2+0.3+0.2
 

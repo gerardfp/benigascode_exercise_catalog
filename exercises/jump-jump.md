@@ -1,13 +1,13 @@
 ---
 slug: jump-jump
+difficulty: 3.0
 tags: [loops, while-loop]
-difficulty: 3
 ---
 # Jump, jump!
 
 En un joc de plataformes, el personatge ha d'anar fent salts per a poder avançar. En la situació següent, per exemple, haurà de fer 3 salts per a arribar al final:
 
-![image](assets/c3-l1-1-jump-jump-img0.png)
+![image](assets/jump-jump-img0.png)
 
 Podem entendre el mapa del joc com una succesió de nombres que indiquen l'altura del terreny. En el cas anterior es podria definir com:
 
@@ -25,30 +25,6 @@ La entrada consta d'una successió de N nombres que indiquen l'altura H del terr
 
 S'imprimirà el nombre mínim de salts que necessita donar per a arribar al final.
 
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int prev = sc.nextInt();
-    if (prev == -1) {
-        IO.println(0);
-        return;
-    }
-    int jumps = 0;
-    while (sc.hasNextInt()) {
-        int curr = sc.nextInt();
-        if (curr == -1) break;
-        if (curr > prev) {
-            jumps++;
-        }
-        prev = curr;
-    }
-    IO.println(jumps);
-}
-```
-
 ## Tests
 
 ### Test
@@ -59,7 +35,7 @@ void main() {
 3
 ```
 #### Explanation
-![image](assets/c3-l1-1-jump-jump-img1.png)
+![image](assets/jump-jump-img1.png)
 
 ### Test
 ```input
@@ -69,7 +45,7 @@ void main() {
 4
 ```
 #### Explanation
-![image](assets/c3-l1-1-jump-jump-img2.png)
+![image](assets/jump-jump-img2.png)
 
 ### Test
 ```input
@@ -79,7 +55,7 @@ void main() {
 2
 ```
 #### Explanation
-![image](assets/c3-l1-1-jump-jump-img3.png)
+![image](assets/jump-jump-img3.png)
 
 ### Test
 ```input
@@ -89,7 +65,7 @@ void main() {
 0
 ```
 #### Explanation
-![image](assets/c3-l1-1-jump-jump-img4.png)
+![image](assets/jump-jump-img4.png)
 
 ### Test
 ```input
@@ -99,7 +75,7 @@ void main() {
 3
 ```
 #### Explanation
-![image](assets/c3-l1-1-jump-jump-img5.png)
+![image](assets/jump-jump-img5.png)
 
 ### Test
 ```input

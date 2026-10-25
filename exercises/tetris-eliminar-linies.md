@@ -1,7 +1,7 @@
 ---
 slug: tetris-eliminar-linies
+difficulty: 4.0
 tags: [arrays, matrices, 2d-arrays, loops]
-difficulty: 4
 ---
 # Tetris, eliminar línies
 
@@ -24,34 +24,6 @@ Per exemple, aquest tauler de Tetris es podria representar així:
 ## Output
 
 S'imprimirà el tauler resultant amb el mateix format que a l'entrada.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int r = sc.nextInt();
-    int c = sc.nextInt();
-    for (int i = 0; i < r; i++) {
-        int[] row = new int[c];
-        boolean allOnes = true;
-        for (int j = 0; j < c; j++) {
-            row[j] = sc.nextInt();
-            if (row[j] != 1) {
-                allOnes = false;
-            }
-        }
-        if (!allOnes) {
-            for (int j = 0; j < c; j++) {
-                if (j > 0) IO.print(" ");
-                IO.print(row[j]);
-            }
-            IO.println();
-        }
-    }
-}
-```
 
 ## Tests
 

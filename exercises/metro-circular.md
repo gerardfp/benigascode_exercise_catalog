@@ -1,7 +1,7 @@
 ---
 slug: metro-circular
+difficulty: 5.0
 tags: [arrays, loops, operators, modulo]
-difficulty: 5
 ---
 # Metro circular
 
@@ -29,66 +29,6 @@ Por último vienen los nombres de las estaciones de origen y destino.
 Se imprimirán los nombres de las estaciones de la ruta más corta, cada una en una nueva línea.
 
 Al final se imprimirá el tiempo total de viaje (en segundos).
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int n = sc.nextInt();
-    String[] names = new String[n];
-    for (int i = 0; i < n; i++) {
-        names[i] = sc.next();
-    }
-    int[] times = new int[n];
-    for (int i = 0; i < n; i++) {
-        times[i] = sc.nextInt();
-    }
-    String origin = sc.next();
-    String dest = sc.next();
-
-    int src = -1;
-    int dst = -1;
-    for (int i = 0; i < n; i++) {
-        if (names[i].equals(origin)) src = i;
-        if (names[i].equals(dest)) dst = i;
-    }
-
-    int timeForward = 0;
-    int curr = src;
-    while (curr != dst) {
-        timeForward += times[curr];
-        curr = (curr + 1) % n;
-    }
-
-    int timeBackward = 0;
-    curr = src;
-    while (curr != dst) {
-        int prev = (curr - 1 + n) % n;
-        timeBackward += times[prev];
-        curr = prev;
-    }
-
-    if (timeForward <= timeBackward) {
-        curr = src;
-        IO.println(names[curr]);
-        while (curr != dst) {
-            curr = (curr + 1) % n;
-            IO.println(names[curr]);
-        }
-        IO.println(timeForward);
-    } else {
-        curr = src;
-        IO.println(names[curr]);
-        while (curr != dst) {
-            curr = (curr - 1 + n) % n;
-            IO.println(names[curr]);
-        }
-        IO.println(timeBackward);
-    }
-}
-```
 
 ## Tests
 

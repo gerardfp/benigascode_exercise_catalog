@@ -1,7 +1,7 @@
 ---
 slug: esquemes-banderes-tots-positius
+difficulty: 3.0
 tags: [arrays, loops, for-loop, booleans, flags]
-difficulty: 3
 ---
 # Banderes: tots positius
 
@@ -29,23 +29,6 @@ void main() {
     boolean totsPositius = true;
     // TODO: Comprova si algun element és <= 0 i actualitza la bandera
     
-    IO.println(totsPositius ? "SI" : "NO");
-}
-```
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    boolean totsPositius = true;
-    for (int i = 0; i < n; i++) {
-        int x = sc.nextInt();
-        if (x <= 0) {
-            totsPositius = false;
-        }
-    }
     IO.println(totsPositius ? "SI" : "NO");
 }
 ```

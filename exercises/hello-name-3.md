@@ -1,7 +1,7 @@
 ---
 slug: hello-name-3
+difficulty: 1.0
 tags: [strings, variables, literals]
-difficulty: 1
 ---
 # Hello, NOM!
 
@@ -16,14 +16,6 @@ La teva solució no ha de tenir `<>`.
 ## Output
 
 -
-
-## Solutions
-
-```java
-void main() {
-    String nom = "JOAN";
-}
-```
 
 ## Plantillas
 

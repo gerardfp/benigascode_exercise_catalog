@@ -1,17 +1,17 @@
 ---
 slug: bomberman
+difficulty: 4.0
 tags: [matrices, 2d-arrays, loops, nested-loops]
-difficulty: 4
 ---
 # Bomberman
 
 Al joc Bomberman, quan explota una bomba, totes les caselles que estan a la mateixa fila o la mateixa columna exploten.
 
-![image](assets/bomberman-2-img0.png)
+![image](assets/bomberman-img0.png)
 
 Si la bomba explota a la casella 6, exploten totes les casellas a la mateixa fila o columna:
 
-![image](assets/bomberman-2-img1.png)
+![image](assets/bomberman-img1.png)
 
 ## Input
 
@@ -34,48 +34,6 @@ Seguint l'exemple proposat, el tauler resultant quedaria així:
 ##@#
 @@@@
 ##@#
-```
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int n = sc.nextInt();
-    int m = sc.nextInt();
-
-    int[][] grid = new int[n][m];
-    for (int r = 0; r < n; r++) {
-        for (int c = 0; c < m; c++) {
-            grid[r][c] = sc.nextInt();
-        }
-    }
-    int x = sc.nextInt();
-
-    int bombR = -1;
-    int bombC = -1;
-    for (int r = 0; r < n; r++) {
-        for (int c = 0; c < m; c++) {
-            if (grid[r][c] == x) {
-                bombR = r;
-                bombC = c;
-            }
-        }
-    }
-
-    for (int r = 0; r < n; r++) {
-        String line = "";
-        for (int c = 0; c < m; c++) {
-            if (r == bombR || c == bombC) {
-                line += "@";
-            } else {
-                line += "#";
-            }
-        }
-        IO.println(line);
-    }
-}
 ```
 
 ## Tests

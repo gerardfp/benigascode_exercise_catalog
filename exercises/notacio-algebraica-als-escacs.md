@@ -1,7 +1,7 @@
 ---
 slug: notacio-algebraica-als-escacs
+difficulty: 2.0
 tags: [char, casting]
-difficulty: 2
 ---
 # Notació algebraica als escacs
 
@@ -13,7 +13,7 @@ La més senzilla és la númèrica, on s'identifica cada fila i columna pel seu 
 
 Una altra notació és l'algebraica, on la fila d'identifica pel seu número i la columna per les lletres minúscules a, b, c, d, e, f, g, h.
 
-![image](assets/c1-l2-8-notacio-algebraica-als-escacs-img0.png)
+![image](assets/notacio-algebraica-als-escacs-img0.png)
 
 ## Input
 
@@ -22,18 +22,6 @@ La entrada consisteix en dos nombres <span style="font-size: 100%; display: inli
 ## Output
 
 S'imprimirà la posició de la casella en notació algebraica.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int f = sc.nextInt();
-    int c = sc.nextInt();
-    char col = (char) ('a' + f - 1);
-    IO.println("" + col + c);
-}
-```
 
 ## Tests
 

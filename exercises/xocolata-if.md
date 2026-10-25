@@ -1,7 +1,7 @@
 ---
 slug: xocolata-if
+difficulty: 1.0
 tags: [operators, arithmetic, math]
-difficulty: 1
 ---
 # Xocolata
 
@@ -17,21 +17,6 @@ Tres nombres enters:
 ## Output
 
 `SI` | `NO`
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int n = sc.nextInt();
-    int m = sc.nextInt();
-    int k = sc.nextInt();
-
-    boolean possible = k < n * m && (k % n == 0 || k % m == 0);
-    IO.println(possible ? "SI" : "NO");
-}
-```
 
 ## Tests
 

@@ -1,7 +1,7 @@
 ---
 slug: cada-paraula-a-una-linia
+difficulty: 1.0
 tags: [strings, scanner, io]
-difficulty: 1
 ---
 # Cada paraula a una línia
 
@@ -14,17 +14,6 @@ Cinc paraules, separades per espais en blanc o salts de línia.
 ## Output
 
 Cada paraula en una nova línia.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    for (int i = 0; i < 5; i++) {
-        IO.println(sc.next());
-    }
-}
-```
 
 ## Tests
 

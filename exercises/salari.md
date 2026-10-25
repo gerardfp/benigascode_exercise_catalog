@@ -1,7 +1,7 @@
 ---
 slug: salari
+difficulty: 3.0
 tags: [arrays, loops, for-loop, operators, arithmetic, accumulators]
-difficulty: 3
 ---
 # Salari
 
@@ -24,30 +24,6 @@ A continuació venen el preu per hora, i el preu per hora extra.
 ## Output
 
 S'imprimirà el salari total, sense decimals.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNext()) return;
-    int n = Integer.parseInt(sc.next());
-    double normH = 0;
-    double extH = 0;
-    for (int i = 0; i < n; i++) {
-        double h = Double.parseDouble(sc.next());
-        if (i % 7 == 0 || i % 7 == 6) {
-            extH += h;
-        } else {
-            normH += h;
-        }
-    }
-    double pNorm = Double.parseDouble(sc.next());
-    double pExt = Double.parseDouble(sc.next());
-    int total = (int) (normH * pNorm + extH * pExt);
-    IO.println(total);
-}
-```
 
 ## Plantillas
 

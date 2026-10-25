@@ -1,11 +1,11 @@
 ---
 slug: temps-de-descarrega
+difficulty: 1.0
 tags: [operators, arithmetic, math]
-difficulty: 1
 ---
 # Temps de descàrrega
 
-![image](assets/c1-l1-7-temps-de-descarrega-img0.png)
+![image](assets/temps-de-descarrega-img0.png)
 
 S'està realitzant un programa per a gestionar descàrregues d'arxius.
 Aquest programa ha de mostrar a l'usuari el temps estimat que trigarà la descàrrega, en funció de la velocitat i el tamany de l'arxiu.
@@ -21,18 +21,6 @@ El segon nombre <span style="font-size: 100%; display: inline-block;" class="Mat
 ## Output
 
 Els segons que trigarà la descàrrega (sense decimals).
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int v = sc.nextInt();
-    int s = sc.nextInt();
-    IO.println((s * 1024) / v);
-}
-```
 
 ## Tests
 

@@ -1,7 +1,7 @@
 ---
 slug: xifratge-cesar
+difficulty: 3.0
 tags: [strings, operators, modulo, char-arithmetic]
-difficulty: 3
 ---
 # Xifratge cèsar
 
@@ -17,24 +17,6 @@ Tots els caracters són de l'alfabet anglès i en minúscules.
 
 S'escriurà la paraula codificada.
 
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNext()) return;
-    String word = sc.next();
-    int k = sc.nextInt();
-    String res = "";
-    for (int i = 0; i < word.length(); i++) {
-        char c = word.charAt(i);
-        char shifted = (char) ('a' + (c - 'a' + k) % 26);
-        res += shifted;
-    }
-    IO.println(res);
-}
-```
-
 ## Tests
 
 ### Test
@@ -46,7 +28,7 @@ beca
 ehfd
 ```
 #### Explanation
-![image](assets/c1-l3-7-xifratge-cesar-img0.png)
+![image](assets/xifratge-cesar-img0.png)
 
 ### Test
 ```input
@@ -57,7 +39,7 @@ beca
 ehfd
 ```
 #### Explanation
-![image](assets/c1-l3-7-xifratge-cesar-img1.png)
+![image](assets/xifratge-cesar-img1.png)
 
 ### Test
 ```input
@@ -68,7 +50,7 @@ beca
 gjhf
 ```
 #### Explanation
-![image](assets/c1-l3-7-xifratge-cesar-img2.png)
+![image](assets/xifratge-cesar-img2.png)
 
 ### Test
 ```input
@@ -79,7 +61,7 @@ hola
 ryvk
 ```
 #### Explanation
-![image](assets/c1-l3-7-xifratge-cesar-img3.png)
+![image](assets/xifratge-cesar-img3.png)
 
 ### Test
 ```input
@@ -90,7 +72,7 @@ java
 dupu
 ```
 #### Explanation
-![image](assets/c1-l3-7-xifratge-cesar-img4.png)
+![image](assets/xifratge-cesar-img4.png)
 
 ### Test
 ```input

@@ -1,13 +1,13 @@
 ---
 slug: cotxes-autonoms
+difficulty: 2.0
 tags: [conditionals, if-else, operators, booleans, logical-operators]
-difficulty: 2
 ---
 # Cotxes autònoms
 
 Els cotxes autònoms ha de prendre decisions sobre la conducció a partir del les dades que perceben els seus sensors de l'entorn.
 
-![image](assets/c2-l1-8-cotxes-autonoms-img0.png)
+![image](assets/cotxes-autonoms-img0.png)
 
 El nostre cotxe elèctric ha de decidir si pot continuar la marxa en funció de les dades que li arriben del sensors. Aquestes dades són:
 
@@ -32,25 +32,6 @@ En primer lloc l'estat del semàfor S, després la presència de vianants V, fin
 ## Output
 
 S'imprimirà "CONTINUAR" o "NO CONTINUAR"
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    String semafor = sc.next();
-    boolean vianants = sc.nextBoolean();
-    int agent = sc.nextInt();
-
-    boolean continuar = !vianants && (agent == 1 || (agent == 0 && (semafor.equals("g") || semafor.equals("o"))));
-
-    if (continuar) {
-        IO.println("CONTINUAR");
-    } else {
-        IO.println("NO CONTINUAR");
-    }
-}
-```
 
 ## Tests
 

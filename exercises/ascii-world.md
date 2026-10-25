@@ -1,23 +1,11 @@
 ---
 slug: ascii-world
+difficulty: 1.0
 tags: [literals, io]
-difficulty: 1
 ---
 # Hello World ASCII-art
 
 Imprimeix "HELLO WORLD" en ASCII-Art
-
-## Solutions
-
-```java
-void main() {
-    IO.println("\"%   *&  %)&>*%  =+     &!     /&![%{\\    +,       ?<  .:;*!<,  ])<;]>   )!     /<-[\\>");
-    IO.println("<;   {<  -%      -%     <%     :;   [;    {;       \"*  ?{   ?!  ?*   \\|  :=     \\|   ?\\");
-    IO.println(",![=+((  }:;=.   <;     ?-     }[   }*     ?]  -  '*   &:   [.  +;=-:,   =]     )\"    ;)");
-    IO.println("*)   .>  -]      {!     |;     =<   -.     {; |(| <%   ,|   (%  -,  .\\   }-     ?/   +?");
-    IO.println("%+   *&  })=(\\{  \"<}&%  &[/|>  \\+]&\"!/      <\\' '(+    '&![%{'  [%   ?<  %|<?+  ;=?%&'");
-}
-```
 
 ## Tests
 

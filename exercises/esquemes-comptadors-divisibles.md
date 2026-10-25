@@ -1,7 +1,7 @@
 ---
 slug: esquemes-comptadors-divisibles
+difficulty: 3.0
 tags: [arrays, loops, for-loop, operators, modulo, counters]
-difficulty: 3
 ---
 # Comptadors: divisibles
 
@@ -18,27 +18,6 @@ A la última línia hi ha el número divisor.
 ## Salida
 
 Imprimix la quantitat de números divisibles pel divisor.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    int[] nums = new int[n];
-    for (int i = 0; i < n; i++) {
-        nums[i] = sc.nextInt();
-    }
-    int divisor = sc.nextInt();
-    int count = 0;
-    for (int i = 0; i < n; i++) {
-        if (nums[i] % divisor == 0) {
-            count++;
-        }
-    }
-    IO.println(count);
-}
-```
 
 ## Tests
 

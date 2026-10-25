@@ -1,7 +1,7 @@
 ---
 slug: esquemes-ordenacio-seleccio
+difficulty: 4.0
 tags: [arrays, loops, nested-loops, sorting, min-max]
-difficulty: 4
 ---
 # Ordenació: selecció directa (Selection Sort)
 
@@ -18,33 +18,6 @@ A continuació venen els $N$ nombres enters, cadascun en una línia.
 ## Salida
 
 Imprimeix els $N$ elements ordenats en ordre creixent en una única línia, separats per un espai.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    int[] a = new int[n];
-    for (int i = 0; i < n; i++) a[i] = sc.nextInt();
-
-    for (int i = 0; i < n - 1; i++) {
-        int minIdx = i;
-        for (int j = i + 1; j < n; j++) {
-            if (a[j] < a[minIdx]) {
-                minIdx = j;
-            }
-        }
-        int tmp = a[i];
-        a[i] = a[minIdx];
-        a[minIdx] = tmp;
-    }
-
-    for (int i = 0; i < n; i++) {
-        IO.print(a[i] + (i < n - 1 ? " " : "\n"));
-    }
-}
-```
 
 ## Tests
 

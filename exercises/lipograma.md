@@ -1,7 +1,7 @@
 ---
 slug: lipograma
+difficulty: 3.0
 tags: [strings, loops, for-loop, flags, search]
-difficulty: 3
 ---
 # Lipograma
 
@@ -16,24 +16,6 @@ A continuació ve el caràcter.
 ## Output
 
 true | false
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    String text = "";
-    while (sc.hasNextLine()) {
-        String line = sc.nextLine();
-        if (line.equals("END")) {
-            break;
-        }
-        text += line;
-    }
-    String c = sc.next();
-    IO.println(!text.contains(c));
-}
-```
 
 ## Tests
 

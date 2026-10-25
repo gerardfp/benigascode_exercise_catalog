@@ -1,7 +1,7 @@
 ---
 slug: superposicion-de-capas
+difficulty: 4.0
 tags: [matrices, 2d-arrays, loops, nested-loops]
-difficulty: 4
 ---
 # Superposición de capas
 
@@ -10,12 +10,12 @@ Los programas de edición de imágenes suelen tener soporte para capas. De esta 
 Modo Normal:
 En el modo Normal las capas superiores cubren a las capas inferiores. Es decir, cada píxel de una capa superior cubre a los píxeles de las capas inferiores que están en la misma posición, excepto si dicho píxel es transparente.
 
-![image](assets/e5b54-superposicion-de-capas-img0.png)
+![image](assets/superposicion-de-capas-img0.png)
 
 Modo Adición:
 En el modo Adición, los píxeles de cada capa que están en la misma posición se suman para obtener el color del píxel resultante.
 
-![image](assets/e5b54-superposicion-de-capas-img1.png)
+![image](assets/superposicion-de-capas-img1.png)
 
 El color de un píxel se expresa con un número. **Los píxeles transparentes se representan con un 0**.
 
@@ -30,45 +30,6 @@ Por último, se expresa el <span style="font-size: 100%; display: inline-block;"
 ## Output
 
 Se imprimirá la imagen resultante tras aplicar el blending mode indicado a las dos capas.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int rows = sc.nextInt();
-    int cols = sc.nextInt();
-
-    int[][] layer1 = new int[rows][cols];
-    for (int r = 0; r < rows; r++) {
-        for (int c = 0; c < cols; c++) {
-            layer1[r][c] = sc.nextInt();
-        }
-    }
-
-    int[][] layer2 = new int[rows][cols];
-    for (int r = 0; r < rows; r++) {
-        for (int c = 0; c < cols; c++) {
-            layer2[r][c] = sc.nextInt();
-        }
-    }
-
-    String mode = sc.next();
-
-    for (int r = 0; r < rows; r++) {
-        for (int c = 0; c < cols; c++) {
-            int val;
-            if (mode.equals("ADD")) {
-                val = layer1[r][c] + layer2[r][c];
-            } else {
-                val = (layer1[r][c] != 0) ? layer1[r][c] : layer2[r][c];
-            }
-            IO.print(val + (c < cols - 1 ? " " : ""));
-        }
-        IO.println();
-    }
-}
-```
 
 ## Tests
 

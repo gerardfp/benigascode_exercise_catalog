@@ -1,7 +1,7 @@
 ---
 slug: space-invaders
+difficulty: 2.0
 tags: [operators, booleans, math]
-difficulty: 2
 ---
 # Space Invaders
 
@@ -10,7 +10,7 @@ Una de les col·lisions que s'haurà de detectar és quan un dispar dona en un a
 
 El sistema de col·lisions haurà de determinar si el rectangle que envolta l'alien i el rectangle que envolta el dispar estan solapats
 
-![image](assets/c1-l3-2-space-invaders-img0.png)
+![image](assets/space-invaders-img0.png)
 
 ## Input
 
@@ -19,26 +19,6 @@ La entrada consisteix en la definició dels dos rectangles. Per a cada rectangle
 ## Output
 
 true | false
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int x1 = sc.nextInt();
-    int y1 = sc.nextInt();
-    int w1 = sc.nextInt();
-    int h1 = sc.nextInt();
-    int x2 = sc.nextInt();
-    int y2 = sc.nextInt();
-    int w2 = sc.nextInt();
-    int h2 = sc.nextInt();
-
-    boolean overlap = (x1 < x2 + w2) && (x2 < x1 + w1) && (y1 < y2 + h2) && (y2 < y1 + h1);
-    IO.println(overlap);
-}
-```
 
 ## Tests
 
@@ -51,7 +31,7 @@ void main() {
 false
 ```
 #### Explanation
-![image](assets/c1-l3-2-space-invaders-img1.png)
+![image](assets/space-invaders-img1.png)
 
 ### Test
 ```input
@@ -62,7 +42,7 @@ false
 false
 ```
 #### Explanation
-![image](assets/c1-l3-2-space-invaders-img2.png)
+![image](assets/space-invaders-img2.png)
 
 ### Test
 ```input
@@ -73,7 +53,7 @@ false
 false
 ```
 #### Explanation
-![image](assets/c1-l3-2-space-invaders-img3.png)
+![image](assets/space-invaders-img3.png)
 
 ### Test
 ```input
@@ -84,7 +64,7 @@ false
 true
 ```
 #### Explanation
-![image](assets/c1-l3-2-space-invaders-img4.png)
+![image](assets/space-invaders-img4.png)
 
 ### Test
 ```input
@@ -95,7 +75,7 @@ true
 true
 ```
 #### Explanation
-![image](assets/c1-l3-2-space-invaders-img5.png)
+![image](assets/space-invaders-img5.png)
 
 ### Test
 ```input
@@ -106,7 +86,7 @@ true
 false
 ```
 #### Explanation
-![image](assets/c1-l3-2-space-invaders-img6.png)
+![image](assets/space-invaders-img6.png)
 
 ### Test
 ```input
@@ -117,7 +97,7 @@ false
 true
 ```
 #### Explanation
-![image](assets/c1-l3-2-space-invaders-img7.png)
+![image](assets/space-invaders-img7.png)
 
 ### Test
 ```input

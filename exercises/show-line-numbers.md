@@ -1,11 +1,11 @@
 ---
 slug: show-line-numbers
+difficulty: 2.0
 tags: [loops, scanner, io, formatting]
-difficulty: 2
 ---
 # Show line numbers
 
-![image](assets/c3-l0-8-show-line-numbers-img0.png)
+![image](assets/show-line-numbers-img0.png)
 
 Necessitem incorporar la funció "Show line numbers" al nostre editor de codi...
 
@@ -20,23 +20,6 @@ El codi font acaba amb la paraula <span style="font-size: 100%; display: inline-
 S'imprimirà el mateix codi font, però amb el número de línia a l'inici de cada línia; amb aquest format:
 
 El número de línia ocuparà dos caràcters, després hi haurà un espai en blanc, després una barra vertical i després un altre espai.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int lineNum = 1;
-    while (sc.hasNextLine()) {
-        String line = sc.nextLine();
-        if (line.equals("END")) {
-            break;
-        }
-        IO.println("%2d | %s".formatted(lineNum, line));
-        lineNum++;
-    }
-}
-```
 
 ## Tests
 

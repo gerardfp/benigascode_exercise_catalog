@@ -1,7 +1,7 @@
 ---
 slug: cuantas-veces-esta-la-palabra
+difficulty: 3.0
 tags: [arrays, strings, loops, for-loop, counters, search]
-difficulty: 3
 ---
 # Cuántas veces está la palabra?
 
@@ -32,27 +32,6 @@ A continuación vienen las <span style="font-size: 100%; display: inline-block;"
 ## Output
 
 entero
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    String[] words = new String[n];
-    for (int i = 0; i < n; i++) {
-        words[i] = sc.next();
-    }
-    String target = sc.next();
-    int count = 0;
-    for (int i = 0; i < n; i++) {
-        if (words[i].equals(target)) {
-            count++;
-        }
-    }
-    IO.println(count);
-}
-```
 
 ## Tests
 

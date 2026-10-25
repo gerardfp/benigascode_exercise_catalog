@@ -1,7 +1,7 @@
 ---
 slug: operadores-perdidos
+difficulty: 2.0
 tags: [conditionals, if-else, operators, arithmetic]
-difficulty: 2
 ---
 # Operadors perduts
 
@@ -33,31 +33,6 @@ En cas de que no es puig satisfer amb cap, es mostrarà:
 
 ```
 IMPOSSIBLE
-```
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int o1 = sc.nextInt();
-    int o2 = sc.nextInt();
-    int r = sc.nextInt();
-
-    if (o1 + o2 == r) {
-        IO.println("+");
-    } else if (o1 - o2 == r) {
-        IO.println("-");
-    } else if (o1 * o2 == r) {
-        IO.println("*");
-    } else if (o2 != 0 && o1 / o2 == r) {
-        IO.println("/");
-    } else if (o2 != 0 && o1 % o2 == r) {
-        IO.println("%");
-    } else {
-        IO.println("IMPOSSIBLE");
-    }
-}
 ```
 
 ## Tests

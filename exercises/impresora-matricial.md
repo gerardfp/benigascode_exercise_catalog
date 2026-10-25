@@ -1,7 +1,7 @@
 ---
 slug: impresora-matricial
+difficulty: 3.0
 tags: [loops, while-loop]
-difficulty: 3
 ---
 # Impresora matricial
 
@@ -22,27 +22,6 @@ Una serie de números indicando las instrucciones de impresión. Termina con un 
 ## Output
 
 Se imprimirá el resultado de la impresión. Cada desplazamiento del cabezal será un espacio en blanco, y cada punto de impresión una almohadilla.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    while (sc.hasNextInt()) {
-        int x = sc.nextInt();
-        if (x == -2) {
-            break;
-        } else if (x == -1) {
-            IO.println();
-        } else if (x >= 0) {
-            for (int i = 0; i < x; i++) {
-                IO.print(" ");
-            }
-            IO.print("#");
-        }
-    }
-}
-```
 
 ## Tests
 

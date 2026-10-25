@@ -1,13 +1,13 @@
 ---
 slug: dues-reines
+difficulty: 2.0
 tags: [operators, booleans, math]
-difficulty: 2
 ---
 # Dues reines
 
 Donades les posicions de les dues reines en un tauler d'escacs, digues si s'amenacen mútuament.
 
-![image](assets/c1-l3-1-dues-reines-img0.png)
+![image](assets/dues-reines-img0.png)
 
 ## Input
 
@@ -16,20 +16,6 @@ La entrada consisteix en 4 nombres indicant la <span style="font-size: 100%; dis
 ## Output
 
 true | false
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int r1 = sc.nextInt();
-    int c1 = sc.nextInt();
-    int r2 = sc.nextInt();
-    int c2 = sc.nextInt();
-    boolean attacks = (r1 == r2 || c1 == c2 || Math.abs(r1 - r2) == Math.abs(c1 - c2));
-    IO.println(attacks);
-}
-```
 
 ## Plantillas
 
@@ -58,7 +44,7 @@ public class Main {
 true
 ```
 #### Explanation
-![image](assets/c1-l3-1-dues-reines-img1.png)
+![image](assets/dues-reines-img1.png)
 
 ### Test
 ```input
@@ -69,7 +55,7 @@ true
 true
 ```
 #### Explanation
-![image](assets/c1-l3-1-dues-reines-img2.png)
+![image](assets/dues-reines-img2.png)
 
 ### Test
 ```input
@@ -80,7 +66,7 @@ true
 true
 ```
 #### Explanation
-![image](assets/c1-l3-1-dues-reines-img3.png)
+![image](assets/dues-reines-img3.png)
 
 ### Test
 ```input
@@ -91,7 +77,7 @@ true
 false
 ```
 #### Explanation
-![image](assets/c1-l3-1-dues-reines-img4.png)
+![image](assets/dues-reines-img4.png)
 
 ### Test
 ```input
@@ -102,7 +88,7 @@ false
 true
 ```
 #### Explanation
-![image](assets/c1-l3-1-dues-reines-img5.png)
+![image](assets/dues-reines-img5.png)
 
 ### Test
 ```input
@@ -113,7 +99,7 @@ true
 true
 ```
 #### Explanation
-![image](assets/c1-l3-1-dues-reines-img6.png)
+![image](assets/dues-reines-img6.png)
 
 ### Test
 ```input
@@ -124,7 +110,7 @@ true
 true
 ```
 #### Explanation
-![image](assets/c1-l3-1-dues-reines-img7.png)
+![image](assets/dues-reines-img7.png)
 
 ### Test
 ```input
@@ -135,7 +121,7 @@ true
 true
 ```
 #### Explanation
-![image](assets/c1-l3-1-dues-reines-img8.png)
+![image](assets/dues-reines-img8.png)
 
 ### Test
 ```input
@@ -146,7 +132,7 @@ true
 true
 ```
 #### Explanation
-![image](assets/c1-l3-1-dues-reines-img9.png)
+![image](assets/dues-reines-img9.png)
 
 ### Test
 ```input
@@ -157,7 +143,7 @@ true
 true
 ```
 #### Explanation
-![image](assets/c1-l3-1-dues-reines-img10.png)
+![image](assets/dues-reines-img10.png)
 
 ### Test private
 ```input

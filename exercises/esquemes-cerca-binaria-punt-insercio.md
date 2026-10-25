@@ -1,7 +1,7 @@
 ---
 slug: esquemes-cerca-binaria-punt-insercio
+difficulty: 4.0
 tags: [arrays, loops, while-loop, search]
-difficulty: 4
 ---
 # Cerca binària: posició d'inserció ordenada
 
@@ -18,33 +18,6 @@ A l'última línia hi ha el valor $X$.
 ## Salida
 
 Imprimeix l'índex on es troba o on s'hauria d'inserir $X$.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    int[] nums = new int[n];
-    for (int i = 0; i < n; i++) nums[i] = sc.nextInt();
-    int x = sc.nextInt();
-
-    int left = 0;
-    int right = n - 1;
-    while (left <= right) {
-        int mid = left + (right - left) / 2;
-        if (nums[mid] == x) {
-            IO.println(mid);
-            return;
-        } else if (nums[mid] < x) {
-            left = mid + 1;
-        } else {
-            right = mid - 1;
-        }
-    }
-    IO.println(left);
-}
-```
 
 ## Tests
 

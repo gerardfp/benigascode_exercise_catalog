@@ -1,7 +1,7 @@
 ---
 slug: esquemes-comptadors-majors-que
+difficulty: 3.0
 tags: [arrays, loops, for-loop, operators, relational-operators, counters]
-difficulty: 3
 ---
 # Comptadors: majors que
 
@@ -18,27 +18,6 @@ A la última línia hi ha el número mínim.
 ## Salida
 
 Imprimix la quantitat de números majors que el mínim.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    int[] nums = new int[n];
-    for (int i = 0; i < n; i++) {
-        nums[i] = sc.nextInt();
-    }
-    int min = sc.nextInt();
-    int count = 0;
-    for (int i = 0; i < n; i++) {
-        if (nums[i] > min) {
-            count++;
-        }
-    }
-    IO.println(count);
-}
-```
 
 ## Tests
 

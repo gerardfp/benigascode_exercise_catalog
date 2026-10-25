@@ -1,7 +1,7 @@
 ---
 slug: new-array
+difficulty: 2.0
 tags: [arrays, types]
-difficulty: 2
 ---
 # New array
 
@@ -26,22 +26,6 @@ posició | valor
 ## Output
 
 -
-
-## Solutions
-
-```java
-void main() {
-    float[] arrayFloats = new float[100];
-    arrayFloats[0] = 31.0f;
-    arrayFloats[1] = 56.0f;
-    arrayFloats[19] = 12.0f;
-    arrayFloats[arrayFloats.length - 1] = 79.0f;
-
-    for (int i = 0; i < arrayFloats.length; i++) {
-        IO.print(arrayFloats[i] + " ");
-    }
-}
-```
 
 ## Plantillas
 

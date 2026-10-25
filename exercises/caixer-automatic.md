@@ -1,7 +1,7 @@
 ---
 slug: caixer-automatic
+difficulty: 4.0
 tags: [loops, while-loop, operators, arithmetic, greedy]
-difficulty: 4
 ---
 # Caixer automàtic
 
@@ -10,7 +10,7 @@ Ha de permetre ingressar i retirar diners, i consultar el saldo.
 
 El funcionament que ha de tenir es reflecteix en aquest Diagrama de fluxe:
 
-![image](assets/c3-l3-3-caixer-automatic-img0.png)
+![image](assets/caixer-automatic-img0.png)
 
 ## Input
 
@@ -32,39 +32,6 @@ EL REPL anirà mostrant el resultat de les operacions. Els missatges de sortida 
 
 
 $\$SALDO$ i $\$QUANTITAT$ han de mostrar amb dues xifres decimals.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    double saldo = 0.0;
-    while (sc.hasNext()) {
-        String op = sc.next();
-        if (op.equals("SORTIR")) {
-            break;
-        } else if (op.equals("CONSULTAR")) {
-            IO.println(">> Saldo: %.2f".formatted(saldo));
-        } else if (op.equals("INGRESSAR")) {
-            double quantitat = Double.parseDouble(sc.next());
-            saldo += quantitat;
-            IO.println("Ingres realitzat: %.2f".formatted(quantitat));
-            IO.println(">> Saldo: %.2f".formatted(saldo));
-        } else if (op.equals("RETIRAR")) {
-            double quantitat = Double.parseDouble(sc.next());
-            if (quantitat <= saldo) {
-                saldo -= quantitat;
-                IO.println("Retirar diners -> %.2f".formatted(quantitat));
-            } else {
-                IO.println("Saldo insuficient");
-            }
-            IO.println(">> Saldo: %.2f".formatted(saldo));
-        } else {
-            IO.println("Operacio no valida");
-        }
-    }
-}
-```
 
 ## Tests
 

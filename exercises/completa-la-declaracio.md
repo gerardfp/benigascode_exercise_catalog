@@ -1,7 +1,7 @@
 ---
 slug: completa-la-declaracio
+difficulty: 1.0
 tags: [variables, types]
-difficulty: 1
 ---
 # Completa la declaració
 
@@ -16,15 +16,6 @@ No oblidis el `;` al final de la sentència.
 ## Output
 
 -
-
-## Solutions
-
-```java
-void main() {
-    int variable = 123456;
-    IO.println(variable);
-}
-```
 
 ## Plantillas
 

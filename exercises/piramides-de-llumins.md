@@ -1,13 +1,13 @@
 ---
 slug: piramides-de-llumins
+difficulty: 1.0
 tags: [operators, arithmetic, math]
-difficulty: 1
 ---
 # Piràmides de llumins
 
 Al meu oncle li agrada fer figures amb els llumins a les sobretaules, com aquesta piràmide:
 
-![image](assets/c1-l3-3-piramides-de-llumins-img0.png)
+![image](assets/piramides-de-llumins-img0.png)
 
 Per a fer aquesta piràmide de 3 pisos li calen 18 llumins.
 
@@ -23,18 +23,6 @@ La entrada consta d'un número <span style="font-size: 100%; display: inline-blo
 
 El nombre de llumins necessaris per fer la piràmide.
 
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int n = sc.nextInt();
-    int ans = 3 * n * (n + 1) / 2;
-    IO.println(ans);
-}
-```
-
 ## Tests
 
 ### Test
@@ -45,7 +33,7 @@ void main() {
 3
 ```
 #### Explanation
-![image](assets/c1-l3-3-piramides-de-llumins-img1.png)
+![image](assets/piramides-de-llumins-img1.png)
 
 ### Test
 ```input
@@ -56,7 +44,7 @@ void main() {
 ```
 #### Explanation
 9
-![image](assets/c1-l3-3-piramides-de-llumins-img2.png)
+![image](assets/piramides-de-llumins-img2.png)
 
 ### Test
 ```input
@@ -66,7 +54,7 @@ void main() {
 9
 ```
 #### Explanation
-![image](assets/c1-l3-3-piramides-de-llumins-img3.png)
+![image](assets/piramides-de-llumins-img3.png)
 
 ### Test
 ```input
@@ -76,7 +64,7 @@ void main() {
 18
 ```
 #### Explanation
-![image](assets/c1-l3-3-piramides-de-llumins-img4.png)
+![image](assets/piramides-de-llumins-img4.png)
 
 ### Test
 ```input

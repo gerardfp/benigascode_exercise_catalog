@@ -1,7 +1,7 @@
 ---
 slug: hora-dapertura-operadors-ternari
+difficulty: 2.0
 tags: [strings, conditionals, ternary]
-difficulty: 2
 ---
 # Hora d'apertura
 
@@ -16,17 +16,6 @@ L'entrada és un dia de la setmana.
 ## Output
 
 `8:00` | `10:00`
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    String dia = sc.next();
-    String hora = (dia.equals("Dissabte") || dia.equals("Diumenge")) ? "10:00" : "8:00";
-    IO.println(hora);
-}
-```
 
 ## Plantillas
 

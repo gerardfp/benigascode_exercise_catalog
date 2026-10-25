@@ -1,7 +1,7 @@
 ---
 slug: esquemes-acumuladors-suma-ponderada
+difficulty: 3.0
 tags: [arrays, loops, for-loop, operators, arithmetic, accumulators]
-difficulty: 3
 ---
 # Acumuladors: suma ponderada de dos vectors
 
@@ -32,25 +32,6 @@ void main() {
     for (int i = 0; i < n; i++) p[i] = sc.nextInt();
 
     // TODO: Calcula la suma ponderada
-}
-```
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    int[] v = new int[n];
-    for (int i = 0; i < n; i++) v[i] = sc.nextInt();
-    int[] p = new int[n];
-    for (int i = 0; i < n; i++) p[i] = sc.nextInt();
-
-    long sumaPonderada = 0;
-    for (int i = 0; i < n; i++) {
-        sumaPonderada += (long) v[i] * p[i];
-    }
-    IO.println(sumaPonderada);
 }
 ```
 

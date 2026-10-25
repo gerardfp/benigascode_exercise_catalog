@@ -1,7 +1,7 @@
 ---
 slug: graficos-de-calificaciones
+difficulty: 3.0
 tags: [loops, while-loop, counters, formatting]
-difficulty: 3
 ---
 # Gràfics de qualificacions
 
@@ -36,55 +36,6 @@ La seqüència acaba amb un -1.
 ## Output
 
 La gràfica amb el resum de les notes, amb el format indicat.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int countE = 0;
-    int countN = 0;
-    int countB = 0;
-    int countS = 0;
-    int countI = 0;
-
-    while (sc.hasNextInt()) {
-        int note = sc.nextInt();
-        if (note == -1) break;
-        if (note >= 9) {
-            countE++;
-        } else if (note >= 7) {
-            countN++;
-        } else if (note >= 6) {
-            countB++;
-        } else if (note >= 5) {
-            countS++;
-        } else {
-            countI++;
-        }
-    }
-
-    IO.print("E:");
-    for (int i = 0; i < countE; i++) IO.print("#");
-    IO.println();
-
-    IO.print("N:");
-    for (int i = 0; i < countN; i++) IO.print("#");
-    IO.println();
-
-    IO.print("B:");
-    for (int i = 0; i < countB; i++) IO.print("#");
-    IO.println();
-
-    IO.print("S:");
-    for (int i = 0; i < countS; i++) IO.print("#");
-    IO.println();
-
-    IO.print("I:");
-    for (int i = 0; i < countI; i++) IO.print("#");
-    IO.println();
-}
-```
 
 ## Tests
 

@@ -1,7 +1,7 @@
 ---
 slug: gearbox
+difficulty: 3.0
 tags: [classes, oop]
-difficulty: 3
 ---
 # GearBox
 
@@ -17,52 +17,6 @@ Implementa els mètodes GearBox.gearUp() i GearBox.gearDown()
 ## Output
 
 -
-
-## Solutions
-
-```java
-class GearBox {
-    int gear;
-    int numGears;
-
-    void gearUp() {
-        if (gear < numGears) {
-            gear++;
-        }
-    }
-
-    void gearDown() {
-        if (gear > -1) {
-            gear--;
-        }
-    }
-
-    void show() {
-        IO.print("Current gear: ");
-        switch (gear) {
-            case -1 -> IO.println("R");
-            case 0 -> IO.println("N");
-            default -> IO.println(gear);
-        }
-    }
-}
-
-void main() {
-    Scanner scanner = new Scanner(System.in);
-    GearBox gearBox = new GearBox();
-    gearBox.numGears = scanner.nextInt();
-    scanner.nextLine();
-
-    String action;
-    while (!(action = scanner.nextLine()).equals("__END__")) {
-        switch (action) {
-            case "UP" -> gearBox.gearUp();
-            case "DOWN" -> gearBox.gearDown();
-        }
-        gearBox.show();
-    }
-}
-```
 
 ## Plantillas
 

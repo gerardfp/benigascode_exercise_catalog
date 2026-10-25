@@ -1,7 +1,7 @@
 ---
 slug: operacions-aritmetiques
+difficulty: 2.0
 tags: [conditionals, switch, operators, arithmetic, parsing]
-difficulty: 2
 ---
 # Expressions aritmètiques
 
@@ -24,35 +24,6 @@ La entrada consisteix en el primer operand <span style="font-size: 100%; display
 ## Output
 
 El resultat de la operació (float), o els missatges `Error: division by zero` i `Error: operation not permitted` en el seu cas.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    float op1 = sc.nextFloat();
-    String op = sc.next();
-    float op2 = sc.nextFloat();
-
-    if (!op.equals("+") && !op.equals("-") && !op.equals("*") && !op.equals("/") && !op.equals("%")) {
-        IO.println("Error: operation not permitted");
-        return;
-    }
-
-    if ((op.equals("/") || op.equals("%")) && op2 == 0) {
-        IO.println("Error: division by zero");
-        return;
-    }
-
-    switch (op) {
-        case "+" -> IO.println(op1 + op2);
-        case "-" -> IO.println(op1 - op2);
-        case "*" -> IO.println(op1 * op2);
-        case "/" -> IO.println(op1 / op2);
-        case "%" -> IO.println(op1 % op2);
-    }
-}
-```
 
 ## Tests
 

@@ -1,7 +1,7 @@
 ---
 slug: galib
+difficulty: 3.0
 tags: [loops, while-loop, conditionals, counters]
-difficulty: 3
 ---
 # Gàlib
 
@@ -24,27 +24,6 @@ Per últim, venen les alçades dels <span style="font-size: 100%; display: inlin
 S'indicarà `xoca amb el pont i`, on <span style="font-size: 100%; display: inline-block;" class="MathJax_SVG" id="MathJax-Element-1-Frame"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="0.802ex" height="2.176ex" style="vertical-align: -0.338ex;" viewBox="0 -791.3 345.5 936.9" role="img" focusable="false"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><path stroke-width="1" d="M184 600Q184 624 203 642T247 661Q265 661 277 649T290 619Q290 596 270 577T226 557Q211 557 198 567T184 600ZM21 287Q21 295 30 318T54 369T98 420T158 442Q197 442 223 419T250 357Q250 340 236 301T196 196T154 83Q149 61 149 51Q149 26 166 26Q175 26 185 29T208 43T235 78T260 137Q263 149 265 151T282 153Q302 153 302 143Q302 135 293 112T268 61T223 11T161 -11Q129 -11 102 10T74 74Q74 91 79 106T122 220Q160 321 166 341T173 380Q173 404 156 404H154Q124 404 99 371T61 287Q60 286 59 284T58 281T56 279T53 278T49 278T41 278H27Q21 284 21 287Z"></path></g></svg></span> és la posició del primer pont amb el qual xocarà el vehicle.
 
 Si el vehicle **no xoca** amb cap pont, no s'ha d'imprimir res.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextDouble()) return;
-    double h = sc.nextDouble();
-    int n = sc.nextInt();
-    int crashedBridge = -1;
-    for (int i = 1; i <= n; i++) {
-        double bridge = sc.nextDouble();
-        if (bridge < h && crashedBridge == -1) {
-            crashedBridge = i;
-        }
-    }
-    if (crashedBridge != -1) {
-        IO.println("xoca amb el pont " + crashedBridge);
-    }
-}
-```
 
 ## Tests
 

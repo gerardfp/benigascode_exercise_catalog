@@ -1,7 +1,7 @@
 ---
 slug: factorial
+difficulty: 3.0
 tags: [recursion, operators, arithmetic, math]
-difficulty: 3
 ---
 # Factorial
 
@@ -20,22 +20,6 @@ Un nombre enter
 ## Output
 
 El factorial
-
-## Solutions
-
-```java
-int factorial(int n) {
-    if (n <= 1) return 1;
-    return n * factorial(n - 1);
-}
-
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int n = sc.nextInt();
-    IO.println(factorial(n));
-}
-```
 
 ## Tests
 

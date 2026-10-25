@@ -1,11 +1,11 @@
 ---
 slug: la-mida-dun-cargol
+difficulty: 2.0
 tags: [conditionals, if-else, relational-operators]
-difficulty: 2
 ---
 # La mida d'un cargol
 
-![image](assets/c2-l0-4-la-mida-dun-cargol-img0.jpg)
+![image](assets/la-mida-dun-cargol-img0.jpg)
 Crea un programa que a partir de la mida d'un cargol, mostri el text corresponent a la mida, segons la taula següent:
 
 - D’1 cm (inclòs) a 3 cm (no inclòs): petit
@@ -21,28 +21,6 @@ La mida del cargol en centímetres (int).
 ## Output
 
 { petit | mitja | gran | molt gran | mida incorrecta }
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int mida = sc.nextInt();
-
-    if (mida >= 1 && mida < 3) {
-        IO.println("petit");
-    } else if (mida >= 3 && mida < 5) {
-        IO.println("mitja");
-    } else if (mida >= 5 && mida < 8) {
-        IO.println("gran");
-    } else if (mida >= 8 && mida <= 10) {
-        IO.println("molt gran");
-    } else {
-        IO.println("mida incorrecta");
-    }
-}
-```
 
 ## Tests
 

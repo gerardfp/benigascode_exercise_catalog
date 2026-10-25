@@ -1,11 +1,11 @@
 ---
 slug: fireball
+difficulty: 3.0
 tags: [arrays, loops]
-difficulty: 3
 ---
 # Fireball
 
-![image](assets/fireball-1-img0.png)
+![image](assets/fireball-img0.png)
 
 En un videojoc els enemics es disposen en una fila. El jugador els hi pot llançar boles de foc i provocar un dany a l'enemic en el qual impacta i també als que estiguin a l'abast de la bola de foc.
 
@@ -25,43 +25,11 @@ Cada enemic té un nivell de vida, i quan els alcança la bola de foc els hi res
 
 <p>Per exemple, la següent bola de foc impacta a l'enemic en la posició `4` i té un abast `2`:
 
-![image](assets/fireball-1-img1.png)
+![image](assets/fireball-img1.png)
 
 ## Output
 
 Per cada bola llançada, s'imprimirà en una nova línia el nivell de vida resultant dels enemics, separats per espais.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int n = sc.nextInt();
-    int[] hp = new int[n];
-    for (int i = 0; i < n; i++) {
-        hp[i] = sc.nextInt();
-    }
-    while (sc.hasNextInt()) {
-        int p = sc.nextInt();
-        int r = sc.nextInt();
-        int d = sc.nextInt();
-        if (p == -1 && r == -1 && d == -1) {
-            break;
-        }
-        int start = Math.max(0, p - r);
-        int end = Math.min(n - 1, p + r);
-        for (int i = start; i <= end; i++) {
-            hp[i] = Math.max(0, hp[i] - d);
-        }
-        for (int i = 0; i < n; i++) {
-            if (i > 0) IO.print(" ");
-            IO.print(hp[i]);
-        }
-        IO.println();
-    }
-}
-```
 
 ## Tests
 

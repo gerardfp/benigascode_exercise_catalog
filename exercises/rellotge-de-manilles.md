@@ -1,7 +1,7 @@
 ---
 slug: rellotge-de-manilles
+difficulty: 3.0
 tags: [operators, math]
-difficulty: 3
 ---
 # Rellotge de manilles
 
@@ -9,7 +9,7 @@ En un rellotge les manilles avancen una mica a cada segon. La manilla dels segon
 
 Però totes tres manilles avancen sempre a cada segon. Així, per exemple si és la 1:30:00, la manilla de les hores estarà a 45º, la dels minuts a 180º i la dels segons a 360º:
 
-![image](assets/c1-l2-3-rellotge-de-manilles-img0.png)
+![image](assets/rellotge-de-manilles-img0.png)
 
 ## Input
 
@@ -18,25 +18,6 @@ La entrada consisteix en una hora en format HH:MM:SS
 ## Output
 
 S'imprimiran els graus de cada manilla (HH,MM,SS) que corresponen a l'hora, cadascuna en una línia.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    float h = sc.nextFloat();
-    float m = sc.nextFloat();
-    float s = sc.nextFloat();
-
-    float hDeg = (h % 12) * 30 + m * 0.5f + s / 120.0f;
-    float mDeg = m * 6 + s * 0.1f;
-    float sDeg = s * 6;
-
-    IO.println(hDeg);
-    IO.println(mDeg);
-    IO.println(sDeg);
-}
-```
 
 ## Tests
 
@@ -54,7 +35,7 @@ La manilla de les hores està a 75º
 La manilla dels minuts està a 180º
 La manilla dels segons està a 0º
 
-![image](assets/c1-l2-3-rellotge-de-manilles-img1.png)
+![image](assets/rellotge-de-manilles-img1.png)
 
 ### Test
 ```input
@@ -66,7 +47,7 @@ La manilla dels segons està a 0º
 0.0
 ```
 #### Explanation
-![image](assets/c1-l2-3-rellotge-de-manilles-img2.png)
+![image](assets/rellotge-de-manilles-img2.png)
 
 ### Test
 ```input
@@ -78,7 +59,7 @@ La manilla dels segons està a 0º
 0.0
 ```
 #### Explanation
-![image](assets/c1-l2-3-rellotge-de-manilles-img3.png)
+![image](assets/rellotge-de-manilles-img3.png)
 
 ### Test
 ```input

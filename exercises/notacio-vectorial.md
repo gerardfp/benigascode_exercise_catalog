@@ -1,7 +1,7 @@
 ---
 slug: notacio-vectorial
+difficulty: 2.0
 tags: [arrays, loops, for-loop]
-difficulty: 2
 ---
 # Notació arrays
 
@@ -24,24 +24,6 @@ Després venen els <span style="font-size: 100%; display: inline-block;" class="
 ## Output
 
 S'imprimirà la declaració de l'array en el format indicat i en una sola línia.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    String s = "int[] myArray = { ";
-    for (int i = 0; i < n; i++) {
-        s += sc.nextInt();
-        if (i < n - 1) {
-            s += ", ";
-        }
-    }
-    s += " };";
-    IO.println(s);
-}
-```
 
 ## Tests
 

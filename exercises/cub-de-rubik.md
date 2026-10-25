@@ -1,13 +1,13 @@
 ---
 slug: cub-de-rubik
+difficulty: 1.0
 tags: [operators, arithmetic, math]
-difficulty: 1
 ---
 # Cub de Rubik
 
 El cub de Rubik stàndard (de tamany 3) consisteix en 26 "cubies" o "cubelets" (a la part interior no hi ha cap cubelet).
 
-![image](assets/c1-l3-8-cub-de-rubik-img0.png)
+![image](assets/cub-de-rubik-img0.png)
 
 Hi ha moltes altres variants del cub, amb tamanys i formes diferents.
 
@@ -18,17 +18,6 @@ La entrada consisteix en un nombre <span style="font-size: 100%; display: inline
 ## Output
 
 S'imprimira el nombre de "cubelets" que té el cub.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    double n = sc.nextDouble();
-    double ans = 6 * n * n - 12 * n + 8;
-    IO.println("%.0f".formatted(ans));
-}
-```
 
 ## Tests
 

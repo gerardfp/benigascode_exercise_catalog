@@ -1,7 +1,7 @@
 ---
 slug: iguales-al-ultimo
+difficulty: 3.0
 tags: [arrays, loops, for-loop, counters]
-difficulty: 3
 ---
 # Iguals a l'últim
 
@@ -14,34 +14,6 @@ El primer nombre <span style="font-size: 100%; display: inline-block;" class="Ma
 ## Output
 
 La quantitat de nombres iguals a l'últim.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) {
-        return;
-    }
-    int n = sc.nextInt();
-    if (n <= 1) {
-        IO.println(0);
-        return;
-    }
-    int[] arr = new int[n];
-    for (int i = 0; i < n; i++) {
-        arr[i] = sc.nextInt();
-    }
-    int last = arr[n - 1];
-    int count = 0;
-    for (int i = 0; i < n - 1; i++) {
-        if (arr[i] == last) {
-            count++;
-        }
-    }
-    IO.println(count);
-}
-```
 
 ## Tests
 

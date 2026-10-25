@@ -1,7 +1,7 @@
 ---
 slug: esquemes-ordenacio-bombolla
+difficulty: 4.0
 tags: [arrays, loops, nested-loops, sorting]
-difficulty: 4
 ---
 # Ordenació: mètode de la bombolla (Bubble Sort)
 
@@ -30,31 +30,6 @@ void main() {
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - 1 - i; j++) {
             // Compara i intercanvia si cal
-        }
-    }
-
-    for (int i = 0; i < n; i++) {
-        IO.print(a[i] + (i < n - 1 ? " " : "\n"));
-    }
-}
-```
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    int[] a = new int[n];
-    for (int i = 0; i < n; i++) a[i] = sc.nextInt();
-
-    for (int i = 0; i < n - 1; i++) {
-        for (int j = 0; j < n - 1 - i; j++) {
-            if (a[j] > a[j + 1]) {
-                int tmp = a[j];
-                a[j] = a[j + 1];
-                a[j + 1] = tmp;
-            }
         }
     }
 

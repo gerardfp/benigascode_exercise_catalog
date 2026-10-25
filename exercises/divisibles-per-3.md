@@ -1,7 +1,7 @@
 ---
 slug: divisibles-per-3
+difficulty: 2.0
 tags: [loops, for-loop, conditionals, operators, modulo]
-difficulty: 2
 ---
 # Divisibles per 3
 
@@ -14,21 +14,6 @@ Dos nombres enters <span style="font-size: 100%; display: inline-block;" class="
 ## Output
 
 S'imprimirà cada número en una línia.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int a = sc.nextInt();
-    int b = sc.nextInt();
-    for (int i = a; i <= b; i++) {
-        if (i % 3 == 0) {
-            IO.println(i);
-        }
-    }
-}
-```
 
 ## Tests
 

@@ -1,7 +1,7 @@
 ---
 slug: emmarcant-les-fotos
+difficulty: 3.0
 tags: [conditionals, if-else, math]
-difficulty: 3
 ---
 # Emmarcant les fotos
 
@@ -11,7 +11,7 @@ Els marcs han de ser suficientment grans com per a que hi càpiga la foto i a m�
 
 La definició del rectangle d'una foto i d'un marc es pot fer amb les coordenades dels seus punts superior-dreta i inferior-esquerra:
 
-![image](assets/c1-l2-1-emmarcant-les-fotos-img0.png)
+![image](assets/emmarcant-les-fotos-img0.png)
 
 ## Input
 
@@ -22,39 +22,6 @@ Per a cada rectangle s'indiquen les coordenades (x, y) dels seus cantons superio
 ## Output
 
 S'imprimirà "true" si el marc és adequat per a la foto, i "false" si no ho és.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int fx1 = sc.nextInt();
-    int fy1 = sc.nextInt();
-    int fx2 = sc.nextInt();
-    int fy2 = sc.nextInt();
-
-    int mx1 = sc.nextInt();
-    int my1 = sc.nextInt();
-    int mx2 = sc.nextInt();
-    int my2 = sc.nextInt();
-
-    int fw = Math.abs(fx1 - fx2);
-    int fh = Math.abs(fy1 - fy2);
-    int mw = Math.abs(mx1 - mx2);
-    int mh = Math.abs(my1 - my2);
-
-    int pMin = Math.min(fw, fh);
-    int pMax = Math.max(fw, fh);
-    int mMin = Math.min(mw, mh);
-    int mMax = Math.max(mw, mh);
-
-    boolean fits = mMin >= pMin && mMax >= pMax;
-    boolean sameRatio = (pMin * mMax) == (pMax * mMin);
-
-    IO.println(fits && sameRatio);
-}
-```
 
 ## Tests
 
@@ -80,7 +47,7 @@ true
 #### Explanation
 El marc és més gran que la foto i la proporció és la mateixa
 
-![image](assets/c1-l2-1-emmarcant-les-fotos-img1.png)
+![image](assets/emmarcant-les-fotos-img1.png)
 
 ### Test
 ```input
@@ -93,7 +60,7 @@ true
 #### Explanation
 El marc és més gran que la foto, però la proporció no és la mateixa
 
-![image](assets/c1-l2-1-emmarcant-les-fotos-img2.png)
+![image](assets/emmarcant-les-fotos-img2.png)
 
 ### Test
 ```input
@@ -106,7 +73,7 @@ false
 #### Explanation
 La foto i el marc tenen el mateix tamany i la proporció és la mateixa
 
-![image](assets/c1-l2-1-emmarcant-les-fotos-img3.png)
+![image](assets/emmarcant-les-fotos-img3.png)
 
 ### Test
 ```input
@@ -119,7 +86,7 @@ true
 #### Explanation
 El marc i la foto tenen el mateix tamany i la proporció és la mateixa
 
-![image](assets/c1-l2-1-emmarcant-les-fotos-img4.png)
+![image](assets/emmarcant-les-fotos-img4.png)
 
 ### Test
 ```input
@@ -132,7 +99,7 @@ true
 #### Explanation
 Tenen la mateixa proporció, però el marc és més petit que la foto:
 
-![image](assets/c1-l2-1-emmarcant-les-fotos-img5.png)
+![image](assets/emmarcant-les-fotos-img5.png)
 
 ### Test
 ```input

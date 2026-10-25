@@ -1,7 +1,7 @@
 ---
 slug: esquemes-extrems-minim-posicio
+difficulty: 3.0
 tags: [arrays, loops, for-loop, operators, relational-operators, min-max]
-difficulty: 3
 ---
 # Extrems: mínim i la seva posició
 
@@ -16,27 +16,6 @@ A continuació venen els $N$ nombres enters, cadascun en una línia.
 ## Salida
 
 Imprimeix dos nombres separats per un espai: el valor mínim i la posició (índex de 0 a $N-1$) on apareix per primer cop.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    int[] nums = new int[n];
-    for (int i = 0; i < n; i++) nums[i] = sc.nextInt();
-
-    int min = nums[0];
-    int posMin = 0;
-    for (int i = 1; i < n; i++) {
-        if (nums[i] < min) {
-            min = nums[i];
-            posMin = i;
-        }
-    }
-    IO.println(min + " " + posMin);
-}
-```
 
 ## Tests
 

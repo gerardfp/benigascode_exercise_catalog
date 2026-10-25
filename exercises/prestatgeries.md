@@ -1,7 +1,7 @@
 ---
 slug: prestatgeries
+difficulty: 1.0
 tags: [operators, booleans, relational-operators]
-difficulty: 1
 ---
 # Llibres i prestatgeries
 
@@ -22,21 +22,6 @@ L'últim nombre $N$ indica la quantitat de llibres que té en Miquel.
 ## Output
 
 `true` | `false`
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int p = sc.nextInt();
-    int g = sc.nextInt();
-    int l = sc.nextInt();
-    int n = sc.nextInt();
-
-    IO.println(p * g * l >= n);
-}
-```
 
 ## Tests
 

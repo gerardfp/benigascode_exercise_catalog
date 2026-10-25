@@ -1,7 +1,7 @@
 ---
 slug: esquirols-i-nous
+difficulty: 1.0
 tags: [operators, arithmetic, modulo]
-difficulty: 1
 ---
 # Esquirols i nous
 
@@ -17,17 +17,6 @@ Dos enters positius <span style="font-size: 100%; display: inline-block;" class=
 ## Output
 
 -
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    int k = sc.nextInt();
-    IO.println(k % n);
-}
-```
 
 ## Tests
 

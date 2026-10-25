@@ -1,7 +1,7 @@
 ---
 slug: data-valida
+difficulty: 2.0
 tags: [conditionals, if-else, booleans]
-difficulty: 2
 ---
 # Data vàlida
 
@@ -18,28 +18,6 @@ Tres nombres corresponents a una data en format `dd/mm/yyyy`
 `true` si la data és vàlida
 
 `false` si no ho és
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int d = sc.nextInt();
-    int m = sc.nextInt();
-    int y = sc.nextInt();
-
-    boolean leap = (y % 4 == 0 && y % 100 != 0) || (y % 400 == 0);
-    int maxDays = switch (m) {
-        case 1, 3, 5, 7, 8, 10, 12 -> 31;
-        case 4, 6, 9, 11 -> 30;
-        case 2 -> leap ? 29 : 28;
-        default -> 0;
-    };
-
-    boolean valid = d >= 1 && d <= maxDays;
-    IO.println(valid);
-}
-```
 
 ## Tests
 

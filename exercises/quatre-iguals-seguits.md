@@ -1,7 +1,7 @@
 ---
 slug: quatre-iguals-seguits
+difficulty: 3.0
 tags: [loops, while-loop, sentinel-loop, counters]
-difficulty: 3
 ---
 # Quatre iguals seguits
 
@@ -14,38 +14,6 @@ Una seqüència d'enters acabada amb <span style="font-size: 100%; display: inli
 ## Output
 
 El número de vegades apareixen 4 números iguals seguits.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int count = 0;
-    int prev = 0;
-    int streak = 0;
-
-    while (sc.hasNextInt()) {
-        int n = sc.nextInt();
-        if (n == -1) {
-            break;
-        }
-        if (streak == 0) {
-            streak = 1;
-            prev = n;
-        } else if (n == prev) {
-            streak++;
-            if (streak >= 4) {
-                count++;
-            }
-        } else {
-            streak = 1;
-            prev = n;
-        }
-    }
-
-    IO.println(count);
-}
-```
 
 ## Tests
 

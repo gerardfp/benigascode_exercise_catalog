@@ -1,11 +1,11 @@
 ---
 slug: orden-en-la-cola
+difficulty: 3.0
 tags: [arrays, loops, for-loop, flags, search]
-difficulty: 3
 ---
 # Orden en la cola
 
-![image](assets/aafec-orden-en-la-cola-img0.png)
+![image](assets/orden-en-la-cola-img0.png)
 
 Para entrar en un sitio hay que coger un ticket con un número y esperar en la cola.
 Hay gente que se cansa de esperar y abandona la cola. Y hay otros que tratan de colarse…
@@ -29,36 +29,6 @@ La persona con el ticket T se ha colado por delante de X personas.
 ```
 
 Si no se ha colado nadie se escribirá `COLA EN ORDEN`.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int n = sc.nextInt();
-    int[] a = new int[n];
-    for (int i = 0; i < n; i++) {
-        a[i] = sc.nextInt();
-    }
-    boolean colado = false;
-    for (int i = 0; i < n; i++) {
-        int count = 0;
-        for (int j = i + 1; j < n; j++) {
-            if (a[j] < a[i]) {
-                count++;
-            }
-        }
-        if (count > 0) {
-            colado = true;
-            IO.println("La persona con el ticket " + a[i] + " se ha colado por delante de " + count + " personas.");
-        }
-    }
-    if (!colado) {
-        IO.println("COLA EN ORDEN");
-    }
-}
-```
 
 ## Tests
 

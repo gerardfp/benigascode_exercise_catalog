@@ -1,7 +1,7 @@
 ---
 slug: compta-vocals
+difficulty: 2.0
 tags: [strings, loops, for-loop, conditionals, counters]
-difficulty: 2
 ---
 # Filtra vocals
 
@@ -17,22 +17,6 @@ L'entrada consta de dues parts:
 ## Output
 
 S'imprimirà cada vocal en una línia
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    for (int i = 0; i < n; i++) {
-        String s = sc.next();
-        char c = s.charAt(0);
-        if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
-            IO.println(c);
-        }
-    }
-}
-```
 
 ## Tests
 

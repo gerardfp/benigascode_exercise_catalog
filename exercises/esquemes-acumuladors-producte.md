@@ -1,7 +1,7 @@
 ---
 slug: esquemes-acumuladors-producte
+difficulty: 3.0
 tags: [arrays, loops, for-loop, operators, arithmetic, accumulators]
-difficulty: 3
 ---
 # Acumuladors: producte de no-zeros
 
@@ -16,25 +16,6 @@ A continuació venen els $N$ nombres enters, cadascun en una línia.
 ## Salida
 
 Imprimeix el producte dels elements no nuls (o `0` si tots són zero).
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    long prod = 1;
-    boolean hiHaNoZero = false;
-    for (int i = 0; i < n; i++) {
-        int x = sc.nextInt();
-        if (x != 0) {
-            prod *= x;
-            hiHaNoZero = true;
-        }
-    }
-    IO.println(hiHaNoZero ? prod : 0);
-}
-```
 
 ## Tests
 

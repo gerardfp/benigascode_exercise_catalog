@@ -1,7 +1,7 @@
 ---
 slug: les-quatre-estacions
+difficulty: 2.0
 tags: [conditionals, if-else]
-difficulty: 2
 ---
 # Les quatre estacions
 
@@ -14,7 +14,7 @@ Les quatre estacions tradicionals tenen el seu inici i final marcats per esdeven
 
 A l'hemisferi sud hivern-estiu i primavera-tardor estan invertits
 
-![image](assets/c2-l4-1-les-quatre-estacions-img0.png)
+![image](assets/les-quatre-estacions-img0.png)
 
 ## Input
 
@@ -23,39 +23,6 @@ La entrada consta d'un dia i mes de l'any.
 ## Output
 
 S'imprimirà l'estació corresponent a l'hemisferi nord i a l'hemisferi sud.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int day = sc.nextInt();
-    int month = sc.nextInt();
-
-    int date = month * 100 + day;
-
-    String north;
-    String south;
-
-    if (date >= 321 && date < 621) {
-        north = "Primavera";
-        south = "Tardor";
-    } else if (date >= 621 && date < 923) {
-        north = "Estiu";
-        south = "Hivern";
-    } else if (date >= 923 && date < 1221) {
-        north = "Tardor";
-        south = "Primavera";
-    } else {
-        north = "Hivern";
-        south = "Estiu";
-    }
-
-    IO.println(north);
-    IO.println(south);
-}
-```
 
 ## Tests
 

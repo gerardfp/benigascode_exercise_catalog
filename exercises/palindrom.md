@@ -1,7 +1,7 @@
 ---
 slug: palindrom
+difficulty: 3.0
 tags: [strings, recursion, flags]
-difficulty: 3
 ---
 # Palíndrom
 
@@ -14,27 +14,6 @@ String
 ## Output
 
 { true | false }
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNext()) return;
-    String s = sc.next();
-    boolean pal = true;
-    int i = 0, j = s.length() - 1;
-    while (i < j) {
-        if (s.charAt(i) != s.charAt(j)) {
-            pal = false;
-            break;
-        }
-        i++;
-        j--;
-    }
-    IO.println(pal);
-}
-```
 
 ## Tests
 

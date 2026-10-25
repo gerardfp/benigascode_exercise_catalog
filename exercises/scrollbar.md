@@ -1,13 +1,13 @@
 ---
 slug: scrollbar
+difficulty: 3.0
 tags: [operators, arithmetic, math]
-difficulty: 3
 ---
 # Scrollbar
 
 Quan el *content height* és major que el *viewport height*, el navegador web mostra una *scrollbar* amb dues *arrows* i un *thumb* per a poder desplaçar el contingut.
 
-![image](assets/c1-l4-4-scrollbar-img0.png)
+![image](assets/scrollbar-img0.png)
 
 Per cada píxel que es desplaça el *thumb*, el contingut es desplaça proporcionalment en direcció oposada.
 
@@ -24,25 +24,6 @@ La entrada consisteix en tres nombres:
 ## Output
 
 S'imprimirà el *thumb height* i el *scroll jump*, arrodonits sense decimals.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextDouble()) return;
-    double vh = sc.nextDouble();
-    double ch = sc.nextDouble();
-    double ah = sc.nextDouble();
-
-    double trackHeight = vh - 2 * ah;
-    double thumbHeight = trackHeight * (vh / ch);
-    double scrollJump = (ch - vh) / (trackHeight - thumbHeight);
-
-    IO.println(Math.round(thumbHeight));
-    IO.println(Math.round(scrollJump));
-}
-```
 
 ## Tests
 

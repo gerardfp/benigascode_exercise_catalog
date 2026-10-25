@@ -1,7 +1,7 @@
 ---
 slug: esquemes-acumuladors-suma-parells
+difficulty: 3.0
 tags: [arrays, loops, for-loop, operators, arithmetic, modulo, accumulators, filtering]
-difficulty: 3
 ---
 # Acumuladors: suma de parells positius
 
@@ -16,23 +16,6 @@ A continuació venen els $N$ nombres enters, cadascun en una línia.
 ## Salida
 
 Imprimeix la suma acumulada dels valors parells i positius.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    int suma = 0;
-    for (int i = 0; i < n; i++) {
-        int x = sc.nextInt();
-        if (x > 0 && x % 2 == 0) {
-            suma += x;
-        }
-    }
-    IO.println(suma);
-}
-```
 
 ## Tests
 

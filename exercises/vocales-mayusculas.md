@@ -1,7 +1,7 @@
 ---
 slug: vocales-mayusculas
-tags: [strings, loops, string-manipulation]
-difficulty: 3
+difficulty: 3.0
+tags: [strings, loops]
 ---
 # Vocales Mayúsculas
 
@@ -15,31 +15,6 @@ El texto termina con la palabra END (que no debe procesarse)
 ## Output
 
 El mismo texto con las vocales en mayúscula.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    while (sc.hasNextLine()) {
-        String line = sc.nextLine();
-        if (line.equals("END")) {
-            break;
-        }
-        String res = "";
-        for (int i = 0; i < line.length(); i++) {
-            char c = line.charAt(i);
-            if (c == 'a') res += 'A';
-            else if (c == 'e') res += 'E';
-            else if (c == 'i') res += 'I';
-            else if (c == 'o') res += 'O';
-            else if (c == 'u') res += 'U';
-            else res += c;
-        }
-        IO.println(res);
-    }
-}
-```
 
 ## Tests
 

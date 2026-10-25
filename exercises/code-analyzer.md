@@ -1,7 +1,7 @@
 ---
 slug: code-analyzer
+difficulty: 3.0
 tags: [strings, loops, while-loop, sentinel-loop, counters]
-difficulty: 3
 ---
 # Code analyzer
 
@@ -18,25 +18,6 @@ El codi acaba amb la paraula `END`
 ## Output
 
 S'imprimirà la quantitat de classes definides.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int count = 0;
-    while (sc.hasNext()) {
-        String token = sc.next();
-        if (token.equals("END")) {
-            break;
-        }
-        if (token.equals("class")) {
-            count++;
-        }
-    }
-    IO.println(count);
-}
-```
 
 ## Tests
 

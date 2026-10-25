@@ -1,14 +1,14 @@
 ---
 slug: nearest-neighbour-interpolation
+difficulty: 5.0
 tags: [matrices, 2d-arrays, loops, nested-loops]
-difficulty: 5
 ---
 # Nearest-neighbour interpolation
 
 Nearest-neighbour interpolation és un algoritme d'escalat d'imatges.
 Quan fem una imatge més gran, l'algoritme Nearest-neighbour genera els nous pixels a partir dels originals més propers:
 
-![image](assets/c4-l4-2-nearest-neighbour-interpolation-img0.png)
+![image](assets/nearest-neighbour-interpolation-img0.png)
 
 Aquest algoritme funciona bé per a imatges 'pixel-art', però no és el més adequat per a imatges fotogràfiques ja que crea "dents de serra".
 
@@ -22,43 +22,6 @@ Finalment venen el factor d'escalat horitzontal <span style="font-size: 100%; di
 ## Output
 
 S'imprimirà la imatge escalada segons els factors horitzontal i vertical.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextLine()) return;
-    String firstLine = sc.nextLine().trim();
-    if (firstLine.length() == 0) return;
-    int n = Integer.parseInt(firstLine);
-
-    String[] lines = new String[n];
-    for (int i = 0; i < n; i++) {
-        lines[i] = sc.nextLine();
-    }
-    int scaleX = sc.nextInt();
-    int scaleY = sc.nextInt();
-
-    for (int i = 0; i < n; i++) {
-        String line = lines[i];
-        char[] scaled = new char[line.length() * scaleX];
-        int idx = 0;
-        for (int j = 0; j < line.length(); j++) {
-            char ch = line.charAt(j);
-            for (int k = 0; k < scaleX; k++) {
-                scaled[idx++] = ch;
-            }
-        }
-        for (int vy = 0; vy < scaleY; vy++) {
-            for (int k = 0; k < scaled.length; k++) {
-                IO.print(scaled[k]);
-            }
-            IO.println();
-        }
-    }
-}
-```
 
 ## Tests
 
@@ -195,14 +158,7 @@ Y8b        ,`*Y8bn.    ,d8P
 ```output
    ,,,oooddd888888888888bbbnnn...                  ,,,...oooddd888888bbbooo,,,
    ,,,oooddd888888888888bbbnnn...                  ,,,...oooddd888888bbbooo,,,
-ddd888PPP'''         ```***888888bbbnnn...   ,,,                     ```YYY888bbb
-ddd888PPP'''         ```***888888bbbnnn...   ,,,                     ```YYY888bbb
-888888'''                  ```***888888888bbb...                        ```DDD888
-888888'''                  ```***888888888bbb...                        ```DDD888
-YYY888bbb                        ,,,```***YYY888bbbnnn...            ,,,ddd888PPP
-YYY888bbb                        ,,,```***YYY888bbbnnn...            ,,,ddd888PPP
-```***YYY888bbbnnn,,,...   ;;;               ```***+++888888888888888PPP***'''
-```***YYY888bbbnnn,,,...   ;;;               ```***+++888888888888888PPP***'''
+ddd888PPP'''         
 ```
 
 ### Test

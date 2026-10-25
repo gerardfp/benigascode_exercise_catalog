@@ -1,7 +1,7 @@
 ---
 slug: reaccio-en-cadena
+difficulty: 4.0
 tags: [arrays, loops]
-difficulty: 4
 ---
 # Reacció en cadena
 
@@ -30,36 +30,6 @@ Per exemple, els següents abasts corresponen a les següents bombes:
 ## Output
 
 S'imprimirà la posició de l'última bomba en explotar (començant a comptar per 1)
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    int[] abast = new int[n];
-    for (int i = 0; i < n; i++) {
-        abast[i] = sc.nextInt();
-    }
-
-    int maxReach = 0;
-    for (int i = 0; i < n; i++) {
-        if (i <= maxReach) {
-            if (i + abast[i] > maxReach) {
-                maxReach = i + abast[i];
-            }
-        } else {
-            break;
-        }
-    }
-
-    if (maxReach >= n) {
-        maxReach = n - 1;
-    }
-
-    IO.println(maxReach + 1);
-}
-```
 
 ## Tests
 

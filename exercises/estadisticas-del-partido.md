@@ -1,7 +1,7 @@
 ---
 slug: estadisticas-del-partido
+difficulty: 3.0
 tags: [loops, while-loop, conditionals, counters]
-difficulty: 3
 ---
 # Estadísticas del partido
 
@@ -49,54 +49,6 @@ GOL LOCAL, EMPATE: 2 2
 GOL VISITANTE, GANA VISITANTE: 2 3
 
 FINAL DEL PARTIDO, GANA VISITANTE: 2 3
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int prevLocal = sc.nextInt();
-    int prevVis = sc.nextInt();
-    IO.println("EMPIEZA EL PARTIDO, EMPATE: " + prevLocal + " " + prevVis);
-
-    while (sc.hasNextInt()) {
-        int curLocal = sc.nextInt();
-        int curVis = sc.nextInt();
-        if (curLocal == -1 && curVis == -1) {
-            String status;
-            if (prevLocal > prevVis) {
-                status = "GANA LOCAL";
-            } else if (prevLocal < prevVis) {
-                status = "GANA VISITANTE";
-            } else {
-                status = "EMPATE";
-            }
-            IO.println("FINAL DEL PARTIDO, " + status + ": " + prevLocal + " " + prevVis);
-            break;
-        }
-
-        String who;
-        if (curLocal > prevLocal) {
-            who = "GOL LOCAL";
-        } else {
-            who = "GOL VISITANTE";
-        }
-
-        String status;
-        if (curLocal > curVis) {
-            status = "GANA LOCAL";
-        } else if (curLocal < curVis) {
-            status = "GANA VISITANTE";
-        } else {
-            status = "EMPATE";
-        }
-
-        IO.println(who + ", " + status + ": " + curLocal + " " + curVis);
-        prevLocal = curLocal;
-        prevVis = curVis;
-    }
-}
-```
 
 ## Tests
 

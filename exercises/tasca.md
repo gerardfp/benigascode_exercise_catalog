@@ -1,7 +1,7 @@
 ---
 slug: tasca
+difficulty: 3.0
 tags: [arrays, loops, for-loop, counters]
-difficulty: 3
 ---
 # Tasca
 
@@ -25,42 +25,6 @@ Per últim s'indica l'hora límit: `hora minut segon`
 S'imprimirà `ok` per a aquelles trameses que s'han fet dintre del temps límit.
 
 Les trameses fora de temps s'escriurà: `S'ha excedit 0h 0m 0s` (canviant el `0` pel valor corresponent)
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    int[] h = new int[n];
-    int[] m = new int[n];
-    int[] s = new int[n];
-
-    for (int i = 0; i < n; i++) {
-        h[i] = sc.nextInt();
-        m[i] = sc.nextInt();
-        s[i] = sc.nextInt();
-    }
-
-    int limitH = sc.nextInt();
-    int limitM = sc.nextInt();
-    int limitS = sc.nextInt();
-    int limitTotal = limitH * 3600 + limitM * 60 + limitS;
-
-    for (int i = 0; i < n; i++) {
-        int subTotal = h[i] * 3600 + m[i] * 60 + s[i];
-        if (subTotal <= limitTotal) {
-            IO.println("ok");
-        } else {
-            int diff = subTotal - limitTotal;
-            int dh = diff / 3600;
-            int dm = (diff % 3600) / 60;
-            int ds = diff % 60;
-            IO.println("S'ha excedit " + dh + "h " + dm + "m " + ds + "s");
-        }
-    }
-}
-```
 
 ## Tests
 

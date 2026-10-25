@@ -1,7 +1,7 @@
 ---
 slug: esquemes-comptadors-parells
+difficulty: 3.0
 tags: [arrays, loops, for-loop, operators, modulo, counters]
-difficulty: 3
 ---
 # Comptadors: parells
 
@@ -16,23 +16,6 @@ Després ve la sèrie de números, cadascun en una línia.
 ## Salida
 
 Imprimix la quantitat de números parells.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    int count = 0;
-    for (int i = 0; i < n; i++) {
-        int x = sc.nextInt();
-        if (x % 2 == 0) {
-            count++;
-        }
-    }
-    IO.println(count);
-}
-```
 
 ## Tests
 

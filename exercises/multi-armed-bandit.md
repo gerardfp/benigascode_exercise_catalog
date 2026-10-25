@@ -1,7 +1,7 @@
 ---
 slug: multi-armed-bandit
+difficulty: 4.0
 tags: [arrays, loops, math]
-difficulty: 4
 ---
 # Multi-armed bandit
 
@@ -10,7 +10,7 @@ En la teoria de la probabilitat, el problema dels bandits de múltiples braços 
 
 Diguem que triem un color per al botó "Comprar ara!". Les opcions són taronja, verd o blau. 
 
-![image](assets/c3-l3-4-multi-armed-bandit-img0.png)
+![image](assets/multi-armed-bandit-img0.png)
 
 L'algoritme funciona així: inicialitzem les tres opcions a 1 click d'1 intent. Així, quan comencem, les dades de proves internes són aquestes:
 
@@ -69,49 +69,6 @@ S'imprimirà el percentatge d'èxit de cada opció en format Array.
 
 ```
 [ 3.54, 2.98, 1.73 ]
-```
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int nArms = sc.nextInt();
-    int nActions = sc.nextInt();
-
-    int[] clicks = new int[nArms];
-    int[] trials = new int[nArms];
-    for (int i = 0; i < nArms; i++) {
-        clicks[i] = 1;
-        trials[i] = 1;
-    }
-
-    for (int a = 0; a < nActions; a++) {
-        int bestArm = 0;
-        double bestRate = (double) clicks[0] / trials[0];
-        for (int i = 1; i < nArms; i++) {
-            double rate = (double) clicks[i] / trials[i];
-            if (rate > bestRate) {
-                bestRate = rate;
-                bestArm = i;
-            }
-        }
-        trials[bestArm]++;
-        if (sc.nextBoolean()) {
-            clicks[bestArm]++;
-        }
-    }
-
-    String result = "[";
-    for (int i = 0; i < nArms; i++) {
-        if (i > 0) result += ", ";
-        float pct = (float) clicks[i] / (float) trials[i] * 100.0f;
-        result += pct;
-    }
-    result += "]";
-    IO.println(result);
-}
 ```
 
 ## Tests

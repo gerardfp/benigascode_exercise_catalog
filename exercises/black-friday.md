@@ -1,7 +1,7 @@
 ---
 slug: black-friday
+difficulty: 4.0
 tags: [loops, conditionals, operators, arithmetic, accumulators]
-difficulty: 4
 ---
 # Black Friday
 
@@ -31,25 +31,6 @@ S'imprimirà cada producte en una nova línia: el codi i el preu apujat (decimal
 **Suggerència per a la solució**
 
 En aquest problema cadrà fer dos bucles niats (un dintre de l'altre). L'exterior es repetirà fins trobar dos zeros a l'entrada. L'interior es repetirà tantes vegades com productes hi hagi en la sèrie.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    while (sc.hasNext()) {
-        int n = sc.nextInt();
-        float t = sc.nextFloat();
-        if (n == 0 && t == 0) break;
-        for (int i = 0; i < n; i++) {
-            String code = sc.next();
-            float p = sc.nextFloat();
-            float newP = p + p * t / 100;
-            IO.println(code + " " + newP);
-        }
-    }
-}
-```
 
 ## Tests
 

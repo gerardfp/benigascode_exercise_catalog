@@ -1,7 +1,7 @@
 ---
 slug: major-dedat
+difficulty: 1.0
 tags: [operators, booleans, relational-operators]
-difficulty: 1
 ---
 # Major d'edat
 
@@ -14,16 +14,6 @@ un enter
 ## Output
 
 -
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int age = sc.nextInt();
-    IO.println(age >= 18);
-}
-```
 
 ## Tests
 

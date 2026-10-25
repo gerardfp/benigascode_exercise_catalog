@@ -1,7 +1,7 @@
 ---
 slug: definir-la-classe-comptecorrent
+difficulty: 2.0
 tags: [classes, oop]
-difficulty: 2
 ---
 # Definir la classe CompteCorrent
 
@@ -14,23 +14,6 @@ Defineix una classe anomenada CompteCorrent. Ha de tenir tres camps: un enter `s
 ## Output
 
 -
-
-## Solutions
-
-```java
-class CompteCorrent {
-    double saldo;
-    String nomPropietari;
-    boolean bloquejada;
-}
-
-void main() {
-    CompteCorrent cc = new CompteCorrent();
-    cc.saldo = 999.9f;
-    cc.nomPropietari = "Jeff Bezos";
-    cc.bloquejada = false;
-}
-```
 
 ## Plantillas
 

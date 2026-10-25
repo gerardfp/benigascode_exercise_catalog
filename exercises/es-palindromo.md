@@ -1,7 +1,7 @@
 ---
 slug: es-palindromo
-tags: [strings, flags, string-manipulation]
-difficulty: 3
+difficulty: 3.0
+tags: [strings, flags]
 ---
 # Comprobador de Palíndromos
 
@@ -52,26 +52,6 @@ java
 Salida:
 ```text
 NO
-```
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextLine()) return;
-    String line = sc.nextLine();
-    String cleaned = line.replace(" ", "").toLowerCase();
-    boolean isPal = true;
-    int len = cleaned.length();
-    for (int i = 0; i < len / 2; i++) {
-        if (cleaned.charAt(i) != cleaned.charAt(len - 1 - i)) {
-            isPal = false;
-            break;
-        }
-    }
-    IO.println(isPal ? "SI" : "NO");
-}
 ```
 
 ## Tests

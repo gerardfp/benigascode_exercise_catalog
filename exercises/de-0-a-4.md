@@ -1,36 +1,17 @@
 ---
 slug: de-0-a-4
+difficulty: 1.0
 tags: [loops, for-loop]
-difficulty: 1
 ---
 # De 0 a 4
 
-Escriu un programa que imprimeixi els números de `1` a `4` inclusive. Cada nombre ha d'estar en una nova línia.
-
-## Input
-
--
-
-## Output
-
--
-
-## Solutions
-
-```java
-void main() {
-    for (int i = 0; i <= 4; i++) {
-        IO.println(i);
-    }
-}
-```
+Escriu un programa que imprimeixi els números de `0` a `4` inclusive. Cada nombre ha d'estar en una nova línia.
 
 ## Plantillas
 
 ```java
-public class Main {
-    public static void main(String[] args) {
-    }
+void main() {
+    
 }
 ```
 

@@ -1,7 +1,7 @@
 ---
 slug: arrodonir-la-nota
+difficulty: 2.0
 tags: [operators, arithmetic, casting, math]
-difficulty: 2
 ---
 # Arrodonir la nota
 
@@ -15,17 +15,6 @@ Una nota amb o sense decimals
 ## Output
 
 enter
-
-## Solutions
-
-```java
-void main() {
-    Scanner scanner = new Scanner(System.in);
-    double nota = scanner.nextDouble();
-    int notaArrodonida = (int) Math.round(nota);
-    IO.println(notaArrodonida);
-}
-```
 
 ## Tests
 

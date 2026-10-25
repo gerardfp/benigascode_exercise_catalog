@@ -1,7 +1,7 @@
 ---
 slug: banderas
+difficulty: 5.0
 tags: [loops, nested-loops, conditionals]
-difficulty: 5
 ---
 # Banderes
 
@@ -120,36 +120,6 @@ Un enter $T$ indicant el tipus de bandera, i un enter $N$ indicant el tamany.
 ## Output
 
 La bandera corresponent, del tamany indicat.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int t = sc.nextInt();
-    int n = sc.nextInt();
-
-    for (int r = 0; r < n; r++) {
-        String line = "";
-        for (int c = 0; c < n; c++) {
-            char ch = switch (t) {
-                case 1 -> (r > c) ? '~' : '*';
-                case 2 -> (r < n / 2) ? '*' : '~';
-                case 3 -> (c < n / 2) ? '*' : '~';
-                case 4 -> (r == c) ? '*' : '~';
-                case 5 -> (r % 2 == 0) ? '*' : '~';
-                case 6 -> (r < n / 3 || r >= 2 * n / 3) ? '*' : '~';
-                case 7 -> (c >= n / 3 && c < 2 * n / 3) ? '*' : '~';
-                case 8 -> (c % 2 == 0) ? '*' : '~';
-                default -> ' ';
-            };
-            line += ch;
-        }
-        IO.println(line);
-    }
-}
-```
 
 ## Tests
 

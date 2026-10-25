@@ -1,7 +1,7 @@
 ---
 slug: nota-mitjana
+difficulty: 1.0
 tags: [operators, arithmetic, accumulators]
-difficulty: 1
 ---
 # Nota mitjana   aritmètics
 
@@ -18,18 +18,6 @@ El tercer nombre <span style="font-size: 100%; display: inline-block;" class="Ma
 ## Output
 
 La nota mitjana
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    float a = sc.nextFloat();
-    float b = sc.nextFloat();
-    float c = sc.nextFloat();
-    IO.println((a + b + c) / 3);
-}
-```
 
 ## Tests
 

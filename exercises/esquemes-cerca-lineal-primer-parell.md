@@ -1,7 +1,7 @@
 ---
 slug: esquemes-cerca-lineal-primer-parell
+difficulty: 3.0
 tags: [arrays, loops, for-loop, operators, modulo, search]
-difficulty: 3
 ---
 # Cerca lineal: primer nombre parell
 
@@ -16,30 +16,6 @@ A continuació venen els $N$ nombres enters, cadascun en una línia.
 ## Salida
 
 Imprimeix el primer nombre parell trobat o la paraula `CAP`.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    boolean trobat = false;
-    int resultat = 0;
-    for (int i = 0; i < n; i++) {
-        int x = sc.nextInt();
-        if (x % 2 == 0) {
-            resultat = x;
-            trobat = true;
-            break;
-        }
-    }
-    if (trobat) {
-        IO.println(resultat);
-    } else {
-        IO.println("CAP");
-    }
-}
-```
 
 ## Tests
 

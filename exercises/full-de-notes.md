@@ -1,11 +1,11 @@
 ---
 slug: full-de-notes
+difficulty: 3.0
 tags: [loops, while-loop, accumulators, min-max]
-difficulty: 3
 ---
 # Full de notes
 
-![image](assets/e33c4-full-de-notes-img0.png)
+![image](assets/full-de-notes-img0.png)
 
 ## Input
 
@@ -14,26 +14,6 @@ La entrada és la matriu de notes
 ## Output
 
 S'imprimirà la matriu de notes, afegint la columna de la mitjana.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    if (!sc.hasNextInt()) return;
-    int rows = sc.nextInt();
-    int cols = sc.nextInt();
-    for (int r = 0; r < rows; r++) {
-        float sum = 0;
-        for (int c = 0; c < cols; c++) {
-            int val = sc.nextInt();
-            sum += val;
-            IO.print(val + " ");
-        }
-        IO.println(sum / cols);
-    }
-}
-```
 
 ## Tests
 

@@ -1,7 +1,7 @@
 ---
 slug: esquemes-cerca-lineal-prefix
+difficulty: 3.0
 tags: [arrays, strings, loops, for-loop, search]
-difficulty: 3
 ---
 # Cerca lineal: paraula amb prefix
 
@@ -18,27 +18,6 @@ A l'última línia hi ha el caràcter $C$.
 ## Salida
 
 Imprimeix la primera cadena que comença per $C$, o `NO TROBAT` si no n'hi ha cap.
-
-## Solutions
-
-```java
-void main() {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    String[] words = new String[n];
-    for (int i = 0; i < n; i++) words[i] = sc.next();
-    String c = sc.next();
-
-    String resultat = "NO TROBAT";
-    for (int i = 0; i < n; i++) {
-        if (words[i].startsWith(c)) {
-            resultat = words[i];
-            break;
-        }
-    }
-    IO.println(resultat);
-}
-```
 
 ## Tests
 
