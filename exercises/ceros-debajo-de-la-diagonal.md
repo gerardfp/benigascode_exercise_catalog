@@ -19,6 +19,29 @@ A continuació venen els nombres de la matriu.
 
 { `SI` | `NO` }
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    boolean allZero = true;
+    for (int r = 0; r < n; r++) {
+        for (int c = 0; c < n; c++) {
+            int val = sc.nextInt();
+            if (r > c && val != 0) {
+                allZero = false;
+            }
+        }
+    }
+    if (allZero) {
+        IO.println("SI");
+    } else {
+        IO.println("NO");
+    }
+}
+```
+
 ## Tests
 
 ### Test

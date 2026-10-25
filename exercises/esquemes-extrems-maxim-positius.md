@@ -17,6 +17,31 @@ A continuació venen els $N$ nombres enters, cadascun en una línia.
 
 Imprimeix el valor màxim dels positius, o el text `CAP` si no n'hi ha cap.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    int maxPos = -1;
+    boolean trobat = false;
+    for (int i = 0; i < n; i++) {
+        int x = sc.nextInt();
+        if (x > 0) {
+            if (!trobat || x > maxPos) {
+                maxPos = x;
+                trobat = true;
+            }
+        }
+    }
+    if (trobat) {
+        IO.println(maxPos);
+    } else {
+        IO.println("CAP");
+    }
+}
+```
+
 ## Tests
 
 ### Test

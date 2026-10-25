@@ -26,6 +26,41 @@ El final de la partida es marca amb "END".
 S'imprimirà '1' si guanya el jugador 1, i '2' si ho fa el jugador 2.
 Si hi ha empat s'imprimirà '-'.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int p1Score = 0;
+    int p2Score = 0;
+    
+    while (sc.hasNext()) {
+        String round = sc.next();
+        if (round.equals("END")) {
+            break;
+        }
+        char c1 = round.charAt(0);
+        char c2 = round.charAt(1);
+        
+        if (c1 != c2) {
+            if ((c1 == '@' && c2 == '%') || (c1 == '%' && c2 == '#') || (c1 == '#' && c2 == '@')) {
+                p1Score++;
+            } else {
+                p2Score++;
+            }
+        }
+    }
+    
+    if (p1Score > p2Score) {
+        IO.println(1);
+    } else if (p2Score > p1Score) {
+        IO.println(2);
+    } else {
+        IO.println("-");
+    }
+}
+```
+
 ## Tests
 
 ### Test

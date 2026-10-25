@@ -15,6 +15,23 @@ Defineix una classe anomenada CompteCorrent. Ha de tenir tres camps: un enter `s
 
 -
 
+## Solutions
+
+```java
+class CompteCorrent {
+    double saldo;
+    String nomPropietari;
+    boolean bloquejada;
+}
+
+void main() {
+    CompteCorrent cc = new CompteCorrent();
+    cc.saldo = 999.9f;
+    cc.nomPropietari = "Jeff Bezos";
+    cc.bloquejada = false;
+}
+```
+
 ## Plantillas
 
 ```java

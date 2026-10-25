@@ -15,6 +15,31 @@ Una secuencia de N números enteros, terminada con un 0.
 
 Un número entero indicando la cantidad de incrementos.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int prev = sc.nextInt();
+    if (prev == 0) {
+        IO.println(0);
+        return;
+    }
+    int count = 0;
+    while (sc.hasNextInt()) {
+        int current = sc.nextInt();
+        if (current == 0) {
+            break;
+        }
+        if (current > prev) {
+            count++;
+        }
+        prev = current;
+    }
+    IO.println(count);
+}
+```
+
 ## Tests
 
 ### Test

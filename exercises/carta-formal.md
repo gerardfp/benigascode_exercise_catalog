@@ -22,6 +22,22 @@ cognom1
 cognom2
 ```
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    String tractament = sc.nextLine();
+    String nom = sc.nextLine();
+    String cognom1 = sc.nextLine();
+    String cognom2 = sc.nextLine();
+
+    IO.println(tractament + " " + cognom1 + " " + cognom2 + ", " + nom);
+    IO.println();
+    IO.println("El principal objectiu de la present carta...");
+}
+```
+
 ## Tests
 
 ### Test

@@ -25,6 +25,27 @@ S'indicarà `xoca amb el pont i`, on <span style="font-size: 100%; display: inli
 
 Si el vehicle **no xoca** amb cap pont, no s'ha d'imprimir res.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextDouble()) return;
+    double h = sc.nextDouble();
+    int n = sc.nextInt();
+    int crashedBridge = -1;
+    for (int i = 1; i <= n; i++) {
+        double bridge = sc.nextDouble();
+        if (bridge < h && crashedBridge == -1) {
+            crashedBridge = i;
+        }
+    }
+    if (crashedBridge != -1) {
+        IO.println("xoca amb el pont " + crashedBridge);
+    }
+}
+```
+
 ## Tests
 
 ### Test

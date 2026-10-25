@@ -17,6 +17,24 @@ A continuació venen els $N$ nombres enters, cadascun en una línia.
 
 Imprimeix `SI` si tots els elements són idèntics, o `NO` si hi ha algun valor diferent.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    int primer = sc.nextInt();
+    boolean totsIguals = true;
+    for (int i = 1; i < n; i++) {
+        int x = sc.nextInt();
+        if (x != primer) {
+            totsIguals = false;
+        }
+    }
+    IO.println(totsIguals ? "SI" : "NO");
+}
+```
+
 ## Tests
 
 ### Test

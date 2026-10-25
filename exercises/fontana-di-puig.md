@@ -54,6 +54,36 @@ Nuestro programa leerá este registro y calculará cuantas monedas se han lanzad
 
 200) 1
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int c5 = 0, c10 = 0, c20 = 0, c50 = 0, c100 = 0, c200 = 0;
+    int prev = 0;
+    while (sc.hasNextInt()) {
+        int current = sc.nextInt();
+        if (current == 0) break;
+        int diff = current - prev;
+        switch (diff) {
+            case 5 -> c5++;
+            case 10 -> c10++;
+            case 20 -> c20++;
+            case 50 -> c50++;
+            case 100 -> c100++;
+            case 200 -> c200++;
+        }
+        prev = current;
+    }
+    IO.println("5) " + c5);
+    IO.println("10) " + c10);
+    IO.println("20) " + c20);
+    IO.println("50) " + c50);
+    IO.println("100) " + c100);
+    IO.println("200) " + c200);
+}
+```
+
 ## Tests
 
 ### Test

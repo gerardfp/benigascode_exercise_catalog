@@ -17,6 +17,25 @@ L'entrada consta de 6 noms amb 6 puntuacions.
 
 El nom i la puntuació del guanyador
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    String maxName = "";
+    int maxScore = Integer.MIN_VALUE;
+    for (int i = 0; i < 6 && sc.hasNext(); i++) {
+        String name = sc.next();
+        int score = sc.nextInt();
+        if (score > maxScore) {
+            maxScore = score;
+            maxName = name;
+        }
+    }
+    IO.println(maxName + " " + maxScore);
+}
+```
+
 ## Tests
 
 ### Test

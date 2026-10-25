@@ -15,6 +15,25 @@ Una secuencia de (N) números terminada en 0.
 
 Un "SI" o un "NO" por cada número leído.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    while (sc.hasNextInt()) {
+        int n = sc.nextInt();
+        if (n == 0) {
+            break;
+        }
+        if (n % 7 == 0) {
+            IO.println("SI");
+        } else {
+            IO.println("NO");
+        }
+    }
+}
+```
+
 ## Tests
 
 ### Test

@@ -34,6 +34,46 @@ Porcentaje por debajo de la media: `decimal + %`
 Porcentaje por encima de la media: `decimal + %`  
 Existe una temperatura igual a la media: `true | false`
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    double[] temps = new double[n];
+    double sum = 0;
+    double max = 0;
+    double min = 0;
+    for (int i = 0; i < n; i++) {
+        temps[i] = Double.parseDouble(sc.next());
+        sum += temps[i];
+        if (i == 0 || temps[i] > max) max = temps[i];
+        if (i == 0 || temps[i] < min) min = temps[i];
+    }
+    double media = sum / n;
+    int below = 0;
+    int above = 0;
+    boolean hasEqual = false;
+    for (int i = 0; i < n; i++) {
+        if (temps[i] < media) below++;
+        else if (temps[i] > media) above++;
+        else hasEqual = true;
+    }
+    double pctBelow = below * 100.0 / n;
+    double pctAbove = above * 100.0 / n;
+
+    IO.println("Cantidad de mediciones: " + n);
+    IO.println("Suma total: " + sum);
+    IO.println("Temperatura media: " + media);
+    IO.println("Temperatura maxima: " + max);
+    IO.println("Temperatura minima: " + min);
+    IO.println("Porcentaje por debajo de la media: " + pctBelow + "%");
+    IO.println("Porcentaje por encima de la media: " + pctAbove + "%");
+    IO.println("Existe una temperatura igual a la media: " + hasEqual);
+}
+```
+
 ## Tests
 
 ### Test

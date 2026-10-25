@@ -22,6 +22,27 @@ Cada caso de prueba consta de una secuencia de N números que termina con un 0.
 
 Un "SI" o un "NO" por cada caso de prueba, separados por un salto de linea
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int t = sc.nextInt();
+    for (int i = 0; i < t; i++) {
+        boolean[] seen = new boolean[6];
+        int num;
+        while ((num = sc.nextInt()) != 0) {
+            if (num >= 1 && num <= 5) {
+                seen[num] = true;
+            }
+        }
+        boolean allSeen = seen[1] && seen[2] && seen[3] && seen[4] && seen[5];
+        IO.println(allSeen ? "SI" : "NO");
+    }
+}
+```
+
 ## Tests
 
 ### Test

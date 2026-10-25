@@ -19,6 +19,27 @@ A continuación vienen las <span style="font-size: 100%; display: inline-block;"
 
 Se imprimirà la puntuación truncada media
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    double min = Double.MAX_VALUE;
+    double max = -Double.MAX_VALUE;
+    double sum = 0;
+    for (int i = 0; i < n; i++) {
+        double v = sc.nextDouble();
+        if (v < min) min = v;
+        if (v > max) max = v;
+        sum += v;
+    }
+    double avg = (sum - min - max) / (n - 2);
+    IO.println(avg);
+}
+```
+
 ## Plantillas
 
 ```java

@@ -15,6 +15,17 @@ Donades dues variables `a` i `b` amb declaracions invàlides, afegeix el tipus c
 
 -
 
+## Solutions
+
+```java
+void main() {
+    int a = 512343;
+    int b = 3431231;
+
+    IO.println(a + b);
+}
+```
+
 ## Plantillas
 
 ```java

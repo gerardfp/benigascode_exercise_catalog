@@ -33,6 +33,23 @@ void main() {
 }
 ```
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    boolean totsPositius = true;
+    for (int i = 0; i < n; i++) {
+        int x = sc.nextInt();
+        if (x <= 0) {
+            totsPositius = false;
+        }
+    }
+    IO.println(totsPositius ? "SI" : "NO");
+}
+```
+
 ## Tests
 
 ### Test

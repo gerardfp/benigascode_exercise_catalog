@@ -16,6 +16,17 @@ Una nota amb o sense decimals
 
 enter
 
+## Solutions
+
+```java
+void main() {
+    Scanner scanner = new Scanner(System.in);
+    double nota = scanner.nextDouble();
+    int notaArrodonida = (int) Math.round(nota);
+    IO.println(notaArrodonida);
+}
+```
+
 ## Tests
 
 ### Test

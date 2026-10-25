@@ -19,6 +19,33 @@ La casilla en la que está la reina NEGRA se indica con una 'N'.
 
 SI | NO
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int rB = -1, cB = -1, rN = -1, cN = -1;
+    for (int r = 0; r < 8; r++) {
+        String row = sc.next();
+        for (int c = 0; c < 8; c++) {
+            char ch = row.charAt(c);
+            if (ch == 'B') {
+                rB = r;
+                cB = c;
+            } else if (ch == 'N') {
+                rN = r;
+                cN = c;
+            }
+        }
+    }
+    if (rB == rN || cB == cN || Math.abs(rB - rN) == Math.abs(cB - cN)) {
+        IO.println("SI");
+    } else {
+        IO.println("NO");
+    }
+}
+```
+
 ## Tests
 
 ### Test

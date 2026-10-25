@@ -15,6 +15,16 @@ Gatito ASCII-art (dedicado a Arnau)
 
 -
 
+## Solutions
+
+```java
+void main() {
+    IO.println("(\\___/)");
+    IO.println("(=` .`)");
+    IO.println("(_(\")(\")");
+}
+```
+
 ## Plantillas
 
 ```java

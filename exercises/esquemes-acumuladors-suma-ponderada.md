@@ -35,6 +35,25 @@ void main() {
 }
 ```
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    int[] v = new int[n];
+    for (int i = 0; i < n; i++) v[i] = sc.nextInt();
+    int[] p = new int[n];
+    for (int i = 0; i < n; i++) p[i] = sc.nextInt();
+
+    long sumaPonderada = 0;
+    for (int i = 0; i < n; i++) {
+        sumaPonderada += (long) v[i] * p[i];
+    }
+    IO.println(sumaPonderada);
+}
+```
+
 ## Tests
 
 ### Test

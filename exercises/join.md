@@ -49,6 +49,52 @@ Tot el text s'ha d'aliniar a l'esquerra.
 
 Per últim caldrà indicar el número de tuples retornades per la consulta: "(X rows)"
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int numProd = sc.nextInt();
+    int[] prodId = new int[numProd];
+    int[] prodMerchantId = new int[numProd];
+    String[] prodName = new String[numProd];
+    double[] prodPrice = new double[numProd];
+
+    for (int i = 0; i < numProd; i++) {
+        prodId[i] = sc.nextInt();
+        prodMerchantId[i] = sc.nextInt();
+        prodName[i] = sc.next();
+        prodPrice[i] = Double.parseDouble(sc.next());
+    }
+
+    int numMerchants = sc.nextInt();
+    int[] merchId = new int[numMerchants];
+    String[] merchName = new String[numMerchants];
+
+    for (int i = 0; i < numMerchants; i++) {
+        merchId[i] = sc.nextInt();
+        merchName[i] = sc.nextLine().trim();
+    }
+
+    IO.println("%-16s|%-16s|%-10s".formatted("name", "merchant", "price"));
+    IO.println("----------------+----------------+----------");
+
+    int rows = 0;
+    for (int i = 0; i < numProd; i++) {
+        for (int j = 0; j < numMerchants; j++) {
+            if (prodMerchantId[i] == merchId[j]) {
+                IO.println("%-16s|%-16s|%10.2f".formatted(prodName[i], merchName[j], prodPrice[i]));
+                rows++;
+                break;
+            }
+        }
+    }
+
+    IO.println("(%d rows)".formatted(rows));
+}
+```
+
 ## Tests
 
 ### Test

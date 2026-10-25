@@ -23,6 +23,40 @@ A continuació ve la graella. Les pastanagues estan indicades amb el número d'o
 
 S'escriurà el nombre de moviments que necessita el conill per a menjar-se totes les pastanagues en l'ordre correcte.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    int[] carrotR = new int[n * n + 1];
+    int[] carrotC = new int[n * n + 1];
+    int maxCarrot = 0;
+    for (int r = 0; r < n; r++) {
+        for (int c = 0; c < n; c++) {
+            int val = sc.nextInt();
+            if (val > 0) {
+                carrotR[val] = r;
+                carrotC[val] = c;
+                if (val > maxCarrot) {
+                    maxCarrot = val;
+                }
+            }
+        }
+    }
+    int currR = n / 2;
+    int currC = n / 2;
+    int totalMoves = 0;
+    for (int step = 1; step <= maxCarrot; step++) {
+        totalMoves += Math.abs(carrotR[step] - currR) + Math.abs(carrotC[step] - currC);
+        currR = carrotR[step];
+        currC = carrotC[step];
+    }
+    IO.println(totalMoves);
+}
+```
+
 ## Tests
 
 ### Test

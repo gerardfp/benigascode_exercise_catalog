@@ -21,6 +21,34 @@ La llista de paraules acaba amb '**END**'
 
 Es generarà una programa Java amb una classe anomenada "Dictionari", que inicialitzi un array d'strings amb les paraules, anomenat "words".
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    String[] words = new String[10000];
+    int n = 0;
+    while (sc.hasNext()) {
+        String line = sc.next();
+        if (line.equals("__END__")) {
+            break;
+        }
+        words[n++] = line;
+    }
+    IO.println("class Dictionari {");
+    IO.println("    String[] words = {");
+    for (int i = 0; i < n; i++) {
+        if (i < n - 1) {
+            IO.println("        \"" + words[i] + "\",");
+        } else {
+            IO.println("        \"" + words[i] + "\"");
+        }
+    }
+    IO.println("    };");
+    IO.println("}");
+}
+```
+
 ## Tests
 
 ### Test

@@ -53,6 +53,54 @@ La entrada consisteix en un nombre octal P indicant els permisos.
 
 S'imprimiran els permisos en format caràcter.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNext()) return;
+    String s = sc.next();
+    while (s.length() < 4) {
+        s = "0" + s;
+    }
+    int special = s.charAt(0) - '0';
+    int user = s.charAt(1) - '0';
+    int group = s.charAt(2) - '0';
+    int other = s.charAt(3) - '0';
+
+    String res = "";
+
+    // User
+    res += (user & 4) != 0 ? 'r' : '-';
+    res += (user & 2) != 0 ? 'w' : '-';
+    if ((special & 4) != 0) {
+        res += (user & 1) != 0 ? 's' : 'S';
+    } else {
+        res += (user & 1) != 0 ? 'x' : '-';
+    }
+
+    // Group
+    res += (group & 4) != 0 ? 'r' : '-';
+    res += (group & 2) != 0 ? 'w' : '-';
+    if ((special & 2) != 0) {
+        res += (group & 1) != 0 ? 's' : 'S';
+    } else {
+        res += (group & 1) != 0 ? 'x' : '-';
+    }
+
+    // Other
+    res += (other & 4) != 0 ? 'r' : '-';
+    res += (other & 2) != 0 ? 'w' : '-';
+    if ((special & 1) != 0) {
+        res += (other & 1) != 0 ? 't' : 'T';
+    } else {
+        res += (other & 1) != 0 ? 'x' : '-';
+    }
+
+    IO.println(res);
+}
+```
+
 ## Tests
 
 ### Test

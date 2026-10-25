@@ -17,6 +17,25 @@ A continuació venen els $N$ nombres enters, cadascun en una línia.
 
 Imprimeix el rang de la seqüència.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    int[] nums = new int[n];
+    for (int i = 0; i < n; i++) nums[i] = sc.nextInt();
+
+    int min = nums[0];
+    int max = nums[0];
+    for (int i = 1; i < n; i++) {
+        if (nums[i] < min) min = nums[i];
+        if (nums[i] > max) max = nums[i];
+    }
+    IO.println(max - min);
+}
+```
+
 ## Tests
 
 ### Test

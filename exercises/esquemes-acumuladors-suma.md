@@ -31,6 +31,20 @@ void main() {
 }
 ```
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    int suma = 0;
+    for (int i = 0; i < n; i++) {
+        suma += sc.nextInt();
+    }
+    IO.println(suma);
+}
+```
+
 ## Tests
 
 ### Test

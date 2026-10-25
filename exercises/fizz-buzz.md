@@ -44,6 +44,30 @@ Salida:
 Buzz 11 Fizz 13 14 FizzBuzz 16
 ```
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int start = sc.nextInt();
+    int end = sc.nextInt();
+    for (int i = start; i <= end; i++) {
+        if (i > start) IO.print(" ");
+        if (i % 3 == 0 && i % 5 == 0) {
+            IO.print("FizzBuzz");
+        } else if (i % 3 == 0) {
+            IO.print("Fizz");
+        } else if (i % 5 == 0) {
+            IO.print("Buzz");
+        } else {
+            IO.print(i);
+        }
+    }
+    IO.println();
+}
+```
+
 ## Tests
 
 ### Test

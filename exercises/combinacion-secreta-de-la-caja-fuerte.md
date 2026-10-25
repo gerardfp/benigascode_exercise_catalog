@@ -19,6 +19,35 @@ A continuación viene la secuencia de números introducidos (como mínimo 3). La
 
 Se imprimirá `ABIERTA` si se ha introducido en algún momento la combinación secreta o `CERRADA` en caso contrario.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int c1 = sc.nextInt();
+    int c2 = sc.nextInt();
+    int c3 = sc.nextInt();
+
+    int prev2 = -1;
+    int prev1 = -1;
+    boolean oberta = false;
+
+    while (sc.hasNextInt()) {
+        int n = sc.nextInt();
+        if (n == -1) {
+            break;
+        }
+        if (prev2 == c1 && prev1 == c2 && n == c3) {
+            oberta = true;
+        }
+        prev2 = prev1;
+        prev1 = n;
+    }
+
+    IO.println(oberta ? "ABIERTA" : "CERRADA");
+}
+```
+
 ## Tests
 
 ### Test

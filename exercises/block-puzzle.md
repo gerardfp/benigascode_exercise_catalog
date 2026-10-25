@@ -25,6 +25,36 @@ A continación viene otro tablero de $MxN$ casillas, con la ficha que trata de p
 
 Se imprimirá `true` si la ficha se puede colocar en esa posición, y `false` en caso contrario
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int h = sc.nextInt();
+    int w = sc.nextInt();
+
+    int[][] board = new int[h][w];
+    for (int r = 0; r < h; r++) {
+        for (int c = 0; c < w; c++) {
+            board[r][c] = sc.nextInt();
+        }
+    }
+
+    boolean fits = true;
+    for (int r = 0; r < h; r++) {
+        for (int c = 0; c < w; c++) {
+            int piece = sc.nextInt();
+            if (piece == 1 && board[r][c] == 1) {
+                fits = false;
+            }
+        }
+    }
+
+    IO.println(fits);
+}
+```
+
 ## Tests
 
 ### Test

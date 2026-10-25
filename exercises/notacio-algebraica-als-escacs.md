@@ -23,6 +23,18 @@ La entrada consisteix en dos nombres <span style="font-size: 100%; display: inli
 
 S'imprimirà la posició de la casella en notació algebraica.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int f = sc.nextInt();
+    int c = sc.nextInt();
+    char col = (char) ('a' + f - 1);
+    IO.println("" + col + c);
+}
+```
+
 ## Tests
 
 ### Test

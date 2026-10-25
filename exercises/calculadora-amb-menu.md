@@ -29,6 +29,33 @@ L'entrada consta de 3 nombres:
 
 S'imprimirà el resultat de l'operació
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+    int op = sc.nextInt();
+
+    IO.println("MENU:");
+    IO.println("1.-SUMAR");
+    IO.println("2.-RESTAR");
+    IO.println("3.-MULTIPLICAR");
+    IO.println("4.-DIVIDIR");
+    IO.println("Esculli una opcio:");
+
+    int res = switch (op) {
+        case 1 -> a + b;
+        case 2 -> a - b;
+        case 3 -> a * b;
+        case 4 -> a / b;
+        default -> 0;
+    };
+    IO.println(res);
+}
+```
+
 ## Tests
 
 ### Test

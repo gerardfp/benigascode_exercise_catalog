@@ -23,6 +23,18 @@ La entrada consta d'un nombre de pisos <span style="font-size: 100%; display: in
 
 El nombre de peces necessàries
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextLong()) return;
+    long n = sc.nextLong();
+    long ans = n * (n + 1) * (2 * n + 1) / 6;
+    IO.println(ans);
+}
+```
+
 ## Tests
 
 ### Test

@@ -31,6 +31,45 @@ Por último, se expresa el <span style="font-size: 100%; display: inline-block;"
 
 Se imprimirá la imagen resultante tras aplicar el blending mode indicado a las dos capas.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int rows = sc.nextInt();
+    int cols = sc.nextInt();
+
+    int[][] layer1 = new int[rows][cols];
+    for (int r = 0; r < rows; r++) {
+        for (int c = 0; c < cols; c++) {
+            layer1[r][c] = sc.nextInt();
+        }
+    }
+
+    int[][] layer2 = new int[rows][cols];
+    for (int r = 0; r < rows; r++) {
+        for (int c = 0; c < cols; c++) {
+            layer2[r][c] = sc.nextInt();
+        }
+    }
+
+    String mode = sc.next();
+
+    for (int r = 0; r < rows; r++) {
+        for (int c = 0; c < cols; c++) {
+            int val;
+            if (mode.equals("ADD")) {
+                val = layer1[r][c] + layer2[r][c];
+            } else {
+                val = (layer1[r][c] != 0) ? layer1[r][c] : layer2[r][c];
+            }
+            IO.print(val + (c < cols - 1 ? " " : ""));
+        }
+        IO.println();
+    }
+}
+```
+
 ## Tests
 
 ### Test

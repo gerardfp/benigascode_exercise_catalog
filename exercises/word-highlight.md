@@ -19,6 +19,45 @@ La entrada consta de dos líneas. La primera contiene el texto, y la segunda las
 
 Se imprimirá en una sola línea cada palabra del texto, separadas por espacio en blanco, y resaltando entre guiones bajos `_` las palabras indicadas.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    String[] words = new String[n];
+    for (int i = 0; i < n; i++) {
+        words[i] = sc.next();
+    }
+    int m = sc.nextInt();
+    String[] highlights = new String[m];
+    for (int i = 0; i < m; i++) {
+        highlights[i] = sc.next();
+    }
+
+    String result = "";
+    for (int i = 0; i < n; i++) {
+        boolean highlight = false;
+        for (int j = 0; j < m; j++) {
+            if (words[i].equals(highlights[j])) {
+                highlight = true;
+                break;
+            }
+        }
+        if (highlight) {
+            result += "_" + words[i] + "_";
+        } else {
+            result += words[i];
+        }
+        if (i < n - 1) {
+            result += " ";
+        }
+    }
+    IO.println(result);
+}
+```
+
 ## Tests
 
 ### Test

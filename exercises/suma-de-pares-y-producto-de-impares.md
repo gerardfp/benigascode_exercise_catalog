@@ -15,6 +15,30 @@ Una seqüència de números enters positius acabada en -1.
 
 Imprimeix la suma dels números parells en una línia, en la següent línia el producte dels números imparells i en la següent línea el total de números llegits (sense comptar el -1).
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int sumEven = 0;
+    int prodOdd = 1;
+    int count = 0;
+    while (sc.hasNextInt()) {
+        int x = sc.nextInt();
+        if (x == -1) break;
+        count++;
+        if (x % 2 == 0) {
+            sumEven += x;
+        } else {
+            prodOdd *= x;
+        }
+    }
+    IO.println(sumEven);
+    IO.println(prodOdd);
+    IO.println(count);
+}
+```
+
 ## Tests
 
 ### Test

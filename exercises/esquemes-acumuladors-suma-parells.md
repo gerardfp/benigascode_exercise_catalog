@@ -17,6 +17,23 @@ A continuació venen els $N$ nombres enters, cadascun en una línia.
 
 Imprimeix la suma acumulada dels valors parells i positius.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    int suma = 0;
+    for (int i = 0; i < n; i++) {
+        int x = sc.nextInt();
+        if (x > 0 && x % 2 == 0) {
+            suma += x;
+        }
+    }
+    IO.println(suma);
+}
+```
+
 ## Tests
 
 ### Test

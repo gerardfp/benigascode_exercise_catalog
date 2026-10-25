@@ -19,6 +19,31 @@ A continuació venen els $N$ nombres enters, cadascun en una línia.
 
 Imprimeix el segon valor màxim estricte de la seqüència.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    int[] nums = new int[n];
+    for (int i = 0; i < n; i++) nums[i] = sc.nextInt();
+
+    int max1 = Integer.MIN_VALUE;
+    for (int i = 0; i < n; i++) {
+        if (nums[i] > max1) {
+            max1 = nums[i];
+        }
+    }
+    int max2 = Integer.MIN_VALUE;
+    for (int i = 0; i < n; i++) {
+        if (nums[i] != max1 && nums[i] > max2) {
+            max2 = nums[i];
+        }
+    }
+    IO.println(max2);
+}
+```
+
 ## Tests
 
 ### Test

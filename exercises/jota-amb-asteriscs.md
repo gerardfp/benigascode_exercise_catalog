@@ -15,6 +15,20 @@ Escriu un programa que imprimeixi la lletra `J` amb asteriscs.
 
 -
 
+## Solutions
+
+```java
+void main() {
+    IO.println("********");
+    IO.println("      **");
+    IO.println("      **");
+    IO.println("      **");
+    IO.println("**    **");
+    IO.println("**    **");
+    IO.println(" *******");
+}
+```
+
 ## Plantillas
 
 ```java

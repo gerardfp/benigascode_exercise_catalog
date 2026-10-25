@@ -37,6 +37,26 @@ L'entrada té dues opcions:
 
 S'imprimirà l'enquesta en el format apuntat als casos de prova
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextLine()) return;
+    String ans = sc.nextLine().trim();
+    IO.println("Benvingut a l'enquesta.");
+    IO.println("Coneixes algun framework?");
+    if (ans.equalsIgnoreCase("si")) {
+        IO.println("Quin?");
+        if (sc.hasNextLine()) {
+            String framework = sc.nextLine();
+            IO.println("S'ha registrat la resposta: " + framework);
+        }
+    }
+    IO.println("Gracies per contestar");
+}
+```
+
 ## Plantillas
 
 ```java

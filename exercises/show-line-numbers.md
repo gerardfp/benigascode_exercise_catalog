@@ -21,6 +21,23 @@ S'imprimirà el mateix codi font, però amb el número de línia a l'inici de ca
 
 El número de línia ocuparà dos caràcters, després hi haurà un espai en blanc, després una barra vertical i després un altre espai.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int lineNum = 1;
+    while (sc.hasNextLine()) {
+        String line = sc.nextLine();
+        if (line.equals("END")) {
+            break;
+        }
+        IO.println("%2d | %s".formatted(lineNum, line));
+        lineNum++;
+    }
+}
+```
+
 ## Tests
 
 ### Test

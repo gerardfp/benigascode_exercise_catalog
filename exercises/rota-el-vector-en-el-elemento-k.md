@@ -35,6 +35,30 @@ Esta sería la salida para el caso del ejemplo:
 
 2 3 4 5 6 7 8 9 10 1
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    int[] a = new int[n];
+    for (int i = 0; i < n; i++) {
+        a[i] = sc.nextInt();
+    }
+    int k = sc.nextInt();
+
+    for (int i = 0; i < n; i++) {
+        int idx = (k + i) % n;
+        if (i > 0) {
+            IO.print(" ");
+        }
+        IO.print(a[idx]);
+    }
+    IO.println();
+}
+```
+
 ## Tests
 
 ### Test

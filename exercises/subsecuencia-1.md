@@ -33,6 +33,44 @@ La entrada consisteix en una primera seqüència d' <span style="font-size: 100%
 
 "SI" o "NO"
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n1 = sc.nextInt();
+    int[] a = new int[n1];
+    for (int i = 0; i < n1; i++) {
+        a[i] = sc.nextInt();
+    }
+
+    if (!sc.hasNextInt()) return;
+    int n2 = sc.nextInt();
+    int[] b = new int[n2];
+    for (int i = 0; i < n2; i++) {
+        b[i] = sc.nextInt();
+    }
+
+    boolean found = false;
+    for (int i = 0; i <= n2 - n1; i++) {
+        boolean match = true;
+        for (int j = 0; j < n1; j++) {
+            if (b[i + j] != a[j]) {
+                match = false;
+                break;
+            }
+        }
+        if (match) {
+            found = true;
+            break;
+        }
+    }
+
+    IO.println(found ? "SI" : "NO");
+}
+```
+
 ## Tests
 
 ### Test

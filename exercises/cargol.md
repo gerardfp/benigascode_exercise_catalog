@@ -16,6 +16,29 @@ Tres números enters positius: $H$, $A$ i $B$
 
 El número de dia en què aconseguirà arribar a dalt de tot
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int h = sc.nextInt();
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+
+    int pos = 0;
+    int day = 0;
+    while (true) {
+        day++;
+        pos += a;
+        if (pos >= h) {
+            break;
+        }
+        pos -= b;
+    }
+    IO.println(day);
+}
+```
+
 ## Plantillas
 
 ```java

@@ -19,6 +19,26 @@ A l'última línia hi ha el valor $X$ a cercar.
 
 Imprimeix l'índex de l'última aparició de $X$, o `-1` si no apareix.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    int[] nums = new int[n];
+    for (int i = 0; i < n; i++) nums[i] = sc.nextInt();
+    int x = sc.nextInt();
+
+    int pos = -1;
+    for (int i = 0; i < n; i++) {
+        if (nums[i] == x) {
+            pos = i;
+        }
+    }
+    IO.println(pos);
+}
+```
+
 ## Tests
 
 ### Test

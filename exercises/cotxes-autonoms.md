@@ -33,6 +33,25 @@ En primer lloc l'estat del semàfor S, després la presència de vianants V, fin
 
 S'imprimirà "CONTINUAR" o "NO CONTINUAR"
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    String semafor = sc.next();
+    boolean vianants = sc.nextBoolean();
+    int agent = sc.nextInt();
+
+    boolean continuar = !vianants && (agent == 1 || (agent == 0 && (semafor.equals("g") || semafor.equals("o"))));
+
+    if (continuar) {
+        IO.println("CONTINUAR");
+    } else {
+        IO.println("NO CONTINUAR");
+    }
+}
+```
+
 ## Tests
 
 ### Test

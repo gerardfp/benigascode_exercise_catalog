@@ -25,6 +25,25 @@ La entrada consisteix en tres nombres:
 
 S'imprimirà el *thumb height* i el *scroll jump*, arrodonits sense decimals.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextDouble()) return;
+    double vh = sc.nextDouble();
+    double ch = sc.nextDouble();
+    double ah = sc.nextDouble();
+
+    double trackHeight = vh - 2 * ah;
+    double thumbHeight = trackHeight * (vh / ch);
+    double scrollJump = (ch - vh) / (trackHeight - thumbHeight);
+
+    IO.println(Math.round(thumbHeight));
+    IO.println(Math.round(scrollJump));
+}
+```
+
 ## Tests
 
 ### Test

@@ -54,6 +54,32 @@ Salida:
 ERROR
 ```
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    if (n < 0) {
+        IO.println("ERROR");
+    } else if (n == 0) {
+        IO.println(0);
+    } else if (n == 1) {
+        IO.println(1);
+    } else {
+        int a = 0;
+        int b = 1;
+        for (int i = 2; i <= n; i++) {
+            int c = a + b;
+            a = b;
+            b = c;
+        }
+        IO.println(b);
+    }
+}
+```
+
 ## Tests
 
 ### Test

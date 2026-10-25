@@ -17,6 +17,29 @@ A continuació venen els $N$ nombres enters, cadascun en una línia.
 
 Imprimeix `SI` si tots els elements són únics, o `NO` si n'hi ha algun de duplicat.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    int[] nums = new int[n];
+    for (int i = 0; i < n; i++) nums[i] = sc.nextInt();
+
+    boolean totsUnics = true;
+    for (int i = 0; i < n; i++) {
+        for (int j = i + 1; j < n; j++) {
+            if (nums[i] == nums[j]) {
+                totsUnics = false;
+                break;
+            }
+        }
+        if (!totsUnics) break;
+    }
+    IO.println(totsUnics ? "SI" : "NO");
+}
+```
+
 ## Tests
 
 ### Test

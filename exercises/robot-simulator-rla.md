@@ -45,6 +45,49 @@ Una cadena de $L$ caràcters amb les instruccions
 
 S'imprimiran les coordenades finals `{X, Y}` i la orientació `O` en que queda el robot
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int x = sc.nextInt();
+    int y = sc.nextInt();
+    String dirStr = sc.next();
+    String inst = sc.hasNext() ? sc.next() : "";
+
+    int d = switch (dirStr.charAt(0)) {
+        case 'N' -> 0;
+        case 'E' -> 1;
+        case 'S' -> 2;
+        default -> 3;
+    };
+
+    for (int i = 0; i < inst.length(); i++) {
+        char c = inst.charAt(i);
+        if (c == 'R') {
+            d = (d + 1) % 4;
+        } else if (c == 'L') {
+            d = (d + 3) % 4;
+        } else if (c == 'A') {
+            if (d == 0) y++;
+            else if (d == 1) x++;
+            else if (d == 2) y--;
+            else if (d == 3) x--;
+        }
+    }
+
+    char outDir = switch (d) {
+        case 0 -> 'N';
+        case 1 -> 'E';
+        case 2 -> 'S';
+        default -> 'W';
+    };
+
+    IO.println("{%d, %d}".formatted(x, y));
+    IO.println(outDir);
+}
+```
+
 ## Tests
 
 ### Test

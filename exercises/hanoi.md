@@ -15,6 +15,74 @@ La entrada consisteix en el número de discs
 
 Predefinit
 
+## Solutions
+
+```java
+String[] src;
+String[] aux;
+String[] dst;
+
+void solve(int n, String[] src, String[] aux, String[] dst) {
+    if (n == 0) return;
+    solve(n - 1, src, dst, aux);
+    move(src, dst);
+    print();
+    solve(n - 1, aux, src, dst);
+}
+
+void move(String[] from, String[] to) {
+    String disc = "";
+    for (int i = from.length - 1; i >= 0; i--) {
+        if (!from[i].equals("")) {
+            disc = from[i];
+            from[i] = "";
+            break;
+        }
+    }
+
+    for (int i = 0; i < to.length; i++) {
+        if (to[i].equals("")) {
+            to[i] = disc;
+            break;
+        }
+    }
+}
+
+void print() {
+    for (int i = dst.length - 1; i >= 0; i--) {
+        String s = src[i].equals("") ? "|" : src[i];
+        String a = aux[i].equals("") ? "|" : aux[i];
+        String d = dst[i].equals("") ? "|" : dst[i];
+        int ss = (dst.length * 2 - s.length() + 1) / 2;
+        int sa = (dst.length * 2 - a.length() + 1) / 2;
+        int sd = (dst.length * 2 - d.length() + 1) / 2;
+        int h = 1;
+        String fmt = "%1$" + ss + "s%2$" + h + "s%1$" + ss + "s"
+                   + "%1$" + sa + "s%3$" + h + "s%1$" + sa + "s"
+                   + "%1$" + sd + "s%4$" + h + "s%1$" + sd + "s%n";
+        IO.print(fmt.formatted("", s, a, d));
+    }
+    IO.print(("%" + (dst.length * 6 + 3) + "s%n").formatted("").replace(" ", "-"));
+}
+
+void main() {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    src = new String[n];
+    aux = new String[n];
+    dst = new String[n];
+
+    for (int i = 0; i < n; i++) {
+        int nd = (n * 2 - ((i + 1) * 2 - 1));
+        src[i] = ("%" + nd + "s").formatted("").replace(" ", "#");
+        aux[i] = "";
+        dst[i] = "";
+    }
+    print();
+    solve(n, src, aux, dst);
+}
+```
+
 ## Plantillas
 
 ```java

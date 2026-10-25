@@ -19,6 +19,22 @@ Un numero N de bolos
 
 true | false
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    int sum = 0;
+    int i = 1;
+    while (sum < n) {
+        sum += i;
+        i++;
+    }
+    IO.println(sum == n);
+}
+```
+
 ## Tests
 
 ### Test

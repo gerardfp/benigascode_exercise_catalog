@@ -29,6 +29,36 @@ Una cadena de L caràcters
 
 La cadena comprimida
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNext()) {
+        return;
+    }
+    String s = sc.next();
+    if (s.isEmpty()) {
+        return;
+    }
+    char currentChar = s.charAt(0);
+    int count = 1;
+    for (int i = 1; i < s.length(); i++) {
+        char c = s.charAt(i);
+        if (c == currentChar) {
+            count++;
+        } else {
+            IO.print(count);
+            IO.print(currentChar);
+            currentChar = c;
+            count = 1;
+        }
+    }
+    IO.print(count);
+    IO.println(currentChar);
+}
+```
+
 ## Tests
 
 ### Test

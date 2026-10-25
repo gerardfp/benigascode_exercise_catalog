@@ -21,6 +21,41 @@ A continuació venen les $N$ pàgines. Cada pàgina va en una línia: en primer 
 
 S'imprimiràn totes les pàgines ordenades segons el número de pàgina.
 
+## Solutions
+
+```java
+void main() {
+    // Hi ha que guardar cada pàgina directament en la posició que li correspon.
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    sc.nextLine();
+    int[] page = new int[n];
+    String[] content = new String[n];
+    for (int i = 0; i < n; i++) {
+        String line = sc.nextLine();
+        int spaceIdx = line.indexOf(' ');
+        page[i] = Integer.parseInt(line.substring(0, spaceIdx));
+        content[i] = line;
+    }
+    for (int i = 0; i < n - 1; i++) {
+        for (int j = 0; j < n - 1 - i; j++) {
+            if (page[j] > page[j + 1]) {
+                int tempP = page[j];
+                page[j] = page[j + 1];
+                page[j + 1] = tempP;
+                String tempC = content[j];
+                content[j] = content[j + 1];
+                content[j + 1] = tempC;
+            }
+        }
+    }
+    for (int i = 0; i < n; i++) {
+        IO.println(content[i]);
+    }
+}
+```
+
 ## Tests
 
 ### Test

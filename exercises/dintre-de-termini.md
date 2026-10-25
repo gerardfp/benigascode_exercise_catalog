@@ -40,6 +40,24 @@ if (any1 > any2) {
 System.out.println(enmig);
 ```
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int d1 = sc.nextInt(); sc.next(); int m1 = sc.nextInt(); sc.next(); int y1 = sc.nextInt();
+    int d2 = sc.nextInt(); sc.next(); int m2 = sc.nextInt(); sc.next(); int y2 = sc.nextInt();
+    int d3 = sc.nextInt(); sc.next(); int m3 = sc.nextInt(); sc.next(); int y3 = sc.nextInt();
+
+    int v1 = y1 * 10000 + m1 * 100 + d1;
+    int v2 = y2 * 10000 + m2 * 100 + d2;
+    int v3 = y3 * 10000 + m3 * 100 + d3;
+
+    IO.println(v1 < v2 && v2 < v3);
+}
+```
+
 ## Tests
 
 ### Test

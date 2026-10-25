@@ -32,6 +32,25 @@ El sisè nombre $M2$ indica el nombre de miriàpodes de 4 potes i el setè nombr
 
 Un nombre indicant la quantitat total de potes.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int insects = sc.nextInt();
+    int arachnids = sc.nextInt();
+    int crustaceans = sc.nextInt();
+    int m1 = sc.nextInt();
+    int s1 = sc.nextInt();
+    int m2 = sc.nextInt();
+    int s2 = sc.nextInt();
+
+    int total = insects * 6 + arachnids * 8 + crustaceans * 10 + m1 * s1 * 2 + m2 * s2 * 4;
+    IO.println(total);
+}
+```
+
 ## Tests
 
 ### Test

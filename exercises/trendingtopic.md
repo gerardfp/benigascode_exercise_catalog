@@ -23,6 +23,80 @@ El missatge pot ocupar vàries línies, però totes elles tenen 1 grau de tabula
 
 S'imprimirà la llista de Hashtags i les vegades que apareix als missatges
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    String[] tags = new String[1000];
+    int[] counts = new int[1000];
+    int tagCount = 0;
+
+    while (sc.hasNext()) {
+        String token = sc.next();
+        int idx = 0;
+        while (idx < token.length()) {
+            int hashIdx = -1;
+            for (int i = idx; i < token.length(); i++) {
+                if (token.charAt(i) == '#') {
+                    hashIdx = i;
+                    break;
+                }
+            }
+            if (hashIdx == -1) {
+                break;
+            }
+            int end = hashIdx + 1;
+            while (end < token.length()) {
+                char c = token.charAt(end);
+                if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || (c >= '0' && c <= '9')) {
+                    end++;
+                } else {
+                    break;
+                }
+            }
+            if (end > hashIdx + 1) {
+                String tag = token.substring(hashIdx, end).toLowerCase();
+                int found = -1;
+                for (int i = 0; i < tagCount; i++) {
+                    if (tags[i].equals(tag)) {
+                        found = i;
+                        break;
+                    }
+                }
+                if (found != -1) {
+                    counts[found]++;
+                } else {
+                    tags[tagCount] = tag;
+                    counts[tagCount] = 1;
+                    tagCount++;
+                }
+            }
+            idx = end;
+        }
+    }
+
+    // Stable sort descending by count
+    for (int i = 0; i < tagCount - 1; i++) {
+        for (int j = 0; j < tagCount - 1 - i; j++) {
+            if (counts[j] < counts[j + 1]) {
+                int tempC = counts[j];
+                counts[j] = counts[j + 1];
+                counts[j + 1] = tempC;
+
+                String tempT = tags[j];
+                tags[j] = tags[j + 1];
+                tags[j + 1] = tempT;
+            }
+        }
+    }
+
+    for (int i = 0; i < tagCount; i++) {
+        IO.println(tags[i] + " " + counts[i]);
+    }
+}
+```
+
 ## Tests
 
 ### Test

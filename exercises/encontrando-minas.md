@@ -20,6 +20,25 @@ Les caselles sense mines es representen amb un `0` i les que tenen mina amb un `
 
 S'escriurà la posició (fila i columna, separades per un espai) de cada mina trobada.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int rows = sc.nextInt();
+    int cols = sc.nextInt();
+    for (int r = 1; r <= rows; r++) {
+        for (int c = 1; c <= cols; c++) {
+            int val = sc.nextInt();
+            if (val == 1) {
+                IO.println(r + " " + c);
+            }
+        }
+    }
+}
+```
+
 ## Tests
 
 ### Test

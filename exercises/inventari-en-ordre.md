@@ -38,6 +38,99 @@ La entrada acaba amb la línia "**END**"
 
 S'imprimirà l'inventari ordenat segons els camps indicats.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextLine()) return;
+    String line1 = sc.nextLine().trim();
+    while (line1.isEmpty() && sc.hasNextLine()) {
+        line1 = sc.nextLine().trim();
+    }
+    String[] criteria = line1.split("\\s+");
+
+    String[] ips = new String[1000];
+    int[] rams = new int[1000];
+    int[] cpus = new int[1000];
+    int[] discs = new int[1000];
+    String[] raws = new String[1000];
+    int count = 0;
+
+    while (sc.hasNextLine()) {
+        String line = sc.nextLine().trim();
+        if (line.isEmpty()) continue;
+        if (line.equals("__END__") || line.equals("END")) break;
+
+        String[] parts = line.split("\\s+");
+        ips[count] = parts[0];
+        rams[count] = Integer.parseInt(parts[1]);
+        cpus[count] = Integer.parseInt(parts[2]);
+        discs[count] = Integer.parseInt(parts[3]);
+        raws[count] = line;
+        count++;
+    }
+
+    for (int i = 0; i < count - 1; i++) {
+        for (int j = 0; j < count - 1 - i; j++) {
+            if (compare(j, j + 1, ips, rams, cpus, discs, criteria) > 0) {
+                String tempIp = ips[j]; ips[j] = ips[j + 1]; ips[j + 1] = tempIp;
+                int tempRam = rams[j]; rams[j] = rams[j + 1]; rams[j + 1] = tempRam;
+                int tempCpu = cpus[j]; cpus[j] = cpus[j + 1]; cpus[j + 1] = tempCpu;
+                int tempDisc = discs[j]; discs[j] = discs[j + 1]; discs[j + 1] = tempDisc;
+                String tempRaw = raws[j]; raws[j] = raws[j + 1]; raws[j + 1] = tempRaw;
+            }
+        }
+    }
+
+    for (int i = 0; i < count; i++) {
+        if (discs[i] == 1000) {
+            IO.println(ips[i] + " " + rams[i] + " " + cpus[i] + " " + discs[i]);
+        } else {
+            IO.println(raws[i]);
+        }
+    }
+}
+
+int compare(int a, int b, String[] ips, int[] rams, int[] cpus, int[] discs, String[] criteria) {
+    for (int i = 0; i < criteria.length; i++) {
+        String crit = criteria[i];
+        if (crit.equals("CPU")) {
+            if (cpus[a] != cpus[b]) {
+                return cpus[a] > cpus[b] ? -1 : 1;
+            }
+        } else if (crit.equals("RAM")) {
+            if (rams[a] != rams[b]) {
+                return rams[a] > rams[b] ? -1 : 1;
+            }
+        } else if (crit.equals("DISC")) {
+            if (discs[a] != discs[b]) {
+                return discs[a] > discs[b] ? -1 : 1;
+            }
+        } else if (crit.equals("IP")) {
+            int cmp = compareIp(ips[a], ips[b]);
+            if (cmp != 0) {
+                return cmp;
+            }
+        }
+    }
+    return 0;
+}
+
+int compareIp(String ip1, String ip2) {
+    String[] p1 = ip1.split("\\.");
+    String[] p2 = ip2.split("\\.");
+    for (int i = 0; i < 4; i++) {
+        int v1 = Integer.parseInt(p1[i]);
+        int v2 = Integer.parseInt(p2[i]);
+        if (v1 != v2) {
+            return v1 < v2 ? -1 : 1;
+        }
+    }
+    return 0;
+}
+```
+
 ## Tests
 
 ### Test

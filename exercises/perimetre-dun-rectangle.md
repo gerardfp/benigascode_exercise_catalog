@@ -21,6 +21,25 @@ Per a cada coordenada el primer nombre <span style="font-size: 100%; display: in
 
 Un nombre enter indicant el perímetre del rectangle
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int x1 = sc.nextInt();
+    int y1 = sc.nextInt();
+    int x2 = sc.nextInt();
+    int y2 = sc.nextInt();
+
+    int width = Math.abs(x1 - x2);
+    int height = Math.abs(y1 - y2);
+    int perimeter = 2 * (width + height);
+
+    IO.println(perimeter);
+}
+```
+
 ## Tests
 
 ### Test

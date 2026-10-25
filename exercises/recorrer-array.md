@@ -32,6 +32,26 @@ A continuación vienen las <span style="font-size: 100%; display: inline-block;"
 
 Se imprimirán las posiciones (empezando por 1) en las que se ha encontrado la palabra a buscar, cada una en una línea.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    String[] words = new String[n];
+    for (int i = 0; i < n; i++) {
+        words[i] = sc.next();
+    }
+    String target = sc.next();
+
+    for (int i = 0; i < n; i++) {
+        if (words[i].equals(target)) {
+            IO.println(i + 1);
+        }
+    }
+}
+```
+
 ## Tests
 
 ### Test

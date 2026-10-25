@@ -34,6 +34,20 @@ Cada operación se escribira con el siguiente formato:
 a x b = c
 ```
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    for (int i = n; i <= 10; i++) {
+        for (int j = 0; j <= 10; j++) {
+            IO.println(i + " x " + j + " = " + (i * j));
+        }
+    }
+}
+```
+
 ## Tests
 
 ### Test

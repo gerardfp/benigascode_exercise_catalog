@@ -17,6 +17,25 @@ A continuació venen els $N$ nombres enters, cadascun en una línia.
 
 Imprimeix el producte dels elements no nuls (o `0` si tots són zero).
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    long prod = 1;
+    boolean hiHaNoZero = false;
+    for (int i = 0; i < n; i++) {
+        int x = sc.nextInt();
+        if (x != 0) {
+            prod *= x;
+            hiHaNoZero = true;
+        }
+    }
+    IO.println(hiHaNoZero ? prod : 0);
+}
+```
+
 ## Tests
 
 ### Test

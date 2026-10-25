@@ -19,6 +19,25 @@ La entrada consisteix en una hora en format HH:MM:SS
 
 S'imprimiran els graus de cada manilla (HH,MM,SS) que corresponen a l'hora, cadascuna en una línia.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    float h = sc.nextFloat();
+    float m = sc.nextFloat();
+    float s = sc.nextFloat();
+
+    float hDeg = (h % 12) * 30 + m * 0.5f + s / 120.0f;
+    float mDeg = m * 6 + s * 0.1f;
+    float sDeg = s * 6;
+
+    IO.println(hDeg);
+    IO.println(mDeg);
+    IO.println(sDeg);
+}
+```
+
 ## Tests
 
 ### Test

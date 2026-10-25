@@ -33,6 +33,31 @@ S'imprimirà la figura de més valor.
 
 `THREE OF A KIND` | `STRAIGHT` | `PAIR` | `HIGH NUMBER`
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+    int c = sc.nextInt();
+
+    int min = Math.min(a, Math.min(b, c));
+    int max = Math.max(a, Math.max(b, c));
+    int mid = a + b + c - min - max;
+
+    if (a == b && b == c) {
+        IO.println("THREE OF A KIND");
+    } else if (mid == min + 1 && max == mid + 1) {
+        IO.println("STRAIGHT");
+    } else if (a == b || b == c || a == c) {
+        IO.println("PAIR");
+    } else {
+        IO.println("HIGH CARD");
+    }
+}
+```
+
 ## Tests
 
 ### Test

@@ -21,6 +21,56 @@ La entrada consta d'una seqüència de <span style="font-size: 100%; display: in
 
 S'imprimirà el nombre de pics i el nombre de valls. També s'imprimirà el valor màxim i el valor mínim.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int first = sc.nextInt();
+    if (first == -1) return;
+    
+    int min = first;
+    int max = first;
+    
+    if (!sc.hasNextInt()) return;
+    int second = sc.nextInt();
+    if (second == -1) {
+        IO.println(0);
+        IO.println(0);
+        IO.println(max);
+        IO.println(min);
+        return;
+    }
+    
+    min = Math.min(min, second);
+    max = Math.max(max, second);
+    int prev = first;
+    int curr = second;
+    int peaks = 0;
+    int valleys = 0;
+    
+    while (sc.hasNextInt()) {
+        int v = sc.nextInt();
+        if (v == -1) break;
+        min = Math.min(min, v);
+        max = Math.max(max, v);
+        if (curr > prev && curr >= v) {
+            peaks++;
+        } else if (curr < prev && curr <= v) {
+            valleys++;
+        }
+        prev = curr;
+        curr = v;
+    }
+    
+    IO.println(peaks);
+    IO.println(valleys);
+    IO.println(max);
+    IO.println(min);
+}
+```
+
 ## Tests
 
 ### Test

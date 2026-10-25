@@ -23,6 +23,24 @@ En cada línia hi ha una paraula que es el $NOM$ de l'arxiu (amb l'extensió inc
 
 S'imprimirà cada arxiu en una línia, primer el $TIPUS$ i després el $NOM$.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    String[] names = new String[4];
+    String[] types = new String[4];
+    for (int i = 0; i < 4; i++) {
+        if (!sc.hasNext()) return;
+        names[i] = sc.next();
+        types[i] = sc.nextLine().trim();
+    }
+    for (int i = 3; i >= 0; i--) {
+        IO.println(types[i] + " " + names[i]);
+    }
+}
+```
+
 ## Tests
 
 ### Test

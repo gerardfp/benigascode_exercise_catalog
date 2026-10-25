@@ -24,6 +24,35 @@ Les posicions a comprovar acaben amb `0 0`.
 
 Per cada posició a comprovar s'escriurà `SI` si en la casella hi ha una mina i `NO` si no hi ha.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int rows = sc.nextInt();
+    int cols = sc.nextInt();
+
+    int[][] board = new int[rows][cols];
+    for (int r = 0; r < rows; r++) {
+        for (int c = 0; c < cols; c++) {
+            board[r][c] = sc.nextInt();
+        }
+    }
+
+    while (sc.hasNextInt()) {
+        int r = sc.nextInt();
+        int c = sc.nextInt();
+        if (r == 0 && c == 0) break;
+        if (board[r - 1][c - 1] == 1) {
+            IO.println("SI");
+        } else {
+            IO.println("NO");
+        }
+    }
+}
+```
+
 ## Tests
 
 ### Test

@@ -23,6 +23,29 @@ Cada registre consta de dos números:
 
 Dos números enters separats per espais en blanc
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    int days = 0;
+    int totalStoppedHours = 0;
+    for (int i = 0; i < n; i++) {
+        int shift = sc.nextInt();
+        int work = sc.nextInt();
+        int stopped = shift - work;
+        if (stopped > 0) {
+            days++;
+            totalStoppedHours += stopped;
+        }
+    }
+    IO.println(days);
+    IO.println(totalStoppedHours);
+}
+```
+
 ## Tests
 
 ### Test

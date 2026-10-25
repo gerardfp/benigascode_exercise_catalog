@@ -19,6 +19,29 @@ Una secuencia de números enteros separados por espacios o saltos de línea. El 
 ## Output
 Un número decimal con dos cifras decimales o la cadena `NO_DATA`.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    double sum = 0;
+    int count = 0;
+    while (sc.hasNextInt()) {
+        int n = sc.nextInt();
+        if (n < 0) {
+            break;
+        }
+        sum += n;
+        count++;
+    }
+    if (count == 0) {
+        IO.println("NO_DATA");
+    } else {
+        IO.println("%.2f".formatted(sum / count));
+    }
+}
+```
+
 ## Tests
 
 ### Test

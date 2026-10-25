@@ -21,6 +21,36 @@ Finalment venen els $Q$ valors a consultar, cadascun en una línia.
 
 Per a cadascuna de les $Q$ consultes, imprimeix `SI` si el número existeix a l'array o `NO` en cas contrari.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    int[] nums = new int[n];
+    for (int i = 0; i < n; i++) nums[i] = sc.nextInt();
+
+    int q = sc.nextInt();
+    for (int k = 0; k < q; k++) {
+        int x = sc.nextInt();
+        int left = 0, right = n - 1;
+        boolean trobat = false;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] == x) {
+                trobat = true;
+                break;
+            } else if (nums[mid] < x) {
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
+        }
+        IO.println(trobat ? "SI" : "NO");
+    }
+}
+```
+
 ## Tests
 
 ### Test

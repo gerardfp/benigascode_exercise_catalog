@@ -7,6 +7,16 @@ tags: [loops, for-loop]
 
 Escriu un programa que imprimeixi els números de `0` a `4` inclusive. Cada nombre ha d'estar en una nova línia.
 
+## Solutions
+
+```java
+void main() {
+    for (int i = 0; i <= 4; i++) {
+        IO.println(i);
+    }
+}
+```
+
 ## Plantillas
 
 ```java

@@ -17,6 +17,23 @@ Després ve la sèrie de números, cadascun en una línia.
 
 Imprimix la quantitat de números parells.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    int count = 0;
+    for (int i = 0; i < n; i++) {
+        int x = sc.nextInt();
+        if (x % 2 == 0) {
+            count++;
+        }
+    }
+    IO.println(count);
+}
+```
+
 ## Tests
 
 ### Test

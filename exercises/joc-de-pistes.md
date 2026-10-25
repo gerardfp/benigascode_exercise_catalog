@@ -35,6 +35,45 @@ La pista final té la paraula PREMI.
 
 Es mostraran les pistes en l'ordre que s'han anat seguint fins arribar al premi.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    int current = sc.nextInt();
+    String marker = sc.next();
+    sc.nextLine();
+
+    String[] pistes = new String[n];
+    for (int i = 0; i < n; i++) {
+        pistes[i] = sc.nextLine();
+    }
+
+    char markerChar = marker.charAt(0);
+    while (true) {
+        String pista = pistes[current];
+        IO.println(pista);
+        if (pista.contains("PREMI")) {
+            break;
+        }
+        int markerIdx = -1;
+        for (int i = 0; i < pista.length(); i++) {
+            if (pista.charAt(i) == markerChar) {
+                markerIdx = i;
+                break;
+            }
+        }
+        int numStart = markerIdx + 1;
+        int numEnd = numStart;
+        while (numEnd < pista.length() && pista.charAt(numEnd) >= '0' && pista.charAt(numEnd) <= '9') {
+            numEnd++;
+        }
+        current = Integer.parseInt(pista.substring(numStart, numEnd));
+    }
+}
+```
+
 ## Tests
 
 ### Test

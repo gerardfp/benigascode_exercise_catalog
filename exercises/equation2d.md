@@ -17,6 +17,42 @@ Implementa el mètode de la classe Equation2D amb la solució a l'equació:
 
 -
 
+## Solutions
+
+```java
+class Equation2D {
+    float a, b, c;
+
+    float[] solve() {
+        double d = Math.sqrt(b * b - 4 * a * c);
+        float x1 = (float) ((-b + d) / (2 * a));
+        float x2 = (float) ((-b - d) / (2 * a));
+        if (x1 == 0.0f) x1 = 0.0f;
+        if (x2 == 0.0f) x2 = 0.0f;
+        return new float[]{x1, x2};
+    }
+}
+
+void main() {
+    Locale.setDefault(Locale.US);
+    Scanner scanner = new Scanner(System.in);
+    scanner.useLocale(Locale.US);
+    if (!scanner.hasNextFloat()) return;
+
+    Equation2D equation2D = new Equation2D();
+    equation2D.a = scanner.nextFloat();
+    equation2D.b = scanner.nextFloat();
+    equation2D.c = scanner.nextFloat();
+
+    float[] x = equation2D.solve();
+
+    IO.println("%1$.2f * %4$.2f * %4$.2f  + %2$.2f * %4$.2f + %3$.2f = 0".formatted(
+            equation2D.a, equation2D.b, equation2D.c, x[0]));
+    IO.println("%1$.2f * %4$.2f * %4$.2f  + %2$.2f * %4$.2f + %3$.2f = 0".formatted(
+            equation2D.a, equation2D.b, equation2D.c, x[1]));
+}
+```
+
 ## Plantillas
 
 ```java

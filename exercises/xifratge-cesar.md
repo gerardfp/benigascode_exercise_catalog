@@ -17,6 +17,24 @@ Tots els caracters són de l'alfabet anglès i en minúscules.
 
 S'escriurà la paraula codificada.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNext()) return;
+    String word = sc.next();
+    int k = sc.nextInt();
+    String res = "";
+    for (int i = 0; i < word.length(); i++) {
+        char c = word.charAt(i);
+        char shifted = (char) ('a' + (c - 'a' + k) % 26);
+        res += shifted;
+    }
+    IO.println(res);
+}
+```
+
 ## Tests
 
 ### Test

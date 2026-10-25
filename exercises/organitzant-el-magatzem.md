@@ -27,6 +27,75 @@ Per a cada producte s'indica el nombre de línies de la seva figura, i a continu
 
 S'imprimirà la distribució final en que queda el magatzem. Els espais buits del magatzem s'indiquen amb un punt.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int R = sc.nextInt();
+    int C = sc.nextInt();
+    int numP = sc.nextInt();
+    sc.nextLine();
+
+    char[][] grid = new char[R][C];
+    for (int r = 0; r < R; r++) {
+        for (int c = 0; c < C; c++) {
+            grid[r][c] = '.';
+        }
+    }
+
+    for (int p = 0; p < numP; p++) {
+        String line = sc.nextLine();
+        while (line.trim().length() == 0) {
+            line = sc.nextLine();
+        }
+        int h = Integer.parseInt(line.trim());
+        String[] shape = new String[h];
+        for (int i = 0; i < h; i++) {
+            shape[i] = sc.nextLine();
+        }
+
+        boolean placed = false;
+        for (int r = 0; r <= R - h; r++) {
+            for (int c = 0; c < C; c++) {
+                boolean fits = true;
+                for (int i = 0; i < h; i++) {
+                    for (int j = 0; j < shape[i].length(); j++) {
+                        if (shape[i].charAt(j) != ' ') {
+                            if (c + j >= C || grid[r + i][c + j] != '.') {
+                                fits = false;
+                                break;
+                            }
+                        }
+                    }
+                    if (!fits) break;
+                }
+                if (fits) {
+                    for (int i = 0; i < h; i++) {
+                        for (int j = 0; j < shape[i].length(); j++) {
+                            if (shape[i].charAt(j) != ' ') {
+                                grid[r + i][c + j] = shape[i].charAt(j);
+                            }
+                        }
+                    }
+                    placed = true;
+                    break;
+                }
+            }
+            if (placed) break;
+        }
+    }
+
+    for (int r = 0; r < R; r++) {
+        for (int c = 0; c < C; c++) {
+            IO.print(grid[r][c]);
+        }
+        IO.println();
+    }
+}
+```
+
 ## Tests
 
 ### Test

@@ -45,6 +45,62 @@ S'imprimirà l'estat en el qual quedarà el personatge.
 
 Si l'event ocorregut no modifica l'estat, es mostrarà el que tenia abans de l'event.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNext()) return;
+    String state = sc.next();
+    String event = sc.next();
+
+    if (state.equals("WALK")) state = "WALKING";
+    if (state.equals("JUMP")) state = "JUMPING";
+    if (state.equals("KICK")) state = "KICKING";
+    if (state.equals("PUNCH")) state = "PUNCHING";
+
+    String nextState = state;
+
+    switch (state) {
+        case "IDLE" -> {
+            switch (event) {
+                case "JOYSTICK_UP" -> nextState = "JUMPING";
+                case "JOYSTICK_LEFT/RIGHT" -> nextState = "WALKING";
+                case "PUNCH_KEY" -> nextState = "PUNCHING";
+                case "KICK_KEY" -> nextState = "KICKING";
+            }
+        }
+        case "WALKING" -> {
+            switch (event) {
+                case "JOYSTICK_UP" -> nextState = "JUMPING";
+                case "JOYSTICK_CENTER" -> nextState = "IDLE";
+                case "PUNCH_KEY" -> nextState = "PUNCHING";
+                case "KICK_KEY" -> nextState = "KICKING";
+            }
+        }
+        case "JUMPING" -> {
+            switch (event) {
+                case "TOUCH_FLOOR" -> nextState = "IDLE";
+                case "PUNCH_KEY" -> nextState = "PUNCHING";
+                case "KICK_KEY" -> nextState = "KICKING";
+            }
+        }
+        case "KICKING" -> {
+            if (event.equals("KICK_END")) {
+                nextState = "IDLE";
+            }
+        }
+        case "PUNCHING" -> {
+            if (event.equals("PUNCH_END")) {
+                nextState = "IDLE";
+            }
+        }
+    }
+
+    IO.println(nextState);
+}
+```
+
 ## Tests
 
 ### Test

@@ -29,6 +29,50 @@ Por último viene un tablero que define la pieza que se quiere colocar.
 
 Se imprimirá el tablero resultante tras tras colocar (o no) la pieza.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int rows = sc.nextInt();
+    int cols = sc.nextInt();
+    int[][] board = new int[rows][cols];
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            board[i][j] = sc.nextInt();
+        }
+    }
+    int[][] piece = new int[rows][cols];
+    boolean overlap = false;
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            piece[i][j] = sc.nextInt();
+            if (piece[i][j] != 0 && board[i][j] != 0) {
+                overlap = true;
+            }
+        }
+    }
+    if (!overlap) {
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                if (piece[i][j] != 0) {
+                    board[i][j] = piece[i][j];
+                }
+            }
+        }
+    }
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            if (j > 0) {
+                IO.print(" ");
+            }
+            IO.print(board[i][j]);
+        }
+        IO.println();
+    }
+}
+```
+
 ## Tests
 
 ### Test

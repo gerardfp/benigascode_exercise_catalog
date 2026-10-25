@@ -17,6 +17,14 @@ La teva solució no ha de tenir `<>`.
 
 -
 
+## Solutions
+
+```java
+void main() {
+    String nom = "JOAN";
+}
+```
+
 ## Plantillas
 
 ```java

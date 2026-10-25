@@ -30,6 +30,36 @@ La persona con el ticket T se ha colado por delante de X personas.
 
 Si no se ha colado nadie se escribirá `COLA EN ORDEN`.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    int[] a = new int[n];
+    for (int i = 0; i < n; i++) {
+        a[i] = sc.nextInt();
+    }
+    boolean colado = false;
+    for (int i = 0; i < n; i++) {
+        int count = 0;
+        for (int j = i + 1; j < n; j++) {
+            if (a[j] < a[i]) {
+                count++;
+            }
+        }
+        if (count > 0) {
+            colado = true;
+            IO.println("La persona con el ticket " + a[i] + " se ha colado por delante de " + count + " personas.");
+        }
+    }
+    if (!colado) {
+        IO.println("COLA EN ORDEN");
+    }
+}
+```
+
 ## Tests
 
 ### Test

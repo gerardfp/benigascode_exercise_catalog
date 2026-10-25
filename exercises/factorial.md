@@ -21,6 +21,22 @@ Un nombre enter
 
 El factorial
 
+## Solutions
+
+```java
+int factorial(int n) {
+    if (n <= 1) return 1;
+    return n * factorial(n - 1);
+}
+
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    IO.println(factorial(n));
+}
+```
+
 ## Tests
 
 ### Test

@@ -7,6 +7,33 @@ tags: [class]
 
 Crea la classe `CreditCard`.
 
+## Solutions
+
+```java
+class CreditCard {
+    String holderName;
+    long cardNumber;
+    float accountBalance;
+    float spendingLimit;
+}
+
+void main() {
+    Scanner scanner = new Scanner(System.in);
+
+    CreditCard creditCard = new CreditCard();
+
+    creditCard.holderName = scanner.nextLine();
+    creditCard.cardNumber = scanner.nextLong();
+    creditCard.accountBalance = scanner.nextFloat();
+    creditCard.spendingLimit = scanner.nextFloat();
+
+    IO.println(creditCard.holderName.toUpperCase());
+    IO.println(String.valueOf(creditCard.cardNumber).replaceAll(".{4}","$0 "));
+    IO.println("Saldo: " + creditCard.accountBalance);
+    IO.println("Limit: " + creditCard.spendingLimit);
+}
+```
+
 ## Plantillas
 
 ```java

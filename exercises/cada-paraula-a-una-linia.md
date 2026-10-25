@@ -15,6 +15,17 @@ Cinc paraules, separades per espais en blanc o salts de línia.
 
 Cada paraula en una nova línia.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    for (int i = 0; i < 5; i++) {
+        IO.println(sc.next());
+    }
+}
+```
+
 ## Tests
 
 ### Test

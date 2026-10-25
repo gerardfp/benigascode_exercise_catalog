@@ -22,6 +22,18 @@ El segon nombre <span style="font-size: 100%; display: inline-block;" class="Mat
 
 Els segons que trigarà la descàrrega (sense decimals).
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int v = sc.nextInt();
+    int s = sc.nextInt();
+    IO.println((s * 1024) / v);
+}
+```
+
 ## Tests
 
 ### Test

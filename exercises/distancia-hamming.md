@@ -28,6 +28,29 @@ La distància Hamming entre els dos Strings, **si són d'igual longitud**.
 
 Si són de distinta longitud s'imprimirá -1.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextLine()) return;
+    String s1 = sc.nextLine();
+    if (!sc.hasNextLine()) return;
+    String s2 = sc.nextLine();
+    if (s1.length() != s2.length()) {
+        IO.println(-1);
+    } else {
+        int dist = 0;
+        for (int i = 0; i < s1.length(); i++) {
+            if (s1.charAt(i) != s2.charAt(i)) {
+                dist++;
+            }
+        }
+        IO.println(dist);
+    }
+}
+```
+
 ## Tests
 
 ### Test

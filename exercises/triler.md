@@ -26,6 +26,30 @@ L'entrada consta de quatre lletres `L` o `R` (separades per espais en blanc) que
 
 S'imprimirà l'estat final dels gobelets, amb un asterisc per al gobelet on queda la bola, i un guió baix per als gobelets que no la tenen.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int pos = 0;
+    while (sc.hasNext()) {
+        String move = sc.next();
+        if (move.equals("L")) {
+            pos = (pos + 2) % 3;
+        } else if (move.equals("R")) {
+            pos = (pos + 1) % 3;
+        }
+    }
+    if (pos == 0) {
+        IO.println("* _ _");
+    } else if (pos == 1) {
+        IO.println("_ * _");
+    } else {
+        IO.println("_ _ *");
+    }
+}
+```
+
 ## Tests
 
 ### Test

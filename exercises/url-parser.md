@@ -38,6 +38,121 @@ La variable `port` es de tipus `int`.
 
 Les variables `path` i `query` son de tipus `String[]`, inicialitzats amb els seus segments.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNext()) return;
+    String url = sc.next();
+
+    // Find scheme: up to "://"
+    int schemeEnd = 0;
+    for (int i = 0; i <= url.length() - 3; i++) {
+        if (url.charAt(i) == ':' && url.charAt(i + 1) == '/' && url.charAt(i + 2) == '/') {
+            schemeEnd = i;
+            break;
+        }
+    }
+    String scheme = url.substring(0, schemeEnd);
+    String afterScheme = url.substring(schemeEnd + 3);
+
+    // Find user and password: up to '@'
+    int atPos = 0;
+    for (int i = 0; i < afterScheme.length(); i++) {
+        if (afterScheme.charAt(i) == '@') {
+            atPos = i;
+            break;
+        }
+    }
+    String userInfo = afterScheme.substring(0, atPos);
+    String afterAt = afterScheme.substring(atPos + 1);
+
+    int colonPos = 0;
+    for (int i = 0; i < userInfo.length(); i++) {
+        if (userInfo.charAt(i) == ':') {
+            colonPos = i;
+            break;
+        }
+    }
+    String user = userInfo.substring(0, colonPos);
+    String password = userInfo.substring(colonPos + 1);
+
+    // Find fragment: after '#'
+    int hashPos = afterAt.length();
+    for (int i = 0; i < afterAt.length(); i++) {
+        if (afterAt.charAt(i) == '#') {
+            hashPos = i;
+            break;
+        }
+    }
+    String fragment = afterAt.substring(hashPos + 1);
+    String beforeHash = afterAt.substring(0, hashPos);
+
+    // Find query: after '?'
+    int qPos = beforeHash.length();
+    for (int i = 0; i < beforeHash.length(); i++) {
+        if (beforeHash.charAt(i) == '?') {
+            qPos = i;
+            break;
+        }
+    }
+    String queryString = beforeHash.substring(qPos + 1);
+    String beforeQuery = beforeHash.substring(0, qPos);
+
+    // In beforeQuery, find first '/' to separate host:port from path
+    int slashPos = 0;
+    for (int i = 0; i < beforeQuery.length(); i++) {
+        if (beforeQuery.charAt(i) == '/') {
+            slashPos = i;
+            break;
+        }
+    }
+    String hostPort = beforeQuery.substring(0, slashPos);
+    String pathString = beforeQuery.substring(slashPos + 1);
+
+    int hpColonPos = 0;
+    for (int i = 0; i < hostPort.length(); i++) {
+        if (hostPort.charAt(i) == ':') {
+            hpColonPos = i;
+            break;
+        }
+    }
+    String host = hostPort.substring(0, hpColonPos);
+    int port = Integer.parseInt(hostPort.substring(hpColonPos + 1));
+
+    String[] pathSegments = pathString.split("/");
+    String[] querySegments = queryString.split("&");
+
+    String pathResult = "String[] path = {";
+    for (int i = 0; i < pathSegments.length; i++) {
+        pathResult += "\"" + pathSegments[i] + "\"";
+        if (i < pathSegments.length - 1) {
+            pathResult += ", ";
+        }
+    }
+    pathResult += "};";
+
+    String queryResult = "String[] query = {";
+    for (int i = 0; i < querySegments.length; i++) {
+        queryResult += "\"" + querySegments[i] + "\"";
+        if (i < querySegments.length - 1) {
+            queryResult += ", ";
+        }
+    }
+    queryResult += "};";
+
+    IO.println("String scheme = \"" + scheme + "\";");
+    IO.println("String user = \"" + user + "\";");
+    IO.println("String password = \"" + password + "\";");
+    IO.println("String host = \"" + host + "\";");
+    IO.println("int port = " + port + ";");
+    IO.println(pathResult);
+    IO.println(queryResult);
+    IO.println("String fragment = \"" + fragment + "\";");
+}
+```
+
 ## Tests
 
 ### Test

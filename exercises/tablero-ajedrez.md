@@ -32,6 +32,53 @@ Un enter <span style="font-size: 100%; display: inline-block;" class="MathJax_SV
 
 El tauler amb el format indicat.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int s = sc.nextInt();
+
+    IO.print("|");
+    for (int i = 0; i < 8 * s; i++) {
+        IO.print("-");
+    }
+    IO.println("|");
+
+    char[] lineA = new char[8 * s + 2];
+    char[] lineB = new char[8 * s + 2];
+    lineA[0] = '|';
+    lineB[0] = '|';
+    lineA[8 * s + 1] = '|';
+    lineB[8 * s + 1] = '|';
+
+    for (int bc = 0; bc < 8; bc++) {
+        char chA = (bc % 2 == 1) ? '#' : ' ';
+        char chB = (bc % 2 == 0) ? '#' : ' ';
+        for (int i = 0; i < s; i++) {
+            lineA[1 + bc * s + i] = chA;
+            lineB[1 + bc * s + i] = chB;
+        }
+    }
+
+    String strA = new String(lineA);
+    String strB = new String(lineB);
+
+    for (int br = 0; br < 8; br++) {
+        String cur = (br % 2 == 0) ? strA : strB;
+        for (int r = 0; r < s; r++) {
+            IO.println(cur);
+        }
+    }
+
+    IO.print("|");
+    for (int i = 0; i < 8 * s; i++) {
+        IO.print("-");
+    }
+    IO.println("|");
+}
+```
+
 ## Tests
 
 ### Test

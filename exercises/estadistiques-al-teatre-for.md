@@ -40,6 +40,59 @@ b = total persones entre 18-65
 
 c = total persones majors de 65
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    int[] divendres = new int[3];
+    int[] dissabte = new int[3];
+    int[] diumenge = new int[3];
+
+    for (int i = 0; i < n; i++) {
+        String day = sc.next().toLowerCase();
+        while (true) {
+            int age = sc.nextInt();
+            if (age == -1) {
+                break;
+            }
+            int bucket;
+            if (age < 18) {
+                bucket = 0;
+            } else if (age <= 65) {
+                bucket = 1;
+            } else {
+                bucket = 2;
+            }
+
+            if (day.equals("divendres")) {
+                divendres[bucket]++;
+            } else if (day.equals("dissabte")) {
+                dissabte[bucket]++;
+            } else if (day.equals("diumenge")) {
+                diumenge[bucket]++;
+            }
+        }
+    }
+
+    IO.println("divendres");
+    IO.println("0-17 : " + divendres[0]);
+    IO.println("18-65: " + divendres[1]);
+    IO.println("+65  : " + divendres[2]);
+    IO.println();
+    IO.println("dissabte");
+    IO.println("0-17 : " + dissabte[0]);
+    IO.println("18-65: " + dissabte[1]);
+    IO.println("+65  : " + dissabte[2]);
+    IO.println();
+    IO.println("diumenge");
+    IO.println("0-17 : " + diumenge[0]);
+    IO.println("18-65: " + diumenge[1]);
+    IO.println("+65  : " + diumenge[2]);
+}
+```
+
 ## Tests
 
 ### Test

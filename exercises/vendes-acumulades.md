@@ -21,6 +21,31 @@ A continuació ve la quantitat de vendes de cada mes.
 
 S'imprimiran les vendes en format Array: `[0, 0, 0, 0]`
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    int[] arr = new int[n];
+    int sum = 0;
+    for (int i = 0; i < n; i++) {
+        sum += sc.nextInt();
+        arr[i] = sum;
+    }
+    String res = "[";
+    for (int i = 0; i < n; i++) {
+        res += arr[i];
+        if (i < n - 1) {
+            res += ", ";
+        }
+    }
+    res += "]";
+    IO.println(res);
+}
+```
+
 ## Tests
 
 ### Test

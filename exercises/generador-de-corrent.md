@@ -22,6 +22,51 @@ La seqüència acaba amb un 0, que no s'ha de computar.
 
 S'imprimirà "CORRECTE" si la seqüència de números ha anat alternant pujades i baixades, i "INCORRECTE" en cas contrari.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int prev = sc.nextInt();
+    if (prev == 0) {
+        IO.println("INCORRECTE");
+        return;
+    }
+
+    boolean correct = true;
+    boolean expectUp = true;
+    int count = 1;
+
+    while (sc.hasNextInt()) {
+        int current = sc.nextInt();
+        if (current == 0) break;
+        count++;
+        if (expectUp) {
+            if (current <= prev) {
+                correct = false;
+            }
+        } else {
+            if (current >= prev) {
+                correct = false;
+            }
+        }
+        expectUp = !expectUp;
+        prev = current;
+    }
+
+    if (count < 2) {
+        correct = false;
+    }
+
+    if (correct) {
+        IO.println("CORRECTE");
+    } else {
+        IO.println("INCORRECTE");
+    }
+}
+```
+
 ## Tests
 
 ### Test

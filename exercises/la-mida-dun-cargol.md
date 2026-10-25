@@ -22,6 +22,28 @@ La mida del cargol en centímetres (int).
 
 { petit | mitja | gran | molt gran | mida incorrecta }
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int mida = sc.nextInt();
+
+    if (mida >= 1 && mida < 3) {
+        IO.println("petit");
+    } else if (mida >= 3 && mida < 5) {
+        IO.println("mitja");
+    } else if (mida >= 5 && mida < 8) {
+        IO.println("gran");
+    } else if (mida >= 8 && mida <= 10) {
+        IO.println("molt gran");
+    } else {
+        IO.println("mida incorrecta");
+    }
+}
+```
+
 ## Tests
 
 ### Test

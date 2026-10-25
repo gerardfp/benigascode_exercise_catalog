@@ -15,6 +15,23 @@ Una secuencia de N números.
 
 Un entero indicando la cantidad de números leídos
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int count = 0;
+    while (sc.hasNextInt()) {
+        int n = sc.nextInt();
+        if (n == 0) {
+            break;
+        }
+        count++;
+    }
+    IO.println(count);
+}
+```
+
 ## Tests
 
 ### Test

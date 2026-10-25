@@ -21,6 +21,26 @@ Si una moneda no s'utilitza en el desglossament, no s'ha d'imprimir.
 
 Si solament s'utilitza 1 moneda en el desglossament, s'ha d'imprimir "moneda" en singular.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int amount = sc.nextInt();
+    int[] coins = {500, 100, 50, 5, 1};
+    for (int coin : coins) {
+        int count = amount / coin;
+        amount %= coin;
+        if (count == 1) {
+            IO.println("1 moneda de " + coin);
+        } else if (count > 1) {
+            IO.println(count + " monedes de " + coin);
+        }
+    }
+}
+```
+
 ## Tests
 
 ### Test

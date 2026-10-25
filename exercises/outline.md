@@ -27,6 +27,58 @@ Un símbolo `.` representa el fondo del lienzo.
 
 Se imprimirá el lienzo resultante conforme los casos de prueba.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int W = sc.nextInt();
+    int H = sc.nextInt();
+
+    char[][] grid = new char[H][W];
+    for (int r = 0; r < H; r++) {
+        for (int c = 0; c < W; c++) {
+            grid[r][c] = sc.next().charAt(0);
+        }
+    }
+
+    for (int r = 0; r < H; r++) {
+        for (int c = 0; c < W; c++) {
+            if (c > 0) IO.print(" ");
+            if (grid[r][c] == '.') {
+                IO.print('.');
+            } else {
+                int u = (r > 0 && grid[r - 1][c] == '#') ? 1 : 0;
+                int d = (r < H - 1 && grid[r + 1][c] == '#') ? 1 : 0;
+                int l = (c > 0 && grid[r][c - 1] == '#') ? 1 : 0;
+                int ri = (c < W - 1 && grid[r][c + 1] == '#') ? 1 : 0;
+
+                int ul = (r > 0 && c > 0 && grid[r - 1][c - 1] == '#') ? 1 : 0;
+                int ur = (r > 0 && c < W - 1 && grid[r - 1][c + 1] == '#') ? 1 : 0;
+                int dl = (r < H - 1 && c > 0 && grid[r + 1][c - 1] == '#') ? 1 : 0;
+                int dr = (r < H - 1 && c < W - 1 && grid[r + 1][c + 1] == '#') ? 1 : 0;
+
+                if ((u == 0 || d == 0) && (l == 0 || ri == 0)) {
+                    IO.print('+');
+                } else if ((u == 0 || d == 0) && (l == 1 && ri == 1)) {
+                    IO.print('-');
+                } else if ((l == 0 || ri == 0) && (u == 1 && d == 1)) {
+                    IO.print('|');
+                } else if (u == 1 && d == 1 && l == 1 && ri == 1) {
+                    if (ul == 0 || ur == 0 || dl == 0 || dr == 0) {
+                        IO.print('+');
+                    } else {
+                        IO.print(' ');
+                    }
+                }
+            }
+        }
+        IO.println();
+    }
+}
+```
+
 ## Tests
 
 ### Test

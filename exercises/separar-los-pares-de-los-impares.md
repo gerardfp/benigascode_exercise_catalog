@@ -35,6 +35,45 @@ Les dues primeres seqüències són la separació per posició (posició parell/
 
 Les dues últimes són la separació per valor (valor parell/imparell).
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    int[] a = new int[n];
+    for (int i = 0; i < n; i++) {
+        a[i] = sc.nextInt();
+    }
+
+    String posEven = "";
+    String posOdd = "";
+    String valEven = "";
+    String valOdd = "";
+
+    for (int i = 0; i < n; i++) {
+        if (i % 2 == 0) {
+            posEven += (posEven.length() == 0 ? "" : " ") + a[i];
+        } else {
+            posOdd += (posOdd.length() == 0 ? "" : " ") + a[i];
+        }
+
+        if (a[i] % 2 == 0) {
+            valEven += (valEven.length() == 0 ? "" : " ") + a[i];
+        } else {
+            valOdd += (valOdd.length() == 0 ? "" : " ") + a[i];
+        }
+    }
+
+    IO.println(posEven);
+    IO.println(posOdd);
+    IO.println();
+    IO.println(valEven);
+    IO.println(valOdd);
+}
+```
+
 ## Tests
 
 ### Test

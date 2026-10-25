@@ -39,6 +39,34 @@ void main() {
 }
 ```
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    int[] nums = new int[n];
+    for (int i = 0; i < n; i++) nums[i] = sc.nextInt();
+    int x = sc.nextInt();
+
+    int left = 0;
+    int right = n - 1;
+    int pos = -1;
+    while (left <= right) {
+        int mid = left + (right - left) / 2;
+        if (nums[mid] == x) {
+            pos = mid;
+            break;
+        } else if (nums[mid] < x) {
+            left = mid + 1;
+        } else {
+            right = mid - 1;
+        }
+    }
+    IO.println(pos);
+}
+```
+
 ## Tests
 
 ### Test

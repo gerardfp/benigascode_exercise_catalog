@@ -21,6 +21,42 @@ Cada sequència de N nombres acaba amb un -1.
 
 Un "SI" o un "NO" per cada seqüència; separats per un salt de línia.
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int t = sc.nextInt();
+    for (int k = 0; k < t; k++) {
+        int count = 0;
+        boolean ok = true;
+        int prev2 = 0;
+        int prev1 = 0;
+        while (sc.hasNextInt()) {
+            int x = sc.nextInt();
+            if (x == -1) break;
+            count++;
+            if (count == 1) {
+                if (x != 0) ok = false;
+                prev2 = x;
+            } else if (count == 2) {
+                if (x != 1) ok = false;
+                prev1 = x;
+            } else {
+                if (x != prev1 + prev2) {
+                    ok = false;
+                }
+                prev2 = prev1;
+                prev1 = x;
+            }
+        }
+        if (count < 2) ok = false;
+        IO.println(ok ? "SI" : "NO");
+    }
+}
+```
+
 ## Tests
 
 ### Test

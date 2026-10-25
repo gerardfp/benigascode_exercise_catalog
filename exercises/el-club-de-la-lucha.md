@@ -24,6 +24,44 @@ Por cada combate se indican los nombres de cada luchador.
 
 Se imprimirán los nombres y las fuerzas de los luchadores que aun sigan en pie, cada uno en una línea, y con el formato: `nombre: fuerza`
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    String[] names = new String[n];
+    for (int i = 0; i < n; i++) {
+        names[i] = sc.next();
+    }
+    int[] strength = new int[n];
+    for (int i = 0; i < n; i++) {
+        strength[i] = sc.nextInt();
+    }
+    int m = sc.nextInt();
+    for (int k = 0; k < m; k++) {
+        String f1 = sc.next();
+        String f2 = sc.next();
+        int idx1 = -1, idx2 = -1;
+        for (int i = 0; i < n; i++) {
+            if (names[i].equals(f1)) idx1 = i;
+            if (names[i].equals(f2)) idx2 = i;
+        }
+        if (idx1 != -1 && idx2 != -1) {
+            int loss = Math.min(strength[idx1], strength[idx2]);
+            strength[idx1] -= loss;
+            strength[idx2] -= loss;
+        }
+    }
+    for (int i = 0; i < n; i++) {
+        if (strength[i] > 0) {
+            IO.println(names[i] + ": " + strength[i]);
+        }
+    }
+}
+```
+
 ## Tests
 
 ### Test

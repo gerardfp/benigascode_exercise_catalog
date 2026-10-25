@@ -17,6 +17,17 @@ Utilitza la plantilla proporcionada.
 
 -
 
+## Solutions
+
+```java
+void main() {
+    int[] numbers = {12, 17, 8, 101, 33};
+    for (int i = 0; i < numbers.length; i++) {
+        IO.println(numbers[i]);
+    }
+}
+```
+
 ## Plantillas
 
 ```java

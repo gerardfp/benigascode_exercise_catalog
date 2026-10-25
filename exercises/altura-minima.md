@@ -21,6 +21,28 @@ L'entrada consta de tres parts:
 
 S'imprimirà `SI` o `NO` en una línia, per a cadascun dels nens i nenes
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNextInt()) return;
+    int n = sc.nextInt();
+    double[] heights = new double[n];
+    for (int i = 0; i < n; i++) {
+        heights[i] = Double.parseDouble(sc.next());
+    }
+    double minHeight = Double.parseDouble(sc.next());
+    for (int i = 0; i < n; i++) {
+        if (heights[i] >= minHeight) {
+            IO.println("SI");
+        } else {
+            IO.println("NO");
+        }
+    }
+}
+```
+
 ## Tests
 
 ### Test

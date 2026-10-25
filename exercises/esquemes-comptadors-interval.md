@@ -36,6 +36,28 @@ void main() {
 }
 ```
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    int[] nums = new int[n];
+    for (int i = 0; i < n; i++) {
+        nums[i] = sc.nextInt();
+    }
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+    int count = 0;
+    for (int i = 0; i < n; i++) {
+        if (nums[i] >= a && nums[i] <= b) {
+            count++;
+        }
+    }
+    IO.println(count);
+}
+```
+
 ## Tests
 
 ### Test

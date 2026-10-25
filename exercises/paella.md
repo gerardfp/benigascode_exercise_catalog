@@ -35,6 +35,30 @@ amb el format següent:
 TOTAL: 3.5 euros
 ```
 
+## Solutions
+
+```java
+void main() {
+    Scanner sc = new Scanner(System.in);
+    if (!sc.hasNext()) return;
+    int p = Integer.parseInt(sc.next());
+    double preuArros = Double.parseDouble(sc.next());
+    double preuGambes = Double.parseDouble(sc.next());
+
+    double arrosKg = p * 0.125;
+    double gambesKg = p * 0.0625;
+    double costArros = arrosKg * preuArros;
+    double costGambes = gambesKg * preuGambes;
+    double total = costArros + costGambes;
+
+    IO.println(arrosKg + " kg arros");
+    IO.println(gambesKg + " kg gambes");
+    IO.println(costArros + " euros arros");
+    IO.println(costGambes + " euros gambes");
+    IO.println("TOTAL: " + total + " euros");
+}
+```
+
 ## Tests
 
 ### Test
