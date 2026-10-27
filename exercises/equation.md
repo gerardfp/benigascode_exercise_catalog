@@ -1,7 +1,7 @@
 ---
-slug: equation
+slug: cñass-equation
 difficulty: 3.0
-tags: [classes, oop, math]
+tags: [class, math]
 ---
 # Equation
 

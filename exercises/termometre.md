@@ -1,7 +1,7 @@
 ---
-slug: termometre
+slug: class-termometre
 difficulty: 2.0
-tags: [classes, oop, formatting]
+tags: [class, formatting]
 ---
 # Termòmetre
 

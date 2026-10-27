@@ -1,5 +1,5 @@
 ---
-slug: uri-scheme
+slug: class-urischeme
 difficulty: 3.0
 tags: [strings, class, parsing]
 ---

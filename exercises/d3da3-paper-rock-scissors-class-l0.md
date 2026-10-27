@@ -1,7 +1,7 @@
 ---
-slug: d3da3-paper-rock-scissors-class-l0
+slug: class-paper-rock-scissors
 difficulty: 5.0
-tags: [class, L0]
+tags: [class]
 ---
 # Paper, rock, scissors
 

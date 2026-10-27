@@ -1,7 +1,7 @@
 ---
-slug: gearbox
+slug: class-gearbox
 difficulty: 3.0
-tags: [classes, oop]
+tags: [class]
 ---
 # GearBox
 

@@ -1,7 +1,7 @@
 ---
-slug: leds
+slug: class-leds
 difficulty: 2.0
-tags: [classes, oop, booleans]
+tags: [class, booleans]
 ---
 # Leds
 

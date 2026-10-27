@@ -1,7 +1,7 @@
 ---
-slug: equation2d
+slug: class-equation2d
 difficulty: 4.0
-tags: [arrays, classes, oop, math]
+tags: [arrays, class, math]
 ---
 # Equation2d
 

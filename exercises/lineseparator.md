@@ -1,7 +1,7 @@
 ---
-slug: lineseparator
+slug: class-lineseparator
 difficulty: 2.0
-tags: [classes, oop, formatting]
+tags: [class, formatting]
 ---
 # LineSeparator
 
