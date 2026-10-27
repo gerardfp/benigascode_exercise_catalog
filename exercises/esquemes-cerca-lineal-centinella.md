@@ -1,6 +1,6 @@
 ---
 slug: esquemes-cerca-lineal-centinella
-difficulty: 3.0
+difficulty: 4.0
 tags: [loops, while-loop, sentinel-loop, search, flags]
 ---
 # Cerca lineal: cerca fins a centinella

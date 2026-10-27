@@ -1,6 +1,6 @@
 ---
 slug: desglose-de-cantidades-en-monedas
-difficulty: 3.0
+difficulty: 4.0
 tags: [operators, arithmetic, modulo, greedy]
 ---
 # Desglossament en monedes

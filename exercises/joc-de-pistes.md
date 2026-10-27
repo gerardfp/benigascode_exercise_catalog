@@ -1,6 +1,6 @@
 ---
 slug: joc-de-pistes
-difficulty: 3.0
+difficulty: 7.0
 tags: [arrays, loops]
 ---
 # Joc de pistes

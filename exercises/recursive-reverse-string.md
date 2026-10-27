@@ -1,6 +1,6 @@
 ---
 slug: recursive-reverse-string
-difficulty: 3.0
+difficulty: 4.0
 tags: [strings, recursion]
 ---
 # Reverse String

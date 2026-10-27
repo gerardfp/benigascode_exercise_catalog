@@ -1,6 +1,6 @@
 ---
 slug: class-fighters
-difficulty: 5.0
+difficulty: 4.0
 tags: [class]
 ---
 # Fighters

@@ -1,6 +1,6 @@
 ---
 slug: pangrama
-difficulty: 4.0
+difficulty: 5.0
 tags: [arrays, strings, loops, for-loop, booleans, flags]
 ---
 # Pangrama

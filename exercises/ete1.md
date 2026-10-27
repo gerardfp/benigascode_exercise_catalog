@@ -1,6 +1,6 @@
 ---
 slug: ete1
-difficulty: 2.0
+difficulty: 3.0
 tags: [loops, while-loop, sentinel-loop, flags]
 ---
 # Primero igual al último

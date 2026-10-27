@@ -1,6 +1,6 @@
 ---
 slug: full-de-notes
-difficulty: 3.0
+difficulty: 4.0
 tags: [loops, while-loop, accumulators, min-max]
 ---
 # Full de notes

@@ -1,6 +1,6 @@
 ---
 slug: trendingtopic
-difficulty: 5.0
+difficulty: 9.0
 tags: [arrays, strings, counters, sorting]
 ---
 # TrendingTopic

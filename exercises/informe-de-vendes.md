@@ -1,6 +1,6 @@
 ---
 slug: informe-de-vendes
-difficulty: 3.0
+difficulty: 4.0
 tags: [arrays, loops, for-loop, accumulators, min-max]
 ---
 # Informe de vendes

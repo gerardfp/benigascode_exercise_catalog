@@ -1,6 +1,6 @@
 ---
 slug: hanoi
-difficulty: 5.0
+difficulty: 8.0
 tags: [arrays, recursion]
 ---
 # Hanoi

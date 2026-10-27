@@ -1,6 +1,6 @@
 ---
 slug: generador-de-corrent
-difficulty: 3.0
+difficulty: 6.0
 tags: [loops, while-loop, counters, accumulators]
 ---
 # Generador de corrent

@@ -1,6 +1,6 @@
 ---
 slug: class-comptecorrent
-difficulty: 2.0
+difficulty: 1.0
 tags: [class]
 ---
 # Definir la classe CompteCorrent

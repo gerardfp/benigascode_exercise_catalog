@@ -1,6 +1,6 @@
 ---
 slug: cub-de-rubik
-difficulty: 1.0
+difficulty: 2.0
 tags: [operators, arithmetic, math]
 ---
 # Cub de Rubik

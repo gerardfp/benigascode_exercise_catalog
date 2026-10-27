@@ -1,6 +1,6 @@
 ---
 slug: galib
-difficulty: 3.0
+difficulty: 4.0
 tags: [loops, while-loop, conditionals, counters]
 ---
 # Gàlib

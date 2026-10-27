@@ -1,6 +1,6 @@
 ---
 slug: esquemes-banderes-elements-unics
-difficulty: 4.0
+difficulty: 5.0
 tags: [arrays, loops, nested-loops, booleans, flags]
 ---
 # Banderes: elements únics sense duplicats

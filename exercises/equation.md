@@ -1,6 +1,6 @@
 ---
-slug: cñass-equation
-difficulty: 3.0
+slug: class-equation
+difficulty: 4.0
 tags: [class, math]
 ---
 # Equation

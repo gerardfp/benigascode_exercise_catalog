@@ -1,6 +1,6 @@
 ---
 slug: del-1-al-5
-difficulty: 3.0
+difficulty: 5.0
 tags: [loops, while-loop, sentinel-loop, flags, search]
 ---
 # Del 1 al 5

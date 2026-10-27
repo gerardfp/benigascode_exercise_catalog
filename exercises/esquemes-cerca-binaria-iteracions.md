@@ -1,6 +1,6 @@
 ---
 slug: esquemes-cerca-binaria-iteracions
-difficulty: 4.0
+difficulty: 6.0
 tags: [arrays, loops, while-loop, search, counters]
 ---
 # Cerca binària: comptador d'iteracions

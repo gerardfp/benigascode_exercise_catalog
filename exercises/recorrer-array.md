@@ -1,6 +1,6 @@
 ---
 slug: recorrer-array
-difficulty: 2.0
+difficulty: 3.0
 tags: [arrays, strings, loops, for-loop, search]
 ---
 # En qué posiciones está la palabra?

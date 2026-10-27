@@ -1,6 +1,6 @@
 ---
 slug: esquemes-cerca-lineal-ultima-posicio
-difficulty: 3.0
+difficulty: 4.0
 tags: [arrays, loops, for-loop, search]
 ---
 # Cerca lineal: última posició d'un valor

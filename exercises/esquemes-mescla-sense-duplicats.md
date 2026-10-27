@@ -1,6 +1,6 @@
 ---
 slug: esquemes-mescla-sense-duplicats
-difficulty: 4.0
+difficulty: 7.0
 tags: [arrays, loops, while-loop, merge, two-pointers, filtering]
 ---
 # Mescla: unió sense duplicats

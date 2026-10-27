@@ -1,6 +1,6 @@
 ---
 slug: esquemes-extrems-maxim-positius
-difficulty: 3.0
+difficulty: 4.0
 tags: [arrays, loops, for-loop, operators, relational-operators, min-max, filtering]
 ---
 # Extrems: màxim dels positius

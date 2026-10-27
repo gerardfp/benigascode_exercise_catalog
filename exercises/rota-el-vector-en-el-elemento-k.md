@@ -1,6 +1,6 @@
 ---
 slug: rota-el-vector-en-el-elemento-k
-difficulty: 3.0
+difficulty: 5.0
 tags: [arrays, loops, for-loop, array-rotation]
 ---
 # Rota el vector en el elemento k

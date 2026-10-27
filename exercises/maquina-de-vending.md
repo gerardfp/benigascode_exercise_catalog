@@ -1,6 +1,6 @@
 ---
 slug: maquina-de-vending
-difficulty: 4.0
+difficulty: 7.0
 tags: [loops, while-loop, conditionals, state-machine]
 ---
 # Màquina de vending

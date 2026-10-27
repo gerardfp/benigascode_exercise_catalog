@@ -1,6 +1,6 @@
 ---
 slug: palindromo-3-1
-difficulty: 3.0
+difficulty: 5.0
 tags: [strings, flags, two-pointers]
 ---
 # Palíndrom

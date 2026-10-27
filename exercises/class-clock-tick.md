@@ -1,6 +1,6 @@
 ---
 slug: class-clock-tick
-difficulty: 5.0
+difficulty: 6.0
 tags: [class]
 ---
 # Clock tick

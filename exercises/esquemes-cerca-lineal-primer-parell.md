@@ -1,6 +1,6 @@
 ---
 slug: esquemes-cerca-lineal-primer-parell
-difficulty: 3.0
+difficulty: 4.0
 tags: [arrays, loops, for-loop, operators, modulo, search]
 ---
 # Cerca lineal: primer nombre parell

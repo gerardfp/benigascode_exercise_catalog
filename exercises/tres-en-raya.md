@@ -1,6 +1,6 @@
 ---
 slug: tres-en-raya
-difficulty: 4.0
+difficulty: 6.0
 tags: [matrices, 2d-arrays, conditionals]
 ---
 # OXO

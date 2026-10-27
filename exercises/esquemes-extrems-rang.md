@@ -1,6 +1,6 @@
 ---
 slug: esquemes-extrems-rang
-difficulty: 3.0
+difficulty: 4.0
 tags: [arrays, loops, for-loop, operators, arithmetic, min-max]
 ---
 # Extrems: rang (màxim - mínim)

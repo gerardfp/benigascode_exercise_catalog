@@ -1,6 +1,6 @@
 ---
 slug: graficos-de-calificaciones
-difficulty: 3.0
+difficulty: 6.0
 tags: [loops, while-loop, counters, formatting]
 ---
 # Gràfics de qualificacions

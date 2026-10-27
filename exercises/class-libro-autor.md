@@ -1,6 +1,6 @@
 ---
 slug: class-libro-autor
-difficulty: 5.0
+difficulty: 4.0
 tags: [class, L0]
 ---
 # Libro

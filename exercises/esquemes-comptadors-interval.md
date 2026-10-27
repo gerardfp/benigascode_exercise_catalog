@@ -1,6 +1,6 @@
 ---
 slug: esquemes-comptadors-interval
-difficulty: 3.0
+difficulty: 2.0
 tags: [arrays, loops, for-loop, operators, relational-operators, counters]
 ---
 # Comptadors: nombres en un interval

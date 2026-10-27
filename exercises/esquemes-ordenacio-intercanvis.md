@@ -1,6 +1,6 @@
 ---
 slug: esquemes-ordenacio-intercanvis
-difficulty: 4.0
+difficulty: 6.0
 tags: [arrays, loops, nested-loops, sorting, counters]
 ---
 # Ordenació: comptador d'intercanvis en Bubble Sort

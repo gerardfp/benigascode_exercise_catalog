@@ -1,6 +1,6 @@
 ---
 slug: el-club-de-la-lucha
-difficulty: 4.0
+difficulty: 7.0
 tags: [arrays, loops]
 ---
 # El club de la lucha

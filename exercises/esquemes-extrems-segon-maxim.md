@@ -1,6 +1,6 @@
 ---
 slug: esquemes-extrems-segon-maxim
-difficulty: 4.0
+difficulty: 5.0
 tags: [arrays, loops, for-loop, operators, relational-operators, min-max]
 ---
 # Extrems: segon màxim

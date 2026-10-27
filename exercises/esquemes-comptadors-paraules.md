@@ -1,6 +1,6 @@
 ---
 slug: esquemes-comptadors-paraules
-difficulty: 3.0
+difficulty: 4.0
 tags: [arrays, strings, loops, for-loop, counters, search]
 ---
 # Comptadors: paraules

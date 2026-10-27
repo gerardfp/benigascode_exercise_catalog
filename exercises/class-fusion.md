@@ -1,6 +1,6 @@
 ---
 slug: class-fusion
-difficulty: 5.0
+difficulty: 2.0
 tags: [class]
 ---
 # Fusion

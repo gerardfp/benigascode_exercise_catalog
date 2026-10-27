@@ -1,6 +1,6 @@
 ---
 slug: tabla-de-multiplicar-2
-difficulty: 2.0
+difficulty: 4.0
 tags: [loops, nested-loops, operators, arithmetic, formatting]
 ---
 # Taula de multiplicar entre dos nombres

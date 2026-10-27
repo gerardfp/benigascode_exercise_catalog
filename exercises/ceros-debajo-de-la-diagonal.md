@@ -1,6 +1,6 @@
 ---
 slug: ceros-debajo-de-la-diagonal
-difficulty: 4.0
+difficulty: 5.0
 tags: [matrices, 2d-arrays, loops, nested-loops, flags]
 ---
 # Zeros sota la diagonal

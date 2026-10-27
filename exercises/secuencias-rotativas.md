@@ -1,6 +1,6 @@
 ---
 slug: secuencias-rotativas
-difficulty: 3.0
+difficulty: 5.0
 tags: [loops, while-loop, sentinel-loop, flags]
 ---
 # Parin les rotatives!

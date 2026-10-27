@@ -1,6 +1,6 @@
 ---
 slug: evaluate-expression
-difficulty: 5.0
+difficulty: 6.0
 tags: [strings, recursion, math, parsing]
 ---
 # Evaluate expression

@@ -1,6 +1,6 @@
 ---
 slug: class-book
-difficulty: 5.0
+difficulty: 1.0
 tags: [class]
 ---
 # Class Book

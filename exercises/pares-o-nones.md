@@ -1,6 +1,6 @@
 ---
 slug: pares-o-nones
-difficulty: 1.0
+difficulty: 2.0
 tags: [conditionals, ternary, operators, modulo]
 ---
 # Pares o nones

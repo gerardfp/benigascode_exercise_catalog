@@ -1,6 +1,6 @@
 ---
 slug: suma-els-n-primers-nombres
-difficulty: 2.0
+difficulty: 3.0
 tags: [recursion, operators, arithmetic, math]
 ---
 # Suma els n primers nombres

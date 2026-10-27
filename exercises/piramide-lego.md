@@ -1,6 +1,6 @@
 ---
 slug: piramide-lego
-difficulty: 1.0
+difficulty: 2.0
 tags: [operators, arithmetic, math]
 ---
 # Piràmide lego

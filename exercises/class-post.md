@@ -1,6 +1,6 @@
 ---
 slug: class-post
-difficulty: 3.0
+difficulty: 2.0
 tags: [class]
 ---
 # Post

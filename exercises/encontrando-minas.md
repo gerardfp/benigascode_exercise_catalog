@@ -1,6 +1,6 @@
 ---
 slug: encontrando-minas
-difficulty: 3.0
+difficulty: 4.0
 tags: [matrices, 2d-arrays, loops, nested-loops, search]
 ---
 # Trobant mines

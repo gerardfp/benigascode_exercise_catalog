@@ -1,6 +1,6 @@
 ---
 slug: tasca
-difficulty: 3.0
+difficulty: 5.0
 tags: [arrays, loops, for-loop, counters]
 ---
 # Tasca

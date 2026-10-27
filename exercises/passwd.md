@@ -1,6 +1,6 @@
 ---
 slug: passwd
-difficulty: 3.0
+difficulty: 4.0
 tags: [strings, loops, parsing]
 ---
 # passwd

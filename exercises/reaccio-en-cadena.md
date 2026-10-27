@@ -1,6 +1,6 @@
 ---
 slug: reaccio-en-cadena
-difficulty: 4.0
+difficulty: 6.0
 tags: [arrays, loops]
 ---
 # Reacció en cadena

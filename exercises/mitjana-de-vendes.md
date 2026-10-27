@@ -1,6 +1,6 @@
 ---
 slug: mitjana-de-vendes
-difficulty: 3.0
+difficulty: 5.0
 tags: [arrays, loops, for-loop, operators, arithmetic, accumulators]
 ---
 # Mitjana de vendes

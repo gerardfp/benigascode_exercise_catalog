@@ -1,6 +1,6 @@
 ---
 slug: esquemes-banderes-tots-iguals
-difficulty: 3.0
+difficulty: 4.0
 tags: [arrays, loops, for-loop, booleans, flags]
 ---
 # Banderes: tots els elements iguals

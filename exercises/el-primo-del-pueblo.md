@@ -1,6 +1,6 @@
 ---
 slug: el-primo-del-pueblo
-difficulty: 3.0
+difficulty: 4.0
 tags: [loops, for-loop, math, flags]
 ---
 # El primo del pueblo

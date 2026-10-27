@@ -1,6 +1,6 @@
 ---
 slug: esquemes-cerca-binaria-basica
-difficulty: 4.0
+difficulty: 5.0
 tags: [arrays, loops, while-loop, search]
 ---
 # Cerca binària: índex en array ordenat

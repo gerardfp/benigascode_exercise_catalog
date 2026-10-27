@@ -1,6 +1,6 @@
 ---
 slug: ordenar-numeros
-difficulty: 4.0
+difficulty: 6.0
 tags: [arrays, loops, nested-loops, sorting]
 ---
 # Ordenar lista de enteros ascendente

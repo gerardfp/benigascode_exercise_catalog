@@ -1,6 +1,6 @@
 ---
 slug: contenidors
-difficulty: 3.0
+difficulty: 5.0
 tags: [strings, conditionals, if-else, state-machine]
 ---
 # Contenidors

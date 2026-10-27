@@ -1,6 +1,6 @@
 ---
 slug: passar-llista
-difficulty: 3.0
+difficulty: 5.0
 tags: [arrays, strings, loops, nested-loops, search, filtering]
 ---
 # Passar llista

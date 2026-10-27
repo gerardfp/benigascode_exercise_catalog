@@ -1,6 +1,6 @@
 ---
 slug: cuantas-veces-aparece-cada-numero
-difficulty: 3.0
+difficulty: 6.0
 tags: [arrays, loops, nested-loops, counters]
 ---
 # Cuantas veces aparece cada número

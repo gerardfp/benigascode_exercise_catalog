@@ -1,6 +1,6 @@
 ---
 slug: just-a-lanella
-difficulty: 2.0
+difficulty: 3.0
 tags: [operators, booleans, math]
 ---
 # Just a l'anella

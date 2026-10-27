@@ -1,6 +1,6 @@
 ---
 slug: enfado-dragones
-difficulty: 2.0
+difficulty: 3.0
 tags: [loops, while-loop, conditionals]
 ---
 # El enfado de los dragones

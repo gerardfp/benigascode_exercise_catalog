@@ -1,6 +1,6 @@
 ---
 slug: esquemes-mescla-descendent
-difficulty: 4.0
+difficulty: 6.0
 tags: [arrays, loops, while-loop, merge, two-pointers]
 ---
 # Mescla: fusió en ordre descendent

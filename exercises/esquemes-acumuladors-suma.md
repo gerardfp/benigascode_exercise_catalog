@@ -1,6 +1,6 @@
 ---
 slug: esquemes-acumuladors-suma
-difficulty: 3.0
+difficulty: 2.0
 tags: [arrays, loops, for-loop, operators, arithmetic, accumulators]
 ---
 # Acumuladors: suma total

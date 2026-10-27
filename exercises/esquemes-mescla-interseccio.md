@@ -1,6 +1,6 @@
 ---
 slug: esquemes-mescla-interseccio
-difficulty: 4.0
+difficulty: 7.0
 tags: [arrays, loops, while-loop, merge, two-pointers, search]
 ---
 # Mescla: intersecció de dos arrays ordenats

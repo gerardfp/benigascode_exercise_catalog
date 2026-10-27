@@ -1,6 +1,6 @@
 ---
 slug: primeros-iguales-a-ultimos
-difficulty: 3.0
+difficulty: 5.0
 tags: [loops, while-loop, nested-loops, sentinel-loop, flags]
 ---
 # Primeros iguales a últimos

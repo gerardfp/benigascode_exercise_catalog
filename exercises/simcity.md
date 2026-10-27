@@ -1,6 +1,6 @@
 ---
 slug: simcity
-difficulty: 4.0
+difficulty: 7.0
 tags: [arrays, loops]
 ---
 # Simcity

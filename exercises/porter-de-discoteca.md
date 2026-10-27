@@ -1,6 +1,6 @@
 ---
 slug: porter-de-discoteca
-difficulty: 2.0
+difficulty: 3.0
 tags: [conditionals, if-else, operators, booleans, logical-operators]
 ---
 # Porter de discoteca

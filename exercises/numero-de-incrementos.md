@@ -1,6 +1,6 @@
 ---
 slug: numero-de-incrementos
-difficulty: 3.0
+difficulty: 4.0
 tags: [loops, while-loop, sentinel-loop, counters]
 ---
 # Número de incrementos

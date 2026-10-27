@@ -1,6 +1,6 @@
 ---
 slug: esquemes-cerca-binaria-primer-major-igual
-difficulty: 4.0
+difficulty: 6.0
 tags: [arrays, loops, while-loop, search]
 ---
 # Cerca binària: primer element major o igual (lower bound)

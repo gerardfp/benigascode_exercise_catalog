@@ -1,6 +1,6 @@
 ---
 slug: esta-la-palabra-si-o-no
-difficulty: 3.0
+difficulty: 4.0
 tags: [arrays, strings, loops, for-loop, flags, search]
 ---
 # Está la palabra? si o no?

@@ -1,6 +1,6 @@
 ---
 slug: separar-los-grandes-de-los-pequenos
-difficulty: 3.0
+difficulty: 4.0
 tags: [arrays, loops, for-loop, filtering, partitioning]
 ---
 # Separar los grandes de los pequeños

@@ -1,6 +1,6 @@
 ---
 slug: esquemes-ordenacio-descendent
-difficulty: 4.0
+difficulty: 6.0
 tags: [arrays, loops, nested-loops, sorting]
 ---
 # Ordenació: ordre descendent

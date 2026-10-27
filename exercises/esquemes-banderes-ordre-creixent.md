@@ -1,6 +1,6 @@
 ---
 slug: esquemes-banderes-ordre-creixent
-difficulty: 3.0
+difficulty: 4.0
 tags: [arrays, loops, for-loop, operators, relational-operators, booleans, flags]
 ---
 # Banderes: verificació d'ordre creixent

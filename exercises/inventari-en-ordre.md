@@ -1,6 +1,6 @@
 ---
 slug: inventari-en-ordre
-difficulty: 4.0
+difficulty: 9.0
 tags: [arrays, strings, loops, nested-loops, sorting]
 ---
 # Inventari en ordre

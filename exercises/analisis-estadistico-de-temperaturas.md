@@ -1,6 +1,6 @@
 ---
 slug: analisis-estadistico-de-temperaturas
-difficulty: 3.0
+difficulty: 5.0
 tags: [loops, while-loop, sentinel-loop, accumulators, min-max]
 ---
 # Análisis estadístico de temperaturas

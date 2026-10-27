@@ -1,6 +1,6 @@
 ---
 slug: esquemes-cerca-lineal-prefix
-difficulty: 3.0
+difficulty: 4.0
 tags: [arrays, strings, loops, for-loop, search]
 ---
 # Cerca lineal: paraula amb prefix

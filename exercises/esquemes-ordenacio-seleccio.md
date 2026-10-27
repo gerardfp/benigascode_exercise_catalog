@@ -1,6 +1,6 @@
 ---
 slug: esquemes-ordenacio-seleccio
-difficulty: 4.0
+difficulty: 6.0
 tags: [arrays, loops, nested-loops, sorting, min-max]
 ---
 # Ordenació: selecció directa (Selection Sort)

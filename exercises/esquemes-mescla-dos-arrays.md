@@ -1,6 +1,6 @@
 ---
 slug: esquemes-mescla-dos-arrays
-difficulty: 4.0
+difficulty: 5.0
 tags: [arrays, loops, while-loop, merge, two-pointers]
 ---
 # Mescla: fusió de dos arrays ordenats

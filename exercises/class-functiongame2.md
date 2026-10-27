@@ -1,6 +1,6 @@
 ---
 slug: class-functiongame2
-difficulty: 5.0
+difficulty: 7.0
 tags: [class]
 ---
 # FunctionGame2

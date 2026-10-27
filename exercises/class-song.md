@@ -1,6 +1,6 @@
 ---
 slug: class-song
-difficulty: 5.0
+difficulty: 2.0
 tags: [class]
 ---
 # Song

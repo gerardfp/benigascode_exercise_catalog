@@ -1,6 +1,6 @@
 ---
 slug: esquemes-ordenacio-insercio
-difficulty: 4.0
+difficulty: 6.0
 tags: [arrays, loops, nested-loops, while-loop, sorting]
 ---
 # Ordenació: inserció directa (Insertion Sort)

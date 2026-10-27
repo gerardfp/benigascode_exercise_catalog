@@ -1,6 +1,6 @@
 ---
 slug: salari
-difficulty: 3.0
+difficulty: 4.0
 tags: [arrays, loops, for-loop, operators, arithmetic, accumulators]
 ---
 # Salari

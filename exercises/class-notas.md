@@ -1,6 +1,6 @@
 ---
 slug: class-notas
-difficulty: 5.0
+difficulty: 3.0
 tags: [class]
 ---
 # Notas

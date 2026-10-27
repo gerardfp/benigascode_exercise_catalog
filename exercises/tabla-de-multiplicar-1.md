@@ -1,6 +1,6 @@
 ---
 slug: tabla-de-multiplicar-1
-difficulty: 1.0
+difficulty: 3.0
 tags: [loops, for-loop, operators, arithmetic, formatting]
 ---
 # Tabla de multiplicar 1

@@ -1,6 +1,6 @@
 ---
 slug: esquemes-extrems-minim-posicio
-difficulty: 3.0
+difficulty: 4.0
 tags: [arrays, loops, for-loop, operators, relational-operators, min-max]
 ---
 # Extrems: mínim i la seva posició

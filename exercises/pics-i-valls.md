@@ -1,6 +1,6 @@
 ---
 slug: pics-i-valls
-difficulty: 3.0
+difficulty: 6.0
 tags: [loops, for-loop]
 ---
 # Pics i valls

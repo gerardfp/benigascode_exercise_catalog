@@ -1,6 +1,6 @@
 ---
 slug: impresora-matricial
-difficulty: 3.0
+difficulty: 4.0
 tags: [loops, while-loop]
 ---
 # Impresora matricial

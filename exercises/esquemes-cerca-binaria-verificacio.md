@@ -1,6 +1,6 @@
 ---
 slug: esquemes-cerca-binaria-verificacio
-difficulty: 4.0
+difficulty: 7.0
 tags: [arrays, loops, while-loop, nested-loops, search, flags]
 ---
 # Cerca binària: consultes d'existència múltiples

@@ -1,6 +1,6 @@
 ---
 slug: lipograma
-difficulty: 3.0
+difficulty: 5.0
 tags: [strings, loops, for-loop, flags, search]
 ---
 # Lipograma

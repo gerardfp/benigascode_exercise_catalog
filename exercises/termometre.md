@@ -1,6 +1,6 @@
 ---
 slug: class-termometre
-difficulty: 2.0
+difficulty: 3.0
 tags: [class, formatting]
 ---
 # Termòmetre

@@ -1,6 +1,6 @@
 ---
 slug: picos-maximos
-difficulty: 3.0
+difficulty: 5.0
 tags: [loops, while-loop, sentinel-loop, counters, min-max]
 ---
 # Picos máximos

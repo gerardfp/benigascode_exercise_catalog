@@ -1,6 +1,6 @@
 ---
 slug: esquemes-mescla-diferencia
-difficulty: 4.0
+difficulty: 7.0
 tags: [arrays, loops, while-loop, merge, two-pointers, filtering]
 ---
 # Mescla: diferència d'arrays ordenats (A - B)

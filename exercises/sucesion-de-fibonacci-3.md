@@ -1,6 +1,6 @@
 ---
 slug: sucesion-de-fibonacci-3
-difficulty: 3.0
+difficulty: 5.0
 tags: [loops, while-loop, math, counters]
 ---
 # Successió de Fibonacci

@@ -1,6 +1,6 @@
 ---
 slug: class-bike
-difficulty: 5.0
+difficulty: 4.0
 tags: [class]
 ---
 # Bikes

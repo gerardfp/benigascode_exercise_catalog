@@ -1,6 +1,6 @@
 ---
 slug: class-taula
-difficulty: 5.0
+difficulty: 6.0
 tags: [class]
 ---
 # Taula

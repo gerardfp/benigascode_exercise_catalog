@@ -1,6 +1,6 @@
 ---
 slug: esquemes-cerca-binaria-punt-insercio
-difficulty: 4.0
+difficulty: 6.0
 tags: [arrays, loops, while-loop, search]
 ---
 # Cerca binària: posició d'inserció ordenada

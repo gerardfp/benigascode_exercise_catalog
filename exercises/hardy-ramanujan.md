@@ -1,6 +1,6 @@
 ---
 slug: hardy-ramanujan
-difficulty: 2.0
+difficulty: 3.0
 tags: [conditionals, operators, relational-operators, math]
 ---
 # Hardy-Ramanujan

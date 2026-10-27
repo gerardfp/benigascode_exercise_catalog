@@ -1,6 +1,6 @@
 ---
 slug: elimina-vocales
-difficulty: 3.0
+difficulty: 4.0
 tags: [strings, loops, filtering]
 ---
 # Elimina vocales

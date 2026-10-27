@@ -1,6 +1,6 @@
 ---
 slug: corrigiendo-los-deberes
-difficulty: 3.0
+difficulty: 4.0
 tags: [loops, while-loop, operators, arithmetic, counters]
 ---
 # Corregint els deures

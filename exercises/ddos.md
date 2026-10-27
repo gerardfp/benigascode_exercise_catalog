@@ -1,6 +1,6 @@
 ---
 slug: ddos
-difficulty: 4.0
+difficulty: 5.0
 tags: [loops, while-loop, counters, accumulators]
 ---
 # DDoS

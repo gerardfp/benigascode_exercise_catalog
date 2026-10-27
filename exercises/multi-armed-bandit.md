@@ -1,6 +1,6 @@
 ---
 slug: multi-armed-bandit
-difficulty: 4.0
+difficulty: 7.0
 tags: [arrays, loops, math]
 ---
 # Multi-armed bandit

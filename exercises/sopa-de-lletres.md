@@ -1,6 +1,6 @@
 ---
 slug: sopa-de-lletres
-difficulty: 5.0
+difficulty: 9.0
 tags: [matrices, 2d-arrays, strings, loops, nested-loops, search]
 ---
 # Sopa de lletres

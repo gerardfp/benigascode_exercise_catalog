@@ -1,6 +1,6 @@
 ---
 slug: metro-circular
-difficulty: 5.0
+difficulty: 8.0
 tags: [arrays, loops, operators, modulo]
 ---
 # Metro circular

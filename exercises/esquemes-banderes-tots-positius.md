@@ -1,6 +1,6 @@
 ---
 slug: esquemes-banderes-tots-positius
-difficulty: 3.0
+difficulty: 2.0
 tags: [arrays, loops, for-loop, booleans, flags]
 ---
 # Banderes: tots positius

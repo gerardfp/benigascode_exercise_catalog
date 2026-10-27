@@ -1,6 +1,6 @@
 ---
 slug: dos-reinas
-difficulty: 3.0
+difficulty: 5.0
 tags: [conditionals, if-else, math]
 ---
 # Dos Reinas

@@ -1,6 +1,6 @@
 ---
 slug: orden-en-la-cola
-difficulty: 3.0
+difficulty: 6.0
 tags: [arrays, loops, for-loop, flags, search]
 ---
 # Orden en la cola

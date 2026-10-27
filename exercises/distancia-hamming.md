@@ -1,6 +1,6 @@
 ---
 slug: distancia-hamming
-difficulty: 3.0
+difficulty: 4.0
 tags: [strings, loops, for-loop, counters]
 ---
 # Distància Hamming

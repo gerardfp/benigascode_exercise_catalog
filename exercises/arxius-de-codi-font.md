@@ -1,6 +1,6 @@
 ---
 slug: arxius-de-codi-font
-difficulty: 3.0
+difficulty: 4.0
 tags: [strings, scanner, io, filtering]
 ---
 # Arxius de codi font

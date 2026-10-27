@@ -1,6 +1,6 @@
 ---
 slug: separar-los-pares-de-los-impares
-difficulty: 3.0
+difficulty: 4.0
 tags: [arrays, loops, for-loop, operators, modulo, filtering, partitioning]
 ---
 # Separar els parells dels imparells
