@@ -7,20 +7,20 @@ tags: [arrays, strings, loops, for-loop, search]
 
 Dada una lista de palabras, imprime en qué posiciones se encuentra la palabra indicada
 
+<details>
+<summary>Sugerencia para la solución</summary>
 Algoritmo:
 
+```
 - Lee de la entrada la cantidad de palabras
 - Crea un array para almacenar esas palabras
 - Rellena el array con las palabras de la entrada
 - Lee la palabra a buscar
 - Recorre el array de palabras, y por cada palabra del array:
-
-<ul><li>Si la palabra que estás viendo del array es igual a la palabra a buscar
-
-<ul><li>Imprime la posición de la palabra del array que estás viendo (súmale 1 a esa posición para que parezca una posición "normal", y no la posición real en el array)
-
-</li></ul></li>
-</ul>
+    - Si la palabra que estás viendo del array es igual a la palabra a buscar
+        - Imprime la posición de la palabra del array que estás viendo (súmale 1 a esa posición para que parezca una posición "normal", y no la posición real en el array)
+```
+</details>
 
 ## Input
 

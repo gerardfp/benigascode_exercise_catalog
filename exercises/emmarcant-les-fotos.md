@@ -72,7 +72,7 @@ La foto i el marc són iguals, per tant si que hi cap i sí que té la mateixa p
 ### Test
 ```input
 1 1 0 0
-1 1 0 0
+2 2 0 0
 ```
 ```output
 true
@@ -85,10 +85,10 @@ El marc és més gran que la foto i la proporció és la mateixa
 ### Test
 ```input
 1 1 0 0
-2 2 0 0
+3 2 0 0
 ```
 ```output
-true
+false
 ```
 #### Explanation
 El marc és més gran que la foto, però la proporció no és la mateixa
@@ -97,11 +97,11 @@ El marc és més gran que la foto, però la proporció no és la mateixa
 
 ### Test
 ```input
-1 1 0 0
-3 2 0 0
+1 2  0 0
+4 2  2 1
 ```
 ```output
-false
+true
 ```
 #### Explanation
 La foto i el marc tenen el mateix tamany i la proporció és la mateixa
@@ -110,8 +110,8 @@ La foto i el marc tenen el mateix tamany i la proporció és la mateixa
 
 ### Test
 ```input
-1 2  0 0
-4 2  2 1
+1 1  -1 0
+4 3  3 1
 ```
 ```output
 true
@@ -123,25 +123,16 @@ El marc i la foto tenen el mateix tamany i la proporció és la mateixa
 
 ### Test
 ```input
-1 1  -1 0
-4 3  3 1
-```
-```output
-true
-```
-#### Explanation
-Tenen la mateixa proporció, però el marc és més petit que la foto:
-
-![image](assets/emmarcant-les-fotos-img5.png)
-
-### Test
-```input
 1 2  -1 0
 4 2  3 1
 ```
 ```output
 false
 ```
+#### Explanation
+Tenen la mateixa proporció, però el marc és més petit que la foto:
+
+![image](assets/emmarcant-les-fotos-img5.png)
 
 ### Test
 ```input

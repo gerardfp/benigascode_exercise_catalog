@@ -5,15 +5,7 @@ tags: [strings, loops, filtering]
 ---
 # Elimina vocales
 
-Dada una frase (terminada con un salto de linea), escribe la misma frase pero eliminando las vocales.
-
-## Input
-
-Una frase terminada con un salto de linea '\n'
-
-## Output
-
-La frase sin las vocales.
+Dada una frase, escribe la misma frase pero eliminando las vocales.
 
 ## Solutions
 
